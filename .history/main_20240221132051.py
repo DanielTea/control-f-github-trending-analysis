@@ -275,10 +275,7 @@ def fetch_repository_creation_date(repo_link):
 
 def process_trending_repositories_and_create_csv():
 
-    from dotenv import load_dotenv
-    load_dotenv()
-    api_key = os.getenv("OPENAI_API_KEY")
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
     # Fetch trending repositories
     repository_links = fetch_trending_repositories()
