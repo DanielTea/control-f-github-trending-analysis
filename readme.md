@@ -1,8 +1,8 @@
-#GitHub Trending Repositories Analyzer
+# GitHub Trending Repositories Analyzer
 
 This Python project is designed to analyze trending Python repositories on GitHub, fetch their READMEs, and perform various operations such as summarization, classification, media link extraction, and more. It leverages requests for HTTP requests, BeautifulSoup for HTML parsing, and OpenAI's GPT models for natural language processing tasks.
 
-##Features
+## Features
 
 Trending Repositories Fetching: Extracts trending Python repositories from GitHub.
 README Fetching and Saving: Retrieves README files for each repository and checks their existence in different branches (main/master).
