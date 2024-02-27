@@ -74,7 +74,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
     summary = summary_completion.choices[0].message.content
 
     # Prepare the classification prompt with the classes from the CSV
-    class_prompt = f"Classify this GitHub project based on its README. Use only up to 3 words such as {', '.join(classes)} etc. If none of these classes are applicable, return a new class, only return the class nothing else:\n\n{readme_text}"
+    class_prompt = f"Classify this GitHub project based on its Summary. Use only up to 3 words such as {', '.join(classes)} etc. If none of these classes are applicable, return a new class, only return the class nothing else:\n\n{summary}"
 
     # Classify the GitHub project
     classification_completion = client.chat.completions.create(
@@ -344,7 +344,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     with open(CSV_PATH, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
-        for index, (readme_link, repository_link) in enumerate(zip(readmes[:2], repository_links[:2])):
+        for index, (readme_link, repository_link) in enumerate(zip(readmes, repository_links)):
             if readme_link not in existing_links:  # Skip links that are already in the CSV
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
 
