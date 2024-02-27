@@ -320,14 +320,14 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                 image_links, video_links = extract_media_links(readme_link)
                 
                 suitable_image_links = []
-                for image_link in image_links:
-                    if is_suitable_for_blogpost(image_link, summary, client):
-                        suitable_image_links.append(image_link)
+                # for image_link in image_links:
+                #     if is_suitable_for_blogpost(image_link, summary, client):
+                #         suitable_image_links.append(image_link)
 
                 suitable_video_links = []
-                for video_link in video_links:
-                    if is_suitable_for_blogpost(video_link, summary, client):
-                        suitable_video_links.append(video_link)
+                # for video_link in video_links:
+                #     if is_suitable_for_blogpost(video_link, summary, client):
+                #         suitable_video_links.append(video_link)
 
                 stars = fetch_repository_stars(readme_link)  # Assuming this function exists and fetches the number of stars for a repository
                 creation_date = fetch_repository_creation_date(repository_link)  # Fetching repository creation date

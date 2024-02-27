@@ -25,5 +25,5 @@ jobs:
 
     - name: Run main.py
       run: |
-        python main.py --openai_api_key ${{ secrets.OPENAI_API_KEY }} --CSV_PATH './trending_repositories_summary.csv' --ClassName 'Classification' --url 'https://github.com/trending/python?since=daylie'
+        python -u main.py --openai_api_key ${{ secrets.OPENAI_API_KEY }} --CSV_PATH './trending_repositories_summary.csv' --ClassName 'Classification' --url 'https://github.com/trending/python?since=daylie'
 
