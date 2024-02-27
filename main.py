@@ -281,7 +281,7 @@ def create_a_blogpost_readme(readme_link, client):
     blog_prompt = """
     
     Write a SEO-optimized Title for this blog post. \n\n
-    Write a blogpost text, not longer than 10 sentences. \n\n
+    Write a blogpost text, not longer than 5 sentences. \n\n
     Write a SEO-optimized Meta Description for this blog post. \n\n
 
     Return only a json nothing else, the format should be {"Title":"<SEO-optimized Title>", "Blogpost":"<blogpost>", "Meta_Description":"<Meta Description>"}
