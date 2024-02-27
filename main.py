@@ -308,7 +308,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     with open(CSV_PATH, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
-        for index, (readme_link, repository_link) in enumerate(zip(readmes[:2], repository_links[:2])):
+        for index, (readme_link, repository_link) in enumerate(zip(readmes, repository_links)):
             if readme_link not in existing_links:  # Skip links that are already in the CSV
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
                 
