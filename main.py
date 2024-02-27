@@ -337,38 +337,15 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
 
 class Main:
-    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=daylie', github_token=None, repository_url=None):
+    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=daylie'):
         self.openai_api_key = openai_api_key
         self.CSV_PATH = CSV_PATH
         self.ClassName = ClassName
         self.url = url
-        self.github_token = github_token
-        self.repository_url = repository_url
-
-    def commit_and_push_to_github(self, github_token, repository_url, csv_path):
-        repository_path = os.getcwd()
-        
-        # Configure git user locally for the repo
-        subprocess.run(['git', 'config', 'user.name', 'Daniel Tremer'], check=True)
-        subprocess.run(['git', 'config', 'user.email', 'info@danieltremer.com'], check=True)
-        
-        # Git operations: add, commit
-        subprocess.run(['git', 'add', "trending_repositories_summary.csv"], check=True)
-        commit_message = 'Update trending repositories summary'
-        subprocess.run(['git', 'commit', '-m', commit_message], check=True)
-        
-        # Modify the repository URL to include the token for HTTPS operations
-        tokenized_url = repository_url.replace('https://', f'https://{github_token}@')
-        
-        # Push using the modified URL
-        subprocess.run(['git', 'remote', 'set-url', 'origin', tokenized_url], check=True)
-        subprocess.run(['git', 'push', 'origin', 'main'], check=True)  # Ensure branch name is correct ('main' or 'master')
 
 
     def run(self):
         process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
-        # self.commit_and_push_to_github(self.github_token, self.repository_url, self.CSV_PATH)
-
 
     
             
@@ -378,9 +355,7 @@ if __name__ == '__main__':
     parser.add_argument('--CSV_PATH', type=str, default='./trending_repositories_summary.csv')
     parser.add_argument('--ClassName', type=str, default='Classification')
     parser.add_argument('--url', type=str, default='https://github.com/trending/python?since=daylie')
-    parser.add_argument('--github_token', type=str, default=None)
-    parser.add_argument('--repository_url', type=str, default=None)
     args = parser.parse_args()
 
-    main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url, args.github_token, args.repository_url)
+    main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url)
     main_instance.run()

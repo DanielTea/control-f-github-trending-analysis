@@ -3,9 +3,9 @@ name: Python Workflow
 
 
 on:
-  push:
-    branches:
-      # - main
+  # push:
+  #   branches:
+  #     # - main
   workflow_dispatch:  # Added workflow_dispatch trigger
 
 permissions:
