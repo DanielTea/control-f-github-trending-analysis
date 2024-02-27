@@ -335,7 +335,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
             existing_links = [row['Github-Link'] for row in reader]
 
 
-    classes = list(set(get_column_from_csv(CSV_PATH, ClassName)))+["Artificial Intelligence", "Machine Learning", "Large Language Models", "Deep Learning"]
+    classes = list(set(get_column_from_csv(CSV_PATH, ClassName)))+["Artificial Intelligence", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science"]
     print(classes)
 
     # Append data to CSV file
