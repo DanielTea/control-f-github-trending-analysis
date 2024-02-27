@@ -29,4 +29,4 @@ jobs:
 
     - name: Run main.py
       run: |
-        python -u main.py --openai_api_key ${{ secrets.OPENAI_API_KEY }} --CSV_PATH './trending_repositories_summary.csv' --ClassName 'Classification' --url 'https://github.com/trending/python?since=daylie' --github_token ${{ secrets.TOKEN_GITHUB }} --repository_url ${{ secrets.REPOSITORY_URL }}
+        python -u main.py --openai_api_key ${{ secrets.OPENAI_API_KEY }} --CSV_PATH './trending_repositories_summary.csv' --ClassName 'Classification' --url 'https://github.com/trending/python?since=daylie' --github_token ${{ secrets.GITHUB_TOKEN }} --repository_url ${{ secrets.REPOSITORY_URL }}
