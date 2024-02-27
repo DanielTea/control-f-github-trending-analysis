@@ -10,7 +10,7 @@ import re
 
 def fetch_trending_repositories():
     # URL of the trending Python repositories on GitHub
-    url = 'https://github.com/trending/python?since=daily'
+    url = 'https://github.com/trending/python?since=daylie'
 
     # Send a request to the URL
     response = requests.get(url)
@@ -293,7 +293,7 @@ def process_trending_repositories_and_create_csv():
     if not os.path.exists(CSV_PATH):
         with open(CSV_PATH, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
-            writer.writerow(['Date', 'Repository-Link', 'Github-Link', 'Summary', ClassName, 'Image-Links', 'Video-Links', 'Stars', 'Suitable-Image-Links', 'Suitable-Video-Links', 'Repository-Creation-Date'])  # Added 'Repository-Creation-Date' column
+            writer.writerow(['Date', 'Repository-Link', 'Github-Link', 'Summary', 'Readme-Text', ClassName, 'Image-Links', 'Video-Links', 'Stars', 'Suitable-Image-Links', 'Suitable-Video-Links', 'Repository-Creation-Date'])  # Added 'Repository-Creation-Date' column
     else:
         # If file exists, read existing GitHub links to avoid duplicates
         with open(CSV_PATH, mode='r', newline='', encoding='utf-8') as file:
@@ -310,6 +310,11 @@ def process_trending_repositories_and_create_csv():
         for index, (readme_link, repository_link) in enumerate(zip(readmes, repository_links)):
             if readme_link not in existing_links:  # Skip links that are already in the CSV
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
+                
+                # readme_response = requests.get(readme_link)
+                # readme_text = readme_response.text.replace(';', '')  # Remove all semicolons from the text before saving to CSV
+                readme_text = ""
+
                 classes.append(classification)
                 classes = list(set(classes))
                 print(classes)
@@ -327,6 +332,6 @@ def process_trending_repositories_and_create_csv():
 
                 stars = fetch_repository_stars(readme_link)  # Assuming this function exists and fetches the number of stars for a repository
                 creation_date = fetch_repository_creation_date(repository_link)  # Fetching repository creation date
-                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, classification, '; '.join(image_links), '; '.join(video_links), stars, '; '.join(suitable_image_links), '; '.join(suitable_video_links), creation_date])  # Added creation_date to the row
+                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, readme_text, classification, '; '.join(image_links), '; '.join(video_links), stars, '; '.join(suitable_image_links), '; '.join(suitable_video_links), creation_date])  # Added creation_date to the row
 
 process_trending_repositories_and_create_csv()
