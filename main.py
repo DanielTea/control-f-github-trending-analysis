@@ -350,13 +350,15 @@ class Main:
 
     def push_to_repository_main(self):
         import subprocess
+        import os
 
         if self.github_token and self.repository_url:
-            subprocess.run(['git', 'clone', self.repository_url])
+            if not os.path.exists(self.repository_url):
+                subprocess.run(['git', 'clone', self.repository_url])
             subprocess.run(['cp', self.CSV_PATH, self.repository_url])
-            subprocess.run(['git', 'add', '.'], cwd=self.repository_url)
-            subprocess.run(['git', 'commit', '-m', 'Add latest CSV file'], cwd=self.repository_url)
-            subprocess.run(['git', 'push'], cwd=self.repository_url)
+            subprocess.run(['git', 'add', '.'], cwd=os.path.dirname(self.repository_url))  # Use os.path.dirname to get the directory path
+            subprocess.run(['git', 'commit', '-m', 'Add latest CSV file'], cwd=os.path.dirname(self.repository_url))  # Use os.path.dirname to get the directory path
+            subprocess.run(['git', 'push'], cwd=os.path.dirname(self.repository_url))  # Use os.path.dirname to get the directory path
         else:
             print("Missing github_token or repository_url. Cannot push the CSV file.")
 
