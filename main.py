@@ -7,8 +7,8 @@ from datetime import datetime
 import re
 import argparse
 import json
-    # if not classes:
-    #     classes = ["Artificial Intelligence", "Network Infrastructure"]
+from datetime import datetime, timedelta
+
 
 def fetch_trending_repositories(url = 'https://github.com/trending/python?since=daylie'):
     # URL of the trending Python repositories on GitHub
@@ -67,7 +67,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
     summary_completion = client.chat.completions.create(
         model="gpt-4-0125-preview",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
             {"role": "user", "content": f"Summarize this text in 100 words:\n\n{readme_text}"}
         ]
     )
@@ -80,7 +80,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
     classification_completion = client.chat.completions.create(
         model="gpt-4-0125-preview",
         messages=[
-            {"role": "system", "content": "You are a classifier, return only the class which fits to the text, given to you, do not complain if you can't do it."},
+            {"role": "system", "content": "You are a classifier, return only the class which fits to the text, given to you, do not complain if you can't do it. Answer only in English."},
             {"role": "user", "content": class_prompt}
         ]
     )
@@ -295,7 +295,7 @@ def create_a_blogpost_readme(readme_link, client):
     blog_completion = client.chat.completions.create(
         model="gpt-4-0125-preview",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
             {"role": "user", "content": blog_prompt}
         ]
     )
@@ -304,6 +304,46 @@ def create_a_blogpost_readme(readme_link, client):
     print(blog_text)
 
     return blog_text
+
+def get_stars_count(repo_url, period='week'):
+    """
+    Get the number of stars added to a GitHub repository within the last week or day.
+    
+    Parameters:
+    - repo_url: str, the full URL of the GitHub repository.
+    - period: str, either 'week' or 'day' to specify the period for counting stars.
+    
+    Returns:
+    - int, the number of stars added in the specified period.
+    """
+    # Extract the owner and repo name from the URL
+    parts = repo_url.split('/')
+    owner, repo = parts[-2], parts[-1]
+    
+    # GitHub API endpoint for stargazers
+    api_url = f'https://api.github.com/repos/{owner}/{repo}/stargazers'
+    
+    # Prepare headers to request detailed stargazers information with timestamps
+    headers = {
+        'Accept': 'application/vnd.github.v3.star+json'
+    }
+    
+    # Calculate the start time for counting stars
+    if period == 'week':
+        start_time = datetime.now() - timedelta(weeks=1)
+    elif period == 'day':
+        start_time = datetime.now() - timedelta(days=1)
+    else:
+        raise ValueError("Period must be 'week' or 'day'")
+    
+    # Make the request to GitHub API
+    response = requests.get(api_url, headers=headers)
+    response.raise_for_status()  # Ensure we got a successful response
+    
+    # Filter stars by the specified period
+    stars = [star for star in response.json() if datetime.strptime(star['starred_at'], '%Y-%m-%dT%H:%M:%SZ') > start_time]
+    
+    return len(stars)
 
 
 def process_trending_repositories_and_create_csv(openai_api_key=None, 
@@ -328,7 +368,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
         with open(CSV_PATH, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             writer.writerow(['Date', 'Repository-Link', 'Github-Link', 
-                             'Summary', 'Blog-Title', 'Blog-Post', 'Meta-Description', ClassName, 'Image-Links', 
+                             'Summary', 'Blog-Title', 'Blog-Post', 'Meta-Description', ClassName, 'Star-Count-Delta', 'Image-Links', 
                              'Video-Links', 'Stars', 'Repository-Creation-Date'])  # Added 'Repository-Creation-Date' column
     else:
         # If file exists, read existing GitHub links to avoid duplicates
@@ -349,6 +389,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
 
                 blog_text_json = create_a_blogpost_readme(readme_link, client=client)
+                star_count_delta = get_stars_count(repo_url=repository_link, period='week')
 
                 try:
                     blog_text_data = json.loads(blog_text_json)
@@ -369,7 +410,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
                 stars = fetch_repository_stars(readme_link)  # Assuming this function exists and fetches the number of stars for a repository
                 creation_date = fetch_repository_creation_date(repository_link)  # Fetching repository creation date
-                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, blog_title, blog_post, meta_description, classification, '; '.join(image_links), '; '.join(video_links), stars, creation_date])  # Added creation_date to the row
+                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, blog_title, blog_post, meta_description, classification, star_count_delta, '; '.join(image_links), '; '.join(video_links), stars, creation_date])  # Added creation_date to the row
 
 
 class Main:
