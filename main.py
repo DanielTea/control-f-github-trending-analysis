@@ -301,6 +301,8 @@ def create_a_blogpost_readme(readme_link, client):
     )
     blog_text = blog_completion.choices[0].message.content
 
+    print(blog_text)
+
     return blog_text
 
 
