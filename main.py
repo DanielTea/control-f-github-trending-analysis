@@ -308,7 +308,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     with open(CSV_PATH, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
-        for index, (readme_link, repository_link) in enumerate(zip(readmes, repository_links)):
+        for index, (readme_link, repository_link) in enumerate(zip(readmes[:2], repository_links[:2])):
             if readme_link not in existing_links:  # Skip links that are already in the CSV
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
                 
@@ -346,33 +346,26 @@ class Main:
         self.repository_url = repository_url
 
     def commit_and_push_to_github(self,github_token, repository_url, csv_path):
-        tmp_dir = '/tmp/repo'
-        if os.path.exists(tmp_dir):
-            subprocess.run(['rm', '-rf', tmp_dir], check=True)
-        subprocess.run(['git', 'clone', repository_url, tmp_dir], check=True)
+        # Get the current working directory as the repository path
+        repository_path = os.getcwd()
         
-        # Ensure we are working within the cloned repository directory
-        os.chdir(tmp_dir)
+        # Ensure we are in the repository directory
+        os.chdir(repository_path)
         
-        # Configure git user details locally for the repo
-        subprocess.run(['git', 'config', 'user.name', 'Your Name'], check=True)
+        # Configure git user locally for the repo, if not already configured globally
+        subprocess.run(['git', 'config', 'user.name', 'Daniel Tremer'], check=True)
         subprocess.run(['git', 'config', 'user.email', 'your_email@example.com'], check=True)
         
-        # Copy the updated CSV to the repository, overwriting the existing file
-        updated_csv_path = os.path.abspath(os.path.join(os.getcwd(), 'trending_repositories_summary.csv'))
-        if csv_path != updated_csv_path:
-            subprocess.run(['cp', csv_path, updated_csv_path], check=True)
-        else:
-            print("The updated file is already in the correct location.")
+        # Git operations: add, commit, and push
+        subprocess.run(['git', 'add', "trending_repositories_summary.csv"], check=True)
+        commit_message = 'Update trending repositories summary'
+        subprocess.run(['git', 'commit', '-m', commit_message], check=True)
         
-        # Add, commit, and push changes
-        subprocess.run(['git', 'add', 'trending_repositories_summary.csv'], check=True)
-        try:
-            subprocess.run(['git', 'commit', '-m', 'Update trending repositories summary'], check=True)
-            subprocess.run(['git', 'push'], check=True, env=dict(os.environ, GITHUB_TOKEN=github_token))
-            print("Changes committed and pushed to the repository.")
-        except subprocess.CalledProcessError:
-            print("No changes detected or push failed.")
+        # Use the token for pushing
+        env = os.environ.copy()
+        env['GITHUB_TOKEN'] = github_token
+        subprocess.run(['git', 'push'], env=env, check=True)
+
 
     def run(self):
         process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
