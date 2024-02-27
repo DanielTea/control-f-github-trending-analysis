@@ -367,7 +367,7 @@ class Main:
 
     def run(self):
         process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
-        self.commit_and_push_to_github(self.github_token, self.repository_url, self.CSV_PATH)
+        # self.commit_and_push_to_github(self.github_token, self.repository_url, self.CSV_PATH)
 
 
     
