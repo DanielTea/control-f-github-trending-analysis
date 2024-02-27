@@ -345,26 +345,24 @@ class Main:
         self.github_token = github_token
         self.repository_url = repository_url
 
-    def commit_and_push_to_github(self,github_token, repository_url, csv_path):
-        # Get the current working directory as the repository path
+    def commit_and_push_to_github(self, github_token, repository_url, csv_path):
         repository_path = os.getcwd()
         
-        # Ensure we are in the repository directory
-        os.chdir(repository_path)
-        
-        # Configure git user locally for the repo, if not already configured globally
+        # Configure git user locally for the repo
         subprocess.run(['git', 'config', 'user.name', 'Daniel Tremer'], check=True)
         subprocess.run(['git', 'config', 'user.email', 'your_email@example.com'], check=True)
         
-        # Git operations: add, commit, and push
+        # Git operations: add, commit
         subprocess.run(['git', 'add', "trending_repositories_summary.csv"], check=True)
         commit_message = 'Update trending repositories summary'
         subprocess.run(['git', 'commit', '-m', commit_message], check=True)
         
-        # Use the token for pushing
-        env = os.environ.copy()
-        env['GITHUB_TOKEN'] = github_token
-        subprocess.run(['git', 'push'], env=env, check=True)
+        # Modify the repository URL to include the token for HTTPS operations
+        tokenized_url = repository_url.replace('https://', f'https://x-access-token:{github_token}@')
+        
+        # Push using the modified URL
+        subprocess.run(['git', 'remote', 'set-url', 'origin', tokenized_url], check=True)
+        subprocess.run(['git', 'push', 'origin', 'main'], check=True)  # Ensure branch name is correct ('main' or 'master')
 
 
     def run(self):
