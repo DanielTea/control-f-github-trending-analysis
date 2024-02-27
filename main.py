@@ -8,10 +8,8 @@ import re
     # if not classes:
     #     classes = ["Artificial Intelligence", "Network Infrastructure"]
 
-def fetch_trending_repositories():
+def fetch_trending_repositories(url = 'https://github.com/trending/python?since=daylie'):
     # URL of the trending Python repositories on GitHub
-    url = 'https://github.com/trending/python?since=daylie'
-
     # Send a request to the URL
     response = requests.get(url)
 
@@ -273,20 +271,21 @@ def fetch_repository_creation_date(repo_link):
         return None
 
 
-def process_trending_repositories_and_create_csv():
+def process_trending_repositories_and_create_csv(openai_api_key=None, 
+                                                 CSV_PATH = './trending_repositories_summary.csv', 
+                                                 ClassName = 'Classification',
+                                                 url = 'https://github.com/trending/python?since=daylie'):
 
-    from dotenv import load_dotenv
-    load_dotenv()
-    api_key = os.getenv("OPENAI_API_KEY")
-    client = OpenAI(api_key=api_key)
-
+    if not openai_api_key:
+        from dotenv import load_dotenv
+        load_dotenv()
+        openai_api_key = os.getenv("OPENAI_API_KEY")
+    
+    client = OpenAI(api_key=openai_api_key)
     # Fetch trending repositories
-    repository_links = fetch_trending_repositories()
-
+    repository_links = fetch_trending_repositories(url)
     # Fetch and save READMEs
     readmes = fetch_and_save_readme_links(repository_links)
-    CSV_PATH = './trending_repositories_summary.csv'
-    ClassName = 'Classification'
 
     existing_links = []
     # Check if CSV file exists, if not, create it and write the header
@@ -334,4 +333,25 @@ def process_trending_repositories_and_create_csv():
                 creation_date = fetch_repository_creation_date(repository_link)  # Fetching repository creation date
                 writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, readme_text, classification, '; '.join(image_links), '; '.join(video_links), stars, '; '.join(suitable_image_links), '; '.join(suitable_video_links), creation_date])  # Added creation_date to the row
 
-process_trending_repositories_and_create_csv()
+import argparse
+
+class Main:
+    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=daylie'):
+        self.openai_api_key = openai_api_key
+        self.CSV_PATH = CSV_PATH
+        self.ClassName = ClassName
+        self.url = url
+
+    def run(self):
+        process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--openai_api_key', type=str, default=None)
+    parser.add_argument('--CSV_PATH', type=str, default='./trending_repositories_summary.csv')
+    parser.add_argument('--ClassName', type=str, default='Classification')
+    parser.add_argument('--url', type=str, default='https://github.com/trending/python?since=daylie')
+    args = parser.parse_args()
+
+    main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url)
+    main_instance.run()
