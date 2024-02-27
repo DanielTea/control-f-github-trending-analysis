@@ -390,6 +390,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
                 blog_text_json = create_a_blogpost_readme(readme_link, client=client)
                 star_count_delta = get_stars_count(repo_url=repository_link, period='week')
+                print(star_count_delta)
 
                 try:
                     blog_text_data = json.loads(blog_text_json)
