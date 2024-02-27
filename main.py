@@ -336,14 +336,30 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 import argparse
 
 class Main:
-    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=daylie'):
+    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=daylie', github_token=None, repository_url=None):
         self.openai_api_key = openai_api_key
         self.CSV_PATH = CSV_PATH
         self.ClassName = ClassName
         self.url = url
+        self.github_token = github_token
+        self.repository_url = repository_url
 
     def run(self):
         process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
+        self.push_to_repository_main()
+
+    def push_to_repository_main(self):
+        import subprocess
+
+        if self.github_token and self.repository_url:
+            subprocess.run(['git', 'clone', self.repository_url])
+            subprocess.run(['cp', self.CSV_PATH, self.repository_url])
+            subprocess.run(['git', 'add', '.'], cwd=self.repository_url)
+            subprocess.run(['git', 'commit', '-m', 'Add latest CSV file'], cwd=self.repository_url)
+            subprocess.run(['git', 'push'], cwd=self.repository_url)
+        else:
+            print("Missing github_token or repository_url. Cannot push the CSV file.")
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -351,7 +367,9 @@ if __name__ == '__main__':
     parser.add_argument('--CSV_PATH', type=str, default='./trending_repositories_summary.csv')
     parser.add_argument('--ClassName', type=str, default='Classification')
     parser.add_argument('--url', type=str, default='https://github.com/trending/python?since=daylie')
+    parser.add_argument('--github_token', type=str, default=None)
+    parser.add_argument('--repository_url', type=str, default=None)
     args = parser.parse_args()
 
-    main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url)
+    main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url, args.github_token, args.repository_url)
     main_instance.run()
