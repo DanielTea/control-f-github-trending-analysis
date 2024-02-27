@@ -5,6 +5,7 @@ from openai import OpenAI
 import csv
 from datetime import datetime
 import re
+import subprocess
     # if not classes:
     #     classes = ["Artificial Intelligence", "Network Infrastructure"]
 
@@ -344,25 +345,40 @@ class Main:
         self.github_token = github_token
         self.repository_url = repository_url
 
+    def commit_and_push_to_github(self,github_token, repository_url, csv_path):
+        # Configure your git settings
+        os.environ['GIT_AUTHOR_NAME'] = 'Daniel Tremer'  # Change this to your name
+        os.environ['GIT_AUTHOR_EMAIL'] = 'info@danieltremer.com'  # Change this to your email
+        os.environ['GITHUB_TOKEN'] = github_token
+
+        repository_url_with_token = repository_url.replace('https://', f'https://{github_token}@')
+
+
+        tmp_dir = '/tmp/repo'
+        if os.path.exists(tmp_dir):
+            subprocess.run(['rm', '-rf', tmp_dir], check=True)
+        subprocess.run(['git', 'clone', repository_url_with_token, tmp_dir], check=True)
+        subprocess.run(['cp', csv_path, os.path.join(tmp_dir, 'trending_repositories_summary.csv')], check=True)
+        os.chdir(tmp_dir)
+        subprocess.run(['git', 'add', 'trending_repositories_summary.csv'], check=True)
+        
+        try:
+            subprocess.run(['git', 'commit', '-m', 'Update trending repositories summary'], check=True)
+            subprocess.run(['git', 'push', '--set-upstream', 'origin', 'main'], check=True, env={'GITHUB_TOKEN': github_token})
+            print("Changes committed and pushed to repository.")
+        except subprocess.CalledProcessError as e:
+            if "nothing to commit" in e.stderr.decode('utf-8'):
+                print("No changes to commit.")
+            else:
+                raise  # Re-raise the exception if it's due to another error
+
     def run(self):
         process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
-        self.push_to_repository_main()
-
-    def push_to_repository_main(self):
-        import subprocess
-        import os
-
-        if self.github_token and self.repository_url:
-            if not os.path.exists(self.repository_url):
-                subprocess.run(['git', 'clone', self.repository_url])
-            subprocess.run(['cp', self.CSV_PATH, self.repository_url])
-            subprocess.run(['git', 'add', '.'], cwd=os.path.dirname(self.repository_url))  # Use os.path.dirname to get the directory path
-            subprocess.run(['git', 'commit', '-m', 'Add latest CSV file'], cwd=os.path.dirname(self.repository_url))  # Use os.path.dirname to get the directory path
-            subprocess.run(['git', 'push'], cwd=os.path.dirname(self.repository_url))  # Use os.path.dirname to get the directory path
-        else:
-            print("Missing github_token or repository_url. Cannot push the CSV file.")
+        self.commit_and_push_to_github(self.github_token, self.repository_url, self.CSV_PATH)
 
 
+    
+            
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--openai_api_key', type=str, default=None)
