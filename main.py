@@ -284,7 +284,7 @@ def create_a_blogpost_readme(readme_link, client):
     Write a blogpost text, not longer than 5 sentences. \n\n
     Write a SEO-optimized Meta Description for this blog post. \n\n
 
-    Return only a json nothing else, the format should be {"Title":"<SEO-optimized Title>", "Blogpost":"<blogpost>", "Meta_Description":"<Meta Description>"}
+    Return only a json nothing else, the format should be {"Title":"<SEO-optimized Title>", "Blogpost":"<blogpost>", "Meta_Description":"<Meta Description>"}\n\n
 
     
     For this text:\n\n
@@ -350,7 +350,9 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
                 try:
                     blog_text_data = json.loads(blog_text_json)
+                    print(blog_text_data)
                     blog_title = blog_text_data.get("Title", "")
+                    print(blog_title)
                     blog_post = blog_text_data.get("Blogpost", "")
                     meta_description = blog_text_data.get("Meta_Description", "")
                 except json.JSONDecodeError:
