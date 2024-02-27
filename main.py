@@ -346,6 +346,7 @@ class Main:
         self.repository_url = repository_url
 
     def commit_and_push_to_github(self,github_token, repository_url, csv_path):
+        
         tmp_dir = '/tmp/repo'
         if os.path.exists(tmp_dir):
             subprocess.run(['rm', '-rf', tmp_dir], check=True)
@@ -367,9 +368,9 @@ class Main:
         except subprocess.CalledProcessError as e:
             print("Git operation failed:", e)
 
-        def run(self):
-            process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
-            self.commit_and_push_to_github(self.github_token, self.repository_url, self.CSV_PATH)
+    def run(self):
+        process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
+        self.commit_and_push_to_github(self.github_token, self.repository_url, self.CSV_PATH)
 
 
     
