@@ -350,7 +350,7 @@ class Main:
         
         # Configure git user locally for the repo
         subprocess.run(['git', 'config', 'user.name', 'Daniel Tremer'], check=True)
-        subprocess.run(['git', 'config', 'user.email', 'your_email@example.com'], check=True)
+        subprocess.run(['git', 'config', 'user.email', 'info@danieltremer.com'], check=True)
         
         # Git operations: add, commit
         subprocess.run(['git', 'add', "trending_repositories_summary.csv"], check=True)
@@ -358,7 +358,7 @@ class Main:
         subprocess.run(['git', 'commit', '-m', commit_message], check=True)
         
         # Modify the repository URL to include the token for HTTPS operations
-        tokenized_url = repository_url.replace('https://', f'https://x-access-token:{github_token}@')
+        tokenized_url = repository_url.replace('https://', f'https://{github_token}@')
         
         # Push using the modified URL
         subprocess.run(['git', 'remote', 'set-url', 'origin', tokenized_url], check=True)
