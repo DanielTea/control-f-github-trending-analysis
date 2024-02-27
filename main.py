@@ -74,13 +74,13 @@ def summarize_and_classify_readme(readme_link, classes, client):
     summary = summary_completion.choices[0].message.content
 
     # Prepare the classification prompt with the classes from the CSV
-    class_prompt = f"Classify this GitHub project based on its README. Use only one or two words such as {', '.join(classes)} etc. If none of these classes are applicable, return a new class, only return the class nothing else:\n\n{readme_text}"
+    class_prompt = f"Classify this GitHub project based on its README. Use only up to 3 words such as {', '.join(classes)} etc. If none of these classes are applicable, return a new class, only return the class nothing else:\n\n{readme_text}"
 
     # Classify the GitHub project
     classification_completion = client.chat.completions.create(
         model="gpt-4-0125-preview",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": "You are a classifier, return only the class which fits to the text."},
             {"role": "user", "content": class_prompt}
         ]
     )
