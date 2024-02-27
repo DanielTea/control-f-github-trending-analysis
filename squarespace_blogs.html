@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Summaries Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .summary {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .summary h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="blog-posts"></div>
+
+<script>
+fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main/trending_repositories_summary.csv')
+    .then(response => response.text())
+    .then(csvText => {
+        // Basic CSV parsing that respects quoted fields
+        function parseCSV(csvString) {
+            const rows = csvString.trim().split("\n");
+            const headers = rows.shift().split(",").map(header => header.trim());
+            return rows.map(row => {
+                let inQuotes = false;
+                let field = '';
+                let fields = [];
+                for (let i = 0; i < row.length; i++) {
+                    const char = row[i];
+                    if (char === '"') {
+                        inQuotes = !inQuotes;
+                    } else if (char === ',' && !inQuotes) {
+                        fields.push(field);
+                        field = '';
+                    } else {
+                        field += char;
+                    }
+                }
+                fields.push(field); // Add last field
+                return headers.reduce((obj, header, index) => {
+                    obj[header] = fields[index];
+                    return obj;
+                }, {});
+            });
+        }
+
+        function insertSummaries(data) {
+            const container = document.getElementById("blog-posts");
+            data.forEach(item => {
+                if (item.Summary) { // Check if Summary exists
+                    const article = document.createElement("article");
+                    article.className = "summary";
+                    article.innerHTML = `<h2>Summary</h2><p>${item.Summary.replace(/"/g, '')}</p>`; // Remove quotes from summary
+                    container.appendChild(article);
+                }
+            });
+        }
+
+        const parsedData = parseCSV(csvText);
+        insertSummaries(parsedData);
+    })
+    .catch(err => console.error('Failed to fetch CSV:', err));
+</script>
+</body>
+</html>

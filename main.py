@@ -5,8 +5,8 @@ from openai import OpenAI
 import csv
 from datetime import datetime
 import re
-import subprocess
 import argparse
+import json
     # if not classes:
     #     classes = ["Artificial Intelligence", "Network Infrastructure"]
 
@@ -85,6 +85,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
         ]
     )
     classification = classification_completion.choices[0].message.content
+    
 
     print(classification)
 
@@ -271,6 +272,36 @@ def fetch_repository_creation_date(repo_link):
     else:
         print(f"Failed to fetch repository details for {repo_link}. Status code: {response.status_code}")
         return None
+    
+def create_a_blogpost_readme(readme_link, client):
+    # Read the README file content
+    readme_response = requests.get(readme_link)
+    readme_text = readme_response.text
+    # Prepare the classification prompt with the classes from the CSV
+    blog_prompt = """
+    
+    Write a SEO-optimized Title for this blog post. \n\n
+    Write a blogpost text, not longer than 10 sentences. \n\n
+    Write a SEO-optimized Meta Description for this blog post. \n\n
+
+    Return only a json nothing else, the format should be {"Title":"<SEO-optimized Title>", "Blogpost":"<blogpost>", "Meta_Description":"<Meta Description>"}
+
+    
+    For this text:\n\n
+
+    """ + str(readme_text)
+
+    # Classify the GitHub project
+    blog_completion = client.chat.completions.create(
+        model="gpt-4-0125-preview",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": blog_prompt}
+        ]
+    )
+    blog_text = blog_completion.choices[0].message.content
+
+    return blog_text
 
 
 def process_trending_repositories_and_create_csv(openai_api_key=None, 
@@ -294,14 +325,17 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     if not os.path.exists(CSV_PATH):
         with open(CSV_PATH, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
-            writer.writerow(['Date', 'Repository-Link', 'Github-Link', 'Summary', 'Readme-Text', ClassName, 'Image-Links', 'Video-Links', 'Stars', 'Suitable-Image-Links', 'Suitable-Video-Links', 'Repository-Creation-Date'])  # Added 'Repository-Creation-Date' column
+            writer.writerow(['Date', 'Repository-Link', 'Github-Link', 
+                             'Summary', 'Blog-Title', 'Blog-Post', 'Meta-Description', ClassName, 'Image-Links', 
+                             'Video-Links', 'Stars', 'Repository-Creation-Date'])  # Added 'Repository-Creation-Date' column
     else:
         # If file exists, read existing GitHub links to avoid duplicates
         with open(CSV_PATH, mode='r', newline='', encoding='utf-8') as file:
             reader = csv.DictReader(file)
             existing_links = [row['Github-Link'] for row in reader]
 
-    classes = list(set(get_column_from_csv(CSV_PATH, ClassName)))
+
+    classes = list(set(get_column_from_csv(CSV_PATH, ClassName)))+["Artificial Intelligence, Machine Learning, Large Language Models, Deep Learning"]
     print(classes)
 
     # Append data to CSV file
@@ -311,33 +345,31 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
         for index, (readme_link, repository_link) in enumerate(zip(readmes, repository_links)):
             if readme_link not in existing_links:  # Skip links that are already in the CSV
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
-                
-                # readme_response = requests.get(readme_link)
-                # readme_text = readme_response.text.replace(';', '')  # Remove all semicolons from the text before saving to CSV
-                readme_text = ""
+
+                blog_text_json = create_a_blogpost_readme(readme_link, client=client)
+
+                try:
+                    blog_text_data = json.loads(blog_text_json)
+                    blog_title = blog_text_data.get("Title", "")
+                    blog_post = blog_text_data.get("Blogpost", "")
+                    meta_description = blog_text_data.get("Meta_Description", "")
+                except json.JSONDecodeError:
+                    blog_title = ""
+                    blog_post = ""
+                    meta_description = ""
 
                 classes.append(classification)
                 classes = list(set(classes))
                 print(classes)
                 image_links, video_links = extract_media_links(readme_link)
-                
-                suitable_image_links = []
-                # for image_link in image_links:
-                #     if is_suitable_for_blogpost(image_link, summary, client):
-                #         suitable_image_links.append(image_link)
-
-                suitable_video_links = []
-                # for video_link in video_links:
-                #     if is_suitable_for_blogpost(video_link, summary, client):
-                #         suitable_video_links.append(video_link)
 
                 stars = fetch_repository_stars(readme_link)  # Assuming this function exists and fetches the number of stars for a repository
                 creation_date = fetch_repository_creation_date(repository_link)  # Fetching repository creation date
-                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, readme_text, classification, '; '.join(image_links), '; '.join(video_links), stars, '; '.join(suitable_image_links), '; '.join(suitable_video_links), creation_date])  # Added creation_date to the row
+                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, blog_title, blog_post, meta_description, classification, '; '.join(image_links), '; '.join(video_links), stars, creation_date])  # Added creation_date to the row
 
 
 class Main:
-    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=daylie'):
+    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=weekly'):
         self.openai_api_key = openai_api_key
         self.CSV_PATH = CSV_PATH
         self.ClassName = ClassName
