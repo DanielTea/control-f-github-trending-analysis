@@ -65,7 +65,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
 
     # Summarize the README content
     summary_completion = client.chat.completions.create(
-        model="gpt-4-0125-preview",
+        model="gpt-3.5-turbo-0125",
         messages=[
             {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
             {"role": "user", "content": f"Summarize this text in 100 words:\n\n{readme_text}"}
@@ -78,7 +78,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
 
     # Classify the GitHub project
     classification_completion = client.chat.completions.create(
-        model="gpt-4-0125-preview",
+        model="gpt-3.5-turbo-0125",
         messages=[
             {"role": "system", "content": "You are a classifier, return only the class which fits to the text, given to you, do not complain if you can't do it. Answer only in English."},
             {"role": "user", "content": class_prompt}
@@ -293,7 +293,7 @@ def create_a_blogpost_readme(readme_link, client):
 
     # Classify the GitHub project
     blog_completion = client.chat.completions.create(
-        model="gpt-4-0125-preview",
+        model="gpt-3.5-turbo-0125",
         messages=[
             {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
             {"role": "user", "content": blog_prompt}
@@ -367,9 +367,19 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     if not os.path.exists(CSV_PATH):
         with open(CSV_PATH, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
-            writer.writerow(['Date', 'Repository-Link', 'Github-Link', 
-                             'Summary', 'Blog-Title', 'Blog-Post', 'Meta-Description', ClassName, 'Star-Count-Delta', 'Image-Links', 
-                             'Video-Links', 'Stars', 'Repository-Creation-Date'])  # Added 'Repository-Creation-Date' column
+            writer.writerow(['Date', 
+                             'Repository-Link', 
+                             'Github-Link', 
+                             'Summary', 
+                             'Blog-Title', 
+                             'Blog-Post',
+                             'Meta-Description',
+                             ClassName, 
+                            #  'Star-Count-Delta', 
+                             'Image-Links', 
+                             'Video-Links', 
+                             'Stars', 
+                             'Repository-Creation-Date'])  # Added 'Repository-Creation-Date' column
     else:
         # If file exists, read existing GitHub links to avoid duplicates
         with open(CSV_PATH, mode='r', newline='', encoding='utf-8') as file:
@@ -389,8 +399,8 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
 
                 blog_text_json = create_a_blogpost_readme(readme_link, client=client)
-                star_count_delta = get_stars_count(repo_url=repository_link, period='week')
-                print(star_count_delta)
+                # star_count_delta = get_stars_count(repo_url=repository_link, period='week')
+                # print(star_count_delta)
 
                 try:
                     blog_text_data = json.loads(blog_text_json)
@@ -411,7 +421,18 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
                 stars = fetch_repository_stars(readme_link)  # Assuming this function exists and fetches the number of stars for a repository
                 creation_date = fetch_repository_creation_date(repository_link)  # Fetching repository creation date
-                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], readme_link, summary, blog_title, blog_post, meta_description, classification, star_count_delta, '; '.join(image_links), '; '.join(video_links), stars, creation_date])  # Added creation_date to the row
+                writer.writerow([datetime.now().strftime('%Y-%m-%d'), repository_links[index], 
+                                 readme_link, 
+                                 summary, 
+                                 blog_title, 
+                                 blog_post, 
+                                 meta_description, 
+                                 classification, 
+                                #  star_count_delta, 
+                                 '; '.join(image_links), 
+                                 '; '.join(video_links), 
+                                 stars, 
+                                 creation_date])  # Added creation_date to the row
 
 
 class Main:
