@@ -62,6 +62,8 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
                 && item['Blog-Title'] !== null
                 // && isWithinOneMonth(item['Repository-Creation-Date'])
             ).forEach(item => {
+
+
                 const article = document.createElement("article");
                 article.className = "summary";
                 let mediaContent = ''; // Initialize a variable for storing media HTML content
@@ -93,25 +95,27 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
                         mediaContent += `<img src="${firstDemoImageLink}" style="max-width: 100%; height: auto; display: block; margin: auto;">`;
                     }
                 }
+                
+                if (mediaContent !== '') {
+                    // Create the card element for the GitHub repository
+                    const card = document.createElement("div");
+                    card.className = "repo-card"; // Add a class for styling if needed
+                    const repoParts = item['Repository-Link'].split('/');
+                    const userName = repoParts.length > 3 ? repoParts[3] : '';
+                    const repoName = repoParts.length > 4 ? repoParts[4] : '';
+                    card.innerHTML = `<a href="${item['Repository-Link']}" target="_blank"><img src="https://gh-card.dev/repos/${userName}/${repoName}.svg" alt="GitHub Repository Card for ${userName}/${repoName}" style="width: 100%; max-width: 400px; height: auto; display: block; margin: 10px auto;"></a>`;
 
-                // Create the card element for the GitHub repository
-                const card = document.createElement("div");
-                card.className = "repo-card"; // Add a class for styling if needed
-                const repoParts = item['Repository-Link'].split('/');
-                const userName = repoParts.length > 3 ? repoParts[3] : '';
-                const repoName = repoParts.length > 4 ? repoParts[4] : '';
-                card.innerHTML = `<a href="${item['Repository-Link']}" target="_blank"><img src="https://gh-card.dev/repos/${userName}/${repoName}.svg" alt="GitHub Repository Card for ${userName}/${repoName}" style="width: 100%; max-width: 400px; height: auto; display: block; margin: 10px auto;"></a>`;
-
-                // Set the article's innerHTML including the media content if available
-                article.innerHTML = `
-                <h2>${item['Blog-Title']}</h2>
-                <p>${item['Blog-Post']}</p>
-                ${mediaContent} <!-- Embed the media content here -->
-                `;
-                // Append the card to the article, making it part of the summary
-                article.appendChild(card);  
-                // Append the article to the container
-                container.appendChild(article);
+                    // Set the article's innerHTML including the media content if available
+                    article.innerHTML = `
+                    <h2>${item['Blog-Title']}</h2>
+                    <p>${item['Blog-Post']}</p>
+                    ${mediaContent} <!-- Embed the media content here -->
+                    `;
+                    // Append the card to the article, making it part of the summary
+                    article.appendChild(card);  
+                    // Append the article to the container
+                    container.appendChild(article);
+                }
             });
         }
 
