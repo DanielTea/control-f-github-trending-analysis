@@ -59,10 +59,19 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
 
         function insertSummaries(data) {
             const container = document.getElementById("blog-posts");
-            data.forEach(item => {
+            data.filter(item => item['Blog-Title'] && item['Blog-Post'] && item['Star-Count-Delta'] && item['Classification'] && item['Repository-Link'] && ["Artificial Intelligence", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science", "AI"].includes(item['Classification'])).sort((a, b) => {
+                const starCountA = parseInt(extractStarCount(a['Star-Count-Delta']).replace(' stars', ''));
+                const starCountB = parseInt(extractStarCount(b['Star-Count-Delta']).replace(' stars', ''));
+                return starCountB - starCountA;
+            }).slice(0, 10).forEach(item => {
                 const article = document.createElement("article");
                 article.className = "summary";
-                article.innerHTML = `<h2>${item['Blog-Title']}</h2><p>${item['Blog-Post']}</p><span style="font-size: 20px;">Star-Count-Delta: ${item['Star-Count-Delta']}</span>`;
+                article.innerHTML = `
+                <h2>${item['Blog-Title']}</h2><p>${item['Blog-Post']}</p>
+                <span style="font-size: 20px;">${item['Star-Count-Delta']}</span>
+                <p style="font-size: 20px;">${item['Classification']}</p>
+                <p>${isWithinOneMonth(item['Repository-Creation-Date']) ? 1 : 0}</p>
+                `;
 
                 // Create a preview card for the GitHub repository
                 const card = document.createElement("div");
@@ -70,6 +79,18 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
                 container.appendChild(article);
                 container.appendChild(card);
             });
+        }
+
+        function extractStarCount(starCountDelta) {
+            const starCount = parseInt(starCountDelta.replace(/,/g, '').match(/\d+/)[0]);
+            return `${starCount} stars`;
+        }
+
+        function isWithinOneMonth(dateString) {
+            const repositoryCreationDate = new Date(dateString);
+            const oneMonthAgo = new Date();
+            oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1); // Fixed the month calculation to be within one month
+            return repositoryCreationDate > oneMonthAgo;
         }
 
         const parsedData = parseCSV(csvText);
