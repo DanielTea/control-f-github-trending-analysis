@@ -59,7 +59,7 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
 
         function insertSummaries(data) {
             const container = document.getElementById("blog-posts");
-            data.filter(item => item['Blog-Title'] && item['Blog-Post'] && item['Star-Count-Delta'] && item['Classification'] && item['Repository-Link'] && ["Artificial Intelligence", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science", "AI"].includes(item['Classification'])).sort((a, b) => {
+            data.filter(item => item['Repository-Creation-Date'] && item['Blog-Title'] && item['Blog-Post'] && item['Star-Count-Delta'] && item['Classification'] && item['Repository-Link'] && ["Artificial Intelligence", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science", "AI"].includes(item['Classification']) && item['Repository-Creation-Date'] !== '0' && item['Repository-Creation-Date'] !== '').sort((a, b) => {
                 const starCountA = parseInt(extractStarCount(a['Star-Count-Delta']).replace(' stars', ''));
                 const starCountB = parseInt(extractStarCount(b['Star-Count-Delta']).replace(' stars', ''));
                 return starCountB - starCountA;
@@ -70,6 +70,7 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
                 <h2>${item['Blog-Title']}</h2><p>${item['Blog-Post']}</p>
                 <span style="font-size: 20px;">${item['Star-Count-Delta']}</span>
                 <p style="font-size: 20px;">${item['Classification']}</p>
+                <p style="font-size: 20px;">${item['Repository-Creation-Date']}</p>
                 <p>${isWithinOneMonth(item['Repository-Creation-Date']) ? 1 : 0}</p>
                 `;
 
@@ -89,8 +90,9 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
         function isWithinOneMonth(dateString) {
             const repositoryCreationDate = new Date(dateString);
             const oneMonthAgo = new Date();
-            oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1); // Fixed the month calculation to be within one month
-            return repositoryCreationDate > oneMonthAgo;
+            oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
+            const oneMonthAgoUTC = new Date(oneMonthAgo.toUTCString()); // Convert to UTC to compare accurately
+            return repositoryCreationDate > oneMonthAgoUTC;
         }
 
         const parsedData = parseCSV(csvText);

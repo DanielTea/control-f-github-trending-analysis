@@ -307,7 +307,7 @@ def fetch_repository_creation_date(repo_link):
         return creation_date
     else:
         print(f"Failed to fetch repository details for {repo_link}. Status code: {response.status_code}")
-        return None
+        return "0"
     
 def create_a_blogpost_readme(readme_link, client):
     # Read the README file content
