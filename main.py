@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import openai
-openai.api_base = "http://localhost:4891/v1"
+# openai.api_base = "http://localhost:4891/v1"
 
 import csv
 from datetime import datetime
