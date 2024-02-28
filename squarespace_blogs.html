@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Dynamic Summaries Blog</title>
-<style>
-    body {
-        font-family: 'Pragmatica Extended', sans-serif;
-        background-color: #EBFC72; /* Switched background color with text color */
-        color: black; /* Switched text color with background color */
-    }
-    .summary {
-        /* border: 1px solid #ddd; */
-        margin: 20px 0;
-        padding: 15px;
-        border-radius: 5px;
-        background-color: #EBFC72; /* Switched background color with text color */
-        color: black; /* Switched text color with background color */
-        font-family: 'Helvetica Neue', sans-serif;
-    }
-    .summary h2 {
-        margin-top: 0;
-    }
-</style>
+    <style>
+        body {
+            font-family: 'Pragmatica Extended', sans-serif;
+            background-color: #EBFC72; /* Background color */
+            color: black; /* Text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+        }
+        #blog-posts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%; /* Adjust based on preference */
+            max-width: 800px; /* Adjust based on preference */
+        }
+        .summary {
+            border: 2px solid black; /* Black border */
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px; /* Rounded edges */
+            background-color: #EBFC72; /* Background color */
+            color: black; /* Text color */
+            font-family: 'Helvetica Neue', sans-serif;
+            width: 100%; /* Use full width of the container */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        .summary h2 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -39,57 +53,74 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
         }).data;
         // insertSummaries(parsedData);
 
-
-
-
         function insertSummaries(data) {
+            const classifications = ["Artificial Intelligence", "Natural Language Processing", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science", "AI"];
             const container = document.getElementById("blog-posts");
-            data.filter(item =>["Artificial Intelligence", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science", "AI"].includes(item['Classification']) && item['Repository-Creation-Date'] !== '' && isWithinOneMonth(item['Repository-Creation-Date'])).sort((a, b) => {
-                const starCountA = parseInt(extractStarCount(a['Star-Count-Delta']).replace(' stars', ''));
-                const starCountB = parseInt(extractStarCount(b['Star-Count-Delta']).replace(' stars', ''));
-                return starCountB - starCountA;
-            }).slice(0, 10).forEach(item => {
+            data.filter(item => 
+                classifications.some(classification => item['Classification'].includes(classification)) &&
+                item['Repository-Creation-Date'] !== '' 
+                && item['Blog-Title'] !== null
+                // && isWithinOneMonth(item['Repository-Creation-Date'])
+            ).forEach(item => {
                 const article = document.createElement("article");
                 article.className = "summary";
-                article.innerHTML = `
-                <h2>${item['Blog-Title']}</h2><p>${item['Blog-Post']}</p>
-                <span style="font-size: 20px;">${item['Star-Count-Delta']}</span>
-                <p style="font-size: 20px;">${item['Classification']}</p>
-                <p style="font-size: 20px;">${item['Repository-Creation-Date']}</p>
-                <p>${isWithinOneMonth(item['Repository-Creation-Date']) ? 1 : 0}</p>
-                `;
+                let mediaContent = ''; // Initialize a variable for storing media HTML content
 
-                // Create a preview card for the GitHub repository
+                // Check and embed the first YouTube video if available
+                if (item['Video-Links']) {
+                    const videoLinks = item['Video-Links'].split(';').map(link => link.trim());
+                    const firstYouTubeLink = videoLinks.find(link => link.includes('youtube.com') || link.includes('youtu.be'));
+                    if (firstYouTubeLink) {
+                        const videoId = firstYouTubeLink.split('v=')[1] || firstYouTubeLink.split('/').pop();
+                        mediaContent += `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" style="display: block; margin: auto;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+                    }
+                }
+
+                // Check and embed the first GIF if available
+                if (item['Image-Links'] && !mediaContent) { // Only embed GIF if no video has been embedded
+                    const imageLinks = item['Image-Links'].split(';').map(link => link.trim());
+                    const firstGifLink = imageLinks.find(link => link.endsWith('.gif'));
+                    if (firstGifLink) {
+                        mediaContent += `<img src="${firstGifLink}" style="max-width: 100%; height: auto; display: block; margin: auto;">`;
+                    }
+                }
+
+                // Filter and embed the first likely demo GIF if available
+                if (item['Image-Links']) {
+                    const imageLinks = item['Image-Links'].split(';').map(link => link.trim());
+                    const firstDemoImageLink = imageLinks.find(link => link.endsWith('.png') && isLikelyDemoImage(link));
+                    if (firstDemoImageLink) {
+                        mediaContent += `<img src="${firstDemoImageLink}" style="max-width: 100%; height: auto; display: block; margin: auto;">`;
+                    }
+                }
+
+                // Create the card element for the GitHub repository
                 const card = document.createElement("div");
-                card.innerHTML = `<a href="${item['Repository-Link']}" target="_blank"><img src="https://gh-card.dev/repos/${item['Repository-Link'].split('/')[3]}/${item['Repository-Link'].split('/')[4]}.svg" alt="GitHub Repository Card for ${item['Repository-Link'].split('/')[3]}/${item['Repository-Link'].split('/')[4]}" style="cursor: pointer;"></a>`;
+                card.className = "repo-card"; // Add a class for styling if needed
+                const repoParts = item['Repository-Link'].split('/');
+                const userName = repoParts.length > 3 ? repoParts[3] : '';
+                const repoName = repoParts.length > 4 ? repoParts[4] : '';
+                card.innerHTML = `<a href="${item['Repository-Link']}" target="_blank"><img src="https://gh-card.dev/repos/${userName}/${repoName}.svg" alt="GitHub Repository Card for ${userName}/${repoName}" style="width: 100%; max-width: 400px; height: auto; display: block; margin: 10px auto;"></a>`;
+
+                // Set the article's innerHTML including the media content if available
+                article.innerHTML = `
+                <h2>${item['Blog-Title']}</h2>
+                <p>${item['Blog-Post']}</p>
+                ${mediaContent} <!-- Embed the media content here -->
+                `;
+                // Append the card to the article, making it part of the summary
+                article.appendChild(card);  
+                // Append the article to the container
                 container.appendChild(article);
-                container.appendChild(card);
             });
         }
 
-        // function insertSummaries(data) {
-        //     const container = document.getElementById("blog-posts");
-        //     data.forEach(item => {
-        //         const article = document.createElement("article");
-        //         article.className = "summary";
-        //         article.innerHTML = `
-        //         <h2>${item['Blog-Title']}</h2><p>${item['Blog-Post']}</p>
-        //         <span style="font-size: 20px;">${item['Star-Count-Delta']}</span>
-        //         <p style="font-size: 20px;">${item['Classification']}</p>
-        //         <p style="font-size: 20px;">${item['Repository-Creation-Date']}</p>
-        //         <p>${isWithinOneMonth(item['Repository-Creation-Date']) ? 1 : 0}</p>
-        //         `;
-
-        //         // Create a preview card for the GitHub repository
-        //         const card = document.createElement("div");
-        //         const repoPathParts = item['Repository-Link'].split('/').filter(part => part);
-        //         const userName = repoPathParts.length > 3 ? repoPathParts[3] : '';
-        //         const repoName = repoPathParts.length > 4 ? repoPathParts[4] : '';
-        //         card.innerHTML = `<a href="${item['Repository-Link']}" target="_blank"><img src="https://gh-card.dev/repos/${item['Repository-Link'].split('/')[3]}/${item['Repository-Link'].split('/')[4]}.svg" alt="GitHub Repository Card for ${item['Repository-Link'].split('/')[3]}/${item['Repository-Link'].split('/')[4]}" style="cursor: pointer;"></a>`;
-        //         container.appendChild(article);
-        //         container.appendChild(card);
-        //     });
-        // }
+        function isLikelyDemoImage(url) {
+            // Define patterns that typically indicate a badge or button
+            const badgePatterns = ['badge', 'button', 'shield'];
+            // Return false if any pattern matches the URL, indicating it's not a demo image
+            return !badgePatterns.some(pattern => url.toLowerCase().includes(pattern));
+        }
 
         function extractStarCount(starCountDelta) {
             const starCount = parseInt(starCountDelta.replace(/,/g, '').match(/\d+/)[0]);
@@ -99,7 +130,7 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
         function isWithinOneMonth(dateString) {
             const repositoryCreationDate = new Date(dateString);
             const oneMonthAgo = new Date();
-            oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
+            oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 2);
             const oneMonthAgoUTC = new Date(oneMonthAgo.toUTCString()); // Convert to UTC to compare accurately
             return repositoryCreationDate > oneMonthAgoUTC;
         }
