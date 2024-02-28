@@ -24,14 +24,34 @@ def fetch_trending_repositories(url = 'https://github.com/trending/python?since=
     repo_elements = soup.find_all('h2', class_='h3 lh-condensed')
 
     repository_links = []
+    stars = []
     # Extract and print the URLs of the repositories
     for repo_element in repo_elements:
         a_tag = repo_element.find('a')
         repo_url = 'https://github.com' + a_tag['href']
         print(repo_url)
         repository_links.append(repo_url)
+
+    repo_elements = soup.find_all('article', class_='Box-row')
+
+    for repo_element in repo_elements:
+        # Extract repository URL
+        a_tag = repo_element.find('a', href=True)
+        repo_url = 'https://github.com' + a_tag['href']
+
+        # Find the element with the star count for this week or today
+        # Assuming the text is directly within an element that can be identified
+        # The actual class or structure might vary and needs to be updated according to the current GitHub HTML structure
+        star_info = repo_element.find(lambda tag: tag.name == "span" and "stars this week" in tag.text or "stars today" in tag.text)
+        if star_info:
+            star_count_text = star_info.text.strip()
+        else:
+            star_count_text = 'No specific star count found'
+
+        stars.append(star_count_text)
     
-    return repository_links
+    
+    return repository_links, stars
 
 def fetch_and_save_readme_links(repository_links):
     readme_links = []
@@ -398,7 +418,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     
     client = openai.OpenAI(api_key=openai_api_key)
     # Fetch trending repositories
-    repository_links = fetch_trending_repositories(url)
+    repository_links, stars = fetch_trending_repositories(url)
     # Fetch and save READMEs
     readmes = fetch_and_save_readme_links(repository_links)
 
@@ -415,7 +435,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                              'Blog-Post',
                              'Meta-Description',
                              ClassName, 
-                            #  'Star-Count-Delta', 
+                             'Star-Count-Delta', 
                              'Image-Links', 
                              'Video-Links', 
                              'Stars', 
@@ -434,16 +454,15 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     with open(CSV_PATH, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
-        for index, (readme_link, repository_link) in enumerate(zip(readmes, repository_links)):
+        for index, (readme_link, repository_link, star_count_delta) in enumerate(zip(readmes, repository_links, stars)):
             if readme_link not in existing_links:  # Skip links that are already in the CSV
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
 
                 blog_text_json = create_a_blogpost_readme(readme_link, client=client)
-                # star_count_delta = get_stars_count(repo_url=repository_link, period='week')
-                # print(star_count_delta)
+                print(star_count_delta)
 
                 try:
-                    blog_text_data = remove_json_tags(blog_text_data)
+                    blog_text_data = remove_json_tags(blog_text_json)
                     blog_text_data = json.loads(blog_text_json)
                     print(blog_text_data)
                     blog_title = blog_text_data.get("Title", "")
@@ -469,7 +488,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                                  blog_post, 
                                  meta_description, 
                                  classification, 
-                                #  star_count_delta, 
+                                 star_count_delta,
                                  '; '.join(image_links), 
                                  '; '.join(video_links), 
                                  stars, 
@@ -494,7 +513,7 @@ if __name__ == '__main__':
     parser.add_argument('--openai_api_key', type=str, default=None)
     parser.add_argument('--CSV_PATH', type=str, default='./trending_repositories_summary.csv')
     parser.add_argument('--ClassName', type=str, default='Classification')
-    parser.add_argument('--url', type=str, default='https://github.com/trending/python?since=daylie')
+    parser.add_argument('--url', type=str, default='https://github.com/trending/python?since=weekly')
     args = parser.parse_args()
 
     main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url)

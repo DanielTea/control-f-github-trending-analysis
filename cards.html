@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Repo Card SVG</title>
+</head>
+<body>
+
+<div id="github-card"></div>
+
+<script>
+function createGitHubCard(repoUrl) {
+    const match = repoUrl.match(/github\.com\/([^\/]+)\/([^\/]+)/);
+    if (!match) {
+        console.error('Invalid GitHub URL');
+        return;
+    }
+    const user = match[1];
+    const repo = match[2];
+
+    // Change to SVG and make it a clickable link
+    const svgUrl = `https://gh-card.dev/repos/${user}/${repo}.svg`;
+    const a = document.createElement('a');
+    a.href = repoUrl; // Make the card clickable, linking to the GitHub repo
+    a.target = '_blank'; // Open link in new tab
+
+    const img = document.createElement('img');
+    img.src = svgUrl;
+    img.alt = `GitHub Repository Card for ${user}/${repo}`;
+    img.style.cursor = 'pointer'; // Change cursor on hover
+
+    a.appendChild(img);
+    document.getElementById('github-card').appendChild(a);
+}
+
+// Example usage
+createGitHubCard('https://github.com/nwtgck/gh-card');
+</script>
+</body>
+</html>

@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Dynamic Summaries Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .summary {
-            border: 1px solid #ddd;
-            margin: 20px 0;
-            padding: 15px;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
-        .summary h2 {
-            margin-top: 0;
-        }
-    </style>
+<style>
+    body {
+        font-family: 'Pragmatica Extended', sans-serif;
+        background-color: #EBFC72; /* Switched background color with text color */
+        color: black; /* Switched text color with background color */
+    }
+    .summary {
+        /* border: 1px solid #ddd; */
+        margin: 20px 0;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #EBFC72; /* Switched background color with text color */
+        color: black; /* Switched text color with background color */
+        font-family: 'Helvetica Neue', sans-serif;
+    }
+    .summary h2 {
+        margin-top: 0;
+    }
+</style>
 </head>
 <body>
 
@@ -27,7 +31,6 @@
 fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main/trending_repositories_summary.csv')
     .then(response => response.text())
     .then(csvText => {
-        // Basic CSV parsing that respects quoted fields
         function parseCSV(csvString) {
             const rows = csvString.trim().split("\n");
             const headers = rows.shift().split(",").map(header => header.trim());
@@ -57,12 +60,15 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
         function insertSummaries(data) {
             const container = document.getElementById("blog-posts");
             data.forEach(item => {
-                if (item.Summary) { // Check if Summary exists
-                    const article = document.createElement("article");
-                    article.className = "summary";
-                    article.innerHTML = `<h2>Summary</h2><p>${item.Summary.replace(/"/g, '')}</p>`; // Remove quotes from summary
-                    container.appendChild(article);
-                }
+                const article = document.createElement("article");
+                article.className = "summary";
+                article.innerHTML = `<h2>${item['Blog-Title']}</h2><p>${item['Blog-Post']}</p><span style="font-size: 20px;">Star-Count-Delta: ${item['Star-Count-Delta']}</span>`;
+
+                // Create a preview card for the GitHub repository
+                const card = document.createElement("div");
+                card.innerHTML = `<a href="${item['Repository-Link']}" target="_blank"><img src="https://gh-card.dev/repos/${item['Repository-Link'].split('/')[3]}/${item['Repository-Link'].split('/')[4]}.svg" alt="GitHub Repository Card for ${item['Repository-Link'].split('/')[3]}/${item['Repository-Link'].split('/')[4]}" style="cursor: pointer;"></a>`;
+                container.appendChild(article);
+                container.appendChild(card);
             });
         }
 
