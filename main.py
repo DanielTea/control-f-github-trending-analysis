@@ -1,7 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import os
-from openai import OpenAI
+import openai
+openai.api_base = "http://localhost:4891/v1"
+
 import csv
 from datetime import datetime
 import re
@@ -62,6 +64,20 @@ def summarize_and_classify_readme(readme_link, classes, client):
     # Read the README file content
     readme_response = requests.get(readme_link)
     readme_text = readme_response.text
+
+
+    word_list = readme_text.split()  # Splitting the string into a list of words
+    number_of_words = len(word_list)
+
+    def keep_first_x_words(s, x):
+        words = s.split()  # Splitting the string into a list of words
+        first_x_words = words[:x]  # Keeping only the first x words
+        return ' '.join(first_x_words)  # Joining the first x words back into a string
+
+    if number_of_words > 5000:
+        readme_text = keep_first_x_words(readme_text, 5000)
+
+    print(number_of_words)
 
     # Summarize the README content
     summary_completion = client.chat.completions.create(
@@ -277,6 +293,19 @@ def create_a_blogpost_readme(readme_link, client):
     # Read the README file content
     readme_response = requests.get(readme_link)
     readme_text = readme_response.text
+
+
+    word_list = readme_text.split()  # Splitting the string into a list of words
+    number_of_words = len(word_list)
+
+    def keep_first_x_words(s, x):
+        words = s.split()  # Splitting the string into a list of words
+        first_x_words = words[:x]  # Keeping only the first x words
+        return ' '.join(first_x_words)  # Joining the first x words back into a string
+
+    if number_of_words > 5000:
+        readme_text = keep_first_x_words(readme_text, 5000)
+
     # Prepare the classification prompt with the classes from the CSV
     blog_prompt = """
     
@@ -285,7 +314,7 @@ def create_a_blogpost_readme(readme_link, client):
     Write a SEO-optimized Meta Description for this blog post. \n\n
 
     Return only a json nothing else, not in ```json ``` tags, the format should be {"Title":"<SEO-optimized Title>", "Blogpost":"<blogpost>", "Meta_Description":"<Meta Description>"}\n\n
-
+    Do not return not in ```json ``` tags.\n\n
     
     For this text:\n\n
 
@@ -345,6 +374,17 @@ def get_stars_count(repo_url, period='week'):
     
     return len(stars)
 
+def remove_json_tags(s):
+    # Removing the starting tag
+    if s.startswith("```json "):
+        s = s.replace("```json ", "", 1)
+    
+    # Removing the ending tag
+    if s.endswith("```"):
+        s = s.rsplit("```", 1)[0]
+    
+    return s
+
 
 def process_trending_repositories_and_create_csv(openai_api_key=None, 
                                                  CSV_PATH = './trending_repositories_summary.csv', 
@@ -356,7 +396,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
         load_dotenv()
         openai_api_key = os.getenv("OPENAI_API_KEY")
     
-    client = OpenAI(api_key=openai_api_key)
+    client = openai.OpenAI(api_key=openai_api_key)
     # Fetch trending repositories
     repository_links = fetch_trending_repositories(url)
     # Fetch and save READMEs
@@ -403,6 +443,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                 # print(star_count_delta)
 
                 try:
+                    blog_text_data = remove_json_tags(blog_text_data)
                     blog_text_data = json.loads(blog_text_json)
                     print(blog_text_data)
                     blog_title = blog_text_data.get("Title", "")
