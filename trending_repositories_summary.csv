@@ -28,3 +28,572 @@ For more detailed information, updates, and interactions with the open-source co
 2024-02-28,https://github.com/Pythagora-io/gpt-pilot,https://raw.githubusercontent.com/Pythagora-io/gpt-pilot/main/README.md,"GPT Pilot is an AI developer that assists in coding, debugging, and creating apps by coding step by step, similar to real-life processes, while the developer oversees. It interacts with you, asks questions, sets up requirements, and helps with coding tasks. The VS Code extension offers a real AI developer companion. The aim is for AI to write most of the code for an app, requiring human intervention for only 5% of tasks until full AGI is achieved. GPT Pilot works collaboratively with developers, focusing on developing production-ready apps, with examples like a chat app and a markdown editor. Join their Discord for updates and contributions.",GPT Pilot: AI Developer Companion for Code Generation,"GPT Pilot is a cutting-edge AI developer that assists in writing code, debugging, and more. This innovative tool engages users in specifying the type of app they want to create, asking clarifying questions, creating technical requirements, setting up the environment, and coding the app step by step while allowing developers to review and intervene when necessary. GPT Pilot aims to explore the potential of leveraging AI, particularly GPT-4, to generate fully functional apps, emphasizing the need for developer oversight in the final stages for optimal results.","Discover how GPT Pilot, a true AI developer companion, streamlines the app development process by handling code generation and step-by-step coding under developer supervision. Explore the capabilities and workings of GPT Pilot, a tool designed to assist in writing production-ready apps while highlighting the essential role of developers in ensuring code quality and functionality.",AI Coding Assistant,470 stars this week,,https://www.youtube.com/watch?v=-OB6BJKADEo; https://www.youtube.com/watch?v=7t-Q2e7QsbE; https://www.youtube.com/watch?v=bUj9DbMRYhA; https://www.youtube.com/watch?v=uZeA1iX9dgg; https://www.youtube.com/watch?v=CMN3W18zfiE,21946,2023-08-16T11:56:07Z
 2024-02-28,https://github.com/huggingface/transformers,https://raw.githubusercontent.com/huggingface/transformers/main/README.md,"The text discusses the Hugging Face Transformers Library, a state-of-the-art machine learning library for JAX, PyTorch, and TensorFlow. The library provides pre-trained models for various tasks such as text, vision, and audio processing. It offers APIs for downloading and using pretrained models, fine-tuning them, and sharing them with the community. The library is compatible with the three popular deep learning libraries (JAX, PyTorch, TensorFlow) and allows seamless integration between them. It also provides online demos and showcases multiple examples of using pretrained models for tasks like language processing, image analysis, and more. The text also covers the installation process for the library and introduces various model architectures available within the library.","Transformers: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow","🤗 Transformers provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio. These models can be applied on various tasks like text classification, image recognition, and speech processing, supporting over 100 languages. The library offers APIs for easy model downloads, fine-tuning on custom datasets, and model sharing through the model hub. Built on JAX, PyTorch, and TensorFlow, 🤗 Transformers enables seamless integration between deep learning frameworks, making it easy to train and deploy models.","Discover how 🤗 Transformers library provides state-of-the-art pretrained models for text, vision, and audio tasks in multiple languages. Learn how to download, fine-tune, and share models using APIs for JAX, PyTorch, and TensorFlow.",Natural Language Processing.,572 stars this week,,,121022,2018-10-29T13:56:00Z
 2024-02-28,https://github.com/s0md3v/roop,https://raw.githubusercontent.com/s0md3v/roop/main/README.md,"The text describes a project called Roop, which has been discontinued with no future updates. However, the software can still be used for face replacement in videos. The installation process requires technical skills and is not recommended for beginners. The software is designed to assist in tasks like character animation, but users are advised to use it responsibly and abide by local laws. The developers have taken measures to prevent inappropriate content use. The software uses third-party libraries and pre-trained models with their own licenses. Credits are given to deepinsight for their insightface project and to other developers whose libraries were used. You can refer to the provided documentation for more details.",Roop - Video Face Swapper and Enhancer Software with Ethical Guidelines,"This project Roop, a video face swapper tool, has been discontinued but still operational. The software won't receive updates but can replace faces in videos. Users are guided on installation through a helpful Discord community. Roop aims to positively impact the AI-generated media industry while enforcing ethical usage guidelines.",Roop is a powerful video face swapper and enhancer software that continues to work despite being discontinued. Learn how to install and use the tool through a helpful Discord community. Follow ethical guidelines to ensure responsible usage of the software for positive contributions to the AI-generated media industry.,Computer Vision,222 stars this week,,,24075,2023-05-28T14:37:54Z
+2024-02-29,https://github.com/OpenCodeInterpreter/OpenCodeInterpreter,https://raw.githubusercontent.com/OpenCodeInterpreter/OpenCodeInterpreter/main/README.md,"OpenCodeInterpreter integrates code generation with execution and refinement, enhancing capabilities by combining large language models with sophisticated systems like GPT-4 Code Interpreter. The suite includes various models that have been open-sourced on Hugging Face. Data collection involves interactions and feedback from the Code-Feedback dataset to refine code dynamically. Evaluation employs frameworks like HumanEval and MBPP, with extended versions for comprehensive assessment. An open-source demo allows users to generate and execute code with a locally trained language model, providing automated feedback and adjusting code based on interactions. Detailed instructions are available to explore the demo and engage in chat-based interactions with the model. For inquiries, contact via email.",OpenCodeInterpreter: Enhancing Code Generation with Execution and Refinement,"OpenCodeInterpreter is a suite of open-source code generation systems that integrate execution and iterative refinement functionalities to enhance code generation capabilities, bridging the gap between large language models and proprietary systems like the GPT-4 Code Interpreter. The models within the OpenCodeInterpreter series have been open-sourced on Hugging Face, offering access to a range of models for code generation. Data Collection for OpenCodeInterpreter is supported by the Code-Feedback dataset, which features multi-turn interactions for dynamic code refinement. The evaluation framework of OpenCodeInterpreter utilizes HumanEval and MBPP methods, along with their extended versions, for a more comprehensive assessment. Additionally, an open-source demo is available for users to generate and execute code with the LLM, providing automated execution feedback and chat-based interactions with the model.","Explore how OpenCodeInterpreter enhances code generation by integrating execution and iterative refinement functionalities. Learn about the open-source models on Hugging Face, data collection with the Code-Feedback dataset, evaluation methods using HumanEval and MBPP, and experience the capabilities of the demo for generating and executing code. Reach out to the team for inquiries and get involved in enhancing code generation processes!",Language Models.,"Python
+
+
+
+
+
+        935
+
+
+
+
+
+        134
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        62 stars today",,,935,2024-02-19T14:43:38Z
+2024-02-29,https://github.com/joaomdmoura/crewAI,https://raw.githubusercontent.com/joaomdmoura/crewAI/main/README.md,"The text is about **crewAI**, an advanced framework for managing autonomous AI agents collaboratively. It enables agents to work together on complex tasks by assuming roles, sharing goals, and operating seamlessly. The framework allows for installation and setup steps, creating agents with roles and goals, defining tasks, managing processes, and connecting agents to models like OpenAI or local models through tools. Key features include role-based agent design, autonomous task delegation, task management, saving output, parsing output, and compatibility with open-source models. CrewAI is compared to Autogen and ChatDev, highlighting its flexibility and adaptability. The text also covers contribution guidelines, hiring options, telemetry usage, and licensing.",Unlocking AI Collaboration with crewAI: A Cutting-Edge Framework for Agents,"crewAI is a cutting-edge framework designed to facilitate seamless collaboration among AI agents, enabling them to work together in a cohesive unit. Whether you're creating a smart assistant platform or a multi-agent research team, crewAI provides the foundation for sophisticated multi-agent interactions. With role-based agent design, autonomous delegation capabilities, and flexible task management, crewAI empowers agents to tackle complex tasks effectively. Explore how crewAI compares to other AI frameworks and learn how to connect your crew to different Language Model Models (LLMs). Join us in harnessing the power of collaborative intelligence with crewAI!","Discover crewAI, a state-of-the-art framework that enables AI agents to collaborate effectively. Learn about role-based agent design, autonomous delegation, and task management features. Find out how crewAI stands out among other AI frameworks and how to connect your crew to LLMs. Unleash the potential of collaborative intelligence with crewAI!",Collaborative AI Framework,"Python
+
+
+
+
+
+        8,540
+
+
+
+
+
+        953
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        86 stars today",https://raw.githubusercontent.com/joaomdmoura/crewAI/main/./docs/crewai_logo.png; https://img.youtube.com/vi/tnejrr-0a94/maxresdefault.jpg; https://img.youtube.com/vi/u98wEMz-9to/maxresdefault.jpg; https://img.youtube.com/vi/xis7rWp-hjs/maxresdefault.jpg; https://img.youtube.com/vi/e0Uj4yWdaAg/maxresdefault.jpg,https://www.youtube.com/watch?v=tnejrr-0a94; https://www.youtube.com/watch?v=u98wEMz-9to; https://www.youtube.com/watch?v=xis7rWp-hjs; https://www.youtube.com/watch?v=e0Uj4yWdaAg,8540,2023-10-27T03:26:59Z
+2024-02-29,https://github.com/SciPhi-AI/R2R,https://raw.githubusercontent.com/SciPhi-AI/R2R/main/README.md,"The text introduces the R2R framework, designed for deploying robust RAG systems. R2R offers a semi-opinionated approach to simplify deployment, adaptation, and maintenance of RAG pipelines for production. It aims to enhance ease of use and effectiveness in the industry. The framework provides a quick install guide using pip and offers basic examples for application deployment and interaction. Further, it includes a demo for visual intelligence and provides detailed steps for a full install using Poetry. Key features include rapid deployment, flexible standardization, easy modification, versioning, extensibility, OSS community support, and deployment assistance. Core abstractions focus on Ingestion, Embedding, RAG, and Eval Pipelines, each supported by a logging database for observability.",R2R: Production-ready RAG Systems - Simplifying Deployment and Maintenance,"R2R is a semi-opinionated framework designed to bridge the gap between experimental RAG models and robust, production-ready systems. Offering a straightforward path to deploy, adapt, and maintain RAG pipelines in production, R2R prioritizes simplicity and practicality to set a new industry benchmark. With core abstractions focused on Ingestion, Embedding, RAG, and Evaluation Pipelines, it ensures rapid deployment, flexible standardization, and easy modification while supporting extensibility and versioning for reproducibility and traceability. Built for the OSS community, R2R facilitates quick integration with various VectorDBs, LLMs, and Embeddings Models, making it suitable for startups and enterprises seeking to build and deploy RAG systems end-to-end.","Explore R2R, a semi-opinionated RAG framework that simplifies the deployment and maintenance of production-ready systems. With core abstractions centered around Ingestion, Embedding, RAG, and Evaluation Pipelines, R2R offers rapid deployment, flexible standardization, and easy modification. Built for the OSS community, it supports extensibility and versioning, making it ideal for startups and enterprises looking to build and deploy RAG systems with ease.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        737
+
+
+
+
+
+        50
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        158 stars today",https://raw.githubusercontent.com/SciPhi-AI/R2R/main/./docs/pages/getting-started/demo_screenshot.png,,738,2024-02-12T03:24:27Z
+2024-02-29,https://github.com/myshell-ai/MeloTTS,https://raw.githubusercontent.com/myshell-ai/MeloTTS/main/README.md,"The text provides information on MeloTTS, a high-quality multi-lingual text-to-speech library by MyShell.ai. It supports various languages with examples provided for each language. The library includes features like support for mixed Chinese and English, as well as fast CPU real-time inference. Usage instructions are provided both for quick use without installation and for local installation. The text also mentions opportunities to join the community through open-source AI grants and contributing to the repository. The library is licensed under the MIT License, allowing both commercial and non-commercial use. Acknowledgements are given to the sources on which the implementation is based.",Enhance Text-to-Speech with MeloTTS Library by MyShell.ai,"MeloTTS is a high-quality multi-lingual text-to-speech library developed by MyShell.ai. It supports various languages such as American English, British English, Indian English, Australian English, Spanish, French, Chinese, Japanese, and Korean. The library also offers features like mixed Chinese and English support and quick CPU real-time inference. Join the community to contribute to open-source AI projects and explore the usage options provided in the documentation.","Discover how MeloTTS, a powerful text-to-speech library by MyShell.ai, supports multiple languages and advanced features like mixed Chinese and English support. Join the community to contribute to open-source AI projects and explore various usage options available.",Language Models,"Python
+
+
+
+
+
+        633
+
+
+
+
+
+        67
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        102 stars today",,,633,2024-02-19T16:49:14Z
+2024-02-29,https://github.com/WongKinYiu/yolov9,https://raw.githubusercontent.com/WongKinYiu/yolov9/main/README.md,"The text discusses the implementation of YOLOv9, based on the paper ""YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information."" It provides performance metrics for different YOLOv9 models - YOLOv9-S, YOLOv9-M, YOLOv9-C, and YOLOv9-E on the MS COCO dataset. The models are evaluated in terms of Average Precision (AP) and Average Recall (AR) at various Intersection over Union (IoU) thresholds. It includes details on useful links, installation using Docker, evaluation with Python scripts, data preparation for training, single and multiple GPU training procedures, re-parameterization, citations, acknowledgments, and a teaser for YOLOR-Based Multi-Task Learning. The text also contains links to related repositories and code bases.",YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information,"Implementation of paper - YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information. This blogpost provides details on different YOLOv9 models (YOLOv9-S, YOLOv9-M, YOLOv9-C, YOLOv9-E) and their performance metrics based on MS COCO dataset. It includes useful links for custom training, ONNX export, TensorRT inference, C# inference, Hugging Face demo, CoLab demo, ONNXSlim export, YOLOv9 ByteTrack, YOLOv9 DeepSORT, YOLOv9 counting, and AnyLabeling tool. The blog also covers installation instructions, evaluation results, training processes, re-parameterization details, citation, teaser, and acknowledgements.","Learn about the YOLOv9 model, its variants, performance on MS COCO dataset, training processes, evaluation results, and useful links for custom training, export, inference, and deployment. Dive into re-parameterization, citation, acknowledgements, and get insights into YOLOR-Based Multi-Task Learning. Explore this comprehensive guide on implementing YOLOv9 for object detection tasks.",Computer Vision,"Python
+
+
+
+
+
+        5,642
+
+
+
+
+
+        678
+
+
+        Built by
+
+          
+
+
+
+
+
+        959 stars today",,,5642,2024-02-18T10:09:29Z
+2024-02-29,https://github.com/donnemartin/system-design-primer,https://raw.githubusercontent.com/donnemartin/system-design-primer/master/README.md,"The text is about the System Design Primer, a guide to help engineers learn how to design large-scale systems and prepare for system design interviews. It covers various topics such as scalability, load balancing, database management, and more. The guide emphasizes the importance of understanding system design principles and provides resources like Anki flashcards for retention. It also discusses concepts like CAP theorem, consistency patterns, and availability vs consistency trade-offs. The use of CDNs, load balancers, reverse proxies, and microservices are highlighted for scaling and improving system performance. Overall, it aims to help engineers build systems that can handle large loads efficiently.",Designing Large-Scale Systems: Scalability Principles and Patterns,"Learning how to design scalable systems will help you become a better engineer. System design is a broad topic with a vast amount of resources scattered throughout the web on system design principles. This organized collection of resources will help you learn how to build systems at scale. Whether you are preparing for a system design interview or looking to understand the complexities of large-scale systems, this blog post provides insights into scalability, availability, load balancing, and database management. Explore the trade-offs between performance vs scalability, consistency vs availability, and learn about key design patterns like master-slave replication, sharding, and more.","Learn how to design scalable systems with this comprehensive blog post covering key principles and patterns in system design. Explore trade-offs between performance and scalability, consistency and availability, and dive into important concepts like master-slave replication and sharding. Whether you are preparing for a system design interview or seeking to enhance your engineering skills, this resource provides valuable insights into building systems at scale.",System Design Education,"Python
+
+
+
+
+
+        247,760
+
+
+
+
+
+        42,526
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        125 stars today",https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/OfVllex.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/4edXG0T.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/jrUBAF7.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/bWxPtQA.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/V5q57vU.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/cdCv5g7.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/4j99mhe.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/MzExP06.png; https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/jj3A5N8.png,https://www.youtube.com/watch?v=ZgdS0EUmn70; https://www.youtube.com/watch?v=-W9F__D3oY4; https://www.youtube.com/watch?v=k-Yaq8AHlFA; https://www.youtube.com/watch?v=kKjm4ehYiMs; https://www.youtube.com/watch?v=kKjm4ehYiMs; https://www.youtube.com/watch?v=kKjm4ehYiMs; https://www.youtube.com/watch?v=qI_g07C_Q5I; https://www.youtube.com/watch?v=kKjm4ehYiMs; https://www.youtube.com/watch?v=1KRYH75wgy4; https://www.youtube.com/watch?v=PE4gwstWhmc; https://www.youtube.com/watch?v=b1e4t2k2KJY; https://www.youtube.com/watch?v=PE4gwstWhmc; https://www.youtube.com/watch?v=5cKTP36HVgI; https://www.youtube.com/watch?v=z8LU0Cj6BOU; https://www.youtube.com/watch?v=w5WVu624fY8,247760,2017-02-26T16:15:28Z
+2024-02-29,https://github.com/KillianLucas/open-interpreter,https://raw.githubusercontent.com/KillianLucas/open-interpreter/main/README.md,"The text describes the features of the Open Interpreter tool, which allows language models to run code locally. It highlights the ability to interact with the computer through natural language commands, such as creating and editing various files, controlling a browser, and analyzing datasets. The tool also provides a comparison to OpenAI's Code Interpreter and offers various commands and capabilities, including setting up local and online modes, customizing settings, starting a chat, and running a FastAPI server. The text emphasizes caution when running code and provides guidance on safety practices. Additionally, it encourages contributions from the community and outlines the project's roadmap.",Open Interpreter: Run Code with Language Models Locally,"Open Interpreter is a tool that lets language models run code locally, enabling users to interact with their computer's capabilities in a natural-language manner. With features like the Computer API and the `--os` flag, Open Interpreter introduces a new way to work with various tasks including creating and editing media, browsing, analyzing data, and more. Unlike hosted solutions, Open Interpreter runs in your local environment, providing full internet access and flexibility to use any package or library without limitations. The blogpost explains how Open Interpreter works, its interactive features, comparison to other tools, setup guides, safety measures, and the option to control it via HTTP REST endpoints.","Discover Open Interpreter, a local tool that enables language models to run code on your computer, providing full internet access and flexibility to execute tasks effortlessly. Learn about its features like the Computer API and interactive chat, compare it to other tools like Code Interpreter, understand its setup for different environments, and explore safety precautions to maintain control over code execution. See how Open Interpreter can enhance your workflow by harnessing the power of language models in a local development environment.",AI Coding Assistant,"Python
+
+
+
+
+
+        41,213
+
+
+
+
+
+        3,594
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        164 stars today",,,41213,2023-07-14T07:10:44Z
+2024-02-29,https://github.com/binary-husky/gpt_academic,https://raw.githubusercontent.com/binary-husky/gpt_academic/master/README.md,"The text provides information about the latest version updates of the GPT Academic project. It introduces new features such as Mermaid for drawing diagrams, real-time voice input, support for various language models like ChatGLM and MOSS, and the ability to translate PDF and Arxiv papers. The project also includes a Void Terminal for executing functions through natural language input and supports custom shortcuts and function plugins. The development history and version updates are outlined, and users are encouraged to join the developer community for further learning and support.","GPT Academic Updates: Mermaid Charts, ChatGLM3 Support, and More","GPT Academic introduces new features in version 3.70, including support for Mermaid charts for brain mapping, ChatGLM3, and other Chinese models. The latest update also enhances AutoGen plugin and introduces a Void Terminal feature where you can interact with the system in natural language. Learn how to customize new convenient buttons with academic shortcuts and develop your own function plugins easily. The development history of GPT Academic showcases continuous improvements in UI design, integration of powerful functions, and support for various AI models.","Discover the latest GPT Academic updates with Mermaid charts, ChatGLM3 support, and a Void Terminal feature. Learn how to customize academic shortcuts and develop function plugins easily. Explore the evolution of GPT Academic with continuous enhancements and support for various AI models.",Language Models,"Python
+
+
+
+
+
+        52,200
+
+
+
+
+
+        6,622
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        66 stars today",,,52201,2023-03-20T09:05:13Z
+2024-02-29,https://github.com/ronibandini/reggaetonBeGone,https://raw.githubusercontent.com/ronibandini/reggaetonBeGone/main/README.md,"The text describes a project called ""Reggaeton Be Gone"" that uses Machine Learning to detect reggaeton music and disable Bluetooth speakers. The project involves Raspberry Pi 3, DFRobot Oled 128x32 screen, push button, BT Audio Receiver 5.0, and jumper cables. The Machine Learning model is trained using the Edge Impulse platform. The full instructions for the project are available on Hackster.io. The connections for the components are detailed, and the project uses a specific Oled screen font. The creator of the project is Roni Bandini, who can be contacted on Twitter. Full details can be found at the provided links.",How to Detect Reggaeton with Machine Learning and Disable Bluetooth Speakers Tutorial,"Learn how to detect reggaeton music using Machine Learning and disable Bluetooth speakers with a Raspberry Pi 3 and DFRobot components. The model is trained using the Edge Impulse platform, and complete instructions can be found on Hackster.io. Connect the DFRobot OLED screen and push button to the Raspberry Pi GPIO pins for this fun project.",Discover how to identify reggaeton music genre using Machine Learning and block Bluetooth speakers using a Raspberry Pi and DFRobot components. Get step-by-step instructions on setting up the project. Dive into the world of edge computing and music detection in this exciting tutorial.,Machine Learning Music_detection,"Python
+
+
+
+
+
+        331
+
+
+
+
+
+        34
+
+
+        Built by
+
+          
+
+
+
+
+
+        64 stars today",,,331,2024-02-20T21:10:05Z
+2024-02-29,https://github.com/joaomdmoura/crewAI-examples,https://raw.githubusercontent.com/joaomdmoura/crewAI-examples/main/README.md,"The text provides examples for utilizing crewAI to enhance the collaboration of role-playing AI agents. It showcases different applications of the crewAI framework for automating various processes. The examples are categorized into Basic and Advanced Examples, including tasks such as creating job postings, trip planning, Instagram post creation, markdown validation, game generation, and utilizing Azure OpenAI API. There is also mention of starting your own example using the provided starter template. Advanced examples cover areas like stock analysis, landing page generation, and integrating crewAI with LangGraph. The text serves as a resource for users interested in leveraging crewAI for AI agent collaboration.",Examples of Using crewAI Framework for AI Automation | joaomdmoura,"crewAI is a tool created to enhance the cooperation among AI role-playing agents, providing a framework to automate various processes. The blog by [@joaomdmoura](https://x.com/joaomdmoura) showcases a range of examples demonstrating the versatility of crewAI. From fundamental tasks like job posting and trip planning to advanced projects such as stock analysis and landing page generation, the blog illustrates diverse applications of crewAI in AI automation.",Explore a collection of examples showcasing the application of crewAI framework for AI automation. Learn how to automate tasks with crewAI - from basic ones like job posting and trip planning to advanced projects including stock analysis and landing page generation. Read more at the blog by [@joaomdmoura](https://x.com/joaomdmoura).,Collaborative AI Framework.,"Python
+
+
+
+
+
+        857
+
+
+
+
+
+        236
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",,,857,2023-12-19T11:46:48Z
+2024-02-29,https://github.com/MrMimic/data-scientist-roadmap,https://raw.githubusercontent.com/MrMimic/data-scientist-roadmap/master/README.md,"The text discusses a data science skills roadmap created by Swami Chandrasekaran, shared on his blog. It highlights the increasing popularity of data science jobs and the availability of tutorials to guide individuals interested in learning about this field. The roadmap emphasizes the use of Wikipedia and LLMs for resources and encourages collaboration through forking the repository and making pull requests. The guidelines include commenting on code, maintaining a specific file structure, and sharing helpful links in README files. Overall, the text presents a structured approach for beginners to start their journey in data science.",Ultimate Data Scientist Roadmap for Aspiring Data Science Professionals,"I just found this data science skills roadmap, drawn by Swami Chandrasekaran on his cool blog. Jobs linked to data science are becoming more and more popular. A bunch of tutorials could easily complete this roadmap, helping whoever wants to start learning stuff about data science. For the moment, a lot is got on Wikipedia or generated by LLMs (except for codes, always handmade). Any help's thus welcome!","Discover the ultimate data scientist roadmap created by Swami Chandrasekaran to guide aspiring data science professionals. Explore the growing popularity of data science jobs and the resources available to start learning about data science. Join the community, contribute, and enhance your skills in this exciting field.",Data Science Learning,"Python
+
+
+
+
+
+        6,704
+
+
+
+
+
+        1,859
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        29 stars today",http://nirvacana.com/thoughts/wp-content/uploads/2013/07/RoadToDataScientist1.png,,6704,2017-06-05T06:30:08Z
+2024-02-29,https://github.com/state-spaces/mamba,https://raw.githubusercontent.com/state-spaces/mamba/main/README.md,"The text discusses Mamba, a linear-time sequence modeling architecture based on selective state spaces. This model is designed for dense data like language modeling and is more efficient than previous subquadratic models. It utilizes a structured state space model approach and has efficient hardware-aware design similar to FlashAttention. Installation requirements include specific PyTorch versions, CUDA, and NVIDIA GPU. The interface exposes features like Selective SSM layer and Mamba Block. Pretrained models are available, trained on the Pile dataset. Evaluations and benchmarks are provided to analyze model performance. Troubleshooting tips and a citation are also included.",Mamba: Linear-Time Sequence Modeling with Selective State Spaces - Overview and Installation Guide,"Mamba is a novel state space model architecture designed for information-dense data like language modeling. It offers efficient hardware-aware design, with performance surpassing traditional subquadratic models. The blog post covers the model's structure, installation process, usage examples, and pre-trained models available. It also provides guidance on evaluations, troubleshooting tips, and a citation reference.","Learn about Mamba, a state space model architecture focused on language modeling efficiency. This blog post includes installation instructions, usage examples, pre-trained model details, evaluations, troubleshooting tips, and a citation guide for referencing the work.",Language Models,"Python
+
+
+
+
+
+        7,037
+
+
+
+
+
+        553
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        72 stars today",,,7038,2023-12-01T01:17:39Z
+2024-02-29,https://github.com/Azure/PyRIT,https://raw.githubusercontent.com/Azure/PyRIT/main/README.md,"The Python Risk Identification Tool (PyRIT) is an automation framework created to aid security professionals and ML engineers in assessing the robustness of their AI models against various types of harmful content such as bias, harassment, and fabrication. PyRIT automates tasks related to AI red teaming, enabling operators to focus on complex tasks while identifying security and privacy risks like malware generation and identity theft. Researchers can use PyRIT to establish a performance baseline for their models, track improvements, and enhance mitigations against different harms. Microsoft is utilizing PyRIT for product iterations and protection against prompt injection attacks. More information on PyRIT can be found on Microsoft Learn and in the project's documentation.",Python Risk Identification Tool for generative AI (PyRIT) - Empowering Security Professionals and ML Engineers,"The Python Risk Identification Tool for generative AI (PyRIT) is a powerful automation framework developed to enhance the assessment of model robustness. PyRIT assists in identifying and combating various security harms such as fabrication, misuse, and prohibited content. By automating AI Red Teaming tasks, PyRIT enables researchers to focus on complex assignments and detect security and privacy vulnerabilities. Researchers can utilize PyRIT to establish a performance baseline and enhance mitigation strategies for different harm categories.","Learn how PyRIT, a Python Risk Identification Tool for generative AI, empowers security professionals and ML engineers to assess model robustness. Automate AI Red Teaming tasks, focus on complex assignments, and detect security and privacy vulnerabilities effectively with PyRIT.",AI Red Teaming,"Python
+
+
+
+
+
+        945
+
+
+
+
+
+        180
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        189 stars today",https://github.com/Azure/PyRIT/blob/main/assets/pyrit_architecture.png,,945,2023-12-12T15:46:28Z
+2024-02-29,https://github.com/prowler-cloud/prowler,https://raw.githubusercontent.com/prowler-cloud/prowler/master/README.md,"The text provides information about Prowler, an Open Source security tool for assessing and monitoring security practices on AWS, GCP, Azure, and Kubernetes. It covers multiple compliance frameworks and categories, offering detailed checks for each provider. The tool can be installed via Pip package, containers, or Github. It requires proper authentication and permissions for AWS, Azure, and Google Cloud Platform. Prowler generates reports in various formats and allows users to customize checks configurations. Detailed usage instructions for executing specific checks/services and modifying configurations are provided. Prowler is licensed under Apache License 2.0.",Enhance Cloud Security with Prowler's Dynamic Assessments,"""Prowler SaaS and Prowler Open Source are as dynamic and adaptable as the environment they’re meant to protect. Trusted by the leaders in security. Learn more at prowler.com. Prowler is an Open Source security tool to perform AWS, GCP and Azure security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains hundreds of controls covering various compliance frameworks and categories from AWS, GCP, Azure, and Kubernetes. The full documentation can now be found at https://docs.prowler.com/projects/prowler-open-source/en/latest/.""","Learn how Prowler, an Open Source security tool, can enhance the security of your cloud infrastructure with dynamic assessments, best practices audits, incident response, and more. Discover hundreds of controls covering various compliance frameworks and categories. Find out more at prowler.com.",Cybersecurity Tool,"Python
+
+
+
+
+
+        9,219
+
+
+
+
+
+        1,340
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",,,9219,2016-08-24T15:12:24Z
+2024-02-29,https://github.com/mistralai/client-python,https://raw.githubusercontent.com/mistralai/client-python/main/README.md,"The Mistral Python Client is developed based on the cohere-python project. You can easily interact with the Mistral AI API by installing the client using pip. The client relies on `poetry` for managing dependencies and setting up a virtual environment. To run the examples provided in the `examples/` directory, you can use `poetry run` or enter the virtual environment with `poetry shell`. To use the client, you need to obtain a Mistral API key, set it as an environment variable, and then you can run the examples like `python chat_no_streaming.py`. The integration provides an easy way to leverage the Mistral AI capabilities through Python scripting.",How to Use the Mistral Python Client for Mistral AI API,"Learn how to interact with Mistral AI API using the Mistral Python client, inspired by cohere-python. Install the client through pip or from source using poetry. Set up your API key and run examples from the provided directory using poetry run or poetry shell.","Discover how to leverage the Mistral Python client to access Mistral AI API with ease. Follow step-by-step instructions to install the client, set up your API key, and run examples seamlessly. Enhance your AI projects today!",AI Python Client,"Python
+
+
+
+
+
+        322
+
+
+
+
+
+        45
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,,322,2023-12-07T10:09:51Z
+2024-02-29,https://github.com/wagtail/wagtail,https://raw.githubusercontent.com/wagtail/wagtail/main/README.md,"Wagtail is an open source content management system built on Django. It offers precise control for designers and developers, with features like a fast interface, control over design, scalability, content API, powerful search, and multi-site readiness. It runs on Python 3 and supports multiple platforms. Organizations like NASA, Google, and more use Wagtail. The full documentation for Wagtail is available at docs.wagtail.org. There is active community support on Stack Overflow and Slack, and commercial support is provided by Torchbox. Security is taken seriously, and Wagtail follows a strict release schedule with regular updates. The project is licensed under BSD.",Introducing Wagtail: A Powerful open-source CMS built on Django,"Wagtail is an open source content management system built on Django, with a strong community and commercial support. It's focused on user experience, and offers precise control for designers and developers. Features include fast and attractive interface, complete control over front-end design, scalability, powerful search, and multi-site readiness. Wagtail is trusted by organizations like NASA, Google, and more. Explore more at wagtail.org.","Discover Wagtail, a user-friendly open-source CMS built on Django with features like fast interface, powerful search, and multi-site readiness. Trusted by organizations like NASA and Google. Learn more at wagtail.org.",Software Development,"Python
+
+
+
+
+
+        16,849
+
+
+
+
+
+        3,587
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://cdn.jsdelivr.net/gh/wagtail/wagtail@main/.github/wagtail-screenshot-with-browser.png; https://raw.githubusercontent.com/wagtail/wagtail/main/.github/install-animation.gif; https://raw.githubusercontent.com/wagtail/wagtail/main/.github/join-slack-community.png; https://cdn.jsdelivr.net/gh/wagtail/wagtail@main/.github/assistivlabs-logo.png,,16849,2014-02-03T12:41:59Z
+2024-02-29,https://github.com/gpt-engineer-org/gpt-engineer,https://raw.githubusercontent.com/gpt-engineer-org/gpt-engineer/main/README.md,"GPT-Engineer is an AI-powered tool that allows users to specify software requirements in natural language and then generates and executes the corresponding code. Users can also ask the AI to make improvements to the code. The tool supports Python versions 3.10 to 3.12 and offers various installation options. It requires an API key for operation and provides different ways to run the tool, including using Docker. The project aims to maintain coding tools for building AI agents and encourages collaboration within the open-source community. Users interested in contributing can refer to the roadmap and join the Discord community for guidance on how to get involved.",Automating Software Development with GPT-Engineer: A Comprehensive Guide,"GPT-engineer is a powerful tool that allows you to specify software in natural language and witness an AI write and execute the code for you. With GPT-Engineer, you can easily ask the AI to implement improvements, making your development process more efficient and productive. Learn how to get started by installing GPT-engineer and setting up your API key. Explore various ways to run GPT-Engineer, create new code, and improve existing projects. Join the gpt-engineer community to contribute and be a part of the open-source mission.","Discover the power of GPT-Engineer in automating software development. Learn how to specify software in natural language, let AI write and execute code, and implement improvements effortlessly. Join the open-source community, get started with installation, and leverage the tool for enhanced coding experiences.",AI Coding Assistant,"Python
+
+
+
+
+
+        49,317
+
+
+
+
+
+        6,392
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        30 stars today",,,49317,2023-04-29T12:52:15Z
+2024-02-29,https://github.com/Clouditera/SecGPT,https://raw.githubusercontent.com/Clouditera/SecGPT/main/README.md,"The text introduces SecGPT, a large model aimed at incorporating artificial intelligence technology into the field of cybersecurity to enhance network defense efficiency and effectiveness. SecGPT can be used for various cybersecurity tasks such as vulnerability analysis, trace analysis, traffic analysis, threat assessment, command interpretation, and cybersecurity knowledge Q&A. It features self-training code for memory savings, high-quality cybersecurity training sets, DPO reinforcement learning, and unrestricted GPT modeling for in-depth analysis. The model is open-source, providing training codes and datasets for users to train their own large-scale cybersecurity models. Users are advised to carefully evaluate and use the generated content when utilizing the model.",Exploring SecGPT: Advancing Network Security with Large Models,"SecGPT aims to bring AI technology into the field of network security to enhance defense efficiency and effectiveness. It serves as a foundational security model for various network security tasks, such as vulnerability analysis, forensics, traffic analysis, attack assessment, command interpretation, and cybersecurity knowledge Q&A. Unlike other open-source models, SecGPT offers unique features like self-written training code for memory savings, high-quality security training datasets, DPO reinforcement learning, and ethical unrestricted analysis capabilities.","Discover how SecGPT leverages AI technology in network security, contributing to better cybersecurity defenses. Learn about its applications in vulnerability analysis, forensics, traffic analysis, and more. Uncover the unique features of SecGPT like self-written training code, high-quality datasets, and DPO reinforcement learning.",Cybersecurity Tool,"Python
+
+
+
+
+
+        807
+
+
+
+
+
+        111
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        23 stars today",https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/640.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/641.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/6402.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/640%203.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/640%204.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/640%205.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/6406.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/640%207.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/640%208.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/640%209.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/61.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/62.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/63.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/64.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/image-2.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/image-3.png; https://raw.githubusercontent.com/Clouditera/SecGPT/main/images/image-4.png,,807,2023-11-20T05:41:24Z
+2024-02-29,https://github.com/rany2/edge-tts,https://raw.githubusercontent.com/rany2/edge-tts/master/README.md,"`edge-tts` is a Python module that enables the use of Microsoft Edge's online text-to-speech service. It provides commands like `edge-tts` and `edge-playback` for Python developers to integrate this service into their code. The installation can be done via pip or pipx. Basic usage involves generating speech using specified text and output options. One can also change the voice, adjust speech rate, volume, and pitch. The `edge-playback` command facilitates immediate playback of generated speech. Custom SSML support has been discontinued. The module can be directly used in Python scripts for various applications as demonstrated in the provided examples.",Using Microsoft Edge Online Text-to-Speech with edge-tts Python Module,"`edge-tts` is a Python module that enables utilizing Microsoft Edge's online text-to-speech service directly in Python code or via the `edge-tts` and `edge-playback` commands. To install, use `pip` or `pipx` for command line usage. Explore various options like changing voices, adjusting rate/volume/pitch, and utilizing the Python module directly. Learn more about the commands, voice customization, and usage examples in the blogpost.","Learn how to integrate Microsoft Edge's online text-to-speech service into your Python projects with the `edge-tts` module. Install and use the commands, customize voices, adjust speech characteristics, and discover Python module usage examples in this comprehensive guide.",AI Python Client,"Python
+
+
+
+
+
+        2,905
+
+
+
+
+
+        313
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",,,2905,2021-05-10T18:55:14Z
+2024-02-29,https://github.com/Fanghua-Yu/SUPIR,https://raw.githubusercontent.com/Fanghua-Yu/SUPIR/master/README.md,"The text discusses a project called SUPIR, focusing on model scaling for photo-realistic image restoration. The project involves a team from various institutions and labs, working on enhancing image quality in real-world settings. It emphasizes high RAM and VRAM costs, requiring an online demo. The process involves cloning the repository, installing dependencies, and downloading checkpoints. Different models are provided for training settings. The text explains usage instructions for SUPIR, including quick inference and Python script examples. It also mentions an upcoming online demo. Additionally, it provides contact information and a declaration for non-commercial use of the software.",Scaling Up to Excellence: Model Scaling for Photo-Realistic Image Restoration - CVPR2024,"The blog post discusses the practice of model scaling for photo-realistic image restoration in the wild, focusing on the SUPIR project. It covers the dependencies and installation steps, including cloning the repository, installing dependent packages, and downloading checkpoints. The post also provides information on dependent models, custom path editing for checkpoints, quick inference methods, usage of SUPIR, and Python scripts for different scenarios. Additionally, it mentions online demo availability and includes BibTeX citation for reference.","Explore the practice of model scaling for photo-realistic image restoration in the wild with the SUPIR project. Learn about installation steps, dependent models, quick inference methods, Python scripts, and more. Check out the BibTeX citation and ways to contact the developers for non-commercial use. Stay tuned for the online demo release!",Computer Vision,"Python
+
+
+
+
+
+        1,830
+
+
+
+
+
+        129
+
+
+        Built by
+
+          
+
+
+
+
+
+        71 stars today",,,1830,2023-12-21T11:23:35Z
+2024-02-29,https://github.com/LiheYoung/Depth-Anything,https://raw.githubusercontent.com/LiheYoung/Depth-Anything/main/README.md,"The text provides an overview of ""Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data."" The project aims to enhance robust monocular depth estimation by training on a mix of 1.5M labeled images and over 62M unlabeled images. Noteworthy features include relative depth estimation, metric depth estimation with strong capabilities, a better depth-conditioned ControlNet, and downstream high-level scene understanding. The text showcases the project's performance compared to the earlier MiDaS model, highlighting key metrics. Pre-trained models are offered in different scales for relative depth estimation. The text also mentions details on installation, running the project, and resources for further community support. It concludes with acknowledgments and a citation request.",Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data,"This work presents Depth Anything, a highly practical solution for robust monocular depth estimation by training on a combination of 1.5M labeled images and 62M+ unlabeled images. It emphasizes on features like Relative depth estimation, Metric depth estimation, Better depth-conditioned ControlNet, and Downstream high-level scene understanding. The blogpost also includes a comparison of Depth Anything performance with the MiDaS model, information on pre-trained models, installation instructions, running details, and community support acknowledgements.","Discover Depth Anything, a powerful solution for monocular depth estimation using a mix of labeled and unlabeled data. Explore its features, performance comparisons, pre-trained models, installation instructions, and community support. Unleash the potential of large-scale unlabeled data with Depth Anything.",Self-Supervised Learning Architecture.,"Python
+
+
+
+
+
+        4,807
+
+
+
+
+
+        318
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        34 stars today",https://raw.githubusercontent.com/LiheYoung/Depth-Anything/main/assets/teaser.png,,4807,2024-01-22T01:09:25Z
