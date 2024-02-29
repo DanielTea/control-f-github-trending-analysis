@@ -9,10 +9,19 @@
             background-color: #EBFC72; /* Background color */
             color: black; /* Text color */
             display: flex;
-            justify-content: center;
+            flex-direction: column; /* Ensure elements are stacked vertically */
             align-items: center;
             min-height: 100vh; /* Full viewport height */
+            width: 100%; /* Ensure body takes full width of the viewport */
             margin: 0; /* Remove default margin */
+        }
+        header {
+            text-align: center; /* Center the header content */
+            width: 100%; /* Ensure header spans the full width */
+            padding: 20px 0; /* Add some padding */
+            background-color: black; /* Slightly different background for contrast */
+            margin-bottom: 20px; /* Separate the header from the content below */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add a subtle shadow for depth */
         }
         #blog-posts {
             display: flex;
@@ -20,6 +29,7 @@
             align-items: center;
             width: 80%; /* Adjust based on preference */
             max-width: 800px; /* Adjust based on preference */
+            margin-top: 20px; /* Additional spacing from the header */
         }
         .summary {
             border: 2px solid black; /* Black border */
@@ -39,10 +49,15 @@
 </head>
 <body>
 
+<header>
+    <h1 style="color: #EBFC72;"><a href="https://www.controlf.io" style="color: #EBFC72;">Trending AI // GITHUB</a></h1>
+</header>
+
 <div id="blog-posts"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.0.2/papaparse.min.js"></script>
 <script>
+
 fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main/trending_repositories_summary.csv')
     .then(response => response.text())
     .then(csvText => {
