@@ -597,3 +597,496 @@ For more detailed information, updates, and interactions with the open-source co
 
 
         34 stars today",https://raw.githubusercontent.com/LiheYoung/Depth-Anything/main/assets/teaser.png,,4807,2024-01-22T01:09:25Z
+2024-02-29,https://github.com/Eladlev/AutoPrompt,https://raw.githubusercontent.com/Eladlev/AutoPrompt/main/README.md,"The text provides an overview of the AutoPrompt framework, a tool designed to enhance and refine prompts for real-world applications. AutoPrompt employs a calibration process to generate high-quality prompts tailored to user intentions, addressing issues such as prompt sensitivity and ambiguity. The system is applicable to tasks like moderation and content generation, with the ability to optimize prompts efficiently. The framework supports various open-source tools and LLM providers for flexible integration. Users can follow the setup instructions to configure their system, set budget limits, and run prompt optimization pipelines. The project is open for contributions and is licensed under Apache 2.0. For further details, the full text and references are provided in the document.",Enhance Prompt Engineering with AutoPrompt: A Framework for Optimizing Prompts,"Auto Prompt is a prompt optimization framework designed to enhance and perfect prompts for real-world use cases. The framework generates high-quality prompts tailored to user intentions through a sophisticated calibration process. Addressing prompt sensitivity and ambiguity issues, Auto Prompt empowers users to create robust prompts with minimal effort. The system implements an Intent-based Prompt Calibration method, refining prompts based on user-provided inputs and task descriptions. By combining synthetic data generation and prompt optimization, Auto Prompt outperforms traditional methods while ensuring efficient performance enhancements.","Learn how AutoPrompt, a prompt optimization framework, refines and perfects prompts for real-world scenarios. Empower users to create robust prompts with minimal effort and address prompt sensitivity and ambiguity. Discover how AutoPrompt's Intent-based Prompt Calibration method improves prompt performance and generates high-quality prompts tailored to user intentions.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        897
+
+
+
+
+
+        62
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        176 stars today",https://raw.githubusercontent.com/Eladlev/AutoPrompt/main/./docs/AutoPrompt_Diagram.png; https://raw.githubusercontent.com/Eladlev/AutoPrompt/main/./docs/autoprompt_recording.gif,,897,2023-12-02T18:45:14Z
+2024-02-29,https://github.com/Avaiga/taipy,https://raw.githubusercontent.com/Avaiga/taipy/master/README.md,"Taipy is an open-source Python library for application development that integrates data and AI algorithms into production-ready web apps. It features what-if analyses, smart pipeline execution, built-in scheduling, and deployment tools. Designed for data scientists and machine learning engineers, Taipy enables building full-stack apps without the need for learning additional languages or frameworks. It includes a Python-based UI framework, pre-built components for data pipelines, scenario and data management features, version management, and pipeline orchestration tools. The tool allows users to easily create scenarios and manage data, such as filtering movie data based on selected genres. Taipy Cloud offers easy deployment options, and there are opportunities for contributing to the project.",Developing Production-Ready Web Apps with Taipy: Data and AI Algorithms in Action,"Taipy is an open-source Python library designed for easy, end-to-end application development, emphasizing what-if analyses, smart pipeline execution, built-in scheduling, and deployment tools. It enables data scientists and ML engineers to build full-stack apps without needing to learn new languages or frameworks, focusing on Data and AI algorithms. With features like Python-Based UI Framework, Pre-Built Components for Data Pipelines, Scenario and Data Management, and Version Management, Taipy simplifies the process of building production-ready web applications. Discover how to filter movie data based on genre using Taipy, create full-stack applications, and deploy your Taipy applications effortlessly with Taipy Cloud.","Learn how to leverage Taipy, an open-source Python library, to develop production-ready web applications with data and AI algorithms. Discover features like Python-Based UI Framework, Pre-Built Components for Data Pipelines, Scenario and Data Management, and Version Management. Explore a practical demo on filtering movie data by genre using Taipy and deployment options with Taipy Cloud.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        6,515
+
+
+
+
+
+        410
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        361 stars today",https://github.com/Avaiga/taipy/raw/develop/readme_img/readme_demo_studio.gif; https://github.com/Avaiga/taipy/raw/develop/readme_img/readme_cloud_demo.gif,,6515,2022-02-18T15:55:45Z
+2024-02-29,https://github.com/microsoft/unilm,https://raw.githubusercontent.com/microsoft/unilm/master/README.md,"The text provides information about large-scale self-supervised pre-training across different tasks, languages, and modalities. It includes details on hiring opportunities, foundation architectures like TorchScale, and various foundation models such as Foundation Transformers and Length-Extrapolatable Transformers. It also mentions model architectures like BitNet, RetNet, and LongNet, as well as applications in language understanding, generation, image analysis, speech, and multimodal tasks. Additionally, it highlights recent releases, model advancements, and links to relevant repositories and resources. For further details, you can refer to the full text or contact the provided email address for inquiries.",Revolutionizing Foundation Models and Architectures: A Deep Dive into TorchScale and New Innovations,"Discover the latest advancements in foundation models and architectures with TorchScale, a library focusing on modeling generality, stability, and efficiency. Explore cutting-edge technologies like DeepNet, Foundation Transformers, Length-Extrapolatable Transformers, and X-MoE. Uncover the groundbreaking BitNet, RetNet, and LongNet in the realm of model architecture revolution. Delve into the evolution of Multimodal LLM with models like Kosmos and MetaLM, enabling general-purpose modeling across various modalities.","Learn about the latest innovations in foundation models and architectures with TorchScale and explore technologies like DeepNet, Foundation Transformers, and X-MoE. Discover advancements such as BitNet, RetNet, and LongNet, and delve into the domain of Multimodal LLM with models like Kosmos and MetaLM.",Self-Supervised Learning Architecture.,"Python
+
+
+
+
+
+        17,372
+
+
+
+
+
+        2,261
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        95 stars today",,,17372,2019-07-23T04:15:28Z
+2024-02-29,https://github.com/pytorch/examples,https://raw.githubusercontent.com/pytorch/examples/main/README.md,"The text provides information about the PyTorch Examples repository, showcasing various examples using PyTorch. The repository aims to offer curated, high-quality examples with minimal dependencies for diverse use cases. It includes models for image classification, natural language processing, generative models, reinforcement learning, neural style transfer, and more. Aside from the core examples within the repo, it also suggests external repositories for additional models. The text also mentions related resources like tutorials, model hub, production recipes, and support channels. It encourages contributions and provides guidelines for anyone willing to contribute examples or fix issues. The examples cover a wide range of applications and learning scenarios.",Explore PyTorch Examples for High-Quality Deep Learning Models,"`pytorch/examples` is a repository showcasing examples of using PyTorch with curated, high-quality models and diverse applications such as image classification, language modeling, and reinforcement learning. Find tutorials, ready-to-use models, and contributions guidelines for your own examples. Discover advanced techniques like generative adversarial networks and variational auto-encoders implemented in PyTorch.","Discover a curated repository of high-quality PyTorch examples showcasing deep learning models for various tasks like image classification, language modeling, and reinforcement learning. Explore tutorials, pre-trained models, and guidelines for contributing your own examples to the PyTorch community.",Deep Learning Platform,"Python
+
+
+
+
+
+        21,466
+
+
+
+
+
+        9,398
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",,,21466,2016-08-24T03:12:48Z
+2024-02-29,https://github.com/qnguyen3/chat-with-mlx,https://raw.githubusercontent.com/qnguyen3/chat-with-mlx/main/README.md,"The text describes a repository featuring a Retrieval-augmented Generation (RAG) chat interface that supports various open-source models. It allows users to chat using different types of data like doc, pdf, txt, and YouTube videos. The installation can be done via Pip or manually through Git and Conda. Users can add their own models by configuring a .yaml file. The MLX framework mentioned supports machine learning research on Apple silicon, providing familiar APIs, lazy computation, dynamic graph construction, and more. The text acknowledges the Apple Machine Learning Research team, LangChain, ChromaDB, and other teams for their contributions. The repository's star history chart is also provided.",Native RAG on MacOS and Apple Silicon with MLX 🧑‍💻 | Chat with MLX,"This repository showcases a Retrieval-augmented Generation (RAG) chat interface with support for multiple open-source models. Chat with your Data: doc(x), pdf, txt and YouTube video via URL. Multilingual support. Easy integration with HuggingFace and MLX Compatible Open-Source Models. Installation and usage instructions for both Pip and Conda. Add your own models using provided solutions. Known issues and tips for using the MLX chat app. Reasoning behind MLX framework and acknowledgements.","Discover how to use Retrieval-augmented Generation (RAG) chat interface on MacOS and Apple Silicon using MLX. Chat with MLX supports various open-source models and allows easy integration with HuggingFace models. Learn how to install and use the chat app, add your own models, and understand the benefits of MLX framework. Find tips for resolving known issues and explore acknowledgements in the MLX community.",Natural Language Processing,"Python
+
+
+
+
+
+        433
+
+
+
+
+
+        37
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        180 stars today",https://raw.githubusercontent.com/qnguyen3/chat-with-mlx/main/assets/chat-w-mlx.gif,,433,2024-02-16T13:59:06Z
+2024-02-29,https://github.com/NUS-HPC-AI-Lab/OpenDiT,https://raw.githubusercontent.com/NUS-HPC-AI-Lab/OpenDiT/master/README.md,"OpenDiT is an open-source project focusing on enhancing the efficiency of training and inference for Diffusion Transformers (DiT) applications, such as text-to-video and text-to-image generation. It offers performance boosts through techniques like kernel optimization, hybrid parallelism, and FastSeq for large sequences. OpenDiT provides an easy-to-use platform with a complete pipeline for various tasks. The installation process involves setting up prerequisites, installing ColossalAI, and OpenDiT, along with optional speed-up libraries. The usage guide covers training and inference for both image and video tasks, with detailed commands and options. FastSeq, a novel sequence parallelism method, is introduced to optimize training for DiT models. Additionally, reproducibility results and acknowledgements are provided in the documentation. The codebase is available on GitHub for contributions, and citation information is provided for referencing the project.",OpenDiT: A High-Performance System for DiT Training and Inference,"OpenDiT is an open-source project designed to enhance the efficiency of training and inference for Diffusion Transformer applications, such as text-to-video and text-to-image generation. It offers performance boosts through techniques like speed optimizations, hybrid parallelism methods, and ease of use. The system also provides a complete pipeline for text-to-image and text-to-video generation, making it easy for researchers and engineers to adapt for real-world applications. Stay tuned for more features and updates!","Explore OpenDiT, an open-source project tailored for efficient training and inference of Diffusion Transformers. Discover techniques like speed optimizations and hybrid parallelism methods to enhance performance. Easily create text-to-image and text-to-video applications with OpenDiT's complete pipeline. Join us on GitHub and get ready for upcoming features!",Collaborative AI Framework.,"Python
+
+
+
+
+
+        514
+
+
+
+
+
+        22
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        154 stars today",https://raw.githubusercontent.com/NUS-HPC-AI-Lab/OpenDiT/master/./figure/fastseq_overview.png; https://raw.githubusercontent.com/NUS-HPC-AI-Lab/OpenDiT/master/./figure/fastseq_exp.png; https://raw.githubusercontent.com/NUS-HPC-AI-Lab/OpenDiT/master/./figure/dit_results.png; https://raw.githubusercontent.com/NUS-HPC-AI-Lab/OpenDiT/master/./figure/dit_loss.png,,514,2024-02-17T08:40:35Z
+2024-02-29,https://github.com/evo-design/evo,https://raw.githubusercontent.com/evo-design/evo/main/README.md,"Evo is a biological foundation model designed for long-context modeling and design, utilizing the StripedHyena architecture for sequence modeling at a single-nucleotide, byte-level resolution. It boasts 7 billion parameters and is trained on the OpenGenome dataset. To use Evo, one can install it via `pip` or GitHub source, after ensuring the correct PyTorch version. Various example scripts demonstrate Evo's capabilities, including generating sequences, folding proteins, and scoring log-likelihoods. Evo is integrated with HuggingFace and will soon be accessible through an API by TogetherAI. Please refer to the provided citation when mentioning Evo.",Sequence Modeling and Design with Evo: A Molecular to Genome Scale Approach,"Evo is a revolutionary biological foundation model with 7 billion parameters trained on the OpenGenome dataset. It enables long-context modeling and design using the StripedHyena architecture, offering near-linear scaling of compute and memory relative to context length. The model comes with checkpoints like 'evo-1-8k-base' and 'evo-1-131k-base' for different tasks, providing users with flexibility and efficiency. Evo supports various operations from sequence generation to scoring log-likelihoods, making it a versatile tool for molecular and genome-scale applications. Explore Evo's capabilities through HuggingFace integration and stay tuned for its upcoming availability via the TogetherAI API.","Discover Evo, a cutting-edge biological foundation model designed for sequence modeling and design from molecular to genome scale. Learn about the model's 7 billion parameters, training on OpenGenome data, and use of the StripedHyena architecture. Explore checkpoints like 'evo-1-8k-base' and 'evo-1-131k-base', along with examples of using Evo for tasks such as sequence generation and log-likelihood scoring. Integrated with HuggingFace and soon available through the TogetherAI API, Evo offers a wide range of functionalities for biological research and application.",Language Models,"Python
+
+
+
+
+
+        332
+
+
+
+
+
+        22
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        123 stars today",https://raw.githubusercontent.com/evo-design/evo/main/evo.jpg,,332,2024-02-17T19:11:33Z
+2024-02-29,https://github.com/pygments/pygments,https://raw.githubusercontent.com/bruin-data/ingestr/main/README.md,"Ingestr is a command-line application that simplifies data ingestion from any source to any destination without writing code. It offers features such as copying data, incremental loading options (append, merge, delete+insert), and single-command installation. Users can easily transfer data from sources like Postgres, BigQuery, Snowflake, Redshift, Databricks, and more to various destinations. The tool eliminates backend management complexity and coding requirements, allowing users to run commands to move data efficiently. To get started, users can install Ingestr via pip and follow a quickstart guide to ingest data from a source to a destination effortlessly. Furthermore, the Ingestr project acknowledges the contributions of the SQLAlchemy and dlt teams for their support in connecting to different data sources and destinations. More details are available in the documentation and the community Slack channel.",Ingest Data Easily with Ingestr: Code-Free Data Transfer Tool,"Ingestr is a command-line application that simplifies data ingestion from any source to any destination without the need for writing code. With features like incremental loading and single-command installation, Ingestr streamlines the data transfer process. Simply install Ingestr using 'pip install ingestr' and follow a quickstart command to start ingesting data effortlessly.","Discover Ingestr, a code-free data ingestion tool that allows seamless copying of data between various sources and destinations. Learn about the easy installation process and how to use Ingestr for your data transfer needs.",Data Ingestion Tool.,"Python
+
+
+
+
+
+        1,665
+
+
+
+
+
+        604
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",,,1180,2019-08-31T15:46:03Z
+2024-02-29,https://github.com/bruin-data/ingestr,https://raw.githubusercontent.com/521xueweihan/HelloGitHub/master/README.md,"HelloGitHub is a platform that shares interesting and beginner-friendly open-source projects on GitHub through monthly updates in a magazine format. The content includes interesting projects, open-source books, practical projects, enterprise-level projects, and more to help people experience the charm of open-source and develop a love for it quickly. Readers can enjoy a better reading experience on the official website or HelloGitHub public account. The platform welcomes project recommendations to become contributors. It is also sponsored by various companies to support its activities. The text is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.",Discover Interesting Open Source Projects with HelloGitHub,"HelloGitHub is a platform that shares interesting and beginner-friendly open source projects on GitHub, updated monthly on the 28th. It includes a variety of content such as fun projects, open source books, practical projects, and enterprise-level projects, allowing you to quickly experience the charm of open source and fall in love with it. For a better reading experience, visit the official website or check out HelloGitHub's public account.","Explore the world of open source projects with HelloGitHub. Get insights into fun and beginner-friendly projects, open source books, practical projects, and more. Experience the joy of open source on this platform that updates monthly on the 28th.",Open Source Community,"Python
+
+
+
+
+
+        1,180
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+        482 stars today",,,82566,2024-02-12T23:00:36Z
+2024-02-29,https://github.com/521xueweihan/HelloGitHub,https://raw.githubusercontent.com/speechbrain/speechbrain/main/README.md,"The text provides an overview of SpeechBrain, an open-source PyTorch toolkit for developing Conversational AI technologies like speech assistants, chatbots, and large language models. It offers a holistic toolkit that supports various technologies for complex Conversational AI systems, spanning speech recognition, dialogue, language modeling, and more. SpeechBrain provides over 200 training recipes on 40 datasets, supporting 20 speech and text processing tasks. It integrates with HuggingFace for pretrained models and offers features like training orchestration, hyperparameter management, dynamic batching, GPU training, and more. The project encourages contributions and provides a roadmap for future development.",Accelerate Conversational AI Development with SpeechBrain: A Holistic Toolkit Overview,"SpeechBrain is an open-source PyTorch toolkit designed to accelerate Conversational AI development, including technologies for speech assistants, chatbots, and large language models. Built for easy creation of advanced technologies for speech and text processing, SpeechBrain offers a holistic toolkit that supports various technologies like speech recognition, speaker recognition, speech enhancement, speech separation, language modeling, and dialogue. With over 200 competitive training recipes on different datasets and tasks, SpeechBrain supports training from scratch and fine-tuning pretrained models. The toolkit also integrates with Hugging Face for access to over 100 pretrained models and provides prebuilt functionalities for training orchestration, hyperparameter management, efficient data reading, GPU training, mixed-precision training, and more.","Discover how SpeechBrain, an open-source PyTorch toolkit, simplifies Conversational AI development with technologies like speech recognition, speaker recognition, and speech enhancement. Learn about the toolkit's support for over 200 training recipes, integration with Hugging Face, and features for training orchestration, hyperparameter management, and efficient data reading.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        82,566
+
+
+
+
+
+        9,361
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        37 stars today",,,7446,2016-05-04T06:24:11Z
+2024-02-29,https://github.com/speechbrain/speechbrain,https://raw.githubusercontent.com/sdv-dev/SDV/main/README.md,"The text provides an overview of the Synthetic Data Vault (SDV) project, a Python library for generating tabular synthetic data. It uses various machine learning algorithms to learn patterns from real data and replicate them in synthetic data. The SDV offers features such as creating synthetic data, evaluating and visualizing data, preprocessing, anonymizing, and defining constraints. Users can install the SDV using pip or conda, then use it to synthesize data from real datasets. The library also allows for evaluating the quality of synthetic data by comparing it to real data and provides various visualization tools. The text concludes with credits to contributors and a citation recommendation.",Demystifying Synthetic Data Generation with the SDV Python Library,"The Synthetic Data Vault (SDV) is a powerful Python library designed to simplify the process of creating synthetic tabular data. Using various machine learning algorithms, SDV can learn patterns from real data and replicate them in synthetic datasets. From creating data using machine learning to evaluating and visualizing the data along with the ability to preprocess, anonymize, and define constraints, SDV offers a comprehensive solution for synthetic data generation. Whether you need single table data or interconnected tables, SDV can handle it all with ease. Learn how to get started with SDV, generate synthetic data, evaluate its quality, and explore the various features it offers.","Discover how the Synthetic Data Vault (SDV) Python library makes synthetic data generation effortless. From creating synthetic tabular data using machine learning to evaluating data quality and defining constraints, SDV offers a complete solution. Learn about its features, including preprocessing, anonymization, and visualization tools.",Python Libraries Collection,"Python
+
+
+
+
+
+        7,446
+
+
+
+
+
+        1,226
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        106 stars today",https://github.com/sdv-dev/SDV/blob/stable/docs/images/Single-Table-Metadata-Example.png; https://github.com/sdv-dev/SDV/blob/stable/docs/images/Real-vs-Synthetic-Evaluation.png,,1964,2020-04-28T17:48:45Z
+2024-02-29,https://github.com/sdv-dev/SDV,https://raw.githubusercontent.com/jianchang512/pyvideotrans/main/README.md,"The text provides an overview of a video translation and dubbing tool. It describes features like translating videos to specified languages, generating subtitles, and adding dubbing automatically. The tool supports various language translations and voice synthesis methods. It allows for tasks like extracting and translating subtitles, merging subtitles and videos, creating dubbing for subtitles, separating voice and background music in videos, and downloading videos from YouTube. The text also includes information on using CUDA acceleration, configuring the tool through a command-line interface, and offers advanced settings through configuration files. Additionally, it lists related projects by the same author and provides contact details for support or donations.",Video Translation and Dubbing Tool,"This is a video translation and dubbing tool that can translate videos from one language to another, automatically generate and add subtitles and dubbing in the specified language. The tool uses faster-whisper and openai-whisper offline models for speech recognition. It supports translation services from Microsoft, Google, Baidu, Tencent, ChatGPT, Azure, Gemini, DeepL, DeepLX, and offline translation services. Voice synthesis supports Microsoft Edge TTS, Openai TTS-1, Elevenlabs TTS, and custom TTS server APIs, with the option to clone voices using 'clone-voice' to replicate the original voice. The tool allows for background music retention and supports various languages such as Chinese, English, Korean, Japanese, Russian, French, German, Italian, Spanish, Portuguese, Vietnamese, Thai, Arabic, Turkish, Hungarian, and Indian languages.","Explore a video translation and dubbing tool that transforms videos from one language to another, automatically adding subtitles and dubbing in the desired language. Support for various languages and services including speech recognition, translation, and voice synthesis methods.",Video Translation Tool.,"Python
+
+
+
+
+
+        1,964
+
+
+
+
+
+        271
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://raw.githubusercontent.com/jianchang512/pyvideotrans/main/./images/p2.png,,4348,2018-05-11T15:56:50Z
+2024-02-29,https://github.com/Fanghua-Yu/SUPIR,https://raw.githubusercontent.com/ultralytics/yolov5/master/README.md,"The text provided introduces the YOLOv5, YOLOv8, and their various features, functionalities, and applications. It details their use in vision AI, including segmentation, classification, and object detection tasks. The text also mentions the availability of pre-trained models, training tutorials, and deployment options. It further highlights the different environments where you can quickly get started with YOLOv5 and how you can contribute to the project. Licensing options for AGPL-3.0 and Enterprise License are explained, along with contact information for bug reports, feature requests, and community interactions.",Introducing YOLOv8: The State-of-the-Art Object Detection Model,"YOLOv8 🚀 is the world's most loved vision AI, representing Ultralytics open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development. We are thrilled to announce the launch of Ultralytics YOLOv8 🚀, our NEW cutting-edge, state-of-the-art (SOTA) model released at github.com/ultralytics/ultralytics. YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection, image segmentation and image classification tasks. See the YOLOv8 Docs for details and get started with: PyPI version, Downloads, pip install ultralytics. Visit Ultralytics for more details and resources.","Introducing YOLOv8 🚀, the latest state-of-the-art object detection model from Ultralytics. YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection, image segmentation, and image classification tasks. Check out YOLOv8 Docs for details and resources. Purchase an Enterprise License at Ultralytics Licensing for commercial use.",Computer Vision Platform,"Python
+
+
+
+
+
+        1,874
+
+
+
+
+
+        131
+
+
+        Built by
+
+          
+
+
+
+
+
+        69 stars today",https://user-images.githubusercontent.com/26833433/203113421-decef4c4-183d-4a0a-a6c2-6435b33bc5d3.jpg; https://user-images.githubusercontent.com/26833433/203113416-11fe0025-69f7-4874-a0a6-65d0bfe2999a.jpg,https://www.youtube.com/watch?v=LNwODJXcvt4,45377,2023-12-21T11:23:35Z
+2024-02-29,https://github.com/ultralytics/yolov5,https://raw.githubusercontent.com/yerfor/GeneFacePlusPlus/main/README.md,"GeneFace++ is a real-time 3D talking face generation model implemented with Pytorch, focusing on high lip-sync, video-reality, and system efficiency. The official repository provides a guide for quick start, including environment setup, dataset download, and model checkpoints. The implementation includes features like eye blink control and an experimental audio-to-motion model. Users can interact with the model through provided scripts or a Gradio WebUI. Training GeneFace++ with custom videos is possible, with guidelines provided in the documentation. The authors invite citations for their work and plan future releases and enhancements.",GeneFace++: Generalized and Stable Real-Time 3D Talking Face Generation,"This blog post introduces GeneFace++, the official implementation that enables high lip-sync, high video-reality, and high system-efficiency 3D talking face generation using Pytorch. It provides a guide for a quick start in GeneFace++, including steps to prepare the environment, download datasets, and use pre-trained models. The post also covers FAQs, trainings, and citations related to GeneFace++. Explore the post for detailed information and resources.","Learn about GeneFace++, an implementation for high-quality 3D talking face generation, offering a quick start guide, FAQs, training details, and citations. Explore how GeneFace++ enables stable real-time generation of talking faces with high fidelity and efficiency.",Deep Learning Platform.,"Python
+
+
+
+
+
+        45,377
+
+
+
+
+
+        15,285
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        35 stars today",,,485,2020-05-18T03:45:11Z
+2024-02-29,https://github.com/KillianLucas/open-interpreter,https://raw.githubusercontent.com/Sinaptik-AI/pandas-ai/main/README.md,"PandasAI is a Python library that utilizes generative AI to simplify data exploration, cleaning, and analysis through natural language queries. It offers easy installation via pip or poetry and interactive demos using Colab notebooks. The tool supports various deployment methods, including Jupyter notebooks or as a REST API with FastAPI or Flask. Users can ask questions, visualize data, and work with multiple dataframes. Privacy and security are prioritized through anonymization techniques. The software is available under the MIT license, with options for a managed cloud service or self-hosted enterprise offering. Contributions to the project are encouraged, and documentation, examples, and community discussions are available.",Exploring Data with PandasAI: Natural Language AI for Data Analysis,"PandasAI is a Python library that utilizes generative AI to enable users to interact with their data in natural language. With PandasAI, you can explore, clean, and analyze your data effortlessly using AI-powered tools. The library allows users to ask questions and generate visualizations quickly and effectively. Whether you're a beginner or an expert, PandasAI simplifies the data analysis process and provides valuable insights for decision-making purposes. Discover the power of PandasAI and revolutionize how you interact with your datasets today!","Learn how PandasAI, a Python library powered by generative AI, helps you explore, clean, and analyze data through natural language interactions. Simplify your data analysis process using PandasAI's powerful tools and get valuable insights effortlessly. Whether you're a beginner or an expert, PandasAI revolutionizes the way you work with datasets.",Natural Language Processing.,"Python
+
+
+
+
+
+        41,238
+
+
+
+
+
+        3,598
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        50 stars today",https://raw.githubusercontent.com/Sinaptik-AI/pandas-ai/main/images/logo.png,,9933,2023-07-14T07:10:44Z
+2024-02-29,https://github.com/Sinaptik-AI/pandas-ai,https://raw.githubusercontent.com/airbytehq/airbyte/master/README.md,"The text describes Airbyte, an open-source data integration platform for ELT pipelines. It aims to cover a wide range of data sources and empower data engineers to customize connectors. Airbyte offers over 300 connectors for APIs, databases, data warehouses, and data lakes. Users can deploy Airbyte Open Source or use Airbyte Cloud to centralize data, create connectors easily, explore tutorials, and orchestrate data syncs. Various tools like Airflow, Prefect, and SQL can be used with Airbyte. The community can engage through Slack, forums, and office hours. Security concerns should be reported to `security@airbyte.io`. Airbyte also offers dedicated support and an Enterprise version with additional features.",Airbyte - Open Source Data Integration Platform,"We believe that only an open-source solution to data movement can cover the long tail of data sources while empowering data engineers to customize existing connectors. Our ultimate vision is to help you move data from any source to any destination. Airbyte already provides the largest catalog of 300+ connectors for APIs, databases, data warehouses, and data lakes. Getting Started: Deploy Airbyte Open Source or set up Airbyte Cloud to start centralizing your data. Create connectors in minutes with our no-code Connector Builder or low-code CDK. Join the Airbyte Community in our Slack, Forum, or Office Hours. Airbyte takes security issues seriously, please email security@airbyte.io for vulnerabilities.","Learn about Airbyte, an open-source data integration platform that offers a wide range of connectors for data movement. Explore how to get started with deploying Airbyte, building connectors, and engaging with the Airbyte community. Find out about Airbyte's security practices and enterprise features. Discover how to contribute to Airbyte and its commitment to open source. Read more on Airbyte's license, security information, and thank you page.",Data Ingestion Tool.,"Python
+
+
+
+
+
+        9,933
+
+
+
+
+
+        865
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        26 stars today",,,13370,2023-04-22T12:58:01Z
+2024-02-29,https://github.com/airbytehq/airbyte,https://raw.githubusercontent.com/microsoft/sample-app-aoai-chatGPT/main/README.md,"The text describes a sample chat web application that incorporates Azure OpenAI. It includes prerequisites for deploying the app, such as having an Azure OpenAI resource and options for connecting to different data sources. The deployment process is explained, including using Azure Developer CLI, one-click Azure deployment, and deploying from a local machine. Different setups are detailed, such as basic chat experience, chat with your data, enabling chat history, and enabling message feedback. Additionally, information on adding an identity provider, customization scenarios, scalability, debugging the deployed app, configuring vector search, and changing citation display is provided. Best practices and contributing guidelines are also mentioned.",Building a Chat App with Azure OpenAI: Step-By-Step Guide,"This blog post provides a detailed guide on building a chat webapp that integrates with Azure OpenAI. It covers prerequisites such as having an existing Azure OpenAI resource and model deployment, and using Azure OpenAI on different data sources. The post also walks you through deploying the app using Azure Developer CLI, one-click Azure deployment, and deploying from your local machine. Additionally, it includes instructions on enabling chat history, message feedback, and authentication support in your app.","Learn how to build a chat webapp integrating Azure OpenAI with this comprehensive guide. Find steps for deploying the app using Azure Developer CLI, one-click Azure deployment, and deploying from your local machine. Discover how to enable chat history, message feedback, and authentication support.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        13,370
+
+
+
+
+
+        3,469
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        75 stars today",,,1073,2020-07-27T23:55:54Z
+2024-02-29,https://github.com/microsoft/sample-app-aoai-chatGPT,https://raw.githubusercontent.com/huggingface/diffusers/main/README.md,"The text provides an overview of the 🤗 Diffusers library, a collection of state-of-the-art pretrained diffusion models for generating images, audio, and 3D structures. It emphasizes usability, simplicity, and customizability. The library offers diffusion pipelines, noise schedulers, and pretrained models for creating end-to-end diffusion systems. The installation process for PyTorch and Flax is explained. It also provides a quickstart guide for generating outputs using Diffusers. The text includes links to the documentation, tutorials, optimization guides, and training resources. It encourages contributions from the open-source community and lists popular tasks, pipelines, libraries, credits, and a citation.","🤗 Diffusers: State-of-the-art diffusion models for Images, Audio, and 3D Structures","🤗 Diffusers is the go-to library for state-of-the-art pretrained diffusion models for generating images, audio, and even 3D structures of molecules. Whether you're looking for a simple inference solution or training your own diffusion models, 🤗 Diffusers is a modular toolbox that supports both.","Explore 🤗 Diffusers, the library offering state-of-the-art diffusion pipelines, noise schedulers, and pretrained models for generating images, audio, and 3D structures. Learn about installation, quickstart guide, documentation navigation, contributions, popular tasks & pipelines, libraries using 🧨 Diffusers, credits, and citation.",Deep Learning Platform.,"Python
+
+
+
+
+
+        1,073
+
+
+
+
+
+        1,523
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",,,21299,2023-04-06T21:16:41Z
