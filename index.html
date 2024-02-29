@@ -76,7 +76,7 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
                 item['Repository-Creation-Date'] !== '' 
                 && item['Blog-Title'] !== null
                 // && isWithinOneMonth(item['Repository-Creation-Date'])
-            ).forEach(item => {
+            ).sort((a, b) => new Date(b['Date']) - new Date(a['Date'])).forEach(item => {
 
 
                 const article = document.createElement("article");
@@ -102,11 +102,21 @@ fetch('https://raw.githubusercontent.com/DanielTea/github-trending-analysis/main
                     }
                 }
 
-                // Filter and embed the first likely demo GIF if available
+                // Filter and embed the first likely demo image if available
                 if (item['Image-Links']) {
                     const imageLinks = item['Image-Links'].split(';').map(link => link.trim());
-                    const firstDemoImageLink = imageLinks.find(link => link.endsWith('.png') && isLikelyDemoImage(link));
+                    let firstDemoImageLink = imageLinks.find(link => {
+                    
+                            return link.endsWith('.png') && isLikelyDemoImage(link);
+                        
+                    });
                     if (firstDemoImageLink) {
+                        
+                        if (firstDemoImageLink.startsWith('https://github.com') && !firstDemoImageLink.includes('raw.githubusercontent')) {
+                            firstDemoImageLink += '?raw=true';
+                            
+                        }
+                        console.log(firstDemoImageLink)
                         mediaContent += `<img src="${firstDemoImageLink}" style="max-width: 100%; height: auto; display: block; margin: auto;">`;
                     }
                 }
