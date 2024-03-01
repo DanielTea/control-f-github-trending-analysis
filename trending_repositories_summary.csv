@@ -1090,3 +1090,351 @@ For more detailed information, updates, and interactions with the open-source co
 
 
         9 stars today",,,21299,2023-04-06T21:16:41Z
+2024-03-01,https://github.com/kyegomez/BitNet,https://raw.githubusercontent.com/kyegomez/BitNet/main/README.md,"BitNet is a PyTorch implementation of linear methods from the paper ""BitNet: Scaling 1-bit Transformers for Large Language Models."" The BitLinear module replaces linear projections in the Transformer, allowing for easy implementation. News includes training on the enwiki8 dataset and a new iteration using 1.58 bits. The Bit Attention mechanism has been optimized, and BitMGQA has been introduced. Installation via pip is available. Usage examples include BitLinear, BitNetTransformer, BitAttention, and BitFeedForward. Inference and Hugging Face usage are demonstrated. The project's license is MIT, and a citation is provided. Upcoming tasks include further optimization and implementing new models.",BitNet: PyTorch Implementation of Linear Methods and Models,"BitNet is a PyTorch implementation of the linear methods and model from the paper 'BitNet: Scaling 1-bit Transformers for Large Language Models'. The BitLinear layer, which is the main innovation of the paper, can be easily incorporated into the Transformer architecture by replacing linear projections. The blogpost provides examples of how to use BitLinear, BitNetTransformer, BitAttention, BitFeedForward, and other components in your projects. It also discusses recent updates, optimizations, installation instructions, and usage guidelines for BitNet.","Learn how to implement BitNet, a PyTorch library for scaling 1-bit Transformers for large language models. The blogpost covers the main components such as BitLinear, BitNetTransformer, BitAttention, and BitFeedForward, with examples and usage instructions. Stay updated on the latest features, optimizations, and community contributions to BitNet. Join the Agora discord community to collaborate on implementing new iterations and enhancements.",Deep Learning Platform,"Python
+
+
+
+
+
+        671
+
+
+
+
+
+        39
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        89 stars today",https://raw.githubusercontent.com/kyegomez/BitNet/main/agorabanner.png; https://raw.githubusercontent.com/kyegomez/BitNet/main//bitnet.png,,671,2023-10-18T16:19:06Z
+2024-03-01,https://github.com/mbzuai-oryx/MobiLlama,https://raw.githubusercontent.com/mbzuai-oryx/MobiLlama/main/README.md,"The text discusses the development of a Small Language Model called MobiLlama, aimed at achieving accuracy and efficiency for resource-constrained devices. The model introduces a 0.5 billion parameter SLM design that focuses on reduced resource demands while maintaining performance. It implements a parameter sharing scheme to minimize pre-training and deployment costs. The text includes information on model download links, a detailed overview, code snippets for usage, evaluation results, and comparisons with other LLM models on various benchmarks. It also provides insights into the significance of MobiLlama's performance and potential in complex language tasks. Additionally, it mentions the availability of an Android app to run the model.",MobiLlama: Accurate and Lightweight Fully Transparent GPT Model,"The paper introduces MobiLlama, a 0.5 billion parameter Small Language Model (SLM) designed for resource-constrained devices. It emphasizes accuracy and efficiency by reducing pre-training and deployment costs through a parameter sharing scheme. With a focus on energy efficiency, low memory footprint, and enhanced performance, MobiLlama stands out in scenarios requiring on-device processing. The model is fully transparent, open-source, and caters to privacy, security, and sustainable deployment needs.","Discover MobiLlama, a 0.5B parameter SLM that emphasizes accuracy and efficiency for resource-constrained devices. Learn how this fully transparent and lightweight model offers enhanced performance with reduced resource demands, catering to scenarios requiring on-device processing, privacy, security, and sustainable deployment.",Language Models,"Python
+
+
+
+
+
+        287
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        28 stars today",,,287,2024-02-23T17:35:01Z
+2024-03-01,https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator,https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/README.md,"The ""Chat with your data"" Solution Accelerator is a powerful tool that combines Azure AI Search and Large Language Models (LLMs) to create a conversational search experience. It uses an Azure OpenAI GPT model and Azure AI Search index generated from user data within a web application. Users can interact using natural language and speech-to-text functionality, upload various file types, and access source documentation easily. The repository provides detailed instructions for customization. The accelerator is ideal for professionals seeking quick answers from unstructured data sources. It offers features like speech-to-text functionality, Private LLM access, and natural language interaction. The solution caters to various industry scenarios, including deployment instructions and supporting best practices.",Chat with your data Solution Accelerator: Deploy Instructions and Best Practices,"The 'Chat with your data' Solution accelerator combines Azure AI Search and Large Language Models to create a conversational search experience. This blog post provides detailed deploy instructions and best practices for using this powerful tool. Discover how to setup the solution accelerator, customize it to fit your specific needs, and leverage key features like private LLM access, natural language interaction, and speech-to-text functionality. Explore industry scenarios, target end users, and supporting documentation to maximize the value of this accelerator in your organization.","Explore detailed deploy instructions and best practices for the 'Chat with your data' Solution Accelerator. Learn how to setup the solution, customize it to fit your needs, and leverage key features like private LLM access, natural language interaction, and speech-to-text functionality. Discover industry scenarios, target end users, and supporting documentation.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        362
+
+
+
+
+
+        178
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/userStory.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/cwyd-solution-architecture.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/web-unstructureddata.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/web-nlu.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/teams-cwyd.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/oneClickDeploy.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/./media/admin-site.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/./media/web-unstructureddata.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/supportingDocuments.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main//media/customerTruth.png,,362,2023-06-06T01:40:48Z
+2024-03-01,https://github.com/fluencelabs/dev-rewards,https://raw.githubusercontent.com/fluencelabs/dev-rewards/main/README.md,"The text provides instructions on how to generate proofs for Fluence Developer Rewards using different methods. For Docker, you can build an image and run the script, specifying the directory path for your SSH keys. A local sh script can be executed after installing dependencies. To use a local python script, first install Python and dependencies, then run the script. The steps for each method are summarized in the text, detailing commands such as building Docker images, running scripts locally, installing dependencies, and activating virtual environments. These steps guide developers in generating proofs to claim rewards efficiently.",How to Generate Developer Rewards with Fluence - Step-by-Step Guide,"Are you a developer looking to earn rewards with Fluence? Follow this step-by-step guide to generate proof using docker, local shell script, and local python script. Start by building a docker image with the provided command, and then run the script with your ssh keys. If your ssh keys are stored elsewhere, customize the docker run command. For generating proof using local shell script, install dependencies and run the script accordingly. Lastly, for the local python script, make sure to install Python, set up a virtual environment, install dependencies, and run the script.","Learn how to generate developer rewards with Fluence by following this comprehensive guide. Discover step-by-step instructions on using docker, local shell script, and local python script to generate proof. Earn rewards for your development efforts now!",Artificial Intelligence,"Python
+
+
+
+
+
+        135
+
+
+
+
+
+        105
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        38 stars today",,,135,2024-02-27T12:12:28Z
+2024-03-01,https://github.com/bigcode-project/starcoder2,https://raw.githubusercontent.com/bigcode-project/starcoder2/main/README.md,"StarCoder2 is a family of code generation models trained on various programming languages and natural language text. The models have different sizes (3B, 7B, and 15B) and were trained on trillions of tokens. They use Grouped Query Attention with specific token context and sliding window attention. These models are designed for code completion tasks and are not instruction models. The paper provides more detailed information. The installation guide includes library requirements and model usage examples on CPU/GPU/multi-GPU setups. Fine-tuning resources are available, and evaluation can be done using the BigCode-Evaluation-Harness and checking the BigCode Leaderboard for Code LLMs.",Introducing StarCoder2 for Enhanced Code Generation,"StarCoder2 is a cutting-edge family of code generation models, available in 3B, 7B, and 15B sizes. Trained on a diverse range of programming languages from The Stack v2 and incorporating data from sources like Wikipedia and GitHub, these models introduce Grouped Query Attention and large context windows for improved performance. Want to get started? Check out the quickstart guide for installation instructions and model usage tips. For those interested in fine-tuning, easy steps on setting up and training StarCoder2 models are provided. To evaluate these models and explore further resources, see the comprehensive evaluation methods outlined in the blogpost.","Discover StarCoder2, a revolutionary series of code generation models training across multiple programming languages. Explore quickstart instructions, fine-tuning details, and evaluation methods to leverage the capabilities of StarCoder2 models for enhanced code generation tasks.",Natural Language Processing,"Python
+
+
+
+
+
+        442
+
+
+
+
+
+        35
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        184 stars today",,,442,2023-12-08T08:46:25Z
+2024-03-01,https://github.com/Rudrabha/Wav2Lip,https://raw.githubusercontent.com/Rudrabha/Wav2Lip/master/README.md,"The text provides information about Wav2Lip, which focuses on accurately lip-syncing videos in various scenarios. It offers a turn-key hosted API with lip-syncing models available at their website. Commercial or enterprise inquiries can be directed to the provided email contacts. The code is part of a publication presented at ACM Multimedia 2020. The provided information includes links to the original paper, project page, demo videos, live testing, and Google Colab notebooks. Users are advised to refer to the prerequisites, guidelines for training the models, preparing datasets, running inference, links to pre-trained models, license details, acknowledgments, and citations for using the repository.",Wav2Lip: Accurately Lip-syncing Videos In The Wild | Hosted Lip-syncing API,"Are you looking to integrate this into a product? We have a turn-key hosted API with new and improved lip-syncing models. For any other commercial/enterprise requests, please contact us. This code is part of the paper: *A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild* published at ACM Multimedia 2020.",Integrate lip-syncing technology into your product with our turn-key hosted API. Contact us for commercial requests. Learn about our advanced lip-syncing models and their publication at ACM Multimedia 2020.,Computer Vision Platform,"Python
+
+
+
+
+
+        8,650
+
+
+
+
+
+        1,906
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",,https://www.youtube.com/watch?v=0fXaDCZNOJc; https://www.youtube.com/watch?v=Ic0TBhfuOrA,8650,2020-08-07T08:06:38Z
+2024-03-01,https://github.com/ShishirPatil/gorilla,https://raw.githubusercontent.com/ShishirPatil/gorilla/main/README.md,"The text discusses the Gorilla project, which involves enabling Large Language Models (LLMs) to interact with APIs by generating semantically and syntactically correct function calls based on natural language queries. Gorilla has achieved significant milestones such as setting a new state-of-the-art (SoTA) performance with OpenFunctions v2, releasing the Gorilla OpenFunctions tool, and creating the Berkeley Function Calling Leaderboard. The project also emphasizes its open-source nature under the Apache 2.0 license, allowing commercial use without obligations. Additionally, it provides resources for using Gorilla, including model weights, evaluation scripts, and instructions for API contributions. The project roadmap outlines future plans, and contributions from the community are encouraged.",Gorilla: Large Language Model Connected with Massive APIs - Enhancing API Interactions,"Gorilla enables Language Models to access tools via APIs accurately, reducing hallucination and demonstrating 1,600+ API call invocations. Join us in expanding the API store and training LLMs to generate APIs. Get started with Gorilla, inquire through Discord, open a PR, or have your API incorporated. Explore Gorilla Gradio for LLM demos and learn how to contribute APIs to the community.","Discover how Gorilla empowers Language Models to interact with APIs effectively, offering 1,600+ API calls with reduced hallucination. Join our endeavor to expand the API store and teach LLMs to create APIs. Explore demos with Gorilla Gradio and learn about contributing APIs to the community.",Natural Language Processing,"Python
+
+
+
+
+
+        9,074
+
+
+
+
+
+        647
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",,,9074,2023-05-19T00:46:45Z
+2024-03-01,https://github.com/Avaiga/Taipy-Chatbot-Demo,https://raw.githubusercontent.com/Avaiga/Taipy-Chatbot-Demo/master/README.md,"The text introduces a chat app with an LLM (Large Language Model) that uses OpenAI's GPT-3 API to generate responses. Users can create various LLM Inference Web Apps using Python. The app can be modified to use different APIs or models. A tutorial for creating the app is available in the Taipy documentation. To use the app, users need an OpenAI account with an active API key. They can clone the repository, install dependencies, and run the app by providing the API key as an argument to access the chat functionality. An alternative method is setting the `OPENAI_API_KEY` environment variable instead of passing it as an argument.",Creating an LLM Chat Application with OpenAI's GPT-3 API using Python,A simple app to chat with an LLM which can be used to create any LLM Inference Web Apps using Python only. This particular app uses OpenAI's GPT-3 API to generate responses to your messages. You can easily change the code to use any other API or model. Tutorial and installation guide available in the Taipy documentation.,Learn how to create an LLM chat application using Python and OpenAI's GPT-3 API. Follow a tutorial to get started and easily customize the app with other APIs or models. Includes step-by-step instructions for setting up the environment and running the application with your OpenAI API key.,Collaborative AI Framework.,"Python
+
+
+
+
+
+        57
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+        4 stars today",,,57,2023-12-07T14:30:57Z
+2024-03-01,https://github.com/Beomi/BitNet-Transformers,https://raw.githubusercontent.com/Beomi/BitNet-Transformers/main/README.md,"The text introduces BitNet-Transformers, implementing ""BitNet: Scaling 1-bit Transformers for Large Language Models"" in PyTorch with Llama(2) Architecture. It includes steps to prepare the development environment, such as cloning the repository, installing requirements, and updating the Llama(2) model. The text also discusses training Wikitext-103, with a visualization showing the train loss graph. Comparison of GPU memory usage between Original LLAMA, BitLLAMA - Mixed 16bit, BitLLAMA - 8bit, and BitLLAMA - 1bit is provided. The text outlines a to-do list involving the addition of a `BitLinear` layer, updating the `BitLinear` layer to use 1-bit weight, and including sample code for LM training. Additionally, a link is provided for the paper related to the topic.",Implementing BitNet: Scaling 1-bit Transformers in PyTorch with Llama(2) Architecture,"This blog post provides guidance on implementing BitNet, a scalability approach for 1-bit Transformers with Llama(2) architecture in PyTorch. It includes details such as preparing the development environment, training on Wikitext-103, and a comparison of GPU memory usage between BitLLAMA variations. The post also outlines tasks to complete for further enhancements.","Learn how to implement BitNet, a 1-bit Transformers scaling approach using Llama(2) architecture in PyTorch. Get insights on preparing the development environment, training on Wikitext-103, and understanding GPU memory usage with BitLLAMA variants. Discover key tasks for advancing the implementation.",Deep Learning Platform.,"Python
+
+
+
+
+
+        132
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+        23 stars today",https://raw.githubusercontent.com/Beomi/BitNet-Transformers/main/./static/bitnet-arch.png; https://raw.githubusercontent.com/Beomi/BitNet-Transformers/main/./static/bitnet.png; https://raw.githubusercontent.com/Beomi/BitNet-Transformers/main/./static/W&B_Chart_2023.10.20_wikitext.png,,132,2023-10-19T06:47:28Z
+2024-03-01,https://github.com/freqtrade/freqtrade,https://raw.githubusercontent.com/freqtrade/freqtrade/master/README.md,"Freqtrade is a free and open-source crypto trading bot developed in Python. It supports major exchanges and can be managed via Telegram or a web UI. The bot offers backtesting, plotting, and machine learning-based strategy optimization tools. Users are advised to understand the software's mechanisms before trading with real money, and it's recommended to have coding knowledge. Freqtrade features persistence through SQLite, dry-run mode, adaptive prediction modeling, position sizing calculations, and more. It also includes a Telegram interface and a built-in web UI. The project has active development branches, with 'develop' often having new features. Users can contribute to the project via GitHub. Further details and installation requirements can be found on the Freqtrade website.",Everything You Need to Know About Freqtrade: A Free Python Crypto Trading Bot,"Freqtrade is a free and open source crypto trading bot designed to support all major exchanges and controllable via Telegram or webUI. It offers backtesting, plotting, money management tools, and strategy optimization through machine learning. The bot comes with features like edge position sizing, adaptive prediction modeling, Telegram control, and more. Make sure to have Python knowledge and read the comprehensive bot documentation for better understanding.","Discover Freqtrade, a free and open source crypto trading bot powered by Python. Learn how to optimize your buy/sell strategy, use machine learning for better results, and control the bot via Telegram or webUI. Explore features like edge position sizing, adaptive prediction modeling, and more. Read on for detailed information and start your journey with Freqtrade!",Cryptocurrency Trading Bot,"Python
+
+
+
+
+
+        24,585
+
+
+
+
+
+        5,378
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png,,24585,2017-05-17T23:48:53Z
+2024-03-01,https://github.com/allenai/OLMo,https://raw.githubusercontent.com/allenai/OLMo/main/README.md,"OLMo is a repository for training and using AI2's open language models. Three core models have been released: OLMo 1B, OLMo 7B, and OLMo 7B Twin 2T, all trained on the Dolma dataset. The text provides instructions for installation, inference, quantization, reproducibility, training, inspecting training data, fine-tuning, and evaluation of OLMo models. It also includes code snippets for running inference and converting checkpoints, as well as details on how to access and use the models. The text concludes with a citation for referencing OLMo in academic work. For more detailed information, you can refer to the original text provided.","OLMo: Open Language Model - Installation, Models Overview, Inference, and More","OLMo is a repository for training and using AI2's state-of-the-art open language models. The core models in the OLMo family include OLMo 1B, OLMo 7B, and OLMo 7B Twin 2T which were trained on the Dolma dataset. Users can install OLMo from source or directly from PyPI. Inference on the checkpoints can be performed using Hugging Face integration or pipeline abstraction. The blogpost also covers topics like Quantization, Reproducibility, Fine-tuning, Evaluation, and Citing.","Discover OLMo, the Open Language Model repository by AI2, featuring OLMo 1B, OLMo 7B, and OLMo 7B Twin 2T models. Learn about installation, running inference, quantization, reproducibility, fine-tuning, and evaluation. Cite the work with provided BibTeX. Dive into the world of high-quality language models.",Language Models,"Python
+
+
+
+
+
+        3,121
+
+
+
+
+
+        256
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",,,3121,2023-02-20T22:29:43Z
+2024-03-01,https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming,https://raw.githubusercontent.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming/main/README.md,"The text is about a 6-lesson course focused on mastering GitHub Copilot for AI Paired Programming. The course aims to help students harness the power of GitHub Copilot and improve their coding skills through collaborative paired programming. It covers various topics such as autocompletion, setup procedures, and advanced programming techniques using Visual Studio Code. Students can engage in real-time collaboration using GitHub Copilot Chat and learn about error handling, unit testing, and improving code quality. The course offers challenges, lessons, and extra resources to enhance the learning experience. Additionally, it provides information on other related courses and ways to contribute to the material.",Mastering GitHub Copilot for AI Paired Programming,"A 6 Lesson course teaching everything you need to know about harnessing GitHub Copilot and an AI Paired Programming resource. Unlock the power of collaborative coding with our comprehensive curriculum on Mastering GitHub Copilot for Paired Programming. This cutting-edge program seamlessly integrates AI-driven coding assistance through GitHub Copilot, empowering students to accelerate their coding skills in tandem with a partner. Over the course of 10 engaging hours, participants will navigate through essential setup procedures, leveraging Visual Studio Code and GitHub Copilot Chat for real-time collaboration. Dive deep into GitHub Copilot's autocompletion, customizable features, and advanced programming techniques, all while embracing AI-driven algorithms. From error handling to unit testing, this curriculum is tailored to instill best practices and enhance code quality. Immerse yourself in a transformative learning experience that fuses the latest AI technology with paired programming strategies, equipping you with the tools needed for success in today's dynamic software development landscape.","Unlock the power of collaborative coding with our comprehensive curriculum on Mastering GitHub Copilot for AI Paired Programming. This course integrates AI-driven coding assistance through GitHub Copilot, enabling you to accelerate your coding skills alongside a partner. Dive deep into autocompletion, customizable features, and advanced programming techniques while embracing AI-driven algorithms.",AI Coding Assistant,"Python
+
+
+
+
+
+        3,961
+
+
+
+
+
+        393
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        18 stars today",https://raw.githubusercontent.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming/main/./images/GitHub%20101%20-%20Curriculum.png,,3961,2023-11-29T19:35:47Z
+2024-03-01,https://github.com/dataelement/bisheng,https://raw.githubusercontent.com/dataelement/bisheng/main/README.md,"The text is about Bisheng, an open-source platform for developing large-scale model applications. It aims to empower and accelerate the development and deployment of large-scale model applications, providing users with a next-generation application development experience. Bisheng is named after Bi Sheng, the inventor of movable type printing, symbolizing its goal to support the widespread implementation of intelligent applications. The platform offers convenience and flexibility in building intelligent applications centered around large-scale models, with enterprise-level reliability and features. It provides various application scenarios like report generation, knowledge base QA, conversations, and element extraction. The text also includes information on contributing to the project, community resources, documentation, and how to join the team at DataElem Inc.",Welcome to Bisheng: An Overview of the Leading Open Source Big Model Application Development Platform,"Bisheng is a leading open source big model application development platform that empowers and accelerates the development of big model applications, helping users enter the next generation of application development. The platform, released under the Apache 2.0 License, offers convenience, flexibility, and enterprise-level reliability. With Bisheng, various applications can be built, such as analysis report generation, knowledge base Q&A, conversational interfaces, and element extraction. The platform enables users to quickly build intelligent applications based on big models while providing hundreds of development components and a visual flow design capability.","Discover Bisheng, the open source big model application development platform that empowers users to build intelligent applications quickly and efficiently. Learn about its features, applications, and how to get started with Bisheng. Explore its convenience, flexibility, and enterprise-level reliability. Join the Bisheng community and contribute to the future of big model applications.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        4,471
+
+
+
+
+
+        746
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",,,4471,2023-08-28T10:00:24Z
