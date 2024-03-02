@@ -91,9 +91,12 @@ fetch('https://raw.githubusercontent.com/DanielTea/control-f-github-trending-ana
                 if (item['Video-Links']) {
                     const videoLinks = item['Video-Links'].split(';').map(link => link.trim());
                     const firstYouTubeLink = videoLinks.find(link => link.includes('youtube.com') || link.includes('youtu.be'));
+                    const firstVideoLink = videoLinks.find(link => !link.includes('youtube.com') && !link.includes('youtu.be'));
                     if (firstYouTubeLink) {
                         const videoId = firstYouTubeLink.split('v=')[1] || firstYouTubeLink.split('/').pop();
                         mediaContent += `<iframe width="80%" height="315" src="https://www.youtube.com/embed/${videoId}" style="display: block; margin: auto;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+                    } else if (firstVideoLink) {
+                        mediaContent += `<video width="80%" height="315" controls><source src="${firstVideoLink}" type="video/mp4">Your browser does not support the video tag.</video>`;
                     }
                 }
 
