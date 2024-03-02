@@ -26,9 +26,8 @@ jobs:
 
     - name: Generate Content
       run: |
-        ollama run llama2 &
-        python local_ollama.py
+        ollama run llama2
 
-    # - name: Execute Script
-    #   run: |
-    #     python local_ollama.py
+    - name: Execute Script
+      run: |
+        python local_ollama.py
