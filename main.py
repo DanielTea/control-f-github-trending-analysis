@@ -145,7 +145,7 @@ def extract_media_links(readme_link):
     base_repo_url = '/'.join(readme_link.split('/')[:-1])
 
     # Regular expression patterns for extracting image, gif, and video links
-    image_pattern = r'(?:!\[.*?\]\((.*?\.(?:png|jpg|jpeg|gif))\)|<img.*?src="(.*?\.(?:png|jpg|jpeg|gif))".*?>)'
+    image_pattern = r'(?:!\[.*?\]\((.*?\.(?:png|jpg|jpeg|gif))\)|<img.*?src="([^"]*?\.(?:png|jpg|jpeg|gif))".*?>)'
     github_video_pattern = r'https://github\.com/.+?/blob/.+?/(.+?\.(?:mp4|mov|avi))'
     youtube_video_pattern = r'\b(?:https?://)?(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w\-_]+)\b'
     video_tag_pattern = r'<video.+?src="(.+?)".*?>'
@@ -153,7 +153,20 @@ def extract_media_links(readme_link):
 
     # Extracting all image and gif links
     raw_media_links = re.findall(image_pattern, readme_content)
-    media_links = [link[0] if link[0].startswith('http') else f'{base_repo_url}/{link[0]}' for link in raw_media_links]
+    media_links = []
+
+    for link_tuple in raw_media_links:
+        # Pick the non-empty path from the tuple
+        image_path = link_tuple[1] if link_tuple[1] else link_tuple[0]
+        if not image_path.startswith('http'):
+            # Ensure the path does not start with a slash to avoid double slashes in the final URL
+            if image_path.startswith('/'):
+                image_path = image_path[1:]
+            full_url = f'{base_repo_url}/{image_path}'
+        else:
+            full_url = image_path
+        media_links.append(full_url)
+
 
     # Extracting all video links, including GitHub hosted videos, YouTube URLs, <video> tags, and private GitHub videos
     github_video_links = re.findall(github_video_pattern, readme_content)
