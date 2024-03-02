@@ -80,7 +80,7 @@ def fetch_and_save_readme_links(repository_links):
     return readme_links
 
 
-def summarize_and_classify_readme(readme_link, classes, client):
+def summarize_and_classify_readme(readme_link, classes, client, modelname):
     # Read the README file content
     readme_response = requests.get(readme_link)
     readme_text = readme_response.text
@@ -101,7 +101,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
 
     # Summarize the README content
     summary_completion = client.chat.completions.create(
-        model="gpt-3.5-turbo-0125",
+        model=modelname,
         messages=[
             {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
             {"role": "user", "content": f"Summarize this text in 100 words:\n\n{readme_text}"}
@@ -114,7 +114,7 @@ def summarize_and_classify_readme(readme_link, classes, client):
 
     # Classify the GitHub project
     classification_completion = client.chat.completions.create(
-        model="gpt-3.5-turbo-0125",
+        model=modelname,
         messages=[
             {"role": "system", "content": "You are a classifier, return only the class which fits to the text, given to you, do not complain if you can't do it. Answer only in English."},
             {"role": "user", "content": class_prompt}
@@ -309,7 +309,7 @@ def fetch_repository_creation_date(repo_link):
         print(f"Failed to fetch repository details for {repo_link}. Status code: {response.status_code}")
         return None
     
-def create_a_blogpost_readme(readme_link, client):
+def create_a_blogpost_readme(readme_link, client, modelname):
     # Read the README file content
     readme_response = requests.get(readme_link)
     readme_text = readme_response.text
@@ -342,7 +342,7 @@ def create_a_blogpost_readme(readme_link, client):
 
     # Classify the GitHub project
     blog_completion = client.chat.completions.create(
-        model="gpt-3.5-turbo-0125",
+        model=modelname,
         messages=[
             {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
             {"role": "user", "content": blog_prompt}
@@ -409,14 +409,21 @@ def remove_json_tags(s):
 def process_trending_repositories_and_create_csv(openai_api_key=None, 
                                                  CSV_PATH = './trending_repositories_summary.csv', 
                                                  ClassName = 'Classification',
-                                                 url = 'https://github.com/trending/python?since=daylie'):
+                                                 url = 'https://github.com/trending/python?since=daylie',
+                                                 local_model = False,
+                                                 modelname = 'gpt-3.5-turbo' 
+                                                 ):
 
     if not openai_api_key:
         from dotenv import load_dotenv
         load_dotenv()
         openai_api_key = os.getenv("OPENAI_API_KEY")
-    
-    client = openai.OpenAI(api_key=openai_api_key)
+
+    if local_model:
+        client = openai.OpenAI(api_key=openai_api_key, base_url="http://localhost:11434/v1")
+    else: 
+        client = openai.OpenAI(api_key=openai_api_key)
+
     # Fetch trending repositories
     repository_links, stars = fetch_trending_repositories(url)
     # Fetch and save READMEs
@@ -456,9 +463,9 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
         for index, (readme_link, repository_link, star_count_delta) in enumerate(zip(readmes, repository_links, stars)):
             if readme_link not in existing_links:  # Skip links that are already in the CSV
-                summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client)
+                summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client, modelname=modelname)
 
-                blog_text_json = create_a_blogpost_readme(readme_link, client=client)
+                blog_text_json = create_a_blogpost_readme(readme_link, client=client, modelname=modelname)
                 print(star_count_delta)
 
                 try:
@@ -496,15 +503,16 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
 
 class Main:
-    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=weekly'):
+    def __init__(self, openai_api_key=None, CSV_PATH='./trending_repositories_summary.csv', ClassName='Classification', url='https://github.com/trending/python?since=weekly', local_model=False, modelname=None):
         self.openai_api_key = openai_api_key
         self.CSV_PATH = CSV_PATH
         self.ClassName = ClassName
         self.url = url
-
+        self.local_model = local_model
+        self.modelname = modelname
 
     def run(self):
-        process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url)
+        process_trending_repositories_and_create_csv(self.openai_api_key, self.CSV_PATH, self.ClassName, self.url, self.local_model, self.modelname)
 
     
             
@@ -514,7 +522,9 @@ if __name__ == '__main__':
     parser.add_argument('--CSV_PATH', type=str, default='./trending_repositories_summary.csv')
     parser.add_argument('--ClassName', type=str, default='Classification')
     parser.add_argument('--url', type=str, default='https://github.com/trending/python?since=weekly')
+    parser.add_argument('--local_model', type=bool, default=False)
+    parser.add_argument('--modelname', type=str, default="gpt-3.5-turbo-0125")
     args = parser.parse_args()
 
-    main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url)
+    main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url, args.local_model, args.modelname)
     main_instance.run()

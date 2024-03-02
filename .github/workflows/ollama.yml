@@ -16,13 +16,13 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install ollama
-      run: |
-        curl -fsSL https://ollama.com/install.sh | sh
-
     - name: Install requirements
       run: |
         pip install -r requirements.txt
+
+    - name: Install ollama
+      run: |
+        curl -fsSL https://ollama.com/install.sh | sh
 
     - name: Generate Content
       run: |
