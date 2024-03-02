@@ -45,10 +45,10 @@ jobs:
       run: |
         python -u main.py --openai_api_key ${{ secrets.OPENAI_API_KEY }} --CSV_PATH './trending_repositories_summary.csv' --ClassName 'Classification' --url 'https://github.com/trending/python?since=daylie' --local_model 'True' --modelname 'llama2'
 
-    - name: Commit and Push Changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Update trending repositories summary" || echo "No changes to commit"
-        git push
+    # - name: Commit and Push Changes
+    #   run: |
+    #     git config --local user.email "action@github.com"
+    #     git config --local user.name "GitHub Action"
+    #     git add .
+    #     git commit -m "Update trending repositories summary" || echo "No changes to commit"
+    #     git push

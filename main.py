@@ -149,21 +149,24 @@ def extract_media_links(readme_link):
     github_video_pattern = r'https://github\.com/.+?/blob/.+?/(.+?\.(?:mp4|mov|avi))'
     youtube_video_pattern = r'\b(?:https?://)?(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w\-_]+)\b'
     video_tag_pattern = r'<video.+?src="(.+?)".*?>'
+    private_github_video_pattern = r'https://private-user-images\.githubusercontent\.com/.+?/(.+?\.(?:mp4|mov|avi))'
 
     # Extracting all image and gif links
     raw_media_links = re.findall(image_pattern, readme_content)
     media_links = [link if link.startswith('http') else f'{base_repo_url}/{link}' for link in raw_media_links]
 
-    # Extracting all video links, including GitHub hosted videos, YouTube URLs, and <video> tags
+    # Extracting all video links, including GitHub hosted videos, YouTube URLs, <video> tags, and private GitHub videos
     github_video_links = re.findall(github_video_pattern, readme_content)
     github_video_links = [link if link.startswith('http') else f'{base_repo_url}/{link}' for link in github_video_links]
     youtube_video_ids = re.findall(youtube_video_pattern, readme_content)
     youtube_video_links = [f'https://www.youtube.com/watch?v={video_id}' for video_id in youtube_video_ids]
     video_tag_links = re.findall(video_tag_pattern, readme_content)
     video_tag_links = [link if link.startswith('http') else f'{base_repo_url}/{link}' for link in video_tag_links]
+    private_github_video_links = re.findall(private_github_video_pattern, readme_content)
+    private_github_video_links = [link if link.startswith('http') else f'{base_repo_url}/{link}' for link in private_github_video_links]
 
     # Combining all video links into a single list
-    video_links = github_video_links + youtube_video_links + video_tag_links
+    video_links = github_video_links + youtube_video_links + video_tag_links + private_github_video_links
 
     return (media_links, video_links)
 

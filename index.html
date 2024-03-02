@@ -73,7 +73,7 @@ fetch('https://raw.githubusercontent.com/DanielTea/control-f-github-trending-ana
         // insertSummaries(parsedData);
 
         function insertSummaries(data) {
-            const classifications = ["Self-Supervised Learning","Artificial Intelligence", "Natural Language Processing", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science", "AI"];
+            const classifications = ["Self-Supervised Learning","Artificial Intelligence", "Natural Language Processing", "Machine Learning", "Language Models", "Deep Learning", "Computer Vision", "Data Science", "AI", "Image Generation Algorithm"];
             const container = document.getElementById("blog-posts");
             data.filter(item => 
                 classifications.some(classification => item['Classification'].includes(classification)) &&
