@@ -1438,3 +1438,310 @@ For more detailed information, updates, and interactions with the open-source co
 
 
         18 stars today",,,4471,2023-08-28T10:00:24Z
+2024-03-02,https://github.com/python-poetry/poetry,https://raw.githubusercontent.com/python-poetry/poetry/main/README.md,"Poetry is a tool that simplifies Python packaging and dependency management for projects. It allows you to declare, manage, and install dependencies effortlessly. With Poetry, you can replace various files such as `setup.py`, `requirements.txt`, and `Pipfile` with a straightforward `pyproject.toml` project format. The tool supports features like defining package details, specifying dependencies with version constraints, managing optional dependencies, organizing dependencies into groups, and creating entry points for scripts. Poetry offers multiple installation methods for easy setup and provides extensive documentation for users and contributors. Additionally, it encourages community contribution to improve the tool further.","Simplify Python Packaging with Poetry: Installation, Documentation, and Resources","Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere. Poetry replaces `setup.py`, `requirements.txt`, `setup.cfg`, `MANIFEST.in` and `Pipfile` with a simple `pyproject.toml` based project format. You can find full installation instructions and advanced usage tips at [install.python-poetry.org]. Explore the [official website] for the current version of Poetry documentation and additional resources.","Learn how Poetry simplifies Python packaging and dependency management. Discover how Poetry streamlines managing Python project dependencies and replaces multiple configuration files with a single `pyproject.toml` file. Find installation instructions, documentation, and resources on Python Poetry's official website.",Python Libraries Collection,"Python
+
+
+
+
+
+        28,788
+
+
+
+
+
+        2,161
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/python-poetry/poetry/master/assets/install.gif,,28788,2018-02-28T15:23:47Z
+2024-03-02,https://github.com/embedchain/embedchain,https://raw.githubusercontent.com/embedchain/embedchain/main/README.md,"The text provides information about Embedchain, an Open Source RAG Framework for creating and deploying AI apps. It follows the principle of being ""Conventional but Configurable"" to serve both software and machine learning engineers. Embedchain streamlines the creation of RAG applications, managing unstructured data by segmenting it, generating embeddings, and storing them for retrieval. It offers diverse APIs for contextual information extraction, precise answers, and chat conversations. The text includes installation instructions, live demo links, examples, documentation, community connections, session booking, contribution guidelines, telemetry information, and citation details. Embedchain prioritizes data security and user experience improvements based on anonymous usage metrics.",Introducing Embedchain: The Open Source RAG Framework for AI Applications,"Embedchain is an Open Source RAG Framework designed for easy creation and deployment of AI apps. Following a functional yet customizable approach, Embedchain caters to both software and machine learning engineers. It simplifies the development of Retrieval-Augmented Generation (RAG) applications by efficiently managing unstructured data, generating embeddings, and optimizing retrieval processes. With a range of APIs, Embedchain allows users to extract contextual information, find precise answers, or engage in interactive chat conversations tailored to their data needs. Explore Embedchain for seamless AI application development!","Discover Embedchain, the Open Source RAG Framework that simplifies AI app development. Learn how Embedchain streamlines RAG application creation by managing unstructured data, generating embeddings, and optimizing retrieval processes. With diverse APIs, Embedchain empowers users to extract context, find answers, and engage in interactive chat. Explore Embedchain now for efficient AI application development!",Collaborative AI Framework,"Python
+
+
+
+
+
+        7,953
+
+
+
+
+
+        943
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,,7953,2023-06-20T08:58:36Z
+2024-03-02,https://github.com/allenai/fm-cheatsheet,https://raw.githubusercontent.com/allenai/fm-cheatsheet/main/README.md,"The text introduces ""The Foundation Model Development Cheatsheet,"" offering resources and best practices for model development. It provides a Cheatsheet link for guidance. Contributors can offer resources by following criteria like contribution relevance and helpfulness. The cheatsheet emphasizes tools like data catalogs and evaluation repositories. Contributors' submissions will be reviewed, and acknowledgments may be given. Instructions for resource addition include using an upload form or creating a pull request on the repository. Contact can be made via slongpre@media.mit.edu for questions. A citation will be released soon. More details can be found at the included urls.",The Foundation Model Development Cheatsheet - Best Practices and Resources,"Resources and recommendations for best practices in developing and releasing models. To contribute resources to the cheatsheet, please review the Criteria for Inclusion and the Add Resource Instructions. Contact slongpre@media.mit.edu for questions about this resource.",Discover best practices and resources for developing and releasing models on the Foundation Model Development Cheatsheet. Learn how to contribute resources and contact us for more information. Citation coming soon.,Data Science Learning,"Python
+
+
+
+
+
+        110
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        28 stars today",,,110,2023-12-01T19:05:20Z
+2024-03-02,https://github.com/maszhongming/Multi-LoRA-Composition,https://raw.githubusercontent.com/maszhongming/Multi-LoRA-Composition/main/README.md,"The text discusses a project on Multi-LoRA Composition for Image Generation. The project introduces two training-free methods, LoRA Switch and LoRA Composite, to integrate multiple elements in an image. It describes setting up the environment, downloading pre-trained LoRAs, and generating images using different composition methods. The text provides a guide for image generation, experimentation on ComposLoRA, comparative evaluation with GPT-4V, and human evaluation. It includes code snippets for composing LoRAs, generating images, and conducting evaluations. The authors invite citations for their work. The project aims to improve image generation in terms of composition and quality using Multi-LoRA techniques.",Multi-LoRA Composition for Image Generation: A Novel Approach Explored,"Low-Rank Adaptation (LoRA) is extensively used in text-to-image models for rendering specific elements in generated images. Our project introduces two training-free methods - LoRA Switch and LoRA Composite, to seamlessly integrate multiple elements in an image through multi-LoRA composition. Step-by-step instructions are provided for setting up the environment, downloading pre-trained LoRAs, and generating images using different composition methods. Additionally, details about experiments on ComposLoRA, comparative evaluation with GPT-4V, and human evaluation process are highlighted.","Discover a groundbreaking approach to image generation with Multi-LoRA Composition, exploring LoRA Switch and LoRA Composite methods. Learn how to set up the environment, download pre-trained LoRAs, and generate images using diverse composition techniques. Dive into exciting experiments, comparative evaluations, and human evaluations offering insights into this innovative Multi-LoRA Composition method.",Image Generation Algorithm,"Python
+
+
+
+
+
+        223
+
+
+
+
+
+        22
+
+
+        Built by
+
+          
+
+
+
+
+
+        15 stars today",,,223,2024-02-20T20:43:36Z
+2024-03-02,https://github.com/PaddlePaddle/PaddleNLP,https://raw.githubusercontent.com/PaddlePaddle/PaddleNLP/main/README.md,"The text provides an overview of PaddleNLP, a powerful natural language processing and language model library. It highlights the ease of use, industry-grade pre-trained models, and end-to-end development experience. The text also mentions recent updates, installation instructions, and quick-start guides for tasks such as text generation and information extraction. It covers features like FastTokenizer for high-performance text processing, FastGeneration for efficient text generation, Fleet for distributed training, and various applications like semantic search, question answering, sentiment analysis, and speech command analysis. The library is open source under the Apache-2.0 license, and citations are appreciated for research.",Empowering NLP Development with PaddleNLP: A Comprehensive Guide,"PaddleNLP is a versatile natural language processing and large language model development library that offers a seamless user experience. By aggregating high-quality pre-trained models and providing out-of-the-box development experience, PaddleNLP covers various NLP scenarios and industrial use cases, empowering developers to meet their customized needs flexibly.","Discover the power of PaddleNLP, a comprehensive guide to leveraging PaddleNLP for your natural language processing projects. Learn about the latest features, installation tips, and practical examples for developing high-performance NLP applications.",Natural Language Processing,"Python
+
+
+
+
+
+        11,071
+
+
+
+
+
+        2,753
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://user-images.githubusercontent.com/11793384/159693816-fda35221-9751-43bb-b05c-7fc77571dd76.gif,,11071,2021-02-05T13:07:42Z
+2024-03-02,https://github.com/stanfordnlp/dspy,https://raw.githubusercontent.com/stanfordnlp/dspy/main/README.md,"The text discusses DSPy, a framework for optimizing prompts and weights of language models within a pipeline. DSPy aims to automate the process of building complex systems using LMs by separating the program's flow from the LM parameters and introducing optimizers to tune prompts and weights based on desired metrics. By using DSPy, users can teach models like GPT-3.5 or T5-base to be more reliable at tasks. The text outlines the process of using DSPy, its key concepts like Signatures and Teleprompters, and how it differs from other libraries. It also provides information on installation, documentation, tutorials, examples, and contributions.",DSPy: Programming Foundation Models for Algorithmic Optimization,"DSPy is a framework designed to optimize prompts and weights for language models used in pipelines. By separating the flow of your program from LM parameters, DSPy introduces new optimizers that can tune prompts and/or weights to maximize a desired metric. With DSPy, models like GPT-3.5 or T5-base can be made more reliable, achieving higher quality and avoiding specific failure patterns. This approach paves the way for less prompting, higher scores, and a systematic solution to hard tasks using LMs.","Explore how DSPy, a framework for programming foundation models, can optimize prompts and weights to maximize metrics and achieve higher quality outcomes. Learn how DSPy separates program flow from LM parameters and introduces optimizers to fine-tune models, leading to less prompting and higher scores in solving tasks with LMs.",Language Models,"Python
+
+
+
+
+
+        7,371
+
+
+
+
+
+        496
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        54 stars today",,https://www.youtube.com/watch?v=Dt3H2ninoeY; https://www.youtube.com/watch?v=im7bCLW2aM4; https://www.youtube.com/watch?v=41EfOY0Ldkc; https://www.youtube.com/watch?v=ycfnKPxBMck; https://www.youtube.com/watch?v=CDung1LnLbY; https://www.youtube.com/watch?v=CEuUG4Umfxs,7371,2023-01-09T21:01:51Z
+2024-03-02,https://github.com/MooreThreads/Moore-AnimateAnyone,https://raw.githubusercontent.com/MooreThreads/Moore-AnimateAnyone/master/README.md,"The text provides updates and information about a project called AnimateAnyone, aiming to reproduce the results demonstrated in the original paper with additional features and improvements. The repository includes training codes, pretrained weights, and examples of generated results. It mentions limitations and ongoing development efforts to address shortcomings. Installation instructions, download details, and commands for training and inference are provided. There is also a mention of a Gradio demo and community contributions. The text ends with information about launching the model on the MoBi MaLiang AIGC platform. The project is intended for academic research purposes, with acknowledgments to related repositories and contributors.",Enhancing AnimateAnyone: Training Codes and Release Plans,"We are excited to announce the release of our training codes for AnimateAnyone models. This repository aims to reproduce the results of the original paper while incorporating various approaches and tricks. The current version is a preliminary attempt to approximate the performance demonstrated in AnimateAnyone, with ongoing developments and enhancements planned. We welcome community feedback and ideas for further improvements. Stay tuned for the enhanced version on our MoBi MaLiang AIGC platform, operating on our dedicated GPU S4000 cloud computing infrastructure.",Discover the latest updates on AnimateAnyone models with our newly released training codes. Explore our repository that reproduces the original paper's results and aims for even greater performance. Join us in enhancing this project with your feedback and ideas. Stay informed about the upcoming release on our MoBi MaLiang AIGC platform for a powerful computational experience.,Deep Learning Platform,"Python
+
+
+
+
+
+        2,242
+
+
+
+
+
+        171
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        20 stars today",,https://github.com/MooreThreads/Moore-AnimateAnyone/assets/138439222/9c4d852e-0a99-4607-8d63-569a1f67a8d2; https://github.com/MooreThreads/Moore-AnimateAnyone/assets/138439222/722c6535-2901-4e23-9de9-501b22306ebd; https://github.com/MooreThreads/Moore-AnimateAnyone/assets/138439222/17b907cc-c97e-43cd-af18-b646393c8e8a; https://github.com/MooreThreads/Moore-AnimateAnyone/assets/138439222/86f2f6d2-df60-4333-b19b-4c5abcd5999d,2242,2024-01-12T07:55:21Z
+2024-03-02,https://github.com/jhao104/proxy_pool,https://raw.githubusercontent.com/jhao104/proxy_pool/master/README.md,"ProxyPool is a web crawler proxy IP pool project aimed at collecting and validating free proxies from the internet. It ensures proxy availability by periodic validation and storage, offering APIs and CLI for use. Users can also extend proxy sources to enhance the quantity and quality of IP proxies. The project supports Python versions 2.7 to 3.11. It provides Docker image and docker-compose support for easy deployment. Users can access the API for proxy management and integration within web scraping scripts. The project welcomes feedback and contributions from the community to improve its functionality.",ProxyPool: Free Proxy IP Pool and Crawler Project with API and CLI Support,"ProxyPool is a crawler proxy IP pool project that collects, validates, and stores free proxies from the web to ensure their availability. It provides both API and CLI usage. You can also expand proxy sources to enhance the quantity and quality of the IP pool. Check out the documentation for more details and supported Python versions. Learn how to run the project, extend proxy sources, and use the API in your projects. Collaborate, report issues, and contribute to make ProxyPool even better.","Explore ProxyPool, a project that collects free proxies from the web to ensure their availability. With API and CLI support, you can use proxies easily. Learn how to run the project, extend proxy sources, and contribute to its development. Check out the documentation and collaborate with other users for an improved ProxyPool experience.",Proxy IP Pool,"Python
+
+
+
+
+
+        19,776
+
+
+
+
+
+        4,888
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",,,19776,2016-11-25T13:49:07Z
+2024-03-02,https://github.com/kijai/ComfyUI-SUPIR,https://raw.githubusercontent.com/kijai/ComfyUI-SUPIR/main/README.md,"The text is about a ComfyUI SUPIR upscaler wrapper node which is still a work in progress. It provides information on how to install the node, including necessary packages and dependencies. It also mentions the need for specific models like SUPIR and SDXL models, and provides links for downloading them. The text includes warnings regarding model size and downloading, along with information on memory requirements for running the node. Additionally, it provides links for tests demonstrating the upscaling capabilities of the node. The text also includes information on the original SUPIR repository, models provided, BibTeX citation, contact information, and a declaration for non-commercial use only.","ComfyUI SUPIR Upscaler: Installation, Models, and Test Results","# ComfyUI SUPIR upscaler wrapper node
+
+## WORK IN PROGRESS
+![image](https://github.com/kijai/ComfyUI-SUPIR/assets/40791699/887898d3-afe5-45d1-be08-50f6620b70eb)
+
+# Installing
+Either manager and install from git, or clone this repo to custom_nodes and run:
+
+`pip install -r requirements.txt`
+
+or if you use portable (run this in ComfyUI_windows_portable -folder):
+
+`python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-SUPIR\requirements.txt`
+
+Additionally `xformers` seems to currently be necessary, a safe way (often problem on Windows) to install/update it is with:
+
+`pip install -U xformers --no-dependencies`  (for portable `python_embeded\python.exe -m pip install -U xformers --no-dependencies` )
+
+Get the SUPIR model(s) from the original links below, they are loaded from the normal `ComfyUI/models/checkpoints` -folder
+In addition you need an SDXL model, they are loaded from the same folder.
+
+I have not included llava in this, but you can input any captions to the node and thus use anything you want to generate them, or just don't, seems to work great even without.
+
+Memory requirements are directly related to the input image resolution, the ""scale_by"" in the node simply scales the input, you can leave it at 1.0 and size your input with any other node as well. In my testing I was able to run 512x512 to 1024x1024 with a 10GB 3080 GPU, and other tests on 24GB GPU to up 3072x3072. System RAM requirements are also hefty, don't know numbers but I would guess under 32GB is going to have issues, tested with 64GB.
+
+Mirror for the models: https://huggingface.co/camenduru/SUPIR/tree/main
+
+## WARNING: currently downloads 10GB clip model as I didn't figure out a way to use existing ones yet
+
+# Tests
+Video upscale test (currently the node does frames one by one from input batch):
+
+Original: https://github.com/kijai/ComfyUI-SUPIR/assets/40791699/33621520-a429-4155-aa3a-ac5cd15bda56
+
+Upscaled 3x: https://github.com/kijai/ComfyUI-SUPIR/assets/40791699/d6c60e0a-11c3-496d-82c6-a724758a131a
+
+Image upscale from 3x from 512p:
+https://github.com/kijai/ComfyUI-SUPIR/assets/40791699/545ddce4-8324-45cb-a545-6d1f527d8750
+","Learn how to install the ComfyUI SUPIR upscaler wrapper node, access the necessary models, and see test results. Find instructions on installation, model download links, and test example links in this blog post.",Deep Learning Platform,"Python
+
+
+
+
+
+        278
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        36 stars today",,,278,2024-02-28T19:14:40Z
+2024-03-02,https://github.com/speechbrain/speechbrain,https://raw.githubusercontent.com/Z4nzu/hackingtool/master/README.md,"The text describes a comprehensive hacking tool repository for hackers. It features various tools categorized under sections such as Anonymously Hiding Tools, Information Gathering Tools, Wireless Attack Tools, SQL Injection Tools, Phishing Attack Tools, and more. The update V1.2.0 includes bug fixes, new tools like Reverse Engineering and RAT Tools, updates to Multitor, and additions to Wifijamming and Steganography. The installation process involves downloading, giving permissions, and running the tool. It also provides instructions for using the tool in a Docker container. The creator emphasizes not to use the tools for illegal activities. The author's social media and contact details are also shared for feedback and suggestions.",All in One Hacking Tool For Hackers | Menu Guide and Update | Latest Version V1.2.0,"The blog post introduces an all-in-one hacking tool for hackers, providing a comprehensive menu guide with various hacking categories such as anonymously hiding tools, information gathering tools, wordlist generator, wireless attack tools, SQL injection tools, phishing attack tools, web attack tools, and more. Additionally, the post highlights the latest update version V1.2.0, featuring bug fixes, new tools like reverse engineering and RAT tools, updates on existing tools, and expanded offerings. The tool aims to support ethical hacking and cybersecurity practices, promoting responsible use of hacking tools.","Discover the complete menu guide of the all-in-one hacking tool, offering tools for different hacking categories like information gathering, SQL injection, phishing attacks, and more. Stay updated with the latest version V1.2.0 that includes new tools, bug fixes, and enhancements. Explore ethical hacking practices with this tool designed to support cybersecurity efforts.",Cybersecurity Tool,"Python
+
+
+
+
+
+        7,491
+
+
+
+
+
+        1,230
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        26 stars today",https://github.com/Z4nzu/hackingtool/blob/master/images/A00.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A0.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A1.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A2.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A4.png,https://www.youtube.com/watch?v=BsFhpIDcd9I,42143,2020-04-28T17:48:45Z
