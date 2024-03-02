@@ -145,7 +145,7 @@ def extract_media_links(readme_link):
     base_repo_url = '/'.join(readme_link.split('/')[:-1])
 
     # Regular expression patterns for extracting image, gif, and video links
-    image_pattern = r'!\[.*?\]\((.*?\.(?:png|jpg|jpeg|gif))\)'
+    image_pattern = r'(?:!\[.*?\]\((.*?\.(?:png|jpg|jpeg|gif))\)|<img.*?src="(.*?\.(?:png|jpg|jpeg|gif))".*?>)'
     github_video_pattern = r'https://github\.com/.+?/blob/.+?/(.+?\.(?:mp4|mov|avi))'
     youtube_video_pattern = r'\b(?:https?://)?(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w\-_]+)\b'
     video_tag_pattern = r'<video.+?src="(.+?)".*?>'
