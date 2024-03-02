@@ -153,7 +153,7 @@ def extract_media_links(readme_link):
 
     # Extracting all image and gif links
     raw_media_links = re.findall(image_pattern, readme_content)
-    media_links = [link if link.startswith('http') else f'{base_repo_url}/{link}' for link in raw_media_links]
+    media_links = [link[0] if link[0].startswith('http') else f'{base_repo_url}/{link[0]}' for link in raw_media_links]
 
     # Extracting all video links, including GitHub hosted videos, YouTube URLs, <video> tags, and private GitHub videos
     github_video_links = re.findall(github_video_pattern, readme_content)
