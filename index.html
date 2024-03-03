@@ -113,8 +113,7 @@ fetch('https://raw.githubusercontent.com/DanielTea/control-f-github-trending-ana
                 if (item['Image-Links']) {
                     const imageLinks = item['Image-Links'].split(';').map(link => link.trim());
                     let firstDemoImageLink = imageLinks.find(link => {
-                    
-                            return link.endsWith('.png') && isLikelyDemoImage(link);
+                            return (link.endsWith('.png') || link.endsWith('.jpg')) && isLikelyDemoImage(link);
                         
                     });
                     if (firstDemoImageLink) {
