@@ -1,0 +1,12 @@
+ERROR:root:Error uploading image: 403 Forbidden
+ERROR:root:Error posting tweet: 403 Forbidden
+Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
+ERROR:root:Error uploading image: 403 Forbidden
+ERROR:root:Error posting tweet: 403 Forbidden
+Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
+ERROR:root:Error uploading image: No connection adapters were found for "['https://raw.githubusercontent.com/maszhongming/Multi-LoRA-Composition/main/images/intro_fig.png', 'https://raw.githubusercontent.com/maszhongming/Multi-LoRA-Composition/main/images/merge_example.png', 'https://raw.githubusercontent.com/maszhongming/Multi-LoRA-Composition/main/images/switch_example.png', 'https://raw.githubusercontent.com/maszhongming/Multi-LoRA-Composition/main/images/composite_example.png']"
+ERROR:root:Error uploading image: 413 Payload Too Large
+ERROR:root:Error posting tweet: 400 Bad Request
+Your Tweet text is too long. For more information on how Twitter determines text length see https://github.com/twitter/twitter-text.
+ERROR:root:Error posting tweet: 400 Bad Request
+Your Tweet text is too long. For more information on how Twitter determines text length see https://github.com/twitter/twitter-text.
