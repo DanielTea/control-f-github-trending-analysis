@@ -1483,3 +1483,402 @@ These steps involve setting up docker images, running local shell scripts, and r
 
 
         25 stars today",https://github.com/Z4nzu/hackingtool/blob/master/images/A00.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A0.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A1.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A2.png; https://github.com/Z4nzu/hackingtool/blob/master/images/A4.png,https://www.youtube.com/watch?v=BsFhpIDcd9I,42145,2020-04-28T17:48:45Z
+2024-03-03,https://github.com/layerdiffusion/sd-forge-layerdiffusion,https://raw.githubusercontent.com/layerdiffusion/sd-forge-layerdiffusion/main/README.md,"The text provides updates and details about the ""sd-forge-layerdiffusion"" repository, focusing on transparent image layer diffusion using latent transparency. It mentions work-in-progress extensions, image generation functionalities, and model releases for SDXL. The text includes specific prompts for users to check the transparency diffusion process, details on released models, and instructions for background and foreground conditions. It also addresses potential upcoming releases, model improvements, and emphasizes reproducing results accurately. The repository aims to provide a dynamic code base for generating transparent images and layers using innovative techniques, benefiting professional content creation studios.",,,,Image Generation Platform.,"Python
+
+
+
+
+
+        1,085
+
+
+
+
+
+        85
+
+
+        Built by
+
+          
+
+
+
+
+
+        301 stars today",,,1085,2024-03-01T06:41:32Z
+2024-03-03,https://github.com/naver/dust3r,https://raw.githubusercontent.com/naver/dust3r/main/README.md,"The text provides information about the implementation of DUSt3R, a tool for geometric 3D vision. It includes details like the project page, arXiv link, and a BibTeX citation. Installation steps are outlined, along with checkpoints for pre-trained models. An interactive demo is described for reconstructing scenes, along with code snippets for usage examples. Training instructions are also included, with hyperparameters and steps for training the DUSt3R models. Overall, the text covers various aspects of DUSt3R, from its features to practical usage and training guidance.",DUSt3R: Geometric 3D Vision Made Easy | Implementation and Usage Guide,"DUSt3R offers an official implementation of 'DUSt3R: Geometric 3D Vision Made Easy'. The blogpost provides comprehensive information on the installation process, checkpoints, interactive demo, usage guidelines, as well as training insights. Learn how to clone DUSt3R, create the environment, compile cuda kernels, download pre-trained models, run interactive demos, perform global alignment, visualize reconstructions, and more. Dive into the world of 3D vision with DUSt3R!","Discover the official implementation of 'DUSt3R: Geometric 3D Vision Made Easy' along with installation guides, checkpoints information, interactive demo instructions, usage insights, and training details. Learn how to use DUSt3R for 3D reconstruction and enhance your understanding of 3D vision. Get started with DUSt3R today!",Computer Vision Platform.,"Python
+
+
+
+
+
+        894
+
+
+
+
+
+        63
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        198 stars today",https://raw.githubusercontent.com/naver/dust3r/main/assets/pipeline1.jpg; https://raw.githubusercontent.com/naver/dust3r/main/assets/dust3r_archi.jpg; https://raw.githubusercontent.com/naver/dust3r/main/assets/demo.jpg; https://raw.githubusercontent.com/naver/dust3r/main/assets/matching.jpg,,894,2024-02-21T07:13:14Z
+2024-03-03,https://github.com/AUTOMATIC1111/stable-diffusion-webui,https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md,"The text describes a web interface called Stable Diffusion web UI, developed using the Gradio library. The interface offers various features, including img2img and txt2img modes, outpainting, inpainting, color sketch, and more. Users can adjust attention to specific text parts, run img2img processing multiple times, and create 3D image plots. Additional functionalities include the ability to run arbitrary Python code, mouseover hints, and support for various neural network tools. The text also provides detailed installation instructions for different platforms and highlights the contributions from various sources. The interface supports multiple extensions and integrations, making it a comprehensive tool for visual generation tasks.","Enhancing Visual Generation with Stable Diffusion Web UI: Features, Installation, and Contributions","Stable Diffusion Web UI is a powerful tool that offers various features such as original txt2img and img2img modes, outpainting, inpainting, color sketch, prompt matrix, stable diffusion upscale, and much more. Users can enjoy live previews, custom scripts, tiling support, highres fix, and API support. The installation process varies for different platforms, including NVidia GPUs, AMD GPUs, Intel CPUs and GPUs, and Apple Silicon. The project welcomes contributions and provides comprehensive documentation on its wiki.","Discover the diverse features of Stable Diffusion Web UI for visual generation, learn how to install it on different platforms, and explore opportunities to contribute. Check out the detailed installation guides for NVidia GPUs, AMD GPUs, Intel CPUs, and Apple Silicon. Get started with this innovative tool today!",Computer Vision Platform.,"Python
+
+
+
+
+
+        123,701
+
+
+
+
+
+        24,154
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        142 stars today",https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png,,123701,2022-08-22T14:05:26Z
+2024-03-03,https://github.com/allenai/OLMo,https://raw.githubusercontent.com/allenai/OLMo/main/README.md,"OLMo, short for Open Language Model, is a repository dedicated to training and utilizing AI2's advanced open language models, developed by scientists specifically for scientific purposes. It offers models like OLMo 1B, OLMo 7B, and OLMo 7B Twin 2T, trained on the Dolma dataset. Users can install OLMo via PyPI or from the source code. The text details installation instructions, various models in the OLMo family, how to run inference using Hugging Face integration, finetuning checkpoints, quantization, reproducibility tips for training, inspecting training data, finetuning instructions, evaluation tools, and a citation reference for OLMo research.","OLMo: Open Language Model - Overview, Installation, Models, and Inference","OLMo is a repository for training and using AI2's state-of-the-art open language models. Built by scientists, for scientists, OLMo offers models like OLMo 1B, OLMo 7B, and OLMo 7B Twin 2T trained on the Dolma dataset. The blogpost covers installation instructions for PyTorch, models overview, inference using Hugging Face integration, quantization details, reproducibility with training and inspecting data, fine-tuning guidance, evaluation tools, and citation information.","Learn about OLMo, a repository for open language models like OLMo 1B, OLMo 7B, and OLMo 7B Twin 2T. Explore installation guides, models overview, inference methods with Hugging Face, quantization, reproducibility steps, fine-tuning instructions, evaluation tools, and citation details for OLMo. Discover how OLMo accelerates the science of language models.",Language Models,"Python
+
+
+
+
+
+        3,264
+
+
+
+
+
+        283
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        60 stars today",https://allenai.org/olmo/olmo-7b-animation.gif,,3264,2023-02-20T22:29:43Z
+2024-03-03,https://github.com/mini-sora/minisora,https://raw.githubusercontent.com/mini-sora/minisora/main/README.md,"Mini Sora is an open-source community organized by students aiming to explore the implementation path of Sora and its future development direction. They conduct roundtable discussions with the community to explore possibilities, and discuss existing technologies for video generation. The community also has a paper reproduction group focusing on GPU-friendly, training-efficient, and inference-efficient targets. They have ongoing discussions, reading plans, and various related works in the field of diffusion models, transformers, video generation, and more. The community welcomes contributions and has a dedicated group of contributors. You can learn more and contribute by visiting their GitHub repository.","Exploring the World of Sora: Latest Updates, Research, and Community Discussions","Join the Mini Sora open-source community, a place for exploring Sora's implementation paths and future directions. Engage in roundtable discussions, explore video generation technologies, and delve into diffusion models for visual computing. Stay updated with the latest research, papers, and shared insights within the community.","Discover the Mini Sora open-source community, where you can participate in roundtable discussions, explore video generation technologies, and dive into diffusion models. Stay up-to-date with the latest research and community insights on Sora's implementation paths and future directions.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        310
+
+
+
+
+
+        40
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        51 stars today",https://raw.githubusercontent.com/mini-sora/minisora/main/assets/logo.jpg; https://raw.githubusercontent.com/mini-sora/minisora/main/assets/qrcode.png,,310,2024-02-21T13:50:34Z
+2024-03-03,https://github.com/liguodongiot/llm-action,https://raw.githubusercontent.com/liguodongiot/llm-action/main/README.md,"The text provides an overview of various topics related to large language models (LLMs). It covers different aspects such as model training, inference, compression, algorithm architecture, AI compilers, AI infrastructure, model deployment on servers, and common tools used in these domains. The text includes information on specific LLM training practices, optimization techniques like knowledge distillation and low-rank decomposition, as well as tools and frameworks commonly used in LLM development. It also mentions learning and discussion groups dedicated to LLMs and provides links to relevant resources and materials. Additionally, there is a section on the history of stars the project has gathered over time.","Exploring Large Language Models: Training, Inference, and Compression","The blog post dives into different aspects of large language models (LLMs) including training techniques, inference frameworks, and model compression methods. It covers topics like distributed training, LLM fine-tuning technologies, knowledge distillation, low-rank decomposition, model localization, AI compilers, and more. The post also provides insights on LLM applications, AI infrastructure setup, and commonly used tools. Join the LLM learning and discussion groups, and follow the companion WeChat Official Account for the latest updates on AI engineering practices.","Explore various facets of large language models (LLMs) from training to inference and model compression. Learn about distributed training techniques, LLM fine-tuning methods, knowledge distillation, low-rank decomposition, AI compilers, AI infrastructure setup, and essential tools. Join learning groups and follow the WeChat Official Account for AI engineering insights.",Language Models,"Python
+
+
+
+
+
+        3,711
+
+
+
+
+
+        346
+
+
+        Built by
+
+          
+
+
+
+
+
+        154 stars today",https://github.com/liguodongiot/llm-action/blob/main/pic/llm-action-v3.png; https://github.com/liguodongiot/llm-action/blob/main/pic/wx.jpg; https://github.com/liguodongiot/llm-action/blob/main/pic/wx-gzh.png,,3711,2023-05-23T05:29:16Z
+2024-03-03,https://github.com/lllyasviel/Fooocus,https://raw.githubusercontent.com/tinygrad/tinygrad/master/README.md,"tinygrad is a deep learning framework maintained by tiny corp. It aims to be a simple framework to add new accelerators to, supporting both inference and training. The framework is still in alpha stage but has received funding for further development. Key features include LLaMA and Stable Diffusion, as well as laziness for fused operations. Neural networks can be easily implemented with tinygrad, along with support for various accelerators such as GPU, C Code, LLVM, METAL, CUDA, and HIP. Installation is recommended from source. Contributions are welcomed, with guidelines provided for submitting PRs. Tests can be run locally using pytest.",Exploring tinygrad: A Simple yet Powerful Deep Learning Framework,"tinygrad is a deep learning framework maintained by tiny corp, sitting between PyTorch and micrograd. Despite its simplicity, it aims to be versatile and easy to extend with new accelerators for both inference and training purposes. With features like LLaMA and Stable Diffusion, laziness for efficient kernel fusion, and neural network capabilities, tinygrad offers a promising tool for machine learning enthusiasts. The framework already supports various accelerators like GPU, C Code, LLVM, METAL, CUDA, and HIP, with the flexibility to add more. Installation is recommended from the source code, and documentation can be found in the docs directory.","Discover the simplicity and power of tinygrad, a deep learning framework between PyTorch and micrograd. Learn about its features, including LLaMA and Stable Diffusion, laziness for efficient kernel fusion, and neural network capabilities. Explore how tinygrad supports various accelerators like GPU, C Code, LLVM, METAL, CUDA, and HIP, with the flexibility to add more. Installation is recommended from the source code, and documentation can be found in the docs directory.",Deep Learning Framework,"Python
+
+
+
+
+
+        32,053
+
+
+
+
+
+        3,665
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        70 stars today",https://raw.githubusercontent.com/tinygrad/tinygrad/master/docs/logo.png,,22567,2023-08-09T18:43:40Z
+2024-03-03,https://github.com/freqtrade/freqtrade,https://raw.githubusercontent.com/roboflow/supervision/main/README.md,"The text provides information about a computer vision toolkit called Supervision. It offers tools for loading datasets, drawing detections on images or videos, and counting detections in a zone. The toolkit supports various models and provides customizable annotators and dataset utilities. Users can install the Supervision package using pip in a Python environment. The text includes code examples for working with detection models and annotating images. Additionally, it mentions tutorials on vehicle tracking and traffic analysis. The text also encourages contributions and provides links to documentation and resources related to Supervision.",Computer Vision Tools: Building Reusable Models with Supervision,"Discover how Supervision provides reusable computer vision tools for loading datasets, drawing detections, and counting detections. Pip install the supervision package in a Python environment to get started. Use Supervision for model-agnostic tasks like classification, detection, and segmentation. Explore various connectors and annotators to enhance your computer vision projects. Learn about the dataset utilities provided by Supervision for loading, splitting, merging, and saving datasets.","Learn about the reusable computer vision tools offered by Supervision for loading datasets, drawing detections, and counting detections. Follow a quick installation guide by pip installing the supervision package in Python environment. Dive into model-agnostic applications for classification, detection, and segmentation tasks. Explore connectors and annotators provided by Supervision to enhance your computer vision projects. Discover the dataset utilities for loading, splitting, merging, and saving datasets.",Computer Vision Platform.,"Python
+
+
+
+
+
+        24,695
+
+
+
+
+
+        5,387
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        40 stars today",https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png,https://www.youtube.com/watch?v=uWP6UjDeZvY; https://www.youtube.com/watch?v=uWP6UjDeZvY; https://www.youtube.com/watch?v=4Q3ut7vqD5o; https://www.youtube.com/watch?v=4Q3ut7vqD5o,9780,2017-05-17T23:48:53Z
+2024-03-03,https://github.com/microsoft/unilm,https://raw.githubusercontent.com/ltdrdata/ComfyUI-Impact-Pack/master/README.md,"The text provides detailed information about a custom node pack called ComfyUI-Impact-Pack. It includes various custom nodes such as Detectors, Detailers, SEGS Manipulation nodes, Pipe nodes, Image Utils, Switch nodes, Wildcards, and more. The pack offers features like controlling nodes, applying sampling methods, working with detectors and classifiers, and handling image and mask manipulation. Additionally, the text mentions explanations on Ultralytics models, installation instructions, and package dependencies. Users can apply these nodes to enhance image quality, process segmentation, work with detectors, and manage conditional logic within ComfyUI workflows effectively.",ComfyUI-Impact-Pack Custom Nodes for Enhancing Images and Models,"The ComfyUI-Impact-Pack is a collection of custom nodes designed to enhance images through various detectors, detailers, upscalers, and more. Recent compatibility patches and feature updates ensure smooth performance, but users are advised to update to the latest versions for optimal functionality. Various custom nodes such as Detectors, SAMLoader, Detailers, and SEGS Manipulation nodes are included to streamline image enhancement workflows. Installing the Impact Pack allows access to Ultralytics models for face, people, and clothing detection, along with NSFW content models.","Discover the capabilities of the ComfyUI-Impact-Pack, a collection of custom nodes designed to enhance images through detectors, detailers, and upscalers. Stay up-to-date with recent compatibility patches and feature updates to ensure optimal performance. Update to the latest versions for seamless workflow integration and access to Ultralytics models for various detections, including face, people, and clothing models.",Custom Node Pack,"Python
+
+
+
+
+
+        17,587
+
+
+
+
+
+        2,302
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        132 stars today",https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/simple.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/simple-original.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/simple-refined.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/2pass-simple.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/2pass-original.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/2pass-1pass.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/2pass-2pass.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/combination.jpg; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/combination-original.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/combination-refined.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/upscale-workflow.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/upscale-original.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/upscale-3x.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/SAMDetector-menu.png; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/SAMDetector-dialog.jpg; https://github.com/ltdrdata/ComfyUI-extension-tutorials/raw/Main/ComfyUI-Impact-Pack/images/SAMDetector-result.jpg,https://www.youtube.com/watch?v=AccoxDZIg3Y; https://www.youtube.com/watch?v=AccoxDZIg3Y,959,2019-07-23T04:15:28Z
+2024-03-03,https://github.com/ltdrdata/ComfyUI-Impact-Pack,https://raw.githubusercontent.com/BatsResearch/bonito/main/README.md,"Bonito is an open-source model designed for creating task-specific training datasets from unannotated text for instruction tuning. It allows for easy generation of synthetic datasets using the Hugging Face `transformers` and `vllm` libraries. The tool supports various task types such as question answering, sentiment analysis, summarization, and more. To use Bonito, you can create a synthetic instruction tuning dataset by providing unannotated text and defining the task type. The model is accessible through the `bonito-v1` repository and the `ctga-v1` dataset. To reproduce experiments, refer to the `nayak-arxiv24-code` GitHub repository. If using Bonito in research, remember to cite the provided paper.",Bonito: An Open-Source Model for Instruction Tuning Dataset Generation,"Bonito is an open-source model designed to convert unannotated text into task-specific training datasets for instruction tuning. This blog introduces Bonito as a lightweight library that allows for the easy creation of synthetic datasets using Hugging Face `transformers` and `vllm` libraries. Users can follow specific installation and usage instructions to generate synthetic instruction tuning datasets across various supported task types. Additionally, the post includes information on citation guidelines for referencing Bonito in research.","Learn about Bonito, an open-source model for generating instruction tuning datasets from unannotated text. Discover how to easily create synthetic datasets with Bonito using Hugging Face libraries. Explore the installation steps and basic usage instructions for generating synthetic datasets for various supported task types.",Language Models.,"Python
+
+
+
+
+
+        959
+
+
+
+
+
+        92
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",https://raw.githubusercontent.com/BatsResearch/bonito/main/assets/workflow.png,,162,2023-03-30T13:54:51Z
+2024-03-03,https://github.com/BatsResearch/bonito,https://raw.githubusercontent.com/huggingface/alignment-handbook/main/README.md,"The text is a handbook called ""The Alignment Handbook"" that focuses on aligning language models with human and AI preferences. It discusses techniques like supervised fine-tuning, reward modeling, rejection sampling, and direct preference optimization. The handbook provides robust training recipes and highlights recent releases and news related to aligning language models. It includes links to models, datasets, and demos, along with navigation tips for the project structure. The text also mentions installation instructions and encourages readers to cite the handbook if found useful. Overall, the handbook aims to be a resource for the ML community on training language models to better align with user preferences.",The Alignment Handbook: Robust Training Recipes for Language Model Alignment,"Robust recipes to align language models with human and AI preferences. Just one year ago, chatbots were out of fashion and most people hadn't heard about techniques like Reinforcement Learning from Human Feedback (RLHF) to align language models with human preferences. The Alignment Handbook aims to fill the gap by providing robust training recipes that span the entire pipeline, including supervised fine-tuning, reward modeling, rejection sampling, and direct preference optimization (DPO). Explore how to replicate models like Zephyr 7B, navigate the project, and install dependencies.","Discover robust training recipes in The Alignment Handbook for aligning language models with human and AI preferences. Learn about supervised fine-tuning, reward modeling, rejection sampling, and direct preference optimization (DPO). Explore project navigation and installation instructions for running the code efficiently.",Natural Language Processing.,"Python
+
+
+
+
+
+        162
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        38 stars today",https://raw.githubusercontent.com/huggingface/alignment-handbook/main/assets/handbook.png,,3331,2024-02-25T13:33:33Z
+2024-03-03,https://github.com/huggingface/alignment-handbook,https://raw.githubusercontent.com/alexta69/metube/master/README.md,"MeTube is a web GUI for youtube-dl that uses the yt-dlp fork, allowing you to download videos from various sites with playlist support. It can be run with Docker or docker-compose, and settings can be configured via environment variables. You can set options such as user and group IDs, download directories, themes, output file templates, and more. MeTube supports using browser cookies for restricted or private videos, browser extensions for easy downloads, an iOS Shortcut, and a bookmarklet. Running behind a reverse proxy is recommended for authentication and HTTPS support. Regular updates are necessary to keep up with changes in the yt-dlp engine.",A Complete Guide to MeTube: Web GUI for youtube-dl with Playlist Support,"MeTube is a powerful web GUI for youtube-dl that supports playlists from YouTube and many other sites. You can easily download videos by running it using Docker or docker-compose. Customize MeTube using various environment variables for settings like theme, download directories, output templates, and more. Additionally, learn how to use browser cookies with MeTube, browser extensions, iOS shortcuts, and bookmarklets for seamless video downloads. Discover tips for running MeTube behind a reverse proxy, updating yt-dlp, and building/running MeTube locally.","Explore the functionalities of MeTube, a web GUI for youtube-dl with playlist support. Learn how to download videos from YouTube and other platforms, customize settings via environment variables, use browser cookies, browser extensions, iOS shortcuts, and bookmarklets for efficient downloads. Get insights on running MeTube behind a reverse proxy, updating yt-dlp, and building/running MeTube locally for a seamless video download experience.",Data Ingestion Tool,"Python
+
+
+
+
+
+        3,331
+
+
+
+
+
+        248
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://github.com/alexta69/metube/raw/master/screenshot.gif,,2890,2023-08-25T11:35:34Z
+2024-03-03,https://github.com/alexta69/metube,https://raw.githubusercontent.com/VikParuchuri/marker/master/README.md,"Marker is a tool that converts PDF, EPUB, and MOBI files to markdown, emphasizing speed and accuracy. It specializes in handling PDF documents such as books and scientific papers. The conversion process involves advanced deep learning models for tasks like text extraction, layout detection, and formatting. Marker outperforms a similar tool named Nougat in speed and has lower hallucination risks due to its focused algorithm. The tool supports multiple languages and provides customizable settings. Marker is suitable for academic and digital PDFs, offering features like equation conversion to LaTeX and code block formatting. It is optimized for GPU, CPU, or MPS usage. Marker's limitations include occasional issues with equations and language support. Installation instructions and usage guidelines are provided for Linux and Mac systems. Performance benchmarks showcase Marker's speed and accuracy, comparing it with Nougat and naive text extraction methods. Commercial usage is restricted due to licensing of certain dependencies, but a commercial version is being developed. The tool acknowledges various open-source models and datasets that have contributed to its development.",Introducing Marker: A Fast and Accurate PDF to Markdown Converter,"Marker is a powerful tool that efficiently converts PDF, EPUB, and MOBI files to markdown format. It boasts a 10x speed improvement over similar tools like nougat and offers greater accuracy, especially on complex documents. With features like support for various PDF document types, equation conversion to Latex, code block and table formatting, and multi-language support, Marker is a versatile solution. Its deep learning pipeline ensures efficient text extraction, page layout detection, and post-processing, resulting in high-quality markdown output.","Discover Marker, a revolutionary tool for converting PDF files to markdown at lightning speed. Learn about its features, speed, and accuracy compared to existing solutions. See how Marker's deep learning models ensure precise text extraction and formatting, making it a standout choice for your PDF conversion needs.",Document Conversion Tool,"Python
+
+
+
+
+
+        2,890
+
+
+
+
+
+        198
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        128 stars today",https://raw.githubusercontent.com/VikParuchuri/marker/master/data/images/overall.png; https://raw.githubusercontent.com/VikParuchuri/marker/master/data/images/per_doc.png,,6974,2019-11-29T17:24:51Z
+2024-03-03,https://github.com/VikParuchuri/marker,https://raw.githubusercontent.com/majacinka/crewai-experiments/main/README.md,"The text describes experiments using CrewAI, focusing on different AI projects. The projects involve tasks like examining startup ideas, creating AI newsletters from Google SERP and Reddit Scraping, and developing an email classifier. Various AI models like GPT-4, Gemini Pro, Mistral, Open Chat, Nous Hermes, among others, were used for the experiments. Results varied, with some models producing generic content, lacking coherence, or failing to use appropriate tools. The Llama 2 13B model showed better understanding but lacked coherence for newsletter content. Some models like Llama 2 13B chat and text failed to produce any output, indicating limitations in understanding and task completion.",Unveiling My CREWAI Experiments: Leveraging AI Models with Varied Results,"In my recent experiments with CREWAI, I delved into trying 3 diverse projects, ranging from straightforward to intricate tasks. The main goal was to assign these tasks to a team of AI agents, each aimed at different objectives including examining a startup idea, building AI newsletters using Google SERP and Reddit Scraper, alongside developing an Email classifier. Through this venture, I explored numerous AI models, both through API calls like GPT-4 and Gemini Pro, as well as local models via Ollama, assessing their performance and output quality diligently.",Explore my journey with CREWAI experiments where I tasked AI agents with diverse projects like analyzing startup ideas and crafting AI newsletters. Discover the varied performance and output quality of different AI models tested through API calls and locally via Ollama. Dive into the world of AI experimentation with insights on model behavior and task understanding.,Collaborative AI Framework.,"Python
+
+
+
+
+
+        6,974
+
+
+
+
+
+        250
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        50 stars today",,,460,2023-10-30T20:14:08Z
+2024-03-03,https://github.com/majacinka/crewai-experiments,https://raw.githubusercontent.com/smicallef/spiderfoot/master/README.md,"SpiderFoot is an open-source intelligence automation tool designed to analyze data from various sources. It features over 200 modules, supports a YAML-configurable correlation engine, and offers export options like CSV and JSON. Users can access it through a web-based UI or CLI. It allows for the extraction of diverse data types, including IP addresses, email addresses, social media accounts, and more. SpiderFoot integrates with external tools like SHODAN, HaveIBeenPwned, and Nmap. It supports Python 3 and is MIT-licensed. SpiderFoot can be used for offensive (red team exercises, pen testing) or defensive purposes. Additional features are available in SpiderFoot HX, a cloud-based managed solution. You can learn more on their website or join their community on Discord.",SpiderFoot: Open Source Intelligence Automation Tool,"SpiderFoot is an open source intelligence (OSINT) automation tool designed to aggregate and analyze data from various sources. It features a web-based UI and CLI interface making it easy to navigate and utilize the data seamlessly. Written in Python 3 and MIT-licensed, SpiderFoot offers over 200 modules for comprehensive data extraction and analysis. Whether used offensively or defensively, SpiderFoot can target various entities like IP addresses, domains, and even social media accounts to provide in-depth insights and analysis.","Discover how SpiderFoot, an open source intelligence tool, uses Python 3 and over 200 modules to gather and analyze data from diverse sources. Explore its features, uses, and installation process. Join the SpiderFoot community for discussions, tutorials, and more. Follow SpiderFoot on Twitter for the latest updates.",Cybersecurity Tool.,"Python
+
+
+
+
+
+        460
+
+
+
+
+
+        105
+
+
+        Built by
+
+          
+
+
+
+
+
+        12 stars today",https://www.spiderfoot.net/wp-content/themes/spiderfoot/img/spiderfoot-wide.png; https://www.spiderfoot.net/wp-content/uploads/2022/04/opensource-screenshot-v4.png,,11365,2024-01-13T17:00:01Z
