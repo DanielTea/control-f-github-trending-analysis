@@ -338,8 +338,8 @@ def create_a_blogpost_readme(readme_link, client, modelname):
         first_x_words = words[:x]  # Keeping only the first x words
         return ' '.join(first_x_words)  # Joining the first x words back into a string
 
-    if number_of_words > 5000:
-        readme_text = keep_first_x_words(readme_text, 5000)
+    if number_of_words > 4000:
+        readme_text = keep_first_x_words(readme_text, 4000)
 
     # Prepare the classification prompt with the classes from the CSV
     blog_prompt = """
