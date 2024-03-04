@@ -50,7 +50,6 @@ def fetch_trending_repositories(url = 'https://github.com/trending/python?since=
 
         stars.append(star_count_text)
     
-    
     return repository_links, stars
 
 def fetch_and_save_readme_links(repository_links):

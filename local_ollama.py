@@ -1,19 +1,19 @@
-import openai
+# import openai
 
-client = openai.OpenAI(api_key="dummy", base_url="http://localhost:11434/v1")
+# client = openai.OpenAI(api_key="dummy", base_url="http://localhost:11434/v1")
 
-blog_prompt = "Why is the sky blue?"
- # Classify the GitHub project
-blog_completion = client.chat.completions.create(
-    model="llama2",
-    messages=[
-        {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
-        {"role": "user", "content": blog_prompt}
-    ]
-)
-blog_text = blog_completion.choices[0].message.content
+# blog_prompt = "Why is the sky blue?"
+#  # Classify the GitHub project
+# blog_completion = client.chat.completions.create(
+#     model="llama2",
+#     messages=[
+#         {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
+#         {"role": "user", "content": blog_prompt}
+#     ]
+# )
+# blog_text = blog_completion.choices[0].message.content
 
-print(blog_text)
+# print(blog_text)
 #/////////////////////
 # import requests
 # import re
@@ -58,3 +58,41 @@ print(blog_text)
 # # media_links = [link[0] if link[0].startswith('http') else f'{base_repo_url}/{link[0]}' for link in raw_media_links]
 
 # # print(media_links)
+
+
+#///////
+
+import requests
+from bs4 import BeautifulSoup
+
+def fetch_trending_repositories(url='https://github.com/trending/python?since=daily'):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Consolidate the extraction of repository links and stars into a single loop
+    repo_elements = soup.find_all('article', class_='Box-row')
+    repositories_info = []
+
+    for repo_element in repo_elements:
+        repo_data = {'url': None, 'stars': 'No specific star count found'}
+
+        # Extract repository URL
+        a_tag = repo_element.find('a', href=True)
+        if a_tag:
+            repo_data['url'] = 'https://github.com' + a_tag['href']
+            print(repo_data['url'])  # Print the repository URL
+
+        # Extract star count
+        star_info = repo_element.find(lambda tag: tag.name == "span" and ("stars this week" in tag.text or "stars today" in tag.text))
+        if star_info:
+            repo_data['stars'] = star_info.text.strip()
+
+        repositories_info.append(repo_data)
+
+    # Separate the URLs and stars into two lists for return
+    repository_links = [repo['url'] for repo in repositories_info]
+    stars = [repo['stars'] for repo in repositories_info]
+
+    return repository_links, stars
+
+fetch_trending_repositories(url='https://github.com/trending/python?since=daily')
