@@ -538,7 +538,7 @@ if __name__ == '__main__':
     parser.add_argument('--ClassName', type=str, default='Classification')
     parser.add_argument('--url', type=str, default='https://github.com/trending/python?since=weekly')
     parser.add_argument('--local_model', type=bool, default=False)
-    parser.add_argument('--modelname', type=str, default="gpt-3.5-turbo-0125")
+    parser.add_argument('--modelname', type=str, default="gpt-4-0125-preview")
     args = parser.parse_args()
 
     main_instance = Main(args.openai_api_key, args.CSV_PATH, args.ClassName, args.url, args.local_model, args.modelname)
