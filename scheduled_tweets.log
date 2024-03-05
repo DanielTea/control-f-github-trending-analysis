@@ -10,3 +10,11 @@ ERROR:root:Error posting tweet: 400 Bad Request
 Your Tweet text is too long. For more information on how Twitter determines text length see https://github.com/twitter/twitter-text.
 ERROR:root:Error posting tweet: 400 Bad Request
 Your Tweet text is too long. For more information on how Twitter determines text length see https://github.com/twitter/twitter-text.
+ERROR:root:Error uploading image: 401 Unauthorized
+32 - Could not authenticate you
+ERROR:root:Error posting tweet: 401 Unauthorized
+Unauthorized
+ERROR:root:Error uploading image: 401 Unauthorized
+32 - Could not authenticate you
+ERROR:root:Error posting tweet: 401 Unauthorized
+Unauthorized
