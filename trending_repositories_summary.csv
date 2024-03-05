@@ -2141,3 +2141,350 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         71 stars today",,,456,2024-02-20T20:33:18Z
+2024-03-05,https://github.com/layerdiffusion/sd-forge-layerdiffuse,https://raw.githubusercontent.com/layerdiffusion/sd-forge-layerdiffuse/main/README.md,"The text outlines the development and features of ""sd-forge-layerdiffuse,"" an extension for SD WebUI through Forge, designed to create transparent images and layers using latent transparency. Currently, the extension supports basic image generation and layer functionality, but the img2img feature for transparent images is still under development. The extension is evolving, and changes are expected, making it vital for professional users to back up their files regularly. It includes a demonstration of the process, indicating the capability to generate transparent effects unachievable with standard background removal methods. Various models are released for specific purposes, such as converting SDXL models into transparent image generators or layer generating models conditioned on foregrounds or backgrounds. Some models are slated for future release to improve performance and capabilities. Sanity checks are recommended for users to ensure their setup yields consistent results, demonstrated through various example prompts and outcomes. The text also includes FAQs and conditions for generating specific images, emphasizing the flexibility and potential of ""sd-forge-layerdiffuse"" in content creation with transparent images.",Revolutionizing Image Generation with SD-Forge LayerDiffuse: Transparent Layers Unveiled,"Discover the future of image creation with SD-Forge LayerDiffuse, a cutting-edge extension designed for the SD WebUI platform. This amazing tool allows users to generate transparent images and layers with unprecedented clarity and detail. While still a work in progress, basic functionalities such as image and layer generation are operational, promising a significant advancement in transparent img2img technology. The dynamic nature of this codebase promises exciting updates, catering especially to professional content creation studios seeking precision and consistency in their projects. Stay tuned for more updates as this technology evolves to redefine the standards of image generation.","Explore SD-Forge LayerDiffuse for SD WebUI, an innovative extension for creating detailed transparent images and layers. Ideal for professionals, it promises precise, high-quality image generation. Learn more about its features and future updates.",Image Generation Platform.,"Python
+
+
+
+
+
+        2,158
+
+
+
+
+
+        211
+
+
+        Built by
+
+          
+
+
+
+
+
+        289 stars today",,,2158,2024-03-01T06:41:32Z
+2024-03-05,https://github.com/huchenlei/ComfyUI-layerdiffuse,https://raw.githubusercontent.com/huchenlei/ComfyUI-layerdiffuse/main/README.md,"ComfyUI-layerdiffuse is an implementation of LayerDiffuse tailored for the ComfyUI environment. Users can install it by downloading the repository to the `custom_nodes` folder in ComfyUI or cloning it via GIT from the same location. Python dependencies are installed with `pip install -r requirements.txt`, though version conflicts with `diffusers` may occur, suggesting the use of separate Python venvs. The implementation supports a range of workflows for generating and blending foreground (FG) and background (BG), including separating RGB images with alpha channels, blending given FG/BG, extracting FG or BG from blended images, and generating FG from BG. A notable feature is the `stop at` parameter in some workflows, which enhances denoising process control. Currently, it primarily supports SDXL, with ongoing tasks including various conditioning and extraction capabilities. The workflows demonstrate color variations in FG extraction, pending confirmation from the LayerDiffuse authors if these are expected behaviors.",Integrate LayerDiffuse with ComfyUI for Enhanced Image Manipulation,"Explore the power of LayerDiffuse and ComfyUI integration for advanced image manipulation workflows. This guide covers installation steps, including a direct GitHub clone or download, and setting up necessary Python dependencies with potential conflict resolutions. Dive into comprehensive workflows for generating foregrounds, blending, and extracting elements with ease, all supported currently by SDXL. Enhance your projects by leveraging these innovative techniques for more control and creative freedom in image processing.","This post provides a succinct guide on integrating LayerDiffuse with ComfyUI for advanced image manipulation, including installation, setting up Python venvs to avoid dependency conflicts, and exploring various workflows for creative image processing.",Custom Node Pack,"Python
+
+
+
+
+
+        344
+
+
+
+
+
+        29
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        83 stars today",,,344,2024-03-02T22:56:05Z
+2024-03-05,https://github.com/yangjianxin1/Firefly,https://raw.githubusercontent.com/yangjianxin1/Firefly/master/README.md,"Firefly is an open-source project offering a one-stop tool for training large models efficiently. It provides support for pretraining, instruction fine-tuning (SFT), and DPO tasks across a wide range of large models such as Gemma, MiniCPM, Llama, and Bloom among others. The project highlights its three training methodologies, full parameter training, and efficient training techniques LoRA and QLoRA. Specifically, QLoRA is recommended for those with limited training resources, proven effective in Open LLM Leaderboard standings. The project includes support for most mainstream open-source large models and aligns its training with official chat model templates while also offering an assortment of instruction fine-tuning datasets and open-sourced model weights. Additionally, Firefly has demonstrated the effectiveness of its QLoRA training process on the Open LLM Leaderboard and has facilitated multiple language model innovations including LongQLoRA for context length extension, LLMPruner for model size reduction, and a Chinese version of LLaMA2 for efficient training. Model weights for various adaptations such as Firefly-mixtral-8x7b and Firefly-LLaMA2-Chinese among others are available. The project also emphasizes various related projects aiming at model training optimizations, and a list of technical blogs providing insights into large model training and optimization techniques. Firefly stands out for its comprehensive approach towards efficiently training and fine-tuning large models for a variety of applications.",Firefly: The One-Stop Training Tool for Large Language Models,"Discover Firefly, the open-source project revolutionizing the training of large language models such as Gemma, MiniCPM, and Llama. Supporting efficient strategies like QLoRA for instruction fine-tuning, Firefly enables effective model training with limited resources. Join the tech community and access a comprehensive array of mainstream large models, contributing to advancements in AI language training.","Learn how Firefly, an open-source project, simplifies the training of large language models with efficient techniques like QLoRA, supporting a wide range of models including Gemma and MiniCPM. Join the vibrant tech community today.",Deep Learning Platform,"Python
+
+
+
+
+
+        3,889
+
+
+
+
+
+        335
+
+
+        Built by
+
+          
+
+
+
+
+
+        15 stars today",https://img.shields.io/badge/微信交流群-Firefly-brightgreen?logo=wechat)](./pics/wechat-group.jpeg; https://raw.githubusercontent.com/yangjianxin1/Firefly/master/pics/firefly_logo.png; https://raw.githubusercontent.com/yangjianxin1/Firefly/master/pics/gongzhonghao.png; https://raw.githubusercontent.com/yangjianxin1/Firefly/master/pics/task_distribution.png; https://raw.githubusercontent.com/yangjianxin1/Firefly/master/pics/gongzhonghao.jpeg,,3889,2023-04-02T14:55:59Z
+2024-03-05,https://github.com/hpcaitech/ColossalAI,https://raw.githubusercontent.com/hpcaitech/ColossalAI/main/README.md,"Colossal-AI is a system designed to make training large AI models more efficient, cost-effective, and accessible. It offers a suite of parallel components to enable easy and scalable model training, supporting various parallelism strategies including Data, Pipeline, Tensor, and more. Colossal-AI also provides features for heterogeneous memory management and user-friendly configuration-based parallelism setup. Recent updates include cost reduction and enhancement solutions in various applications like Open-Sora for replication and Colossal-LLaMA-2 for domain-specific language model training. It showcases significant advancements in inference performance, training efficiency for massive models, AI-generated content acceleration, and biomedicine. The system is designed for both large-scale distributed training and efficient single-GPU training, with comprehensive support for a wide range of models and tasks. Installation is straightforward via PyPI or from the source, with Docker support available for easy environment setup. The community-driven project encourages contributions and offers extensive documentation, tutorials, and examples to facilitate adoption and innovation in AI model training.","Revolutionizing AI with Colossal-AI: Cheaper, Faster, More Accessible","Discover how Colossal-AI is transforming the AI landscape by making large AI models more affordable, quicker, and easily accessible. With its latest updates, Colossal-AI offers enhanced parallelism, reduced costs, and comprehensive support for existing and upcoming AI models. Dive into the world where advanced AI technology is now within reach for researchers and organizations worldwide, thanks to the innovative solutions provided by Colossal-AI.","Explore how Colossal-AI is making significant strides in AI by facilitating cheaper, faster, and more accessible large model training. Learn about its latest features, including parallelism enhancements and cost reductions.",Deep Learning Platform.,"Python
+
+
+
+
+
+        36,541
+
+
+
+
+
+        4,102
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/colossal-ai_logo_vertical.png; https://img.shields.io/badge/微信-加入-green?logo=wechat&amp)](https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/WeChat.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/JamesDemmel_Colossal-AI.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/sora/open-sora-1.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/sora/open-sora-2.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chat/ColossalChat%20YouTube.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chat/ColossalChat%20Speed.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chatgpt/ChatGPT%20scaling.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chatgpt/ChatGPT-1GPU.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chatgpt/LoRA%20data.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/Stable%20Diffusion%20v2.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/DreamBooth.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/Stable%20Diffusion%20Inference.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/FastFold.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/data%20preprocessing%20with%20Intel.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/xTrimoMultimer_Table.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/llama2_pretraining.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/examples/images/LLaMA_pretraining.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/examples/images/MOE_training.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/GPT3-v5.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/GPT2.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/(updated)GPT-2.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/BERT.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/OPT_update.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/ViT.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/GPT2-GPU1.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/GPT2-NVME.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/PaLM-GPU1.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/SwiftInfer.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/inference_GPT-3.jpg; https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/BLOOM%20serving.png,https://www.youtube.com/watch?v=KnXSfjqkKN0; https://www.youtube.com/watch?v=HcTiHzApHm0; https://www.youtube.com/watch?v=HcTiHzApHm0; https://www.youtube.com/watch?v=-qFBZFmOJfg,36541,2021-10-28T16:19:44Z
+2024-03-05,https://github.com/StavC/ComPromptMized,https://raw.githubusercontent.com/StavC/ComPromptMized/master/README.md,"The paper presents Morris II, the first computer worm designed to target GenAI-powered applications within Generative AI (GenAI) ecosystems. The worm leverages adversarial self-replicating prompts to exploit GenAI models, compelling them to replicate malicious inputs, engage in harmful activities, and propagate these inputs to additional GenAI systems. Demonstrations were conducted against GenAI-powered email assistants, showing the worm's capability to spam and exfiltrate personal data under various conditions using text and images against three GenAI models. The performance of the worm, including its propagation rate and malicious activities, was evaluated to understand its impact on GenAI ecosystems. The research contributes to understanding and mitigating new forms of malware that could exploit interconnected GenAI applications.",Exploring ComPromptMized: The First Zero-click Worm in GenAI Ecosystems,"The breakthrough study of ComPromptMized unveils a pioneering zero-click worm, Morris II, targeting GenAI-powered applications, marking a digital leap in cyber-attacks within GenAI ecosystems. Demonstrating unparalleled capability, this worm manipulates GenAI services to propagate malicious activities, from data exfiltration to spam, testing against major GenAI models. Its unique method of self-replication and propagation through adversarial inputs highlights a significant vulnerability in interconnected GenAI applications, urging the need for advanced security measures. As the first of its kind, Morris II's exploration into GenAI-powered email assistants underpins the critical intersection of artificial intelligence and cybersecurity, warranting immediate attention from developers and cybersecurity experts.","Discover ComPromptMized, a groundbreaking study revealing Morris II, the first zero-click worm targeting GenAI ecosystems, capable of self-replicating malicious activities across GenAI-powered applications.",Cybersecurity Tool,"Python
+
+
+
+
+
+        83
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+        29 stars today",https://raw.githubusercontent.com/StavC/ComPromptMized/master/Assets/Icon.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/Assets/InfoLeak.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/Assets/DJISpam.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/OriginalProcessedImages/America.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/PerturbatedImages/AmericaPerturbClassForward.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/OriginalProcessedImages/Cat.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/PerturbatedImages/CatPerturbClassForward.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/OriginalProcessedImages/Dji.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/PerturbatedImages/DjiPerturbClassForward.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/OriginalProcessedImages/Trump.png; https://raw.githubusercontent.com/StavC/ComPromptMized/master/FlowSteering/assets/PerturbatedImages/TrumpPerturbClassForward.png,https://www.youtube.com/watch?v=FL3qHH02Yd4,83,2024-02-26T23:21:05Z
+2024-03-05,https://github.com/NanmiCoder/MediaCrawler,https://raw.githubusercontent.com/NanmiCoder/MediaCrawler/main/README.md,"This text provides a detailed overview of a repository that contains several social media crawler tools, including those for Xiaohongshu, Douyin, Kuaishou, Bilibili, and Weibo. These tools are capable of fetching a variety of data such as videos, images, comments, likes, and shares using Playwright to navigate webpages. The disclaimer emphasizes that the repository's content is for learning and reference only, forbidding commercial use and illegal activities. It absolves itself from legal liabilities arising from misuse. The document also outlines the functionalities provided by the crawlers, such as support for different login methods, keyword search, specified content fetching, data saving options, and the use of IP proxies. Installation and usage instructions are provided, including creating a Python virtual environment, installing dependencies, and running the crawler programs. The document highlights the importance of complying with legal restrictions, encourages contributions through pull requests, and includes a section for donations to support the project.",Maximizing Web Scraping Capabilities for Digital Content: A Guide to Advanced Techniques,"Discover the high efficiency of web scraping in capturing digital content across platforms like Xiaohongshu, Douyin, Kuaishou, Bilibili, and Weibo using Playwright. Learn the ethical use of scraping technology for research and study, while adhering to legal standards to avoid misuse. This post also introduces a community for crawler technology exchange, encouraging contributions and shared learning. Additionally, it outlines a step-by-step guide on setting up the environment, running the scraper, and storing data effectively. Remember, responsible use of scraping technology fosters innovation without infringing on others' rights.","Explore the art of web scraping with a focus on platforms like Xiaohongshu, Douyin, and others. Learn setup and execution tips while upholding ethical standards for data collection and usage.",Open Source Tool,"Python
+
+
+
+
+
+        1,382
+
+
+
+
+
+        320
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        23 stars today",https://raw.githubusercontent.com/NanmiCoder/MediaCrawler/main/static/images/wechat_pay.jpeg; https://raw.githubusercontent.com/NanmiCoder/MediaCrawler/main/static/images/zfb_pay.jpeg,,1382,2023-06-09T12:14:34Z
+2024-03-05,https://github.com/apple/pfl-research,https://raw.githubusercontent.com/apple/pfl-research/main/README.md,"The `pfl` Python framework, designed by Apple, facilitates privacy-focused federated learning (FL) simulations for researchers, emphasizing efficient and confidential result dissemination. Not suitable for third-party FL deployments, it nonetheless offers insights beneficial for actual FL applications. It supports rapid simulations across distributed setups, adaptable API for innovative PFL concepts, scalable state-of-the-art algorithm simulations, compatibility with PyTorch and TensorFlow, and integration with diverse models (including beyond neural networks). Privacy features like differential privacy are also well-integrated. Installation is straightforward via PyPI, and resources like tutorial notebooks and benchmarks are available for immediate hands-on learning and research. Contributions to `pfl` are welcomed, with detailed guidelines provided on its website.",Introducing pfl: Revolutionizing Privacy in Federated Learning with Apple's Python Framework,"Discover 'pfl,' a cutting-edge Python framework by Apple designed for private federated learning (FL) simulations, aiming to enhance research dissemination and efficiency. This tool is exclusively crafted for researchers to conduct fast, scalable, and privacy-aware FL simulations, supporting both PyTorch and TensorFlow. Dive into flexible, powerful FL simulations with 'pfl' and contribute to open research by publishing impactful papers confidently. Whether you're experimenting with different models or integrating privacy features, 'pfl' offers the tools for groundbreaking FL advancements.","Explore 'pfl', an innovative Python framework by Apple for private federated learning simulations. Accelerate FL research with scalable, flexible simulations supporting PyTorch, TensorFlow, and robust privacy features.",Deep Learning Framework,"Python
+
+
+
+
+
+        93
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",,,93,2023-12-15T22:39:21Z
+2024-03-05,https://github.com/langchain-ai/langchain,https://raw.githubusercontent.com/langchain-ai/langchain/master/README.md,"LangChain is a versatile framework aimed at building context-aware applications that leverage language models for reasoning. It offers both Python and JavaScript libraries, complete with various tools and integrations for easy creation and customization of applications. Key components include support for managing prompts, optimizing them, data retrieval, and defining agents' actions. The framework facilitates building retrieval-augmented generation systems, analyzing structured data, and creating chatbots, among other applications. LangChain includes off-the-shelf chains for quick deployment and a collection of templates and libraries like LangServe and LangGraph for REST API deployment and building stateful, multi-actor applications, respectively. LangSmith serves as a developer platform for testing, monitoring, and integrating LLM-based chains. Open-source with an MIT license, LangChain encourages community contributions to enhance its capabilities further. Installation can be done via pip or conda, and detailed documentation, use cases, and best practice guides are available online for developers.",Revolutionizing Reasoning Applications with LangChain: The Ultimate Guide,"Discover how LangChain, the advanced framework for creating context-aware reasoning applications, is transforming the development landscape. Integrating seamlessly with language models, LangChain enables applications that are not only context-aware but also capable of sophisticated reasoning. From quick installation methods via pip or conda to a comprehensive ecosystem comprising libraries, templates, and developer platforms, LangChain offers an unparalleled toolkit for developers. Explore how LangChain facilitates the creation of diverse applications, such as chatbots and retrieval augmented generation, through its modular components and pre-built chains. Embrace the future of application development with LangChain’s innovative approach to utilizing language models.","Explore the capabilities of LangChain, a powerful framework designed for building context-aware reasoning applications. Discover its easy installation, diverse ecosystem, and how it revolutionizes app development with language models.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        78,287
+
+
+
+
+
+        11,803
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        127 stars today",,,78287,2022-10-17T02:58:36Z
+2024-03-05,https://github.com/microsoft/promptflow,https://raw.githubusercontent.com/microsoft/promptflow/main/README.md,"Prompt flow is a comprehensive toolset aimed at simplifying the development lifecycle of LLM-based AI applications, covering everything from initial idea generation, through prototyping, testing, and evaluation, to final deployment and monitoring. It facilitates prompt engineering, making it easier to develop high-quality LLM applications. Users can effortlessly create, debug, and iteratively improve their projects, ensuring they are of high quality and performant. The suite supports streamlined development for production and offers optional team collaboration features through its cloud version on Azure AI. In addition to facilitating easy setup and interaction with APIs like OpenAI, it provides a VS Code extension for an improved UI-based development experience. The project encourages community involvement through discussions, issue reporting, and contributions, aiming to continuously improve its offerings. It's licensed under MIT, welcoming contributions under a Contributor License Agreement with a focus on communal growth and adherence to a code of conduct.",Mastering Prompt Flow: Streamline Your AI Application Development,"Discover how Prompt Flow revolutionizes the development of LLM-based AI applications by making prompt engineering simpler and more efficient. Learn to create, debug, evaluate, and deploy your AI flows with ease, ensuring high quality and performance. Dive into the benefits of integrations with popular platforms and tools, and how collaborative features in the cloud version further enhance productivity. Whether you're working on your local setup or leveraging cloud platforms, Prompt Flow offers a comprehensive suite of tools to bring your AI application from concept to production seamlessly. Unlock the full potential of your AI projects with Prompt Flow’s advanced features and community support.","Explore how Prompt Flow simplifies the creation, evaluation, and deployment of LLM-based AI applications. Learn about its comprehensive tools and features that support developers from ideation to production.",AI Coding Assistant,"Python
+
+
+
+
+
+        7,508
+
+
+
+
+
+        574
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/microsoft/promptflow/main/examples/tutorials/quick-start/media/vsc.png,,7508,2023-06-30T06:03:06Z
+2024-03-05,https://github.com/odoo/odoo,https://raw.githubusercontent.com/odoo/odoo/master/README.md,"Odoo is a comprehensive suite of web-based, open-source business applications. It offers a variety of apps including Open Source CRM, Website Builder, eCommerce, Warehouse Management, Project Management, Billing & Accounting, Point of Sale, Human Resources, Marketing, and Manufacturing. These apps can operate independently or integrate seamlessly to function as a complete Open Source ERP system. The platform provides a range of resources to get started, including detailed setup instructions, an eLearning platform, and a business game named Scale-up to help users learn the software. Additionally, developers have access to tutorials to begin building with Odoo. The provided links offer further assistance, documentation, and access to nightly builds.",Maximizing Business Efficiency with Odoo: A Comprehensive Guide to Open Source Apps,"Discover the potential of Odoo, a suite of web-based, open-source business applications designed to enhance efficiency. From CRM and eCommerce to project management and accounting, Odoo offers a versatile range of apps that can operate independently or together as a fully integrated ERP system. Ideal for businesses seeking scalable solutions, Odoo’s diverse apps are seamlessly integrated, ensuring a cohesive and comprehensive business management platform. Learn how to get started with Odoo and leverage its full capabilities to drive your business forward.","Explore the benefits of Odoo, a suite of open-source business apps for CRM, eCommerce, project management, and more. Learn how Odoo can streamline operations and boost efficiency across your business.",Open Source ERP,"Python
+
+
+
+
+
+        33,653
+
+
+
+
+
+        21,853
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        32 stars today",,,33653,2014-05-13T15:38:58Z
+2024-03-05,https://github.com/pytest-dev/pytest,https://raw.githubusercontent.com/GreyDGL/PentestGPT/main/README.md,"PentestGPT is a cutting-edge penetration testing tool enhanced with GPT technology, aiming to automate penetration testing processes. It leverages ChatGPT to guide users through both general and specific operational steps. The tool has been updated to support GPT-4-turbo, promising better performance. It's capable of tackling easy to medium complexity challenges on platforms like HackTheBox. Installation involves setting up a virtual environment, linking an OpenAI account for API access, and running initial connection tests. Usage includes a set of commands for navigating the testing process, with support for exporting logs. It's designed for educational purposes, distributed under the MIT License, and the developers welcome contributions and feedback through various channels.",PentestGPT: Enhancing Penetration Testing with AI,"Discover how PentestGPT, an advanced penetration testing tool powered by GPT, revolutionizes cybersecurity practices. It automates testing processes, offering real-time guidance and enhancing security analysis across various platforms. The tool supports easy to medium HackTheBox machines and CTF challenges, showcasing its practical application in improving cyber defense mechanisms.","Explore PentestGPT, an innovative AI-powered penetration testing tool designed to streamline cybersecurity operations. Learn how it facilitates real-time analysis, supports HackTheBox machines, and improves cyber defenses.",Cybersecurity Tool,"Python
+
+
+
+
+
+        11,181
+
+
+
+
+
+        2,454
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,https://www.youtube.com/watch?v=lAjLIj1JT3c; https://www.youtube.com/watch?v=tGC5z14dE24; https://www.youtube.com/watch?v=lAjLIj1JT3c; https://www.youtube.com/watch?v=Vs9DFtAkODM; https://www.youtube.com/watch?v=h0k6kWWaCEU; https://www.youtube.com/watch?v=tGC5z14dE24,6037,2015-06-15T20:28:27Z
+2024-03-05,https://github.com/GreyDGL/PentestGPT,https://raw.githubusercontent.com/tiangolo/fastapi/master/README.md,"FastAPI is a modern, high-performance web framework for building APIs with Python 3.8+, leveraging standard Python type hints. It offers very high performance, on par with NodeJS and Go, thanks to Starlette and Pydantic. Development is faster and reduces human-induced errors by about 40%. It provides great editor support, minimizing debugging time. It's easy to use and learn, minimizing code duplication and reducing bugs. FastAPI produces production-ready code with automatic interactive documentation and is standards-based, fully compatible with OpenAPI and JSON Schema. The project's documentation and source code are readily available online, and it is backed by multiple sponsors. Notable opinions from companies like Microsoft, Uber, and Netflix highlight its utility in production environments. FastAPI also has a sibling called Typer for building CLI apps. The framework requires Python 3.8+, and for production, an ASGI server like Uvicorn. It simplifies declaring types for parameters, body, etc., converting and validating data automatically. This leads to automatic interactive API documentation and simplified code. FastAPI stands out for its performance, being one of the fastest Python frameworks available.",Mastering FastAPI: The Ultimate Guide for High-Performance Web Development,"Discover the power of FastAPI, a modern, fast, web framework for building APIs with Python 3.8+ based on standard Python type hints. Learn how FastAPI empowers developers with high performance, easy coding, fewer bugs, and automatic interactive documentation, making it ideal for production-ready APIs. Dive into its key features, such as high performance comparable to NodeJS and Go, speedy feature development, and robust, intuitive editor support. Embrace the future of web development with FastAPI, your solution for efficient, scalable, and standards-based APIs.",Explore FastAPI's benefits: from high performance and fast coding to fewer bugs and automatic documentation. Learn why it's the top choice for modern Python-based web development.,Python Web Development,"Python
+
+
+
+
+
+        6,037
+
+
+
+
+
+        707
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png; https://fastapi.tiangolo.com/img/sponsors/platform-sh.png; https://fastapi.tiangolo.com/img/sponsors/porter.png; https://fastapi.tiangolo.com/img/sponsors/reflex.png; https://fastapi.tiangolo.com/img/sponsors/propelauth.png; https://fastapi.tiangolo.com/img/sponsors/coherence.png; https://fastapi.tiangolo.com/img/sponsors/talkpython-v2.jpg; https://fastapi.tiangolo.com/img/sponsors/speakeasy.png; https://fastapi.tiangolo.com/img/sponsors/codacy.png; https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png; https://fastapi.tiangolo.com/img/index/index-02-redoc-simple.png; https://fastapi.tiangolo.com/img/index/index-03-swagger-02.png; https://fastapi.tiangolo.com/img/index/index-04-swagger-03.png; https://fastapi.tiangolo.com/img/index/index-05-swagger-04.png; https://fastapi.tiangolo.com/img/index/index-06-redoc-02.png; https://fastapi.tiangolo.com/img/vscode-completion.png,,68924,2023-02-27T06:01:53Z
+2024-03-05,https://github.com/tiangolo/fastapi,https://raw.githubusercontent.com/aappleby/hancho/main/README.md,"Hancho is a streamlined build system inspired by Ninja's speed and simplicity and Bazel's syntax and extensibility. It is coded in under 500 lines of Python, requiring no separate installation—users simply copy it into their source tree. Unlike Ninja, Hancho doesn't mandate a separate build rule for each output file, and akin to Bazel, it allows invoking build rules like function calls with keyword arguments. However, it uniquely allows build rules to execute arbitrary Python code. Aimed at small to medium projects, Hancho has seen recent updates, including improvements in formatting and the handling of unrecognized command line flags. It supports parallel job execution, verbose and quiet modes, dry runs, debugging, and forced rebuilds. A simple example provided demonstrates compiling and linking a ""Hello World"" program in C++.",Simplify Your Build Process with Hancho: The Easy-to-Integrate Build System,"Discover Hancho, the minimalist build system inspired by Ninja's speed and Bazel's syntax, designed for simplicity and extensibility. Requiring no installation and fitting comfortably in under 500 lines of Python, Hancho streamlines the build process for small to medium projects without the complexity. Unlike traditional systems, Hancho allows invoking build rules as functions and integrating custom Python code, offering flexibility and speed. Perfect for developers seeking an efficient and straightforward building solution, Hancho simplifies while it accelerates.","Explore Hancho, a compact build system blending Ninja's speed with Bazel's extensibility in under 500 lines of Python. Ideal for small to medium projects, it simplifies the build process without sacrificing functionality.",Software Development,"Python
+
+
+
+
+
+        68,924
+
+
+
+
+
+        5,759
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        55 stars today",https://raw.githubusercontent.com/aappleby/hancho/main/hancho_small.png,,235,2018-12-08T08:21:47Z
