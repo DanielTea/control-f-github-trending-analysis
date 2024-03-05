@@ -8,8 +8,10 @@ from PIL import Image
 from io import BytesIO
 import openai
 
-from dotenv import load_dotenv
-load_dotenv()
+import os
+if os.path.isfile('.env'):
+    from dotenv import load_dotenv
+    load_dotenv()
 
 
 # Example usage:
