@@ -36,15 +36,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          echo "Exporting environment variables..."
-          export X_API_KEY="${X_API_KEY}"
-          export X_API_SECRET="${X_API_SECRET}"
-          export X_ACCESS_TOKEN="${X_ACCESS_TOKEN}"
-          export X_ACCESS_TOKEN_SECRET="${X_ACCESS_TOKEN_SECRET}"
-          export OPENAI_API_KEY="${OPENAI_API_KEY}"
-          echo "Running script..."
-          python post_tweets.py
+        run: python post_tweets.py
 
       - name: Commit and Push Changes
         run: |
