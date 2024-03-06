@@ -2488,3 +2488,485 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         55 stars today",https://raw.githubusercontent.com/aappleby/hancho/main/hancho_small.png,,235,2018-12-08T08:21:47Z
+2024-03-06,https://github.com/vikhyat/moondream,https://raw.githubusercontent.com/vikhyat/moondream/main/README.md,"Moondream is an impressive, compact vision language model capable of running universally. The model's ability to understand and generate language based on visual input marks a significant advancement in AI. Moondream2, the latest version with 1.86 billion parameters, improves on its predecessor in various visual question answering benchmarks. It incorporates weights from renowned models SigLIP and Phi 1.5, enhancing its performance. The model can be used easily with transformers, requiring installations of several libraries and following specific Python code snippets to function optimally. However, it's updated regularly, suggesting users pin a specific version to ensure stability. Despite its capabilities, users should be cautious of its limitations like generating inaccurate or biased statements, and the potential for creating offensive content.",Introducing moondream: The Compact Vision Language Model Revolutionizing AI,"Discover moondream, a versatile vision language model with 1.86B parameters empowering AI across platforms with benchmarks surpassing its predecessors. This cutting-edge model integrates seamlessly with tools like transformers, featuring easy installation and user-friendly APIs for diverse applications. Its regular updates ensure optimal performance, though users should note potential limitations like bias and accuracy. Explore moondream for innovative AI solutions that run anywhere.","Explore the power of moondream, a cutting-edge vision language model designed for flexibility and efficiency in AI applications. Learn about its benchmarks, easy integration, and how to harness its capabilities for your AI projects.",Artificial Intelligence,"Python
+
+
+
+
+
+        2,433
+
+
+
+
+
+        200
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        90 stars today",https://raw.githubusercontent.com/vikhyat/moondream/main/assets/demo-1.jpg; https://raw.githubusercontent.com/vikhyat/moondream/main/assets/demo-2.jpg,,2433,2023-12-29T00:27:18Z
+2024-03-06,https://github.com/Ryujinx/release-channel-master,https://raw.githubusercontent.com/Ryujinx/release-channel-master/master/README.md,"This text introduces a repository (repo) hosting the releases for the master build channel of Ryujinx, which is a software project. It includes a link to the releases page of the repo and a link to the main page of the Ryujinx project on GitHub. Essentially, it serves as a pointer for those interested in accessing the latest versions of the Ryujinx master build, directing users to where these releases can be found and providing a route to learn more about the Ryujinx project itself.",Exploring Ryujinx Master Build Releases: A Comprehensive Guide,"Discover what the Ryujinx master build channel has to offer by exploring its latest releases. The repository on GitHub is your ultimate source for downloading and staying updated with the most advanced versions of Ryujinx. Whether you're a developer or a gaming enthusiast, understanding these releases can enhance your emulation experience. Dive into the world of Ryujinx and unlock the full potential of your gaming adventures.","Get an in-depth look at the Ryujinx master build channel releases. Learn how to access, download, and utilize the latest versions for an improved gaming experience.",Software Development,"Python
+
+
+
+
+
+        949
+
+
+
+
+
+        76
+
+
+        Built by
+
+          
+
+
+
+
+
+        13 stars today",,,949,2022-01-22T16:01:09Z
+2024-03-06,https://github.com/gradio-app/gradio,https://raw.githubusercontent.com/gradio-app/gradio/main/README.md,"Gradio is an open-source Python library designed to easily create demos or web applications for machine learning models or arbitrary Python functions, without needing web development skills. Users can quickly share their applications via a built-in sharing feature, promoting user-friendly project dissemination. Gradio requires Python 3.8+ and can be installed with pip. It allows for the creation of interfaces with simple Python code enabling interactive demos. It supports various inputs and outputs, including text and sliders. Gradio offers key components for building machine learning applications such as `Interface`, `ChatInterface`, and `Blocks`, for diverse needs from simple function demonstrations to complex web apps. Additionally, Gradio integrates with other platforms and tools, forming a broad ecosystem for ML application development. It also emphasizes community engagement, bug reporting, and contributions while being under an Apache 2.0 license.",Easily Build and Share Machine Learning Web Apps with Gradio,"Discover how Gradio, an open-source Python package, empowers you to create and share ML model demos or web apps effortlessly, without web hosting or JavaScript knowledge. With Gradio, transform any Python function into a user-friendly interface, allowing for instantaneous sharing via built-in features. Perfect for machine learning enthusiasts and professionals looking to streamline their model demonstrations. Start building your first Gradio demo today with just a few lines of Python code!","Learn how to quickly build and share web applications for your machine learning models with Gradio - no web development experience required. Start creating beautiful, interactive demos in no time.",Python Libraries Collection,"Python
+
+
+
+
+
+        26,938
+
+
+
+
+
+        1,933
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        39 stars today",https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/gradio-guides/lcm-screenshot-3.gif; https://raw.githubusercontent.com/gradio-app/gradio/main/demo/hello_world_4/screenshot.gif,,26939,2018-12-19T08:24:04Z
+2024-03-06,https://github.com/QwenLM/Qwen-Agent,https://raw.githubusercontent.com/QwenLM/Qwen-Agent/main/README.md,"Qwen-Agent is a development framework designed for applications utilizing large language models (LLMs) that focus on instruction following, tool usage, planning, and memory. With examples like Browser Assistant, Code Interpreter, and Custom Assistant, it showcases its versatility. To get started, users clone the repository, install dependencies, and can choose between Alibaba Cloud's DashScope or their own model service for back-end support. The framework illustrates adding custom tools to agents, like an AI painting service, and offers a detailed guide for creating a powerful agent that leverages these tools. Additionally, BrowserQwen, a Chrome extension which integrates these capabilities to assist with web page discussions, document understanding, and automated tasks, is introduced. Users must deploy a local database service and install this extension to utilize its features. The project is still evolving, warning that backward compatibility issues may arise and advising caution with the code interpreter due to the lack of a sandbox environment.",Harness the Power of Qwen-Agent for Advanced LLM Applications,"Qwen-Agent is a robust framework designed to empower developers in creating sophisticated LLM applications featuring instruction following, tool usage, planning, and memory. It supports the integration of example applications such as Browser Assistant, Code Interpreter, and Custom Assistant. By utilizing components like LLMs, prompts, and Agents, developers can easily customize and extend functionalities. The framework facilitates seamless interaction with Alibaba Cloud’s DashScope or your own model services, enhancing the development of potent, tool-equipped agents. Moreover, Qwen-Agent showcases its flexibility and utility through the BrowserQwen Chrome extension for enriched browser interactions.","Explore the capabilities of Qwen-Agent for developing state-of-the-art LLM applications with features like instruction following, planning, and tool usage. Learn how to easily integrate with Alibaba Cloud’s DashScope for enriched functionalities.",Collaborative AI Framework,"Python
+
+
+
+
+
+        818
+
+
+
+
+
+        82
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/qwen_agent/logo-qwen-agent.png; https://raw.githubusercontent.com/QwenLM/Qwen-Agent/main/assets/screenshot-writing.png; https://raw.githubusercontent.com/QwenLM/Qwen-Agent/main/assets/screenshot-editor-movie.png; https://raw.githubusercontent.com/QwenLM/Qwen-Agent/main/assets/screenshot-multi-web-qa.png; https://raw.githubusercontent.com/QwenLM/Qwen-Agent/main/assets/screenshot-ci.png; https://raw.githubusercontent.com/QwenLM/Qwen-Agent/main/assets/screenshot-web-qa.png; https://raw.githubusercontent.com/QwenLM/Qwen-Agent/main/assets/screenshot-pdf-qa.png,,818,2023-09-22T02:24:56Z
+2024-03-06,https://github.com/PKU-YuanGroup/Open-Sora-Plan,https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/README.md,"The Open-Sora Plan, initiated by the Peking University Yuangroup and the AIGC lab, aims to recreate and build upon OpenAI's Sora project, emphasizing Video-VQVAE (VideoGPT) + DiT technologies for scalable purposes. Acknowledging limited resources, the project calls on the open-source community for contributions to complete its ambitious goals. The project is structured into primary stages, focusing on setting up the codebase and training models for improved resolution and duration, and extensions for conducting text2video experiments, enhancing video quality to 1080p, and adding more control conditions to the models. Recent updates include reorganization of codes, discussion openings, and training code availability. The project outlines a comprehensive repo structure, offers detailed installation instructions, and provides examples of dataset usage, training, and video reconstruction results. Contributors are warmly invited to aid in the project's development, which is significantly reliant on community participation and aimed at fostering advanced video generation research and applications.",Recreating Sora: A Collaborative Effort Towards Open-Sourced AI Solutions,"Join the innovative Open-Sora Plan spearheaded by the Peking University and Rabbit Exhibition AIGC Joint Lab as we aim to reconstruct Sora (OpenAI) using limited resources. This project focuses on reproducing Video-VQVAE and DiT technologies at scale and calls for the open-source community to contribute towards this goal. With a foundational infrastructure currently in place, we eagerly invite contributions to evolve this project further. Dive into this journey of continuous improvement and rapid iteration by supporting through pull requests.","Explore the Open-Sora Plan, an ambitious effort to recreate Sora (OpenAI) using Video-VQVAE and DiT at scale. Contribute to this open-source project and help advance AI technologies.",Collaborative AI Framework,"Python
+
+
+
+
+
+        4,748
+
+
+
+
+
+        405
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2,133 stars today",https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/assets/we_want_you.jpg; https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/assets/framework.jpg; https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/assets/rec_video_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/assets/rec_video_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/assets/rec_video_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/assets/rec_video_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/Open-Sora-Plan/main/assets/loss.jpg,,4748,2024-02-20T14:01:03Z
+2024-03-06,https://github.com/microsoft/Swin-Transformer,https://raw.githubusercontent.com/microsoft/Swin-Transformer/main/README.md,"The Swin Transformer repository is the official implementation of the ""Swin Transformer: Hierarchical Vision Transformer using Shifted Windows"" paper and its follow-ups. It introduces a novel architecture designed as a general-purpose backbone for computer vision tasks. The Swin Transformer achieves efficiency and effectiveness by computing representations through shifted windows, enhancing performance on benchmarks like COCO and ADE20K. It supports various tasks, including image classification, object detection, semantic segmentation, video action recognition, and self-supervised learning among others. Recent updates include integration with Nvidia's FasterTransformer for enhanced inference speed on specific GPUs, the release of models trained using feature distillation improving fine-tuning performance, and the integration of self-supervised pre-training approach SimMIM, showing its adaptability and progression towards more refined visual representation learning. Additionally, it offers pretrained models on ImageNet-1K and ImageNet-22K, demonstrating impressive results in both efficiency and accuracy across different scales of Swin Transformers.",Exploring the Swin Transformer: A Revolutionary Approach in Computer Vision,"Discover how the Swin Transformer is redefining computer vision with hierarchical vision transformers using shifted windows. Initially introduced for image classification, its capabilities now extend to object detection, instance segmentation, and beyond. The updates include significant speed improvements on GPUs, feature distillation enhancements, and new benchmarks in semantic segmentation. Dive into the Swin Transformer's journey from ICCV 2021 best paper award to setting new records in computer vision tasks.","Learn about the Swin Transformer, a groundbreaking technology in computer vision, offering advanced capabilities in image classification, object detection, and semantic segmentation. This blog post covers its latest updates, achievements, and application areas.",Computer Vision Platform,"Python
+
+
+
+
+
+        12,580
+
+
+
+
+
+        1,963
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/microsoft/Swin-Transformer/main/figures/teaser.png,,12580,2021-03-25T12:42:36Z
+2024-03-06,https://github.com/PrometheusStealer/Prometheus,https://raw.githubusercontent.com/XPandora/PhysGaussian/main/README.md,"PhysGaussian introduces a method to integrate physics into 3D Gaussians for generating dynamic motion in visuals. Developed by researchers from the University of California, Los Angeles, Zhejiang University, and the University of Utah, this approach combines Newtonian dynamics with 3D Gaussian kernels, eliminating the need for traditional geometry embedding techniques. By employing a customized Material Point Method (MPM), PhysGaussian adds kinematic deformation and mechanical stress to these kernels, based on principles of continuum mechanics. This method allows seamless transition between physical simulation and visual rendering, adhering to the principle of ""what you see is what you simulate."" It demonstrates versatility in simulating a wide range of materials, such as elastic materials, plastic metals, and non-Newtonian fluids. The project, accepted by CVPR 2024, has released its code and offers a comprehensive guide for setup, simulation, and custom dynamics generation, including data preprocessing and configuration.",Exploring PhysGaussian: Innovative 3D Gaussians in Generative Dynamics,"Discover PhysGaussian, the cutting-edge method blending 3D Gaussians with physics for dynamic motion synthesis. By employing Material Point Methods, it introduces kinematic deformations and mechanical stresses to Gaussian kernels, aligning with continuum mechanics. This integration allows for high-quality, diverse material simulations without traditional geometric constraints, showcasing a wide range of applications from elastic to granular materials. The project opens new avenues in visual content creation, presenting a 'what you see is what you simulate' approach.","Delve into PhysGaussian, a novel technique integrating 3D Gaussians with physics for authentic motion synthesis, offering a seamless blend of physical dynamics and visual rendering for various materials.",Computer Vision Platform,"Python
+
+
+
+
+
+        160
+
+
+
+
+
+        121
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        27 stars today",https://raw.githubusercontent.com/XPandora/PhysGaussian/main/_resources/teaser-1.jpg,https://www.youtube.com/watch?v=V96GfcMUH2Q,704,
+2024-03-06,https://github.com/XPandora/PhysGaussian,https://raw.githubusercontent.com/hpcaitech/Open-Sora/main/README.md,"Open-Sora is an open-source initiative aiming to replicate the Sora architecture, enhancing it with dynamic resolution abilities, support for various model structures, video compression methods, and parallel training optimizations. It leverages Colossal-AI for efficiencies in AI large model systems and supports multimodal model structures like adaLN-zero, cross attention, and token concat for video processing. The project uses datasets like MSR-VTT, guiding users through data preprocessing for video description tasks. Moreover, Open-Sora facilitates both training and inference phases, allowing customizations for specific needs and enabling video generation from text inputs. Acknowledgements are made to contributions from OpenAI, VideoGPT, Diffusion Transformers, Deepspeed Ulysses, and OpenDiT, from which Open-Sora has drawn significant insights and methodologies.",Revolutionizing Video AI with Open-Sora: A Comprehensive Guide,"Open-Sora, an open-source initiative powered by Colossal-AI, introduces a cutting-edge framework for creating high-performance video AI models, offering a replica of Sora's development pipeline. It uniquely supports dynamic resolution for training videos of any size, incorporates diverse model structures, and facilitates multiple video compression techniques. Moreover, Open-Sora enhances training through parallel optimizations and supports extensive datasets, including MSR-VTT and customized options. This project is a leap forward in efficient and versatile video AI model training, significantly reducing costs and expanding capabilities.","Discover Open-Sora, the open-source project revolutionizing video AI with a complete Sora reproduction solution, dynamic resolution support, and advanced parallel training optimizations.",Deep Learning Platform,"Python
+
+
+
+
+
+        704
+
+
+
+
+
+        18
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        19 stars today",https://img.shields.io/badge/微信-加入-green?logo=wechat&amp)](https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/WeChat.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/sora/open-sora-1.png; https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/sora/open-sora-2.png,,826,2023-11-13T06:49:28Z
+2024-03-06,https://github.com/mini-sora/minisora,https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/main/README.md,"The Anthropic Python API library provides easy access to the Anthropic REST API for Python 3.7+ applications, supporting both synchronous and asynchronous operations using httpx. It offers type definitions for parameters and response fields, enabling clear and efficient code development. The library can be installed via pip. The documentation and full API details are available online, including examples for standard and asynchronous usage, streaming responses, and utilizing the Anthropic Bedrock API. It includes functionalities like token counting, error handling, retries, and timeout settings. The library is designed with best practices in mind, including logging, managing HTTP resources, and versioning, ensuring compatibility and ease of use. Users are encouraged to manage sensitive information securely and to contribute feedback for improvements. Python 3.7 or higher is required to use this library.",Easily Interact with Anthropic API via Python Library: A Beginner's Guide,"Exploring the Anthropic Python library unlocks seamless access to the Anthropic REST API for Python 3.7+ applications. It provides convenient synchronous and asynchronous clients, thorough documentation, and supports streaming responses, all with comprehensive type definitions. Enhance your Python projects with advanced API interaction capabilities, simplified error handling, and efficient token counting. Whether you're managing async tasks or counting tokens, this library is equipped to streamline your development process.","Discover how the Anthropic Python library facilitates easy access to the Anthropic REST API, offering synchronous and asynchronous clients, streaming responses, and simplified error handling for Python 3.7+ applications.",AI Python Client,"Python
+
+
+
+
+
+        683
+
+
+
+
+
+        117
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        232 stars today",,,689,2024-02-21T13:50:34Z
+2024-03-06,https://github.com/anthropics/anthropic-sdk-python,https://raw.githubusercontent.com/AssemblyAI-Examples/Machine-Learning-From-Scratch/main/README.md,"The repository for ""Machine Learning From Scratch"" by AssemblyAI offers code from their YouTube course, featuring implementations of popular machine learning algorithms. This educational resource is designed for learners to understand and apply machine learning concepts through practical coding exercises. It's presented on AssemblyAI's YouTube channel, making it easily accessible for anyone interested in diving into the field of machine learning. The repository also acknowledges inspiration from a similar project by Python Engineer (Patrick Loeber), suggesting a community-based approach to learning and sharing knowledge in the domain of machine learning.",Learn Machine Learning with AssemblyAI's Comprehensive Course,"Dive into machine learning by exploring AssemblyAI's 'Machine Learning From Scratch' course available on YouTube. This valuable resource provides hands-on code implementations of popular ML algorithms, drawing inspiration from the notable work by Python Engineer, Patrick Loeber. Perfect for both beginners and seasoned programmers, it offers a deep dive into practical machine learning applications. Discover the ease of mastering ML algorithms through this detailed course. Start your journey into machine learning today by joining thousands of learners online.","Unlock the secrets of machine learning with AssemblyAI's 'Machine Learning From Scratch' course. Featuring hands-on code implementations and inspired by Python Engineer's work, this course is your gateway to mastering ML algorithms.",Machine Learning,"Python
+
+
+
+
+
+        689
+
+
+
+
+
+        79
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",,https://www.youtube.com/watch?v=p1hGz0w_OCo,519,2023-01-17T20:57:10Z
+2024-03-06,https://github.com/AssemblyAI-Examples/Machine-Learning-From-Scratch,https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/README.md,"The text introduces TikTokDownloader, a fully open-source, free tool designed for various data collection purposes from TikTok and Douyin including video downloads, live videos, comment data, account details, and more, using the Requests module. It supports batch downloads, detailed data collection, and has features like auto-skip for already downloaded files and persistence in data collection. The software is available for Windows 10 and above users through an executable file on the project's GitHub releases page. The creator emphasizes that it's solely released on GitHub without any partnership or payment plans, warning users to beware of scams. It lists comprehensive functionalities such as downloading watermark-free videos/photosets, collecting detailed data, multi-account support, and more, alongside various modes of interaction like terminal, Web UI, and Web API. It also provides a quick start guide, information on handling cookies for accessing different features, and advises on updates, alongside a disclaimer emphasizing the user's responsibility in legal matters and absolving the authors of any liabilities. Lastly, it encourages support for the project through stars on GitHub and financial donations, providing social and contact information for further assistance or contribution.",Ultimate Guide to TikTokDownloader: Free Tool for Downloading and Collecting TikTok Data,"Discover TikTokDownloader, the go-to open-source tool for effortlessly downloading and collecting a wide range of data from TikTok and Douyin. Whether it's video, live streams, or detailed analytics you're after, TikTokDownloader has got you covered. This comprehensive guide provides everything you need to get started, including setup instructions and key features. With full Windows compatibility and no cost, start maximizing your TikTok content today without any hassle. Remember, this tool is solely available on GitHub and aims to enhance your TikTok experience securely.","Explore the capabilities of TikTokDownloader, a fully open-source tool designed for downloading and collecting diverse TikTok data, including videos, live streams, and analytics. Get started with our comprehensive guide.",Open Source Tool,"Python
+
+
+
+
+
+        519
+
+
+
+
+
+        178
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        21 stars today",https://github.com/JoeanAmier/TikTokDownloader/blob/master/static/images/TikTokDownloader.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/docs/终端交互模式截图1.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/docs/终端交互模式截图2.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/docs/WebUI模式截图1.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/docs/WebUI模式截图2.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/docs/WebUI模式截图3.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/docs/WebAPI模式截图.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/docs/程序运行演示.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/./docs/微信赞助二维码.png; https://raw.githubusercontent.com/JoeanAmier/TikTokDownloader/master/./docs/支付宝赞助二维码.png,,4502,2022-09-09T14:37:46Z
+2024-03-06,https://github.com/JoeanAmier/TikTokDownloader,https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/README.md,"The text introduces Qwen-VL-Plus and Qwen-VL-Max, upgraded models in the Qwen-VL family, supporting free access through various platforms and APIs. Qwen-VL-Plus enhances image recognition and text abilities, supporting high-definition images and extreme aspect ratios. Qwen-VL-Max improves visual reasoning and cognitive understanding, delivering optimal performance on complex tasks. Both models excel in image reasoning, detail recognition, and support for high-resolution images. They surpass other open-source models and compete with Gemini Ultra and GPT-4V in multimodal tasks, especially in Chinese question answering and text comprehension. The document includes a comparison table showcasing their superior performance across multiple benchmarks. It also mentions recent achievements, updates on Qwen-VL-Chat, and the introduction of efficient quantized models for reduced memory usage and faster inference. The evaluation section details their capabilities across standard benchmarks, TouchStone, and other multimodal benchmarks, proving their state-of-the-art performance. The document guides on requirements, quick start instructions, quantization, finetuning, demo setup, licenses, and citation for further reference.",Unveiling Qwen-VL: The Pinnacle of Multimodal AI Innovation,"Discover the groundbreaking advancements in multimodal AI with Qwen-VL and Qwen-VL-Max, the latest in the Qwen-VL series, setting new benchmarks in visual and linguistic tasks. These models excel in recognizing and understanding high-resolution images, delivering unparalleled performance across a wide array of complex challenges. With their state-of-the-art capabilities, Qwen-VL and Qwen-VL-Max not only surpass previous models but also rival the achievements of leading technologies like Gemini Ultra and GPT-4V in multimodal tasks.","Explore the latest breakthroughs in AI with Qwen-VL & Qwen-VL-Max, leading the charge in multimodal advancements. Discover their unmatched visual recognition & linguistic understanding abilities.",Collaborative AI Framework,"Python
+
+
+
+
+
+        4,502
+
+
+
+
+
+        697
+
+
+        Built by
+
+          
+
+
+
+
+
+        45 stars today",https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/assets/logo.jpg; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/assets/demo_vl.gif; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/assets/radar.png; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/eval_mm/mme/perception.jpg; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/eval_mm/mme/cognition.jpg; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/eval_mm/seed_bench/leaderboard.jpg; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/assets/demo_highfive.jpg; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/assets/demo_spotting_caption.jpg; https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/assets/demo_highfive.jpg,,3077,2022-10-10T14:27:36Z
+2024-03-06,https://github.com/QwenLM/Qwen-VL,https://raw.githubusercontent.com/budtmo/docker-android/master/README.md,"Docker-Android is a docker image designed for Android application development and testing, including native, web, and hybrid apps. It offers various advantages such as emulators with different device profiles (e.g., Samsung Galaxy S6, Nexus 4), VNC support for visual access inside the container, web-UI for log access, external emulator control via adb, cloud solution integration like Genymotion Cloud, and the ability to build projects and run different tests (Appium, Espresso). It includes images for Android versions 9.0 through 14.0 and devices ranging from phones like the Samsung Galaxy S10 to tablets like the Nexus 7. Requirements include Docker installation, virtualization support, and specific instructions for Windows and Ubuntu users. Docker-Android supports various use-cases including Android project building, UI testing with Appium, and cloud deployment. It allows custom configurations and is integrated with Genymotion for those needing resources like simulator maintenance. The project also has a ""Pro"" version offering additional features like proxy setup, language setting, headless mode, and more for sponsors.",Maximizing Android Development Efficiency with Docker-Android,"Discover the power of Docker-Android for all your Android development needs. From application development to testing, Docker-Android offers numerous advantages including emulator support for various device profiles, VNC support, and integration with cloud solutions like Genymotion Cloud. Enhance your development efficiency by leveraging Docker-Android's capabilities to build and test projects across different frameworks.","Learn how to streamline your Android app development and testing with Docker-Android. Emulator support, VNC, log sharing, and cloud integration - all in one solution.",Software Development,"Python
+
+
+
+
+
+        3,077
+
+
+
+
+
+        225
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/budtmo/docker-android/master/./images/logo_docker-android.png; https://raw.githubusercontent.com/budtmo/docker-android/master/./images/logo_genymotion_and_dockerandroid.png; https://raw.githubusercontent.com/budtmo/docker-android/master/./images/docker-android_users.png,,6941,2023-08-21T07:57:15Z
+2024-03-06,https://github.com/triwinds/ns-emu-tools,https://raw.githubusercontent.com/mlc-ai/mlc-llm/main/README.md,"The Machine Learning Compilation for Large Language Models (MLC LLM) project focuses on facilitating the deployment of AI models, particularly large language models, directly onto a variety of devices through machine learning compilation techniques. It achieves high performance by leveraging compiler acceleration and supports a wide array of hardware platforms, including AMD, NVIDIA, and Apple GPUs, across different operating systems like Linux, Windows, macOS, and on web browsers via WebGPU and WASM. MLC LLM is scalable, demonstrated by its performance on various GPUs and its compatibility with different model architectures. Additionally, it offers prebuilt models and the ability to compile others not listed. For developers, MLC LLM provides a range of APIs for deployment across platforms and programming languages. Recent updates include scalable multi-GPU support, prebuilt packages for ROCm and CUDA, and the addition of various model supports. The project embraces open collaboration and encourages citations for academic and research use, highlighting its commitment to advancing the field of machine learning and AI model deployment.",Unlocking AI's Potential with MLC LLM's Universal Deployment Solution,"Discover how the Machine Learning Compilation for Large Language Models (MLC LLM) project is revolutionizing universal AI deployment. With compiler acceleration, MLC LLM enables the native deployment of large language models across various devices and platforms. It offers scalable solutions on diverse GPUs and supports a wide array of models and APIs for seamless integration. Dive into the future of accessible, high-performance AI with MLC LLM.","Explore MLC LLM's innovative approach to deploying large language models natively across devices and platforms. Learn about its scalable solutions, extensive model support, and universal APIs for seamless AI integration.",Deep Learning Platform.,"Python
+
+
+
+
+
+        3,739
+
+
+
+
+
+        131
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        22 stars today",,,16074,2022-10-22T13:46:50Z
+2024-03-06,https://github.com/budtmo/docker-android,https://raw.githubusercontent.com/evalplus/evalplus/master/README.md,"EvalPlus is a comprehensive evaluation framework designed to rigorously assess Large Language Models (LLMs) for code generation (LLM4Code). Featuring significantly expanded versions of the HumanEval and MBPP benchmarks—HumanEval+ and MBPP+—it offers 80x and 35x more tests, respectively. EvalPlus aims to provide more reliable LLM rankings through its extensive datasets, helping to highlight the robustness of code generated by various models. It also offers pre-generated LLM code samples for different models, facilitating research in LLM4Code without the need for costly benchmark reruns. To ensure thorough evaluation, EvalPlus supports running evaluations in a sandbox environment, such as Docker, and offers tools for code sanity checks and post-sanitation, improving the usability of LLM-generated code. The framework is accessible for installation via pip or directly from its GitHub repository, and detailed instructions are provided for setting up environments, generating, and evaluating code samples. Acknowledging the limitations of evaluating code over a minimal number of test cases, EvalPlus emphasizes the importance of its expanded datasets for a comprehensive assessment. The initiative's findings and methodology are detailed in a paper presented at NeurIPS'23, with supplementary materials available online, including pre-evaluated LLM code samples and tools to facilitate research and evaluation in the LLM4Code domain.",Unleashing the Power of EvalPlus: Revolutionizing LLM Code Evaluation,"Discover how EvalPlus is setting new benchmarks in the rigorous evaluation of language models for code generation (LLM4Code). With innovative datasets like HumanEval+ and MBPP+, EvalPlus provides an enhanced evaluation framework, ensuring more reliable LLM rankings and coding rigor. Dive into the significant benefits of using EvalPlus, from rigorous testing to pre-generated LLM samples, and why it's vital for advancing LLM4Code research.","Explore EvalPlus, a groundbreaking evaluation framework for LLM4Code, featuring HumanEval+ and MBPP+ for comprehensive testing. Learn how it ensures reliable LLM rankings and enhances coding rigor in our latest blog post.",Deep Learning Platform,"Python
+
+
+
+
+
+        6,940
+
+
+
+
+
+        1,047
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        28 stars today",https://raw.githubusercontent.com/evalplus/evalplus/master/./gallary/render.gif,,712,2016-12-22T13:02:48Z
+2024-03-06,https://github.com/mlc-ai/mlc-llm,https://raw.githubusercontent.com/rohankishore/Youtility/main/README.md,"Youtility is a user-friendly YouTube video and playlist downloader built with PyQt6 and PyTube, free from intrusive ads. Unlike typical online download services that bombard users with misleading advertisements, Youtility offers a clean, straightforward approach to downloading YouTube content. It allows users to download single videos along with captions, entire playlists (with an audio-only option), and convert videos to Mp3 format. To get started, users can either download the executable from the Youtility GitHub releases page or run the program manually using Python. The project is open-source, with special thanks attributed to PyTube and zhiyiYo's PyQt-Fluent-Widgets for their contributions. The creator encourages support through Ko-Fi donations or GitHub Sponsorships.",Youtility: The Ultimate Ad-Free YouTube Downloader,"Discover Youtility, the ultimate solution for downloading YouTube videos and playlists without the hassle of ads or bloatware, made possible with PyQt6 and PyTube. This open-source downloader allows for effortless saving of single videos with captions, entire playlists, and even converting videos to MP3 format. Say goodbye to intrusive ads and hello to a smooth, user-friendly downloading experience with Youtility. Whether you're looking to download for offline viewing or simply want to save your favorite content ad-free, Youtility has got you covered.","Experience hassle-free YouTube downloads with Youtility, an ad-free, open-source video and playlist downloader. Get started with easy downloads and say goodbye to ads.",Open Source Tool,"Python
+
+
+
+
+
+        16,074
+
+
+
+
+
+        1,202
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        94 stars today",,,111,2023-04-29T01:59:25Z
+2024-03-06,https://github.com/evalplus/evalplus,https://raw.githubusercontent.com/psf/black/main/README.md,"Black is described as an uncompromising Python code formatter, focusing on speed, determinism, and eliminating manual formatting concerns. It standardizes formatting across different projects, making code review more efficient by minimizing diffs. It is PEP 8 compliant and offers limited style configuration, prioritizing consistency and simplicity. Black supports Python 3.8+ and can also format Jupyter Notebooks with a specific installation. Users can start using Black with simple commands and further customize formatting with a `pyproject.toml` file. It's widely adopted by major open-source projects and companies. Testimonials highlight its impact on productivity and code quality. Black encourages contributions and adheres to a code of conduct aligning with the Python Community’s standards, with a touch of humor inspired by Monty Python's Flying Circus. The documentation, changelog, and a list of contributors are available online, emphasizing community involvement and the evolution of the tool.",Mastering Python Code Formatting with Black: The Uncompromising Formatter,"Discover how Black, the uncompromising Python code formatter, can revolutionize your coding workflow. By prioritizing speed, determinism, and freedom from formatting errors, Black ensures your code is consistently styled, making code review a breeze. Adopting Black means focusing more on content and less on styling, thus saving valuable time. Experience the ease of code formatting with Black and join the community of developers who trust in its reliability. Ready to streamline your Python projects? Explore Black today.","Learn how Black, the Python code formatter, simplifies and standardizes code styling, saving developers time and enhancing code review processes. Make your Python projects more efficient with Black.",Open Source Tool,"Python
+
+
+
+
+
+        712
+
+
+
+
+
+        63
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png,https://www.youtube.com/watch?v=esZLCuWs_2Y,36992,2023-04-15T04:20:10Z
+2024-03-06,https://github.com/rohankishore/Youtility,https://raw.githubusercontent.com/dagster-io/dagster/master/README.md,"As you've requested a summary without providing the specific text from the ""python_modules/dagster/README.md"", I will craft a general overview based on what such a file would typically contain. The README file for the Dagster module in Python is likely an introductory guide that explains what Dagster is, its purpose, and how to use it. Dagster is an open-source data orchestration framework for machine learning, analytics, and ETL pipelines. This file probably includes instructions on how to install Dagster, basic examples of creating and running pipelines, and links to further documentation. It might also cover contributions guidelines, license information, and how to get support or connect with the community. Depending on the specific version and updates of the Dagster module, detailed updates, and features of the current release could also be highlighted.",Ultimate Guide to Dagster Python Modules for Efficient Data Workflows,"Dive into the world of Dagster, the open-source library designed for building scalable data pipelines in Python. This quick guide covers the basics of installing and utilizing Dagster modules to enhance your data processing tasks. Discover how Dagster simplifies complex workflows, ensures data integrity, and accelerates development with its intuitive framework. Perfect for data engineers and scientists, learn how to leverage Dagster for your next project. Upgrade your data orchestration today with our insights on Python's Dagster modules.",Explore the capabilities of Dagster Python modules in our comprehensive guide. Learn to streamline your data workflows for better efficiency and reliability with our expert insights.,Data Ingestion Tool,"Python
+
+
+
+
+
+        111
+
+
+
+
+
+        7
+
+
+        Built by
+
+          
+
+
+
+
+
+        12 stars today",,,9791,2024-03-02T19:02:26Z
