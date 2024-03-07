@@ -2970,3 +2970,304 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         12 stars today",,,9791,2024-03-02T19:02:26Z
+2024-03-07,https://github.com/VAST-AI-Research/TripoSR,https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/README.md,"TripoSR is a collaborative effort between Tripo AI and Stability AI, offering an advanced, open-source model for rapid 3D reconstruction from single images. Integrating principles from the Large Reconstruction Model, TripoSR highlights significant enhancements in speed and quality, delivering high-quality 3D models in under 0.5 seconds using NVIDIA A100 GPUs. It outperforms other open-source options in both qualitative and quantitative benchmarks across various datasets. The tool, which operates under the MIT license, comes with pre-trained models, source code, and an interactive demo, aiming to aid those in research, development, and creative fields. Installation involves Python 3.8 or greater, CUDA for GPU support, PyTorch, and other dependencies. Users can perform manual inferences or utilize a local Gradio app for interactive demonstrations. Troubleshooting tips address potential issues with CUDA compatibility and the torchmcubes library.",Exploring TripoSR: Revolutionizing 3D Reconstruction from Single Images,"TripoSR presents a groundbreaking collaboration between Tripo AI and Stability AI, setting a new standard in fast feedforward 3D reconstruction from single images. Utilizing the Large Reconstruction Model (LRM), it significantly enhances the speed and quality of 3D model generation, achieving high-quality outputs in under 0.5 seconds with an NVIDIA A100 GPU. TripoSR not only surpasses other open-source models in both qualitative and quantitative measures but also facilitates an engaging user experience with its interactive online demo and comprehensive technical report for detailed insights. This model, open-source under the MIT license, aims to empower the 3D generative AI community and content creators with cutting-edge tools and resources.","Discover TripoSR by Tripo AI and Stability AI, a cutting-edge open-source model for ultra-fast and high-quality 3D reconstruction from single images. Learn about its unique capabilities, performance benchmarks, and how it's pushing the envelope in 3D generative AI.",Image Generation Platform,"Python
+
+
+
+
+
+        1,493
+
+
+
+
+
+        170
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        175 stars today",https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/teaser800.gif; https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/comparison800.gif; https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/visual_comparisons.jpg; https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/scatter-comparison.png,,1493,2024-02-07T10:31:04Z
+2024-03-07,https://github.com/iam-veeramalla/aws-devops-zero-to-hero,https://raw.githubusercontent.com/iam-veeramalla/aws-devops-zero-to-hero/main/README.md,"The ""AWS DevOps Zero to Hero"" playlist is designed to transform DevOps engineers into AWS experts in 30 days through a comprehensive program that includes practical projects, presentations, interview prep, and real-time examples. Starting with an introduction to AWS, the program covers a wide range of topics including IAM, EC2 instances, AWS networking with VPC, AWS security, and AWS Route 53. Participants will engage in hands-on projects, such as deploying web applications on EC2, configuring domains with Route 53, and setting up a secure VPC. Advanced topics include S3, AWS CLI, CloudFormation, CodeCommit, CodePipeline, CodeBuild, CodeDeploy, CloudWatch, Lambda, CloudFront, ECR, ECS, EKS, Systems Manager, Secrets Manager, and the use of Terraform for infrastructure creation. Key areas like AWS CloudTrail, Config, Elastic Load Balancer, cloud migration strategies, and AWS best practices are also covered. The program aims to equip individuals with the skills needed to manage AWS resources effectively, preparing them for AWS-related job roles with a project involving RDS on the final day.",Become an AWS DevOps Expert: Master AWS in 30 Days | Complete Guide,"Embark on a comprehensive journey to mastering AWS with our 30-day DevOps guide. From setting up your AWS account to deploying your first AWS project, this guide covers essential services like EC2, IAM, VPC, and more. With hands-on projects and real-time examples, you'll gain practical skills in AWS for DevOps applications. Discover advanced features, security best practices, and prepare for job interviews with our expert tips. Transform from zero to hero in AWS DevOps and propel your career forward.","Master AWS in 30 days with our DevOps guide. Learn EC2, IAM, VPC, and more through practical projects and real-time examples. Become an AWS DevOps expert and ace your job interviews with our comprehensive guide.",Software Development,"Python
+
+
+
+
+
+        4,445
+
+
+
+
+
+        5,401
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        16 stars today",,,4445,2023-06-19T06:13:08Z
+2024-03-07,https://github.com/alibaba-damo-academy/FunASR,https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/README.md,"FunASR is a toolkit designed to bridge the gap between academic research and industrial applications in the field of speech recognition. It facilitates the training and fine-tuning of industrial-grade speech recognition models, allowing researchers and developers to more easily conduct research and production in this area. This toolkit supports a range of features including ASR, Voice Activity Detection, Punctuation Restoration, Language Models, Speaker Verification, Diarization, and multi-talker ASR. It provides convenient scripts and tutorials for model inference and fine-tuning. FunASR has released numerous pre-trained models for academic and industrial use, which are accessible through the ModelScope and Huggingface platforms. Recently, it has added large-scale audio-text multimodal models and the Whisper-large-v3 model for multilingual speech recognition and translation. Furthermore, FunASR offers services for offline file transcription in multiple languages and real-time transcription, with support for ARM64 platform docker images. It encourages community engagement and offers guidance through documentation and community groups for users encountering issues.",Explore the Future of Speech Recognition with FunASR Toolkit,"Discover FunASR, the cutting-edge end-to-end speech recognition toolkit designed to bridge the gap between academic research and industrial application. This comprehensive toolkit supports a variety of features like ASR, Voice Activity Detection, and more, offering easy scripts for both inference and model fine-tuning. With a vast collection of pre-trained models available through Model Zoo, and new additions like multilingual speech recognition models, FunASR is set to revolutionize how we interact with technology using natural language.","Unveil the potential of FunASR Toolkit for transformative speech recognition applications, offering features like ASR, VAD, and access to a broad range of pre-trained models. Ideal for researchers and developers looking to advance the field.",Natural Language Processing,"Python
+
+
+
+
+
+        2,654
+
+
+
+
+
+        322
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/funasr_logo.jpg; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/dingding.jpg; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/wechat.png; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/alibaba.png; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/nwpu.png; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/China_Telecom.png; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/RapidAI.png; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/aihealthx.png; https://raw.githubusercontent.com/alibaba-damo-academy/FunASR/main/docs/images/XVERSE.png,,2654,2022-11-24T02:28:11Z
+2024-03-07,https://github.com/openai/whisper,https://raw.githubusercontent.com/openai/whisper/main/README.md,"Whisper is an advanced speech recognition model developed by OpenAI, adept at handling multilingual recognition, translation, and identifying languages. This model, operating with a sequence-to-sequence framework built on Transformer architecture, is capable of multitasking and replaces traditional multi-stage speech processing pipelines, favoring a unified approach where tasks like speech transcription, translation, and language identification are managed through token sequence predictions. It is compatible with recent Python and PyTorch versions, requiring specific Python packages and the ffmpeg command-line tool for full functionality. Five model sizes are available, varying in parameters, memory requirements, and speed to accommodate different application needs. Performance differs across languages, with specialized English-only models offering improved accuracy in certain situations. Whisper can be easily accessed via command-line or through Python code, providing flexibility for developers. The toolkit and its models are open-source, licensed under the MIT License, promoting wide accessibility and community-driven enhancements.",Unlocking the Power of Whisper: Revolutionizing Speech Recognition,"Discover Whisper, OpenAI's groundbreaking speech recognition model, in our latest blog post. Learn how it's trained on diverse datasets to perform tasks like multilingual speech recognition, speech translation, and language identification. Explore its setup, model sizes, command-line usage, and Python integration for a comprehensive understanding. Whether you're handling English-only projects or need multilingual capabilities, Whisper offers various models to meet your needs. Dive into our discussion on its features, setup guidelines, and real-world applications today.","Explore OpenAI's Whisper: a versatile speech recognition model designed for multilingual speech processing, translation, and identification. Learn about its features, how to set it up, and leverage it for your projects.",Natural Language Processing,"Python
+
+
+
+
+
+        57,207
+
+
+
+
+
+        6,483
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        81 stars today",https://raw.githubusercontent.com/openai/whisper/main/approach.png,,57207,2022-09-16T20:02:54Z
+2024-03-07,https://github.com/KimMeen/Time-LLM,https://raw.githubusercontent.com/KimMeen/Time-LLM/main/README.md,"Time-LLM is introduced as a novel framework for time series forecasting, as presented at ICLR'24. This approach leverages the capabilities of large language models (LLMs) by reprogramming them to understand and process time series data as though it were natural language. The core methodology involves transforming the input time series into textual prototype representations aligned with the LLM's processing abilities and enhancing these inputs with declarative prompts that encapsulate domain expertise and specific task directives. This enables the LLM to apply its pre-existing knowledge and reasoning capabilities to time series forecasting tasks effectively. The associated research has garnered attention, encouraging contributions and further research, as indicated by the provided links to datasets, demonstration scripts, and further literature exploring the intersection of LLMs with time series and spatio-temporal data analysis.",Revolutionizing Time Series Forecasting with Time-LLM: Unveiling the Power of LLM Reprogramming,"Discover how Time-LLM leverages the prowess of large language models (LLMs) to transform the realm of time series forecasting. This groundbreaking framework reprograms LLMs to interpret time series as a language task, fusing text prototype representations with expert knowledge for unprecedented forecasting accuracy. Its innovative approach maintains the original LLM structure, promising a new horizon in predictive analytics. Ideal for researchers and practitioners alike, Time-LLM opens up new pathways for robust time series analysis and forecasting.","Explore Time-LLM, a novel framework reprogramming LLMs for enhancing time series forecasting. Learn how it merges text prototypes with expert knowledge, maintaining LLM integrity for superior predictions.",Deep Learning Platform,"Python
+
+
+
+
+
+        322
+
+
+
+
+
+        45
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",https://raw.githubusercontent.com/KimMeen/Time-LLM/main/./figures/logo.png; https://raw.githubusercontent.com/KimMeen/Time-LLM/main/./figures/framework.png; https://raw.githubusercontent.com/KimMeen/Time-LLM/main/./figures/method-detailed-illustration.png,https://www.youtube.com/watch?v=L-hRexVa32k,322,2024-01-20T01:26:30Z
+2024-03-07,https://github.com/traceloop/openllmetry,https://raw.githubusercontent.com/traceloop/openllmetry/main/README.md,"OpenLLMetry is an open-source project that enhances the observability of LLM (Large Language Model) applications through a set of extensions based on OpenTelemetry. Developed and maintained by Traceloop under the Apache 2.0 license, it allows seamless integration with existing observability tools like Datadog, Honeycomb, and others. The project includes standard OpenTelemetry instrumentations for LLM providers and Vector DBs, alongside a Traceloop SDK that simplifies the initial setup while ensuring compatibility with standard OpenTelemetry data formats. The documentation offers a straightforward guide for getting started, including SDK installation and usage. OpenLLMetry supports multiple destinations and instruments various services, from LLM providers like OpenAI and Anthropic to Vector DBs such as Chroma and Pinecone, along with frameworks like LangChain and Haystack. The project encourages community contributions and offers support through Slack, GitHub Discussions, and other channels, acknowledging the vital input from the community, including the naming suggestion by Patrick Debois.",Maximize Your LLM Application's Performance with OpenLLMetry: An Observability Toolkit,"OpenLLMetry offers an advanced set of extensions for monitoring and optimizing your LLM applications by integrating seamlessly with OpenTelemetry. This open-source toolkit, maintained by Traceloop under the Apache 2.0 license, is designed to enhance your existing observability stack, including Datadog and Honeycomb, among others. With easy SDK installation and support for a wide range of LLM providers and Vector DBs, OpenLLMetry ensures comprehensive observability. Whether you're looking to instrument OpenAI, Anthropic, or any major Vector DB, OpenLLMetry has got you covered. Get started today and elevate your LLM application's observability with OpenLLMetry.","Discover how OpenLLMetry can revolutionize observability for your LLM application with advanced monitoring, seamless OpenTelemetry integration, and support for major LLM providers. Maximize performance today.",Collaborative AI Framework,"Python
+
+
+
+
+
+        891
+
+
+
+
+
+        60
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        23 stars today",https://raw.githubusercontent.com/traceloop/openllmetry/main/img/logo-light.png; https://raw.githubusercontent.com/traceloop/openllmetry/main/img/logo-dark.png,,891,2023-09-02T14:42:59Z
+2024-03-07,https://github.com/bclavie/RAGatouille,https://raw.githubusercontent.com/bclavie/RAGatouille/main/README.md,"RAGatouille is a tool designed for integrating state-of-the-art retrieval methods easily into any RAG pipeline, enhancing ease of use and modularity, and is supported by research. Its main goal is to simplify the integration of advanced retrieval models, like ColBERT, into RAG pipelines, bridging the gap between cutting-edge research and practical application. Despite the effectiveness of dense embeddings for retrieval tasks, recent research suggests that models like ColBERT perform better across various domains and languages, especially with limited data. However, such models are less known and harder to use. RAGatouille aims to make these advanced methods accessible and straightforward to implement, providing a solution that simplifies their use without requiring in-depth knowledge of the underlying literature. The tool includes features for training and fine-tuning ColBERT models, embedding and indexing documents for retrieval, and document retrieval, all designed to be highly customizable yet easy to deploy. RAGatouille supports Python 3.9 to 3.11, is available for download, and provides detailed documentation for users. It emphasizes modularity, allowing components to be used independently or in combination according to user needs.",Revolutionizing RAG Pipelines with RAGatouille: The Ultimate Guide,"Discover RAGatouille, a groundbreaking tool designed to seamlessly blend advanced retrieval methods into any RAG pipeline, ensuring modularity and ease-of-use. Dive into a world where the latest research meets practical application, optimizing every aspect of your RAG pipeline with state-of-the-art models. RAGatouille not only simplifies the use of complex models like ColBERT but also paves the way for enhancing performance across diverse domains. Don't miss the opportunity to elevate your RAG pipeline with RAGatouille - start by running 'pip install ragatouille'. Explore the potential of RAGatouille on GitHub and become a part of the future of retrieval methods today.","Explore RAGatouille, a cutting-edge framework for integrating state-of-the-art retrieval methods into RAG pipelines effortlessly. Enhance your projects with ease-of-use, backed by the latest research. Get started with 'pip install ragatouille'.",Open Source Tool,"Python
+
+
+
+
+
+        1,747
+
+
+
+
+
+        119
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/bclavie/RAGatouille/main/RAGatouille.png,,1747,2023-12-29T16:26:42Z
+2024-03-07,https://github.com/facebookresearch/jepa,https://raw.githubusercontent.com/flowtyone/ComfyUI-Flowty-TripoSR/master/README.md,"ComfyUI-Flowty-TripoSR is a custom node integration enabling the use of TripoSR, a collaborative project by Tripo AI and Stability AI, within ComfyUI. TripoSR is an advanced, open-source model capable of fast 3D reconstruction from single images. This node is designed for experimental purposes, and contributions via PRs for enhancements are welcomed. Installation involves cloning the repo into `custom_nodes` of ComfyUI, installing dependencies, and placing the downloaded TripoSR model in the specified directory. The project acknowledges MrForExample for his contributions through the ComfyUI-3D-Pack, which facilitated 3D model display functionalities in ComfyUI. This initiative is part of a community project by flowt.ai, encouraging users to explore and contribute to its development.",Integrate 3D Reconstruction in ComfyUI with Flowty-TripoSR Node,"Discover how to elevate your ComfyUI experience by integrating the Flowty-TripoSR node, enabling state-of-the-art 3D reconstruction from single images. Thanks to the collaboration between Tripo AI and Stability AI, this open-source model, TripoSR, can now be seamlessly utilized within ComfyUI. Installation is straightforward: simply install ComfyUI, clone the Flowty-TripoSR repository into the custom_nodes directory, and you're a few steps away from transforming images into 3D models. Don't forget to download the TripoSR model and place it in the appropriate directory. This innovation not only advances ComfyUI's capabilities but also highlights the powerful collaboration within the open-source community.",Learn how to integrate TripoSR with ComfyUI using the new Flowty-TripoSR node for quick 3D model reconstruction from images—enhance your projects with cutting-edge tech.,Custom Node Pack,"Python
+
+
+
+
+
+        1,906
+
+
+
+
+
+        163
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        165 stars today",https://raw.githubusercontent.com/flowtyone/ComfyUI-Flowty-TripoSR/master/workflow-sample.png; https://raw.githubusercontent.com/flowtyone/ComfyUI-Flowty-TripoSR/master/flowt.png,,150,2024-02-12T15:34:31Z
+2024-03-07,https://github.com/flowtyone/ComfyUI-Flowty-TripoSR,https://raw.githubusercontent.com/tobymao/sqlglot/main/README.md,"SQLGlot is a versatile SQL tool that serves as a parser, transpiler, optimizer, and engine without any dependencies. It supports 21 different SQL dialects, including popular ones like DuckDB, Presto/Trino, Spark/Databricks, Snowflake, and BigQuery. SQLGlot can format SQL, translate between dialects, and customize parsing. It highlights syntax errors and dialect incompatibilities, although validation is not its primary goal. Contributions to SQLGlot are encouraged. It offers API documentation and a primer on expression trees. Installation is straightforward via PyPI or a local setup, with optional development requirements. SQLGlot uses semantic versioning. The community can engage through a Slack channel. Examples in the documentation illustrate various functionalities, including formatting, transpiling, parsing errors, unsupported errors, building and modifying SQL, SQL optimization, AST introspection, and custom dialects. SQLGlot can even execute SQL on Python dictionaries, useful for unit testing. It is used by several projects and can be further explored through its documentation and testing procedures. Benchmarks indicate its performance relative to other parsers, and while SQLGlot's main engine isn't aimed at speed, it proves useful across different tasks. Optional dependencies like dateutil extend functionality, particularly in expression simplification.",Unlock SQL Dialect Translation with SQLGlot: A Comprehensive Guide,"Discover SQLGlot, the versatile SQL parser, transpiler, optimizer, and engine with no dependencies. Effortlessly format SQL and translate between 21 different dialects like DuckDB, Presto/Trino, Spark/Databricks, Snowflake, and BigQuery. Dive into a world where customizing the parser, analyzing queries, and building SQL programmatically is made simple. With its robust performance and comprehensive test suite, SQLGlot stands out in the realm of SQL parsers. Learn more and contribute to its thriving community.","Explore SQLGlot, a no-dependency SQL parser and transpiler that supports 21 dialects. Learn how to effortlessly parse, optimize, and translate SQL, customize parsing, and contribute to its development. Perfect for developers and data engineers.",SQL Tool,"Python
+
+
+
+
+
+        150
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+        34 stars today",,,5064,2024-03-05T10:37:31Z
+2024-03-07,https://github.com/tobymao/sqlglot,https://raw.githubusercontent.com/assafelovic/gpt-researcher/master/README.md,"The GPT Researcher is an autonomous agent designed for conducting extensive online research on various topics, promising detailed, factual, and unbiased reports. This tool overcomes the limitations of current large language models (LLMs) such as outdated information and bias, by aggregating content from over 20 web sources to form objective conclusions. It runs both ""planner"" and ""execution"" agents—the planner formulates research questions, while the execution agents find related information, which is then aggregated into a research report. The system is notably efficient, completing tasks in around 3 minutes at a cost of approximately $0.1. It's built on GPT-3.5-turbo and GPT-4-turbo, optimizing costs by judicious use of resources. The GPT Researcher also includes a user-friendly web interface, support for scraping web sources with JavaScript, and the ability to export reports to PDF among other features. Contributions to the project are welcomed, and it is noted that while the tool aims to reduce bias and factual inaccuracies, users must manage and bear the costs of API usage.",Unleashing the Power of AI in Research: Discover GPT Researcher,"GPT Researcher revolutionizes online research by generating detailed, unbiased, and factual resources, utilizing the latest AI technologies for speed and efficiency. Embracing parallelized agent work, it outpaces traditional synchronous operations, offering a blend of accuracy and rapid insights for diverse tasks. Tailored for both individuals and organizations, it ensures access to reliable information, fostering informed decision-making. Its cost-effective and swift approach, completing tasks in about 3 minutes at minimal costs, positions it as a game-changer in research methodologies. Dive into the future of research with GPT Researcher and harness the full potential of AI-driven insights.","Discover how GPT Researcher employs AI to provide rapid, accurate, and unbiased online research. Learn about its features, including customization and efficient agent work, transforming data gathering for better decision-making.",AI Coding Assistant,"Python
+
+
+
+
+
+        5,064
+
+
+
+
+
+        500
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://cowriter-images.s3.amazonaws.com/architecture.png,,7377,2021-03-13T05:01:56Z
+2024-03-07,https://github.com/GreyDGL/PentestGPT,https://raw.githubusercontent.com/apple/ml-mobileclip/main/README.md,"MobileCLIP introduces a fast image-text model optimized through multimodal reinforced training, showcased in its official repository for CVPR 2024. Key achievements include the smallest variant, MobileCLIP-S0, matching OpenAI's ViT-B/16 zero-shot performance while being significantly faster and smaller. MobileCLIP variants outperform existing models like SigLIP and DFN in zero-shot ImageNet performance, with MobileCLIP-B(LT) reaching 77.2%. The repository provides setup instructions, APIs similar to open_clip models for easy adoption, and a script for zero-shot evaluation on ImageNet-1k. Models are compared based on seen samples, parameters, latency, and accuracy, with pretrained models available for download. The paper invites citations for its contributions to fast image-text modeling.",Revolutionizing Mobile Technology with MobileCLIP: A Leap in Image-Text Models,"Discover the groundbreaking MobileCLIP technology that offers unparalleled speed and efficiency in processing image-text models. This official release boasts models like MobileCLIP-S0 and MobileCLIP-B(LT) that outperform previous works with lower latency, smaller size, and better zero-shot performance. With easy implementation and comprehensive resources for advanced research, MobileCLIP sets a new standard in mobile AI capabilities, promising significant advancements in how we interact with technology.","Unveil MobileCLIP, the latest innovation in mobile AI, offering faster, smaller, and more efficient image-text models for enhanced performance and usability in technology. Experience the future of AI with MobileCLIP's streamlined processing.",Computer Vision Platform,"Python
+
+
+
+
+
+        6,069
+
+
+
+
+
+        717
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/apple/ml-mobileclip/main/docs/fig_accuracy_latency.png,,202,2023-02-27T06:01:53Z
