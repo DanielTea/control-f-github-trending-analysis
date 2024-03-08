@@ -3271,3 +3271,383 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         7 stars today",https://raw.githubusercontent.com/apple/ml-mobileclip/main/docs/fig_accuracy_latency.png,,202,2023-02-27T06:01:53Z
+2024-03-08,https://github.com/google/maxtext,https://raw.githubusercontent.com/google/maxtext/main/README.md,"MaxText is an open-source, high performance, scalable, and simple Large Language Model (LLM) framework designed for use with Google Cloud TPUs. It achieves up to 60% model-flop utilization and easily scales from a single host to large clusters without requiring complex optimizations, leveraging the Jax and XLA compiler. Aimed at facilitating ambitious LLM projects in both research and production, MaxText is built for ease of use and modification, encouraging users to fork and adapt it to their specific requirements. It supports seamless installation and offers robust testing frameworks, detailed runtime performance results, and comparisons with alternative LLM frameworks. MaxText stands out by its pure Python implementation, emphasizing simplicity and performance, and it is comparably efficient to other leading implementations like Nvidia's Megatron-LM but focuses on encouraging direct codebase extension. Additionally, MaxText includes features for debugging and optimization, such as stack trace collection and ahead of time compilation (AOT), enhancing usability and efficiency. It also provides support for various open models, facilitating training and inference with ease.","MaxText: The High-Performance, Scalable Open-Source LLM for Ambitious Projects","MaxText, a high-performance, scalable, open-source LLM designed for Google Cloud TPUs, combines Jax and XLA compiler's power for simple, optimization-free scaling from single hosts to vast clusters. Aimed at both research and production, MaxText invites users to rapidly deploy it as-is or fork it for customized needs. Its superior model-flop utilization and inbuilt features make it ideal for ambitious LLM projects, providing a versatile, easily adaptable foundation.","Explore MaxText, an open-source LLM offering exceptional performance and scalability on Google Cloud TPUs. Perfect for ambitious LLM projects, it's designed for easy use and customization. Learn how MaxText paves the way for groundbreaking research and production applications.",Deep Learning Framework,"Python
+
+
+
+
+
+        664
+
+
+
+
+
+        96
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        11 stars today",,,664,2023-02-28T19:47:29Z
+2024-03-08,https://github.com/abi/screenshot-to-code,https://raw.githubusercontent.com/abi/screenshot-to-code/main/README.md,"The ""screenshot-to-code"" application translates screenshots into code, supporting formats like HTML/Tailwind CSS, React, Bootstrap, and Vue by leveraging GPT-4 Vision or Claude 3 for code generation and DALL-E 3 for generating similar images. It recently added support for Claude 3 and the ability to clone live websites using a URL. Recent updates include video-to-app functionality, converting video or screen recordings into functioning apps, and enhanced support for Claude Sonnet 3, promising better speed and performance than GPT-4 Vision. The app requires an OpenAI API key with GPT-4 Vision access and offers detailed instructions for setup involving a React/Vite frontend and a FastAPI backend. Docker support is available for easier setup, and the app facilitates feedback and bug reporting through its GitHub issues page or Twitter. Examples on the GitHub page showcase its capabilities with various websites.",Revolutionize Web Development with the Screenshot-to-Code App,"Discover the groundbreaking app that turns screenshots into code, leveraging GPT-4 Vision or Claude 3 technologies. Whether it's HTML/Tailwind CSS, React, Bootstrap, or Vue, transform any screenshot or live website into functional code effortlessly. Newly supporting Claude 3, and enhanced with DALL-E 3 for image generation, this tool is a game-changer for developers and designers alike. Explore examples, follow updates on Twitter, and try the app with your OpenAI key today.","Transform screenshots into HTML, React, Bootstrap, or Vue code with an innovative app using GPT-4 Vision or Claude 3. Experience effortless coding and image generation with DALL-E 3. Try it now!",AI Coding Assistant,"TypeScript
+
+
+
+
+
+        43,766
+
+
+
+
+
+        5,117
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        350 stars today",https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png,,43766,2023-11-14T17:53:32Z
+2024-03-08,https://github.com/Azure/azure-sdk-for-python,https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/README.md,"The Azure SDK for Python repository is dedicated to the active development of the Azure SDK, tailored for Python developers. It serves as a hub for both existing Azure service consumers and those looking to integrate Azure services into their Python applications. Notably, support for Python 2.7 ceased on January 1, 2022. The SDK simplifies working with Azure services by offering separate libraries for each service, avoiding the need for a monolithic package. It requires Python 3.8 or later and organizes libraries into new releases and previous versions for both client and management purposes. New releases comply with the latest guidelines and core functionalities like retries and authentication, provided by the `azure-core` library. The documentation, including guidelines, version support policy, and a migration guide for transitioning from older versions, is available online. The project encourages community contributions and adheres to the Microsoft Open Source Code of Conduct. Security concerns should be reported to the Microsoft Security Response Center.",Ultimate Guide to Azure SDK for Python: Features & Getting Started,"Dive into the Azure SDK for Python for seamless cloud management and development. Keep up with the robust set of libraries available for various services, ensuring efficient cloud operations. Whether you're new or transitioning, there's comprehensive support and documentation to get you started. Note the shift from Python 2.7 support and explore the client and management libraries aimed at enhancing your Azure experience. Engage with the community and contribute to the ongoing development of this essential toolkit.","Explore the Azure SDK for Python: Discover new and previous versions of client and management libraries, get started with detailed documentation, and join the community. Ideal for developers and IT professionals.",AI Python Client,"Python
+
+
+
+
+
+        4,153
+
+
+
+
+
+        2,603
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2FREADME.png,,4153,2012-04-24T16:46:12Z
+2024-03-08,https://github.com/google-deepmind/alphafold,https://raw.githubusercontent.com/google-deepmind/alphafold/main/README.md,"The text details the implementation and usage of AlphaFold v2, a deep learning algorithm by DeepMind for predicting protein structures with high accuracy. It highlights the main components: AlphaFold for individual proteins, and the work-in-progress AlphaFold-Multimer for protein complexes, alongside their documentation, technical notes, and a GitHub repository for installation and usage instructions. Requirements include a Linux machine, SSD storage for up to 3 TB of genetic database space, and a modern NVIDIA GPU. The AlphaFold system relies on several genetic databases and employs Docker for setup. It specifies detailed steps for installation, running predictions, and the expected outputs including the predicted protein structures. Additionally, it provides information on updating installations, citing the work, community contributions, and acknowledges third-party software and libraries used within AlphaFold. Lastly, it mentions the licensing for AlphaFold's code and model parameters, and how to contact the AlphaFold team.",Unlocking the Power of Protein Predictions with AlphaFold v2,"AlphaFold v2 has revolutionized the field of bioinformatics by providing a highly accurate inference pipeline for protein structure prediction. From its inception, AlphaFold has evolved to include the AlphaFold-Multimer, and the latest updates in v2.3.0 offer enhanced models and inference procedures. Its ability to predict protein structures with unprecedented accuracy has vast implications for drug discovery, understanding diseases, and synthetic biology. Reliable setup and execution require a Linux machine with significant storage and a modern NVIDIA GPU. For detailed steps on installation and execution, including using reduced databases for lower hardware requirements, see our complete guide.","Discover the revolutionary capabilities of AlphaFold v2 for protein structure prediction. Learn how to set up and run AlphaFold, including the AlphaFold-Multimer, with our concise guide on system requirements and execution steps.",Deep Learning Platform,"Python
+
+
+
+
+
+        11,465
+
+
+
+
+
+        2,041
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/google-deepmind/alphafold/main/imgs/header.jpg; https://raw.githubusercontent.com/google-deepmind/alphafold/main/imgs/casp14_predictions.gif,,11465,2021-06-17T14:06:06Z
+2024-03-08,https://github.com/FlagOpen/FlagEmbedding,https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/master/README.md,"FlagEmbedding is a project that enhances retrieval-augmented LLMs, featuring initiatives like Long-Context LLM, LM-Cocktail for fine-tuning, and various Dense Retrieval models. A key release, the BGE-M3, encompasses multi-linguality, multi-granularity, and multi-functionality in retrieval. It stands out for supporting all three retrieval methods and hitting new benchmarks in multi-lingual and cross-lingual evaluations. Another notable project is Activation Beacon, which extends LLM context length efficiently. LM-Cocktail merges multiple models to maintain general capabilities and facilitate new task modeling without fine-tuning. LLM Embedder caters to diverse retrieval needs of LLMs, while BGE Reranker and BGE Embedding address re-ranking and general embedding challenges, respectively. Collaborations are encouraged, with MIT License governing the project's open-source code.",Revolutionizing Language Models: FlagEmbedding's Multifaceted Approach,"FlagEmbedding stands at the forefront of developing sophisticated language models with its flagship projects including Long-Context LLMs, LM-Cocktail for fine-tuning, and groundbreaking retrieval models like BGE-M3. With projects spanning dense retrieval, rerankers, and benchmarks such as C-MTEB, FlagEmbedding is pushing the boundaries of multilingual and multi-functional embedding models. The recent release of BGE-M3 has set new standards in the field by excelling in multi-lingual, multi-granular, and multi-functional retrieval, making it an essential tool for researchers and developers alike.",Explore FlagEmbedding's innovative projects including BGE-M3 for advanced retrieval and LM-Cocktail for fine-tuning language models. Discover how it paves the way for future LLMs.,Natural Language Processing,"Python
+
+
+
+
+
+        3,845
+
+
+
+
+
+        248
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",,,3845,2023-08-02T02:08:11Z
+2024-03-08,https://github.com/facebookresearch/llama,https://raw.githubusercontent.com/facebookresearch/llama/main/README.md,"The latest version of Llama, a significant development in large language models, has been made available to a wide audience including individuals, creators, researchers, and businesses to facilitate experimentation, innovation, and growth in a responsible manner. This release introduces pre-trained and fine-tuned Llama language models with parameters ranging from 7B to 70B, alongside the model weights and starting code. Users can access and run these models through a straightforward set-up process, with detailed examples available in the llama-recipes repository on GitHub. This initiative also includes steps for quick start and running inference, with support for different model-parallel values depending on the model. Furthermore, the release is backed by comprehensive documentation on updates, download issues resolution, and a guide on responsible use to mitigate potential risks associated with deploying the technology. Llama 2 aims to empower technology development while ensuring ethical AI advancements through its open licensing for both research and commercial use, guided by an Acceptable Use Policy.",Unleashing Llama 2: A Giant Leap in Language Model Technology,"Explore the latest advancements in language model technology with Llama 2, designed for innovators across all fields. This version offers pre-trained and finely-tuned language models ranging from 7B to 70B parameters, making it easier than ever to harness the power of AI. Access to the models is simplified, with detailed guidance for both downloading and running inferences. Embrace the future of AI research and application by diving into Llama 2, where possibilities are limitless. Ensure responsible usage with our detailed guidelines, and join a community pushing the boundaries of what's possible with AI.","Discover Llama 2, the groundbreaking language model accessible to all. With models from 7B to 70B parameters, Llama 2 is revolutionizing AI innovation and research. Learn how to start experimenting today.",Language Models,"Python
+
+
+
+
+
+        50,782
+
+
+
+
+
+        8,715
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        72 stars today",,,50782,2023-02-14T09:29:12Z
+2024-03-08,https://github.com/taojy123/KeymouseGo,https://raw.githubusercontent.com/taojy123/KeymouseGo/master/README.md,"KeymouseGo is a software designed for recording and automating mouse and keyboard operations on Windows, Linux, and macOS platforms. This lightweight alternative to macro software enables users to easily record actions such as mouse clicks and keyboard inputs, and then automate them by playing back these actions as many times as needed. This can be particularly useful for repetitive tasks, allowing users to save time and effort by automating processes with previously recorded scripts. The software is developed using Python and supports customization through scripting, allowing for extended functionality beyond basic recording. Users can run scripts via a graphical interface or command line, adjust execution speed, set scripts to run multiple times, and even integrate custom extensions for advanced automation tasks. KeymouseGo is open-source, and thanks to its community and contributors, it continues to evolve with new features and improvements.",Automating Repetitive Tasks with KeymouseGo: A Comprehensive Guide,"Discover KeymouseGo, the revolutionary tool designed to record and playback mouse and keyboard actions, making repetitive tasks effortless. Whether for work or personal projects, KeymouseGo offers a simplified, green alternative to traditional automation software. It supports Windows, Linux, and macOS, making it incredibly versatile. With easy installation and use, anyone can automate their tasks, saving time and increasing productivity. Dive into the world of efficient computing with KeymouseGo!","Learn how to automate repetitive tasks easily with KeymouseGo. This guide covers installation, features, and usage on Windows, Linux, and macOS, making your work more efficient and productive.",Open Source Tool,"Python
+
+
+
+
+
+        5,720
+
+
+
+
+
+        876
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",https://raw.githubusercontent.com/taojy123/KeymouseGo/master/Preview.png; https://raw.githubusercontent.com/taojy123/KeymouseGo/master/jetbrains-variant-2.png,,5720,2015-01-31T04:16:37Z
+2024-03-08,https://github.com/KurtBestor/Hitomi-Downloader,https://raw.githubusercontent.com/KurtBestor/Hitomi-Downloader/master/README.md,"The text introduces Hitomi-Downloader, a software designed for downloading multimedia from various online sources. It boasts a simple interface, supports download acceleration, can handle up to 24 threads per task, and offers a speed limit feature. Additionally, it supports user scripts, BitTorrent and Magnet links, as well as M3U8 and MPD format videos. Other features include a dark mode, portability, clipboard monitoring, and easy task organization. The downloader is compatible with a wide range of sites, including major ones like YouTube, Facebook, Instagram, and more specialized sites catering to different interests and media types, indicating a broad utility for users interested in content downloading.",Maximize Downloads with Hitomi Downloader: The Ultimate Guide,"Discover the power of Hitomi Downloader, your ultimate solution for fast and efficient downloading. With a simple interface, download acceleration, and support for numerous sites, it's the downloader you never knew you needed. From mainstream platforms like YouTube to niche sites, Hitomi Downloader simplifies your downloads with features like dark mode, BitTorrent support, and a clipboard monitor. Perfect for organizing tasks and multitasking, it's a must-have tool in your digital toolkit.","Explore Hitomi Downloader: A versatile tool offering download acceleration, multi-thread support, and compatibility with many sites, including YouTube, Pixiv, and more. Simplify your downloads today!",Open Source Tool,"Python
+
+
+
+
+
+        19,003
+
+
+
+
+
+        1,819
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        121 stars today",https://raw.githubusercontent.com/KurtBestor/Hitomi-Downloader/master/imgs/card_crop.png; https://raw.githubusercontent.com/KurtBestor/Hitomi-Downloader/master/imgs/how_to_download.gif,,19003,2017-11-26T09:23:06Z
+2024-03-08,https://github.com/unslothai/unsloth,https://raw.githubusercontent.com/unslothai/unsloth/main/README.md,"Unsloth.ai offers tools for fine-tuning AI models like Mistral, Gemma, and Llama up to 5x faster using 70% less memory, making the process beginner-friendly and cost-efficient. Their free Colab notebooks enable users to finetune models effortlessly with significant performance enhancements, such as up to 3.9x faster speeds and up to 74% less memory usage across various models, including Gemma, Mistral, Llama-2, TinyLlama, CodeLlama, and others. The platform updates include the addition of conversational notebooks and support for Direct Preference Optimization (DPO). Unsloth.ai's collaboration with Hugging Face, evident in their blog and official documentation, highlights their integration into the broader AI community. They also offer detailed installation instructions for different environments, comprehensive documentation for model training, and extensive benchmarking data showcasing the platform's efficiency improvements in training times and memory usage across various settings, including single and multi-GPU setups.",Accelerate Your AI Project: How to Fine-tune Models Faster with Unsloth.ai,"Discover the power of Unsloth.ai, the beginner-friendly solution for accelerating Mistral, Gemma, Llama, and more with up to 70% less memory usage. By leveraging Unsloth.ai's optimized fine-tuning process on Colab, users enjoy a significant speed boost and efficiency, making AI model training more accessible than ever. Dive into using Unsloth.ai's free notebooks to supercharge your AI projects today!","Boost your AI model training with Unsloth.ai. Learn how to fine-tune AI models like Mistral, Gemma, and Llama 2-5x faster with 70% less memory on Colab. Start for free with beginner-friendly notebooks.",Deep Learning Platform,"Python
+
+
+
+
+
+        3,905
+
+
+
+
+
+        182
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        29 stars today",https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20logo%20black%20text.png; https://raw.githubusercontent.com/unslothai/unsloth/main/images/start free finetune button.png; https://raw.githubusercontent.com/unslothai/unsloth/main/images/Discord button.png; https://raw.githubusercontent.com/unslothai/unsloth/main/images/buy me a coffee button.png; https://i.ibb.co/sJ7RhGG/image-41.png; https://raw.githubusercontent.com/unslothai/unsloth/main/images/made with unsloth.png; https://i.ibb.co/sJ7RhGG/image-41.png; https://i.ibb.co/sJ7RhGG/image-41.png,,3905,2023-11-29T16:50:09Z
+2024-03-08,https://github.com/hiyouga/LLaMA-Factory,https://raw.githubusercontent.com/hiyouga/LLaMA-Factory/main/README.md,"LLaMA Factory is a comprehensive toolkit for fine-tuning and deploying various large language models, designed to facilitate easy customization and optimization of models for specific tasks. The toolkit supports a wide range of models, including LLaMA, Mistral, and BLOOM, among others, and provides integrated methods for pre-training, supervised fine-tuning, and more advanced techniques like reward modeling and PPO training. It also offers scalable resources, advanced algorithms, and practical tricks to enhance model performance and efficiency. The benchmarking section demonstrates the efficiency of LLaMA Factory's LoRA tuning compared to traditional methods, showing significant improvements in training speed and Rouge scores for text generation tasks. Recent updates have introduced new algorithms, support for more models, and various other enhancements. Users can train models on a single GPU or distribute the training process across multiple GPUs, customize training scripts, and evaluate model performance using supplied datasets or their own. Additionally, LLaMA Factory provides tools for integrating fine-tuned models into applications with ease, offering inference APIs, command-line interfaces, and web demonstrations.",LLaMA Factory: The Cutting-Edge Model Tuning Tools Simplified,"Discover the groundbreaking LLaMA Factory, a versatile tool for fine-tuning large language models with ease and efficiency. It supports a wide range of models and training approaches, enabling faster training and better performance with lesser resource consumption. From advanced algorithms to practical tricks, LLaMA Factory is your gateway to unlocking the full potential of AI language models.","Explore how LLaMA Factory simplifies the fine-tuning of large language models, offering faster training, advanced algorithms, and support for various models. Start optimizing your AI projects with LLaMA Factory today.",Collaborative AI Framework,"Python
+
+
+
+
+
+        12,758
+
+
+
+
+
+        1,576
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        72 stars today",https://raw.githubusercontent.com/hiyouga/LLaMA-Factory/main/assets/logo.png,,12758,2023-05-28T10:09:12Z
+2024-03-08,https://github.com/JoeanAmier/XHS-Downloader,https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/README.md,"XHS-Downloader is a free, open-source tool for extracting links and downloading content without watermarks from 小红书 (Xiaohongshu). It allows users to gather content information, download links, and store data efficiently. The tool can automate downloads, manage file integrity, customize download formats, and organize content into folders. It supports both programmatic and command-line usage, with extensive features for working with 小红书 content. Additionally, a user script is available for those using the Tampermonkey browser extension, offering a convenient way to experience the project's functionality without installation. XHS-Downloader emphasizes legal and ethical use, providing a GNU General Public License v3.0, and disclaims any responsibility for misuse or legal implications. Users are encouraged to contribute through stars or donations and can contact the author for support or further inquiry.",Ultimate Guide to XHS-Downloader: Download Xiaohongshu Content with Ease,"Discover the power of XHS-Downloader, the ultimate tool for downloading content from Xiaohongshu without watermarks. This comprehensive guide covers everything from setting up and using the downloader to advanced features like custom download formats and API support. Whether you're downloading for personal use or exploring content curation, XHS-Downloader offers a robust solution free of charge, ensuring you stay ahead in content gathering without compromising on quality.","Learn how to use XHS-Downloader to effortlessly download and curate content from Xiaohongshu. This guide offers insights into its features, setup, and advanced functionalities for watermark-free downloads.",Document Conversion Tool,"Python
+
+
+
+
+
+        2,866
+
+
+
+
+
+        381
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        68 stars today",https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/XHS-Downloader.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/screenshot/程序运行截图CN1.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/screenshot/程序运行截图CN2.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/screenshot/程序运行截图CN3.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/screenshot/用户脚本截图1.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/screenshot/用户脚本截图2.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/screenshot/获取Cookie示意图.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/./static/微信赞助二维码.png; https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/./static/支付宝赞助二维码.png,,2866,2023-08-16T11:03:36Z
+2024-03-08,https://github.com/WZMIAOMIAO/deep-learning-for-image-processing,https://raw.githubusercontent.com/WZMIAOMIAO/deep-learning-for-image-processing/master/README.md,"This tutorial summarizes the author's research during their postgraduate studies, aiming to assist others in learning about deep learning applications in image processing. It will be shared through videos, covering the structure and innovation of networks, and their construction and training using PyTorch and TensorFlow (with Keras). Various models are addressed, including LeNet, AlexNet, VGGNet, GoogLeNet, ResNet, ResNeXt, MobileNet, ShuffleNet, EfficientNet, Vision Transformer, Swin Transformer, ConvNeXt, and MobileViT for image classification. There's also content on object detection with Faster R-CNN, SSD, YOLO series, FCOS; semantic segmentation with FCN, DeepLabV3, LR-ASPP, U-Net, U2Net; instance segmentation with Mask R-CNN; and keypoint detection with HRNet. The tutorial provides links to videos for detailed explanations and coding tutorials. The recommended environment includes Anaconda3, Python 3.6/3.7/3.8, PyCharm, PyTorch 1.10, torchvision 0.11.1, and TensorFlow 2.4.1. The creator encourages following their WeChat public account for learning summaries and discusses further on their CSDN blog and Bilibili channel.",Unlocking the Power of Deep Learning in Image Processing: A Comprehensive Tutorial,"Dive into the transformative world of image processing with our detailed tutorial on deep learning applications. From structure and innovation in neural networks to hands-on training using Pytorch and TensorFlow, we break down complex concepts into understandable bits. Enhance your skills with downloadable course materials and stay ahead with updates on the latest in deep learning technology. Whether you're a beginner or looking to refine your knowledge, this guide provides invaluable insights into the future of image analysis.","Explore the applications of deep learning in image processing with our expert guide. Learn about neural network structures, Pytorch and TensorFlow training, and access downloadable course materials for a comprehensive understanding.",Deep Learning Platform,"Python
+
+
+
+
+
+        19,942
+
+
+
+
+
+        7,623
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        49 stars today",,,19942,2019-11-14T15:02:27Z
+2024-03-08,https://github.com/lm-sys/FastChat,https://raw.githubusercontent.com/lm-sys/FastChat/main/README.md,"FastChat is an open platform designed for training, serving, and evaluating large language model (LLM) based chatbots, featuring its application Chatbot Arena which has processed over 6 million chat requests for more than 50 LLMs. This platform provides training and evaluation code for cutting-edge models like Vicuna and MT-Bench, and supports a distributed multi-model serving system with a web UI and OpenAI-compatible RESTful APIs. Recent updates include the release of LMSYS-Chat-1M, a conversational dataset, Vicuna v1.5, and Chatbot Arena Conversations dataset. It offers detailed installation instructions, model weights guidance, inference options for various computing environments, and notes for fine-tuning. The platform also accommodates scalability, providing OpenAI-compatible RESTful APIs, evaluation benchmarks, and fine-tuning documentation. FastChat represents a significant resource for developers interested in deploying and evaluating AI chatbots with state-of-the-art LLM technologies.",FastChat: Revolutionizing LLM-Based Chatbots with Chatbot Arena,"Discover how FastChat is transforming the landscape of language model based chatbots through its innovative platform. Harnessing the power of over 50 LLMs, FastChat facilitates over 6 million chat interactions in the Chatbot Arena, offering an unparalleled resource with over 200K human votes influencing the LLM Elo leaderboard. Dive into the cutting-edge features including multi-model training, evaluation, and a distributed serving system designed for state-of-the-art models like Vicuna and MT-Bench. Stay informed with the latest releases, including LMSYS-Chat-1M, a comprehensive real-world LLM conversation dataset. FastChat sets a new standard for chatbot development and evaluation, making it a cornerstone for researchers and developers alike.","Explore FastChat, the ultimate platform for training, serving, and evaluating LLM-based chatbots. With over 6 million chat requests and 200K human votes, FastChat's Chatbot Arena is leading the way in advanced chatbot technology and LLM evaluation. Learn about the latest updates and how you can leverage its features for your projects.",Collaborative AI Framework,"Python
+
+
+
+
+
+        32,265
+
+
+
+
+
+        3,962
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        51 stars today",https://raw.githubusercontent.com/lm-sys/FastChat/main/assets/demo_narrow.gif; https://raw.githubusercontent.com/lm-sys/FastChat/main/assets/screenshot_cli.png; https://raw.githubusercontent.com/lm-sys/FastChat/main/assets/screenshot_gui.png,,32265,2023-03-19T00:18:02Z
+2024-03-08,https://github.com/parthsarthi03/raptor,https://raw.githubusercontent.com/parthsarthi03/raptor/master/README.md,"RAPTOR introduces a novel approach for retrieval-augmented language models by creating a recursive tree structure from documents, improving efficiency and context-aware information retrieval beyond the capabilities of traditional models. This method is detailed in their paper, which is available for further reading. To use RAPTOR, Python 3.8 or higher is required. Users can clone the RAPTOR repository and install its dependencies. The setup involves setting up an OpenAI API key, initializing RAPTOR, adding documents to its tree, and querying it to answer specific questions. It also allows for the customization and extension with other models for summarization, question-answering, and embedding generation, by implementing specific classes for each requirement. Additionally, RAPTOR encourages open-source contribution and is licensed under the MIT License. Citations for using RAPTOR in research are also provided.",Exploring RAPTOR: Next-Level Information Retrieval,"RAPTOR revolutionizes retrieval-augmented language models by introducing a tree-structured approach, allowing for more efficient and context-aware searching through extensive texts, overcoming traditional models' limitations. This novel method shows promise in enhancing information retrieval's accuracy and speed. For those interested in digging deeper, the original paper provides comprehensive insights into RAPTOR's methodologies and implementations, paving the way for advanced research and applications in language models.","Discover how RAPTOR leverages a recursive tree structure to enhance retrieval-augmented language models, making information retrieval more efficient and context-aware across vast texts.",Natural Language Processing,"Python
+
+
+
+
+
+        186
+
+
+
+
+
+        22
+
+
+        Built by
+
+          
+
+
+
+
+
+        14 stars today",https://raw.githubusercontent.com/parthsarthi03/raptor/master/raptor.jpg; https://raw.githubusercontent.com/parthsarthi03/raptor/master/raptor.jpg,,186,2024-02-27T01:33:26Z
