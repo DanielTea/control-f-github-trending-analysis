@@ -3651,3 +3651,301 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         14 stars today",https://raw.githubusercontent.com/parthsarthi03/raptor/master/raptor.jpg; https://raw.githubusercontent.com/parthsarthi03/raptor/master/raptor.jpg,,186,2024-02-27T01:33:26Z
+2024-03-09,https://github.com/jiaweizzhao/GaLore,https://raw.githubusercontent.com/jiaweizzhao/GaLore/master/README.md,"GaLore introduces a memory-efficient algorithm for training large language models (LLMs) by employing Gradient Low-Rank Projection. This strategy maintains full-parameter learning while being more memory-efficient compared to traditional low-rank adaptation methods like LoRA. GaLore's design allows it to be easily integrated with existing optimizers with minimal code changes. The repository provides installation instructions, usage examples including how to configure GaLore with different optimizers, and benchmark scenarios for pre-training and fine-tuning models on datasets like C4 and GLUE tasks. The benchmarks highlight GaLore's capability to train large models on limited hardware, for instance, training a 7B parameter model on a single NVIDIA RTX 4090 GPU. Additionally, it offers per-layer weight updates for single GPU setups, aiming for future support for multi-GPU configurations. The citation for the GaLore method is also provided for referencing in academic work.",Unlocking Memory-Efficient LLM Training with GaLore Algorithm,"Discover the revolutionary GaLore algorithm for memory-efficient Large Language Models (LLM) training, enabling full-parameter learning without the high memory cost. GaLore stands out by allowing integration with existing optimizers in just two lines of code, offering a practical solution for optimizing memory usage during LLM training. Find out how to install, configure, and utilize this groundbreaking tool for both pre-training and fine-tuning tasks, making it a game changer for researchers and developers alike.","Explore the GaLore algorithm for efficient LLM training, a memory-saving strategy that facilitates full-parameter learning with ease of integration into any optimizer. A perfect tool for enhancing LLM training and optimization.",Deep Learning Platform,"Python
+
+
+
+
+
+        446
+
+
+
+
+
+        47
+
+
+        Built by
+
+          
+
+
+
+
+
+        67 stars today",https://raw.githubusercontent.com/jiaweizzhao/GaLore/master/imgs/galore_code_box.png,,446,2024-03-07T01:34:59Z
+2024-03-09,https://github.com/dortania/OpenCore-Legacy-Patcher,https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/main/README.md,"The OpenCore Legacy Patcher is a Python-based initiative leveraging Acidanthera's OpenCorePkg and Lilu to enable macOS functionality on both supported and unsupported Macs. Aimed primarily at revitalizing older Macs (dating back to 2007) that Apple no longer supports, it facilitates the running of macOS Big Sur and later versions. The project features support for macOS Big Sur through Sonoma, enabling native system updates, graphics acceleration for Metal and non-Metal GPUs, and advanced security measures like System Integrity Protection and Secure Boot, among others. It also unlocks additional features like Sidecar and AirPlay even on supported Macs and offers enhanced power management for non-Apple storage devices. Clean installs and upgrades are possible, excluding systems already patched with other tools due to integrity concerns. While it's aimed at Big Sur and newer versions, for Mojave and Catalina, dosdude1's patchers are recommended. Offered as-is, the project is backed by a community on Discord for support and troubleshooting.",Revitalize Your Old Mac: How OpenCore Legacy Patcher Unlocks New macOS Features,"OpenCore Legacy Patcher offers a new lease of life for unsupported Macs, enabling them to run macOS Big Sur and newer versions with ease. This Python-based project leverages Acidanthera's OpenCorePkg and Lilu to not only support systems as old as 2007 but also unlock modern features like Sidecar and AirPlay. It supports clean installs and upgrades, ensuring no firmware patching is needed for a seamless experience. Whether you're looking to extend the life of your Mac or unlock new functionalities, OpenCore Legacy Patcher is your go-to solution.",Discover how OpenCore Legacy Patcher can rejuvenate unsupported Macs by enabling macOS Big Sur and newer installations while unlocking advanced features like Sidecar and AirPlay without any firmware patching required.,Open Source Tool,"Python
+
+
+
+
+
+        10,404
+
+
+
+
+
+        1,025
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/main/images/OC-Patcher.png,,10404,2020-11-24T01:54:56Z
+2024-03-09,https://github.com/langgenius/dify,https://raw.githubusercontent.com/langgenius/dify/main/README.md,"Dify is an LLM (Large Language Model) application development platform that has successfully built over 100,000 applications. It provides an integrated solution combining Backend as a Service (BaaS) and LLM Operations (LLMOps), designed for creating generative AI-native applications. Dify features a built-in Retriever-Augmented Generation (RAG) engine, and offers the ability to deploy customized Assistant APIs and GPTs based on various LLMs. Users can experiment by leveraging Dify.AI Cloud, which comes with 200 free requests to OpenAI GPT-3.5. The platform stands out due to its API-oriented programming approach, open-source ecosystem strategy, and support for a wide array of LLMs. Dify includes features such as a Prompt IDE for visual application development, a RAG engine for enhancing queries, and an AI Agent framework for customization. It encourages continuous operations through monitoring and analysis for prompt, dataset, or model improvements. The community edition of Dify can be easily installed using Docker, with further options for Kubernetes deployment through a Helm chart. Dify encourages contributions, aims to extend its language support, and offers various channels for community and support, including direct meetings for feedback and technical discussions.",Revolutionize App Development: Leveraging Dify.AI for Next-Gen AI Applications,"Dify.AI is transforming the landscape of LLM application development, having successfully aided in the creation of over 100,000 applications. By integrating BaaS with LLMOps and offering a comprehensive tech stack essential for building AI-native applications, Dify distinctively supports deployment of personalized Assistants API and GPTs tailored to various LLMs. With features like a built-in RAG engine and support for a wide array of LLMs, Dify.AI Cloud now offers a seamless experience with 200 free requests to OpenAI GPT-3.5. Dive into the future of app development by exploring Dify's unique advantages over counterparts like LangChain and Assistants API, and leverage the power of visual orchestration, continuous operations, and diverse AI Agent tools.","Discover how Dify.AI is redefining application development with its LLM platform, offering over 100,000 apps with BaaS, LLMOps, a RAG engine, and support for various LLMs including OpenAI GPT. Start your journey with 200 free OpenAI GPT-3.5 requests.",Collaborative AI Framework,"Python
+
+
+
+
+
+        16,922
+
+
+
+
+
+        2,159
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        51 stars today",https://raw.githubusercontent.com/langgenius/dify/main/./images/describe.png; https://raw.githubusercontent.com/langgenius/dify/main/./images/demo.png; https://raw.githubusercontent.com/langgenius/dify/main/./images/models.png,,16922,2023-04-12T07:40:24Z
+2024-03-09,https://github.com/d2l-ai/d2l-zh,https://raw.githubusercontent.com/d2l-ai/d2l-zh/master/README.md,"""Dive into Deep Learning"" (D2L.ai), an open-source project, aims to teach deep learning concepts, background knowledge, and code in an integrated manner. It strives to be a unified resource, freely accessible online, providing technical depth to enable readers to become applied deep learning scientists. The text includes executable code to show problem-solving in practice, allowing for experimentation and learning through modification and observation. It is designed for continuous iteration by the community to stay updated with the rapidly advancing deep learning field. The book is supplemented by forums for questions and experience exchange. It is recommended by academics and industry professionals alike and is used as a textbook or reference book in universities worldwide. The project encourages community contributions and provides links for further engagement.",Mastering Deep Learning: An In-Depth Guide with D2L.ai,"Dive into the world of Deep Learning with D2L.ai, an open-source project aimed at teaching both the theoretical concepts and practical application skills needed to become an adept Deep Learning Scientist. This unified resource is freely available online, offering deep technical knowledge, runnable code examples, and a dynamic community forum for peer support. It serves as a comprehensive guide to not just understanding the mathematical foundations of deep learning, but also how to implement and improve upon these methods in real-world scenarios. Ideal for both students and professionals, D2L.ai is continuously updated to keep pace with the rapidly evolving field.","Discover how to become a deep learning expert with D2L.ai's comprehensive guide, featuring in-depth technical knowledge, practical code examples, and a supportive community forum.",Deep Learning Platform,"Python
+
+
+
+
+
+        54,824
+
+
+
+
+
+        10,206
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        82 stars today",https://raw.githubusercontent.com/d2l-ai/d2l-zh/master/static/frontpage/_images/eq.jpg; https://raw.githubusercontent.com/d2l-ai/d2l-zh/master/static/frontpage/_images/figure.jpg; https://raw.githubusercontent.com/d2l-ai/d2l-zh/master/static/frontpage/_images/code.jpg; https://raw.githubusercontent.com/d2l-ai/d2l-zh/master/static/frontpage/_images/notebook.gif; https://d2l.ai/_images/map.png,,54824,2017-08-23T04:40:24Z
+2024-03-09,https://github.com/weaviate/Verba,https://raw.githubusercontent.com/weaviate/Verba/main/README.md,"Verba: The Golden RAGtriever is an open-source application designed for streamlined Retrieval-Augmented Generation (RAG), offering a user-friendly interface for efficient data exploration and insight extraction. It supports local and cloud deployment, integrating with LLM providers such as OpenAI, Cohere, and HuggingFace. Installation is straightforward via pip, and the application boasts features like advanced query resolution, effortless data import, and accelerated queries through a semantic cache. Verba combines Weaviate's Generative Search technology and Large Language Models to understand and respond to queries contextually. The tool simplifies importing documents and features a robust project architecture, welcoming community contributions and open-source development. Deployment options include pip installation, Docker, or building from source, with comprehensive support for API key configuration for various services.",Exploring Verba: The Ultimate Tool for Retrieval-Augmented Generation,"Discover Verba: The Golden RAGtriever, a groundbreaking open-source application revolutionizing Retrieval-Augmented Generation (RAG) with an intuitive, user-friendly interface. Seamlessly integrate with leading LLM providers like OpenAI, Cohere, and HuggingFace. Simplify your data analysis and insight extraction process locally or through cloud services. Get started effortlessly with Verba by installing it via pip. Join the community of forward-thinking developers and harness the power of generative search with Verba today.","Unveil the power of Verba, the open-source application designed for streamlined Retrieval-Augmented Generation (RAG). Install easily via pip and transform data analysis with leading LLM integrations.",Collaborative AI Framework,"Python
+
+
+
+
+
+        1,861
+
+
+
+
+
+        204
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        29 stars today",https://github.com/weaviate/Verba/blob/dev/img/verba.gif; https://github.com/weaviate/Verba/blob/dev/img/verba_screen.png; https://github.com/weaviate/Verba/blob/dev/img/verba_import.png; https://github.com/weaviate/Verba/blob/dev/img/verba_status.png; https://github.com/weaviate/Verba/blob/dev/img/verba_data.gif,,1861,2023-07-28T16:53:42Z
+2024-03-09,https://github.com/W01fh4cker/CVE-2024-27198-RCE,https://raw.githubusercontent.com/W01fh4cker/CVE-2024-27198-RCE/main/README.md,"The text discusses the exploitation of vulnerabilities in JetBrains TeamCity, using different cyberspace search engines like Fofa, ZoomEye, Hunter.how, and Shodan to locate instances using specific query syntaxes unique to each platform. It instructs users on setting up a Python 3.9 environment with necessary libraries and highlights problems encountered during exploitation, such as issues with yakit proxy leading to failed uploads of malicious plugins, errors in making post requests after webshell upload, and the workaround of retrieving X-TC-CSRF-Token through a 403 error. Additionally, it details creating a vulnerability recurrence environment using Docker to pull and run a vulnerable TeamCity server image. References are provided for further reading on relevant CVEs addressed in the JetBrains TeamCity updates.
+
+",A Comprehensive Guide to Mapping Cyberspace: Exploiting JetBrains TeamCity Vulnerabilities,"Discover crucial techniques for exploiting JetBrains TeamCity vulnerabilities across different platforms, including Fofa, ZoomEye, Hunter.how, and Shodan. Learn to navigate the challenges of cyber defense mechanisms, from uploading malicious plugins to mitigating post-request errors. This guide also covers setting up a vulnerable environment using Docker for practical vulnerability replication. Unlock the potential of Python scripting to automate your cybersecurity testing. Enhance your ethical hacking skills by understanding and solving common problems in cyberspace mapping.","Unveil expert strategies for exploiting JetBrains TeamCity with our in-depth guide. Learn to use Fofa, ZoomEye, Hunter.how, and Shodan for effective cyberspace mapping and overcome cybersecurity challenges.",Cybersecurity Tool,"Python
+
+
+
+
+
+        47
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/W01fh4cker/blog_image/main/image-20240308230546869.png; https://raw.githubusercontent.com/W01fh4cker/blog_image/main/image-20240308230808193.png; https://raw.githubusercontent.com/W01fh4cker/blog_image/main/image-20240307232348600.png; https://raw.githubusercontent.com/W01fh4cker/blog_image/main/image-20240307232404056.png,,47,2024-03-06T03:15:03Z
+2024-03-09,https://github.com/prometheusdevel/Prometheus,https://raw.githubusercontent.com/prometheusdevel/Prometheus/main/README.md,"Prometheus is a tool designed for educational and research purposes, emphasizing the creator's disclaimer against its misuse for illegal acts. It features a range of functionalities aimed at system infiltration and data extraction, including GUI building, startup execution, fake errors, binding executables, and various forms of session and data theft from popular platforms and services (e.g., Discord, Steam, Epic, browsers, cryptocurrency wallets). It offers additional VIP features, such as UAC Bypass, disabling Windows Defender, audio recording, and more malicious capabilities like keylogging and file encryption. To build the stub, users need Windows 7, Python 3.10, and an internet connection. The process involves downloading Prometheus, extracting the content, and using a builder script. The VIP version, accessible via purchase, includes more advanced features, catering to users seeking further capabilities beyond the free version.",Exploring Prometheus: A Comprehensive Guide to Its Features and Capabilities,"Discover the potential of Prometheus, a versatile tool equipped with a GUI Builder, capable of executing tasks on startup, and providing robust security features along with a detailed VIP version for enhanced functionalities. It offers a wide range of features from password and session stealing across various platforms to data encryption and more, catering to both educational and research purposes. Understand the prerequisites and the step-by-step guide to build and utilize Prometheus effectively, ensuring full awareness of its capabilities and disclaimer responsibilities. Perfect for those seeking an in-depth look at its features, VIP benefits, and user requirements.","A detailed guide exploring Prometheus' functionalities, including GUI building, security features, and VIP benefits. Learn the setup requirements and how to utilize this tool responsibly with our step-by-step guide.",Cybersecurity Tool,"Python
+
+
+
+
+
+        134
+
+
+
+
+
+        97
+
+
+        Built by
+
+          
+
+
+
+
+
+        30 stars today",https://raw.githubusercontent.com/prometheusdevel/Prometheus/main/logo.png; https://github.com/prometheusdevel/Prometheus/blob/main/window.png; https://github.com/prometheusdevel/Prometheus/blob/main/msg.png; https://github.com/prometheusdevel/Prometheus/blob/main/virustotal.png,,134,2023-12-19T23:16:42Z
+2024-03-09,https://github.com/TobikoData/sqlmesh,https://raw.githubusercontent.com/TobikoData/sqlmesh/main/README.md,"SQLMesh is a modern framework for data transformation and modeling, offering compatibility with dbt but aiming for ease of use, accuracy, and efficiency. It allows data professionals to run and deploy transformations using SQL or Python, enhancing the efficiency, reliability, and maintenance of dbt projects without being just an alternative. Key features include semantic understanding of SQL for error checking, simple SQL definitions without Jinja + YAML, self-documenting queries, efficient never-rebuild table logic, partition-based incremental models, a Terraform-like workflow, CI/CD integrations, automatic column lineage, and data contracts with unit tests. SQLMesh encourages community interaction through its Slack, GitHub, and email, welcoming contributions. Installation is straightforward via pypi.",Revolutionize Your Data Workflows with SQLMesh: The Ultimate dbt Alternative,"Discover SQLMesh, a cutting-edge data transformation framework offering backwards compatibility with dbt and superior efficiency. With its unique features like semantic understanding of SQL, compile-time error checking, and a CI/CD bot for seamless integrations, SQLMesh not only enhances your dbt projects but sets a new standard in data modeling and transformation. Dive deeper into its capabilities, including partition-based incremental models and automatic column level lineage, to streamline your data operations. Ideal for data practitioners seeking an intuitive yet powerful tool, SQLMesh promises to make your data projects more reliable and maintainable. Get started today and join the vibrant community to excel in your data journey.","Unlock the full potential of your data with SQLMesh, a next-gen framework offering seamless dbt compatibility, enhanced efficiency, and robust features for data modeling and transformation. Explore now.",Data Transformation Tool,"Python
+
+
+
+
+
+        1,115
+
+
+
+
+
+        74
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        16 stars today",,,1115,2022-09-23T16:28:39Z
+2024-03-09,https://github.com/vanna-ai/vanna,https://raw.githubusercontent.com/vanna-ai/vanna/main/README.md,"Vanna is an open-source Python framework for SQL generation using the Retrieval-Augmented Generation (RAG) method, designed to be both powerful and user-friendly. With an MIT license, it allows users to train a RAG model with their data and then generate SQL queries by simply asking questions. This tool is particularly useful for users with complex datasets, offering high accuracy, security, privacy, and the capability to self-learn from successful queries. Vanna supports any SQL database and allows for various front-end interfaces, including Jupyter Notebook, Slack, web apps, Streamlit apps, or custom interfaces. It's easy to get started with examples and detailed documentation provided for installing and using the tool. Vanna is extendable, supporting connections to any database, language models (LLMs), and vector databases, making it adaptable to future advancements in LLM technology.",Harnessing Vanna: Revolutionize Your Data with Python's RAG Framework for SQL Generation,"Explore the cutting-edge Vanna, an open-source Python framework leveraging Retrieval-Augmented Generation (RAG) for advanced SQL generation and more. Designed for simplicity, Vanna transforms data queries into actionable SQL with easy steps, empowering users with minimal technical expertise. The framework supports diverse SQL databases and integrates seamlessly with various front-end interfaces, offering versatility in deploying data-driven applications. Get started with Vanna today to unlock sophisticated data querying capabilities in your projects.","Discover how Vanna, the MIT-licensed RAG framework for SQL generation, revolutionizes data analysis by transforming simple questions into actionable SQL queries. Learn about its easy training process, interface support, and secure, private data handling.",SQL Tool,"Python
+
+
+
+
+
+        5,668
+
+
+
+
+
+        328
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        36 stars today",https://raw.githubusercontent.com/vanna-ai/vanna/main/img/vanna-readme-diagram.png; https://raw.githubusercontent.com/vanna-ai/vanna/main/img/top-10-customers.png,,5668,2023-05-13T17:26:28Z
+2024-03-09,https://github.com/UpstageAI/dataverse,https://raw.githubusercontent.com/UpstageAI/dataverse/main/README.md,"Dataverse is an open-source project aimed at enhancing the ETL (Extract, Transform, Load) pipeline process using Python, particularly for data scientists, analysts, and developers. It simplifies the workflow by integrating multiple preprocessing libraries and offering easy-to-use configurations for Spark, even for those with limited familiarity. Dataverse supports collaboration through uniform preprocessing codes and is designed to be block-based, configure-based, and extensible to accommodate custom features. To use this library, prerequisites include Python (versions 3.10 to 3.11), JDK (version 11), and PySpark, with installation available via PyPi. It includes a quick start guide with examples for custom functions, testing ETL processes, and scaling out with EMR. The project encourages contributions and is licensed under the Apache-2.0 license. Acknowledged by the Data-Centric LLM Team at Upstage, Dataverse focuses on advancing data handling for Large Language Models (LLM) and is cited for its innovative approach towards a streamlined data ecosystem.",Exploring Dataverse: A Revolution in Data Engineering with Python,"Discover how Dataverse revolutionizes the ETL pipeline in data engineering, making data processing seamless for developers and data scientists alike. With its simple, block-based approach, Dataverse integrates various libraries including HuggingFace datasets, simplifies Spark, and enhances collaboration across different expertise levels, all within the Python ecosystem. Its configuration-based setup invites users at any expertise level, supporting a broad range of custom features for diverse project demands. Dive into the future of data handling with Dataverse - the open-source project leading the way in data-centric innovation for Large Language Models (LLMs).","Learn how Dataverse transforms ETL pipelines with Python, offering a user-friendly, integrated approach to data engineering, Spark simplification, and collaborative features. Unlock the power of data with Dataverse.",Data Ingestion Tool,"Python
+
+
+
+
+
+        156
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/UpstageAI/dataverse/main/docs/images/dataverse_logo-color.png,,156,2023-08-21T15:50:11Z
+2024-03-09,https://github.com/alibaba/data-juicer,https://raw.githubusercontent.com/alibaba/data-juicer/main/README.md,"Data-Juicer is an advanced multimodal data processing system designed for enhancing the quality and digestibility of data for large language models (LLMs). It integrates a comprehensive set of features including a systematic and reusable library of operators, data recipes, and toolkits, supported by detailed data analysis and visualization capabilities. The system is optimized for efficiency, using less memory and CPU resources, and offers flexibility in handling various data formats. Data-Juicer supports community involvement through contributing to data development, research, and an array of dedicated communication platforms. The tool has been utilized across various products and research initiatives, underlining its practical application and contribution to the field of artificial intelligence and machine learning. Data-Juicer is openly developed and encourages the community to contribute to its expansion and refinement.",Revolutionizing LLM Data Processing with Data-Juicer,"Discover how Data-Juicer, a multimodal data processing system, transforms raw data into high-quality, comprehensive data for Large Language Models (LLMs). With its active updates, including DJ-SORA, and a community-driven approach, Data-Juicer invites users to contribute to the future of LLM data development and research. Join our collaborative platform to enhance LLM data processing techniques and contribute to the advancement of machine learning technologies.","Learn about Data-Juicer, an all-encompassing, multimodal data processing system designed to upgrade data for LLMs. Explore its features, community contributions, and how you can join the movement towards superior data processing.",Data Transformation Tool,"Python
+
+
+
+
+
+        1,260
+
+
+
+
+
+        68
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://img.alicdn.com/imgextra/i3/O1CN017Eq5kf27AlA2NUKef_!!6000000007757-0-tps-1280-720.jpg; https://img.alicdn.com/imgextra/i3/O1CN01QbwHJa1EV5uZwmU9c_!!6000000000356-2-tps-400-400.png; https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png; https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png; https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png; https://img.alicdn.com/imgextra/i2/O1CN01IMPeD11xYRUYLmXKO_!!6000000006455-2-tps-3620-1604.png; https://img.alicdn.com/imgextra/i1/O1CN011E99C01ndLZ55iCUS_!!6000000005112-0-tps-2701-1050.jpg; https://img.alicdn.com/imgextra/i2/O1CN019WtUPP1uhebnDlPR8_!!6000000006069-2-tps-2530-1005.png; https://img.alicdn.com/imgextra/i4/O1CN01Sk0q2U1hdRxbnQXFg_!!6000000004300-0-tps-2438-709.jpg,,1260,2023-08-01T09:16:41Z
