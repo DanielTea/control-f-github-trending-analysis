@@ -3949,3 +3949,505 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         7 stars today",https://img.alicdn.com/imgextra/i3/O1CN017Eq5kf27AlA2NUKef_!!6000000007757-0-tps-1280-720.jpg; https://img.alicdn.com/imgextra/i3/O1CN01QbwHJa1EV5uZwmU9c_!!6000000000356-2-tps-400-400.png; https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png; https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png; https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png; https://img.alicdn.com/imgextra/i2/O1CN01IMPeD11xYRUYLmXKO_!!6000000006455-2-tps-3620-1604.png; https://img.alicdn.com/imgextra/i1/O1CN011E99C01ndLZ55iCUS_!!6000000005112-0-tps-2701-1050.jpg; https://img.alicdn.com/imgextra/i2/O1CN019WtUPP1uhebnDlPR8_!!6000000006069-2-tps-2530-1005.png; https://img.alicdn.com/imgextra/i4/O1CN01Sk0q2U1hdRxbnQXFg_!!6000000004300-0-tps-2438-709.jpg,,1260,2023-08-01T09:16:41Z
+2024-03-10,https://github.com/OpenAccess-AI-Collective/axolotl,https://raw.githubusercontent.com/OpenAccess-AI-Collective/axolotl/main/README.md,"Axolotl is an advanced tool designed for efficiently fine-tuning multiple AI models, supporting various configurations and architectures. It facilitates training of diverse Huggingface models, including llama, pythia, falcon, and mpt, and allows for extensive customization through simple YAML or CLI commands. The tool can handle different dataset formats and is equipped to work with advanced features like xformer, flash attention, and rope scaling. It supports single and multiple GPU setups through FSDP or Deepspeed and can be run locally or in the cloud with Docker. Additionally, Axolotl integrates with wandb or mlflow for logging results and checkpoints. It offers a wide range of configurations for fine-tuning, including support for fp16/fp32, various fine-tuning techniques like lora, qlora, and gptq, amongst others, ensuring compatibility with a broad spectrum of AI models. Quickstart guides, detailed documentation, and advanced setup options ensure users can effectively harness the tool for their AI development projects.",Streamlining AI Model Training: Introducing Axolotl,"Axolotl revolutionizes AI model fine-tuning with multi-architecture support, allowing customization via yaml or CLI. With compatibility for various Huggingface models and integration for multiple GPUs, it simplifies processes with Docker and logs results efficiently. Its versatility extends to diverse dataset formats and optimization techniques, enhancing productivity and performance in AI development environments.","Discover how Axolotl streamlines AI model fine-tuning across multiple architectures, offering advanced features like multiple GPU support, diverse dataset compatibility, and efficient logging. Get started with Axolotl today.",Deep Learning Platform,"Python
+
+
+
+
+
+        4,745
+
+
+
+
+
+        521
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        32 stars today",https://raw.githubusercontent.com/OpenAccess-AI-Collective/axolotl/main/image/axolotl.png; https://raw.githubusercontent.com/OpenAccess-AI-Collective/axolotl/main/image/axolotl-badge-web.png; https://raw.githubusercontent.com/OpenAccess-AI-Collective/axolotl/main/image/axolotl-badge-web.png,,4745,2023-04-14T04:25:47Z
+2024-03-10,https://github.com/Vahe1994/AQLM,https://raw.githubusercontent.com/Vahe1994/AQLM/main/README.md,"The AQLM project offers a PyTorch implementation for compressing large language models through Additive Quantization, significantly reducing model size without compromising performance. It supports models from the LLaMA, Mistral, and Mixtral families and provides Google Colab examples for basic operations, streaming, and fine-tuning. Prequantized models are offered with varying arrangements that balance size, performance, and compatibility across different hardware setups for optimal inference speed and efficiency. Installation requires an inference library, and the project comes with detailed instructions for quantization, including dependencies, data processing, and model fine-tuning guidelines. Quantization can take considerable time but can be sped up with multiple GPUs. The project also includes zero-shot benchmarking via LM Evaluation Harness and details for converting quantized models into Hugging Face compatible formats. Contributions are welcome, following specific guidelines on code formatting and submission.",Revolutionize Large Language Model Compression with AQLM,"Discover the groundbreaking method to compress large language models using the Additive Quantization approach. AQLM offers a practical solution for reducing model sizes significantly while maintaining performance, as demonstrated in the official PyTorch implementation. Learn how to implement AQLM across various platforms through concise Google Colab examples, covering basic generation to fine-tuning. Dive into the capabilities of prequantized models across the LLaMA, Mistral, and Mixtral families, and explore the optimized inference kernels for both GPU and CPU that promise accuracy and speedup. Join the forefront of AI technology compression by accessing the full implementation details and supportive resources.","Learn about AQLM's revolutionary approach to compressing large language models with additive quantization. Explore the official PyTorch implementation, example demos, model capabilities, and optimized inference kernels for efficient AI compression.",Deep Learning,"Python
+
+
+
+
+
+        442
+
+
+
+
+
+        55
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",,,442,2024-01-12T07:51:15Z
+2024-03-10,https://github.com/hatchet-dev/hatchet,https://raw.githubusercontent.com/hatchet-dev/hatchet/main/README.md,"Hatchet is presented as a state-of-the-art, distributed, and fault-tolerant task queue designed to replace cumbersome legacy systems and simplify the management of durable workloads with emphasis on concurrency, fairness, and rate limiting. It enables function distributions across a set of workers with minimal configuration, boasting features like ultra-low latency, high throughput scheduling, and built-in strategies for queue management. Hatchet is resilient by design, offering customizable retry policies and integrated error handling to swiftly recover from failures. It also provides enhanced control and visibility through features like observability, durable execution, cron, one-time scheduling, spike protection, and incremental streaming. Hatchet targets various use cases, including fairness for Generative AI, batch processing for document indexing, workflow orchestration for multi-modal systems, and correctness for event-based processing. It supports SDKs for Python, Typescript, and Go, offering quickstart guides for easy integration. Hatchet distinguishes itself from alternatives like Celery and BullMQ by leveraging Postgres for full transactional enqueueing and offering built-in task observability, aiming for ease of use and reliability. Contributions are encouraged, with a community-supported model facilitated through Discord and GitHub.",Revolutionize Your Workflow with Hatchet: The Ultimate Task Queue Solution,"Discover how Hatchet revolutionizes distributed, fault-tolerant task queues, offering unmatched latency, throughput, and flexibility for managing workloads. With features like concurrency control, rate limiting, and enhanced observability, Hatchet simplifies complex tasks across various use cases from AI fairness to workflow orchestration. Its resilience and customizable retry policies ensure your operations swiftly recover from failures, while support for multiple SDKs ensures seamless integration into your technology stack. Dive into Hatchet's capabilities and learn how it stands out from traditional queueing solutions.","Explore Hatchet, the distributed task queue designed for ultra-low latency, high throughput, and fault tolerance. Learn how it simplifies workflows with features like concurrency control and enhanced observability.",Open Source Tool,"Python
+
+
+
+
+
+        1,895
+
+
+
+
+
+        53
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        314 stars today",,,1895,2023-12-15T17:50:29Z
+2024-03-10,https://github.com/ml-explore/mlx-examples,https://raw.githubusercontent.com/ml-explore/mlx-examples/main/README.md,"The MLX Examples repo provides a range of examples utilizing the MLX framework, targeting learners and developers in machine learning. It offers a starting point with the MNIST example for newcomers. Advanced use cases involve text models like Transformer training, large-scale text generation through LLaMA, Mistral, Phi-2, and a mixture-of-experts model Mixtral 8x7B, among others. In the realm of image processing, it features ResNets for image classification, Stable Diffusion for image generation, and CVAE on MNIST. Audio models include speech recognition via OpenAI's Whisper. Multimodal and other models cover joint embeddings, semi-supervised learning, and real NVP for density estimation. The repo also integrates with Hugging Face, allowing for downloading of specific models. Contributors are acknowledged and encouraged, supported by a BibTex citation for academic use, highlighting the collaborative effort behind MLX Examples by Awni Hannun, Jagrit Digani, Angelos Katharopoulos, and Ronan Collobert.",Exploring the Versatile World of MLX Framework with Practical Examples,"Discover the power of the MLX framework through a collection of standalone examples for various machine learning models. Starting with the MNIST example, learners can quickly grasp how to leverage MLX for their projects. Dive into advanced text, image, audio, and multimodal models, including Transformer language models, Image classification with ResNets, and speech recognition with Whisper. Join the MLX Community on Hugging Face to access additional resources and contribute new models. Explore, contribute, and cite the MLX Examples to bolster your machine learning research and projects.","Unlock the full potential of the MLX framework with our comprehensive guide on standalone examples, covering text, image, audio, and multimodal models. Perfect for beginners and advanced users.",Machine Learning,"Python
+
+
+
+
+
+        4,319
+
+
+
+
+
+        607
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",,,4319,2023-11-28T23:37:49Z
+2024-03-10,https://github.com/commaai/openpilot,https://raw.githubusercontent.com/commaai/openpilot/master/README.md,"Openpilot is an open-source driver assistance system developed by comma.ai, offering features like Adaptive Cruise Control (ACC), Automated Lane Centering (ALC), Forward Collision Warning (FCW), Lane Departure Warning (LDW), and a Driver Monitoring (DM) system that alerts distracted or sleeping drivers. It supports over 250 car models and requires a comma device like the comma 3/3X for operation, along with proper car harnessing and software installation. Openpilot's development is community-driven, supported by contributions on GitHub, where enthusiasts can join discussions, contribute to the codebase, or explore development tools. The system adheres to ISO26262 guidelines, undergoes rigorous safety testing, and regularly updates its safety models. User data is uploaded by default to improve the system but can be opted out of. Openpilot is released under the MIT license, emphasizing that users must comply with local laws and acknowledge the absence of warranty and the software's alpha status for research purposes only.",Exploring openpilot: The Future of Driver Assistance Technology,"Discover openpilot, an innovative open source driver assistance system revolutionizing the driving experience. Offering features like Adaptive Cruise Control, Automated Lane Centering, and a Driver Monitoring feature, openpilot brings advanced vehicle safety and convenience to a wide range of compatible cars. Its development by comma and the community highlights a commitment to cutting-edge automotive technologies. Learn how openpilot is setting the standard for open-source driving solutions and how you can start using it today.","Explore openpilot, an open source driver assistance system transforming road safety and convenience with features like Adaptive Cruise Control, Automated Lane Centering, and more. Learn how to enhance your driving experience with openpilot.",Open Source Tool,"Python
+
+
+
+
+
+        46,894
+
+
+
+
+
+        8,376
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://cdn-images-1.medium.com/max/1600/1*C87EjxGeMPrkTuVRVWVg4w.png,https://www.youtube.com/watch?v=NmBfgOanCyk; https://www.youtube.com/watch?v=VHKyqZ7t8Gw; https://www.youtube.com/watch?v=SUIZYzxtMQs,46894,2016-11-24T01:33:30Z
+2024-03-10,https://github.com/llmware-ai/llmware,https://raw.githubusercontent.com/llmware-ai/llmware/main/README.md,"LLMWare is a versatile toolkit designed for building applications using large language models (LLMs), offering quick POC development to scalable enterprise solutions. It integrates over 50 models from Hugging Face, supporting applications like Retrieval Augmented Generation (RAG) and Multi-Step Orchestration of Agent Workflows. The framework caters to all skill levels, facilitating the integration of open-source specialized models for creating sophisticated, knowledge-based applications. Key features include a model catalog for easy access to a diverse model range, a library system for organizing large knowledge collections, and query functionalities for mixed-data interrogation. Additionally, it offers simple database options for scalability and supports various models, including the SLIM series for multi-step agent workflows and the DRAGON series for robust RAG applications. LLMWare is constantly updated, aiming to simplify the deployment of fine-tuned models and maintain privacy and security in cloud environments.",Harness the Power of LLMWare: Your One-Stop Toolkit for LLM Application Development,"Discover LLMWare, the integrated framework revolutionizing LLM application development with over 50+ models from Hugging Face. Ideal for both beginners and advanced AI developers, LLMWare facilitates the rapid creation of industrial-grade, knowledge-based enterprise applications. Its focus on easy integration of open source, specialized models ensures secure, seamless connection of enterprise knowledge. Explore the endless possibilities with LLMWare and join the community to transform your LLM application projects.","Explore LLMWare, the comprehensive toolkit for developing LLM applications, featuring over 50 models from Hugging Face, easy integration, and community support.",Collaborative AI Framework,"Python
+
+
+
+
+
+        2,791
+
+
+
+
+
+        232
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        34 stars today",,https://www.youtube.com/watch?v=cQfdaTcmBpY; https://www.youtube.com/watch?v=cQfdaTcmBpY; https://www.youtube.com/watch?v=ZJyQIZNJ45E; https://www.youtube.com/watch?v=JjgqOZ2v5oU; https://www.youtube.com/watch?v=Bncvggy6m5Q; https://www.youtube.com/watch?v=BI1RlaIJcsc; https://www.youtube.com/watch?v=8aV5p3tErP0; https://www.youtube.com/watch?v=Cf-07GBZT68; https://www.youtube.com/watch?v=h2FDjUyvsKE; https://www.youtube.com/watch?v=cQfdaTcmBpY; https://www.youtube.com/watch?v=JjgqOZ2v5oU; https://www.youtube.com/watch?v=d_u7VaKu6Qk; https://www.youtube.com/watch?v=Bncvggy6m5Q; https://www.youtube.com/watch?v=ZJyQIZNJ45E; https://www.youtube.com/watch?v=h2FDjUyvsKE; https://www.youtube.com/watch?v=qITahpVDuV0; https://www.youtube.com/watch?v=9wXJgld7Yow; https://www.youtube.com/watch?v=8aV5p3tErP0; https://www.youtube.com/watch?v=VHZSaBBG-Bo; https://www.youtube.com/watch?v=O0adUfrrxi8; https://www.youtube.com/watch?v=s0KWqYg5Buk; https://www.youtube.com/watch?v=0naqpH93eEU; https://www.youtube.com/watch?v=tAGz6yR14lw; https://www.youtube.com/watch?v=qiEmLnSRDUA,2791,2023-09-29T15:19:06Z
+2024-03-10,https://github.com/home-assistant/core,https://raw.githubusercontent.com/Bing-su/adetailer/main/README.md,"ADetailer is a stable diffusion webui extension, utilizing ultralytics for detection, similar to Detection Detailer. It's installed directly from the Extensions tab via a URL from its GitHub repository. Upon installation and restart of the A1111 webui, users can directly use it without downloading any base model from huggingface. ADetailer offers various options for model detection, including specifying classes to detect and applying prompts. Detection settings allow users to adjust confidence thresholds, mask sizes, and object selection for inpainting. Mask preprocessing options include adjustments to position, size, and merging methods. Additionally, ADetailer supports ControlNet inpainting with diverse models, and it provides advanced options through API requests, UI-config.json entries, and usage of specific tokens. The extension is further explained through tutorial videos. It also lists several models with their targets and accuracy ratings, including YOLO models found on huggingface. Users may add their ultralytics yolo models for enhanced functionality. ADetailer operates by creating an image, detecting objects to mask, and inpainting using the original image and the created mask.",Maximize Your Stable Diffusion Projects with ADetailer: A Complete Guide,"Discover ADetailer, a powerful extension for Stable Diffusion WebUI, designed to enhance your image generation projects. Unlike Detection Detailer, ADetailer employs ultralytics for precision object detection, making installation and usage straightforward, directly through the Extensions tab. Learn how to install from a URL, understand your options for model customization, and dive into advanced features for tailored outcomes. ADetailer doesn't require downloading base models from Hugging Face, simplifying the process. Elevate your Stable Diffusion creations with detailed object detection and inpainting, leveraging ADetailer for unmatched clarity and accuracy.","Learn how to install and use ADetailer for Stable Diffusion WebUI for enhanced image generation. Discover customization options, advanced features, and direct installation guidance without needing base models from Hugging Face.",Image Generation Platform,"Python
+
+
+
+
+
+        67,838
+
+
+
+
+
+        27,408
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://i.imgur.com/g6GdRBT.png,https://www.youtube.com/watch?v=sF3POwPUWCE; https://www.youtube.com/watch?v=urNISRdbIEg,3464,2013-09-17T07:29:48Z
+2024-03-10,https://github.com/searxng/searxng,https://raw.githubusercontent.com/TheAlgorithms/Python/master/README.md,"The Algorithms - Python is a GitHub project dedicated to implementing various algorithms in Python, primarily for educational purposes. It features a collection of algorithms that may be less efficient than those in the Python standard library, advising users to utilize them at their own discretion. The project welcomes contributions and provides guidelines for those interested in adding to the repository. Additionally, it supports community engagement through channels on Discord and Gitter, encouraging participants to ask questions and seek assistance. For easy navigation and an overview, the project offers a directory of its algorithms. Essential tools and standards, such as Gitpod for ready-to-code environments, GitHub actions for continuous integration, pre-commit for maintaining code standards, and Black for code styling, are highlighted through badges at the project's homepage.",Mastering Python Algorithms: A Guide for Educational Success,"Discover the world of Python algorithms on The Algorithms - Python GitHub repository, designed for educational purposes. Learn from a comprehensive directory of algorithms implemented in Python, ideal for learning and enhancing your programming skills. Contributions are welcome, making it a perfect platform for collaboration and community engagement. Engage with the community through Discord and Gitter to ask questions and get help. Start your journey into Python algorithms today for a deeper understanding and practical experience.","Explore The Algorithms - Python GitHub repository for a comprehensive collection of Python algorithms aimed at educational purposes. Join our community, contribute, and enhance your coding skills.",Open Source Community,"Python
+
+
+
+
+
+        6,657
+
+
+
+
+
+        865
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",,,176415,2021-04-12T15:18:15Z
+2024-03-10,https://github.com/TheAlgorithms/Python,https://raw.githubusercontent.com/Yuukiy/JavSP/master/README.md,"Jav Scraper Package (JavSP) is a tool designed for aggregating Adult Video (AV) metadata from multiple sites. It auto-identifies film ID from filenames, aggregates data from various sites, categorizes films based on specified rules, and generates metadata files compatible with software like Emby, Jellyfin, Kodi. However, as of now, it lacks Docker support and a UI, though alternatives exist on GitHub. The project is primarily in Chinese, with potential for future multi-language support based on user votes. JavSP boasts features such as automatic ID recognition, handling film fragments, daily site crawler testing, multi-threaded crawling, HD cover download, AI-based unconventional cover cropping, auto-updates, and title/plot translation. Installation is straightforward, either directly from the release page or via source code, requiring Python 3.8. It offers easy customization through a config file or command-line arguments, with detailed guidance available on the JavSP Wiki. Contributions to the project are encouraged in various forms, from coding to wiki improvements and genre translations. The project is bound by the GPL-3.0 License and the Anti 996 License, emphasizing non-commercial use and compliance with local laws.",Mastering JavSP: The Ultimate AV Metadata Scraper,"JavSP is a sophisticated AV metadata scraper, designed to extract video file names, fetch, and aggregate metadata from multiple sites, and organize files according to specified rules, creating metadata files for software like Emby, Jellyfin, Kodi. Currently, it supports only Chinese but is open for language addition votes. Despite lacking Docker support and a WebUI, an alternative is available through @tetato/JavSP-Docker. Its key features include automatic identification of film numbers, handling of video fragments, and AI-based human body analysis for unconventional cover cropping. The project is GPL-3.0 and Anti 996 licensed, highlighting its stance against using the software for commercial purposes and promoting legal compliance.","Discover how JavSP, the AV metadata scraper, can revolutionize your media organization by automatically fetching and aggregating AV metadata. Available in Chinese, with potential for more languages based on user votes.",Python Libraries Collection,"Python
+
+
+
+
+
+        176,415
+
+
+
+
+
+        43,041
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        37 stars today",,,1575,2016-07-16T09:44:01Z
+2024-03-10,https://github.com/Yuukiy/JavSP,https://raw.githubusercontent.com/serengil/deepface/master/README.md,"Deepface is a comprehensive face recognition and facial attribute analysis framework for Python, offering support for multiple state-of-the-art models such as VGG-Face, Google FaceNet, OpenFace, Facebook DeepFace, DeepID, ArcFace, Dlib, and SFace. It automates the face recognition pipeline stages (detect, align, normalize, represent, verify), allowing users to perform face verification, recognition, and analysis with simple code lines. Deepface surpasses human accuracy in facial recognition tasks and is easy to install via PyPI, Conda, or from source code. Users can access functionalities for real-time analysis, command-line interface, and even deploy a Dockerized service. Deepface is also capable of facial attribute analysis, including age, gender, emotion, and race predictions. Various face detectors (e.g., OpenCV, SSD, MTCNN) are integrated, enabling flexible backend choices. The framework is licensed under MIT, pulling from external models with their specific licenses. It promotes ease of use and accessibility in advanced facial recognition applications and supports through GitHub, Docker, and API.",Unveiling Deepface: The Pinnacle of Facial Recognition Technology,"Deepface stands as a hybrid, cutting-edge facial recognition framework blending top-notch models for precise facial attribute analysis and recognition in Python. Offering unparalleled accuracy surpassing human capability, it simplifies integrating advanced face recognition and analysis into applications with minimal code. The deep learning models wrapped in Deepface, including VGG-Face, Google FaceNet, and others, have been fine-tuned to achieve remarkable accuracy, demonstrating superiority over legacy systems. Furthermore, it facilitates easy installation via PyPI or Conda, along with comprehensive support for real-time analysis, providing a versatile toolkit for developers seeking to leverage facial recognition technology.","Discover Deepface, a hybrid facial recognition framework in Python offering state-of-the-art accuracy for facial attribute analysis, surpassing human capabilities, with support for real-time analysis and easy installation.",Deep Learning Framework,"Python
+
+
+
+
+
+        1,575
+
+
+
+
+
+        145
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        28 stars today",https://raw.githubusercontent.com/serengil/deepface/master/icon/deepface-icon-labeled.png; https://raw.githubusercontent.com/serengil/deepface/master/icon/stock-1.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/stock-6-v2.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/embedding.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/model-portfolio-v8.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/stock-2.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/detector-portfolio-v5.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/detector-outputs-20240302.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/retinaface-results.jpeg; https://raw.githubusercontent.com/serengil/deepface/master/icon/stock-3.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/deepface-api.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/deepface-dockerized-v2.jpg; https://raw.githubusercontent.com/serengil/deepface/master/icon/patreon.png,https://www.youtube.com/watch?v=WnUVYQP4h44; https://www.youtube.com/watch?v=KRCvkNCOphE; https://www.youtube.com/watch?v=Hrjp-EStM_s; https://www.youtube.com/watch?v=i_MOwvhbLdI; https://www.youtube.com/watch?v=i_MOwvhbLdI; https://www.youtube.com/watch?v=i_MOwvhbLdI; https://www.youtube.com/watch?v=GT2UeN85BdA; https://www.youtube.com/watch?v=GZ2p2hj2H5k; https://www.youtube.com/watch?v=-c9sSJcx6wI; https://www.youtube.com/watch?v=HeKCQ6U9XmI; https://www.youtube.com/watch?v=PKKTAr3ts2s,9478,2021-01-03T07:42:23Z
+2024-03-10,https://github.com/serengil/deepface,https://raw.githubusercontent.com/vwxyzjn/cleanrl/master/README.md,"CleanRL is a well-organized Deep Reinforcement Learning (DRL) library noted for its high-quality, single-file implementations of DRL algorithms. It excels in offering research-friendly features while managing to keep the code simple enough for educational purposes, especially for those hesitant to dive into more modular libraries. Key features include single-file algorithm implementations, benchmarked across multiple games and algorithms, Tensorboard logging, local reproducibility, and cloud integration for scalability. It supports a range of algorithms like PPO, DQN, SAC, etc., across various environments. Additionally, CleanRL has taken steps towards using ""gymnasium"" as a next-generation framework for experimental environments. Importantly, it participates in Open RL Benchmark for experiment transparency and data sharing. The library is community-powered, with support for cloud resources from Google's TPU research cloud and Hugging Face's cluster. It's not designed for modular import but rather for comprehensive understanding and rapid prototyping, with extensive documentation and a technical paper available for detailed insights.",Mastering Deep Reinforcement Learning with CleanRL: A Comprehensive Guide,"Discover the power of CleanRL, a cutting-edge library for deep reinforcement learning that prioritizes clean, simple implementations for research. From single-file approaches for easy understanding and benchmarking of over 7 algorithms and 34 games, to advanced features like Tensorboard logging, local reproducibility, and cloud integration, CleanRL offers a unique blend of simplicity and functionality. Dive into our detailed discussion on its advantages, including minimal code for better debugging and less subclassing, and learn why CleanRL is your go-to for online DRL algorithm implementations.","Explore CleanRL, the deep reinforcement library with single-file implementations, benchmarked algorithms, Tensorboard logging, and cloud integration. Perfect for understanding DRL algorithms and rapid prototyping.",Deep Learning Platform,"Python
+
+
+
+
+
+        9,478
+
+
+
+
+
+        1,742
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/vwxyzjn/cleanrl/master/docs/static/o1.png; https://raw.githubusercontent.com/vwxyzjn/cleanrl/master/docs/static/o2.png; https://raw.githubusercontent.com/vwxyzjn/cleanrl/master/docs/static/o3.png,https://www.youtube.com/watch?v=dm4HdGujpPs,4171,2020-02-08T20:42:28Z
+2024-03-10,https://github.com/QwenLM/Qwen-Agent,https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/README.md,"Paperless-ngx is a document management system designed to digitize physical documents into a searchable online archive, reducing the need for physical paper. It is the successor to the Paperless and Paperless-ng projects, with a community-driven approach to development. A demo hosted by DigitalOcean is available, showcasing its capabilities. The system boasts numerous features, detailed in its extensive documentation. Setting up Paperless-ngx is simplest with Docker Compose, and the project provides a script for easy installation. Additionally, it supports migration from Paperless-ng. The project welcomes contributions in several areas including bug fixes, enhancements, translations, and feature requests. Community support is available through GitHub and a Matrix chat room. It is important to note that Paperless-ngx is not encrypted and should be used on trusted hosts to ensure data security. The project encourages active participation to advance its development and broaden its language support through translation efforts.",Transform Your Document Management with Paperless-ngx: A Complete Guide,"Discover Paperless-ngx, the ultimate successor to Paperless and Paperless-ng for managing documents efficiently. This innovative system turns your physical documents into an easily searchable online archive. The project, backed by DigitalOcean, offers a demo and encourages community contribution. Designed for seamless document management, Paperless-ngx supports various features and extensive documentation to get you started. Join the effort in advancing this project and explore its features, contributing to a lesser paper-dependent world.","Explore Paperless-ngx, the advanced document management system that digitizes physical documents for easy access and search. Join the community, contribute, and leverage its full features today.",Document Conversion Tool,"Python
+
+
+
+
+
+        1,167
+
+
+
+
+
+        139
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        23 stars today",https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/png/Black%20logo%20-%20no%20background.png; https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards.png,,15907,2023-09-22T02:24:56Z
+2024-03-10,https://github.com/vwxyzjn/cleanrl,https://raw.githubusercontent.com/blakeblackshear/frigate/master/README.md,"Frigate is an NVR (Network Video Recorder) system designed specifically for Home Assistant, incorporating AI-based realtime object detection for IP cameras. It employs OpenCV and TensorFlow to process video content directly on local devices, enhancing privacy and reducing lag. Users are encouraged to utilize a Google Coral Accelerator to significantly boost performance, enabling the system to handle over 100 FPS with minimal processing overhead. Key features include tight Home Assistant integration, efficient resource use, selective object detection to improve performance, multiprocess operations for higher frame rates, and MQTT communication for broader system compatibility. It supports features like event-based recording, continuous 24/7 recording, re-streaming, and both WebRTC & MSE for real-time viewing. The project also supports donations via Github Sponsors and provides comprehensive documentation online.",Frigate: Elevate Your Home Security with Realtime AI Object Detection,"Discover the power of Frigate, an innovative local NVR system designed for IP cameras with seamless Home Assistant integration. Frigate utilizes advanced AI technology, incorporating OpenCV and TensorFlow for efficient, realtime object detection directly on your premises. With optional support for the Google Coral Accelerator, it significantly enhances processing speeds, handling over 100 FPS with minimal overhead. It's built to ensure maximum performance while minimizing resource usage, featuring smart motion detection and multi-process operation for unrivaled efficiency and reliability in home surveillance.","Unveil the future of home security with Frigate, a local NVR solution offering realtime AI-powered object detection for IP cameras. Optimized for Home Assistant, it ensures swift and accurate surveillance with minimal resource use.",Computer Vision Platform,"Python
+
+
+
+
+
+        4,171
+
+
+
+
+
+        501
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/frigate.png; https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/media_browser.png; https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/notification.png; https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/home-ui.png; https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/camera-ui.png; https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/events-ui.png,,13985,2019-06-07T16:31:50Z
+2024-03-10,https://github.com/paperless-ngx/paperless-ngx,https://raw.githubusercontent.com/Mikubill/sd-webui-controlnet/main/README.md,"ControlNet for Stable Diffusion WebUI is an extension that integrates ControlNet and other injection-based SD controls into AUTOMATIC1111's Stable Diffusion Web UI, allowing users to add ControlNet to the original Stable Diffusion model without needing to merge them. This facilitates on-the-fly image generation enhancements directly within the web interface. The installation process is straightforward, involving the Extensions tab in the Web UI, where users can input the extension's GitHub URL to install it. Users are required to download and place ControlNet model files into a specific directory and follow a specific method for downloading these models to avoid common errors. The extension supports various features such as multiple control modes, a user-friendly GUI, support for almost all upscaling scripts, and a new reference-only control preprocessor. It also introduces multi-ControlNet inputs for single image generations, batch mode for processing multiple images simultaneously, and allows for API and script access for automated tasks. Additional command line arguments are provided for advanced users, and the extension is compatible with MacOS with specific considerations. The documentation details the minimum requirements for running the extension and provides guidance on using previous models and setting default configurations.",Enhance Image Generation with ControlNet for Stable Diffusion WebUI,"Discover how the ControlNet extension transforms the Stable Diffusion web UI, enabling on-the-fly image generation enhancements without model merging. Learn easy installation steps to incorporate ControlNet into your workflow, boosting image quality and control. Dive into exciting features like perfect support for all ControlNet and T2I Adapter models, enhanced resolution options, versatile control modes, and a user-friendly GUI. Whether you're a professional or just starting, ControlNet for Stable Diffusion WebUI elevates your creative capabilities.","Master image generation with the ControlNet extension for Stable Diffusion WebUI. Simple installation, extensive model support, and advanced features enhance your creativity. Start now.",Image Generation Platform,"Python
+
+
+
+
+
+        15,907
+
+
+
+
+
+        803
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",https://user-images.githubusercontent.com/19834515/236641759-6c44ddf6-c7ad-4bda-92be-e90a52911d75.png; https://raw.githubusercontent.com/Mikubill/sd-webui-controlnet/main/samples/cm1.png; https://raw.githubusercontent.com/Mikubill/sd-webui-controlnet/main/samples/cm2.png; https://raw.githubusercontent.com/Mikubill/sd-webui-controlnet/main/samples/cm3.png; https://raw.githubusercontent.com/Mikubill/sd-webui-controlnet/main/samples/cm4.png; https://raw.githubusercontent.com/Mikubill/sd-webui-controlnet/main/samples/ref.png; https://user-images.githubusercontent.com/19834515/235620638-17937171-8ac1-45bc-a3cb-3aebf605b4ef.png; https://user-images.githubusercontent.com/31246794/222947416-ec9e52a4-a1d0-48d8-bb81-736bf636145e.jpeg; https://user-images.githubusercontent.com/31246794/222947435-1164e7d8-d857-42f9-ab10-2d4a4b25f33a.png; https://user-images.githubusercontent.com/31246794/222947557-5520d5f8-88b4-474d-a576-5c9cd3acac3a.png; https://user-images.githubusercontent.com/31246794/222947416-ec9e52a4-a1d0-48d8-bb81-736bf636145e.jpeg; https://user-images.githubusercontent.com/31246794/222965711-7b884c9e-7095-45cb-a91c-e50d296ba3a2.png; https://user-images.githubusercontent.com/31246794/220448620-cd3ede92-8d3f-43d5-b771-32dd8417618f.png; https://user-images.githubusercontent.com/31246794/220448619-beed9bdb-f6bb-41c2-a7df-aa3ef1f653c5.png; https://user-images.githubusercontent.com/31246794/220448613-c99a9e04-0450-40fd-bc73-a9122cefaa2c.png,,15395,2022-02-12T21:56:52Z
+2024-03-10,https://github.com/blakeblackshear/frigate,https://raw.githubusercontent.com/datacontract/cli/main/README.md,"The Data Contract CLI is an open-source command-line interface for managing Data Contracts. It facilitates operations like linting data contracts, connecting to data sources, executing schema and quality checks, detecting breaking changes, and exporting to various formats. Built in Python, it supports standalone usage, integration with CI/CD pipelines, or direct use as a Python library. Key functionalities include creating new data contracts, testing against specified criteria, performing checks on schema and quality, and comparing different versions of data contracts. Installation options include Python's pip, pipx, and Docker. The CLI supports various data sources like S3, Postgres, Snowflake, BigQuery, Databricks, Kafka, and local files in formats such as parquet, json, csv, and more. It offers capabilities to import from and export to several formats, including JSON Schema, dbt models, and SQL DDL. Development setup instructions, contribution guidelines, and licensing information are provided, encouraging community involvement in enhancing the tool.",Mastering Data Contract CLI: A Comprehensive Guide,"Discover the power of Data Contract CLI—an essential open source tool for managing and validating data contracts. This command-line tool, developed in Python, enables users to lint YAML files, connect to various data sources, perform schema and quality tests, and export data in multiple formats. It streamlines data testing in CI/CD pipelines and offers integration options as a standalone tool or a Python library. Dive into our guide to efficiently use Data Contract CLI for your data management needs.","Explore the functionalities of Data Contract CLI for effective data contract management. Learn how to lint, test, and export data contracts with this Python-based command-line tool.",Open Source Tool,"Python
+
+
+
+
+
+        13,985
+
+
+
+
+
+        1,288
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/datacontract/cli/main/datacontractcli.png,,173,2019-01-26T13:52:38Z
+2024-03-10,https://github.com/Mikubill/sd-webui-controlnet,https://raw.githubusercontent.com/RsaCtfTool/RsaCtfTool/master/README.md,"The RSA Multi-Attack Tool is a sophisticated software designed for decrypting data encrypted with weak public RSA keys and attempting to recover the private keys. It integrates multiple integer factorization algorithms to enhance decryption capabilities, focusing strictly on RSA textbook semiprime composite modulus. Aimed primarily at educational purposes, it encourages learning RSA math foundations and advises against using the tool without understanding the underlying mathematics. It offers a variety of attacks based on different vulnerabilities and conditions, such as Wiener's attack, Hastad's attack, and Fermat's factorization, among others. Usage instructions include options for attacking RSA keys, creating public key files, and extracting key parameters. The tool is written in Python and requires Python 3.9 and several external libraries. Installation instructions are provided for Ubuntu, Kali, Fedora, and MacOS, with suggestions for optional SageMath installation for enhanced functionality. Contribution guidelines are outlined, emphasizing the importance of following a code of conduct and providing meaningful contributions.",Mastering RSA Encryption: A Detailed Guide to RsaCtfTool,"Discover the power of RsaCtfTool, a comprehensive utility for attacking weak RSA keys and enhancing decryption techniques. Tailored mainly for educational purposes, this tool amalgamates several integer factorization algorithms to challenge the RSA encryption complexity. Users are encouraged to delve into RSA's fundamentals and contribute to this open-source project, aiming for a deeper comprehension of encryption vulnerabilities. Perfect for CTF participants and crypto enthusiasts, it serves as a rich resource for advancing understanding in cryptography.","Unlock the secrets of RSA encryption with RsaCtfTool. Explore this educational tool's capabilities in decrypting weak RSA keys, its usage tips, and how it equips users with a profound understanding of cryptography vulnerabilities.",Cybersecurity Tool,"Python
+
+
+
+
+
+        15,395
+
+
+
+
+
+        1,807
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",,,5118,2023-02-12T16:26:27Z
+2024-03-10,https://github.com/datacontract/cli,https://raw.githubusercontent.com/01-ai/Yi/main/README.md,"The text introduces Yi, the next generation of bilingual Large Language Models (LLMs) developed by 01.AI, targeted for both English and Chinese. Yi models are trained on a 3T multilingual corpus, making them among the strongest LLMs globally, excelling in language understanding, commonsense reasoning, reading comprehension, etc. The Yi-34B-Chat model ranks second on the AlpacaEval Leaderboard, while the Yi-34B model is the top open-source model in both English and Chinese on other benchmarks. The document also discusses Yi's independent development from Llama architecture, emphasizing its unique training datasets, pipelines, and infrastructure. Moreover, it provides detailed guidance on using Yi models, including download links, quick start tutorials for various platforms (pip, Docker, conda-lock, llama.cpp), and information on fine-tuning, quantization, deployment, and learning resources. Recent updates, model performance, and various available chat and base models for deployment are also covered, along with licensing and contact information.",Exploring the Future of Bilingual Large Language Models with Yi,"Discover the revolutionary open-source Yi LLMs, a new generation trained from scratch by 01.AI, marking a significant advancement in bilingual language understanding and capabilities. With Yi models outperforming competitors in both English and Chinese, they represent a cost-effective solution for various use cases, including academic and commercial purposes. The models are grounded in the Transformer architecture, highlighting the collaboration with the Llama community while maintaining independence in development and performance achievement.","Dive into the latest advancements in bilingual large language models with Yi by 01.AI, offering superior performance in language understanding and utility across academia and industry. Learn about the independent, open-source development of Yi models and their top placements in global benchmarks.",Language Models,"Python
+
+
+
+
+
+        173
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",,https://www.youtube.com/watch?v=NJ89T5mO25Y; https://www.youtube.com/watch?v=CVQvj4Wrh4w; https://www.youtube.com/watch?v=On3Zuv27V3k,6393,2023-07-24T14:54:16Z
+2024-03-10,https://github.com/RsaCtfTool/RsaCtfTool,https://raw.githubusercontent.com/magic-research/piecewise-rectified-flow/main/README.md,"The document introduces PeRFlow, a novel model that improves the efficiency and quality of image generation from pre-trained diffusion models, specifically Stable Diffusion (SD). PeRFlow stands out for its ability to generate high-quality images in fewer steps—just 4 steps—by learning a piecewise linear probability flow, termed piecewise rectified flow. This method significantly accelerates the image generation process while maintaining or enhancing quality. PeRFlow's adaptability is further demonstrated through its compatibility with various SD-based models, acting as a plug-and-play accelerator. Training PeRFlow is efficient, requiring fewer iterations compared to previous models, and it fully supports classifier-free guidance for enhanced generation quality. Applications highlighted include fast image generation, image enhancement, efficient multiview generation, and accelerating other SD pipelines. The project includes links to a demo page, models, and a GitHub repository for codes and pre-trained models, inviting contributions. The document concludes with detailed explanations of PeRFlow's methodology, showcasing its advantages over existing methods, and comparative performance metrics that demonstrate its superiority in producing lower FID scores.",PeRFlow: Revolutionizing Image Generation with Piecewise Rectified Flows,"Discover the groundbreaking PeRFlow model: a plug-and-play accelerator for diffusion models, enabling ultra-fast, high-quality image generation in just 4 steps. Developed by a collaborative team from ByteDance, UT Austin, and NUS, PeRFlow stands out by offering efficient training, versatile compatibility with SD workflows, and top-notch image diversity. Dive into the world of accelerated AI, where generating detailed, diverse images rapidly is now a stunning reality.","Explore how PeRFlow, the latest innovation in AI image generation, leverages piecewise rectified flows to produce high-quality images swiftly with minimal steps. Learn about its efficient training, SD compatibility, and the future of fast AI-generated visuals.",Image Generation Platform,"Python
+
+
+
+
+
+        5,118
+
+
+
+
+
+        872
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/magic-research/piecewise-rectified-flow/main/assets/rocket-icon-png-21.png,,187,2015-03-07T17:29:33Z
