@@ -2405,62 +2405,6 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         32 stars today",,,33653,2014-05-13T15:38:58Z
-2024-03-05,https://github.com/pytest-dev/pytest,https://raw.githubusercontent.com/GreyDGL/PentestGPT/main/README.md,"PentestGPT is a cutting-edge penetration testing tool enhanced with GPT technology, aiming to automate penetration testing processes. It leverages ChatGPT to guide users through both general and specific operational steps. The tool has been updated to support GPT-4-turbo, promising better performance. It's capable of tackling easy to medium complexity challenges on platforms like HackTheBox. Installation involves setting up a virtual environment, linking an OpenAI account for API access, and running initial connection tests. Usage includes a set of commands for navigating the testing process, with support for exporting logs. It's designed for educational purposes, distributed under the MIT License, and the developers welcome contributions and feedback through various channels.",PentestGPT: Enhancing Penetration Testing with AI,"Discover how PentestGPT, an advanced penetration testing tool powered by GPT, revolutionizes cybersecurity practices. It automates testing processes, offering real-time guidance and enhancing security analysis across various platforms. The tool supports easy to medium HackTheBox machines and CTF challenges, showcasing its practical application in improving cyber defense mechanisms.","Explore PentestGPT, an innovative AI-powered penetration testing tool designed to streamline cybersecurity operations. Learn how it facilitates real-time analysis, supports HackTheBox machines, and improves cyber defenses.",Cybersecurity Tool,"Python
-
-
-
-
-
-        11,181
-
-
-
-
-
-        2,454
-
-
-        Built by
-
-          
-
-
-
-
-
-
-
-
-
-        6 stars today",,https://www.youtube.com/watch?v=lAjLIj1JT3c; https://www.youtube.com/watch?v=tGC5z14dE24; https://www.youtube.com/watch?v=lAjLIj1JT3c; https://www.youtube.com/watch?v=Vs9DFtAkODM; https://www.youtube.com/watch?v=h0k6kWWaCEU; https://www.youtube.com/watch?v=tGC5z14dE24,6037,2015-06-15T20:28:27Z
-2024-03-05,https://github.com/GreyDGL/PentestGPT,https://raw.githubusercontent.com/tiangolo/fastapi/master/README.md,"FastAPI is a modern, high-performance web framework for building APIs with Python 3.8+, leveraging standard Python type hints. It offers very high performance, on par with NodeJS and Go, thanks to Starlette and Pydantic. Development is faster and reduces human-induced errors by about 40%. It provides great editor support, minimizing debugging time. It's easy to use and learn, minimizing code duplication and reducing bugs. FastAPI produces production-ready code with automatic interactive documentation and is standards-based, fully compatible with OpenAPI and JSON Schema. The project's documentation and source code are readily available online, and it is backed by multiple sponsors. Notable opinions from companies like Microsoft, Uber, and Netflix highlight its utility in production environments. FastAPI also has a sibling called Typer for building CLI apps. The framework requires Python 3.8+, and for production, an ASGI server like Uvicorn. It simplifies declaring types for parameters, body, etc., converting and validating data automatically. This leads to automatic interactive API documentation and simplified code. FastAPI stands out for its performance, being one of the fastest Python frameworks available.",Mastering FastAPI: The Ultimate Guide for High-Performance Web Development,"Discover the power of FastAPI, a modern, fast, web framework for building APIs with Python 3.8+ based on standard Python type hints. Learn how FastAPI empowers developers with high performance, easy coding, fewer bugs, and automatic interactive documentation, making it ideal for production-ready APIs. Dive into its key features, such as high performance comparable to NodeJS and Go, speedy feature development, and robust, intuitive editor support. Embrace the future of web development with FastAPI, your solution for efficient, scalable, and standards-based APIs.",Explore FastAPI's benefits: from high performance and fast coding to fewer bugs and automatic documentation. Learn why it's the top choice for modern Python-based web development.,Python Web Development,"Python
-
-
-
-
-
-        6,037
-
-
-
-
-
-        707
-
-
-        Built by
-
-          
-
-
-
-
-
-
-
-
-
-        18 stars today",https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png; https://fastapi.tiangolo.com/img/sponsors/platform-sh.png; https://fastapi.tiangolo.com/img/sponsors/porter.png; https://fastapi.tiangolo.com/img/sponsors/reflex.png; https://fastapi.tiangolo.com/img/sponsors/propelauth.png; https://fastapi.tiangolo.com/img/sponsors/coherence.png; https://fastapi.tiangolo.com/img/sponsors/talkpython-v2.jpg; https://fastapi.tiangolo.com/img/sponsors/speakeasy.png; https://fastapi.tiangolo.com/img/sponsors/codacy.png; https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png; https://fastapi.tiangolo.com/img/index/index-02-redoc-simple.png; https://fastapi.tiangolo.com/img/index/index-03-swagger-02.png; https://fastapi.tiangolo.com/img/index/index-04-swagger-03.png; https://fastapi.tiangolo.com/img/index/index-05-swagger-04.png; https://fastapi.tiangolo.com/img/index/index-06-redoc-02.png; https://fastapi.tiangolo.com/img/vscode-completion.png,,68924,2023-02-27T06:01:53Z
 2024-03-05,https://github.com/tiangolo/fastapi,https://raw.githubusercontent.com/aappleby/hancho/main/README.md,"Hancho is a streamlined build system inspired by Ninja's speed and simplicity and Bazel's syntax and extensibility. It is coded in under 500 lines of Python, requiring no separate installation—users simply copy it into their source tree. Unlike Ninja, Hancho doesn't mandate a separate build rule for each output file, and akin to Bazel, it allows invoking build rules like function calls with keyword arguments. However, it uniquely allows build rules to execute arbitrary Python code. Aimed at small to medium projects, Hancho has seen recent updates, including improvements in formatting and the handling of unrecognized command line flags. It supports parallel job execution, verbose and quiet modes, dry runs, debugging, and forced rebuilds. A simple example provided demonstrates compiling and linking a ""Hello World"" program in C++.",Simplify Your Build Process with Hancho: The Easy-to-Integrate Build System,"Discover Hancho, the minimalist build system inspired by Ninja's speed and Bazel's syntax, designed for simplicity and extensibility. Requiring no installation and fitting comfortably in under 500 lines of Python, Hancho streamlines the build process for small to medium projects without the complexity. Unlike traditional systems, Hancho allows invoking build rules as functions and integrating custom Python code, offering flexibility and speed. Perfect for developers seeking an efficient and straightforward building solution, Hancho simplifies while it accelerates.","Explore Hancho, a compact build system blending Ninja's speed with Bazel's extensibility in under 500 lines of Python. Ideal for small to medium projects, it simplifies the build process without sacrificing functionality.",Software Development,"Python
 
 
@@ -3243,34 +3187,6 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         15 stars today",https://cowriter-images.s3.amazonaws.com/architecture.png,,7377,2021-03-13T05:01:56Z
-2024-03-07,https://github.com/GreyDGL/PentestGPT,https://raw.githubusercontent.com/apple/ml-mobileclip/main/README.md,"MobileCLIP introduces a fast image-text model optimized through multimodal reinforced training, showcased in its official repository for CVPR 2024. Key achievements include the smallest variant, MobileCLIP-S0, matching OpenAI's ViT-B/16 zero-shot performance while being significantly faster and smaller. MobileCLIP variants outperform existing models like SigLIP and DFN in zero-shot ImageNet performance, with MobileCLIP-B(LT) reaching 77.2%. The repository provides setup instructions, APIs similar to open_clip models for easy adoption, and a script for zero-shot evaluation on ImageNet-1k. Models are compared based on seen samples, parameters, latency, and accuracy, with pretrained models available for download. The paper invites citations for its contributions to fast image-text modeling.",Revolutionizing Mobile Technology with MobileCLIP: A Leap in Image-Text Models,"Discover the groundbreaking MobileCLIP technology that offers unparalleled speed and efficiency in processing image-text models. This official release boasts models like MobileCLIP-S0 and MobileCLIP-B(LT) that outperform previous works with lower latency, smaller size, and better zero-shot performance. With easy implementation and comprehensive resources for advanced research, MobileCLIP sets a new standard in mobile AI capabilities, promising significant advancements in how we interact with technology.","Unveil MobileCLIP, the latest innovation in mobile AI, offering faster, smaller, and more efficient image-text models for enhanced performance and usability in technology. Experience the future of AI with MobileCLIP's streamlined processing.",Computer Vision Platform,"Python
-
-
-
-
-
-        6,069
-
-
-
-
-
-        717
-
-
-        Built by
-
-          
-
-
-
-
-
-
-
-
-
-        7 stars today",https://raw.githubusercontent.com/apple/ml-mobileclip/main/docs/fig_accuracy_latency.png,,202,2023-02-27T06:01:53Z
 2024-03-08,https://github.com/google/maxtext,https://raw.githubusercontent.com/google/maxtext/main/README.md,"MaxText is an open-source, high performance, scalable, and simple Large Language Model (LLM) framework designed for use with Google Cloud TPUs. It achieves up to 60% model-flop utilization and easily scales from a single host to large clusters without requiring complex optimizations, leveraging the Jax and XLA compiler. Aimed at facilitating ambitious LLM projects in both research and production, MaxText is built for ease of use and modification, encouraging users to fork and adapt it to their specific requirements. It supports seamless installation and offers robust testing frameworks, detailed runtime performance results, and comparisons with alternative LLM frameworks. MaxText stands out by its pure Python implementation, emphasizing simplicity and performance, and it is comparably efficient to other leading implementations like Nvidia's Megatron-LM but focuses on encouraging direct codebase extension. Additionally, MaxText includes features for debugging and optimization, such as stack trace collection and ahead of time compilation (AOT), enhancing usability and efficiency. It also provides support for various open models, facilitating training and inference with ease.","MaxText: The High-Performance, Scalable Open-Source LLM for Ambitious Projects","MaxText, a high-performance, scalable, open-source LLM designed for Google Cloud TPUs, combines Jax and XLA compiler's power for simple, optimization-free scaling from single hosts to vast clusters. Aimed at both research and production, MaxText invites users to rapidly deploy it as-is or fork it for customized needs. Its superior model-flop utilization and inbuilt features make it ideal for ambitious LLM projects, providing a versatile, easily adaptable foundation.","Explore MaxText, an open-source LLM offering exceptional performance and scalability on Google Cloud TPUs. Perfect for ambitious LLM projects, it's designed for easy use and customization. Learn how MaxText paves the way for groundbreaking research and production applications.",Deep Learning Framework,"Python
 
 
