@@ -79,6 +79,8 @@ fetch('https://raw.githubusercontent.com/DanielTea/control-f-github-trending-ana
                 classifications.some(classification => item['Classification'].includes(classification)) &&
                 item['Repository-Creation-Date'] !== '' 
                 && item['Blog-Title'] !== null
+                && item['Repository-Creation-Date'] !== null
+                && item['Github-Link'] !== ''
                 // && isWithinOneMonth(item['Repository-Creation-Date'])
             ).sort((a, b) => new Date(b['Date']) - new Date(a['Date'])).forEach(item => {
 

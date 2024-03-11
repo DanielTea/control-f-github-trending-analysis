@@ -76,6 +76,8 @@ def fetch_and_save_readme_links(repository_links):
                 readme_links.append(readme_master_url)
             else:
                 print(f"README not found for {repo_url}")
+                readme_links.append('')
+
     return readme_links
 
 
@@ -250,50 +252,6 @@ def get_column_from_csv(file_name, column_name):
         return column_data  # Return empty list in case of other errors
 
     return column_data
-
-# def is_suitable_for_blogpost(media_link, summary, client):
-#     """
-#     Checks if the provided media link (image, video, or gif) is suitable as a representation for a blog post about the GitHub repository.
-#     It uses the GPT-4 Vision API to analyze the media and ensure it's not a badge or contains unrelated content.
-
-#     Args:
-#     media_link (str): The link to the media file (image, video, or gif).
-#     summary (str): The summary of the README.md file of the GitHub repository.
-
-#     Returns:
-#     bool: True if the media is suitable for the blog post, False otherwise.
-#     """
-
-#     # Craft the prompt for the GPT-4 Vision API
-#     messages = [
-#         {
-#             "role": "user",
-#             "content": [
-#                 {"type": "text", "text": f"Analyze this media to determine if it is suitable for a blog post about a GitHub repository with the following summary: '{summary}'. The media should not be a badge or contain unrelated content. Return 'suitable' if media is suitable and 'not_suitable' if otherwise"},
-#                 {"type": "image_url", "image_url": {"url": media_link}},
-#             ],
-#         }
-#     ]
-
-#     # Call the GPT-4 Vision API
-#     try:
-#         response = client.chat.completions.create(
-#             model="gpt-4-vision-preview",
-#             messages=messages,
-#             max_tokens=300
-#         )
-
-#         # Analyze the response to determine suitability
-#         decision_text = response.choices[0].message.content
-#         print(decision_text)
-        
-#         if "suitable" in decision_text:
-#             return True
-#         else:
-#             return False
-#     except Exception as e:
-#         print(f"An error occurred while analyzing the media link: {e}")
-#         return False
     
 def fetch_repository_creation_date(repo_link):
     """
@@ -477,7 +435,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
         writer = csv.writer(file)
 
         for index, (readme_link, repository_link, star_count_delta) in enumerate(zip(readmes, repository_links, stars)):
-            if readme_link not in existing_links:  # Skip links that are already in the CSV
+            if readme_link not in existing_links and readme_link != '':  # Skip links that are already in the CSV
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client, modelname=modelname)
 
                 blog_text_json = create_a_blogpost_readme(readme_link, client=client, modelname=modelname)

@@ -58,10 +58,14 @@ def fetch_and_filter_csv(url):
             })
 
 def is_within_one_month(date_string):
-    format_string = '%Y-%m-%dT%H:%M:%SZ'
-    repository_creation_date = datetime.strptime(date_string, format_string)
-    one_month_ago = datetime.now() - timedelta(days=30)
-    return repository_creation_date > one_month_ago
+
+    try:
+        format_string = '%Y-%m-%dT%H:%M:%SZ'
+        repository_creation_date = datetime.strptime(date_string, format_string)
+        one_month_ago = datetime.now() - timedelta(days=30)
+        return repository_creation_date > one_month_ago
+    except:
+        return False
 
 # Start of Selection
 def filter_out_badge_images(image_links):
