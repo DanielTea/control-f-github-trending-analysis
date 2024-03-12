@@ -4581,3 +4581,304 @@ Contributions are welcome but should follow the contributing guidelines detailed
 
 
         20 stars today",,,4520,2023-01-16T20:43:13Z
+2024-03-12,https://github.com/danielmiessler/fabric,https://raw.githubusercontent.com/danielmiessler/fabric/main/README.md,"Fabric is an open-source project developed to integrate Artificial Intelligence (AI) into everyday tasks, addressing the challenge of making powerful AI functionalities more accessible and usable in real life. Initiated to combat the integration problem faced by AI, rather than its capabilities, Fabric provides a framework for enhancing human creativity and problem-solving through AI augmentation. Its philosophy emphasizes breaking down problems into components and employing AI to tackle them individually. The project includes detailed documentation and tools for setting up and using Fabric, encouraging users to update regularly due to frequent additions and improvements. Fabric offers ""Patterns"" which are AI prompts designed for various activities, ranging from extracting information from videos to generating social media posts. Users can interact with these Patterns through a CLI-native client, setting up their own infrastructure for personal AI assistance. Additionally, the project supports collaborative contributions, acknowledging several individuals who have played significant roles in its development.",Maximizing Human Creativity: Unleash Potential with AI Augmentation Using Fabric,"Discover how Fabric, an open-source framework introduced in 2024, is revolutionizing the integration of AI into our daily lives to solve real human problems. By breaking down challenges into components and offering customizable AI patterns called 'Patterns', Fabric enables granular application of AI, making technology more accessible and enhancing human creativity. Stay updated with Fabric to leverage AI innovations, from local models like Claude to an array of new Patterns for everyday tasks.","Explore Fabric, the AI augmentation framework designed to enhance human creativity by solving integration problems with customizable AI patterns. Learn how to seamlessly incorporate AI into your life with Fabric.",Collaborative AI Framework,"Python
+
+
+
+
+
+        6,516
+
+
+
+
+
+        596
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        396 stars today",https://raw.githubusercontent.com/danielmiessler/fabric/main/./images/fabric-logo-gif.gif,https://www.youtube.com/watch?v=wPEyyigh10g,6516,2024-01-03T23:18:31Z
+2024-03-12,https://github.com/microsoft/qlib,https://raw.githubusercontent.com/microsoft/qlib/main/README.md,"Qlib, developed by Microsoft, is an AI-oriented open-source quantitative investment platform aimed at harnessing the power of AI technologies in quantitative investment. It supports various machine learning modeling paradigms including supervised learning, market dynamics modeling, and reinforcement learning. Qlib facilitates the entire machine learning pipeline including data processing, model training, back-testing, and covers the quantitative investment process from alpha seeking, risk modeling, portfolio optimization, to order execution. It also provides a framework for increasing SOTA Quant research works/papers to address challenges in quantitative investment. Recent features include KRNN and Sandwich models, RL Learning Framework, and various models for market prediction and analysis. The platform is designed with a high-level framework that allows for modular use of its components. Installation is supported on Linux, Windows, and macOS with specific Python version requirements. Detailed documentation and tutorials are available for users to explore Qlib's capabilities.",Maximizing Your Quantitative Investment Strategies with Microsoft's Qlib,"Explore the latest features of Qlib, Microsoft's AI-oriented quantitative investment platform, and learn how it's shaping the future of finance with its wide support for Python versions and operating systems. Discover the potential of Qlib in empowering research and creating value in quantitative investment through advanced models like KRNN, Sandwich, and others. Dive into how Qlib facilitates comprehensive quantitative research workflows and the development of sophisticated trading strategies with its recent updates.","Discover Microsoft's Qlib: an AI-oriented quantitative investment platform revolutionizing quantitative investment research with its latest features, including KRNN, Sandwich models, and comprehensive support for Python. Elevate your trading strategies with Qlib.",AI Python Client,"Python
+
+
+
+
+
+        13,680
+
+
+
+
+
+        2,381
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        31 stars today",http://fintech.msra.cn/images_v070/logo/1.png; https://raw.githubusercontent.com/microsoft/qlib/main/docs/_static/img/framework-abstract.jpg; https://raw.githubusercontent.com/microsoft/qlib/main/docs/_static/img/score_ic.png; https://raw.githubusercontent.com/microsoft/qlib/main/docs/_static/img/cumulative_return.png; https://raw.githubusercontent.com/microsoft/qlib/main/docs/_static/img/risk_analysis.png; https://raw.githubusercontent.com/microsoft/qlib/main/docs/_static/img/rank_label.png; http://fintech.msra.cn/images_v070/qrcode/gitter_qr.png; https://github.com/demon143/qlib/blob/main/docs/_static/img/change%20doc.gif,,13680,2020-08-14T06:46:00Z
+2024-03-12,https://github.com/THUDM/ChatGLM3,https://raw.githubusercontent.com/THUDM/ChatGLM3/main/README.md,"ChatGLM3, developed by ZhipuAI and Tsinghua University's KEG lab, is an open-source conversational pre-trained model, part of a series of models designed for fluent conversations with low deployment thresholds. The ChatGLM3-6B model introduces several improvements over its predecessors: a stronger base model (ChatGLM3-6B-Base) trained on a wider variety of data, more extensive training steps, and enhanced training strategies, making it one of the most powerful models under 10B parameters across multiple datasets in terms of semantics, math, reasoning, code, and knowledge. It also supports a more complete range of functions including multi-turn dialogues, tool invocation, code execution, and agent tasks with a new Prompt format, along with a comprehensive open-source lineup including basic, long-text, and enhanced long-text understanding models, all available freely for academic research and eligible for free commercial use post registration. 
+
+The model aims to propel technological advancements in large models with the open-source community, urging developers to adhere to open-source protocols and not use the model for harmful purposes. Despite every effort for data compliance and accuracy during training, due to its smaller scale and probabilistic nature, the model's outputs may not always be accurate and can be misled by user inputs. The project does not assume any risks or liabilities that might arise from data security issues or model misuse.
+
+Furthermore, the model has been evaluated across several benchmarks, showing significant improvement over its second-gen counterpart, especially in long-text applications like paper reading, executive summaries, and financial analysis. The document also details installation, a comprehensive demo covering chat, tool use, and code execution modes, code invocation methods, model tuning, web and CLI demos, deployment strategies including model quantization, CPU and Mac deployment, OpenVINO and TensorRT-LLM accelerated inference, and references for citing their work.",Unveiling ChatGLM3: The Latest Breakthrough in Conversational AI,"Discover the groundbreaking ChatGLM3, a conversational model co-developed by Zhipu AI and Tsinghua University's KEG lab, offering unparalleled dialogue fluency and deployment accessibility. ChatGLM3-6B introduces an enhanced foundation model, full-featured support, and a comprehensive suite of open-source derivatives for both academic and commercial use. This release marks a significant step forward in conversational AI, pushing the boundaries of what's possible with deep learning technologies.","Explore ChatGLM3-6B, the latest conversational AI model by Zhipu AI and Tsinghua's KEG lab, featuring improved performance, full-featured support, and open-source access for advanced dialogue systems.",Language Models,"Python
+
+
+
+
+
+        10,582
+
+
+
+
+
+        1,186
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        51 stars today",https://raw.githubusercontent.com/THUDM/ChatGLM3/main/resources/tool.png; https://raw.githubusercontent.com/THUDM/ChatGLM3/main/resources/heart.png; https://raw.githubusercontent.com/THUDM/ChatGLM3/main/resources/web-demo.gif; https://raw.githubusercontent.com/THUDM/ChatGLM3/main/resources/web-demo2.png; https://raw.githubusercontent.com/THUDM/ChatGLM3/main/resources/cli-demo.png,https://www.youtube.com/watch?v=Pw9PB6R7ORA,10582,2023-10-26T06:22:47Z
+2024-03-12,https://github.com/python/mypy,https://raw.githubusercontent.com/python/mypy/master/README.md,"Mypy is a static type checker for Python that helps developers ensure that variables and functions are used correctly in their code by adding type hints, as per PEP 484. It operates without running the program, unlike Python's dynamic error discovery. Mypy supports gradual typing, allowing incremental addition of type hints to a codebase. It features a powerful type system, including type inference, generics, callable types, and more, aiming to make programs easier to understand and maintain. Mypy can be easily integrated into several IDEs and supports installation via pip. It also offers a daemon mode for faster incremental updates on large codebases. The project welcomes contributions in various forms including testing, development, and documentation. Mypy is compiled using Mypyc to enhance its performance, making it significantly faster than an interpreted version. Additional information, documentation, and ways to contribute can be found on its website and GitHub page.",Mypy: The Ultimate Static Type Checker for Your Python Code,"Mypy is revolutionizing Python programming by introducing static type checking, making code error detection easier without running the program. It ensures better code quality and debugging by using type hints as per PEP 484. Mypy supports dynamic language properties with static checking, enhancing Python's flexibility. Gradual typing allows incremental codebase improvement, making Python code maintenance more efficient. Explore Mypy's powerful features to improve your code's reliability and understandability.","Discover how Mypy, the static type checker for Python, enhances code quality through type hints, supporting gradual typing and a robust type system for error-free coding.",Python Libraries Collection,"Python
+
+
+
+
+
+        17,330
+
+
+
+
+
+        2,661
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",,,17330,2012-12-07T13:30:23Z
+2024-03-12,https://github.com/elebumm/RedditVideoMakerBot,https://raw.githubusercontent.com/elebumm/RedditVideoMakerBot/master/README.md,"The Reddit Video Maker Bot, created by Lewis Menelaws and TMRRW, is a tool designed to automate the creation of videos from Reddit content, a process that traditionally requires significant editing effort. This bot simplifies video production to cater to popular platforms like TikTok, YouTube, and Instagram, which thrive on quick, engaging content that often garners millions of views. Currently, the bot requires manual video uploads to avoid community guideline conflicts. It operates with Python 3.10 and relies on Playwright for functionality, requiring users to follow a set installation process. The project is open-source, inviting contributions of any skill level to improve features such as documentation, UI, content selection, and more. Notably, it supports customizations like background music, subreddit selection, and voice changes. Further details, including installation guides and support, are available through its documentation and a dedicated Discord server. The development team, including founder Elebumm and various maintainers, encourages community engagement and contributions to enhance the bot's capabilities.",Revolutionizing Content Creation: Introducing the Reddit Video Maker Bot,"Discover the Reddit Video Maker Bot, a powerful tool created by Lewis Menelaws and TMRRW that simplifies video content creation for platforms like TikTok, YouTube, and Instagram, by automating video editing and compilation processes. This groundbreaking bot requires only your programming skills to transform Reddit threads into engaging videos, promising a hassle-free experience for content creators. Explore the motivation, installation, and potential improvements to make content creation effortless and more efficient.","Explore how the Reddit Video Maker Bot by Lewis Menelaws & TMRRW is transforming content creation by automating video edit and compilation for TikTok, YouTube, & Instagram. Effortless setup & customization.",Video Translation Tool,"Python
+
+
+
+
+
+        6,043
+
+
+
+
+
+        1,701
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",https://user-images.githubusercontent.com/6053155/170528582-cb6671e7-5a2f-4bd4-a048-0e6cfa54f0f7.png; https://user-images.githubusercontent.com/6053155/173631669-1d1b14ad-c478-4010-b57d-d79592a789f2.png,https://www.youtube.com/watch?v=3gjcY_00U1w,6043,2022-05-26T15:48:10Z
+2024-03-12,https://github.com/netease-youdao/QAnything,https://raw.githubusercontent.com/netease-youdao/QAnything/master/README.md,"QAnything is a local question-answering system that facilitates querying a wide range of formats and databases offline, enhancing data security and cross-language QA ability. It's designed for easy installation and use, aiming at enterprises needing high-performance, secure data handling. QAnything supports PDF, Word, PPT, XLS, Markdown, Email, TXT, images, CSV, and HTML files, planning more format compatibility. Its architecture employs two-stage retrieval to prevent degradation with data scaling, leveraging BCEmbedding for bilingual proficiency, offering better performance as data increases. Recent updates include custom large models, enhanced deployment on Windows, and improved file parsing. For Linux and Windows via WSL, it requires NVIDIA GPU with a minimum GTX 1050Ti and other software prerequisites. Installation involves cloning the GitHub repository and running a startup script. Online experiences and API usage are outlined, ensuring easy interaction with the system. Offline installation instructions are provided as well. The project welcomes contributions and involvement via Discord, WeChat, and GitHub issues.",Exploring QAnything: The Ultimate Question and Answer System for Any Format,"QAnything revolutionizes the way we handle data by offering a question and answer system that supports a wide array of file formats and databases, ensuring data security, and providing cross-language support. Its architecture is designed to handle massive data sets with ease, promising high performance for enterprise applications. With its user-friendly interface, QAnything facilitates one-click installation and seamless deployment, making it an ideal choice for individuals and organizations seeking an efficient knowledge base solution.","Discover QAnything, the versatile question and answer system designed for any file format. Learn about its key features, including data security, cross-language support, and how it seamlessly handles massive datasets for enterprise use.",Data Ingestion Tool,"Python
+
+
+
+
+
+        5,178
+
+
+
+
+
+        434
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        70 stars today",https://raw.githubusercontent.com/netease-youdao/QAnything/master/docs/images/qanything_logo.png; https://raw.githubusercontent.com/netease-youdao/QAnything/master/docs/images/qanything_arch.png; https://raw.githubusercontent.com/netease-youdao/QAnything/master/docs/images/two_stage_retrieval.jpg; https://github.com/netease-youdao/BCEmbedding/blob/master/Docs/assets/rag_eval_multiple_domains_summary.jpg; https://raw.githubusercontent.com/netease-youdao/QAnything/master/docs/images/Wechat.jpg,,5179,2024-01-03T03:24:18Z
+2024-03-12,https://github.com/Misaka-blog/chromego_merge,https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/README.md,"The text provides guidance on bypassing website blocks experienced with ChromeGo by using the Warp service or leveraging built-in browser DNS-over-HTTPS (DoH) and client tun mode, with a reference link for enabling Chrome's DoH. It outlines how to customize Warp nodes by replacing the configuration file's content with one's own Warp+ node information using a Warp WireGuard profile generator and a bot. Subscription links for different versions of proxy services without and with Warp, general Base64 links, and sing-box subscriptions are shared for various devices. Recommended clients for Windows, Android, iOS, and macOS include Clash Verge, NekoRay, NekoBox, and Shadowrocket. The text acknowledges contributions from Alvin9999 and sing-box-subscribe, mentioning that regional setting codes were taken from chromegopacs.",Bypassing Internet Blocking with Chromego and Warp: A Comprehensive Guide,"Learn how to bypass internet blocks using Chromego and Warp, including steps to modify your own Warp node and share subscription links. This guide provides useful resources and links for seamless setup across various platforms including Windows, Android, iOS, and macOS, enhancing your browsing experience while maintaining access to restricted sites.",Unlock the full potential of your internet browsing with our guide on using Chromego and Warp to bypass blocks. Get tips on setting up your own Warp node and accessing subscription links for different devices.,Cybersecurity Tool,"Python
+
+
+
+
+
+        122
+
+
+
+
+
+        251
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        28 stars today",,,122,2024-03-09T00:12:14Z
+2024-03-12,https://github.com/KhoomeiK/LlamaGym,https://raw.githubusercontent.com/KhoomeiK/LlamaGym/main/README.md,"LlamaGym is designed to facilitate the fine-tuning of LLM (Large Language Model) agents using online reinforcement learning (RL) in a simplified manner. Unlike traditional LLM-based agents that do not learn online in real-time, LlamaGym aims to address this gap by providing a single `Agent` abstract class. This class helps manage conversation context, episode batches, rewards, and PPO setup across any Gym environment, thereby streamlining experiments with agent prompting and hyperparameter adjustments. To use LlamaGym, one needs to install it via pip, implement three abstract methods (`get_system_prompt`, `format_observation`, and `extract_action`), and integrate it with a base LLM and RL loop. Although online RL poses challenges in terms of convergence and requires hyperparameter tuning, LlamaGym simplifies the process compared to other frameworks and encourages contributions. It highlights relevant research and suggests that LLMs can potentially benefit from a supervised fine-tuning stage on sampled trajectories to enhance RL performance.",Revolutionize Your AI: Fine-Tuning LLM Agents with LlamaGym,"Discover LlamaGym, the breakthrough in fine-tuning LLM agents through online reinforcement learning, making it easier than ever to integrate into Gym environments. Dive into the simplicity of the Agent abstract class that streamlines the entire process from training to implementation. Learn how to effortlessly install, configure, and deploy your LLM-based agents in any RL scenario. Explore code examples that demonstrate how you can enhance your agent's learning efficiency. Whether you're new to online RL or looking to refine your approaches, LlamaGym offers the tools to advance your projects swiftly.",Unlock the potential of LLM agents with LlamaGym's easy integration into Gym environments for online reinforcement learning. Perfect for developers looking to accelerate agent training and implementation.,Deep Learning Platform,"Python
+
+
+
+
+
+        653
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+        123 stars today",https://raw.githubusercontent.com/khoomeik/LlamaGym/main/llamagym.png,,654,2024-03-01T03:03:38Z
+2024-03-12,https://github.com/vllm-project/vllm,https://raw.githubusercontent.com/vllm-project/vllm/main/README.md,"The vLLM project offers an easy, fast, and economical solution for serving large language models (LLMs) to everyone. It features state-of-the-art serving throughput, efficient management of attention key and value memory via ""PagedAttention,"" and supports a wide range of Hugging Face models. vLLM provides fast model execution through various optimizations, including CUDA/HIP graph and quantization techniques. It offers high-throughput serving with different decoding algorithms and supports both NVIDIA and AMD GPUs. The project has received support from Andreessen Horowitz and integrates seamlessly with different architectures, including BLOOM, GPT-NeoX, LLaMA-2, and many others. Installation is straightforward via pip, and comprehensive documentation is available for getting started and integration. The project encourages contributions and has published a paper detailing its efficient memory management technique for LLM serving.","Revolutionizing LLM Serving: vLLM's Easy, Fast, and Affordable Solution","Discover the future of Large Language Model (LLM) serving with vLLM, offering unprecedented speed, flexibility, and affordability. From seamless integration with popular models to state-of-the-art serving throughput, vLLM is designed for everyone. Whether you're running 7B or 70B models, vLLM ensures efficient attention key management, fast execution, and support for both NVIDIA and AMD GPUs. Join our community and explore how vLLM is transforming LLM serving, making it accessible to a wider audience.","Learn how vLLM is changing the game in LLM serving with its fast, easy-to-use, and cost-effective library solution. Explore the features, community engagement, and how you can get started with vLLM today.",Language Models,"Python
+
+
+
+
+
+        15,917
+
+
+
+
+
+        1,979
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        51 stars today",https://raw.githubusercontent.com/vllm-project/vllm/main/docs/source/assets/logos/vllm-logo-text-light.png,,15917,2023-02-09T11:23:20Z
+2024-03-12,https://github.com/jackhawks/rectg,https://raw.githubusercontent.com/jackhawks/rectg/main/README.md,"This text lists over 5000 high-quality Telegram groups, channels, and bots, carefully selected to provide users with optimal choices. It originates from the internet and serves for learning and technical research purposes. Users are encouraged to report sensitive content found in the listed entities for timely management. Among the mentioned categories are discussion groups for Google Voice learning in North America, recommended apps, sweepstakes, surrounding RSS technology, cat lovers, beta testing, V2EX technology discussions, Python trends, science and technology updates, Notion techniques, immersive translation discussions, Tesla news, beauty galleries, resource sharing, and many more focusing on a wide range of interests including technology, education, entertainment, photography, and lifestyle.","Discover the Best Telegram Groups, Channels, and Bots with Over 5000+ Curated Options","Navigate the world of Telegram with ease! Our project compiles an extensive list of over 5000+ critically selected Telegram groups, channels, and bots, perfect for quick access to diverse content. From North American SIM cards and Google Voice beginners to comprehensive discussions on RSS technology, Python trends, and ardent cat communities, find your niche effortlessly. Stay updated with tech circles, and engage in translations, with our guide ensuring you're always in the loop.","Explore our comprehensive guide to over 5000+ Telegram groups, channels, and bots, making your search for information, discussions, and communities efficient and tailored. Dive into a world of curated content ranging from tech trends to cat lover channels!",Public APIs Collection,"Python
+
+
+
+
+
+        4,368
+
+
+
+
+
+        254
+
+
+        Built by
+
+          
+
+
+
+
+
+        125 stars today",,,4368,2023-06-17T02:15:48Z
+2024-03-12,https://github.com/Farama-Foundation/Gymnasium,https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/main/README.md,"Gymnasium is an open-source Python library aimed at the development and comparison of reinforcement learning algorithms. It offers a standard API for interactions between algorithms and a set of compliant environments, continuing the work initially started by OpenAI's Gym. Maintained by the Farama Foundation, it includes classic control, Box2D, Toy Text, MuJoCo, Atari, and third-party environments, catering to a range of complexities. Installation is simple via pip, supporting Python 3.8 to 3.11 on Linux and macOS. Gymnasium facilitates environment interaction through simple Python classes and provides compatibility for various dependencies. It emphasizes version control for reproducibility, offers a roadmap for future updates, and encourages community support through donations. Key associated libraries include CleanRL, PettingZoo, and Comet, with the latter offering an integration tutorial. The project, committed to future development and research facilitation, invites citations for academic and practical use.",Explore the World of Reinforcement Learning with Gymnasium: The Ultimate Python Library,"Discover Gymnasium, the open-source Python library that's revolutionizing the development and comparison of reinforcement learning algorithms. Offering a standard API for seamless interaction between algorithms and environments, Gymnasium stands out as the preferred choice for reinforcement learning endeavors. With extensive documentation and a supportive Discord community, it's designed to facilitate your projects. Whether a beginner or an expert, Gymnasium provides environments from classic control to complex Atari challenges, making it the go-to toolkit for your reinforcement learning needs.","Unlock the potential of reinforcement learning with Gymnasium, the comprehensive Python library for creating and comparing algorithms. Dive into a world of diverse environments and community support.",Deep Learning Platform,"Python
+
+
+
+
+
+        5,298
+
+
+
+
+
+        613
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        23 stars today",https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/main/gymnasium-text.png,,5300,2022-09-08T01:58:05Z
