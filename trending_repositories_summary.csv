@@ -4882,3 +4882,295 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         23 stars today",https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/main/gymnasium-text.png,,5300,2022-09-08T01:58:05Z
+2024-03-13,https://github.com/deepseek-ai/DeepSeek-VL,https://raw.githubusercontent.com/deepseek-ai/DeepSeek-VL/main/README.md,"DeepSeek-VL is an open-source Vision-Language Model designed for comprehensive vision and language understanding in real-world applications. It offers general multimodal understanding capabilities suitable for processing various data types, including logical diagrams, web pages, scientific literature, and natural images. The DeepSeek-VL family includes models with 7B and 1.3B parameters in both base and chat variants, catering to different integration scenarios. These models are publicly available, supporting academic and commercial use under specified licenses. Installation and usage instructions are provided for quick start, alongside a simple inference example, CLI chat, and a Gradio demo for interactive exploration. The code repository is MIT licensed, whereas using DeepSeek-VL Base/Chat models is subject to the DeepSeek Model License, permitting commercial applications.",Unveiling DeepSeek-VL: A Revolution in Vision-Language Models,"Discover the latest in AI innovation with DeepSeek-VL, an advanced open-source Vision-Language model designed for comprehensive real-world applications. From understanding complex scientific literature to recognizing web elements and natural images, DeepSeek-VL is equipped with multimodal understanding capabilities that set a new benchmark in AI technology. Explore the potential of DeepSeek-VL in various real-world scenarios, promising unparalleled efficiency and accuracy in AI-driven tasks.","Explore DeepSeek-VL, the cutting-edge Vision-Language Model for next-level AI applications in real-world scenarios. Discover its capabilities in processing diverse multimodal content with unparalleled accuracy.",Vision-Language Model,"Python
+
+
+
+
+
+        673
+
+
+
+
+
+        38
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        156 stars today",https://github.com/deepseek-ai/DeepSeek-VL/blob/main/images/sample.jpg; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-VL/main/./images/gradio_demo.png,,673,2024-03-07T08:32:57Z
+2024-03-13,https://github.com/ELLA-Diffusion/ELLA,https://raw.githubusercontent.com/ELLA-Diffusion/ELLA/main/README.md,"ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment"" is a research project focused on integrating Large Language Models (LLMs) with diffusion models to improve semantic alignment. The research is contributed to by Xiwei Hu, Rui Wang, Yixiao Fang, Bin Fu, and Pei Cheng, with Gang Yu as the corresponding author. The project has released its official code and has introduced DPG-Bench on March 11, 2024, as a guideline for generating and evaluating images based on specific prompts. The evaluation requires images to be generated in a 2x2 grid format and renamed according to the prompt's filename for uniform assessment. The project acknowledges the work of DSG for their instructions on generating question and answers for DPG-Bench. Future plans include releasing a checkpoint and inference code, with DPG-Bench already available. They encourage citing their work if found useful for research or application purposes.",ELLA's Breakthrough: Enhancing Semantic Alignment with LLM in Diffusion Models,"Discover how ELLA revolutionizes diffusion models by integrating LLM for superior semantic alignment, a collaboration by leading researchers. This innovation offers a detailed guide and introduces DPG-Bench for community engagement. From generating images following precise prompts to evaluating outcomes, ELLA marks a significant leap in AI's creative and analytical capabilities. Explore the official release, participate in DPG-Bench, and contribute to the evolving landscape of artificial intelligence.","ELLA introduces a groundbreaking approach to enhance diffusion models with LLM for improved semantic alignment, featuring the launch of DPG-Bench for comprehensive community engagement and evaluation.",Collaborative AI Framework,"Python
+
+
+
+
+
+        323
+
+
+
+
+
+        16
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        55 stars today",https://raw.githubusercontent.com/ELLA-Diffusion/ELLA/main/./assets/ELLA-Diffusion.jpg; https://raw.githubusercontent.com/ELLA-Diffusion/ELLA/main/./assets/teaser_3img.png; https://raw.githubusercontent.com/ELLA-Diffusion/ELLA/main/./assets/teaser1_raccoon.png,,323,2024-03-07T13:57:12Z
+2024-03-13,https://github.com/Ciphey/Ciphey,https://raw.githubusercontent.com/Ciphey/Ciphey/master/README.md,"The text provides information about Ciphey, an automated decryption, decoding, and cracking tool that utilizes natural language processing, artificial intelligence, and some common sense to identify and decode encrypted text. Ciphey can support over 50+ encryption and encoding forms, including binary, Base64, classical ciphers like Caesar, and more advanced cryptography. It operates quickly, often decrypting within 3 seconds. The project emphasizes ease of use, requiring minimal setup and knowledge of the encrypted material beforehand. Installation instructions are provided for various platforms, including Python, Docker, MacPorts, and Homebrew, along with compatibility across Linux, macOS, and Windows systems. Comparisons highlight Ciphey's efficiency over alternatives like CyberChef. The project is open-source, inviting contributions from the community. It was developed with support from the Cyber Security Society at the University of Liverpool. Contributing to Ciphey is encouraged, with detailed guidance available for interested individuals. Financial contributions are also appreciated, supporting both future development and the cybersecurity community.",Unlock the World of Ciphey: Multilingual Decryption Tool Guide,"Explore the realms of cryptography with Ciphey, a fully automated decryption, decoding, and cracking tool powered by natural language processing and artificial intelligence. With support for over 50 encryptions and encodings, Ciphey can decipher texts in seconds. From classical ciphers to modern encryptions, Ciphey's custom-built AI, AuSearch, efficiently identifies encryption types, offering results in under 3 seconds. Ideal for anyone interested in cryptography, Ciphey simplifies the decryption process, making it accessible to both beginners and experts.","Discover how Ciphey uses AI to decrypt over 50 types of codes and ciphers in seconds. Perfect for cryptography enthusiasts, this tool simplifies decoding tasks.",Cybersecurity Tool,"Python
+
+
+
+
+
+        16,133
+
+
+
+
+
+        1,020
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        122 stars today",https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/binoculars.png; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/python.png; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/docker.png; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/macports.png; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/homebrew.png; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/index.gif; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/ciphey_gooder_cyberchef.gif; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/not_dying.gif; https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/3ways.gif,,16133,2019-07-16T20:20:39Z
+2024-03-13,https://github.com/d78ui98/APKDeepLens,https://raw.githubusercontent.com/d78ui98/APKDeepLens/main/README.md,"APKDeepLens is a sophisticated tool built with Python, designed for scanning Android applications (APKs) to uncover security vulnerabilities, focusing on the OWASP Top 10 mobile risks. It aids developers, penetration testers, and security researchers in evaluating an app's security. Key features include deep APK analysis, coverage of OWASP Top 10 vulnerabilities, advanced detection techniques, extraction of sensitive information, detection of insecure data storage and intent filter exploits, local file vulnerability detection, customizable report generation, CI/CD pipeline integration, and a user-friendly interface with color-coded terminal outputs. Installation requires Python 3.8 or higher and follows specific steps for Linux and Windows systems. Usage involves command-line inputs for scanning APKs, with options for detailed reporting. Contributions to the project are encouraged through GitHub. APKDeepLens has been featured at Blackhat MEA 2023 and is scheduled for Blackhat ASIA 2024.",Maximizing Android App Security with APKDeepLens: Your Ultimate Guide,"Discover how APKDeepLens, a powerful Python-based tool, revolutionizes the security scanning of Android applications by targeting the OWASP Top 10 mobile vulnerabilities. With features like APK analysis, sensitive information extraction, and detailed report generation, it is designed to bolster the security of apps against common vulnerabilities. Its integration into CI/CD pipelines ensures ongoing security assessment during development. The user-friendly interface and comprehensive OWASP coverage make APKDeepLens indispensable for developers, penetration testers, and security researchers alike.","Explore APKDeepLens, the Python-based security tool for Android APKs, offering features like OWASP Top 10 coverage, advanced detection, and CI/CD integration for enhanced app security. Learn how to install and use it for your security assessments.",Cybersecurity Tool,"Python
+
+
+
+
+
+        160
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        12 stars today",,,160,2023-11-24T14:02:39Z
+2024-03-13,https://github.com/FujiwaraChoki/MoneyPrinter,https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/main/README.md,"MoneyPrinter (MP) is a tool that has recently been made active again for contributions. It enables users to automate YouTube Shorts creation by simply providing a video topic. MP emphasizes checking for existing issues before creating new ones and directs inquiries to their Discord community. The tool requires Python 3.11 and involves a setup process involving cloning the repository, installing dependencies, setting up environment variables, and running backend and frontend servers. Users can personalize their videos with their own music and fonts and have the option for automatic YouTube uploads, which requires Google Cloud Platform setup and OAuth consent. MP includes troubleshooting tips, encourages donations, and notes that it currently does not accept pull requests.",Reviving MoneyPrinter: A New Era for YouTube Shorts Automation,"MoneyPrinter has been revitalized, inviting contributions on automating YouTube Shorts creation. With a simple setup requiring Python 3.11, users can effortlessly generate videos by merely entering a topic. This reinvigoration not only simplifies content creation but also integrates features for automatic YouTube uploading, enhancing the platform's accessibility and efficiency for creators. Explore the easy installation, usage steps, and broaden your video creation capabilities with MoneyPrinter today.","Discover how MoneyPrinter transforms YouTube Shorts creation with its latest unarchiving, enabling easy automation, automatic uploads, and a streamlined installation process for creators.",Video Translation Tool,"Python
+
+
+
+
+
+        8,477
+
+
+
+
+
+        1,081
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        45 stars today",,https://www.youtube.com/watch?v=mkZsaDA2JnA,8477,2024-01-31T18:53:24Z
+2024-03-13,https://github.com/yihong0618/xiaogpt,https://raw.githubusercontent.com/yihong0618/xiaogpt/main/README.md,"XiaoGPT is a software project that allows users to interact with various AI models, including ChatGPT, GPT-3, and others, using a Xiaomi AI Speaker. It supports multiple AI types, including New Bing, ChatGLM, Gemini, Bard, and 通义千问, and is configurable to work with different services for enhanced functionality, such as voice synthesis and internet search. To use XiaoGPT, users need a Xiaomi speaker, a ChatGPT id, and a Python 3.8+ environment. Installation involves running several commands to set environment variables and install XiaoGPT via pip. The software allows customization and extended functionality through various flags, supporting different APIs for AI interaction, changing TTS capabilities, and configuring network settings for users behind firewalls or in special network environments. It's developed and maintained with community contributions, offering detailed documentation and support for issues. XiaoGPT offers Docker support for easier deployment, and it is open for contributions and improvements from the community.",Unlocking the Power of Xiaomi AI with XiaoGPT: A Comprehensive Guide,"Discover how XiaoGPT transforms the Xiaomi AI speaker into a powerful tool for interacting with ChatGPT, New Bing, Gemini, and more AI services. Learn to easily install, configure, and utilize XiaoGPT for enhanced communication with your Xiaomi device, opening a world of possibilities for AI-driven assistance at home. This guide provides a step-by-step approach to integrating cutting-edge AI technology with Xiaomi's hardware for an unrivaled smart home experience.","Learn how to elevate your Xiaomi AI speaker's capabilities with XiaoGPT. This guide covers installation, setup, and usage tips to harness the power of ChatGPT and other AI services seamlessly with your Xiaomi device.",AI Python Client,"Python
+
+
+
+
+
+        4,861
+
+
+
+
+
+        702
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",https://user-images.githubusercontent.com/15976103/220028375-c193a859-48a1-4270-95b6-ef540e54a621.png; https://user-images.githubusercontent.com/15976103/226802344-9c71f543-b73c-4a47-8703-4c200c434dec.png,https://www.youtube.com/watch?v=K4YA8YwzOOA,4861,2023-02-16T03:41:28Z
+2024-03-13,https://github.com/skills-cogrammar/C7-Lecture-Backpack,https://raw.githubusercontent.com/skills-cogrammar/C7-Lecture-Backpack/main/README.md,"The Lecture Backpack is a rich educational resource for students and enthusiasts in software engineering, data science, full stack web development, and coding interview preparation. It offers a well-structured repository that includes basic programming fundamentals to advanced topics across different tech fields. The content is organized into five main sections: Python programming basics, advanced Software Engineering, comprehensive Data Science, Full Stack Web Development, and Coding Interview Workshops. Each section contains tailored learning materials ranging from basic concepts and tools to specialized subjects like machine learning, application security, and algorithms. To start, users are encouraged to clone the repository and select a learning track that matches their educational phase or interest area. This project is freely available under the MIT License, promoting an open and accessible learning environment for everyone interested in tech.",Maximize Learning with the Ultimate Lecture Backpack for Tech Enthusiasts,"Dive into the tech world with the Lecture Backpack, your go-to repository for mastering software engineering, data science, and full stack web development. Whether you're preparing for coding interviews or looking to reinforce your programming foundations, this comprehensive resource has you covered. Explore our curated learning tracks - from Python basics to advanced application development and data analysis techniques. Get ready to elevate your skills with hands-on workshops and practical exercises. Start your journey today and unlock the potential of every tech domain at your own pace.","Unlock your tech potential with the Lecture Backpack, offering tailored tracks in software engineering, data science, web development, and coding interviews. Master the skills needed for a thriving career in tech.",Data Science Learning,"Python
+
+
+
+
+
+        41
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,,41,2024-03-05T15:43:26Z
+2024-03-13,https://github.com/friuns2/Leaked-GPTs,https://raw.githubusercontent.com/friuns2/Leaked-GPTs/main/README.md,"The document lists various GPT (Generative Pre-trained Transformer) prompts designed for a wide range of applications. These include general activities like creative writing, game explanations, tech support, and recipe suggestions, as well as more specialized roles such as mocktail recipes, math mentoring, laundry advice, image modification, and more. Some GPTs are themed around pop culture or specific professional advice, including negotiation strategies, sticker design, sous chef roles, and even a mixologist for non-alcoholic drinks. There are also GPT prompts for educational support in subjects like math, and others offer entertainment or utility, like playing board games, designing coloring book pages, or providing tech support. The document also includes links to more prompts hosted on GitHub, indicating a community-driven effort to expand the applications of GPT technology across various fields and interests, showcasing the versatility and adaptability of GPT models for both fun and practical use cases.",Unveiling the Diversity of GPTs: From Tech Support to Creative Writing,"Discover the multifaceted world of GPTs tailored for various needs, from tech support to creative writing. From assisting in setting up printers, understanding memes, to becoming a mocktail mixologist, these AI agents offer a wide range of services. They cover everything from helping with math homework to turning ideas into coloring book pages. Embrace the future with GPTs designed to enhance your daily life and spark creativity.","Explore the vast array of specialized GPTs designed to assist in tech support, negotiations, creative projects, and more. Enhance your daily life and unleash creativity with AI.",Language Models,"Python
+
+
+
+
+
+        1,595
+
+
+
+
+
+        273
+
+
+        Built by
+
+          
+
+
+
+
+
+        9 stars today",,,1595,2023-11-27T09:42:12Z
+2024-03-13,https://github.com/levihsu/OOTDiffusion,https://raw.githubusercontent.com/levihsu/OOTDiffusion/main/README.md,"The OOTDiffusion repository hosts the official implementation of a model designed for controllable virtual try-ons, named OOTDiffusion. It leverages outfitting fusion with latent diffusion techniques, providing a tool for realistic garment fitting in digital environments. The model has been trained on two key datasets: VITON-HD for half-body garments and Dress Code for full-body outfits. Users can experiment with the model via a demo hosted on Hugging Face, backed by ZeroGPU for GPU support. Installation involves cloning the repository, setting up a conda environment, and installing necessary dependencies. The inference process supports both half-body and full-body models, with specific instructions provided for running each. The system requirements include Linux (Ubuntu 22.04) and downloading a specific checkpoint. The creators aim to complete the project by adding training code to accompany the already available paper, Gradio demo, inference code, and model weights.",Exploring OOTDiffusion: A Leap in Virtual Fashion Try-Ons,"Discover OOTDiffusion, the cutting-edge AI for seamless virtual try-ons, enabling highly controllable outfitting fusion using latent diffusion. This innovative tech supports full and half-body trials, paving the way for a revolutionized fashion experience. Its application spans from personal styling to design, supported by accessible model checkpoints and environmental compatibility. Dive into the future of fashion with OOTDiffusion's user-friendly interface and promising ONNX support for enhanced human parsing. A must-try for tech enthusiasts and fashion innovators.","Unveil the future of virtual fashion with OOTDiffusion, offering state-of-the-art outfitting fusion for an immersive try-on experience. Available now with comprehensive guides and ONNX support.",Image Generation Platform,"Python
+
+
+
+
+
+        3,432
+
+
+
+
+
+        468
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        68 stars today",https://raw.githubusercontent.com/levihsu/OOTDiffusion/main/images/demo.png; https://raw.githubusercontent.com/levihsu/OOTDiffusion/main/images/workflow.png,,3432,2024-01-24T07:39:15Z
+2024-03-13,https://github.com/cubiq/ComfyUI_IPAdapter_plus,https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/README.md,"The ComfyUI IPAdapter Plus integrates IPAdapter models with ComfyUI, ensuring memory efficiency, speed, and compatibility with Comfy updates. The tool supports a range of functionalities, including handling non-square reference images for upscaling, FaceID models, and batch processing for animations. Key features include support for FaceID and FaceID Plus models, including an exclusive node for FaceID Plus v2, and the introduction of an experimental `noise` parameter for potentially better outcomes. It requires specific pre-trained models and image encoders downloadable from Huggingface. Installation includes placing pre-trained models and dependencies in designated directories within the ComfyUI environment. It offers a variety of workflows and examples for different applications, such as animation, image weighting, and attention masking. Troubleshooting guidance is provided, and the project also has a counterpart implementation for Huggingface Diffusers. Credits are given to the original IPAdapter, ComfyUI projects, and contributors.",Unlocking Creative Workflows with ComfyUI IPAdapter Plus: A Comprehensive Guide,"Discover the power of ComfyUI IPAdapter Plus for advanced image manipulation and enhancement. This essential tool offers memory-efficient, fast updates and compatibility with ComfyUI, ensuring your creative projects stay ahead of the curve. From experimental tiled IPAdapter support to crucial updates for FaceID Portrait models, our guide covers everything you need to know to leverage this innovative technology. Plus, dive into the myriad functionalities with our example directory and get up to speed with video tutorials.","Explore the latest ComfyUI IPAdapter Plus features for groundbreaking image-to-image conditioning. Learn about experimental tiled IPAdapter, FaceID updates, and access comprehensive tutorials for maximizing your creative potential.",Computer Vision Platform,"Python
+
+
+
+
+
+        1,547
+
+
+
+
+
+        122
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./ipadapter_workflow.png; https://img.youtube.com/vi/7m9ZZFU3HWo/hqdefault.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/noise_example.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/prep_images.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/canny_controlnet.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/face_swap.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/inpainting.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/batch_images.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/image_weighting.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/weight_types.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/masking.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/timestepping.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/face_id_wf.jpg,https://www.youtube.com/watch?v=7m9ZZFU3HWo; https://www.youtube.com/watch?v=7m9ZZFU3HWo; https://www.youtube.com/watch?v=mJQ62ly7jrg; https://www.youtube.com/watch?v=vqG1VXKteQg; https://www.youtube.com/watch?v=ddYbhv3WgWw,1547,2023-08-30T09:50:45Z
+2024-03-13,https://github.com/lizhe00/AnimatableGaussians,https://raw.githubusercontent.com/lizhe00/AnimatableGaussians/master/README.md,"On March 11, 2024, a new method for creating high-fidelity human avatars called ""Animatable Gaussians"" was introduced by Zhe Li, Zerong Zheng, Lizhen Wang, and Yebin Liu from Tsinghua University and NNKosmos Technology. This innovative technique, accepted by CVPR 2024, leverages 2D CNNs and 3D Gaussian splatting to dynamically model realistic avatars with detailed garment textures from RGB videos. It marks a significant improvement over previous MLP-based methods, particularly in regressing pose-dependent garment details, by using a template-based 2D parameterization approach and a StyleGAN-based CNN for learning pose-dependent Gaussian maps. Alongside, the AvatarReX dataset, a high-resolution multi-view video dataset intended for avatar modeling, was released. The project's resources, including the code and instructions for installation, data preparation, avatar training, animation, and evaluation metrics, are made accessible, with future plans to release all checkpoints and preprocessed datasets. This advancement opens new doors for research and applications in virtual reality, gaming, and digital content creation.",Revolutionizing Avatar Modeling: Discover Animatable Gaussians,"In a significant leap forward, the Animatable Gaussians project introduces a novel avatar representation method, blending 2D CNNs with 3D Gaussian splatting to craft lifelike, high-fidelity human models. Released on 03/11/2024, the AvatarReX dataset alongside this innovative approach marks a new era in avatar modeling. Extensively validated, this technique surpasses other state-of-the-art methods in creating dynamic, realistic avatars. Now, developers and researchers have access to this groundbreaking work, promising a vast array of applications in virtual reality, animation, and beyond. Embrace the cutting-edge in avatar technology and explore what Animatable Gaussians can offer.","Discover the groundbreaking Animatable Gaussians project – a new technique using 2D CNNs and 3D Gaussian splatting for creating high-fidelity human avatars, backed by the newly released AvatarReX dataset.",Computer Vision Platform,"Python
+
+
+
+
+
+        554
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+        28 stars today",,https://www.youtube.com/watch?v=kOmZxD0HxZI,554,2023-11-25T02:35:39Z
