@@ -389,12 +389,11 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                                                  ):
     
     if os.getenv("AZURE") == "true":
+        print("Running in Azure environment...")
         modelname = os.getenv("AZURE_MODEL")
         api_key = os.getenv("AZURE_KEY")
         api_base = os.getenv("AZURE_ENDPOINT")
         api_version = os.getenv("AZURE_VERSION")
-
-        print("Running in Azure environment...")
 
     if not openai_api_key:
         from dotenv import load_dotenv
