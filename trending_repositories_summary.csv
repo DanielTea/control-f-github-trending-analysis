@@ -5150,3 +5150,311 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         11 stars today",https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./ipadapter_workflow.png; https://img.youtube.com/vi/7m9ZZFU3HWo/hqdefault.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/noise_example.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/prep_images.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/canny_controlnet.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/face_swap.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/inpainting.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/batch_images.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/image_weighting.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/weight_types.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/masking.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/timestepping.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/face_id_wf.jpg,https://www.youtube.com/watch?v=7m9ZZFU3HWo; https://www.youtube.com/watch?v=7m9ZZFU3HWo; https://www.youtube.com/watch?v=mJQ62ly7jrg; https://www.youtube.com/watch?v=vqG1VXKteQg; https://www.youtube.com/watch?v=ddYbhv3WgWw,1547,2023-08-30T09:50:45Z
+2024-03-14,https://github.com/BAAI-Agents/Cradle,https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/README.md,"""Cradle"" is a framework developed as a first attempt towards ensuring general computer control (GCC). It helps agents excel at any computer task by promoting strong reasoning abilities, self-improvement, and skill curation. The system operates in a standardized general environment with bare minimum requirements. Set up requires specific software and environment adjustments, including CUDA environment, GroundingDino, and video subfinder installations. It's been tested and is ready for use in the RDR2 game, available on various PC platforms, though now only fully tested on MS Windows. Developers seek to continually clean, update, and extend Cradle to more games and software.",Cradle: Pioneering General Computer Control,"Cradle is a novel framework pushing the boundaries of General Computer Control (GCC). Imbued with strong reasoning skills, self-improvement capabilities, and skill curation, Cradle empowers computer agents to ace any task. It operates in a standardized general environment with minimal requirements.","Explore how the Cradle framework paves the way to General Computer Control by enabling agents to perform any computer task efficiently, with a focus on reasoning ability, self-improvement, and skill curation. Discover this breakthrough in computing here.",Game Development Tool,"Python
+
+
+
+
+
+        302
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        44 stars today",https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/cradle-intro.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/rd2_task_grid_03.gif; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/rd2_task_grid_02.gif; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/rd2_task_grid_01.gif; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/rd2_task_grid_04.gif; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/video1.jpg; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/video2.jpg; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/raw_input.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/direct_input.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/move_control_previous.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/move_control_now.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/game_position.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/resolution.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/enlarge_minimap.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/minimap_setting.png; https://raw.githubusercontent.com/BAAI-Agents/Cradle/main/docs/images/subtitles.png,https://www.youtube.com/watch?v=Cx-D708BedY; https://www.youtube.com/watch?v=Oa4Ese8mMD0,302,2024-03-03T09:39:05Z
+2024-03-14,https://github.com/imartinez/privateGPT,https://raw.githubusercontent.com/imartinez/privateGPT/main/README.md,"PrivateGPT is an AI project which uses Large Language Models (LLMs) to answers queries about documents while preserving privacy, as the data doesn't leave the execution environment. This project provides an API that facilitates the building of private AI applications. It supports both regular and streaming responses and offers a high-level API that manages complex RAH (Retrieval Augmented Generation) pipeline implementation and a low-level API for creating advanced pipelines. PrivateGPT comes with a Gradio UI client for testing the API and several other useful tools. Feedback and contributions are encouraged to refine the project. Documentation is available at docs.privategpt.dev.","Maximize AI Potential with PrivateGPT: Secure, Offline Language Processing","PrivateGPT is an innovative, secure AI project allowing query-based interaction with your documents. Ensuring 100% data privacy even without an internet connection. It extends OpenAI API standards and supports various response types. Ideal for developers building private,  context-aware AI apps, promising experimentation, and production-ready tools.","Learn how to leverage PrivateGPT - a production-ready AI project for private, offline interaction with your documents using language models. Ideal for building secure, context-aware AI applications.",Private AI Framework,"Python
+
+
+
+
+
+        48,549
+
+
+
+
+
+        6,379
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        89 stars today",,,48549,2023-05-02T09:15:31Z
+2024-03-14,https://github.com/geekan/MetaGPT,https://raw.githubusercontent.com/geekan/MetaGPT/main/README.md,"MetaGPT is a multi-agent framework that assigns roles to Generative Pre-training Transformers (GPT) in order to enable them to work together to tackle complex tasks. By taking a single line instruction as input, the system can produce various outputs such as user stories, competitive analysis, requirements, data structures, API's, and documents. Inside MetaGPT, there are simulated roles of a software company including product managers, architects, project managers, and engineers. Additionally, it has released updates that included new features and tools, and its paper has been accepted for oral presentation at the International Conference on Learning Representations 2024.",MetaGPT: Revolutionizing Complex Tasks through Multi-Agent Collaboration,"MetaGPT is a GPT-based multi-agent framework dedicated to handling complex tasks. It assigns different roles to GPTs, enabling creative problem solving. Users will benefit from recent updates, presentations and its application in a software company.","Learn about MetaGPT, a powerful GPT-based multi-agent software providing unique solutions for intricate issues. Explore the latest updates and understand its practical application in a software company.",Collaborative AI Framework,"Python
+
+
+
+
+
+        35,171
+
+
+
+
+
+        4,022
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        233 stars today",https://raw.githubusercontent.com/geekan/MetaGPT/main/docs/resources/MetaGPT-new-log.png; https://raw.githubusercontent.com/geekan/MetaGPT/main/docs/resources/software_company_cd.jpeg,https://www.youtube.com/watch?v=uT75J_KG_aY,35171,2023-06-30T09:04:55Z
+2024-03-14,https://github.com/openai/transformer-debugger,https://raw.githubusercontent.com/openai/transformer-debugger/main/README.md,"Transformer Debugger (TDB) is a toolkit developed by OpenAI, designed to examine the behaviors of small language models. It combines automated interpretability techniques and sparse autoencoders to allow investigation into language models. TDB can answer questions regarding a model's output and can also intervene in the forward pass to gauge its effect on model behavior. It identifies components contributing to the behavior, generates explanations for these components' activation, and traces circuits between components. The tool is equipped with a neuron viewer, an activation server, and a simple inference library for GPT-2 models. Detailed setup instructions are provided.",Investigating Language Model Behaviors with Transformer Debugger Tool,"OpenAI's Superalignment team developed the Transformer Debugger (TDB) tool for investigating specific behaviors of small language models. This tool integrates automated interpretability techniques and sparse autoencoders to examine why models output certain tokens and attend to specific prompts. It exposes neural, attention head, and autoencoder latent components that contribute to the behavior, providing an exploration platform before the need for coding.","Discover the capacities of OpenAI's Transformer Debugger (TDB). Understand small language model behaviors and core components by probing automated interpretability and sparse autoencoders, assisting in AI behavior investigation and explanation generation.",Language Models,"Python
+
+
+
+
+
+        2,779
+
+
+
+
+
+        133
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        426 stars today",,,2780,2024-03-11T23:06:25Z
+2024-03-14,https://github.com/princeton-nlp/SWE-bench,https://raw.githubusercontent.com/princeton-nlp/SWE-bench/main/README.md,"SWE-bench, introduced in a paper for ICLR 2024, is a benchmark for evaluating large language models on software issues taken from GitHub. Given a codebase and a related issue, a language model aims to generate a solution. Users can train their own models on pre-processed datasets, use SWE-bench with models they have access to, evaluate these models, and run SWE-bench data collection on their own repositories. This tool has been developed by Princeton-NLP, and can be used under the MIT license. The researchers behind it invite the broader NLP, Machine Learning, and Software Engineering research communities to contribute to its development.",SWE-bench: Evaluating Language Models on Real-World GitHub Issues,"SWE-bench presents a unique benchmark for gauging large language model's effectiveness in resolving real-world software issues from GitHub. This language model attempts to generate a patch, given a codebase and an issue. Explore the in-depth setup, usage, downloads, and tutorials on our page. Feedback and contributions from the NLP, Machine Learning, and Software Engineering research communities are welcomed and appreciated.","Join us in resolving real-world GitHub issues using large language models with SWE-bench. Being an interactive part of the exploration, from setting it up to evaluating the results, and making a difference!",Language Models,"Python
+
+
+
+
+
+        457
+
+
+
+
+
+        38
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        94 stars today",https://raw.githubusercontent.com/princeton-nlp/SWE-bench/main/assets/swellama_banner.png; https://raw.githubusercontent.com/princeton-nlp/SWE-bench/main/assets/teaser.png,,457,2023-10-04T01:22:46Z
+2024-03-14,https://github.com/Ableton/maxdevtools,https://raw.githubusercontent.com/Ableton/maxdevtools/main/README.md,"The repository includes resources and tools used by Ableton in developing and maintaining Max devices. These include Max for Live Production Guidelines, Ableton's patch code standard and maxdiff for readable git diffs for Max devices and Max patch files. These resources are mainly for experienced Max for Live builders. For beginners, they are advised to check out the Building Max Devices Pack. The maintainer of these resources is Mattijs Kneppers.",Max Device Development Tools: Essential Guide for Ableton Users,"This blog post provides a comprehensive collection of development tools for Max devices used at Ableton, beneficial primarily for experienced Max for Live builders. It includes Ableton's patch code standard, Max for Live production guidelines and a unique tool, 'maxdiff', for getting readable git diffs for Max devices.","Explore the essential Max device development tools used by Ableton. Understand the Ableton's Max for Live production guidelines, patch code standard, and learn about 'maxdiff' tool, perfect for experienced Max builders.",Software Development,"Python
+
+
+
+
+
+        187
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        71 stars today",,,187,2023-12-08T11:13:13Z
+2024-03-14,https://github.com/pytorch/pytorch,https://raw.githubusercontent.com/pytorch/pytorch/main/README.md,"PyTorch is a Python package featuring tensor computation (similar to NumPy) with strong GPU acceleration and deep neural networks developed on a tape-based autograd system. It allows utilizing favorite Python packages like NumPy, SciPy, and Cython. Pytorch offers features like a GPU-ready tensor library, dynamic neural networks through tape-based autograd, flexibility via Python integration, and quick operations. It is used as a replacement for NumPy to leverage GPU power and a deep learning research tool for maximum flexibility and speed. The website includes comprehensive instructions on PyTorch's installation, extending its functionalities, building documentation, and communication means for users.
+",Deep Dive into PyTorch: Python-first GPU Accelerated Deep Learning,"Discover the secrets of PyTorch, a Python-first deep learning platform. Learn about its powerful GPU support, dynamic neural networks, integration with Python packages, and more.",This blog post explores PyTorch - a Python package with tensor computation and dynamic deep neural networks on GPUs. Utilize Python packages to extend PyTorch performance.,Deep Learning Platform,"Python
+
+
+
+
+
+        76,510
+
+
+
+
+
+        20,679
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        59 stars today",https://github.com/pytorch/pytorch/blob/main/docs/source/_static/img/pytorch-logo-dark.png; https://raw.githubusercontent.com/pytorch/pytorch/main/./docs/source/_static/img/tensor_illustration.png; https://github.com/pytorch/pytorch/blob/main/docs/source/_static/img/dynamic_graph.gif,,76510,2016-08-13T05:26:41Z
+2024-03-14,https://github.com/pyodide/pyodide,https://raw.githubusercontent.com/pyodide/pyodide/main/README.md,"Pyodide is a Python distribution for web browsers and Node.js, built on WebAssembly. Created in 2018 by Michael Droettboom at Mozilla, Pyodide allows users to install and run Python packages in the browser, supporting both pure Python packages and those with C extensions. It features a robust Javascript-Python interface, enabling mixed-language coding, and gives Python full access to Web APIs when used in a browser. Pyodide is open source and contributions are encouraged. It also has a try-before-you-commit REPL for user convenience and can be used in three ways to suit different needs, including hosted distribution and building from source.
+",The Ultimate Guide to Pyodide: Python Distribution for the Browser and Node.js,"Discover Pyodide, a port of CPython to WebAssembly that makes it possible to run Python packages in the browser and Node.js. Learn about its features, installation methods, and how it can seamlessly integrate Python and Javascript code.","A comprehensive overview of Pyodide - a Python distribution for the browser and Node.js based on WebAssembly. Learn how to get started, its key features, and the benefits of integrating Python and JavaScript code.",Python Web Development,"Python
+
+
+
+
+
+        11,145
+
+
+
+
+
+        751
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/pyodide/pyodide/main/./docs/_static/img/pyodide-logo-readme.png; https://circleci.com/gh/pyodide/pyodide.png,,11145,2018-02-23T19:21:29Z
+2024-03-14,https://github.com/arcee-ai/mergekit,https://raw.githubusercontent.com/arcee-ai/mergekit/main/README.md,"Charles Goddard, author of `mergekit`, a toolkit for merging pre-trained language models, has joined arcee.ai. He will continue developing `mergekit` with arcee.ai's backing and maintain its open source nature. `mergekit` can perform comprehensive merges using a minimalistic CPU or just 8GB of VRAM, supporting various platforms like Llama, Mistral, and GPT-NeoX, among others. It also allows the piecewise assembly of language models from layers. Once a merge is completed, users can upload and share it on Hugging Face Hub. `mergekit` supports various model merging methods like linear, SLERP, task arithmetic, TIES, DARE, and passthrough.
+",Maximize Machine Learning Efficiency with Mergekit: A Comprehensive Guide,"Become an expert in using `mergekit` and enhance your machine learning endeavors. Learn tips and tricks about its installation, usage and key features like lazy loading of tensors, CPU or GPU execution, and supporting numerous merging algorithms. Explore how to effectively leverage pre-trained language models while facing resource-constrained situations.",Unlock the true potential of pre-trained language models with our guide to `mergekit`. Experience seamless integration under resource-constrained situations with an array of merging methods supported. Find out more!,Language Models,"Python
+
+
+
+
+
+        2,571
+
+
+
+
+
+        201
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        34 stars today",,,2572,2023-08-21T03:50:04Z
+2024-03-14,https://github.com/materialsproject/pymatgen,https://raw.githubusercontent.com/materialsproject/pymatgen/main/README.md,"Pymatgen (Python Materials Genomics) is an open-source Python library used for materials analysis. It provides flexible classes for representing elements, molecules, and structures as well as extensive input/output support for multiple file formats. This tool offers powerful analysis features like phase diagrams, Pourbaix diagrams, diffusion analyses, and more. Pymatgen is well documented and reliable, and used by a significant number of researchers along with the Materials Project, which survives rigorous scrutiny consistently. It's open for contributions from the user community, boosting visibility and impact of their research. The library is also optimized for speed and continues to evolve with a growing ecosystem of developers and add-ons.",Pymatgen: Your Comprehensive Guide to Python Materials Genomics Library,"Pymatgen is a robust, open-source Python library used for materials analysis. It offers flexible classes for element, site, molecule, and structure representation with extensive input/output support. Pymatgen includes powerful tools for analysis and electronic structure analyses along with seamless integration with the Materials Project REST API.","Explore the world of materials analysis with Pymatgen, a robust, open-source Python library. Offering a wide range of features including class representation, analysis tools, the ability to integrate with the Materials Project REST API and more, it is a must-have for anyone in the materials genomics field.",Open Source Tool,"Python
+
+
+
+
+
+        1,316
+
+
+
+
+
+        809
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,,1316,2011-10-23T04:10:39Z
+2024-03-14,https://github.com/PygmalionAI/aphrodite-engine,https://raw.githubusercontent.com/PygmalionAI/aphrodite-engine/main/README.md,"Aphrodite is the official backend engine for PygmalionAI, designed to offer fast inference speeds to numerous users. It features continuous batching, efficient K/V management, optimized CUDA kernels, quantization support, distributed inference, and a variety of sampling methods. It supports varied applications through different options for LLM inference. Aphrodite's development compute capacity is provided by Arc Compute and it builds upon the work of various other projects. It is designed to consume 90% of a GPU's VRAM and can limit memory utilization based on the server's launch parameters. Aphrodite's installation and usage guidelines are available on their Wiki page.",Introducing Aphrodite: The Powerful Backend Engine for PygmalionAI,"Aphrodite is the official backend engine for PygmalionAI, designed to serve as the inference endpoint for the PygmalionAI website. It is equipped with advanced features such as continuous batching and efficient K/V management. It boasts of optimized CUDA kernels for better inference along with a variety of sampling methods. Aphrodite ensures faster context lengths and throughput, thanks to the 8-bit KV Cache. It provides easy deployment with Docker support.","Unveiling Aphrodite, the backend engine for PygmalionAI, delivering fast injection points, continuous batching, efficient K/V management, and optimized CUDA kernels for improved inference. Explore the power of Aphrodite for high-speed AI operations.",Artificial Intelligence,"Python
+
+
+
+
+
+        376
+
+
+
+
+
+        53
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://raw.githubusercontent.com/PygmalionAI/aphrodite-engine/main/assets/aphrodite.png; https://raw.githubusercontent.com/PygmalionAI/aphrodite-engine/main/assets/bsz1.png,,376,2023-06-23T02:34:29Z
