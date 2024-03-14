@@ -40,7 +40,7 @@ jobs:
         AZURE_KEY: ${{ secrets.AZURE_KEY }}
         AZURE_ENDPOINT: ${{ secrets.AZURE_ENDPOINT }}
         AZURE_VERSION: ${{ secrets.AZURE_VERSION }}
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
         python -u main.py --CSV_PATH './trending_repositories_summary.csv' --ClassName 'Classification' --url 'https://github.com/trending/python?since=daylie'
     
