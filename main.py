@@ -403,6 +403,7 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
     if local_model:
         client = openai.OpenAI(api_key=openai_api_key, base_url="http://localhost:11434/v1")
     elif os.getenv("AZURE") == "true":
+        print("Running in Azure client...")
         client = openai.AzureOpenAI(api_key=api_key, azure_endpoint=api_base, api_version=api_version)
     else: 
         client = openai.OpenAI(api_key=openai_api_key)
