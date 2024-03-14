@@ -1,6 +1,7 @@
 name: Tweet New GitHub Repositories
 
 on:
+  workflow_dispatch:  # Added workflow_dispatch trigger
   workflow_run:
     workflows: ["Update CSV - OPENAI"]
     types:
