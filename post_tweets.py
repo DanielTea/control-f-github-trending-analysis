@@ -30,6 +30,17 @@ tweet_content = 'This is a test tweet.'
 image_path = './image.png'  # Use None if no image from local path
 image_url = 'http://example.com/image.png'  # Use None if no image from URL
 
+if os.getenv("AZURE") == "true":
+        print("Running in Azure environment...")
+        modelname = os.getenv("AZURE_MODEL")
+        api_key = os.getenv("AZURE_KEY")
+        api_base = os.getenv("AZURE_ENDPOINT")
+        api_version = os.getenv("AZURE_VERSION")
+        client = openai.AzureOpenAI(api_key=api_key, azure_endpoint=api_base, api_version=api_version)
+else:
+    client = openai.OpenAI(api_key=openai_api_key)
+    modelname = "gpt-3.5-turbo"
+
 
 # Load the filtered CSV file
 df = pd.read_csv('./filtered_repositories_summary.csv')
@@ -44,11 +55,9 @@ for index, row in df.iterrows():
         image_url = image_links[0]
 
         if image_url:
-            client = openai.OpenAI(api_key=openai_api_key)
-
                 # Classify the GitHub project
             blog_hashtags = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=modelname,
                 messages=[
                     {"role": "system", "content": "You create 2-3 short hastags for this title, nothing else no comments or any other text. Don't enumerate the hastags just all of them in one line. Put max 1-2 words together."},
                     {"role": "user", "content": row['Blog-Title']}
@@ -99,11 +108,9 @@ for index, row in df.iterrows():
 
             tweet_content = f"🤖 {row['Blog-Title']}\n\n Follow Us-> www.controlf.io \n\n Github Repository-> {row['Repository-Link']}\n\n YT-Video-> {video_link}"
 
-            client = openai.OpenAI(api_key=openai_api_key)
-
                 # Classify the GitHub project
             blog_hashtags = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=modelname,
                 messages=[
                     {"role": "system", "content": "You create 2-3 short hastags for this title, nothing else no comments or any other text. Don't enumerate the hastags just all of them in one line. Put max 1-2 words together."},
                     {"role": "user", "content": row['Blog-Title']}

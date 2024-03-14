@@ -37,6 +37,12 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          
+          AZURE: true
+          AZURE_MODEL: ${{ secrets.AZURE_MODEL }}
+          AZURE_KEY: ${{ secrets.AZURE_KEY }}
+          AZURE_ENDPOINT: ${{ secrets.AZURE_ENDPOINT }}
+          AZURE_VERSION: ${{ secrets.AZURE_VERSION }}
         run: python post_tweets.py
 
       - name: Commit and Push Changes
