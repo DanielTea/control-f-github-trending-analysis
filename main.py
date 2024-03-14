@@ -448,17 +448,6 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
         for index, (readme_link, repository_link, star_count_delta) in enumerate(zip(readmes, repository_links, stars)):
             if readme_link not in existing_links and readme_link != '':  # Skip links that are already in the CSV
 
-                answer = client.chat.completions.create(
-                model=modelname,
-                messages=[
-                    {"role": "system", "content": "You are helpful assistant"},
-                    {"role": "user", "content": "what is love?"}
-                            ]
-                        )
-
-                text = answer.choices[0].message.content
-                print(text)
-
                 summary, classification = summarize_and_classify_readme(readme_link, classes=classes, client=client, modelname=modelname)
 
                 blog_text_json = create_a_blogpost_readme(readme_link, client=client, modelname=modelname)
