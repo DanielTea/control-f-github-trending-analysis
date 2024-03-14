@@ -5150,27 +5150,3 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         11 stars today",https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./ipadapter_workflow.png; https://img.youtube.com/vi/7m9ZZFU3HWo/hqdefault.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/noise_example.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/prep_images.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/canny_controlnet.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/face_swap.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/inpainting.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/batch_images.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/image_weighting.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/weight_types.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/masking.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/timestepping.jpg; https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/./examples/face_id_wf.jpg,https://www.youtube.com/watch?v=7m9ZZFU3HWo; https://www.youtube.com/watch?v=7m9ZZFU3HWo; https://www.youtube.com/watch?v=mJQ62ly7jrg; https://www.youtube.com/watch?v=vqG1VXKteQg; https://www.youtube.com/watch?v=ddYbhv3WgWw,1547,2023-08-30T09:50:45Z
-2024-03-13,https://github.com/lizhe00/AnimatableGaussians,https://raw.githubusercontent.com/lizhe00/AnimatableGaussians/master/README.md,"On March 11, 2024, a new method for creating high-fidelity human avatars called ""Animatable Gaussians"" was introduced by Zhe Li, Zerong Zheng, Lizhen Wang, and Yebin Liu from Tsinghua University and NNKosmos Technology. This innovative technique, accepted by CVPR 2024, leverages 2D CNNs and 3D Gaussian splatting to dynamically model realistic avatars with detailed garment textures from RGB videos. It marks a significant improvement over previous MLP-based methods, particularly in regressing pose-dependent garment details, by using a template-based 2D parameterization approach and a StyleGAN-based CNN for learning pose-dependent Gaussian maps. Alongside, the AvatarReX dataset, a high-resolution multi-view video dataset intended for avatar modeling, was released. The project's resources, including the code and instructions for installation, data preparation, avatar training, animation, and evaluation metrics, are made accessible, with future plans to release all checkpoints and preprocessed datasets. This advancement opens new doors for research and applications in virtual reality, gaming, and digital content creation.",Revolutionizing Avatar Modeling: Discover Animatable Gaussians,"In a significant leap forward, the Animatable Gaussians project introduces a novel avatar representation method, blending 2D CNNs with 3D Gaussian splatting to craft lifelike, high-fidelity human models. Released on 03/11/2024, the AvatarReX dataset alongside this innovative approach marks a new era in avatar modeling. Extensively validated, this technique surpasses other state-of-the-art methods in creating dynamic, realistic avatars. Now, developers and researchers have access to this groundbreaking work, promising a vast array of applications in virtual reality, animation, and beyond. Embrace the cutting-edge in avatar technology and explore what Animatable Gaussians can offer.","Discover the groundbreaking Animatable Gaussians project – a new technique using 2D CNNs and 3D Gaussian splatting for creating high-fidelity human avatars, backed by the newly released AvatarReX dataset.",Computer Vision Platform,"Python
-
-
-
-
-
-        554
-
-
-
-
-
-        19
-
-
-        Built by
-
-          
-
-
-
-
-
-        28 stars today",,https://www.youtube.com/watch?v=kOmZxD0HxZI,554,2023-11-25T02:35:39Z
