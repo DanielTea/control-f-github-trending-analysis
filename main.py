@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import openai
+
 # openai.api_base = "http://localhost:4891/v1"
 
 import csv
@@ -386,6 +387,14 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
                                                  local_model = False,
                                                  modelname = 'gpt-3.5-turbo' 
                                                  ):
+    
+    if os.getenv("AZURE") == "true":
+        modelname = os.getenv("AZURE_MODEL")
+        api_key = os.getenv("AZURE_KEY")
+        api_base = os.getenv("AZURE_Endpoint")
+        api_version = os.getenv("AZURE_VERSION")
+
+        print("Running in Azure environment...")
 
     if not openai_api_key:
         from dotenv import load_dotenv
@@ -394,6 +403,8 @@ def process_trending_repositories_and_create_csv(openai_api_key=None,
 
     if local_model:
         client = openai.OpenAI(api_key=openai_api_key, base_url="http://localhost:11434/v1")
+    elif os.getenv("AZURE") == "true":
+        client = openai.AzureOpenAI(api_key=api_key, azure_endpoint=api_base, api_version=api_version)
     else: 
         client = openai.OpenAI(api_key=openai_api_key)
 
