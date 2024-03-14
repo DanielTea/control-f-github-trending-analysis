@@ -7,6 +7,7 @@ import os
 from PIL import Image
 from io import BytesIO
 import openai
+from PIL import Image, UnidentifiedImageError
 
 import os
 if os.path.isfile('.env'):
@@ -64,7 +65,12 @@ for index, row in df.iterrows():
             response = requests.get(image_url)
             if response.status_code == 200:
                 image_data = BytesIO(response.content)
-                image = Image.open(image_data)
+
+                try:
+                    image = Image.open(image_data)
+                except UnidentifiedImageError:
+                    print("Error: Cannot identify image file.")
+                    image = None
 
                 image_size = len(response.content)
                 print(image_size)
