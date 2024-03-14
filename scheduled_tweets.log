@@ -36,3 +36,5 @@ ERROR:root:Error posting tweet: 401 Unauthorized
 Unauthorized
 ERROR:root:Error posting tweet: 400 Bad Request
 Your media IDs are invalid.
+ERROR:root:Error uploading image: 400 Bad Request
+media type unrecognized.
