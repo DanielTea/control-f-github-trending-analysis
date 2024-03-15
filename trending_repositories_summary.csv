@@ -5458,3 +5458,136 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         8 stars today",https://raw.githubusercontent.com/PygmalionAI/aphrodite-engine/main/assets/aphrodite.png; https://raw.githubusercontent.com/PygmalionAI/aphrodite-engine/main/assets/bsz1.png,,376,2023-06-23T02:34:29Z
+2024-03-15,https://github.com/lavague-ai/LaVague,https://raw.githubusercontent.com/lavague-ai/LaVague/main/README.md,"LaVague is an AI-based tool that automates browser interactions using natural language instructions. It mainly targets automating menial tasks, freeing up time for more important activities. LaVague turns natural language queries into Selenium code, simplifying automation for users and other AI. It is useful for automating personal tasks requiring login, such as paying bills, filling out forms, or extracting data from specific websites. Built on open-source projects, LaVague believes in transparency and alignment with user interests. It integrates various features, including natural language processing, selenium integration for browser automation, open-source elements for transparency, and advanced AI techniques for improved efficiency. Interested individuals can contribute to this early-stage project.",Exploring LaVague: Revolutionizing Web Interactions with Natural Language Processing,"Welcome to LaVague, an innovative platform redefining internet surfing by translating natural language instructions into seamless browser interactions. Discover LaVague's outstanding features including natural language processing, Selenium integration, open-source base, and advanced AI techniques. Examples of LaVague in action reveal how it interacts with various websites, automating menial tasks and web workflows. Aimed at creating more time for meaningful endeavors, LaVague strives to align with users' interests and guarantees privacy via local models. Get started with LaVague through easy-to-follow, accessible routes.","An introduction to LaVague, an advanced AI tool leveraging natural language processing to automate browser interactions. Discover its unique features and learn how to get started.",AI Browser Automation,"Python
+
+
+
+
+
+        2,180
+
+
+
+
+
+        154
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        1,086 stars today",https://raw.githubusercontent.com/lavague-ai/LaVague/main/static/logo.png; https://raw.githubusercontent.com/lavague-ai/LaVague/main/static/hf_lavague.gif; https://raw.githubusercontent.com/lavague-ai/LaVague/main/static/irs_lavague.gif,,2181,2024-02-26T23:40:23Z
+2024-03-15,https://github.com/tiangolo/fastapi,https://raw.githubusercontent.com/tiangolo/fastapi/master/README.md,"FastAPI is an advanced, high-performance framework for building APIs with Python 3.8+ that's based on standard Python type hints. Its key features include being high performance, quick for feature development, having fewer bugs, being easy to use and intuitive, and offering great editor support. FastAPI additionally includes support for OAuth2 with JWT tokens and HTTP Basic auth, WebSocket and dependency injection, among many others. FastAPI is also one of the fastest Python frameworks available according to TechEmpower benchmarks. This project is licensed under the terms of the MIT license.",Mastering FastAPI: High-Performance Python Framework for APIs,"Discover FastAPI, a modern, fast, web-based framework for building APIs with Python 3.8+. Learn how to leverage its key features to develop features rapidly, reduce bugs, and get production-ready code. Plus, it's based on open standards for APIs and is designed to be easy to use and learn.","A comprehensive guide to using FastAPI, a high-performance Python framework for building APIs. Learn how to develop features quickly, reduce bugs, and get your code production-ready.",Python Web Development,"Python
+
+
+
+
+
+        69,328
+
+
+
+
+
+        5,797
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        54 stars today",https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png; https://fastapi.tiangolo.com/img/sponsors/platform-sh.png; https://fastapi.tiangolo.com/img/sponsors/porter.png; https://fastapi.tiangolo.com/img/sponsors/reflex.png; https://fastapi.tiangolo.com/img/sponsors/propelauth.png; https://fastapi.tiangolo.com/img/sponsors/coherence.png; https://fastapi.tiangolo.com/img/sponsors/talkpython-v2.jpg; https://fastapi.tiangolo.com/img/sponsors/speakeasy.png; https://fastapi.tiangolo.com/img/sponsors/codacy.png; https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png; https://fastapi.tiangolo.com/img/index/index-02-redoc-simple.png; https://fastapi.tiangolo.com/img/index/index-03-swagger-02.png; https://fastapi.tiangolo.com/img/index/index-04-swagger-03.png; https://fastapi.tiangolo.com/img/index/index-05-swagger-04.png; https://fastapi.tiangolo.com/img/index/index-06-redoc-02.png; https://fastapi.tiangolo.com/img/vscode-completion.png,,69328,2018-12-08T08:21:47Z
+2024-03-15,https://github.com/Project-MONAI/MONAI,https://raw.githubusercontent.com/Project-MONAI/MONAI/main/README.md,"The Medical Open Network for AI (MONAI) is a PyTorch-based, open-source framework developed for deep learning in healthcare imaging. Its objectives include fostering a community of academic, industrial, and clinical researchers to collaborate on a common foundation, creating advanced training workflows for healthcare imaging, and providing researchers with an optimized way to create and evaluate deep learning models. MONAI offers pre-processing for multi-dimensional medical imaging data, domain-specific implementations for networks and metrics, a customizable design, and multi-GPU support. Examples and tutorials are available for getting started and a place for sharing models is provided in the MONAI Model Zoo.",Unlock the Future of Healthcare with MONAI: An Open Network for Medical AI,"Explore MONAI, a PyTorch-based, open-source platform for deep learning in healthcare imaging. Designed for collaboration between academic, industrial, and clinical researchers, MONAI offers state-of-the-art training workflows and optimized model creation and evaluation.","Delve into the capabilities of MONAI - an open-source network for AI in healthcare with state-of-the-art training workflows, multi-dimensional imaging data preprocessing, and multi-GPU support. Become part of the future of healthcare imaging.",Deep Learning Framework,"Python
+
+
+
+
+
+        5,141
+
+
+
+
+
+        945
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",https://raw.githubusercontent.com/Project-MONAI/MONAI/dev/docs/images/MONAI-logo-color.png,,5141,2019-10-11T16:41:38Z
+2024-03-15,https://github.com/luijait/DarkGPT,https://raw.githubusercontent.com/luijait/DarkGPT/main/README.md,"DarkGPT is an AI assistant designed to perform queries on leaked databases. To install, ensure Python (version 3.8 or higher) is on your system. Clone the DarkGpt repository from GitHub and set up environment variables by copying the '.env.example' file to a new file named '.env'. After specifying your 'dehashed_api_key' in it, install the Python packages required with 'pip install -r requirements.txt'. Finally, run the project via 'python3 main.py'.",Step by Step Guide: How to Install DarkGPT Project | AI Assistant Setup,"Learn how to install DarkGPT, an AI assistant project based on GPT-4-200K. This guide provides a simple step-by-step process to get DarkGPT running in your local environment, covering prerequisites, environment setup, cloning the repository, setting environment variables, installing necessary dependencies, and finally, running the project.","This blog post provides a comprehensive guide on installing the DarkGPT project, an AI assistant based on GPT-4-200K. Learn how to set up your local environment, clone the repository, configure variables, and install dependencies.",AI Coding Assistant,"Python
+
+
+
+
+
+        110
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+        35 stars today",https://i.imgur.com/bYW6pai.jpg,,110,2024-03-12T10:46:45Z
+2024-03-15,https://github.com/phospho-app/phospho,https://raw.githubusercontent.com/phospho-app/phospho/main/README.md,"Phospho is a text analytics platform primarily intended for language learning model (LLM) applications. The platform allows users to detect issues and extract insights from text messages. Included within Phospho’s key features are flexible logging, automated evaluation, insights extraction, data visualization, and collaboration. For utilization, Phospho offers both a self-deploy option and access to a hosted version. The self-deploy option involves a set of steps to configure the platform via Docker, while the hosted version simply requires user registration. The platform also provides pre-generated Codes, and software packages for ease of use. The project is Apache 2.0 licensed.",Unleash your App's Potential with Phospho: The Text Analytics Platform for LLM Apps,"Phospho is the go-to text analytics platform for LLM apps. It detects issues and extracts insights from text messages, aids in gathering user feedback, and is instrumental in measuring success. The platform allows you to iteratively improve your app and create the best conversational experience for users. Confidence in shipping your LLM app in production is assured with Phospho. Step into the world of informed and data-driven app development with Phospho.","Utilize Phospho, an advanced text analytics platform, for your LLM apps. Identify issues, extract insights, receive user feedback, measure success, and improve the conversational experience on your app.",Language Learning Platform,"Python
+
+
+
+
+
+        175
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",https://raw.githubusercontent.com/phospho-app/phospho/main/./platform/public/image/phospho-banner.png; https://raw.githubusercontent.com/phospho-app/phospho/main/./phospho_diagram.png,,175,2023-07-21T14:47:27Z
