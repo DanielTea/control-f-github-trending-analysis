@@ -5591,3 +5591,363 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         25 stars today",https://raw.githubusercontent.com/phospho-app/phospho/main/./platform/public/image/phospho-banner.png; https://raw.githubusercontent.com/phospho-app/phospho/main/./phospho_diagram.png,,175,2023-07-21T14:47:27Z
+2024-03-16,https://github.com/Skyvern-AI/skyvern,https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/README.md,"Skyvern is a platform used to automate browser-based workflows using LLMs (Large Language Models) and computer vision. Unlike traditional scripting methods which can be impaired by website layout changes, Skyvern uses visual elements and reasoning capabilities to interact with and navigate websites, even unvisited ones before. This makes it more resilient to website layout differences and is able to handle complex interactions. It can also deal with tasks such as materials procurement for a manufacturing company, registering accounts on government websites or retrieving insurance quotes from providers in any language. Useful for users who wish to automate manual workflows.",Automate Browser Workflows with Skyvern: Leveraging LLMs & Computer Vision,"Skyvern provides a new approach to automate browser-based workflows using LLMs and computer vision. Unlike traditional methods, Skyvern can operate on websites it has never seen before and is resistant to website layout changes. It uses LLMs to reason through interactions, covering complex situations without customized code.",Discover how Skyvern can help you automate browser-based workflows using LLMs and computer vision. Learn how our approach can adapt to different websites and handle complex situations with ease.,AI Browser Automation,"Python
+
+
+
+
+
+        1,594
+
+
+
+
+
+        67
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        367 stars today",https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/skyvern_logo_blackbg.png; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/geico_shu_recording_cropped.gif; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/skyvern-system-diagram-light.png; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/skyvern_visualizer_run_task.png; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/skyvern_visualizer_debug_llm_response.png; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/skyvern_visualizer_debug_action_screenshot.png; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/finditparts_recording_crop.gif; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/edd_services.gif; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/bci_seguros_recording.gif; https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/images/geico_shu_recording_cropped.gif,,1594,2024-02-28T15:45:19Z
+2024-03-16,https://github.com/facefusion/facefusion,https://raw.githubusercontent.com/facefusion/facefusion/main/README.md,"FaceFusion is a next-generation face swapper and enhancer tool that leverages complex algorithms and models to process images or audio. The software requires technical skills for installation. It runs various commands for different functions like adjusting message severity, specifying parallel threads for processing, detecting and analysing faces, selecting face masks, trimming frames in video and modulating output creation among other tasks. The tool has an extensive documentation and a supportive Discord community for assistance. It also offers options for user-interface layouts. Although powerful, it's not recommended for beginners due to its complexity.",FaceFusion: Exploring the Next Generation Face Swapper and Enhancer,"Discover FaceFusion, the next-gen solution for face swapping and enhancement. With unprecedented detail and precision, this software transforms your face swapping experience. Technical know-how is recommended for the installation process. Join our Discord community for comprehensive guidance or dive into our thorough documentation for further information.","Unleash your creativity with FaceFusion, a cutting-edge face swapper and enhancer. From installation guides to user manuals, everything you need is right here. Join the revolution of face swapping today.",Image Generation Platform,"Python
+
+
+
+
+
+        12,844
+
+
+
+
+
+        1,703
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",,,12844,2023-08-17T19:59:55Z
+2024-03-16,https://github.com/huggingface/safetensors,https://raw.githubusercontent.com/huggingface/safetensors/main/README.md,"The Safetensors library allows safe storage of tensors. This open-source tool, developed by Hugging Face, can be installed through pip or from source, and it supports both Python and Rust. The Safetensors format provides benefits such as preventing DOS attacks, enabling faster loading times, and allowing lazy loading, which is crucial in distributed settings. The library is an alternative to formats like H5, Pickle, and SavedModel, offering advantages such as safety, zero-copy reading, no file size limit, layout control, and support for features like bfloat16/fp8. The functions and usage of Safetensors are fully documented.",Exploring Safetensors: A Comprehensive Guide to Storing Tensors Safely,"The blog delves into the new safetensors repository that presents a novel, secure way of storing tensors. It outlines the process of installation, getting started, the format details, and compares safetensors with other formats for a broader view of its utilities. The post also sheds light on some of the added benefits including prevention of DOS attacks and faster loading. The safetensors repository implements a new tensor storing format that balances safety and speed.","A detailed guide to the Safetensors repository for secure and fast storing of tensors. Discover its installation steps, comparisons with other formats, and benefits like DOS attacks prevention and speedy loading.",Open Source Tool,"Python
+
+
+
+
+
+        2,221
+
+
+
+
+
+        135
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",,,2221,2022-09-22T14:54:51Z
+2024-03-16,https://github.com/zurdi15/romm,https://raw.githubusercontent.com/zurdi15/romm/master/README.md,"RomM is a self-hosted ROM manager that allows users to enrich and browse their game collection. The platform supports multiple emulators, naming schemes and even includes custom tags. RomM version 3.0 brings updated features and requires changes to the setup and configuration. It enhances your games library with metadata from IGDB and supports various platforms. It also includes built-in authentication and parsing of tags in filenames. It offers community projects for users and information resources including a wiki page for troubleshooting and other guides. However, users of version 2.x are requested to read migration guide before upgrading.
+",Unveiling RomM: Your Ultimate Self-Hosted Rom Manager,"Discover RomM, the powerful self-hosted Rom manager, that enhances your gaming experience on emulators. Version 3.0 introduces exciting new features making it a must-have for gaming enthusiasts. Stay tuned for insights on setup, configuration, features, and much more.","Step into the world of RomM, an efficient self-hosted Rom Manager, and redefine your gaming experience. Explore the multi-platform support, custom tags, and new features in the latest 3.0 version.",Game Development Tool,"Python
+
+
+
+
+
+        1,014
+
+
+
+
+
+        46
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",https://raw.githubusercontent.com/zurdi15/romm/master/.github/resources/screenshots/romm-desktop-slider.gif; https://raw.githubusercontent.com/zurdi15/romm/master/.github/resources/screenshots/romm-mobile-slider.gif,,1014,2023-03-08T16:11:01Z
+2024-03-16,https://github.com/OpenBMB/MiniCPM,https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/README.md,"MiniCPM, developed by Mianbi Intelligent and Tsinghua University's Natural Language Processing Laboratory, is a series of large-scale models open-sourced for endpoint use. Its main language model, MiniCPM-2B, outperformed models like Llama2-13B, MPT-30B, and Falcon-40B in a comprehensive public evaluation set after Smart ForTwo (SFT) and Dynamic Partial Order (DPO) treatment. The multi-modal large model, MiniCPM-V, built on MiniCPM-2B, achieved top performance of the same scale models. MiniCPM was quantified into Int4 and can be deployed for inference on mobile devices. The cost of secondary development is relatively low as high-efficiency parameter fine-tuning can be efficiently achieved on a single graphic card and full parameter fine-tuning on a single machine.
+",Exploring the Infinite Potential of MiniCPM: Fully Open-source End-Side Large Language Models,Discover the unlimited potential of MiniCPM: the series of end-side large language models collaboratively open-sourced by BMB Intelligence and Tsinghua University. Immerse in the superior performance of MiniCPM-2B with total 2.7B parameters and explore its versatility for academic research and commercial use.,"Unleashing the potential of MiniCPM, a series of end-side large language models, jointly open-sourced by BMB Intelligence and Tsinghua University. Dive into the capabilities of MiniCPM-2B and its prowess for academic and commercial applications.",Large-scale Language Models,"Python
+
+
+
+
+
+        3,223
+
+
+
+
+
+        218
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://github.com/OpenBMB/OmniLMM/blob/main/assets/Snake_cn_Mushroom_en.gif; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/creation.case1.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/creation.case2.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/creation.case3.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/code.case1.gif; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/code.case2.gif; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/math.case1.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/math.case2.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/translation.case1.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/translation.case2.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/instruction_following.case1.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/instruction_following.case2.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/special_char.case1.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/./assets/special_char.case2.png,,3223,2024-01-29T08:21:15Z
+2024-03-16,https://github.com/ZiqiaoPeng/SyncTalk,https://raw.githubusercontent.com/ZiqiaoPeng/SyncTalk/main/README.md,"SyncTalk is an innovative technology that synthesizes high-resolution, synchronized talking head videos for a more realistic experience. By using tri-plane hash representations, it can maintain the subject's identity while generating synchronized lip movements, facial expressions, and stable head poses. It also restores hair details for a more authentic feel. The methodology, launched under the paper ""SyncTalk: The Devil is in the Synchronization for Talking Head Synthesis"", is available on its official repository along with the project's code. A usage guide ensures easy installation and application of the technology.",Exploring SyncTalk: Advanced Synchronization for Talking Head Synthesis [CVPR 2024],"Explore SyncTalk, an advanced technology that synthetizes talking head videos with high resolution maintaining the identity of the subject. It leverages tri-plane hash representation to genertate synchronized lip movements, facial expressions and head poses, whilst restoring hair details.","Unravel the functionality of SyncTalk: Learn how to install, prepare data, and use for generating high-quality synthesized talking head videos. SyncTalk promises accurate synchronization, maintaining subject identity, and high-resolution outputs.",Video Generation Tool,"Python
+
+
+
+
+
+        498
+
+
+
+
+
+        29
+
+
+        Built by
+
+          
+
+
+
+
+
+        24 stars today",,,498,2023-11-29T14:32:24Z
+2024-03-16,https://github.com/yl4579/StyleTTS2,https://raw.githubusercontent.com/yl4579/StyleTTS2/main/README.md,"The paper introduces StyleTTS 2, a model that creates human-level Text-to-Speech (TTS) synthesis using style diffusion and adversarial training with large speech language models. Unlike its predecessor, it models styles as a random variable using diffusion models, without needing reference speech. It uses large pretrained models like WavLM as discriminators, resulting in improved speech naturalness. The model performs excellently on both single-speaker and multi-speaker datasets, surpassing human recordings in certain cases. In addition, it outperforms previous models when trained on the LibriTTS dataset, thereby achieving zero-shot speaker adaptation.
+",Human-Level Text-to-Speech: An Insight into StyleTTS 2 and Adversarial Training,"StyleTTS 2 leverages style diffusion and adversarial training with large speech language models to give a human-level text-to-speech (TTS) synthesis. It outperforms its predecessor by introducing a latent random variable that models styles through diffusion models. This model is even capable of surpassing human recordings in some instances. Trained on the LibriTTS dataset, StyleTTS 2 outperforms previous models in zero-shot speaker adaptation. The work is the first to achieve human-level TTS synthesis on both single and multispeaker datasets.","Discover StyleTTS 2, a cutting-edge text-to-speech model that uses style diffusion and adversarial training to enable human-level TTS synthesis. Learn how it surpasses previous models in zero-shot speaker adaptation and excels in both single-speaker and multispeaker datasets.",Natural Language Processing,"Python
+
+
+
+
+
+        3,706
+
+
+
+
+
+        253
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,,3706,2023-06-14T00:48:11Z
+2024-03-16,https://github.com/tiangolo/sqlmodel,https://raw.githubusercontent.com/tiangolo/sqlmodel/main/README.md,"SQLModel is a Python library designed for simplicity, compatibility, and robustness, enabling easy interaction with SQL databases through Python objects. It intuitively minimizes code duplication and simplifies written code, with autocomplete and other editing features for enhancing usability and learning. The library is compatible with FastAPI, Pydantic, and SQLAlchemy and is designed to be extensible with the underlying power of SQLAlchemy and Pydantic. The library was designed by the author of FastAPI for simplified SQL database interaction in FastAPI apps. SQLModel requires a supported Python version and automatically installs Pydantic and SQLAlchemy upon its installation.",Simplify Your Python-SQL Workflow with SQLModel,"SQLModel is an intuitive and robust library for Python-SQL interaction. This tool harnesses Python type annotations, Pydantic, and SQLAlchemy for unassailable compatibility, seamless learning, and ultimate user-friendliness. Use SQLModel to limit code repetition, simplify your work, and enhance your coding experience!","Harness the power of SQLModel for efficient interaction with SQL databases from Python. Experience better compatibility, simplicity, and robustness in your Python-SQL workflow. Learn more in this blog post.",Python Libraries Collection,"Python
+
+
+
+
+
+        12,575
+
+
+
+
+
+        556
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        13 stars today",https://sqlmodel.tiangolo.com/img/sponsors/govcert.png; https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png; https://sqlmodel.tiangolo.com/img/index/autocompletion01.png; https://sqlmodel.tiangolo.com/img/index/inline-errors01.png; https://sqlmodel.tiangolo.com/img/index/autocompletion02.png,,12575,2021-08-24T14:26:53Z
+2024-03-16,https://github.com/naver-ai/Visual-Style-Prompting,https://raw.githubusercontent.com/naver-ai/Visual-Style-Prompting/main/README.md,"The paper ""Visual Style Prompting with Swapping Self-Attention"" addresses challenges in the field of text-to-image generation. The authors introduce a unique approach to generate a range of images that maintain specific style elements. Without fine-tuning, the process swaps key and value with those from reference features in late self-attention layers while keeping the query from original features. This technique ensures that the style in generated images is preserved. It has shown superiority over existing approaches in terms of reflecting the style of the references and matching the text prompts accurately for the generated images.
+",Revolutionizing Text-to-Image Generation with Visual Style Prompting,"In the ever-evolving world of text-to-image generation, we introduce 'Visual Style Prompting with Swapping Self-Attention', a novel approach from NAVER AI lab and Yonsei University. This ground-breaking methodology ensures controlled generation of images, maintaining specific style elements and nuances for a consistent style. Our approach surpasses traditional routes, without necessitating expensive fine-tuning, and minimizing content leakage.","Discover the innovation in text-to-image generation with Visual Style Prompting. Explore the latest and most effective approach for controlled and consistent stylized image generation, with comprehensive insights into the methodology, demonstrations, and usage.",Image Generation Platform,"Python
+
+
+
+
+
+        149
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+        27 stars today",https://raw.githubusercontent.com/naver-ai/Visual-Style-Prompting/main/./assets/git_image/teaser.png; https://raw.githubusercontent.com/naver-ai/Visual-Style-Prompting/main/./assets/git_image/vsp.png; https://raw.githubusercontent.com/naver-ai/Visual-Style-Prompting/main/./assets/git_image/vsp_control.png; https://raw.githubusercontent.com/naver-ai/Visual-Style-Prompting/main/./assets/git_image/vsp_real.png; https://raw.githubusercontent.com/naver-ai/Visual-Style-Prompting/main/./assets/git_image/attention_map.png,,149,2024-02-20T08:08:41Z
+2024-03-16,https://github.com/graphdeco-inria/gaussian-splatting,https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/README.md,"The researchers detail an improved method for real-time rendering of 3D radiance fields. They introduce 3D Gaussian Splatting, which enables high-quality image synthesis at a much faster speed, useful in VR and AR applications. The method uses 3D points derived from camera calibration and generates Gaussian volumes that map the scene's radiance field optimally. This approach avoids unnecessary computation, speeding up training and rendering times. The authors provide a detailed breakdown of training requirements, commands and FAQs, guiding users on how to use their method. They also provide links to datasets, viewer software, and a step-by-step tutorial.
+",Exploring 3D Gaussian Splatting for Real-Time Radiance Field Rendering,"Delve into the groundbreaking world of '3D Gaussian Splatting for Real-Time Radiance Field Rendering' – a revolutionary new approach elevating the standards of real-time rendering. Discover this technology's innovative solutions to existing challenges in neural networks, offering high visual quality while maintaining competitive training times","An in-depth exploration of '3D Gaussian Splatting for Real-Time Radiance Field Rendering', highlighting its key features including increased efficiency, exceptional visual quality, and competitive training times within neural networks.",3D Image Rendering,"Python
+
+
+
+
+
+        10,484
+
+
+
+
+
+        1,223
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/assets/teaser.png; https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/assets/logo_inria.png; https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/assets/logo_uca.png; https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/assets/logo_mpi.png; https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/assets/logo_graphdeco.png; https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/assets/select.png,https://www.youtube.com/watch?v=T_kXY43VZnk; https://www.youtube.com/watch?v=UXtuigy_wYc; https://www.youtube.com/watch?v=UXtuigy_wYc,10484,2023-07-04T07:51:38Z
+2024-03-16,https://github.com/sgl-project/sglang,https://raw.githubusercontent.com/sgl-project/sglang/main/README.md,"SGLang is a structured generation language for large language models (LLMs) aimed at making interactions with LLMs faster and more efficient. It's defined by two core features: A Flexible Front-End Language for easy programming of LLM applications and a High-Performance Runtime with RadixAttention to accelerate complex LLM program execution. SGLang has enabled 3x faster JSON decoding, powers the serving of the LLaVA v1.6 release demo, and provides up to 5x faster inference with RadixAttention. Installation is available through pip or source, and a quick start guide featuring examples of how to use SGLang's functions is provided.
+",Exploring SGLang: A Structured Generation Language for Large Language Models,"SGLang, or Structured Generation Language, is a new tool for interacting with large language models. It offers a flexible front-end language and a high-performance runtime, accelerating language processing tasks and enhancing control. Discover how to install, use and optimize SGLang in this comprehensive guide.","A complete guide to understanding and using SGLang, a structured generation language designed to interact efficiently with large language models. Learn about key features, installation process, and different use cases of SGLang.",Large-scale Language Models,"Python
+
+
+
+
+
+        1,893
+
+
+
+
+
+        103
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",https://raw.githubusercontent.com/sgl-project/sglang/main/assets/logo.png; https://raw.githubusercontent.com/sgl-project/sglang/main/assets/llama_7b.jpg; https://raw.githubusercontent.com/sgl-project/sglang/main/assets/mixtral_8x7b.jpg,,1893,2024-01-08T04:15:52Z
+2024-03-16,https://github.com/replicate/cog,https://raw.githubusercontent.com/replicate/cog/main/README.md,"Cog, an open-source tool, allows you to package machine learning models in a standard, production-ready container. It simplifies docker container creation, automatically sets up compatible CUDA/PyTorch/TensorFlow/Python combinations, defines model inputs/outputs using Python, and allows reading/writing directly to Amazon S3 and Google Cloud Storage. Cog generates an OpenAPI schema, validates inputs and outputs, and creates a RESTful HTTP API. It also creates an automatic queue worker for deep learning models and batch processing. It is production-ready and can be deployed to any infrastructure that runs Docker images. Contributors can use cog.yaml to define their Docker environment and setup model predictions.",Leveraging Cog for Machine Learning: Efficient Containerization and Deployment,"Explore the power of Cog, an open-source tool simplifying machine learning model packaging and deployment. Get to grips with its impressive features including Docker container support, compatibility handling, and automatic HTTP server generation for streamlined machine learning application production.",A comprehensive guide to using Cog for efficient machine learning model packaging and deployment. Uncover its impressive array of features designed to simplify your machine learning operations and streamline your production process.,Machine Learning Tool,"Python
+
+
+
+
+
+        6,736
+
+
+
+
+
+        454
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",,,6736,2021-02-26T23:43:09Z
+2024-03-16,https://github.com/wbt5/real-url,https://raw.githubusercontent.com/wbt5/real-url/master/README.md,"The 'Real-Url' repository contains Python code to obtain real streaming media addresses (live sources) and bullet screen content from various live streaming platforms. It works successfully with players like PotPlayer, VLC, DPlayer, etc. Currently, it can get sources from 59 live platforms and bullet screen content from 18 platforms. The project uses simple Python code and runs only in a Python 3 environment. Users can reference the ""Real-Url"" in their projects. The code for each platform's live source and bullet screen feature is independent. Any issues with the platform or additional platform analysis can be raised on the given GitHub link.",Unlock True Streaming URLs & Comments with Real-Url Python Code,"Discover how Real-Url, a repository of Python codes, allows you to access real streaming media addresses and comments across various live platforms. Real-Url supports 59 channels for streaming and 18 channels for comments. Any queries about the program can be addressed through the provided issue link.",Unearth the true streaming media URLs from 59 live platforms and comments from 18 platforms using Real-Url. A versatile Python code solution that offers you real-time streaming insights.,Livestream Data Extraction,"Python
+
+
+
+
+
+        6,988
+
+
+
+
+
+        1,507
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",https://i.loli.net/2020/10/03/E4h5FZmSfnGIgap.png,,6988,2019-09-18T17:26:42Z
