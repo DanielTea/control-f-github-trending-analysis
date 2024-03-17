@@ -5951,3 +5951,248 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         13 stars today",https://i.loli.net/2020/10/03/E4h5FZmSfnGIgap.png,,6988,2019-09-18T17:26:42Z
+2024-03-17,https://github.com/amazon-science/chronos-forecasting,https://raw.githubusercontent.com/amazon-science/chronos-forecasting/main/README.md,"Chronos is a set of pretrained time series forecasting models using language model architectures. Time series data is turned into a token sequence, which the language model is trained on using the cross-entropy loss. The Chronos models are probabilistic, creating forecasts by sampling multiple future trajectories from the historical context. These models are based on the T5 architecture, but use less different tokens, resulting in fewer parameters. Chronos models have been trained on publicly available time series data and synthetic data. The models can be installed and used via a Python package and used in time series forecasting tasks.
+",Chronos: Mastering Time Series Forecasting with Pretrained Models,"Chronos offers pretrained time series forecasting models, transforming a time series into a tokens sequence and training via cross-entropy loss. This method allows for multiple future trajectories prediction. Chronos models rely on a huge corpus of publicly available time series data and synthetic data, generated through Gaussian processes.","Discover Chronos, a novel tool offering pretrained time series forecasting models. Learn how time series is transformed into sequences and used in language model training. Ideal for predicting multiple future trajectories.",Time Series Forecasting,"Python
+
+
+
+
+
+        367
+
+
+
+
+
+        62
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        33 stars today",https://raw.githubusercontent.com/amazon-science/chronos-forecasting/main/figures/main-figure.png,,367,2024-02-23T10:35:42Z
+2024-03-17,https://github.com/BerriAI/litellm,https://raw.githubusercontent.com/BerriAI/litellm/main/README.md,"LiteLLM is a tool used to manage APIs like Bedrock, Huggingface, VertexAI, TogetherAI, Azure, and OpenAI using the OpenAI format. It allows users to translate inputs to provider's endpoints, ensures consistent output, manages retry/fallback logic across multiple deployments, and also lets users set budgets and rate limits per project, API key, and model. LiteLLM supports several providers and offers an easy setup procedure. It includes features like async completion, streaming, setting up the proxy, and much more. Additional resources include the documentation for better functionality understanding, usage, migration guides, and quick installation steps using pip.",Mastering LiteLLM: A Comprehensive Guide to Universal API Management,"Discover the streamlined capabilities of LiteLLM to manage LLM APIs using the OpenAI format including Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, and more. Learn to leverage its features to translate inputs, set project budgets, manage API keys and much more.","Simplify API management with LiteLLM. Gain insights into using this tool for varying requirements such as translating inputs for all API providers, establishing API project budgets, rate limit management, and more.",API Management Tool,"Python
+
+
+
+
+
+        6,233
+
+
+
+
+
+        668
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        31 stars today",,,6233,2023-07-27T00:09:52Z
+2024-03-17,https://github.com/cbh123/narrator,https://raw.githubusercontent.com/cbh123/narrator/main/README.md,"The text includes instructions to create an artificial intelligence application using APIs from Replicate, OpenAI, and ElevenLabs. Users need to clone a repository, set up a virtual environment, and install dependencies. After creating accounts on Replicate, OpenAI, and ElevenLabs and obtaining necessary API keys, they can create a new voice on Eleven and retrieve its ID. The final steps involve running the webcam capture and the narrator by executing specific Python scripts. The final product seems to narrate your life as if it was done by David Attenborough.
+",Experience Life Narrated by David Attenborough: A Guide to Create an AI App,"Explore how to integrate AI into apps and imagine life narrated by the iconic voice of David Attenborough. Learn how to create your AI app using Replicate, OpenAI, and ElevenLabs. This guide covers everything from setting up your environment to running your AI model.","In this blog post, learn how to make your AI app using resources like Replicate, OpenAI, and ElevenLabs. Start experiencing life with the voice of David Attenborough with our step-by-step guide.",AI Coding Assistant,"Python
+
+
+
+
+
+        3,958
+
+
+
+
+
+        470
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        63 stars today",,,3958,2023-11-14T20:10:10Z
+2024-03-17,https://github.com/Kanaries/pygwalker,https://raw.githubusercontent.com/Kanaries/pygwalker/main/README.md,"PyGWalker is a Python library designed for simplifying data analysis and visualization workflow in Jupyter Notebook, by transforming a pandas dataframe into an interactive UI for visual exploration. Named as a playful abbreviation for ""Python binding of Graphic Walker"", PyGWalker integrates Jupyter Notebook with Graphic Walker, an open-source alternative to Tableau. It allows data scientists to visualize, clean, and annotate the data using simple drag-and-drop functions and natural language queries. PyGWalker also provides examples in local and cloud notebooks and is compatible with many tested environments like Google Colab or Kaggle Code.
+",Exploring PyGWalker: A Python Library for Data Analysis and Visualization,"Meet PyGWalker, a Python library specially designed for exploratory data analysis with visualization. Discover how PyGWalker simplifies your Jupyter Notebook data workflows by effortlessly converting your pandas dataframe into an interactive visual exploration tool.","This post introduces PyGWalker, a Python Library that redefines data analysis in Jupyter Notebook, turning pandas dataframes into an intuitive, interactive visual exploration interface.",Data Science Tool,"Python
+
+
+
+
+
+        9,213
+
+
+
+
+
+        433
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        40 stars today",https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/kaggle.png; https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/colab.png; https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/travel-ani-0-light.gif; https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/travel-ani-1-light.gif; https://user-images.githubusercontent.com/8137814/221894699-b9623304-4eb1-4051-b29d-ca4a913fb7c7.png; https://user-images.githubusercontent.com/8137814/224550839-7b8a2193-d3e9-4c11-a19e-ad8e5ec19539.png; https://user-images.githubusercontent.com/8137814/221894480-b5ec5df2-d0bb-45bc-aa3d-6479920b6fe2.png; https://user-images.githubusercontent.com/22167673/271170853-5643c3b1-6216-4ade-87f4-41c6e6893eab.png,,9213,2023-02-16T05:17:24Z
+2024-03-17,https://github.com/Hillobar/Rope,https://raw.githubusercontent.com/Hillobar/Rope/main/README.md,"Rope is a face-swapping software implementing the insightface inswapper_128 model with a user-friendly GUI. It offers features such as face swapping, upscalers, likeness modifiers, orientation management, mask options, source face merging, and auto save filename generation. Additionally, it allows users to swap images or videos and provides real-time video play with segment recording capabilities. The software had several updates that fixed bugs and added more convenience features. However, with this technology available, the developers implore the users to use it responsibly while respecting privacy, and complying with ethical guidelines and legal considerations.",Rope Implements Insightface Inswapper_128 Model: Enhancing GUI Experience,"Rope now incorporates the insightface inswapper_128 model, enhanced with a user-friendly graphical user interface (GUI). Experience lightning speed face swapping, auto-save filename generation, real-time playing and fine-tuning video capabilities. Rope-Opal update presents a plethora of new features, improvements and bug fixes. Be aware of the stringent ethical guidelines this software adheres to, promoting responsible and ethical use. Join our discord for more information and connect with other users.","Explore the latest advancements Rope brings with Insightface Inswapper_128 model implementation. Enjoy lightning speed swapping, enhanced features, and upgrades focusing on responsible usage of this face-swapping software.",Computer Vision Platform,"Python
+
+
+
+
+
+        3,005
+
+
+
+
+
+        428
+
+
+        Built by
+
+          
+
+
+
+
+
+        6 stars today",,https://www.youtube.com/watch?v=4Y4U0TZ8cWY,3005,2023-07-07T20:43:52Z
+2024-03-17,https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI,https://raw.githubusercontent.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/main/README.md,"The Retrieval-based-Voice-Conversion-WebUI repository provides a straightforward voice conversion framework based on VITS. Even on a relatively poor graphics card, the system can be trained rapidly. It requires minimal data, supports merging models to alter voice tones, and incorporates efficient vocal pitch extraction algorithm InterSpeech2023-RMVPE. The model is trained using an open-source VCTK training set with no copyright issues. The repository includes detailed installation guides for operating systems and instructions on how to download and use pre-trained models. There are links to online demonstrations and the platform supports multiple languages.
+",Voice Conversion made Easy with Retrieval-based-Voice-Conversion-WebUI,"Providing an innovative, top-notch Voice Conversion Framework using VITS, the Retrieval-based-Voice-Conversion-WebUI offers optimized transformation capabilities. The feature-rich framework ensures fast training even on average graphic cards and offers the convenience of using little data for training with good results. Apart from its simple-to-use web interface, it also takes advantage of the state-of-the-art vocal pitch extraction algorithm, thereby eliminating the dumb sound problem.",Learn how to effectively change the voice tone using the Retrieval-based-Voice-Conversion-WebUI based on VITS. Get optimum results even with limited data and GPU resources. Experience hassle-free voice conversion with its user-friendly interface and advanced algorithms.,Voice Conversion Tool,"Python
+
+
+
+
+
+        17,399
+
+
+
+
+
+        2,727
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        31 stars today",,,17399,2023-03-27T09:59:10Z
+2024-03-17,https://github.com/bmaltais/kohya_ss,https://raw.githubusercontent.com/bmaltais/kohya_ss/master/README.md,"Kohya's GUI repository provides Gradio GUI for Kohya's Stable Diffusion trainers mainly for Windows and Linux, with partial Mac support. It provides a platform for setting training parameters, generating required CLI commands, and training the model. Instructions for installation on Windows, Linux, and Runpod are included, along with optional contributions for Linux and Runpod git docker builds and manual installation. The GUI allows you to train LoRA and generate sample images during training. The document also provides troubleshooting tips and change history. Information on image configurations, GUI service launch, and parameter settings is also included.",Exploring Kohya's GUI: A Comprehensive Guide,"Get to grips with Kohya's GUI, an interface offering users a more simple way of setting parameters for Stable Diffusion trainers. This blog post delves into how to navigate the tool, offering support for Linux OS contributions and the potential for MacOs compatibility. Find out more now!","A detailed guide to using Kohya's GUI, the Gradio GUI for Stable Diffusion trainers. Learn how to set parameters, run CLI commands and get support for Linux OS.",AI Training Platform,"Python
+
+
+
+
+
+        7,895
+
+
+
+
+
+        1,014
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        16 stars today",,,7895,2022-10-30T15:15:32Z
+2024-03-17,https://github.com/philz1337x/clarity-upscaler,https://raw.githubusercontent.com/philz1337x/clarity-upscaler/main/README.md,"The High Resolution Image Upscaler is a tool designed to enhance the quality of images by increasing their resolution. It utilises advanced algorithms to extrapolate the additional detail, creating high-definition images from lower resolution inputs. The technology fills in missing information to produce clear, detailed results. This tool is valuable for a range of applications, including photography, design and video production. It can improve the quality of images significantly, making them clearer, sharper, and more detailed. It's a potent tool for those where image quality matters, such as photographers, designers, and content creators.",Boost Your Visual Content with High Resolution Image Upscaler,Discover the wonders of high-resolution image upscale. Transform your low-quality images into high definition versions. Unleash the full potential of your visual content with the cutting-edge technology.,Learn how to enhance your images with high-resolution upscaling. Turn blurry and low-quality images into stunning high-definition visuals. Perfect for professionals and graphic enthusiasts alike.,Image Generation Platform,"Python
+
+
+
+
+
+        831
+
+
+
+
+
+        87
+
+
+        Built by
+
+          
+
+
+
+
+
+        282 stars today",,,831,2024-03-15T15:21:40Z
+2024-03-17,https://github.com/fofr/cog-face-to-many,https://raw.githubusercontent.com/fofr/cog-face-to-many/main/README.md,"The 'face-to-many' model transforms faces into 3D, pixel art, video game, claymation, or toy formats. It can be run on the Replicate or ComfyUI platforms, and requires specific custom nodes for operation. The 3D, video game, pixel art, claymation and toy ""loras"" are creations of 'artificialguybr', who accepts donations via Patreon and Ko-fi. You can develop locally by cloning the repository and running a script to install all custom nodes. The web UI can be run from a Cog container by following a series of steps to start the server and access it via the GPU machine's IP.","Transform Faces to 3D, Pixel Art and More with Face-to-Many","Explore the capabilities of Face-to-Many, a model that allows you to convert any face into 3D, pixel art, video game, claymation, or toy. Discover how to run it on Replicate or ComfyUI and learn about the required custom nodes. Get insights into creating your own loras through the examples provided by artificialguybr.","This blog post introduces the Face-to-many model that aids in turning any face into 3D, pixel art, video game, claymation, or toy. Learn how to operate it on platforms like Replicate and ComfyUI and delve into the unique creations made by artificialguybr.",Custom Node Pack,"Python
+
+
+
+
+
+        150
+
+
+
+
+
+        25
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        38 stars today",https://replicate.delivery/pbxt/R1ayGe5efoQbaoRzgDEJdLsIZ20lWRiprvoW1F4uKAZIha6kA/ComfyUI_00001_.png,,150,2024-03-05T11:48:35Z
