@@ -6196,3 +6196,224 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         38 stars today",https://replicate.delivery/pbxt/R1ayGe5efoQbaoRzgDEJdLsIZ20lWRiprvoW1F4uKAZIha6kA/ComfyUI_00001_.png,,150,2024-03-05T11:48:35Z
+2024-03-18,https://github.com/openai/grok,https://raw.githubusercontent.com/openai/grok/main/README.md,"The provided text refers to OpenAI Grok Curve Experiments. This is the code repository for a research paper titled 'Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets'. The authors of the paper are Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra. Installation and training instructions for the code are also included in the text.",Exploring OpenAI Grok Curve Experiments: A Comprehensive Guide,"Dive into our comprehensive guide on OpenAI Grok Curve Experiments. Understand, implement and utilize the code for the paradigm-shifting paper: 'Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets'.","OpenAI's Grok Curve Experiments unveiled. This post guides you through installation, training, and comprehending the transformative 'Grokking' paper.",AI Training Platform,"Python
+
+
+
+
+
+        2,561
+
+
+
+
+
+        282
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        433 stars today",,,2561,2021-04-12T14:42:35Z
+2024-03-18,https://github.com/mealie-recipes/mealie,https://raw.githubusercontent.com/mealie-recipes/mealie/master/README.md,"Mealie is a self-hosted recipe manager and meal planner with a RestAPI backend and a Vue developed reactive frontend application. Its features allow easy addition of recipes into a database via URL or UI editor, and third-party applications interactions through an API. The open-source community contributions are encouraged and appreciated, with both coders and non-coders (through financial contributions or translations) having ways to participate and benefit. The project is licensed under AGPL. Sponsors support the project's continuation, while Depot provides build instances for Docker image builds.
+",Explore Mealie: Your Self-Hosted Recipe Manager and Meal Planner,"Mealie is a self-hosted recipe manager delivering a delightful user experience for the whole family. It enables easy imports of recipes with automatic data updates and a user-friendly UI editor. Apart from managing your family recipes, Mealie provides a powerful API for 3rd party interactions.","Discover Mealie- a self-hosted recipe manager with a RestAPI backend, Interactive UI, 3rd party API interactions, translation feature, and contribution options.",Open Source Community,"Python
+
+
+
+
+
+        4,750
+
+
+
+
+
+        512
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://cdn.buymeacoffee.com/buttons/v2/default-green.png,,4750,2020-12-07T01:04:17Z
+2024-03-18,https://github.com/apple/axlearn,https://raw.githubusercontent.com/apple/axlearn/main/README.md,"AXLearn is a deep learning library built on JAX and XLA, designed for developing large-scale models. It uses an object-oriented approach and integrates with other libraries like Flax and Hugging Face transformers. The library supports training of models with hundreds of billions of parameters across thousands of accelerators. AXLearn is designed to operate on public clouds and provides tools for job and data management. It can handle a variety of applications, including natural language processing, computer vision, and speech recognition. The library is still under development, with potential changes to its API.",Mastering Deep Learning with AXLearn Library: A Comprehensive Guide,"Discover the AXLearn Library for large-scale deep learning model development. This object-oriented solution is designed for scalability and supports natural language processing, computer vision, and speech recognition. Dive into its core components, design, and utilisation in this informative blog post.","A deep-dive into the AXLearn Library, designed for the development of large-scale deep learning models supporting various applications. Leverage AXLearn for high-utilization training and seamless integration with other libraries.",Deep Learning Framework,"Python
+
+
+
+
+
+        800
+
+
+
+
+
+        121
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        111 stars today",,,800,2023-02-25T01:33:06Z
+2024-03-18,https://github.com/ytdl-org/youtube-dl,https://raw.githubusercontent.com/ytdl-org/youtube-dl/master/README.md,"The text provides detailed information on how to use the command-line tool ""youtube-dl"" to download videos from YouTube.com and other video platforms. The tool offers a wide range of functions, including options for format selection, output templates, multiple-download formats, and automatic credentials storage. Installation instructions for UNIX and Windows users are also provided. The tool requires the Python interpreter and can modify or redistribute videos for public use. It also includes options for resolving various issues such as fragment retries, geographic restrictions, file size limitations, and more.",Effective Guide to Using Youtube-dl for Video Downloads,"Explore how to effectively use youtube-dl, a command-line program, to download videos from various platforms such as YouTube. The article includes a detailed list of instructions for installing and using the program, including configuration and format selection.","Discover how to download and utilize youtube-dl to effortlessly download videos from various platforms. This article covers key steps, from installation to advanced configuration and output formatting, to enhance your video downloading experience.",Video Generation Tool,"Python
+
+
+
+
+
+        127,749
+
+
+
+
+
+        9,592
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        33 stars today",,https://www.youtube.com/watch?v=-wNyEUrxzFU; https://www.youtube.com/watch?v=BaW_jenozKcj; https://www.youtube.com/watch?v=FqZTN594JQw; https://www.youtube.com/watch?v=FqZTN594JQw; https://www.youtube.com/watch?v=BaW_jenozKc; https://www.youtube.com/watch?v=BaW_jenozKc; https://www.youtube.com/watch?v=BaW_jenozKcj; https://www.youtube.com/watch?v=BaW_jenozKc,127749,2010-10-31T14:35:07Z
+2024-03-18,https://github.com/oobabooga/text-generation-webui,https://raw.githubusercontent.com/oobabooga/text-generation-webui/main/README.md,"The Gradio web UI for Large Language Models aims to be the comprehensive tool for text generation. It features various interface modes, model backends, a quick dropdown menu for switching models, support for multiple extensions, and the ability to chat with custom characters. The service integrates with the Transformers library and supports loading models in 4-bit or 8-bit precision. It can be installed easily via cloning the repository, running the appropriate script per OS, and navigating to the local host URL. Additionally, features can be added or managed via command-line flags.",Mastering Language Models with Gradio's User Interface: A Comprehensive Guide,"Explore the ins and outs of managing large language models using Gradio's user interface. Learn how to work with multiple model backends, interact with a wide range of extensions, and integrate your models into your workflows. Discover the power of text generation with Gradio today.","A detailed guide on using Gradio's web UI for managing large language models. Covers the handling of multiple model backends, use of extensions, and model integration. Perfect for those looking to harness the power of text generation in their projects.",Large-scale Language Models,"Python
+
+
+
+
+
+        34,456
+
+
+
+
+
+        4,604
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        61 stars today",https://github.com/oobabooga/screenshots/raw/main/print_instruct.png; https://github.com/oobabooga/screenshots/raw/main/print_chat.png; https://github.com/oobabooga/screenshots/raw/main/print_default.png; https://github.com/oobabooga/screenshots/raw/main/print_parameters.png,,34456,2022-12-21T04:17:37Z
+2024-03-18,https://github.com/almandin/fuxploider,https://raw.githubusercontent.com/almandin/fuxploider/master/README.md,"Fuxploider is an open-source penetration testing tool designed to automate the detection and exploitation of file upload form flaws. The tool can identify the file types permitted to upload and understand the most effective technique for uploading web shells or malicious files to the desired web server. It requires at least Python 3.6 to function. It gets installed via GitHub and Python's pip package manager, with Docker installation also available. However, its misuse for illegal attacks without obtaining prior mutual consent is strictly forbidden, and developers take no responsibility for any damage caused.
+",Fuxploider: Your Open Source Penetration Testing Tool,"Fuxploider is an open-source tool designed for penetration testing, automating the detection and exploitation of file upload forms flaws. It can identify the allowed upload file types, and determine the optimal technique for uploading web shells or malicious files on the targeted web server.","Discover Fuxploider, an open-source penetration testing tool perfect for exploiting file upload forms flaws. Enhance your cybersecurity with this automation solution.",Cybersecurity Tool,"Python
+
+
+
+
+
+        2,871
+
+
+
+
+
+        482
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/almandin/fuxploider/master/screenshot.png,,2871,2017-07-14T09:30:06Z
+2024-03-18,https://github.com/Doubiiu/DynamiCrafter,https://raw.githubusercontent.com/Doubiiu/DynamiCrafter/main/README.md,"DynamiCrafter is an open-source technology for animating open-domain still images based on text prompts. It uses pre-trained video diffusion priors and has various application sub-features such as generative frame interpolation and looping video generation. Pretrained models for different resolutions are available on Hugging Face. This software is developed and maintained by Jinbo Xing, Menghan Xia, Yong Zhang, Haoxin Chen, Wangbo Yu, Hanyuan Liu, Xintao Wang, Tien-Tsin Wong, and Ying Shan. It comes with detailed instructions for installation, inference, and setup via command-lines or a local Gradio demo.
+",Animating Images with DynamiCrafter: Making Use of Video Diffusion Priors,"Explore the wonders of DynamiCrafter, the newly released technology bringing still, open-domain images to life. This innovation leverages pre-trained video diffusion priors, offering better dynamics, improved resolution, and stronger coherence.","This post unveils the latest update on DynamiCrafter - a technology for animating open-domain still images with text prompts using pre-trained video diffusion priors. Learn how this tool brings high dynamics, resolution, and coherence to images animation.",Image Generation Platform,"Python
+
+
+
+
+
+        1,143
+
+
+
+
+
+        90
+
+
+        Built by
+
+          
+
+
+
+
+
+        49 stars today",https://img.youtube.com/vi/0NfmIsNAg-g/0.jpg,https://www.youtube.com/watch?v=0NfmIsNAg-g; https://www.youtube.com/watch?v=0NfmIsNAg-g,1143,2023-11-27T12:34:23Z
+2024-03-18,https://github.com/CognitionAI/devin-swebench-results,https://raw.githubusercontent.com/CognitionAI/devin-swebench-results/main/README.md,"This text refers to the results and methodology of Cognition's work on SWE-bench, which is discussed in detail on their blog post. You can find more comprehensive information about their findings and procedures on the SWE-bench technical report from the given link.",Unveiling SWE-Bench Results & Methodology: An Insightful Approach by Cognition Labs,Cognition Labs presents an illuminating discussion on SWE-bench results and methodology. Dive into our technical report to understand our streamlined processes.,"Explore Cognition Labs' approach towards SWE-bench, detailing our results and methodology in an enlightening technical report.",Software Development,"Python
+
+
+
+
+
+        43
+
+
+
+
+
+        6
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        8 stars today",,,43,2024-03-15T03:56:41Z
