@@ -6417,3 +6417,169 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         8 stars today",,,43,2024-03-15T03:56:41Z
+2024-03-19,https://github.com/xai-org/grok-1,https://raw.githubusercontent.com/xai-org/grok-1/main/README.md,"The Grok-1 open-weights model, held in a repository, can be utilized by downloading its checkpoint and running given example code, ideally on a machine with sufficient GPU memory due to the model's large size of 314B parameters. It features a Mixture of 8 Experts architecture and SentencePiece tokenizer, among other specifications. The model's weights can be accessed via a torrent client or directly from HuggingFace Hub. The source files and model weights of Grok-1 are licensed under the Apache 2.0 license. The model's MoE layer's implementation is intentionally inefficient to avoid needing custom kernels for validation.",Exploring Grok-1: A Comprehensive Guide to Using the Open-Weights Model,"Experience the power of Grok-1, an open-weights model boasting of 314B parameters and a MoE architecture. Understand its implementation, download the necessary checkpoints and learn to execute the code. Equip your machine with proper GPU memory to effectively run and test the model.","Dive into the functionalities of Grok-1, the open-weights model. Learn how to download checkpoints, run tests, and understand the model specifications. Ensure your machine is capable enough to handle the magnitude of Grok-1.",Large-scale Language Models,"Python
+
+
+
+
+
+        34,995
+
+
+
+
+
+        5,644
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12,940 stars today",,,34998,2024-03-17T08:53:38Z
+2024-03-19,https://github.com/albertan017/LLM4Decompile,https://raw.githubusercontent.com/albertan017/LLM4Decompile/main/README.md,"LLM4Decompile is a project focused on reverse engineering binary code using large language models (LLMs). The project uses a dataset of one million code samples compiled into assembly code to finetune the DeepSeek-Coder model. The main goal is to decompile assembly instructions and assess the decompiled code for its ability to be recompiled and its functionality through test assertions. Different models of LLM4Decompile, having sizes between 1.3 billion and 33 billion parameters, are available on Hugging Face. This open-source effort helps in syntax recovery and semantic preservation, critical for robust decompilation. Future plans include pre-training the model with assembly code and supporting multiple languages/platforms.",Decompiling Binary Code with Large Language Models: Introducing LLM4Decompile,"Discover LLM4Decompile, the first open-source Large Language Model (LLM) dedicated to decompiling binary code. Get insight into our evaluation benchmark, Decompiler-Eval, which assesses re-compilability and re-executability. Learn how to use model, assess its performance and know about our ongoing plans to support more languages and platforms.",This blog guides you through the world of binary code decompiling using LLM4Decompile - an open-source Large Language Model. Understand how Decompiler-Eval measures decompilation efficiency and get started with using the model yourself.,Large-scale Language Models,"Python
+
+
+
+
+
+        1,551
+
+
+
+
+
+        97
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        326 stars today",https://github.com/albertan017/LLM4Decompile/blob/main/samples/pipeline.png; https://github.com/albertan017/LLM4Decompile/blob/main/samples/results_decompile.png,,1551,2024-02-28T03:16:44Z
+2024-03-19,https://github.com/google/jax,https://raw.githubusercontent.com/google/jax/main/README.md,"JAX is a Python library by Google designed for high-performance numerical computing and large-scale machine learning. It can differentiate native Python and NumPy functions through an updated version of Autograd, support reverse-mode differentiation or backpropagation, and differentiate through loops, branches, recursion, and closures. JAX also uses XLA to compile and run NumPy programs on GPUs and TPUs. The library allows for just-in-time compilation of user’s Python functions into XLA-optimized kernels. It supports parallel programming of multiple accelerators and is an extensible system for composable function transformations. Though a research project, the authors encourage users to report bugs and suggestions.
+",Exploring JAX: Python library for Optimal Numeric Computing and Machine Learning,"JAX is a Python library designed for high-performance numeric computing. With its updated version of Autograd, JAX can automatically differentiate Python and NumPy functions and compile your NumPy programs on GPUs and TPUs for astonishing speed.",An overview of JAX capabilities: a Python library for high-performance numeric computation and machine learning. Discover how JAX with Autograd optimizes numeric Python functions in this blog post.,Machine Learning Tool,"Python
+
+
+
+
+
+        27,294
+
+
+
+
+
+        2,499
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        60 stars today",https://raw.githubusercontent.com/google/jax/main/images/jax_logo_250px.png,https://www.youtube.com/watch?v=iDxJxIyzSiM,27294,2018-10-25T21:25:02Z
+2024-03-19,https://github.com/phidatahq/phidata,https://raw.githubusercontent.com/phidatahq/phidata/main/README.md,"Phidata is an AI toolkit that enables building of AI assistants using function calling and by connecting large language models (LLMs) to external tools. These assistants can perform tasks like web searches, data analysis, and sending emails. Phidata comes with built-in memory, storage, and knowledge base, allowing users to build AI applications that can take actions. Creation of an assistant involves adding tools, knowledge in the form of vectordb, and storage in the form of a database. The toolkit can be installed via pip and provides several examples, like assistants performing web search, or executing Python code, or analyzing data using SQL.
+",Take Your AI Assistants to the Next Level with Phidata,"Phidata is a toolkit for creating AI assistants with function calling and integration to external tools. It allows language models to do web searches, data analysis, and send emails, amongst other tasks. With built-in memory, networking, knowledge, and tool access, you can go beyond text-based interactions and develop AI applications that can actually take actions.","Learn how to use Phidata to create AI assistants that connect with external tools, and can perform tasks such as web searching, data analysis, and emailing. Includes information on installation and available Python-based examples.",AI Coding Assistant,"Python
+
+
+
+
+
+        2,773
+
+
+
+
+
+        287
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        41 stars today",https://img.youtube.com/vi/VNoBVR5t1yI/0.jpg; https://img.youtube.com/vi/EVQLYncsDVI/0.jpg,https://www.youtube.com/watch?v=VNoBVR5t1yI; https://www.youtube.com/watch?v=EVQLYncsDVI,2773,2022-05-04T15:23:02Z
+2024-03-19,https://github.com/ReaVNaiL/New-Grad-2024,https://raw.githubusercontent.com/ReaVNaiL/New-Grad-2024/main/README.md,"This is a collection of full-time job opportunities for 2024 graduates in various tech fields, such as software engineering, product management, and quantitative analysis. Jobs are primarily located in the United States, Canada, and remote positions. The listing also provides resources for technical interview prep and resources for international students like checking H1B sponsorship history and checking a company's e-verification status. The list only includes job openings in the United States, remote positions, and Canada. The list also includes the status of the role, indicating whether the position is still open or closed.","Tech Jobs for Grads 2024: Opportunities in Programming, Analysis, and Product Management","Discover exciting full-time opportunities for new graduates in 2024 in Software Engineering, Quantitative Analysis, Product Management, and other tech roles across the U.S. and Canada. Join our community and browse a regularly updated list of job openings.","A comprehensive guide to full-time job openings for new graduates in 2024 in tech-related fields across the U.S. and Canada. Explore opportunties in Software Engineering, Quantitative Analysis, Product Management, and more.",Job Opportunities Collection,"Python
+
+
+
+
+
+        5,614
+
+
+
+
+
+        517
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,,5614,2023-04-02T21:22:38Z
+2024-03-19,https://github.com/jumpserver/jumpserver,https://raw.githubusercontent.com/jumpserver/jumpserver/master/README.md,"JumpServer is a widely used open-source security audit system, in accordance with 4A standards, designed to enhance the operation and management of various types of assets in enterprises. It offers a safe and secure way to control and login to assets such as SSH, Windows, Databases (MySQL, MariaDB, etc.), NoSQL, GPT, cloud services, web platforms, and applications. The system boasts of multiple features such as being open-source, plugin-free, supporting distributed deployment, multi-cloud, multi-tenant support, and cloud-based storage. Users can gain an online experience of its environment, with available resources such as quick start guides, product tutorials, knowledge bases, and real-world case studies. Please note, sensitive information should not be added to this environment.",Explore JumpServer: The Popular Open-Source Bastion Machine,"JumpServer, a popular open-source bastion machine, provides professional operational security audit systems compliant with 4A standards. It assists businesses in managing and logging into various assets securely, while offering diverse features such as being open-source, browser exclusive usage, and supporting distributed deployment.","Discover the features and benefits of JumpServer, a popular open-source bastion machine providing security audit systems for businesses. Learn how it can help securely manage a variety of assets, from databases to cloud services.",Open Source ERP,"Python
+
+
+
+
+
+        23,305
+
+
+
+
+
+        5,163
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://docs.jumpserver.org/zh/v3/img/dashboard.png,,23305,2014-07-04T03:54:59Z
