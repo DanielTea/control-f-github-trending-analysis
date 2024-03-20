@@ -6583,3 +6583,174 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         10 stars today",https://docs.jumpserver.org/zh/v3/img/dashboard.png,,23305,2014-07-04T03:54:59Z
+2024-03-20,https://github.com/Stability-AI/generative-models,https://raw.githubusercontent.com/Stability-AI/generative-models/main/README.md,"Stability AI has developed several generative models for research purposes. These models primarily focus on image-to-video, text-to-image, and image-to-image functionalities. Key releases include SV3D, an image-to-video model which generates frames from a single context frame and two variants accommodating additional inputs and capabilities. Other artificial intelligence tools include SDXL Turbo, a quick text-to-image model, and Stable Video Diffusion, another image-to-video tool. They also offer open models under the permission CreativeML Open RAIL ++ M license, including improved versions of existing models. All models are accompanied by detailed guidance on usage and installation codes.
+",Unlocking the Potential of Generative Models: A Deep Dive Into Stability AI's Innovations,"Explore Stability AI's latest contributions in the field of Generative Models. Discover the power of their novel image-to-video models, detailed technical reports, and advanced model capabilities. Understand how to leverage these models for your research, underscored by the company's commitment to openness.","This blog post provides an in-depth look at Stability AI's innovations in generative models, their state-of-the-art image-to-video systems, and instructions on how to utilize these models for your own research. ",Artificial Intelligence,"Python
+
+
+
+
+
+        21,138
+
+
+
+
+
+        2,272
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        84 stars today",https://raw.githubusercontent.com/Stability-AI/generative-models/main/assets/000.jpg; https://raw.githubusercontent.com/Stability-AI/generative-models/main/assets/sv3d.gif; https://raw.githubusercontent.com/Stability-AI/generative-models/main/assets/turbo_tile.png; https://raw.githubusercontent.com/Stability-AI/generative-models/main/assets/tile.gif; https://raw.githubusercontent.com/Stability-AI/generative-models/main/assets/001_with_eval.png,https://www.youtube.com/watch?v=Zqw4-1LcfWg,21138,2023-06-22T00:36:35Z
+2024-03-20,https://github.com/zylon-ai/private-gpt,https://raw.githubusercontent.com/zylon-ai/private-gpt/main/README.md,"PrivateGPT is an AI platform allowing users to query their documents without the need for an internet connection - providing privacy as no data leaves the user's environment. It provides APIs for building personal, context-aware AI applications. It offers a high-level API abstracting complex processes for document ingestion and context retrieval and a low-level API for implementing complex pipelines. The PrivateGPT API adheres and extends the OpenAI API standard. The project includes a Gradio UI client to test the API. PrivateGPT was created to bring a greater degree of privacy to Generative AI usage in sensitive industries.",Unlocking AI Privacy with PrivateGPT: Your Comprehensive Guide,"PrivateGPT is a robust AI project designed for privacy-centric applications. Immune to Internet connections, it empowers users to extract insightful questions from their documents, thanks to its powerful Large Language Models. With in-built APIs, it lays the groundwork for innovative AI applications that prioritize privacy and context-awareness. Additionally, it provides Gradio UI client for API testing, alongside handy tools like document folder watch, model download script, etc.","Explore the world of private AI with PrivateGPT. Deep-dive into its features, from Large Language Models to high-level APIs, Gradio UI testing, and more. Discover how it's advancing AI privacy in today's digital age.",Private AI Framework,"Python
+
+
+
+
+
+        49,869
+
+
+
+
+
+        6,632
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        269 stars today",,,49869,2023-05-02T09:15:31Z
+2024-03-20,https://github.com/triton-inference-server/server,https://raw.githubusercontent.com/triton-inference-server/server/main/README.md,"The Triton Inference Server is an open-source inference serving software that facilitates Artificial Intelligence (AI) inferencing. It streamlines the deployment of models across different deep learning and machine learning frameworks. It is compatible with various platforms, including cloud, data centre, edge, and embedded devices, and is optimized for performance across many query types, including real-time, batched, ensembles, and audio or video streaming. Major features include the support of multiple learning systems, concurrent model execution, sequence batching, custom backend APIs and more. It also provides tutorials for new users and offers enterprise support through the NVIDIA AI Enterprise software suite.
+",Unleashing NVIDIA’s Triton Inference Server: Streamlined AI Inferencing,"Explore NVIDIA's Triton Inference Server, an open-source software that simplifies AI inferencing. Discover its ability to deploy any AI model from multiple deep learning and machine learning frameworks. Leverage Triton's optimized performance across platforms including cloud, data center, edge and embedded devices.","Learn about the robust features of NVIDIA’s Triton Inference Server, its broad compatibility with multiple AI frameworks, and its optimized performance across multiple platforms, from cloud infrastructures to edge devices.",AI Inference Platform,"Python
+
+
+
+
+
+        7,121
+
+
+
+
+
+        1,352
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        53 stars today",,https://www.youtube.com/watch?v=NQDtfSi5QF4,7122,2018-10-04T21:10:30Z
+2024-03-20,https://github.com/pandas-dev/pandas,https://raw.githubusercontent.com/pandas-dev/pandas/main/README.md,"Pandas is a powerful Python package for data analysis. It provides fast, flexible, and expressive data structures designed to work with relational or labeled data. Its goals are to be the fundamental high-level building block for practical, real world data analysis in Python, and the most potent open-source data analysis tool available in any language. It handles missing data, size mutability, data alignment, group by operations, converting ragged data, slicing, indexing, merging, and joining data sets. The source code is hosted on GitHub, and it can be installed from PyPI or Conda.
+",Mastering Data Analysis with pandas: A Comprehensive Python Toolkit Guide,"This blog provides an insightful guide exploring pandas, a Python package offering fast, flexible, and expressive data structures. Learn how this toolkit enhances data analysis in Python, its impressive features, installation, and more. Unleash the benefits of pandas for effective data manipulation and analysis.","Become adept at data analysis using pandas, a Python package with focus on powerful data structures to manipulate and analyse data. This blog details its features, installation process and benefits.",Data Science Tool,"Python
+
+
+
+
+
+        41,626
+
+
+
+
+
+        17,203
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",,,41626,2010-08-24T01:37:33Z
+2024-03-20,https://github.com/stas00/ml-engineering,https://raw.githubusercontent.com/stas00/ml-engineering/master/README.md,"The Machine Learning Engineering Open Book is a collection of methodologies, tools, and instructions designed to guide engineers in training Large Language Models (LLMs) and multi-modal models. Its contents include various scripts and commands based on the author's experience training open-source models like BLOOM-176B and IDEFICS-80B. The book covers topics from insights in AI engineering and hardware considerations to model training and debugging. It also has resources and guides to quickly address common problems. The open-source nature of the book invites community discussions, contributions, and updates, which will be announced on the author's Twitter channel.","Comprehensive Guide to Machine Learning Engineering: Methods, Tools, and Best Practices","Unlock the secret to effective machine learning engineering with this comprehensive guide. Discover methodologies, helpful tools, and step-by-step instructions for successfully training large language models and multi-modal models. Suitable for LLM/VLM training engineers and operators, this resource discusses insights from training open-source models such as BLOOM-176B and IDEFICS-80B.","A complete resource on Machine Learning Engineering offering insights into methodologies, tools and instructions for successful training of large language models. Includes experiences from training open-source models, BLOOM-176B and IDEFICS-80B.",Machine Learning Tool,"Python
+
+
+
+
+
+        9,366
+
+
+
+
+
+        548
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        300 stars today",,,9366,2020-09-02T19:23:01Z
+2024-03-20,https://github.com/NVIDIA/GenerativeAIExamples,https://raw.githubusercontent.com/NVIDIA/GenerativeAIExamples/main/README.md,"NVIDIA provides a range of state-of-the-art Generative AI examples that are easy to deploy, test and extend. These examples utilize resources from NVIDIA NGC AI Development Catalog and run on NVIDIA CUDA-X software and NVIDIA GPUs. Specific RAG pipelines have been developed which embed various data types into a database connected to a LLM, allowing for interactive user experiences. These examples can be deployed using various tools including Docker. NVIDIA RAG pipelines also come with example tools and tutorials to enhance usage and productivity, and open source connectors for integration with API endpoints. Community contributions and feedback are encouraged.",Understanding NVIDIA Generative AI: Applications and Optimized Resources,"Explore the state-of-the-art Generative AI examples that are easy to deploy, test, and extend with NVIDIA CUDA-X software stack and NVIDIA GPUs. Discover more about NVIDIA NGC and Retrieval Augmented Generation. Get to know about Developer RAG and Enterprise RAG examples, and a variety of tools available to enhance LLM development and productivity.","Get an in-depth understanding of NVIDIA Generative AI examples. Implement and extend these high-performance examples with the NVIDIA CUDA-X software stack and NVIDIA GPUs. Explore Developer and Enterprise RAG examples, available tools, and open-source integrations.",AI Development Platform,"Python
+
+
+
+
+
+        1,250
+
+
+
+
+
+        185
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",,,1250,2023-10-19T13:46:31Z
