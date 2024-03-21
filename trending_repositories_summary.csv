@@ -6754,3 +6754,136 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         18 stars today",,,1250,2023-10-19T13:46:31Z
+2024-03-21,https://github.com/kongzhecn/OMG,https://raw.githubusercontent.com/kongzhecn/OMG/master/README.md,OMG is a framework for generating multi-concept image creation. It works by combining Character and Style LoRAs (Large-scale Overparameterized Representational Adapters) with occlusion-friendly diffusion models. This framework supports using multiple IDs from a single image. It can produce high-quality images and allows the user to control details such as the visual comprehension or the style that the image is generated in. The OMG framework also includes a gradio demo and is runnable in a python 3.10.6 environment with specific pytorch and torchvision dependencies.,OMG Framework: Personalized Multi-concept Generation in Diffusion Models Explained,"Dive into the cutting-edge OMG framework for personalized multi-concept image generation. Explore its functionalities and learn how it integrates with tools like InstantID for innovative image generation approaches. With character and style LoRAs, you can create engaging and dynamic images easily.","Unveil the complex world of multi-concept image generation with the OMG Framework. Designed for character and style LoRAs, this blog post explores how the framework supports image generation and can be combined with tools like InstantID. Read now to master the use of OMG Framework.",Image Generation Platform,"Python
+
+
+
+
+
+        297
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        21 stars today",https://raw.githubusercontent.com/kongzhecn/OMG/master/assets/teaser.png; http://img.youtube.com/vi/5BI_a7nTb8Q/0.jpg; http://img.youtube.com/vi/c-dYmPo7rVM/0.jpg; https://raw.githubusercontent.com/kongzhecn/OMG/master/assets/lora.png; https://raw.githubusercontent.com/kongzhecn/OMG/master/assets/instantid.png; https://raw.githubusercontent.com/kongzhecn/OMG/master/assets/controlnet.png; https://raw.githubusercontent.com/kongzhecn/OMG/master/assets/style.png,https://www.youtube.com/watch?v=5BI_a7nTb8Q,297,2024-02-06T08:24:40Z
+2024-03-21,https://github.com/Kiteretsu77/APISR,https://raw.githubusercontent.com/Kiteretsu77/APISR/main/README.md,"APISR is a project aiming to restore and enhance low-quality, low-resolution anime images and videos, dealing with various degradations from real-world scenarios. It includes a visualization tool, an installation guide, a dataset curation pipeline, and training instructions. It allows users to create their own datasets from video sources to obtain the least compressed and most informative images. A Gradio option is available for quick inference, with an online demo hosted by HuggingFace and Colab. The project uses Python and Pytorch and the code can be cloned or downloaded from GitHub. This project is intended for academic use only.
+",Revitalizing Anime Images with APISR: Anime Production Inspired Super-Resolution (CVPR2024),"APISR is designed to restore and enhance low-quality and low-resolution anime images and videos. With a variety of applications in real-world scenarios, it transforms degraded anime sources into clear, high-quality images. APISR presents remarkable advancements in Anime Super-Resolution, offering a remarkable visual experience for anime viewers.","Discover APISR: the innovative solution for enhancing and restoring low-resolution, low-quality anime images and videos. Experience real-world application of APISR and marvel at the transformation of degraded anime sources into high-definition visuals.",Image Generation Platform,"Python
+
+
+
+
+
+        257
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        45 stars today",https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/logo.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/workflow.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/0079_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/0079_2_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/pokemon_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/pokemon2_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/eva_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/kiteret_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/f91_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/visual_results/wataru_visual.png; https://raw.githubusercontent.com/Kiteretsu77/APISR/main/__assets__/AVC_RealLQ_comparison.png,,257,2024-03-02T04:18:53Z
+2024-03-21,https://github.com/getsentry/sentry,https://raw.githubusercontent.com/getsentry/sentry/master/README.md,"Sentry is a developer-first platform focused on tracking errors and monitoring performance. It aims to help developers quickly solve problems and learn continuously about their applications' functions. Sentry provides various official SDKs compatible with a host of programming languages such as JavaScript, Electron, React-Native, Python, Ruby, PHP, Laravel, Go, Rust, Java/Kotlin, Objective-C/Swift, C#/F#, Dart, Perl, Clojure, Elixir, Unity, Unreal Engine, and others. Resources for Sentry include documentation, a community forum, Discord, contribution guidelines, a bug tracker, source code, and Sentry translations.",Maximizing Developer Efficiency with Sentry: A Comprehensive Overview,Discover Sentry - a developer-first platform for error tracking and performance monitoring. Get insights faster and continuously learn about your applications. Explore its vast number of SDKs and extensive resources that maximize developer efficiency.,"This blogpost provides a comprehensive overview of Sentry. It reveals its developer-first approach for error tracking and performance monitoring, its range of SDKs, and useful resources for developers.",Developer Monitoring Platform,"Python
+
+
+
+
+
+        36,566
+
+
+
+
+
+        3,950
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://sentry-brand.storage.googleapis.com/sentry-wordmark-dark-280x84.png; https://github.com/getsentry/sentry/raw/master/.github/screenshots/projects.png; https://github.com/getsentry/sentry/raw/master/.github/screenshots/issue-details.png; https://github.com/getsentry/sentry/raw/master/.github/screenshots/transaction-summary.png; https://github.com/getsentry/sentry/raw/master/.github/screenshots/releases.png,,36566,2010-08-30T22:06:41Z
+2024-03-21,https://github.com/mrphrazer/reverser_ai,https://raw.githubusercontent.com/mrphrazer/reverser_ai/main/README.md,"ReverserAI is a tool created by Tim Blazytko to assist in reverse engineering tasks using locally-hosted large language models (LLMs). By operating offline, it ensures data privacy and can suggest high-level function names from decompiler output. Although unable to match the performance of cloud-based language models, it is a significant progress as it caters to performance and confidentiality demands. It is compatible with consumer-grade hardware and integrates as a Binary Ninja plugin, but can be extended to other platforms. Despite its limited capabilities, the contribution of efficient models is welcomed to improve it. The tool is optimized to work best with powerful GPUs or multi-thread CPUs.
+",Unleashing the Power of AI in Reverse Engineering: An In-Depth Look at ReverserAI v1.0.1,"ReverserAI is a research project that employs large language models (LLMs) to automate and augment reverse engineering tasks. It operates offline, creating meaningful function names from decompiler output. Designed for easy integration with a range of reverse engineering platforms, it's currently provided as a Binary Ninja plugin. While its performance may not match cloud-based LLMs, it offers a balance between competent performance and confidentiality requirements. This initial version of ReverserAI paves the way for more advancement in AI-assisted reverse engineering.","Explore the features and capabilities of ReverserAI, a research project aimed at automating reverse engineering tasks using local large language models. Learn how this Binary Ninja plugin blazes new trails in the AI-assisted reverse engineering field.",AI Development Platform,"Python
+
+
+
+
+
+        219
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+        43 stars today",https://raw.githubusercontent.com/mrphrazer/reverser_ai/main/imgs/plugin_menu.png; https://raw.githubusercontent.com/mrphrazer/reverser_ai/main/imgs/plugin_results.png; https://raw.githubusercontent.com/mrphrazer/reverser_ai/main/imgs/plugin_settings.png,,219,2024-03-17T07:14:56Z
+2024-03-21,https://github.com/ShishirPatil/gorilla,https://raw.githubusercontent.com/ShishirPatil/gorilla/main/README.md,"Gorilla is a large language model (LLM) project developed by Berkeley which enables LLMs to utilize tools by invoking APIs. It identifies semantically and syntactically correct API calls when given a natural language query and can accurately invoke over 1600 APIs. Gorilla's function capabilities are competitive with GPT-4 and also support multiple languages. Gorilla is licensed under Apache 2.0, allowing for commercial usage with no obligations. The project also offers a Gorilla OpenFunctions feature as an alternative for function calling. The project encourages community contributions to further expand the API store.
+",Exploring Gorilla: A Large Language Model with Massive APIs,"Discover Gorilla, a revolutionary language model that invokes APIs based on natural language queries. Gorilla offers an unprecedented method to implement over 1,600 APIs accurately to minimize hallucination. See how Gorilla contributes to APIBench, the largest API collection for training purposes, and learn how you can get involved!","An inside look at Gorilla, a language model that allows API invocation from natural language queries. Discover its contribution to APIBench and its role in crafting the future of API usage.",Large-scale Language Models,"Python
+
+
+
+
+
+        9,441
+
+
+
+
+
+        684
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        38 stars today",https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png,,9441,2023-05-19T00:46:45Z
