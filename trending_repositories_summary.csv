@@ -6887,3 +6887,360 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         38 stars today",https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png,,9441,2023-05-19T00:46:45Z
+2024-03-22,https://github.com/harry0703/MoneyPrinterTurbo,https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/README.md,"The MoneyPrinterTurbo software tool fully automates the creation of high-quality short videos by generating video scripts, materials, subtitles, and background music based on a provided video theme or keyword. The tool is built on a complete MVC architecture, supports multiple high-definition video sizes, and can manage English and Chinese video scripts, several kinds of voice synthesis, subtitle generation, and background music. It also ensures video resources are copyright-free. Planned future enhancements include API interface improvements, voice synthesis and subtitle effect optimization, and enhanced video transition effects and material relevance. The software can be installed and launched through the command line interface.",MoneyPrinterTurbo: Automated Video Generation and Editing For the Next Level,"MoneyPrinterTurbo helps in automating the video generation process along with subtitles, background music, and editing. It offers clear code structure, multi-language support, variety of video dimensions, music files without copyright issues, and many more. Future plans include improving transition effects, optimizing synthesized voices, and making subtitles more effective.","Discover MoneyPrinterTurbo's effortless video generation and editing tool. Create high-definition videos by providing a theme or keyword. Perfectly structured code, multi-language support, variety of video dimensions, and copyright-free music files available.",Video Generation Tool,"Python
+
+
+
+
+
+        325
+
+
+
+
+
+        96
+
+
+        Built by
+
+          
+
+
+
+
+
+        58 stars today",https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/docs/webui.jpg; https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/docs/api.jpg; https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/docs/douyin.jpg; https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/docs/shipinghao.jpg,,325,2024-03-11T02:57:34Z
+2024-03-22,https://github.com/lewis-007/MediaCrawler,https://raw.githubusercontent.com/lewis-007/MediaCrawler/main/README.md,"This Chinese text pertains to a repository that hosts crawl technologies for various social media platforms including Xiaohongshu, TikTok, Kuaishou, Bilibili, and Weibo. The repository and its contents can be only used for learning and reference purposes and not for commercial use or illegal activities. The repository can fetch videos, images, comments, likes, shares, etc. using Playwright. The text includes detailed instructions for setting up Python virtual environment, installing dependencies, and running the crawler program. It also offers support options and provides information on how to save data. Reward contributions are acknowledged, and solutions for common issues are addressed.
+","Master the Art of Web Crawling with Small Red Book, TikTok, Kuaishou, Bilibili and Weibo","Discover the secrets to effective web crawling with platforms like Small Red Book, TikTok, Kuaishou, Bilibili, and Weibo. Harness the power of Playwright, understand core encryption, and streamline your web crawling tasks, all in one comprehensive guide.","A detailed guide exploring web crawling on various platforms using effective techniques and strategies. Learn how to gather video, image, comment, and likes data from popular platforms and minimize reverse engineering challenges using Playwright",Social Media Crawler,"Python
+
+
+
+
+
+        137
+
+
+
+
+
+        481
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        30 stars today",https://raw.githubusercontent.com/lewis-007/MediaCrawler/main/static/images/wechat_pay.jpeg; https://raw.githubusercontent.com/lewis-007/MediaCrawler/main/static/images/zfb_pay.jpeg,,137,2024-03-11T02:57:05Z
+2024-03-22,https://github.com/OpenInterpreter/open-interpreter,https://raw.githubusercontent.com/OpenInterpreter/open-interpreter/main/README.md,"Open Interpreter is a tool recently launched in new computer '01', that lets language learning models run code in Python, Javascript, Shell, and more, locally. This involves chatting with Open Interpreter through a ChatGPT-like interface in the terminal. The tool has a natural-language interface to access your computer's general-purpose capabilities, providing the ability to run numerous tasks like creating and editing various media, controlling Chrome browsers for research, and managing large datasets. It is compared to OpenAI's Code Interpreter but possesses advantages like being unrestricted and running in a local environment.",Open Interpreter: Transforming Code Execution with Natural-Language Interface,"Introducing Open Interpreter, an accessible way to run Python, Javascript, and Shell code on your local machine using a language similar to ChatGPT. With Open Interpreter’s natural-language interface, you can directly interact with your computer's general-purpose capabilities. Gain early access to Open Interpreter now.","Explore the world of code interpretation with Open Interpreter. Execute Python, Javascript, Shell code locally through an AI chat, giving you an intuitive access to your computer's capabilities. Join the journey towards achieving more efficient programming.",Language Learning Platform,"Python
+
+
+
+
+
+        42,793
+
+
+
+
+
+        3,747
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        424 stars today",,https://www.youtube.com/watch?v=CEs51hGWuGU,42794,2023-07-14T07:10:44Z
+2024-03-22,https://github.com/GaParmar/img2img-turbo,https://raw.githubusercontent.com/GaParmar/img2img-turbo/main/README.md,"The text introduces img2img-turbo, a method for adapting a single-step diffusion model for new tasks and domains through adversarial learning. This allows efficient inference while retaining the internal knowledge of pre-trained diffusion models. The one-step conditional models, CycleGAN-Turbo and pix2pix-turbo, can handle various image-to-image translation tasks for both unpaired and paired settings. CycleGAN-Turbo outperforms other existing methods while pix2pix-turbo matches recent works but with one-step inference. The architecture integrates three separate modules into one end-to-end network, utilizing small trainable weights. To quickly set up the functionality, the user can follow the provided environmental setup instructions.",Revolutionizing Image Translation with CycleGAN-Turbo and Pix2Pix-Turbo,"We introduce a general method for adapting single-step diffusion models to new tasks through adversarial learning. This allows for efficient image-to-image translation, including unpaired and paired settings. Our models CycleGAN-Turbo and pix2pix-turbo outperform exiting GAN-based and diffusion-based methods.","Discover our innovative approach to image-to-image translation tasks using single-step diffusion models, CycleGAN-Turbo and pix2pix-turbo, which achieve efficient inference and outperform previous methods.",Image Generation Platform,"Python
+
+
+
+
+
+        406
+
+
+
+
+
+        30
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        59 stars today",https://raw.githubusercontent.com/GaParmar/img2img-turbo/main/assets/cat_2x.gif; https://raw.githubusercontent.com/GaParmar/img2img-turbo/main/assets/fish_2x.gif,,406,2024-02-23T13:50:15Z
+2024-03-22,https://github.com/jxnl/instructor,https://raw.githubusercontent.com/jxnl/instructor/main/README.md,"Instructor is a Python library designed to streamline working with structured outputs from large language models (LLMs). Using Pydantic, it offers a user-friendly API for handling validation, retry attempts, and streaming responses. Key features include the ability to define the structure of your LLM outputs with Pydantic models, effortlessly manage retry attempts and Pydantic validation, and integrate with various LLM providers including OpenAI. It simplifies validation of LLM outputs and provides a supportive online community on Discord to help users properly utilize Instructor and share their projects. The tool is open for contributors.",Maximize your LLM Workflows with Python Instructor Library,"This blog post explores the powerful utility of the Python library, Instructor, for working with large language model (LLM) outputs. With features like Pydantic-based response models, validation, and retry management, 'Instructor' simplifies LLM interactions. Additionally, it supports streaming and offers integration with various LLM providers, paving the way for a supercharged language modeling experience!","Discover how to leverage the Python Instructor library to effortlessly manage and streamline working with structured LLM outputs. Features include response models, validation, retry management, streaming support, and flexible backends.",Language Models Tool,"Python
+
+
+
+
+
+        3,946
+
+
+
+
+
+        321
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",,,3946,2023-06-14T10:42:23Z
+2024-03-22,https://github.com/Doriandarko/maestro,https://raw.githubusercontent.com/Doriandarko/maestro/main/README.md,"""Maestro"" is a Python script utilising Opus and Haiku, two AI models from the Anthropic API, to automate task breakdown and execution. The Opus model breaks down objectives into smaller tasks, then executes each via the Haiku model. Features include an exchange log to track the process, converting log into a Markdown file, and the use of a refined prompt for task assessment, incorporating a specific phrase to indicate task completion. The script can be customised according to user needs. Requirements include Python, the Anthropic API key, and certain Python packages. The script is available under the MIT License.
+",Unveiling Maestro: An AI-Assisted Task Breakdown Framework Using Anthropic API,"Discover how the Maestro framework utilizes Python script and the Anthropic API to achieve task breakdown. Learn about its use of AI models, Opus and Haiku, to execute subtasks and refine the end results. The post also highlights its features, prerequisites, installation, usage, code structure, and customization options.",A comprehensive guide to the Maestro framework - an intelligent AI-assisted task breakdown and execution tool using the Anthropic API that simplifies even the most complex tasks.,AI Task Automation,"Python
+
+
+
+
+
+        362
+
+
+
+
+
+        56
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        45 stars today",,,362,2024-03-19T20:48:29Z
+2024-03-22,https://github.com/explodinggradients/ragas,https://raw.githubusercontent.com/explodinggradients/ragas/main/README.md,"Ragas is a new framework designed to assist in evaluating the performance of Retrieval Augmented Generation (RAG) pipelines, particularly for Language Model (LLM) applications. Ragas allows users to assess and enhance their pipeline's performance quantitatively. The framework incorporates the newest research tools for evaluating LLM-generated texts, providing insights on RAG pipelines. Ragas can be integrated within Continuous Integration/Continuous Deployment systems for ongoing performance checks. Ragas is created with Python and can be installed from the source or via pip. The platform welcomes engagement through their Discord community, and they practice open analytics, sharing non-identifiable usage metrics.
+",Optimizing RAG Pipelines with Ragas: A Comprehensive Evaluation Framework,"The Ragas framework provides effective solutions to evaluate, monitor, and enhance the performance of your Retrieval Augmented Generation (RAG) applications. Capitalizing on the latest research, Ragas offers crucial insights into your RAG pipeline's efficacy. It can also be integrated into your CI/CD to ensure consistent performance checks.",Learn to optimize and monitor the performance of your Retrieval Augmented Generation application with the Ragas framework. Get critical insights and consistent checks with continuous integration and continuous delivery integration. ,AI Development Platform,"Python
+
+
+
+
+
+        3,923
+
+
+
+
+
+        330
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        189 stars today",,,3923,2023-05-08T17:48:04Z
+2024-03-22,https://github.com/zyddnys/manga-image-translator,https://raw.githubusercontent.com/zyddnys/manga-image-translator/main/README.md,"The Manga/Image Translator is a software tool used to translate texts in mangas or images. It's a useful project for untranslated manga or image translations. It supports various features including online demo, samples, installation options through Pip/venv and Poetry, usage in different modes (batch, demo, web, and API), an array of options for translation, and API documentation for synchronous, asynchronous, and manual translations. The project provides an extensive list of potential areas for development and invites contributions from the user community. It also provides a detailed guide for using different modules such as GPT Config Reference, Gimp for rendering, and various language code references, translators reference, and many more.",Unlocking the Power of Image and Manga Translation Tools,"Delve into the revolutionary project of Image/Manga translator. Discover how it facilitates manga or image translations. Learn how it handles image detection, installation, utilization and more.","A comprehensive guide to the innovative Image/Manga translation tool. Explore how it aids in translating texts in manga or images, enhancing your reading experience.",Image Translation Tool,"Python
+
+
+
+
+
+        3,846
+
+
+
+
+
+        398
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        118 stars today",https://user-images.githubusercontent.com/31543482/232265329-6a560438-e887-4f7f-b6a1-a61b8648f781.png; https://user-images.githubusercontent.com/31543482/232265339-514c843a-0541-4a24-b3bc-1efa6915f757.png; https://user-images.githubusercontent.com/31543482/232265479-a15c43b5-0f00-489c-9b04-5dfbcd48c432.png; https://user-images.githubusercontent.com/31543482/232265480-f8ba7a28-846f-46e7-8041-3dcb1afe3f67.png; https://user-images.githubusercontent.com/31543482/232264684-5a7bcf8e-707b-4925-86b0-4212382f1680.png; https://user-images.githubusercontent.com/31543482/232264644-39db36c8-a8d9-4009-823d-bf85ca0609bf.png; https://user-images.githubusercontent.com/31543482/232265794-5ea8a0cb-42fe-4438-80b7-3bf7eaf0ff2c.png; https://user-images.githubusercontent.com/31543482/232265795-4bc47589-fd97-4073-8cf4-82ae216a88bc.png,,3846,2021-02-18T03:03:23Z
+2024-03-22,https://github.com/Lightning-AI/lightning-thunder,https://raw.githubusercontent.com/Lightning-AI/lightning-thunder/main/README.md,"Lightning Thunder is a source-to-source compiler for PyTorch that boosts speed by utilizing different hardware executors simultaneously. Thunder offers enhanced performance over standard PyTorch eager code, exhibiting considerable speedups, with reported a 40% increase in training throughput. This software supports distributed strategies and implements best-in-class executors such as nvFuser, torch.compile, cuDNN, and TransformerEngine FP8. It is also extensible and easy to understand, albeit in its alpha phase. Installation and running instructions are provided, and its open-source nature encourages community contribution. Thunder is released under the Apache 2.0 license.
+",Supercharge Your PyTorch Models with Lightning Thunder,"Discover how Lightning Thunder can significantly enhance the performance of your PyTorch models. Learn about its features, including source-to-source compilation, utilization of best-in-class executors for speedups, and its extensibility. Get started today!",Lightning Thunder optimizes PyTorch models for enhanced performance. Explore its features and understand how it can transform your machine learning tasks. Start your journey with Lightning Thunder now.,AI Development Platform,"Python
+
+
+
+
+
+        407
+
+
+
+
+
+        27
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        199 stars today",https://raw.githubusercontent.com/Lightning-AI/lightning-thunder/main/docs/source/_static/images/training_throughput_single.png; https://raw.githubusercontent.com/Lightning-AI/lightning-thunder/main/docs/source/_static/images/normalized_training_throughput_zero2.png,,407,2024-03-18T15:30:56Z
+2024-03-22,https://github.com/localstack/localstack,https://raw.githubusercontent.com/localstack/localstack/master/README.md,"LocalStack has announced the release of version 3.2. LocalStack is a fully functional local cloud stack allowing the development and testing of AWS applications locally. The software emulates cloud services and offers AWS application capabilities without requiring connection to remote cloud providers. It supports a number of AWS services like AWS Lambda, DynamoDB, and many more. A premium version with additional features is also available. As a cloud developer tool, it offers easier development, testing, and continuous integration. Moreover, its community encourages contributions, and there's also an option to donate or sponsor the project.
+",Announcing LocalStack 3.2: Your Local AWS Cloud Development Framework,"Exciting news! We're thrilled to announce the release of LocalStack 3.2. This local cloud software development framework allows you to develop and test your AWS applications locally, speeding up and simplifying your testing and development workflow.","LocalStack 3.2 has just been released. Discover how this cloud software development framework brings the power of AWS to your local dev environment for faster, simpler testing and development.",Cloud Development Tool,"Python
+
+
+
+
+
+        51,718
+
+
+
+
+
+        3,774
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",,,51718,2016-10-25T23:48:03Z
+2024-03-22,https://github.com/SYSTRAN/faster-whisper,https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md,"Faster Whisper is a reimplementation of OpenAI's Whisper model using CTranslate2, improving speeds up to four times while using less memory. The code integrates the Silero VAD model to minimize audio parts without speech, has a wide range of installation methods including using Docker or pip, and allows transcriptions to run to completion by gathering segments in a list or a loop. Unlike openai-whisper, it doesn't require FFmpeg to be installed. It offers several community integrations and a script to convert any Whisper models compatible with the Transformers library.",Enhancing Transcription Speed and Efficiency with Faster-Whisper Transcription & CTranslate2,"Discover the efficiency and power of Faster-Whisper, a reimplementation of OpenAI's Whisper model using CTranslate2. This method significantly boosts model performance, promising up to 4 times the speed and less memory usage, all while maintaining the same accuracy level.",Learn how to use Faster-Whisper and CTranslate2 to enhance audio transcription capabilities. Its efficiency can even be further improved with 8-bit quantization on both CPU and GPU.,AI Inference Platform,"Python
+
+
+
+
+
+        8,005
+
+
+
+
+
+        645
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        24 stars today",,https://www.youtube.com/watch?v=0u7tTptBo9I,8005,2023-02-11T09:17:27Z
+2024-03-22,https://github.com/ezelikman/quiet-star,https://raw.githubusercontent.com/ezelikman/quiet-star/main/README.md,"The Quiet-STaR project modifies the base Mistral implementation in Huggingface's 'transformers' package to teach the models to ""think"" before speaking. Patches were implemented on version 4.37.0.dev0, and it is advised to use this version for replication. However, the model does not learn to avoid generating start and end thought tokens, which need to be masked out during inference. An 8-thought-token model, including start and end tokens, is available on Huggingface, but users are warned that changes to the original code may impact the function of this project.
+",Utilizing Quiet-STaR: Learning How Language Models Think Before Speaking,"Uncover the workings of Quiet-STaR - a language model that learns to think before speaking. Its implementation patches the base Mistral in Huggingface transformers. However, be cautious, the model isn't taught to generate start/end thought tokens which need to be masked during inference.","Explore the implementation of Quiet-STaR in this guide, teaching how this language model has self-taught to think before acting. Learn about its integration with Mistral on Huggingface transformers.",AI Development Platform,"Python
+
+
+
+
+
+        120
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+        37 stars today",,,120,2024-03-17T18:58:18Z
+2024-03-22,https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator,https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/README.md,"The ""Chat with your data"" Solution Accelerator is a tool that merges Azure AI Search and Large Language Models (LLMs) to form a conversational search interface. This tool integrates an Azure OpenAI GPT model and an Azure AI Search index, produced from user data, into a web app to allow a natural language interface for search queries. Users can manage technical setup, drag and drop files, and point to storage to convert documents. Admins can also customize the system to tailor responses for the intended audience. The accelerator includes useful features such as file uploading, easy prompt configuration and multiple chunking strategies.
+",Enhance Your Conversational Searches with Chat With Your Data Solution Accelerator,"Discover how you can unlock the power of Azure AI Search and Large Language Models with the Chat with your data Solution Accelerator. Transform and integrate your data to create a conversational search experience, all integrated into a web application with security and authentication. Customise it to fit your specific needs and enjoy features like speech-to-text functionality and multi-chunking strategies.","Leverage the Azure AI Search and Large Language Models with the Chat with your data Solution Accelerator. Develop a customisable, integrated and secure conversational search experience for your web application.",AI Development Platform,"Python
+
+
+
+
+
+        409
+
+
+
+
+
+        209
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        0 stars today",https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/userStory.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/cwyd-solution-architecture.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/web-unstructureddata.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/web-nlu.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/teams-cwyd.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/oneClickDeploy.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/./media/admin-site.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/./media/web-unstructureddata.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/supportingDocuments.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/customerTruth.png,,409,2023-06-06T01:40:48Z
