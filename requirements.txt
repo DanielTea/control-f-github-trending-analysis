@@ -2,6 +2,10 @@ openai
 beautifulsoup4
 requests
 python-dotenv
+<<<<<<< Updated upstream
 ollama
 tweepy
 schedule
+=======
+ollama
+>>>>>>> Stashed changes

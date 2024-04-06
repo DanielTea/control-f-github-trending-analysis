@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # import openai
 
 # client = openai.OpenAI(api_key="dummy", base_url="http://localhost:11434/v1")
@@ -96,3 +97,21 @@ def fetch_trending_repositories(url='https://github.com/trending/python?since=da
     return repository_links, stars
 
 fetch_trending_repositories(url='https://github.com/trending/python?since=daily')
+=======
+import openai
+
+client = openai.OpenAI(api_key="dummy", base_url="http://localhost:11434/v1")
+
+blog_prompt = "Why is the sky blue?"
+ # Classify the GitHub project
+blog_completion = client.chat.completions.create(
+    model="llama2",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant. Answer only in English."},
+        {"role": "user", "content": blog_prompt}
+    ]
+)
+blog_text = blog_completion.choices[0].message.content
+
+print(blog_text)
+>>>>>>> Stashed changes
