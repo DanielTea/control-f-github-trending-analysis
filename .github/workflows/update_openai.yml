@@ -7,7 +7,7 @@ on:
   #   branches:
   #     # - main
   workflow_dispatch:  # Added workflow_dispatch trigger
-  #schedule:
+  schedule:
    - cron: '0 23 * * *'  # Every day at 9:00 AM UTC
 
 permissions:
