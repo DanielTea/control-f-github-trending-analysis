@@ -8,7 +8,7 @@ on:
   #     # - main
   workflow_dispatch:  # Added workflow_dispatch trigger
   #schedule:
-   # - cron: '0 23 * * *'  # Every day at 9:00 AM UTC
+   - cron: '0 23 * * *'  # Every day at 9:00 AM UTC
 
 permissions:
   contents: write
