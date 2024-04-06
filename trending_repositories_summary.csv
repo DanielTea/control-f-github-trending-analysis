@@ -7244,3 +7244,346 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         0 stars today",https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/userStory.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/cwyd-solution-architecture.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/web-unstructureddata.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/web-nlu.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/teams-cwyd.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/oneClickDeploy.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/./media/admin-site.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/./media/web-unstructureddata.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/supportingDocuments.png; https://raw.githubusercontent.com/Azure-Samples/chat-with-your-data-solution-accelerator/main/media/customerTruth.png,,409,2023-06-06T01:40:48Z
+2024-04-06,https://github.com/FoundationVision/VAR,https://raw.githubusercontent.com/FoundationVision/VAR/main/README.md,"VAR, or Visual Autoregressive Modeling, presents a novel image generation method through ""next-scale prediction,"" distinguishing itself from traditional raster-scan approaches. This GPT-like autoregressive innovation surpasses existing diffusion models in performance and introduces scalable image generation with significant advancements. The method has been proven through the discovery of scaling laws within VAR transformers, showcasing efficiency and effectiveness in generating high-quality images. Notably, VAR demonstrates exceptional zero-shot generalizability, indicating its robust and versatile capabilities in image synthesis. The models are accessible on the official PyTorch implementation and a demo platform for interactive exploration. This breakthrough is poised to redefine visual generation technologies, offering tools and insights for further advancements in the field, as detailed in their paper and supported by various resources for practical engagement with VAR models.",Elevating Image Generation: VAR Surpasses Diffusion Models with Visual Autoregressive Techniques,"Discover the cutting-edge in image generation with VAR (Visual Autoregressive Modeling), a transformative approach that outpaces traditional diffusion models by focusing on next-scale prediction methods. This method, detailed in their latest publication, offers unprecedented image quality and efficiency, marking a significant leap forward in autoregressive models. Explore the potential of VAR through interactive demos or delve into the technical details via provided resources. Furthermore, VAR's achievement in discovering scaling laws and demonstrating zero-shot generalizability sets new standards in the field. Whether for academic purposes or practical application, VAR's novel method is reshaping the landscape of visual generation.","Explore how VAR (Visual Autoregressive Modeling) is revolutionizing image generation by outperforming diffusion models with next-scale prediction, offering cutting-edge quality and efficiency in visuals.",Image Generation Platform,"Python
+
+
+
+
+
+        505
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        130 stars today",,,505,2024-04-01T16:53:18Z
+2024-04-06,https://github.com/princeton-nlp/SWE-agent,https://raw.githubusercontent.com/princeton-nlp/SWE-agent/main/README.md,"The SWE-agent project transforms Language Models (LMs) like GPT-4 into software engineering agents capable of resolving bugs in real GitHub repositories with a state-of-the-art success rate of 12.29% on the SWE-bench test set. Developed by Princeton University researchers, this system utilizes an Agent-Computer Interface (ACI) designed to streamline the interaction between the LM and code repositories, significantly outperforming baseline agents without such a refined interface. The project emphasizes the importance of specific features like a syntax-checking linter, a specialized file viewer, and a directory search tool for enhancing the agent's efficiency. SWE-agent is available for use and testing, with options for a Docker-based setup or a development version via conda, including detailed instructions for API key configuration. It allows users to deploy the agent on GitHub issues, aiming to automatically solve them and potentially submit pull requests. The project is open for contributions, offers a Discord community for discussions, and is licensed under MIT.",Revolutionizing Software Engineering: SWE-agent's Breakthrough with LMs,"Discover how SWE-agent, developed by Princeton University researchers, utilizes Language Models like GPT-4 to fix bugs in real GitHub repositories. Achieving remarkable success, SWE-agent resolves 12.29% of issues on the SWE-bench platform, showcasing state-of-the-art performance. The success is attributed to the Agent-Computer Interface (ACI), enhancing interaction with repositories for more effective bug fixes. SWE-agent’s innovative features, including a linter and tailored file viewer, mark a significant advancement in software engineering, reshaping how we approach coding problems.","Learn how SWE-agent leverages GPT-4 and an innovative Agent-Computer Interface to solve real-world GitHub issues, delivering unprecedented success rates and pushing the boundaries of software engineering.",AI Development Platform,"Python
+
+
+
+
+
+        6,885
+
+
+
+
+
+        603
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        1,212 stars today",https://raw.githubusercontent.com/princeton-nlp/SWE-agent/main/assets/swe-agent-banner.png; https://raw.githubusercontent.com/princeton-nlp/SWE-agent/main/assets/results+preview.png,,6886,2024-04-02T04:09:47Z
+2024-04-06,https://github.com/InstantStyle/InstantStyle,https://raw.githubusercontent.com/InstantStyle/InstantStyle/main/README.md,"InstantStyle, developed by the InstantX Team, is a novel framework aimed at enhancing text-to-image generation by effectively separating style and content in images. This is achieved through two primary strategies: subtracting content text features from image features to decouple style and content, and injecting information into specific style-related blocks within a deep neural network. These blocks are identified to capture essential stylistic elements such as color and spatial layout. The framework also introduces a technical report and provides demos of its stylized synthesis capabilities, including image-based stylization and comparisons with previous work. Compatibility with existing models like IP-Adapter is ensured, and usage instructions alongside code for leveraging this method are provided. Moreover, resources for further exploration and a Gradio demo for practical application are discussed. The InstantStyle team encourages support via sponsorship and invites citations for the utilization of their framework in research. Contact details for inquiries are provided, enhancing the accessibility of this innovative approach to the community.",Exploring InstantStyle: A Revolutionary Text-to-Image Generation Framework,"InstantStyle introduces a novel approach in text-to-image generation, focusing on the separation of style and content through innovative techniques. By leveraging the capabilities of CLIP's global features and precise attention layer targeting, it achieves unparalleled style preservation. This framework's effectiveness is showcased through various demonstrations, including stylized synthesis and image-based stylized synthesis, with comparisons to previous methods highlighting its advancements. Interested users can engage with InstantStyle through a detailed technical report, downloadable pre-trained models, and an accessible Gradio demo. InstantStyle not only sets a new standard in digital imagery but also invites further exploration and support from the community.","Discover InstantStyle, the cutting-edge framework for text-to-image generation that masterfully disentangles style from content. Learn how its unique methods transform digital imagery through our comprehensive guide.",Image Generation Platform,"Python
+
+
+
+
+
+        241
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        56 stars today",https://raw.githubusercontent.com/InstantStyle/InstantStyle/main/assets/subtraction.png; https://raw.githubusercontent.com/InstantStyle/InstantStyle/main/assets/tree.png; https://raw.githubusercontent.com/InstantStyle/InstantStyle/main/assets/example1.png; https://raw.githubusercontent.com/InstantStyle/InstantStyle/main/assets/example2.png; https://raw.githubusercontent.com/InstantStyle/InstantStyle/main/assets/example3.png; https://raw.githubusercontent.com/InstantStyle/InstantStyle/main/assets/comparison.png,,241,2023-12-22T03:21:58Z
+2024-04-06,https://github.com/infiniflow/ragflow,https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md,"RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine that emphasizes deep document understanding and integrates Large Language Models (LLMs) to offer accurate question-answering capabilities with reliable citations. It stands out for its deep knowledge extraction from complex formatted unstructured data, template-based chunking, reduced hallucinations through grounded citations, and compatibility with various data sources. RAGFlow facilitates an automated workflow suitable for both personal and business scales, providing configurable LLMs, intuitive APIs, and a streamlined orchestration process. The setup involves prerequisites like CPU and RAM specifications, Docker installation, and server startup instructions, including Docker image building and system configuration adjustments. The community is encouraged to contribute, and future plans are outlined in the RAGFlow Roadmap 2024.",Leveraging RAGFlow for Enhanced Document Understanding and Workflow Efficiency,"Discover how RAGFlow revolutionizes document understanding and workflow efficiency by offering a unique Retrieval-Augmented Generation (RAG) engine. This powerful tool combines Large Language Models (LLMs) with complex data understanding to provide accurate, citation-backed answers across various formats. Perfect for businesses of any size, RAGFlow supports an expansive array of data types and simplifies integration with intuitive APIs. Its key features like template-based chunking and reduced hallucinations in citations make it an indispensable asset for improving data handling and decision-making processes.","Explore how RAGFlow's RAG engine with deep document understanding and LLMs transforms business workflows through accurate data interpretation, streamlined processes, and diverse data compatibility.",Deep Learning Platform,"Python
+
+
+
+
+
+        2,461
+
+
+
+
+
+        152
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        313 stars today",https://raw.githubusercontent.com/infiniflow/ragflow/main/web/src/assets/logo-with-text.png,,2461,2023-12-12T06:13:13Z
+2024-04-06,https://github.com/python/typeshed,https://raw.githubusercontent.com/python/typeshed/main/README.md,"Typeshed is a repository offering external type annotations for the Python standard library, builtins, and third-party packages, enhancing tools like static analysis, type checking, and autocompletion. It's targeted at Python 3.8 and newer versions. Users utilizing type checkers (e.g., mypy, pyright) don't directly interact with Typeshed, as standard library stubs come bundled with these checkers, and third-party stubs can be installed via PyPI. Typeshed's versioning for third-party stubs mirrors the versioning of the corresponding packages, aiding in compatibility. Contributors and users are encouraged to report issues and contribute to Typeshed, while further guidance on usage and versioning strategies is provided to ensure effective type checking. Typeshed also includes a special `_typeshed` package for additional utility types, not available at runtime. The project encourages discussion and feedback through its GitHub issue tracker, typing discussion forum, and a Gitter chat room for informal conversations.",Enhancing Python Development: An Overview of Typeshed's Role,"Typeshed plays a crucial role in the Python ecosystem by providing external type annotations for both the standard library and third-party packages. These annotations are essential for static analysis, type checking, type inference, and autocompletion, thereby enhancing code quality and developer productivity. Typeshed supports Python versions 3.8 and up, making it a versatile tool for modern Python developers. For seamless integration, typeshed annotations can be installed directly from PyPI, ensuring up-to-date type coverage. Furthermore, the project invites contributions, making it a collaborative effort to improve Python typing.","Explore how Typeshed enhances Python development by providing external type annotations for static analysis, type checking, and more. Learn how to use and contribute to Typeshed.",Python Libraries Collection,"Python
+
+
+
+
+
+        4,031
+
+
+
+
+
+        1,652
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",,,4031,2015-03-05T04:51:28Z
+2024-04-06,https://github.com/PhonePe/mantis,https://raw.githubusercontent.com/PhonePe/mantis/main/README.md,"Mantis is a beta-phase command-line tool designed for asset discovery, reconnaissance, and scanning. It inputs top-level domains to discover assets like subdomains and certificates, conducts reconnaissance on active assets, and performs scans for vulnerabilities, secrets, misconfigurations, and phishing domains using a combination of open-source and custom tools. Features include automated discovery, recon and scan, distributed scanning, easy scan customization, dashboard support, vulnerability management, advanced alerting, DNS service integration, and quick tool integration. Installation options include Docker, demanding specific system requirements due to its CPU-intensive nature. The dashboard setup is detailed post-installation. Mantis offers various command-line options for different scanning modes, including the onboard and scan modes for TLDs, IPs, IP ranges, and CIDRs. Contributions are welcomed through bug reporting, feature requests, or pull requests. The development team includes Prateek Thakare, Bharath Kumar, Hitesh Kumar, Saddam Hussain, Pragya Gupta, Dhruv Shekawat, Santanu Sinha, Praveen Kanniah, with special thanks to Ankur Bhargava. Usage is legal only with consent, and the developers disclaim liability for misuse.",Maximize Your Cybersecurity with Mantis: A Comprehensive Automated Scanning Solution,"Discover Mantis, the innovative command-line framework designed for automating asset discovery, reconnaissance, and vulnerability scanning. With Mantis, users can input top-level domains to initiate a thorough process that identifies subdomains, certificates, and performs extensive scans for vulnerabilities, secrets, misconfigurations, and phishing domains. This tool is built on a combination of open-source and custom tools, ensuring a seamless and efficient workflow for cybersecurity professionals. Mantis supports a distributed scanning feature, allowing for scans to be divided across multiple machines, and boasts easy scan customization, making it an essential tool for robust cyber defense strategies.","Learn how Mantis, an advanced command-line framework, automates the entire process of asset discovery, reconnaissance, and scanning for vulnerabilities, secrets, and misconfigurations, streamlining your cybersecurity efforts.",Cybersecurity Tool,"Python
+
+
+
+
+
+        469
+
+
+
+
+
+        56
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        82 stars today",https://raw.githubusercontent.com/PhonePe/mantis/main/./images/mantis.png; https://raw.githubusercontent.com/PhonePe/mantis/main/./images/Assets.png; https://raw.githubusercontent.com/PhonePe/mantis/main/./images/Vulnerabilities.png,https://www.youtube.com/watch?v=3PCRIJEOTWo,469,2023-08-12T14:44:57Z
+2024-04-06,https://github.com/myshell-ai/JetMoE,https://raw.githubusercontent.com/myshell-ai/JetMoE/main/README.md,"JetMoE-8B is a groundbreaking model trained on less than $100,000, surpassing LLaMA2-7B, a model from Meta AI with significantly higher budget resources. This achievement suggests that training large language models (LLMs) can be more cost-effective than previously believed. JetMoE-8B is open-source, relying solely on public datasets, and is designed to be fine-tuned on a minimal compute budget, making it especially suitable for academia. Despite having only 2.2B active parameters during inference, which reduces computational costs, JetMoE-8B consistently outperforms similar-sized models and even larger models like LLaMA2-7B and DeepseekMoE-16B in various benchmarks. It demonstrates superior performance across a broad spectrum, including on the Open LLM Leaderboard and MT-Bench Score, highlighting its efficiency and effectiveness. The project, contributed by Yikang Shen, Zhen Guo, Tianle Cai, and Zengyi Qin, encourages collaboration and is supported by MyShell.ai for further open-source endeavors.",Achieving Peak AI Performance: JetMoE Surpasses LLaMA2 with Minimal Budget,"Discover how JetMoE-8B outperforms Meta AI's LLaMA2-7B with less than $0.1 million spent, setting a new benchmark for cost-effective AI training. This breakthrough demonstrates that high-quality machine learning model training can be significantly cheaper and more accessible than previously believed. Fully open-sourced, JetMoE-8B uses only public datasets and requires minimal compute resources for finetuning, making it ideal for academic research and development. Remarkably, it maintains superior performance while using only 2.2B active parameters during inference, reducing computational costs.","JetMoE-8B revolutionizes AI training, outperforming LLaMA2 with a fraction of the budget. Explore how this open-sourced model offers superior performance with minimal costs, making advanced AI accessible to all.",Large-scale Language Models,"Python
+
+
+
+
+
+        383
+
+
+
+
+
+        20
+
+
+        Built by
+
+          
+
+
+
+
+
+        120 stars today",https://raw.githubusercontent.com/myshell-ai/JetMoE/main/resources/2-performance.png,,383,2024-04-02T02:43:16Z
+2024-04-06,https://github.com/posit-dev/great-tables,https://raw.githubusercontent.com/posit-dev/great-tables/main/README.md,"**Great Tables** enables easy creation of visually appealing tables in Python, focusing on flexibility and user-friendly customization options. It begins with table data in DataFrame format from Pandas or Polars, allowing users to determine the composition and formatting of their output tables for use in consoles, notebooks, or Quarto documents. The package is designed for simplicity in common tasks with options for advanced customization. An example provided illustrates creating a table from a dataset, demonstrating formatting capabilities for dates, currency, and numbers, while hiding specific columns. **Great Tables** includes ten datasets for experimentation and extensive documentation. The community can engage through GitHub Discussions, a Discord server, or Twitter for support, ideas, and discussions. Installation is straightforward via PyPI. The project encourages community participation under a contributor code of conduct and is maintained by Posit Software, PBC, under the MIT license, with governance by Rich Iannone and Michael Chow.",Master Table Creation in Python with Great Tables: A Comprehensive Guide,"Discover the power of Great Tables for generating visually appealing tables in Python effortlessly. With its user-friendly interface, you can construct a wide variety of tables using customizable components such as headers, footers, and row labels. Great Tables supports data from Pandas or Polars DataFrame, allowing for flexible table composition and formatting options. Whether for console printouts, notebook integrations, or Quarto document renderings, Great Tables enhances data presentation significantly. Dive into the comprehensive documentation to explore the myriad possibilities!","Learn how to effortlessly create stunning tables in Python using Great Tables. Explore customizable components, data integration from Pandas or Polars DataFrame, and various rendering options to enhance your data presentation.",Python Libraries Collection,"Python
+
+
+
+
+
+        727
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        79 stars today",https://raw.githubusercontent.com/posit-dev/great-tables/main/./docs/assets/datasets.png,,727,2022-05-06T20:11:05Z
+2024-04-06,https://github.com/YaoFANGUK/video-subtitle-remover,https://raw.githubusercontent.com/YaoFANGUK/video-subtitle-remover/main/README.md,"The Video-subtitle-remover (VSR) is an AI-based software designed to remove hard subtitles from videos, offering several features including lossless resolution subtitle removal, filling in the subtitle region post-removal using advanced AI algorithms, support for custom subtitle locations, automatic removal across entire videos, and the ability to batch remove watermarks from multiple images. It is available for Windows, macOS, and Linux, requiring Python 3.8 or newer and an Nvidia GPU (GTX 1060 minimum). The software comes with a GUI version for ease of use, and installation involves downloading a package or setting up a conda environment for those who prefer or require source code access. The text also includes guidance on software usage, including troubleshooting tips for improving subtitle removal speed or quality and addresses potential issues such as CondaHTTPError or errors related to 7z file extraction. Additionally, the document mentions the importance of installing CUDA and cuDNN for leveraging GPU capabilities and concludes with a section on sponsorship, showing appreciation towards donors.",Revolutionize Video Editing with VSR: Remove Subtitles Seamlessly,"Discover the power of Video-Subtitle-Remover (VSR), the AI-based software designed to effortlessly remove hard-coded subtitles from videos without compromising resolution. With its advanced AI algorithms, VSR fills in the text-removed areas flawlessly, supports custom subtitle positions for selective removal, and even allows for the automatic elimination of all text across videos. Perfect for a variety of operating systems, VSR caters to your video editing needs with precision and ease.","Leverage Video-Subtitle-Remover (VSR) for seamless subtitle removal from videos. Utilize advanced AI for flawless filling, support custom positions, and enjoy comprehensive video editing across multiple platforms.",AI Task Automation,"Python
+
+
+
+
+
+        1,590
+
+
+
+
+
+        217
+
+
+        Built by
+
+          
+
+
+
+
+
+        49 stars today",https://github.com/YaoFANGUK/video-subtitle-remover/raw/main/design/demo.png; https://github.com/YaoFANGUK/video-subtitle-remover/raw/main/design/demo2.gif; https://github.com/YaoFANGUK/video-subtitle-remover/raw/main/design/demo.gif; https://i.328888.xyz/2023/03/31/iwVoeH.png; https://i.328888.xyz/2023/03/31/iwVThJ.png; https://i.imgur.com/EMCP5Lv.jpeg,,1590,2023-10-25T02:50:01Z
+2024-04-06,https://github.com/MervinPraison/PraisonAI,https://raw.githubusercontent.com/MervinPraison/PraisonAI/main/README.md,"Praison AI is a low-code framework designed to facilitate the creation and management of multi-agent systems for various large language model (LLM) applications. It focuses on ease of use, customization, and efficient human-agent interaction, utilizing either AutoGen, CrewAI, or other agent frameworks. Users can install Praison AI via pip, initialize it to create agent configurations (e.g., for generating a movie script about a dog on the moon), and run it either in basic, advanced, or full automatic modes. The system allows for the specification of distinct agent roles and tasks within an agents.yaml playbook, supporting both simple and detailed project outlines. In addition to its core functionalities, Praison AI accommodates deployment on cloud platforms and offers instructions for including the package in projects, contributing to the project, and utilizing alternative models like Ollama, FastChat, LM Studio, and Mistral API.",Unlocking the Potential of Multi-Agent Systems with Praison AI,"Discover how Praison AI simplifies the creation of multi-agent systems for LLM applications, making it easier for developers to innovate. This low-code, centralized framework focuses on ease of use, customization, and interaction between humans and agents. Whether you're initiating a project or deploying sophisticated agent frameworks, Praison AI offers a streamlined process for developing diverse applications. Learn how to install, initialize, and deploy your first agent with our step-by-step guide.","Find out how Praison AI revolutionizes the development of multi-agent systems for LLM applications with a low-code approach, emphasizing customization and human-agent interaction.",Collaborative AI Framework,"Python
+
+
+
+
+
+        205
+
+
+
+
+
+        56
+
+
+        Built by
+
+          
+
+
+
+
+
+        25 stars today",,,205,2024-03-19T16:45:25Z
+2024-04-06,https://github.com/Codium-ai/pr-agent,https://raw.githubusercontent.com/Codium-ai/pr-agent/main/README.md,"CodiumAI's PR-Agent is a tool designed to enhance the handling of pull requests (PRs) through AI-driven feedback and suggestions. It supports a range of commands and tools across various platforms including GitHub, GitLab, Bitbucket, and Azure DevOps, offering features like PR review, code improvement suggestions, question answering, update of changelogs, documentation generation, and more, with certain features exclusive to PR-Agent Pro. Recent updates include pip package installation ease, new review tool features, and a knowledge-base website. PR-Agent works by compressing PRs for manageable LLM prompts, emphasizing real-life usage with a single GPT-4 call per tool for fast and affordable responses. It supports multiple git providers, usage methods, and models. Its privacy policy ensures that user data is not stored or used for training in the Pro version. PR-Agent stands out for its practical use, PR compression strategy, modular and customizable tools, across-provider support, and data privacy assurances.",Streamline Your Development Process with CodiumAI's PR-Agent,"CodiumAI introduces PR-Agent, a groundbreaking tool designed to streamline the software development process. By providing AI-driven feedback and suggestions on pull requests, PR-Agent enhances code quality and collaboration. Equipped with features like similar code identification, documentation generation, and custom suggestions based on preset guidelines, it makes code review more efficient. Plus, its compatibility with various platforms and integration into different workflows make it an essential tool for developers aiming to improve their code's quality and maintainability.","Discover how CodiumAI's PR-Agent can transform your development workflow with AI-powered feedback, enhancing code quality, and making pull requests handling more efficient.",AI Coding Assistant,"Python
+
+
+
+
+
+        3,923
+
+
+
+
+
+        307
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://codium.ai/images/pr_agent/logo-light.png; https://codium.ai/images/pr_agent/multiple_pr_themes.png; https://codium.ai/images/pr_agent/similar_code_global2.png; https://codium.ai/images/pr_agent/wiki_configuration.png; https://www.codium.ai/images/pr_agent/describe_new_short_main.png; https://www.codium.ai/images/pr_agent/review_new_short_main.png; https://www.codium.ai/images/pr_agent/improve_new_short_main.png; https://www.codium.ai/images/pr_agent/geneare_custom_labels_main_short.png; https://www.codium.ai/images/reflect_and_review.gif; https://www.codium.ai/images/ask-2.gif; https://www.codium.ai/images/improve-2.gif; https://www.codium.ai/images/demo-2.gif; https://codium.ai/images/pr_agent/diagram-v0.9.png; https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Joincommunity.png,,3923,2023-07-05T21:02:15Z
+2024-04-06,https://github.com/swisskyrepo/PayloadsAllTheThings,https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/README.md,"Payloads All The Things is a comprehensive repository dedicated to Web Application Security, offering an extensive list of payloads and bypass techniques for security testing and research. The project encourages community contributions, including direct payload suggestions, method improvements, and financial sponsorships. It features a structured documentation system with chapters on various vulnerabilities, each containing a README for vulnerability exploitations, sets for Burp Intruder, images, and referenced files. Moreover, it includes a rich collection of methodologies and resources on several areas like Active Directory Attacks, cloud pentesting, Linux and Windows security, network pivoting, and more. The repository also promotes learning through a selection of books and YouTube videos. Contributions are welcome, as outlined in their contributing guide, and the project appreciates sponsorship from individual donors and companies, highlighting community collaboration and support in the cybersecurity field.",Mastering Web Application Security: Comprehensive Guide to Payloads and Bypasses,"Discover the ultimate resource for enhancing web application security through payloads and bypasses. Dive into an extensive collection compiled by cybersecurity enthusiasts. Learn, contribute, and enrich the repository with your unique techniques and payloads. Collaborate with the community through pull requests or by becoming a sponsor. Explore the vast documentation and contribute to continually fortifying web security.","Explore an exhaustive guide to payloads and bypasses for web application security. Contribute your techniques, learn from the community, and help improve web security.",Cybersecurity Tool,"Python
+
+
+
+
+
+        56,414
+
+
+
+
+
+        13,909
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/.github/banner.png,,56414,2016-10-18T07:29:07Z
+2024-04-06,https://github.com/sczhou/ProPainter,https://raw.githubusercontent.com/sczhou/ProPainter/main/README.md,"ProPainter is a project by Shangchen Zhou, Chongyi Li, Kelvin C.K. Chan, and Chen Change Loy from S-Lab at Nanyang Technological University, presented at ICCV 2023. It focuses on advancing video inpainting through enhanced propagation and transformer techniques. The project provides a comprehensive solution for video processing tasks like object removal and video completion, showcased with impressive visual results on the project page. Since its initiation, ProPainter has introduced updates such as integration with OpenXLab and Hugging Face for online demos, features for memory-efficient inference, and the availability of the code and model for public use. However, watermark removal demos were removed to prevent unethical use. The project encourages community engagement, inviting users to star the repository if they find it helpful. Detailed installation instructions, dataset preparation guides, training, and evaluation steps are meticulously documented, making it accessible for further academic and practical applications. The project also acknowledges its basis on previous works and contributions, particularly noting the support in creating Gradio demos.",Unveiling ProPainter: A Leap in Video Inpainting Technology,"ProPainter, developed by researchers from Nanyang Technological University, demonstrates significant advancements in video inpainting with the integration of propagation techniques and transformer technology. Presented at ICCV 2023, this groundbreaking project offers practical applications for removing objects and completing videos seamlessly. With comprehensive demos available on platforms like OpenXLab and Hugging Face, ProPainter sets a new benchmark for memory-efficient inference and model accessibility. Explore the full capabilities and contribute to this open-source project to redefine the possibilities of video editing and content creation.","Discover ProPainter, the cutting-edge video inpainting tool by NTU, showcased at ICCV 2023. Explore demos and contribute to enhancing video editing innovation.",Video Generation Tool,"Python
+
+
+
+
+
+        4,534
+
+
+
+
+
+        552
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        13 stars today",https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/propainter_logo1_glow.png; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/object_removal1.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/object_removal2.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion1.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion2.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion3.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion4.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/ProPainter_pipeline.png,https://www.youtube.com/watch?v=92EHfgCO5-Q,4534,2023-09-01T13:11:57Z
