@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # import openai
 
 # client = openai.OpenAI(api_key="dummy", base_url="http://localhost:11434/v1")
@@ -98,6 +99,8 @@ def fetch_trending_repositories(url='https://github.com/trending/python?since=da
 
 fetch_trending_repositories(url='https://github.com/trending/python?since=daily')
 =======
+=======
+>>>>>>> Stashed changes
 import openai
 
 client = openai.OpenAI(api_key="dummy", base_url="http://localhost:11434/v1")
@@ -113,5 +116,9 @@ blog_completion = client.chat.completions.create(
 )
 blog_text = blog_completion.choices[0].message.content
 
+<<<<<<< Updated upstream
+print(blog_text)
+>>>>>>> Stashed changes
+=======
 print(blog_text)
 >>>>>>> Stashed changes
