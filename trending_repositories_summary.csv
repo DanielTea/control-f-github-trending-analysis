@@ -7587,3 +7587,246 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         13 stars today",https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/propainter_logo1_glow.png; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/object_removal1.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/object_removal2.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion1.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion2.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion3.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/video_completion4.gif; https://raw.githubusercontent.com/sczhou/ProPainter/main/assets/ProPainter_pipeline.png,https://www.youtube.com/watch?v=92EHfgCO5-Q,4534,2023-09-01T13:11:57Z
+2024-04-07,https://github.com/nashsu/FreeAskInternet,https://raw.githubusercontent.com/nashsu/FreeAskInternet/main/README.md,"FreeAskInternet is an innovative, completely free, and locally-run search aggregation and answer generation application that does not require a GPU. It's designed to provide users with privacy and independence from cloud services, utilizing LLM without the need for OpenAI or Google API keys. By leveraging searxng for multi-engine searches, it combines results with ChatGPT3.5 to generate responses to queries, all processed locally. Key features include being entirely free, local, private, and run without LLM hardware. It offers a fast, Docker Compose-deployable system with a user-friendly web and mobile interface. Initial setup involves cloning from GitHub and deploying via Docker Compose. This project, still in early development, might experience bugs. It's licensed under Apache-2.0, acknowledging contributions from ChatGPT-Next-Web, FreeGPT35, and searxng.",Discover FreeAskInternet: The Ultimate Private Search Platform Without GPU Needs,"FreeAskInternet revolutionizes online search by offering a completely free, private, and local search aggregator and answer generator that operates without the need for a GPU. Users can ask questions, receiving answers generated from multi-engine search results without relying on external APIs. Designed to run seamlessly on any computer, this innovative project ensures privacy and ease of use, eliminating dependency on OpenAI or Google APIs. Ideal for those seeking a web and mobile-friendly interface without the cost or privacy concerns of traditional search tools.","Unlock the full potential of online searching with FreeAskInternet - a free, local, and private search aggregator and answer generator that doesn't require a GPU. Experience fast, secure, and easy-to-deploy searches right from your device.",AI Development Platform,"Python
+
+
+
+
+
+        1,260
+
+
+
+
+
+        104
+
+
+        Built by
+
+          
+
+
+
+
+
+        305 stars today",,,1260,2024-04-05T06:37:53Z
+2024-04-07,https://github.com/facebookresearch/schedule_free,https://raw.githubusercontent.com/facebookresearch/schedule_free/main/README.md,"Schedule-Free Learning introduces a new way to train models in PyTorch without the need for specifying learning rate schedules or stopping times. Developed by Aaron Defazio and colleagues, it offers an innovative alternative to traditional training methods, featuring SGDScheduleFree and AdamWScheduleFree as its primary implementations. This approach, utilizing a combination of interpolation and averaging to replace momentum, allows for either superior or on-par performance compared to state-of-the-art schedules with the same memory requirements as the base optimizer. Its unique mechanism requires switching the parameter buffer for gradient calls and evaluation, with specific adjustments needed for models using BatchNorm. Schedule-Free Learning stands out by not necessitating a decreasing learning rate schedule, making training less dependent on learning rate adjustments while still being compatible with learning rate warmup. Despite its advantages, tuning, including adjustments to learning rates and regularization, is crucial for optimal results. The method is seen as a blend of primal averaging and accelerated methods, offering rapid early-stage convergence without sacrificing stability. Additionally, it remains compatible with, and potentially enhanced by, techniques like Stochastic Weight Averaging but without their additional complexity and memory demands.",Revolutionizing PyTorch Training: Introducing Schedule-Free Learning,"Discover the cutting-edge Schedule-Free Optimizers in PyTorch, a groundbreaking approach brought to life by a team of expert researchers. This innovative method eliminates the need for pre-defined stopping schedules, offering a flexible, efficient pathway to faster training results. By blending interpolation with averaging, Schedule-Free learning not only simplifies the training process but also matches or outperforms state-of-the-art scheduling methods, all with the same memory footprint as traditional optimizers. Dive into how this technique seamlessly integrates into your PyTorch projects, promising to redefine machine learning practices.","Explore Schedule-Free Learning in PyTorch for faster, more efficient training without pre-set schedules. Learn how this innovative method simplifies training workflows and achieves top performance with minimal memory requirements.",Deep Learning Tool,"Python
+
+
+
+
+
+        678
+
+
+
+
+
+        25
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        293 stars today",,,678,2024-03-27T20:15:30Z
+2024-04-07,https://github.com/stanfordnlp/pyreft,https://raw.githubusercontent.com/stanfordnlp/pyreft/main/README.md,"Pyreft is a representation fine-tuning (ReFT) library developed to adapt internal language model (LM) representations effectively and efficiently. It supports fine-tuning pre-trained LMs on HuggingFace using ReFT and allows for easy sharing of fine-tuned results. Pyreft is designed to utilize a fraction of the parameters required by state-of-the-art (SoTA) fine-tuning methods, potentially leading to better performance. It also aims to make fine-tuning more interpretable. The library provides the flexibility to set ReFT hyperparameters via configurations and supports a variety of interventions for adjusting LM parameters. Corrections to the initial preprint, including swapped hyperparameter settings and a wrong citation, will be updated. Installation can be done directly from the repository, and it includes examples to guide users in applying ReFT for tasks like memorization or language model instruction tuning. Users can reproduce significant ReFT results, explore its interpretability, and even train models comparable to ChatGPT-3.5 within minutes using a single GPU. Pyreft emphasizes the advantages of ReFT over parameter-efficient fine-tuning (PEFT) methods in terms of efficiency, interpretability, and flexibility. The library is backed by the pyvene project and comes with guidelines and license notices for proper usage, alongside citations for academic referencing.",Revolutionize Language Modeling with Pyreft: The Future of Fine-Tuning,"Discover pyreft, the latest in representation fine-tuning (ReFT) for language models. Pyreft offers a robust, parameter-efficient way to enhance pre-trained language models with minimal fine-tuning cost. Its support for various models, easy HuggingFace integration, and potential for interpretable AI research marks a significant step forward. Dive into the world of efficient and effective language model fine-tuning with pyreft – your gateway to innovative language processing.","Explore pyreft, a cutting-edge library for representation fine-tuning (ReFT) in language models. Learn how pyreft enables efficient, effective, and interpretable fine-tuning with minimal costs. Start your journey towards advanced language processing today.",Language Models Tool,"Python
+
+
+
+
+
+        242
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        50 stars today",,,242,2024-02-17T02:36:45Z
+2024-04-07,https://github.com/hunshcn/gh-proxy,https://raw.githubusercontent.com/hunshcn/gh-proxy/master/README.md,"gh-proxy is a speed acceleration project for GitHub release, archive, and repository files, supporting cloning with both a serverless version on Cloudflare Workers and a Python version. A public demo is available, but due to its limited capacity, large-scale users are encouraged to deploy their own. The Python version allows for file size restrictions, specific user/repo banning or whitelisting, and pass-by features. Users can access the service by prefixing URLs with `https://gh.api.99988866.xyz/`. For accessing private repositories, a specific cloning method is provided. Instructions for deploying both the Cloudflare Workers and Python versions are detailed, including registration, script deployment, and Docker or direct installation for Python. The project has undergone several updates since its initial release, improving functionality such as clone support and raw file handling. Contributions to support the creator are welcome.",Boost Your GitHub Experience: Introducing gh-proxy for Faster Downloads,"gh-proxy is an acceleration project for GitHub release, archive, and project files, supporting cloning with both a serverless Cloudflare Workers version and a Python version. It's designed to help users facing slow download speeds or those in regions where GitHub access is restricted. Users are encouraged to deploy their own instance for heavy usage, as the public demo at https://gh.api.99988866.xyz/ faces high demand. Differences between Python and CF worker versions include file size limitations and support for specific user/repo whitelisting or blocking.","Discover gh-proxy, a GitHub acceleration tool for faster downloads of releases, archives, and project files, available in Cloudflare Workers and Python versions. Learn how it works, its benefits, and how to deploy your own instance for an enhanced GitHub experience.",Open Source Tool,"Python
+
+
+
+
+
+        6,021
+
+
+
+
+
+        1,514
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        45 stars today",https://img.maocdn.cn/img/2021/04/24/imagea272c95887343279.png; https://img.maocdn.cn/img/2021/04/24/image.md.png; https://www.helloimg.com/images/2021/04/24/BK9vmb.md.png,,6021,2020-03-22T00:56:45Z
+2024-04-07,https://github.com/Marker-Inc-Korea/AutoRAG,https://raw.githubusercontent.com/Marker-Inc-Korea/AutoRAG/main/README.md,"AutoRAG is an AutoML tool designed to help users find the best Retrieve and Generate (RAG) pipeline for their specific data needs. It allows for the automatic evaluation of various RAG modules using custom evaluation data, aiming to facilitate the identification of the optimal RAG pipeline for any given use case. It supports easy evaluation of multiple RAG module combinations and offers a quick way to start with a high-performance pipeline tailored to the user's data. The tool simplifies sharing experiment results and configurations, encourages community interaction via Discord, and provides comprehensive guides through documentation and Colab tutorials. AutoRAG emphasizes ease of use, from installation with a simple pip command to the execution of evaluations and deployments of the best RAG pipelines. It is open-source, inviting contributions and further development from the community.",Maximize Your Data's Potential with AutoRAG: The Ultimate AutoML Tool for RAG Pipelines,"Discover the power of AutoRAG, the innovative AutoML tool designed to find the optimal RAG pipeline for your data effortlessly. With an intuitive setup process and support for a wide range of RAG modules, AutoRAG simplifies the evaluation of various RAG combinations, ensuring you identify the best performing pipeline for your specific use-case. Ideal for data scientists and AI engineers, AutoRAG offers a streamlined path to enhanced model performance and efficiency. Start optimizing your RAG pipeline today and unlock the full potential of your data with AutoRAG.","Explore how AutoRAG, an advanced AutoML tool, effortlessly finds the best RAG pipeline for your data, optimizing performance and efficiency for data experts.",Machine Learning Tool,"Python
+
+
+
+
+
+        452
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        26 stars today",,https://www.youtube.com/watch?v=2ojK8xjyXAU,452,2024-01-10T12:25:00Z
+2024-04-07,https://github.com/KrisCris/Palworld-Pal-Editor,https://raw.githubusercontent.com/KrisCris/Palworld-Pal-Editor/master/README.md,"The Palworld Pal Editor, created with love by _connlost, is a tool specifically designed for use with the Steam version of Palworld. It allows players to perform various actions on their Pals (creatures in the game), such as spawning, duplicating, deleting, showing/hiding, inspecting stats, changing genders or nicknames, and editing their abilities. The tool also supports unlocking viewing cages in multiplayer servers, listing players and their Pals, and various other modifications like changing Pal levels, soul levels, passive skills, and more. It provides backup functionality to prevent save data corruption and supports multiple languages, including English, Japanese, and Simplified Chinese. Available for use in different formats, users can access it as a pre-built binary, via pip installation, through a dedicated Docker container, or by directly running the source code. Additional features include optional command-line arguments and a customizable config file. The tool welcomes contributions, bug reports, and feature requests via its GitHub issues section and encourages community engagement through its Discord server.",Maximize Your Palworld Experience: A Comprehensive Guide to the Palworld Pal Editor,"Discover how the Palworld Pal Editor, crafted with love by _connlost, revolutionizes your gaming experience. This powerful tool not only offers a plethora of features like pal spawning, stat inspections, and comprehensive save management but also supports multiple languages, ensuring accessibility for a global audience. Its intuitive design caters to both beginners and advanced players, promising a seamlessly enhanced Palworld journey. Remember, always back up your save files to prevent any loss.","Explore the Palworld Pal Editor to unlock, customize, and manage your Pals with ease. This guide covers everything from installation to advanced features, making it a must-read for all Palworld enthusiasts.",Game Development Tool,"Python
+
+
+
+
+
+        49
+
+
+
+
+
+        9
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        4 stars today",,https://www.youtube.com/watch?v=v9U60jj5Ugw,49,2024-02-24T08:08:54Z
+2024-04-07,https://github.com/bregman-arie/devops-exercises,https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/README.md,"This repository contains a collection of over 2624 exercises and questions on various technical topics, including those related to DevOps and Site Reliability Engineering (SRE). While these materials can aid interview preparation, they may not directly reflect actual interview questions. The content emphasizes that becoming a DevOps engineer involves understanding certain concepts rather than mastering all the listed technologies. Contributors are encouraged to add more exercises through pull requests, with guidelines available for potential contributors. The repository showcases a wide array of topics such as DevOps, Git, Network, Hardware, Kubernetes, Software Development, Cloud technologies (AWS, Azure, GCP), Programming languages (Python, Go, Perl), Containers, CI/CD, Security, and many more, indicating a broad spectrum of areas relevant to modern computing environments.",Mastering DevOps: Prepare for Your Next Interview with These Technical Questions and Exercises,"Discover the ultimate repository for mastering DevOps and SRE principles. Boasting over 2624 exercises and questions, this collection covers a vast array of technical topics essential for prospective DevOps engineers. While the questions span across numerous technologies and concepts, they aim to provide a solid preparation ground for interviews, despite not mirroring actual interview questions precisely. Dive into a learning journey tailored for DevOps career aspirants and contribute to the ever-growing list of exercises by engaging with the community through pull requests.","Unlock your potential in DevOps and SRE roles with a comprehensive guide featuring over 2624 exercises and questions. Ideal for interview preparation, learn crucial technical topics, and contribute to the DevOps community.",Software Development,"Python
+
+
+
+
+
+        63,061
+
+
+
+
+
+        13,779
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        26 stars today",https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/devops_exercises.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/devops.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/git.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/network.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/hardware.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/kubernetes.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/programming.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/python.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/Go.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/perl.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/regex.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/cloud.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/aws.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/azure.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/googlecloud.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/openstack.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/os.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/logos/linux.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/virtualization.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/dns.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/bash.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/databases.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/sql.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/mongo.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/testing.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/big-data.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/cicd.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/certificates.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/containers.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/openshift.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/storage.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/terraform.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/puppet.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/distributed.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/you.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/ansible.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/observability.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/prometheus.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/logos/circleci.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/logos/datadog.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/logos/grafana.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/logos/argo.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/HR.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/security.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/design.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/logos/chaos_engineering.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/general.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/elastic.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/logos/kafka.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/distributed/distributed_design_standby.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/distributed/distributed_design_lb.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/design/cdn-no-downtime.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/design/producers_consumers_issue.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/design/producers_consumers_fix.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/design/input-process-output.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/system_design_notebook.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/sre_checklist.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/how_they_devops.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/devops_resources.png; https://raw.githubusercontent.com/bregman-arie/devops-exercises/master/images/infraverse.png,,63061,2019-10-03T17:31:21Z
+2024-04-07,https://github.com/huggingface/autotrain-advanced,https://raw.githubusercontent.com/huggingface/autotrain-advanced/main/README.md,"AutoTrain Advanced is a user-friendly, no-code platform that simplifies the training and deployment of machine learning models. It allows users to easily train models with just a few clicks, though it necessitates that data be uploaded in the correct format. While AutoTrain itself is free, costs are incurred based on resource usage on Hugging Face Spaces or on personal infrastructure when running locally. Installation involves using PIP for the AutoTrain-Advanced Python package, requiring Python version 3.10 or higher, along with additional dependencies like git lfs, torch, torchaudio, and torchvision. Running AutoTrain optimally involves setting up a conda environment. The platform also provides Google Colab notebooks for tasks like LLM Fine Tuning and DreamBooth Training. Detailed documentation and pricing information are accessible online.",Unlock Machine Learning Potential with AutoTrain Advanced,"Introducing AutoTrain Advanced: the no-code platform revolutionizing how you deploy state-of-the-art machine learning models quickly and efficiently. With just a few clicks, users can train models without needing to write a single line of code. Ensure your data is in the correct format to start creating projects seamlessly. Explore our documentation for guidance on data formats and to understand our cost-effective pricing structure. Dive into the future of machine learning with AutoTrain Advanced - where innovation meets simplicity.","Discover AutoTrain Advanced, the no-code solution for fast, easy training and deployment of machine learning models. Learn how it simplifies the process, provides cost-effective pricing, and supports your journey towards advanced machine learning capabilities.",AI Development Platform,"Python
+
+
+
+
+
+        2,990
+
+
+
+
+
+        353
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",,,2990,2020-12-15T18:23:25Z
+2024-04-07,https://github.com/kwai/DouZero,https://raw.githubusercontent.com/kwai/DouZero/main/README.md,"DouZero is an innovative reinforcement learning framework designed to master DouDizhu, China's most popular card game, characterized by its complex game mechanics involving competition, collaboration, and imperfect information. Developed by Kwai Inc.'s AI Platform, DouZero uses a self-play deep reinforcement learning method, significantly outperforming existing AI programs in this domain. By integrating deep neural networks with Monte-Carlo methods, action encoding, and parallel actors, DouZero efficiently handles DouDizhu's large state and action spaces. The system's effectiveness is demonstrated through its first-place ranking on the Botzone leaderboard among 344 AI agents, showcasing the potential of classic Monte-Carlo methods in complex action spaces. The project, including an online demo, training code, and an in-depth paper discussing the DMC algorithm and other foundational aspects, is openly shared for community use and further research.",Achieving Card Game Mastery with DouZero: Insights from ICML 2021,"DouZero, an AI framework developed by Kwai Inc., stands out as a remarkable advancement in mastering DouDizhu, China's most popular card game. This framework utilizes self-play deep reinforcement learning to tackle the game's inherent challenges, including imperfect information and a vast action space. Demonstrated at ICML 2021, DouZero's application showcases the AI's capacity to learn and compete in complex environments, promising implications beyond gaming. With online demos and comprehensive resources available, DouZero paves the way for future AI research and development in game theory and strategic learning.","Explore how DouZero, presented at ICML 2021, revolutionizes playing DouDizhu through self-play deep reinforcement learning, marking a significant milestone in AI's application in complex games.",Deep Learning Tool,"Python
+
+
+
+
+
+        3,867
+
+
+
+
+
+        547
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",https://raw.githubusercontent.com/kwai/DouZero/main/imgs/douzero_logo.jpg; https://douzero.org/public/demo.gif,https://www.youtube.com/watch?v=inHIi8sej7Y,3867,2021-06-02T01:55:56Z
