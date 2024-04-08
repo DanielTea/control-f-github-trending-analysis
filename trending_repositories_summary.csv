@@ -7830,3 +7830,222 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         17 stars today",https://raw.githubusercontent.com/kwai/DouZero/main/imgs/douzero_logo.jpg; https://douzero.org/public/demo.gif,https://www.youtube.com/watch?v=inHIi8sej7Y,3867,2021-06-02T01:55:56Z
+2024-04-08,https://github.com/comfyanonymous/ComfyUI,https://raw.githubusercontent.com/comfyanonymous/ComfyUI/master/README.md,"ComfyUI is a powerful, modular GUI and backend for creating and executing complex stable diffusion workflows without coding, through a graph/nodes/flowchart interface. It supports various versions of Stable Diffusion including SD1.x, SD2.x, SDXL, along with features like Stable Video Diffusion and Stable Cascade. The platform offers numerous advancements such as an asynchronous queue system, optimizations for workflow execution, low VRAM, and CPU options, among others. Users can experiment with a wide range of models and methods like embeddings/textual inversion, hypernetworks, and inpainting. It allows for complex creations like area composition, model merging, and high-res fixes. Additionally, workflows can be saved/loaded in multiple formats, and it provides multiple shortcuts for efficiency. Installation options cover Windows, Linux, and macOS, with support for AMD, NVIDIA, and Intel Arc GPUs. ComfyUI operates completely offline, ensuring fast start-ups and data privacy.",Unlock Creativity with ComfyUI: The Ultimate Stable Diffusion GUI & Backend,"Discover ComfyUI, the most advanced and modular stable diffusion GUI that transforms your creative workflow. With its intuitive nodes/graph/flowchart interface, you can experiment and create complex Stable Diffusion workflows effortlessly, no coding required. Fully compatible with various versions of Stable Diffusion, including SD1.x, SD2.x, and exclusive features like asynchronous queues, optimizations, and support for numerous models and embeddings, ComfyUI stands as the premier choice for both beginners and experts aiming to push the boundaries of AI-driven creativity.","Explore the revolutionary features of ComfyUI for Stable Diffusion - a user-friendly GUI that enables complex workflow creation without coding. Compatibility with SD1.x, SD2.x, and more, alongside unique features like async queues and model support, makes it the top choice for enhancing your creative process.",AI Development Platform,"Python
+
+
+
+
+
+        31,057
+
+
+
+
+
+        3,232
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        113 stars today",https://raw.githubusercontent.com/comfyanonymous/ComfyUI/master/comfyui_screenshot.png,,31057,2023-01-17T03:15:56Z
+2024-04-08,https://github.com/Libr-AI/OpenFactVerification,https://raw.githubusercontent.com/Libr-AI/OpenFactVerification/main/README.md,"Loki is an open-source tool created to automate the fact verification process. It's designed for journalists, researchers, and anyone interested in accurate information, dissecting texts into individual claims, assessing their verification worthiness, and searching for evidence to validate them. It comprises several components, including Decomposer, Checkworthy, Query Generator, Evidence Crawler, and ClaimVerify. To use, one needs Python 3.9+, with installation instructions provided for cloning the repository and installing required packages. The tool supports various inputs (text, speech, image, video) and integrates a web app for easy interaction. Contributions are welcomed, and the project is under an MIT license. Additionally, a Supporter Edition offers advanced features for a nominal support, contributing to future innovations and community growth.",Unlock the Power of Fact-Checking with Loki: The Premier Open-Source Tool,"Discover Loki, the revolutionary open-source tool designed to transform how we verify facts. This cutting-edge solution automates the verification process, breaking down texts into manageable claims, evaluating their verification worthiness, and scouring the internet for evidence to confirm or debunk them. Ideal for journalists, researchers, and truth-seekers, Loki empowers users to distinguish fact from fiction efficiently. Learn how to get started and contribute to the future of information integrity. Subscribe for updates and become part of our community on this journey towards trustworthy information.","Explore Loki, an innovative open-source fact verification tool perfect for journalists and researchers. Streamline the process of distinguishing fact from fiction with Loki's advanced features.",AI Task Automation,"Python
+
+
+
+
+
+        551
+
+
+
+
+
+        16
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        117 stars today",https://raw.githubusercontent.com/Libr-AI/OpenFactVerification/main/./fig/librai_librai.png; https://raw.githubusercontent.com/Libr-AI/OpenFactVerification/main/./fig/cmd_example.gif; https://raw.githubusercontent.com/Libr-AI/OpenFactVerification/main/./fig/web_input.png; https://raw.githubusercontent.com/Libr-AI/OpenFactVerification/main/./fig/web_result.png,,551,2024-03-25T09:24:14Z
+2024-04-08,https://github.com/open-mmlab/mmdetection3d,https://raw.githubusercontent.com/open-mmlab/mmdetection3d/main/README.md,"MMDetection3D, part of the OpenMMLab project, is an open-source object detection toolbox for 3D objects based on PyTorch, aimed at the next-generation platform for general 3D detection. Compatible with PyTorch 1.8 and newer, it supports various multi-modality/single-modality detectors like MVXNet, VoteNet, and PointPillars, applicable for both indoor and outdoor 3D detection across popular datasets (e.g., ScanNet, SUNRGB-D, Waymo). Highlighting its integration with MMDetection for 2D detection, MMDetection3D promises high efficiency and encompasses around 300+ models from over 40 research papers, with benchmarks indicating superiority in training speed. Recent updates include improvements and new supports like reflactoring the Waymo dataset and extending supports for camera-based 3D object detection models. Installation, getting started guides, and benchmark results can be found in their documentation. The platform encourages community contributions and provides a comprehensive model zoo.",Exploring 3D Object Detection with MMDetection3D: A Comprehensive Guide,"Discover the cutting-edge capabilities of MMDetection3D, the open-source toolbox for 3D object detection part of the OpenMMLab project. Learn how it supports multi-modality/single-modality detectors, offers out-of-the-box support for both indoor and outdoor 3D detection, and seamlessly integrates with 2D detection. With its high efficiency and extensive model zoo, MMDetection3D is designed to accelerate your next 3D detection project.","Unlock the full potential of 3D object detection with MMDetection3D. This blog post dives into its features, support for various datasets, natural 2D detection integration, and its high-efficiency training capabilities.",Deep Learning Tool,"Python
+
+
+
+
+
+        4,738
+
+
+
+
+
+        1,440
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/open-mmlab/mmdetection3d/main/resources/mmdet3d-logo.png; https://user-images.githubusercontent.com/25839884/219255827-67c1a27f-f8c5-46a9-811d-5e57448c61d1.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218347213-c080267f-cbb6-443e-8532-8e1ed9a58ea9.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218346637-d30c8a0f-3eba-4699-8131-512fb06d46db.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218346691-ceb2116a-465a-40af-8424-9f30d2348ca9.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/219026751-d7d14cce-a7c9-4e82-9942-8375fca65b99.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/219026120-ba71e48b-6e94-4bd4-b4e9-b7d175b5e362.png; https://raw.githubusercontent.com/open-mmlab/mmdetection3d/main/resources/mmdet3d_outdoor_demo.gif,,4738,2020-07-08T03:39:45Z
+2024-04-08,https://github.com/eosphoros-ai/DB-GPT,https://raw.githubusercontent.com/eosphoros-ai/DB-GPT/main/README.md,"DB-GPT is an open-source AI framework designed to ease the development of data applications by utilizing large models and databases, transforming how enterprises and developers construct bespoke applications with minimal coding. It integrates multiple technical capabilities like multi-model management, Text2SQL optimization, RAG framework, and multi-agents framework collaboration. DB-GPT supports seamless integration with various data sources, facilitating the construction of knowledge bases and efficient data retrieval and processing. It includes a fine-tuning framework boasting an impressive accuracy rate on the Spider dataset, outperforming even GPT-4. The project also introduced the DB-GPT-Hub for high-performance Text2SQL workflows and supports a wide array of Large Language Models (LLMs). With features focusing on private domain Q&A, multi-data source integration, and automated Text2SQL fine-tuning, DB-GPT aims at revolutionizing database interactions in the Data 3.0 era. It underscores privacy and security in handling data. For installation, Docker, Linux, macOS, and Windows are supported. The project invites contributions and is licensed under MIT, offering extensive documentation and a vibrant community for users and contributors.",Revolutionizing Database Technology with DB-GPT's AI Framework,"DB-GPT introduces a groundbreaking open source AI-native data app development framework, leveraging advanced technologies like AWEL and cutting-edge multi-agent system collaborations. It streamlines the creation of large model applications, making data manipulation simpler and more efficient. With its robust infrastructure, DB-GPT aids in developing bespoke applications with minimal coding, paving the way for innovation in the Data 3.0 era. Explore how DB-GPT is setting new standards in database interactions and application development through its comprehensive features and user-friendly approach.","Discover DB-GPT, an advanced AI-native data app development framework that revolutionizes database interactions with its comprehensive features like multi-agent collaboration, Text2SQL optimization, and more for efficient application development.",Collaborative AI Framework,"Python
+
+
+
+
+
+        10,697
+
+
+
+
+
+        1,320
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",https://raw.githubusercontent.com/eosphoros-ai/DB-GPT/main/./assets/LOGO.png; https://raw.githubusercontent.com/eosphoros-ai/DB-GPT/main/./assets/dbgpt.png,,10697,2023-04-13T14:52:43Z
+2024-04-08,https://github.com/TMElyralab/MuseTalk,https://raw.githubusercontent.com/TMElyralab/MuseTalk/main/README.md,"MuseTalk introduces a real-time, audio-driven lip-syncing model capable of 30fps+ on NVIDIA Tesla V100, aimed at enhancing virtual human presentations. It modifies faces in videos according to the input audio across various languages and allows for real-time inference. Trained in the latent space with a strategy that significantly influences the generation results based on the center point of the face region, MuseTalk is paired with MuseV for full virtual human solutions. It involves cross-attention fusion of image and audio embeddings, using architectures from stable-diffusion-v1-4 and whisper-tiny models. Several cases showcase its capacity to animate still photos and dub videos, highlighting its application in creating lifelike virtual interactions. Installation instructions, necessary software components, and weights for different models are provided for users. The project, while offering advancements, notes limitations in resolution, identity preservation, and some jitter, with ongoing improvements. MuseTalk is shared openly for both academic and commercial uses, adhering to responsible AI use guidelines.",Unlocking Real-Time High-Quality Lip Sync with MuseTalk: A Comprehensive Guide,"Introducing MuseTalk, a groundbreaking real-time lip-syncing model achieving over 30fps on NVIDIA Tesla V100. This audio-driven technology, compatible with various languages, offers a seamless integration with MuseV for creating lifelike virtual humans. It revolutionizes digital communication by modifying unseen facial features in videos, enhancing user engagement in online content. Discover MuseTalk's potential in gaming, animation, and virtual meetings.","Discover MuseTalk, an innovative lip-sync model enabling real-time high-quality video modifications. Perfect for virtual human creation, this tool supports multiple languages and offers seamless integration with input videos.",Deep Learning Tool,"Python
+
+
+
+
+
+        201
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        24 stars today",https://raw.githubusercontent.com/TMElyralab/MuseTalk/main/assets/figs/musetalk_arc.jpg,,201,2024-03-26T04:14:37Z
+2024-04-08,https://github.com/Picsart-AI-Research/StreamingT2V,https://raw.githubusercontent.com/Picsart-AI-Research/StreamingT2V/main/README.md,"The StreamingT2V repository introduces an advanced autoregressive technology for creating long videos from text descriptions, ensuring temporal consistency, dynamic motion, and high-quality imagery. Developed by a team led by Roberto Henschel, Levon Khachatryan, and Daniil Hayrapetyan, this method can generate videos up to 2 minutes long and potentially longer, with this capability being independent of the specific Text2Video model employed, allowing for future improvements. The official release of the paper and model occurred in March and April 2024, respectively, with demonstration and tool availability via GitHub, Hugging Face, and a Gradio demo. The project facilitates the generation of text-to-video or image-to-video, showcasing versatility across different base models with detailed inference time statistics provided for each. The code is under a CreativeML Open RAIL-M license, and the authors encourage citation for academic use.",Unlocking the Future of Video Generation with StreamingT2V Technology,"Discover StreamingT2V, the groundbreaking technique transforming text into dynamic, long-duration videos without losing quality or consistency. This autoregressive approach not only crafts videos that perfectly align with descriptive text but also maintains high-quality imagery over extended frames. Capable of generating videos up to two minutes or longer, StreamingT2V stands out for its adaptability across various Text2Video models, promising even greater achievements with future advancements. Explore how this innovative tool is set to revolutionize video creation, offering limitless possibilities for creators and researchers alike.","StreamingT2V introduces a novel technique for creating consistent and high-quality long videos from text, promising unprecedented advancements in video generation technology.",Video Generation Tool,"Python
+
+
+
+
+
+        504
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        43 stars today",https://raw.githubusercontent.com/Picsart-AI-Research/StreamingT2V/main/__assets__/github/teaser/teaser_final.png,https://www.youtube.com/watch?v=GDPP0zmFmQg,504,2024-03-18T04:33:26Z
+2024-04-08,https://github.com/Vonng/ddia,https://raw.githubusercontent.com/Vonng/ddia/master/README.md,"""Designing Data-Intensive Applications,"" originally by Martin Kleppmann and translated by 冯若航, is a comprehensive guide exploring the design of data-intensive applications. It covers from fundamental data structures to high-level architecture, beneficial for architects, DBAs, backend engineers, and product managers alike. The book combines theory with practical insights gained from real-world experiences, emphasizing understanding concepts rather than memorizing definitions. It provides a conceptual framework for designing, implementing, and evaluating data systems, empowering readers to see through technical hype. The content encompasses reliability, scalability, maintainability, data models, queries, storage, retrieval, encoding, distributed data, consensus, batch processing, stream processing, and future directions for data systems. This work is heralded as one of the best technical books in recent years, vital for anyone working with data-intensive applications, aiming to contribute to the spread of advanced technology culture.",Exploring the Chinese Translation of Designing Data-Intensive Applications,"Discover the essence of data system design through the Chinese translation of 'Designing Data-Intensive Applications' by Martin Kleppmann, meticulously translated by 冯若航. This book, a blend of theory and practice, is ideal for architects, DBAs, backend engineers, and product managers. Navigate complex concepts with ease, thanks to a translation that prioritizes clarity and depth. A must-read for anyone eager to bypass technical jargon and achieve a solid understanding of data systems.","Dive into the Chinese translation of 'Designing Data-Intensive Applications' for an accessible guide on navigating the complexities of data systems, suitable for professionals across fields.",System Design Education,"Python
+
+
+
+
+
+        19,101
+
+
+
+
+
+        4,074
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",,,19102,2018-02-08T04:26:52Z
+2024-04-08,https://github.com/karpathy/nanoGPT,https://raw.githubusercontent.com/karpathy/nanoGPT/master/README.md,"nanoGPT is a repository for training and fine-tuning medium-sized GPT models, aiming to be a simple and efficient alternative. It updates minGPT by focusing on practicality over comprehensiveness and is currently capable of reproducing GPT-2 (124M) performance on OpenWebText in about 4 days using a single 8XA100 40GB node. The codebase is intentionally minimal, making it easy to understand and modify, with the main training and model definition scripts being around 300 lines each. It also supports loading GPT-2 weights from OpenAI for fine-tuning purposes. The project includes instructions for a quick start, even on limited hardware like a MacBook, and further details on reproducing GPT-2 results, baselining with OpenAI's checkpoint results, fine-tuning on new datasets, and sampling from trained models. It mentions future to-dos for enhancing the project and provides troubleshooting advice, especially regarding the use of PyTorch 2.0 features. Acknowledgments are given to Lambda labs for GPU support, and the repository encourages community interaction via Discord.","Unlocking GPT Potentials: A Guide to nanoGPT for Fast, Efficient Model Training","Discover nanoGPT, the ultimate tool for efficiently training and finetuning GPT models, making it simpler and faster than ever. Dive into its user-friendly code and how it reproduces GPT-2 models on a single node. Whether it's hacking the code for custom training or finetuning pre-existing models, nanoGPT offers a streamlined path. Plus, with concise installation and setup processes, you're equipped to start experimenting with GPT models right away. Explore how nanoGPT stands as a pivotal development in the field of language modeling, inviting both novices and professionals to delve into the world of GPT.","Explore nanoGPT, the simplified way to train and finetune GPT models efficiently. Learn how its user-friendly design caters to both beginners and professionals, facilitating fast, effective language model training.",Language Models Tool,"Python
+
+
+
+
+
+        30,978
+
+
+
+
+
+        4,632
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        41 stars today",https://raw.githubusercontent.com/karpathy/nanoGPT/master/assets/nanogpt.jpg; https://raw.githubusercontent.com/karpathy/nanoGPT/master/assets/gpt2_124M_loss.png,https://www.youtube.com/watch?v=kCc8FmEb1nY,30978,2022-12-28T00:51:12Z
