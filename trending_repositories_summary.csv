@@ -8049,3 +8049,139 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         41 stars today",https://raw.githubusercontent.com/karpathy/nanoGPT/master/assets/nanogpt.jpg; https://raw.githubusercontent.com/karpathy/nanoGPT/master/assets/gpt2_124M_loss.png,https://www.youtube.com/watch?v=kCc8FmEb1nY,30978,2022-12-28T00:51:12Z
+2024-04-09,https://github.com/agiresearch/AIOS,https://raw.githubusercontent.com/agiresearch/AIOS/main/README.md,"AIOS introduces a ground-breaking concept where a Large Language Model (LLM) functions as the core of an operating system, making the OS more intelligent, versatile, and capable of managing resources efficiently, facilitating agent multitasking, and providing extensive toolkits for developers. This development marks a significant step toward achieving artificial general intelligence (AGI) by embedding the ""brain"" into the operating system. Recent updates to the AIOS codebase include a shell simulator and enhancements for rapid API calls and testing. The project encourages community engagement through its Discord channel and is looking for contributions to enrich its ecosystem further. Detailed guidelines for installation, usage, and contribution are provided, alongside contacts for further inquiries and a vibrant community for discussion. This initiative opens new avenues for developing intelligent, responsive, and deeply integrated operating systems for future technology landscapes.",Exploring AIOS: The Operating System Powering Next-Generation LLM Agents,"Discover AIOS, a revolutionary Large Language Model (LLM) Agent Operating System designed to seamlessly integrate LLMs into the core of operating systems. AIOS aims to create 'operating systems with soul' by enabling advanced resource allocation, concurrent execution of agents, and providing extensive toolkits for LLM Agent developers. The system supports a dynamic AI ecosystem for building, deploying, and managing intelligent agents with ease. With its latest codebase updates, including shell simulator and API enhancements, AIOS is setting new standards in the quest towards achieving Artificial General Intelligence (AGI). Join the vibrant AIOS community on Discord to engage in discussions, development, and more.","Unveil the capabilities of AIOS, the LLM Agent Operating System designed for AGI, featuring optimized resource allocation, concurrent agent execution, and a rich toolkit for developers. Join the AIOS community today.",AI Development Platform,"Python
+
+
+
+
+
+        2,079
+
+
+
+
+
+        209
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        131 stars today",https://raw.githubusercontent.com/agiresearch/AIOS/main/images/AIOS-Architecture.png,,2079,2024-01-15T03:52:41Z
+2024-04-09,https://github.com/huggingface/text-generation-inference,https://raw.githubusercontent.com/huggingface/text-generation-inference/main/README.md,"Text Generation Inference (TGI) is a deployment and serving toolkit for Large Language Models (LLMs), designed to enable high-performance text generation. It supports popular LLMs like Llama, Falcon, StarCoder, BLOOM, GPT-NeoX, among others, and offers various optimization features. These include token streaming, continuous request batching, optimized transformer codes, quantization, watermarking, and custom prompt generation. TGI is production-ready, supporting tensor parallelism for multiple GPUs and distributed tracing. It offers comprehensive API documentation and can be deployed using Docker, with support for Nvidia, AMD, Inferentia, Intel GPU, and Gaudi hardware. Users can access protected resources using the `HUGGING_FACE_HUB_TOKEN`. TGI facilitates local installations, development, and running models with options for quantization to reduce VRAM requirements. It includes testing frameworks and detailed instructions for running models, both locally and using Docker, emphasizing the importance of shared memory and distributed tracing in enhancing performance and tracing capabilities.",Maximizing Text Generation with HuggingFace's Inference Toolkit,"Discover how HuggingFace's Text Generation Inference (TGI) toolkit empowers high-performance deployment of Large Language Models (LLMs). Featuring a Rust, Python, and gRPC server, TGI supports the most popular open-source LLMs for production-ready services. It enhances text generation through features like tensor parallelism, token streaming, continuous batching, and optimized transformers code. Learn to use TGI for deploying models with Docker and leverage fine-tuning support for enhanced accuracy and performance.","Unlock the full potential of Large Language Models with HuggingFace's Text Generation Inference toolkit. Explore features for high-performance text generation, including tensor parallelism and optimized code. Get started with TGI today.",Deep Learning Tool,"Python
+
+
+
+
+
+        7,573
+
+
+
+
+
+        808
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        49 stars today",https://huggingface.co/datasets/Narsil/tgi_assets/resolve/main/thumbnail.png; https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/TGI.png,https://www.youtube.com/watch?v=jlMAX2Oaht0,7573,2022-10-08T10:26:28Z
+2024-04-09,https://github.com/Vision-CAIR/MiniGPT4-video,https://raw.githubusercontent.com/Vision-CAIR/MiniGPT4-video/main/README.md,"MiniGPT4-Video is a multimodal Large Language Model (LLM) tailored for comprehending videos by processing both visual elements and textual data over time. Building on MiniGPT-v2's success in mapping visual features to LLM for images, MiniGPT4-Video extends these capabilities to sequences of frames, enabling video understanding. This model excels in answering queries that involve both visual and textual questions, outperforming current state-of-the-art methods on multiple benchmarks (MSVD, MSRVTT, TGIF, TVQA) by significant margins. Utilizing a speech to text model like Whisper to generate subtitles, it inputs both video and text to produce answers, showing remarkable improvements in video comprehension. The paper and demo links provide further resources, including the setup for environment, model checkpoints for training, and evaluation scripts for assessing model performance. Moreover, it credits MiniGPT4 and Video-ChatGPT projects and is licensed under the BSD 3-Clause License.",Revolutionizing Video Understanding with MiniGPT4-Video,"Introducing MiniGPT4-Video, a cutting-edge multimodal Large Language Model (LLM) tailored for video understanding. By interweaving visual and textual tokens, it surpasses traditional methods in comprehending the complexity of videos. The model significantly outperforms existing techniques across major benchmarks and incorporates text from videos for deeper analysis. Explore the demo and delve into the methodology behind this advancement in video understanding technology.",Discover how MiniGPT4-Video is setting new standards in video understanding by seamlessly integrating visual and textual information for unparalleled analysis.,Vision-Language Model,"Python
+
+
+
+
+
+        246
+
+
+
+
+
+        18
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        42 stars today",https://raw.githubusercontent.com/Vision-CAIR/MiniGPT4-video/main/repo_imgs/sample_1.gif; https://raw.githubusercontent.com/Vision-CAIR/MiniGPT4-video/main/repo_imgs/sample_2.gif; https://raw.githubusercontent.com/Vision-CAIR/MiniGPT4-video/main/repo_imgs/sample_3.gif; https://raw.githubusercontent.com/Vision-CAIR/MiniGPT4-video/main/repo_imgs/MiniGPT4-video_fig.jpg,,246,2024-03-23T08:10:57Z
+2024-04-09,https://github.com/AiGptCode/Iphone-14-15-IRAN-Anten,https://raw.githubusercontent.com/AiGptCode/Iphone-14-15-IRAN-Anten/main/README.md,"This text provides a detailed guide on permanently enabling the antenna on iPhone 14 and 15 without tracking or blocking, using two different methods. It includes source codes and instructions to create a unique UUID with a Python-scripted uuid Generator, making profiles untraceable due to the unique identifier. The process involves modifying template codes for compatibility with all operators and utilizing tools like pyinstaller to convert Python files into executable ones. It also explains using Apple Configurator or Imazing Profile Editor for profile creation, emphasizing the importance of unique UUIDs to prevent configuration closure from multiple users sharing a single UUID. Key steps include resetting the network, configuring APN settings, testing, and troubleshooting tips like adjusting for better signal or switching to 2G at night if issues arise. The guide is geared towards maintaining 4G internet access, highlighting the necessity to customize profiles per network or device specifics. Donation details for supporting these efforts are provided at the end.",How to Permanently Enable Antenna on iPhone 14 & 15: A Comprehensive Guide,"Learn to enhance your iPhone 14 and 15's connectivity without the risk of tracking or shutting down using two distinctive methods, including source code and a unique UUID file creation. Dive deep into a simplified process involving a Python-written UUID generator, transforming it effortlessly into an executable file, alongside steps to ensure every device enjoys a unique UUID to avoid service interruptions. Tailor your device’s proxy or IP settings for an optimized profile, ensuring reliable internet access. Plus, discover an alternative using Apple Configurator or Imazing profile editor for both MacOS and Windows users, ensuring your device's network settings are perfect for optimal internet connectivity across varied operators.",Unlock the full potential of your iPhone 14 and 15 with our expert guide on antenna activation without tracking. Discover step-by-step instructions on creating a unique UUID and configuring your device for the best connectivity.,Cybersecurity Tool,"Python
+
+
+
+
+
+        264
+
+
+
+
+
+        64
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        43 stars today",https://i.ibb.co/Ld4vsKJ/IMG-5707.jpg; https://i.ibb.co/yND1vj7/IMG-5664.jpg,,264,2023-10-23T18:36:02Z
+2024-04-09,https://github.com/ManimCommunity/manim,https://raw.githubusercontent.com/ManimCommunity/manim/main/README.md,"Manim is an open-source animation engine designed for creating precise and instructional math videos, famously used by [3Blue1Brown](https://www.3blue1brown.com/). While it is inspired by 3Blue1Brown's original Manim library, this community version is maintained separately to provide regular updates and improvements. The engine allows users to script animations directly using Python, offering extensive flexibility in how contents are presented. For users interested in trying Manim without local installation, an online Jupyter environment is provided. Installation instructions vary by operating system and are detailed in the project's documentation. Manim supports numerous command line arguments for rendering, including flags for previewing, quality control, and skipping animations. The project is open for contributions, especially in documentation and testing, although it's currently undergoing major refactoring which might limit new feature additions. Community support is available through Discord and Reddit. The project emphasizes proper citation for academic use and adheres to a specific code of conduct to maintain a respectful community. Manim is dual-licensed under the MIT license by both 3blue1brown LLC and the Manim Community Developers.",Unlock the Power of Math Visualization with Manim: A Comprehensive Guide,"Delve into the world of mathematical storytelling with Manim, the dynamic animation engine famed for bringing 3Blue1Brown's math videos to life. This community-driven project offers an accessible platform for creating intricate math visuals, regardless of your coding experience. Get started with easy installation instructions and dive into crafting your very first animation, exploring a vast array of examples for inspiration. Whether you're a teacher, student, or simply a math enthusiast, Manim opens up a new realm of creativity and learning. Join the vibrant community today and transform how you experience mathematics.","Discover how to create captivating math animations with Manim, the engine behind 3Blue1Brown. Follow our step-by-step guide to easily get started. Perfect for educators and enthusiasts alike.",Animation Engine,"Python
+
+
+
+
+
+        18,497
+
+
+
+
+
+        1,407
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        233 stars today",https://raw.githubusercontent.com/ManimCommunity/manim/main/logo/cropped.png; https://raw.githubusercontent.com/ManimCommunity/manim/main/docs/source/_static/command.png,,18497,2020-05-19T02:37:13Z
