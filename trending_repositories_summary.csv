@@ -8185,3 +8185,164 @@ Furthermore, the model has been evaluated across several benchmarks, showing sig
 
 
         233 stars today",https://raw.githubusercontent.com/ManimCommunity/manim/main/logo/cropped.png; https://raw.githubusercontent.com/ManimCommunity/manim/main/docs/source/_static/command.png,,18497,2020-05-19T02:37:13Z
+2024-04-10,https://github.com/karpathy/minGPT,https://raw.githubusercontent.com/karpathy/minGPT/master/README.md,"minGPT is a compact, educative PyTorch re-implementation of OpenAI's GPT, designed for both training and inference, encapsulating the essence of GPT in approximately 300 lines of code for clarity and educative purposes. It demonstrates how a sequence of indices enters a Transformer and produces a probability distribution for the next index, emphasizing efficient batching for performance. Despite its semi-archived status as of January 2023, favoring a shift towards nanoGPT for more advanced features, minGPT remains a valuable resource, extensively referenced in various educational and development contexts. The library comprises three main files for the model, Byte Pair Encoder, and training boilerplate, along with several demos and projects illustrating its application. Installation and usage are straightforward, supporting GPT-2 configurations and offering Python training examples. Planned enhancements include GPT-2 fine-tuning, dialog agents, and various training improvements, alongside references to seminal GPT papers highlighting model intricacies across its iterations.","Understanding minGPT: A Compact, Educational PyTorch GPT Implementation","Discover minGPT, a lean PyTorch re-implementation of GPT for both training and inference, designed for clean, interpretable, and educational purposes. With just 300 lines of code, minGPT demystifies the GPT model structure by encapsulating it in a comprehensible format. It efficiently handles sequences through clever batching, providing a probability distribution over the next index in a sequence with minimal complexity. Although now semi-archived, minGPT's creator has introduced nanoGPT for further advancements, while minGPT continues to serve as a valuable educational tool for understanding GPT models.","Explore minGPT, an educational PyTorch re-implementation of GPT that simplifies model understanding and training. Ideal for learning and small projects, minGPT brings GPT closer to all.",Deep Learning Tool,"Python
+
+
+
+
+
+        18,424
+
+
+
+
+
+        2,219
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        47 stars today",https://raw.githubusercontent.com/karpathy/minGPT/master/mingpt.jpg,,18424,2020-08-17T07:08:48Z
+2024-04-10,https://github.com/LlamaFamily/Llama-Chinese,https://raw.githubusercontent.com/LlamaFamily/Llama-Chinese/main/README.md,"Llama-Chinese is an advanced technical community focused on optimizing and building upon the Llama model for Chinese language processing. It enhances the Chinese capabilities of the Llama2 model by leveraging large-scale Chinese data for continuous iteration and upgrades. The community warmly welcomes developers and researchers passionate about large language models (LLMs) to join and contribute. The community is supported by a team of senior NLP engineers committed to optimizing Llama2 for Chinese, fostering innovation through events, and sharing resources and models to push forward the development of Chinese NLP technology.
+
+The community has introduced the Atom model, jointly developed with Atom Echo, ranking in the top ten of the Chinese big model leaderboard C-Eval. Atom models, including Atom-7B and Atom-13B, have been optimized for the Chinese language through large-scale Chinese data pre-training, more efficient Chinese vocabularies, and adaptive context extension.
+
+Several resources and tools are provided for the community, including downloadable model links, model deployment guides, model fine-tuning and pre-training codes, as well as acceleration and evaluation resources. Additionally, the community integrates with LangChain for developing document retrieval, chatbots, and agent applications, and acknowledges contributions from AtomEcho, Coremesh, and community members for their support and contributions.",Unlocking the Power of Llama-Chinese: A Guide to Enhanced Chinese Language Processing,Welcome to Llama-Chinese Community! Discover how we optimize the Llama model for Chinese language processing with advanced technologies. Our dedicated NLP engineers and a supportive community offer professional guidance. Dive into our optimized Atom models for superior performance in Chinese text handling. Join us to innovate and elevate Chinese NLP together.,"Explore Llama-Chinese for advanced Chinese language processing. Learn about our community, support from NLP engineers, and our optimized Atom models for exceptional Chinese text handling performance. Join us in leading Chinese NLP innovation.",Large-scale Language Models,"Python
+
+
+
+
+
+        9,167
+
+
+
+
+
+        857
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        16 stars today",https://raw.githubusercontent.com/LlamaFamily/Llama-Chinese/main/assets/llama.png; https://raw.githubusercontent.com/LlamaFamily/Llama-Chinese/main/./assets/ceval.jpg; https://raw.githubusercontent.com/LlamaFamily/Llama-Chinese/main/./assets/llama_eval.jpeg; https://raw.githubusercontent.com/LlamaFamily/Llama-Chinese/main/./assets/wechat.jpeg,,9167,2023-07-19T04:45:23Z
+2024-04-10,https://github.com/PaddlePaddle/PaddleOCR,https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/README.md,"The text is about PaddleOCR, an enriching, advanced, and practical OCR (Optical Character Recognition) toolkit designed to help developers create better models and applications. It announces recent updates, including the launch of OCR algorithm competitions, the release of PP-ChatOCRv2, updates for PP-OCR models including PP-OCRv4, and specific improvements in document scanning applications. Besides, there are mentions of past achievements and enhancements such as optimizations and new features in PP-StructureV2 and PP-OCRv3, collaborations, open-source contributions, and achievements in community engagement. The toolkit supports a wide range of front-end OCR algorithms and offers comprehensive solutions incorporating industrial-grade models like PP-OCR, PP-Structure, and PP-ChatOCRv2, facilitating the entire workflow from data production, model training, compression, to deployment predictions. It also provides quick links for online experiences, rapid start instructions, and technical community exchanges, aiming to foster a helpful and professional open-source environment.",Unlocking the Power of PaddleOCR: A Comprehensive Guide,"Discover the versatility of PaddleOCR, a leading OCR toolset designed for developers to build and enhance models for practical applications. From the latest updates including the PP-ChatOCRv2 and PP-OCRv4 series to the extensive support for multiple languages and operating systems, PaddleOCR is shaping up to be a game-changer in OCR technology. With a community-focused approach, it promises not just superior model performance but also a pathway for developers to contribute and evolve along with the technology.","Explore the capabilities of PaddleOCR: A one-stop OCR toolkit offering advanced models like PP-ChatOCRv2 and PP-OCRv4, multi-language support, and community-driven improvements to revolutionize OCR applications.",Computer Vision Platform,"Python
+
+
+
+
+
+        38,091
+
+
+
+
+
+        7,204
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        57 stars today",https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/./doc/PaddleOCR_log.png; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/./doc/imgs_results/ch_ppocr_mobile_v2.0/test_add_91.jpg; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/./doc/imgs_results/ch_ppocr_mobile_v2.0/00006737.jpg; https://raw.githubusercontent.com/tink2123/test/master/ppocrv4.png; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/doc/imgs_results/PP-OCRv3/ch/PP-OCRv3-pic001.jpg; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/doc/imgs_results/PP-OCRv3/ch/PP-OCRv3-pic002.jpg; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/doc/imgs_results/PP-OCRv3/ch/PP-OCRv3-pic003.jpg; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/doc/imgs_results/PP-OCRv3/en/en_1.png; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/doc/imgs_results/PP-OCRv3/en/en_2.png; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/doc/imgs_results/PP-OCRv3/multi_lang/japan_2.jpg; https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/doc/imgs_results/PP-OCRv3/multi_lang/korean_1.jpg; https://user-images.githubusercontent.com/14270174/185310636-6ce02f7c-790d-479f-b163-ea97a5a04808.jpg; https://user-images.githubusercontent.com/14270174/185539517-ccf2372a-f026-4a7c-ad28-c741c770f60a.png; https://user-images.githubusercontent.com/14270174/197464552-69de557f-edff-4c7f-acbf-069df1ba097f.png; https://user-images.githubusercontent.com/14270174/185393805-c67ff571-cf7e-4217-a4b0-8b396c4f22bb.jpg; https://user-images.githubusercontent.com/14270174/185540080-0431e006-9235-4b6d-b63d-0b3c6e1de48f.jpg; https://user-images.githubusercontent.com/25809855/186094813-3a8e16cc-42e5-4982-b9f4-0134dfb5688d.png,,38091,2020-05-08T10:38:16Z
+2024-04-10,https://github.com/jmerle/imc-prosperity-2-backtester,https://raw.githubusercontent.com/jmerle/imc-prosperity-2-backtester/master/README.md,"The IMC Prosperity 2 Backtester repository offers a tool for backtesting IMC Prosperity 2 algorithms, producing outputs that closely resemble those from the official submission environment, making it compatible with the IMC Prosperity 2 Visualizer. Installation and updates are done via pip. The backtester supports various commands for testing algorithms across different rounds and days, merging profit and loss data, opening results in the visualizer, customizing output files, using custom data, and debugging. It handles order matching by prioritizing order depths over market trades and enforces position limits before matching orders. Development suggestions include cloning the repository and installing it in editable mode for ease of testing changes.",Maximize Your IMC Prosperity 2 Algorithm Performance with Our Backtester,"Discover the ultimate tool for optimizing your IMC Prosperity 2 algorithms - the IMC Prosperity 2 Backtester. This powerful backtester not only offers compatibility with the official submission environment but also integrates seamlessly with the IMC Prosperity 2 Visualizer, enhancing your algorithm's performance analysis. With easy installation and comprehensive guide for varied usage scenarios, upgrading and personalizing your backtesting process has never been simpler. Dive deep into your algorithm's potential, uncover improvements, and ensure you're competition-ready with every run.","Optimize your IMC Prosperity 2 algorithms with our backtester for accurate performance analysis. Easy setup, compatible with official environments and visualizers, perfect for serious competitors.",Money Making Automation,"Python
+
+
+
+
+
+        25
+
+
+
+
+
+        9
+
+
+        Built by
+
+          
+
+
+
+
+
+        2 stars today",,,25,2024-04-05T21:05:32Z
+2024-04-10,https://github.com/Filimoa/open-parse,https://raw.githubusercontent.com/Filimoa/open-parse/main/README.md,"Open Parse is a flexible, easy-to-use library designed to improve the chunking of complex documents for AI applications, addressing the limitations of existing open-source libraries in handling intricate document layouts. It is visually-driven, allowing for better input to language models by analyzing documents beyond basic text splitting. It supports basic markdown for parsing document elements and offers high-precision table extraction into Markdown formats, surpassing traditional tools. Open Parse is extensible, intuitive, and easy to learn, requiring less time to understand documentation. Key examples and code snippets demonstrate its application for basic document parsing and semantic processing, highlighting its capabilities in visually discerning and effectively chunking documents, thus providing a superior solution for creating high-quality LLM inputs. Open Parse also outlines requirements, installation steps, including OCR support, and offers additional resources like cookbooks and documentation for users to engage with.",Revolutionize Document Chunking with Open Parse: The Ultimate Guide,"Open Parse emerges as a groundbreaking tool designed to transform the way we handle complex documents, surpassing traditional methods with its visually-driven, high-precision capabilities. It addresses the limitations of current open-source libraries, offering markdown support, high precision in table extraction, and extensive extensibility for custom post-processing steps. This makes it an unparalleled asset for achieving superior results in RAG systems and AI applications. Open Parse stands out by effectively grouping related content with its intuitive layout, simplifying the chunking process and enhancing document analysis.","Discover Open Parse: A superior document chunking library that offers visual analysis, markdown and high-precision table support for flawless RAG systems and AI applications. Learn how it outperforms other tools in precision and ease.",Document Conversion Tool,"Python
+
+
+
+
+
+        1,069
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        266 stars today",https://sergey-filimonov.nyc3.digitaloceanspaces.com/open-parse/marketing/three-sigma-wide.png,,1069,2024-03-22T05:35:12Z
+2024-04-10,https://github.com/blasty/JiaTansSSHAgent,https://raw.githubusercontent.com/blasty/JiaTansSSHAgent/master/README.md,"Jia Tan's SSH Agent is a simplified tool designed to emulate certain features of the XZ sshd backdoor, making it easier for users to investigate the backdoor with a standard SSH client. Users are guided to generate their own ed448 private key and patch their liblzma.so with the ed448 pubkey. Additionally, users need to modify their SSH client to bypass certificate verification. The steps include generating the private key, patching the necessary files, activating a virtual environment, and running the agent. Finally, users can connect to SSH with any password, implying the agent allows unauthorized access.",Exploring XZ SSHD Backdoor with Jia Tan's Simple SSH Agent,"Discover the ease of testing the XZ sshd backdoor functionality with Jia Tan's Simple SSH Agent. This tool allows users to utilize their typical SSH clients to explore backdoors more effectively. Learn how to generate your ED448 private key, patch your liblzma.so with the ED448 pubkey, and adjust your SSH client for certificate verification bypassing. Perfect for enthusiasts and researchers interested in SSH security and backdoor exploration.",Step into the world of SSH security with a guide on using Jia Tan's Simple SSH Agent for exploring XZ sshd backdoor functionality. Learn the simple steps to set up and use this tool for your SSH explorations.,Cybersecurity Tool,"Python
+
+
+
+
+
+        85
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+        30 stars today",https://raw.githubusercontent.com/blasty/JiaTansSSHAgent/master/assets/demo.png,,85,2024-04-08T13:29:54Z
