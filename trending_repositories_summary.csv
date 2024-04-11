@@ -8346,3 +8346,279 @@ Several resources and tools are provided for the community, including downloadab
 
 
         30 stars today",https://raw.githubusercontent.com/blasty/JiaTansSSHAgent/master/assets/demo.png,,85,2024-04-08T13:29:54Z
+2024-04-11,https://github.com/nus-apr/auto-code-rover,https://raw.githubusercontent.com/nus-apr/auto-code-rover/main/README.md,"AutoCodeRover introduces a fully automated method for resolving GitHub issues, including bug fixes and feature additions, by leveraging Large Language Models (LLMs) combined with analysis and debugging tools. This system uses code search APIs to prioritize patch locations, resolving about 22% of the 300 real-world GitHub issues in the SWE-bench lite database, which shows a significant improvement over the current AI-driven software engineering approaches. AutoCodeRover employs two main stages: context retrieval and patch generation. It uniquely uses program structure-aware code search and statistical fault localization when test suites are available, enhancing its ability to generate effective patches. The system's capability was demonstrated by successfully fixing a Django issue. AutoCodeRover encourages replication and further research by providing setup and running instructions for Docker containers, including setting up tasks in SWE-bench and running multiple tasks. For those interested in conducting similar experiments, detailed documentation and contact information are provided, acknowledging partial support from a Singapore Ministry of Education grant.",Exploring AutoCodeRover: The Future of Autonomous Program Improvement,"AutoCodeRover represents a cutting-edge leap in software engineering, offering a fully automated solution for resolving GitHub issues through combining LLMs with debugging capabilities, resulting in unprecedented patch efficiency. Tested on SWE-bench lite, it showcases a significant improvement in issue resolution, highlighting its practical application in the real-world GitHub environment. Its methodology encompasses a two-staged approach: context retrieval using code search APIs and patch generation based on the collected context, with unique features that ensure high repair rates. The potential of AutoCodeRover extends further when test cases are available, leveraging statistical fault localization to enhance the accuracy of generated patches. This innovative approach opens new horizons in automated programming and software maintenance.","Discover AutoCodeRover, an innovative automated approach for bug fixing and feature addition on GitHub using LLMs. Learn how it outperforms current AI software engineers in resolving real-world issues.",AI Development Platform,"Python
+
+
+
+
+
+        1,454
+
+
+
+
+
+        98
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        204 stars today",,,1454,2024-04-08T05:34:14Z
+2024-04-11,https://github.com/aixcoder-plugin/aiXcoder-7B,https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/README.md,"The aiXcoder-7B Code Large Language Model is a state-of-the-art model designed for code completion, understanding, and generation across multiple programming languages. It outperforms similar-sized models and mainstream models like codellama 34B and StarCoder2 15B on multilingual nl2code benchmarks. Unlike previous versions, aiXcoder 7B Base focuses on real-world code generation scenarios, utilizing 1.2T unique tokens for training and designing pre-training tasks tailored for programming contexts. Future versions will include instruct-tuned models for broader programming tasks like test case generation and code debugging. The model supports environment setup via Docker or manually with requirements like Python 3.8+ and PyTorch 2.1.0+, and offers improved inference speeds with `flash attention`. Model weights are available for download, with detailed instructions for inference in command line or Python scripts. The training data is a mix of core datasets (mainstream programming and natural languages) and extended datasets, with stringent selection and filtering processes to enhance model performance. The aiXcoder-7B model not only excels in standalone method generation and code completion tasks but also demonstrates superior ability in understanding code context across files, positioning it as a robust tool for developers.",Unlock the Power of aiXcoder-7B: Revolutionizing Code Generation with Large Language Models,"Discover the groundbreaking aiXcoder-7B Code Large Language Model, designed to enhance code productivity across multiple programming languages. With its state-of-the-art performance in code completion, generation, and more, aiXcoder-7B outperforms mainstream models, making it a game-changer for developers. Explore its comprehensive training on 1.2T unique tokens, exceptional benchmark achievements, and future development plans for even more specialized programming tasks. Dive into the new era of coding with aiXcoder-7B's robust support.","Explore aiXcoder-7B, the advanced Code Large Language Model revolutionizing programming with unparalleled code completion and generation capabilities. Learn how it surpasses mainstream models and its bright future in specialized coding tasks.",AI Development Platform,"Python
+
+
+
+
+
+        285
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        60 stars today",https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_1.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_3.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_0.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_1.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_2.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_3.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_4.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_5.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_6.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_7.png; https://raw.githubusercontent.com/aixcoder-plugin/aiXcoder-7B/main/./assets/table_8.png,,285,2024-03-30T13:24:55Z
+2024-04-11,https://github.com/InternLM/InternLM-XComposer,https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/README.md,"InternLM-XComposer2 is a cutting-edge vision-language large model (VLLM) built upon InternLM2-7B, achieving remarkable capabilities in text-image composition and comprehension. It generates coherent text-image content from diverse input forms and accurately solves complex vision-language tasks, surpassing most multimodal models and challenging benchmarks. The model is available in several versions, including a high-resolution (4KHD) version, a 7B-parameter version focused on text-image composition, and lighter versions for easier access. This release marks significant progress in multimodal AI, providing powerful tools for content creation, problem-solving, and benchmarking in the vision-language domain. The models and their accompanying technical reports, demo code, and evaluation details are openly accessible for community use, contributing to advances in multimodal research and applications.",Exploring the Capabilities of InternLM-XComposer2: A Revolution in Vision-Language Modeling,"InternLM-XComposer2 emerges as a transformative Vision-Language Large Model, setting new benchmarks with its multimodal prowess. It stands out by generating coherent text-image compositions and solving complex vision-language problems with remarkable accuracy. The model showcases groundbreaking performance, surpassing existing models and even rivaling GPT-4V in specific benchmarks. Its versatility extends over three versions, catering to high-resolution understanding and efficient content creation across various platforms.","Discover InternLM-XComposer2, a groundbreaking Vision-Language Large Model, mastering text-image compositions and challenging Q&A tasks with unparalleled accuracy and performance, outperforming leading models in diverse benchmarks.",Vision-Language Model,"Python
+
+
+
+
+
+        1,480
+
+
+
+
+
+        93
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        42 stars today",https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/logo_en.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/4k.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/4k.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/4k.png; https://raw.githubusercontent.com/ShareGPT4V/ShareGPT4V-Resources/master/images/logo_tight.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/assets/Benchmark_radar.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/assets/4khd_radar.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM-XComposer/main/./assets/modelscope_logo.png,,1480,2023-09-26T02:42:20Z
+2024-04-11,https://github.com/Azure-Samples/azure-search-openai-demo,https://raw.githubusercontent.com/Azure-Samples/azure-search-openai-demo/main/README.md,"This text introduces an Azure-based solution for creating ChatGPT-like experiences using enterprise data. Announced on November 15, 2023, the solution involves Azure OpenAI and AI Search (formerly Azure Cognitive Search) services to implement the Retrieval Augmented Generation pattern, enabling chat and Q&A interfaces over proprietary data. The provided sample, focusing on a fictitious company, demonstrates data indexation, question-answering, and source citation features. It supports multiple programming languages and offers comprehensive guidance on deployment, cost estimation, customization, and troubleshooting within Azure’s ecosystem. Additional resources include sample data, setup guides for various environments, and instructions for local application running. Key aspects like Azure account requirements, monitoring with Application Insights, and tips for transitioning to production are discussed. The document emphasizes adhering to Azure’s service access criteria, managing deployment costs, and ensuring security and data accuracy in application development.",Revolutionizing Enterprise Data Management with ChatGPT on Azure OpenAI,"Learn how to leverage ChatGPT and Azure OpenAI to manage and query enterprise data effectively. In this post, we explore a sample application using Azure AI Search and OpenAI's GPT model to create ChatGPT-like experiences for internal data queries at Contoso Electronics. Discover the benefits of integrating Azure OpenAI with AI Search for powerful data insights, and see how you can customize the application for your business needs.",Discover how to enhance your enterprise data management with ChatGPT and Azure OpenAI. This guide covers integrating Azure AI Search and OpenAI GPT models for effective data handling and insights.,AI Development Platform.,"Python
+
+
+
+
+
+        5,220
+
+
+
+
+
+        3,209
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://raw.githubusercontent.com/Azure-Samples/azure-search-openai-demo/main/docs/images/appcomponents.png; https://raw.githubusercontent.com/Azure-Samples/azure-search-openai-demo/main/docs/images/chatscreen.png; https://raw.githubusercontent.com/Azure-Samples/azure-search-openai-demo/main/docs/images/endpoint.png; https://raw.githubusercontent.com/Azure-Samples/azure-search-openai-demo/main/docs/images/transaction-tracing.png,https://www.youtube.com/watch?v=3acB0OWmLvM; https://www.youtube.com/watch?v=j8i-OM5kwiY,5220,2023-02-08T21:00:54Z
+2024-04-11,https://github.com/streamlit/streamlit,https://raw.githubusercontent.com/streamlit/streamlit/master/README.md,"Streamlit is a powerful tool that enables rapid conversion of data scripts into shareable web apps using Python. It's an open-source platform that's free to use. Users can deploy, manage, and share their apps via the Community Cloud platform. Streamlit supports easy installation, including within a virtual environment for Windows, Mac, and Linux users. The platform boasts a straightforward API, allowing for the development of interactive and rich web applications. For instance, it features a demo project showcasing a self-driving car dataset with real-time inference capabilities. Streamlit also offers a GitHub badge for users to promote their apps. The community around Streamlit provides a supportive environment for sharing, troubleshooting, and discussing apps. Streamlit is licensed under the Apache 2.0 license, making it fully open-source.",Streamlit: The Ultimate Guide to Building and Sharing Data Apps Quickly,"Discover the power of Streamlit, the fastest way to build and share data apps using Python. Streamlit transforms data scripts into web apps in minutes, offering a free, open-source platform ideal for quick prototyping and deployment. With easy installation and a strong community support, it simplifies app development to just a few lines of code, enabling everyone from beginners to experts to bring their data projects to life quickly. Experience it first-hand by deploying your apps on the Community Cloud platform.","Learn how Streamlit revolutionizes data app development by turning Python scripts into shareable web apps in minutes. Explore its easy installation, vibrant community, and rapid deployment capabilities.",Open Source Tool,"Python
+
+
+
+
+
+        31,308
+
+
+
+
+
+        2,763
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        31 stars today",https://raw.githubusercontent.com/streamlit/docs/main/public/images/Streamlit_overview.gif; https://raw.githubusercontent.com/streamlit/docs/main/public/images/simple_example.png; https://raw.githubusercontent.com/streamlit/docs/main/public/images/complex_app_example.gif,,31308,2019-08-24T00:14:52Z
+2024-04-11,https://github.com/Rudrabha/Wav2Lip,https://raw.githubusercontent.com/Rudrabha/Wav2Lip/master/README.md,"Wav2Lip is a cutting-edge technology that enables accurate lip-syncing of videos in any setting, language, voice, and identity, including CGI faces and synthetic voices. Hosted for free at Sync Labs, it offers a turn-key hosted API for product integration and addresses commercial/enterprise requests. The technology stems from the paper ""A Lip Sync Expert Is All You Need for Speech to Lip Generation In The Wild"" (ACM Multimedia 2020). It provides complete training code, inference code, and pre-trained models, along with reliable evaluation benchmarks. For those interested in research or academic uses, the interactive demo, Google Colab notebooks, and tutorial materials facilitate easy experimentation and learning. However, commercial use requires direct contact due to the use of the LRS2 dataset in model training. The project emphatically stands out for its open-source contribution and the substantial resources it offers for developers and researchers alike to explore and innovate in speech-to-lip generation technology.",Revolutionizing Video Editing with Wav2Lip: Mastering Lip Sync in Any Video,"Wav2Lip presents an innovative solution for flawlessly syncing lips in videos, a feature freely hosted at Sync Labs. Ideal for integrating into products through a hosted API, it supports any identity, voice, and language, including CGI and synthetic voices. The technology, stemming from the paper 'A Lip Sync Expert Is All You Need for Speech to Lip Generation In The Wild,' demonstrates unprecedented accuracy. Available tools include complete training code, pretrained models, and an interactive demo for immediate testing. This breakthrough is transforming video editing by making accurate lip-syncing accessible to everyone.","Discover Wav2Lip: the cutting-edge tool for perfect lip-syncing in videos, supporting any voice or language. Explore the hosted API for product integration and access complete training codes and interactive demos for immediate use.",Video Generation Tool,"Python
+
+
+
+
+
+        9,108
+
+
+
+
+
+        1,983
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",,https://www.youtube.com/watch?v=0fXaDCZNOJc; https://www.youtube.com/watch?v=Ic0TBhfuOrA,9108,2020-08-07T08:06:38Z
+2024-04-11,https://github.com/THUDM/ChatGLM2-6B,https://raw.githubusercontent.com/THUDM/ChatGLM2-6B/main/README.md,"ChatGLM2-6B, an enhanced bilingual open-source dialogue model, has been introduced as the second generation following ChatGLM-6B. It showcases significant upgrades including improved performance through the use of GLM's mixed objective function, extended context length to 32K supported by FlashAttention technology, increased efficiency in inference powered by Multi-Query Attention, and an open protocol for academic and commercial use after registration. Additionally, ChatGLM2-6B-32K has been released to handle longer texts more effectively, and CodeGeeX2 has been introduced, leveraging code pre-training based on ChatGLM2-6B for enhanced coding capabilities. The model maintains a range of functionalities such as function calling, code interpretation, and agent tasks. Notably, ChatGLM2-6B has shown substantial performance gains on various datasets compared to its predecessor, marking a strong competitor in its category. Despite its advancements, users are cautioned on the potential inaccuracy and susceptibility to being misled due to the model's probabilistic nature and size. The model is recommended for various applications, including dialogue systems, subject to adherence to open-source protocols and considerations for data security and ethical use.",Exploring ChatGLM2-6B: A Leap in AI Conversation Models,"Discover the next-generation ChatGLM2-6B model, a game-changer in AI-driven conversations. Learn about its enhanced performance, longer context handling, and improved efficiency. Dive into its open-source journey and potential applications in academia and beyond. Uncover the improvements over its predecessor, including significant enhancements in various datasets and the introduction of advanced features like longer context lengths and efficient inference.","Explore the ChatGLM2-6B model's new features including improved performance, support for extended contexts, and efficiency in AI conversations. Understand how it advances the capabilities of open-source bilingual dialogue models.",Natural Language Processing,"Python
+
+
+
+
+
+        15,424
+
+
+
+
+
+        1,824
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/THUDM/ChatGLM2-6B/main/resources/math.png; https://raw.githubusercontent.com/THUDM/ChatGLM2-6B/main/resources/knowledge.png; https://raw.githubusercontent.com/THUDM/ChatGLM2-6B/main/resources/long-context.png; https://raw.githubusercontent.com/THUDM/ChatGLM2-6B/main/resources/web-demo.gif; https://raw.githubusercontent.com/THUDM/ChatGLM2-6B/main/resources/web-demo2.gif; https://raw.githubusercontent.com/THUDM/ChatGLM2-6B/main/resources/cli-demo.png,,15424,2023-06-24T06:21:34Z
+2024-04-11,https://github.com/PrefectHQ/prefect,https://raw.githubusercontent.com/PrefectHQ/prefect/main/README.md,"Prefect is an advanced orchestration and observability platform designed to simplify building, monitoring, and troubleshooting workflows. It allows users to convert Python code into an interactive application, providing an API to access pipelines, automate retries, schedule tasks, and much more, enhancing the resilience and dynamics of workflows. Prefect can be monitored through either a self-hosted server or the managed Prefect Cloud dashboard, offering enterprise-level security and management features for large-scale deployments. Installation is straightforward, requiring Python 3.8 or later, and involves using decorators to define workflows and tasks. It supports scheduling, monitoring via a user interface, and provides options for manual or event-triggered execution. Prefect Cloud further simplifies workflow management with automation, orchestration, and client-side interfacing through the `prefect-client`. The platform encourages community involvement, offering various resources and forums for users to learn, contribute, and discuss Prefect, guided by a Code of Conduct to maintain a friendly and respectful environment.",Supercharge Your Workflow Automation with Prefect,"Discover how Prefect transforms Python code into interactive workflow applications, offering a seamless way to build, monitor, and manage data workflows. With features like API exposure, standardized development, and automatic retries, Prefect revolutionizes workflow automation. It's designed for resilience, allowing workflows to adapt to unexpected changes while ensuring consistent deployment across organizations. Utilize Prefect Cloud for enterprise-level orchestration and manage your workflows with unmatched efficiency. Start with Prefect today to elevate your workflow management system to the next level.","Learn how Prefect, the leading orchestration and observability platform, can automate and enhance your data workflows with advanced features like API exposure, automatic retries, and distributed execution. Get started with Prefect now.",AI Task Automation,"Python
+
+
+
+
+
+        14,484
+
+
+
+
+
+        1,441
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/PrefectHQ/prefect/main/docs/img/ui/cloud-dashboard.png; https://raw.githubusercontent.com/PrefectHQ/prefect/main/docs/img/ui/automations.png,,14484,2018-06-29T21:59:26Z
+2024-04-11,https://github.com/newren/git-filter-repo,https://raw.githubusercontent.com/newren/git-filter-repo/main/README.md,"Git filter-repo is an advanced tool for rewriting git history, surpassing the capabilities of git filter-branch in performance, functionality, and scalability for complex rewriting tasks. It is officially recommended over git filter-branch. Beyond simple command-line usage, it serves as a library for developing new history rewriting tools, catering to users with unique requirements. It necessitates git version 2.22.0 or higher and Python 3.5 or above. Installation is straightforward, involving a single Python script. The tool aids in tasks such as pruning history, renaming files, and transforming directories, with user-friendly commands. It addresses limitations of other tools like filter-branch and BFG Repo Cleaner by offering a design that emphasizes usability, safety, performance, and flexibility in rewriting repository history. Additionally, contributions to git filter-repo and adherence to the git project's Code of Conduct are encouraged, showcasing its community-driven development approach.",Maximizing Git Efficiency: Unleashing the Power of git filter-repo,"Discover the superior capabilities of git filter-repo for rewriting history with enhanced performance, usability, and functionality over git filter-branch. This tool not only dramatically improves efficiency but also introduces a level of precision in handling sophisticated rewriting tasks, recommended by the git project for its exceptional performance and scalability. Explore how to leverage git filter-repo's advanced features for customized history rewriting tools.","Learn how git filter-repo offers a breakthrough in repo history rewriting with high performance, extensive capabilities, and scalability, making it the preferred choice over git filter-branch.",Open Source Tool,"Python
+
+
+
+
+
+        7,333
+
+
+
+
+
+        661
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",,,7333,2018-08-21T15:40:09Z
+2024-04-11,https://github.com/cyrus-and/gdb-dashboard,https://raw.githubusercontent.com/cyrus-and/gdb-dashboard/master/README.md,"The GDB Dashboard is an enhancement tool for the GNU Debugger, designed to simplify the debugging process by providing a modular interface to display important program information. It is implemented as a `.gdbinit` file leveraging the GDB Python API, aiming to minimize the need for multiple GDB commands and letting developers focus on the program's control flow. Installation involves placing the `.gdbinit` file in the user's home directory, with an optional step to install Pygments for syntax highlighting. The dashboard does not redefine GDB commands; it introduces a `dashboard` command for accessing its features. For usage and task performance, resources are available on its wiki page.",Maximize Your Debugging Efficiency with GDB Dashboard,"GDB Dashboard revolutionizes debugging with a modular interface, streamlining the process by reducing the need for excessive GDB commands. By simply placing a `.gdbinit` file in your home directory, you unlock a powerful dashboard that enhances your debugging workflow. Adding syntax highlighting is a breeze with an optional Pygments installation. This tool ensures developers can concentrate on the program's control flow, making debugging more intuitive and efficient. Dive into the wiki to master this indispensable development tool.",Discover how GDB Dashboard can transform your debugging approach by providing a modular interface for more efficient problem-solving. Learn to install and use this powerful tool.,Software Development,"Python
+
+
+
+
+
+        10,509
+
+
+
+
+
+        754
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        83 stars today",https://raw.githubusercontent.com/wiki/cyrus-and/gdb-dashboard/Screenshot.png,,10509,2015-09-09T16:53:23Z
