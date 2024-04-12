@@ -8622,3 +8622,272 @@ Several resources and tools are provided for the community, including downloadab
 
 
         83 stars today",https://raw.githubusercontent.com/wiki/cyrus-and/gdb-dashboard/Screenshot.png,,10509,2015-09-09T16:53:23Z
+2024-04-12,https://github.com/paul-gauthier/aider,https://raw.githubusercontent.com/paul-gauthier/aider/main/README.md,"Aider is an AI-assisted command-line tool designed for pair programming, leveraging GPT-3.5/GPT-4 to edit code within local git repositories. It edits local source files directly and commits changes with descriptive messages. Aider supports starting new projects or integrating into existing ones, offering unique capabilities for modifying large existing codebases. The tool is installed via pip, and it interacts with users through conversational commands to perform operations like adding or modifying code, committing changes, and more. Aider supports a wide range of programming languages and features in-chat commands to manage the coding session effectively. It enhances productivity by allowing collaborative coding with AI, providing detailed documentation and examples to guide users. Feedback from users praises Aider for significantly improving coding efficiency and ease of use, highlighting its respect as the best AI coding assistant tool available.",Revolutionize Your Coding with Aider: AI-Powered Pair Programming,"Discover how Aider, the innovative command line tool, transforms your coding experience by pairing you with GPT-3.5/GPT-4 for editing and committing code directly in your local git repository. Learn to start a new project or enhance existing ones by navigating large codebases with ease, thanks to Aider's intelligent assistance. Make programming a breeze with Aider's unique ability to understand and modify your code, all while ensuring smooth collaboration with GPT-4.","Elevate your programming with Aider, the command line tool that pairs you with GPT-3.5/GPT-4 for editing local git repository code. Start new projects or enhance existing ones with ease.",AI Coding Assistant,"Python
+
+
+
+
+
+        8,553
+
+
+
+
+
+        868
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        334 stars today",,https://www.youtube.com/watch?v=df8afeb1FY8; https://www.youtube.com/watch?v=MPYFPvxfGZs,8553,2023-05-09T18:57:49Z
+2024-04-12,https://github.com/PKU-YuanGroup/MagicTime,https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/README.md,"MagicTime is an innovative project aimed at generating time-lapse videos based on given prompts, enhancing video generation models' ability to depict real-world transformations accurately. It stands out for its focus on metamorphic video generation, showcasing videos that include complex changes and physical transformations challenging to capture. Through the use of a specialized dataset, MagicTime significantly pushes the boundaries of video generation technology. The project has seen multiple updates, including the release of training codes, model weights, and a subset of the ChronoMagic dataset specifically designed for training MagicTime. This dataset features 2,265 metamorphic video-text pairs, providing rich resources for further development. Moreover, MagicTime has been integrated into the DiT-based architecture, indicating its versatility and potential for enhancing other text-to-video models. The project encourages community contributions, showcasing plugins and extensions developed by third parties, and is presented with a comprehensive suite for easy experimentation, including web demos and CLI inference tools. Recognized for its contributions to the field, MagicTime invites further collaboration and experimentation within the community.",Harnessing AI for Breakthrough Metamorphic Video Generation: An Insight into MagicTime,"Discover MagicTime, the innovative AI-driven project revolutionizing time-lapse video generation to accurately depict real-world transformations. By enhancing video generation models and leveraging a unique dataset, MagicTime opens new horizons in digital content creation. It outperforms traditional methods by generating metamorphic videos with unprecedented realism and detail. To explore this cutting-edge technology, visit their GitHub page for the latest updates and try the demo on Huggingface Spaces.","Dive into the world of MagicTime, a pioneering AI project transforming time-lapse video generation with metamorphic simulators. Experience the future of content creation with enhanced realism and precision.",Video Generation Tool,"Python
+
+
+
+
+
+        522
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        109 stars today",https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/magictime_logo.png; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_0_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_0_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_0_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_0_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_1_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_1_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_1_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/C_1_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_0_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_0_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_0_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_0_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_1_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_1_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_1_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_1_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_2_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_2_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_2_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_2_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_3_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_3_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_3_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_3_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_4_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_4_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_4_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_4_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_5_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_5_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_5_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_5_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_6_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_6_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_6_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_6_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_7_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_7_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_7_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_7_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_8_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_8_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_8_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/A_8_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_0_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_0_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_0_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_1_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_1_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_1_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_2_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_2_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/B_2_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_0.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_1.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_2.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_3.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_4.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_5.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_6.gif; https://raw.githubusercontent.com/PKU-YuanGroup/MagicTime/main/__assets__/videos/D_0_7.gif,,523,2024-04-07T14:17:15Z
+2024-04-12,https://github.com/barry-far/V2ray-Configs,https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/README.md,"This repository offers a variety of free V2ray configurations for secure and anonymous internet access. It includes links to different subscription configurations and protocols such as Vmess, Vless, Trojan, ShadowSocks, and more. Instructions for usage across various devices and operating systems like Windows, Linux, Android, iOS, and Mac are provided, along with recommendations for client applications. The configurations support automatic updates for improved performance and security. Users are guided on how to import these configurations into their preferred V2ray client. Contributions to the repository are welcome, and it operates under the MIT license. Special thanks are given to several contributors for their support.",Unlock Seamless Internet with Free V2ray Configurations,"Discover a treasure trove of free V2ray configuration files in our updated repository to enhance your internet browsing experience securely and anonymously. Whether you're a newbie or a seasoned V2ray client user, our collection offers a wide range of configs for various protocols including Vmess, Vless, and more. Stay updated with automatic subscription link updates every 10 minutes, ensuring optimal performance and security. Explore our detailed Wiki for setup instructions across different devices and operating systems. Contribute or reach out with any queries to continue improving this open-source project.","Access the latest free V2ray configuration files for secure and anonymous internet browsing. Find easy setup guides, automatic updates, and contribute to this open-source community project.",Cybersecurity Tool,"Python
+
+
+
+
+
+        2,033
+
+
+
+
+
+        318
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        104 stars today",,,2034,2023-09-17T09:39:01Z
+2024-04-12,https://github.com/IDEA-Research/GroundingDINO,https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/README.md,"Grounding DINO introduces a novel approach to open-set object detection by combining DINO (a variant of DETR, a transformer-based object detector) with grounded pre-training techniques. Achieving state-of-the-art results on benchmarks like MSCOCO for zero-shot and fine-tuned object detection, Grounding DINO demonstrates its ability to detect ""everything"" using language, with remarkable performance boasting a 52.5 AP in a zero-shot setting and 63.0 AP when fine-tuned on COCO data. The project is a collaboration among numerous researchers, offering not only a PyTorch implementation and pretrained models but also tutorials, demos on Huggingface, Colab notebooks for hands-on experimentation, and integration examples with Stable Diffusion for image editing. Grounding DINO's architecture features a text and image backbone, feature enhancer, and a cross-modality decoder. It sets a new standard in object detection, providing tools and methodologies for further exploration in image segmentation and editing, thanks to its flexible infrastructure that combines visual and textual data.",Revolutionizing Object Detection: Explore the Power of Grounding DINO,"Discover the cutting-edge Grounding DINO, a PyTorch implementation for seamless and open-set object detection. With outstanding performance on MSCOCO and innovative approaches to marrying DINO with grounded pre-training, Grounding DINO sets a new standard in flexibility and efficiency for object detection tasks. Explore tutorials, demos, and the pioneering work of IDEA-Research in advancing object detection technology.","Learn about Grounding DINO, the groundbreaking PyTorch tool by IDEA-Research for advanced object detection, offering unmatched performance on MSCOCO. Explore our tutorials and demos for insights into future of object detection.",Computer Vision Platform,"Python
+
+
+
+
+
+        4,836
+
+
+
+
+
+        499
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/./.asset/grounding_dino_logo.png; https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/.asset/hero_figure.png; https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/GD_GLIGEN.png; https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/.asset/COCO.png; https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/.asset/ODinW.png; https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/.asset/GD_SD.png; https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/.asset/GD_GLIGEN.png; https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/.asset/arch.png,https://www.youtube.com/watch?v=wxWDt5UiwY8; https://www.youtube.com/watch?v=cMa77r3YrDk; https://www.youtube.com/watch?v=C4NqaRBz_Kw; https://www.youtube.com/watch?v=oEQYStnF2l8; https://www.youtube.com/watch?v=wxWDt5UiwY8; https://www.youtube.com/watch?v=cMa77r3YrDk; https://www.youtube.com/watch?v=oEQYStnF2l8; https://www.youtube.com/watch?v=C4NqaRBz_Kw; https://www.youtube.com/watch?v=cMa77r3YrDk,4837,2023-03-09T06:14:41Z
+2024-04-12,https://github.com/1Panel-dev/MaxKB,https://raw.githubusercontent.com/1Panel-dev/MaxKB/main/README.md,"MaxKB, a knowledge base question-and-answer system, leverages LLM (Large Language Models) to provide powerful cognitive capabilities for businesses. It's designed for ease of use, allowing for direct document uploads, online document crawling, automatic document splitting, and vectorization for an enhanced interactive experience. MaxKB supports seamless integration into third-party business systems without the need for coding and offers compatibility with leading large models including Llama 2, Azure OpenAI, and Baidu's Qianfan models. It can be quickly launched with Docker, and options are available for deployment through the 1Panel app store for a complete system setup including MaxKB + Ollama + Llama 2 within 30 minutes. Users can explore its functionalities through online demos or the DataEase assistant, which showcases its integration into products and documentation. MaxKB utilizes Vue.js and Django for its front and back end, respectively, and employs PostgreSQL with pgvector for its database needs, aligning with various large models for versatile performance capabilities.",MaxKB: Revolutionize Your Enterprise with LLM-Based Knowledge Base Systems,"Discover how MaxKB, the powerful LLM-based Knowledge Base system, is transforming enterprise knowledge management. Offering plug-and-play convenience, seamless integration, and support for leading large models, MaxKB is tailored for enhancing smart Q&A interactions within any business system. Whether it's leveraging mainstream models or deploying locally with Llama 2, MaxKB integrates effortlessly, promising a robust enterprise brain ready to scale with your business needs. Learn how to quickly set up with Docker and access a range of resources for a comprehensive knowledge management solution.","Explore MaxKB's features: an LLM-based Knowledge Base Q&A system that integrates seamlessly into business systems, supports major models, and offers a superior interactive experience.",AI Development Platform,"Python
+
+
+
+
+
+        413
+
+
+
+
+
+        35
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        50 stars today",,,414,2023-09-14T02:05:12Z
+2024-04-12,https://github.com/google-deepmind/recurrentgemma,https://raw.githubusercontent.com/google-deepmind/recurrentgemma/main/README.md,"RecurrentGemma, developed by Google DeepMind, is a cutting-edge open-weights language model family built on the Griffin architecture, which enhances long-sequence generation through a mix of local attention and linear recurrences. This repository offers both a highly optimized Flax implementation and a reference PyTorch implementation for model sampling and fine-tuning. The technical report and Griffin paper provide in-depth details on the model's training and evaluation. Users can install the model using Poetry or pip, with support for both JAX and PyTorch pathways. Model checkpoints are accessible through Kaggle, and various tutorials are available for sampling and fine-tuning in Colab notebooks. RecurrentGemma is adaptable to CPU, GPU, or TPU, with the Flax version optimized for TPU. Contributions are welcome under the guidelines provided in CONTRIBUTING.md, and the code is licensed under Apache License 2.0. However, it is noted as not being an official Google product.",Exploring RecurrentGemma: Google DeepMind's Open-Weight Language Model,"Discover RecurrentGemma by Google DeepMind, an innovative open-weights language model harnessing the Griffin architecture for rapid sequence generation. This versatile implementation is available in both Flax for efficiency and PyTorch for those seeking a more hands-on approach. Dive into technical reports for an in-depth understanding, install with ease using Poetry or pip, and start experimenting with provided examples and Colab tutorials. Whether you're sampling or fine-tuning, RecurrentGemma is designed to cater to a wide range of machine learning projects and research.","Learn about RecurrentGemma, Google DeepMind's latest language model based on the advanced Griffin architecture. Discover its fast sequence generation capabilities, easy installation, and how to start experimenting with it.",Language Models,"Python
+
+
+
+
+
+        394
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        63 stars today",,,394,2024-03-25T11:13:36Z
+2024-04-12,https://github.com/AIRI-Institute/OmniFusion,https://raw.githubusercontent.com/AIRI-Institute/OmniFusion/main/README.md,"OmniFusion is a cutting-edge multimodal AI model created to surpass traditional language processing systems by incorporating different data types like images, and potentially audio, 3D, and video content. It uses a core called Mistral-7B and employs visual encoders, such as CLIP-ViT-L, for efficient information transfer. The model's unique adapter allows it to interpret and integrate information from various modalities into text. It has undergone two main training stages, focusing on Image Captioning tasks initially and then moving to improve its understanding of dialogues and complex queries. OmniFusion has been benchmarked against state-of-the-art models, showing superior performance in many areas. Recent updates include the release of OmniFusion-1.1 with added Russian language capability. The team behind OmniFusion, led by the FusionBrain scientific group from the AIRI Institute, plans to further enhance the model's capabilities by incorporating additional modalities and improving language understanding.",Exploring OmniFusion: The Next-Gen Multimodal AI Model,"OmniFusion is revolutionizing the AI landscape by integrating various data modalities—images, audio, 3D, and video—into traditional language processing systems. Its architecture employs one or two visual encoders and a unique adapter to enhance multimodal capabilities. The model excels in benchmarks against state-of-the-art multimodal models, demonstrating superior performance in generative metrics and classification. With ongoing developments for additional modalities and language support, OmniFusion is poised to set new standards in AI applications.","Discover OmniFusion, the advanced AI model merging images, audio, and more with language processing for unparalleled multimodal capabilities. See how it's shaping the future of AI.",Multimodal AI Model,"Python
+
+
+
+
+
+        137
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/AIRI-Institute/OmniFusion/main/./content/architecture2.png; https://raw.githubusercontent.com/AIRI-Institute/OmniFusion/main/./content/radar_plot_gigachat.png; https://raw.githubusercontent.com/AIRI-Institute/OmniFusion/main/./content/radar.png; https://raw.githubusercontent.com/AIRI-Institute/OmniFusion/main/content/ex1.png; https://raw.githubusercontent.com/AIRI-Institute/OmniFusion/main/content/ex2.png; https://raw.githubusercontent.com/AIRI-Institute/OmniFusion/main/./content/examples.png,,137,2023-11-20T10:51:51Z
+2024-04-12,https://github.com/huggingface/parler-tts,https://raw.githubusercontent.com/huggingface/parler-tts/main/README.md,"Parler-TTS is an innovative, open-source text-to-speech (TTS) model highlighted in the paper ""Natural language guidance of high-fidelity text-to-speech with synthetic annotations"" by Dan Lyth and Simon King. Unlike many other TTS models, Parler-TTS offers the ability to generate natural-sounding speech that can be customized according to the speaker's characteristics, such as gender, pitch, and speaking style. This model, fully released under a permissive license, promotes community engagement by making its datasets, pre-processing tools, training code, and weights publicly available. The project showcases the Parler-TTS Mini v0.1, a promising start with a model trained on 10.5K hours of audio, with plans to expand to 50K hours. Installation and usage are straightforward, encouraging users to participate in its development and improvement. Acknowledgments are given to the researchers, supporting libraries, and contributors. The project welcomes further contributions to enhance its capabilities, including dataset expansion, training enhancements, and optimization strategies for better quality and efficiency in speech generation.",Introducing Parler-TTS: Revolutionizing Text-to-Speech Technology,"Parler-TTS, a groundbreaking text-to-speech model, offers unmatched quality and customization in speech generation. Developed by Stability AI and Edinburgh University, it stands out as fully open-source, encouraging collaboration and innovation within the community. The model, which can mimic various speaking styles and voices, is accompanied by extensive datasets and training code. Excitingly, Parler-TTS Mini v0.1 is now available, promising further advancements with future updates. This initiative marks a significant leap forward in making synthetic speech more natural and accessible.","Discover Parler-TTS, the open-source text-to-speech model by Stability AI and Edinburgh University, delivering high-quality, customizable speech. Learn about its features, open-source community benefits, and the latest Parler-TTS Mini v0.1 release.",Open Source Tool,"Python
+
+
+
+
+
+        836
+
+
+
+
+
+        52
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        298 stars today",,,837,2024-02-13T10:05:58Z
+2024-04-12,https://github.com/trekhleb/learn-python,https://raw.githubusercontent.com/trekhleb/learn-python/master/README.md,"This repository is a comprehensive resource for learning Python, featuring a host of Python scripts categorized by topics which include code examples, explanations, and additional reading links. It's designed as both a playground and a cheatsheet. As a playground, it encourages interaction by allowing code modification and testing through assertions, and code linting to ensure adherence to Python style guidelines. As a cheatsheet, it serves as a reference for Python syntax and constructs, providing immediate feedback through built-in assertions without needing to run the code. The repository is structured to facilitate learning by exploring topics, reading documentation, viewing code examples, and testing through provided mechanisms. It covers a broad range of Python fundamentals such as variables, data types, control flow, functions, classes, error handling, and more, with links to additional resources for further learning. Installation instructions for Python and dependencies are provided, along with guidance on testing and linting code.",Master Python: A Comprehensive Guide for Beginners,"Dive into Python with this comprehensive playground and cheatsheet, perfect for beginners looking to master Python through interactive learning. From basic syntax to advanced concepts, this repository offers code examples, explanations, and links to further readings, ensuring a well-rounded understanding of Python. Test your code with assertions, discover Python's standard statements and constructions, and maintain high code quality from the start. Whether you're starting your programming journey or brushing up on your Python skills, this guide is your go-to resource for becoming proficient in Python.","Learn Python with an interactive playground and cheatsheet. Explore examples, explanations, and further readings to master Python programming from basics to advanced topics.",Python Learning Journey,"Python
+
+
+
+
+
+        15,822
+
+
+
+
+
+        2,559
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        72 stars today",,,15822,2018-08-29T15:20:05Z
+2024-04-12,https://github.com/NaishengZhang/book-recommendation-system,https://raw.githubusercontent.com/NaishengZhang/book-recommendation-system/master/README.md,"The final project for a class involves building and evaluating a book recommendation system using the Goodreads dataset. This dataset includes interactions between 876K users and 2.4M books, resulting in 223M user-book interactions. The recommendation model will employ Spark's alternating least squares (ALS) method, requiring tuning of hyper-parameters like the dimension of latent factors and the regularization parameter. Data will be split into training, validation, and test sets, with a recommendation to downsample for prototyping. The model’s accuracy will be evaluated on both validation and test data, and students are encouraged to document their hyper-parameter tuning process. It's also recommended to start with smaller dataset samples before scaling up to ensure efficient use of shared cluster resources and to convert CSV data to parquet format for better performance.",Maximizing Book Recommendations: Leveraging Goodreads Data with Spark ALS,"In the realm of recommender systems, the final project of building one with Spark's ALS using Goodreads data stands as a deep dive into applied problem-solving with massive datasets. The project embarks on using over 223M user-book interactions from 876K users and 2.4M books, laying a practical foundation for tuning ALS hyper-parameters like rank and lambda for optimal performance. Through meticulous data splitting and subsampling, the project paves the way for evaluating recommendation models' accuracy, using Spark's advanced evaluation metrics. This opens avenues for both beginner and advanced data scientists to experiment, learn, and contribute to the evolving field of personalized book recommendations.","Explore the practical guide to building a sophisticated book recommendation system using Spark's ALS method on the extensive Goodreads dataset, complete with tips on data handling, model tuning, and evaluation.",Machine Learning,"Python
+
+
+
+
+
+        61
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        8 stars today",,,61,2020-06-20T19:46:07Z
