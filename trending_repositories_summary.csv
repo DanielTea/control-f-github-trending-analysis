@@ -8891,3 +8891,305 @@ Several resources and tools are provided for the community, including downloadab
 
 
         8 stars today",,,61,2020-06-20T19:46:07Z
+2024-04-13,https://github.com/dataelement/bisheng,https://raw.githubusercontent.com/dataelement/bisheng/main/README.md,"Bisheng, an innovative open-source platform for large model application development, was officially released under the Apache 2.0 License in August 2023. Designed to empower rapid development and implementation of large model applications, it offers an intuitive interface that allows even non-technical users to create intelligent applications effortlessly. The platform distinguishes itself with enterprise-grade features for real-world production use, including high availability under heavy loads, continuous application operation and improvement, and versatile functionalities suited to varied business scenarios. Moreover, Bisheng integrates capabilities for managing unstructured data, leveraging the team's core expertise developed over the years. It supports a wide array of applications, from report generation and knowledge base QA to dialog and element extraction, aiming to transcend beyond dialog-based interactions to include automated processes and search among other forms. Developers can start with Bisheng by installing or compiling it from the source, and contributions to its community through code or discussions are welcomed. DataElem Inc., the company behind Bisheng, is recruiting talents to join in advancing this cutting-edge platform. Bisheng acknowledges several dependencies including Triton, langchain, unstructured, and langflow for their contributions to its capabilities.",Unlocking Next-Gen App Development with Bisheng: The Ultimate Open-Source Platform,"Discover Bisheng, a pioneering open-source platform for large model application development, revolutionizing how users approach next-gen application development. Leveraging its unique strengths in convenience, flexibility, and enterprise-grade reliability, Bisheng empowers even non-technical business personnel to rapidly deploy intelligent applications. Officially open-sourced in August 2023 under the Apache 2.0 License, Bisheng stands as a testament to innovation, named after the inventor of movable type printing, aiming to similarly transform intelligent application deployment. Join us in exploring Bisheng's vast capabilities and contribute to shaping the future of smart application landscapes.","Explore how Bisheng, the open-source large model application development platform, accelerates and simplifies the creation of intelligent applications. Officially open-sourced in 2023, Bisheng invites collaboration to revolutionize next-gen app development.",AI Development Platform,"Python
+
+
+
+
+
+        5,250
+
+
+
+
+
+        873
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",https://www.dataelem.com/nstatic/bisheng.png; https://www.dataelem.com/nstatic/qrcode.png,,5250,2023-08-28T10:00:24Z
+2024-04-13,https://github.com/Lightning-AI/litgpt,https://raw.githubusercontent.com/Lightning-AI/litgpt/main/README.md,"LitGPT, developed by Lightning AI, is a versatile command-line tool designed for the use, pretraining, finetuning, and deployment of over 20+ large language models (LLMs). It supports a wide array of state-of-the-art techniques and optimizations including flash attention, fully-sharded data parallelism (FSDP), and precision settings ranging from fp4 to fp32, facilitating efficient training on a scalable range from 1 to 1000+ GPUs/TPUs. Additionally, it offers parameter-efficient finetuning methods such as LoRA, QLoRA, and Adapter variants. LitGPT simplifies integrating popular and custom datasets for model training, and its configuration files streamline the optimization process for various training conditions. It also enables model export to other formats, making it highly adaptable for different use cases. The platform invites community involvement, providing extensive documentation, tutorials, and guides to assist users in leveraging LLMs effectively. Acknowledging contributions from several prominent projects and individuals, LitGPT extends the capabilities of nanoGPT and Lit-LLaMA, powered by Lightning Fabric.",Mastering LitGPT: Your Ultimate Guide to Training and Deploying Large Language Models,"Discover how to leverage LitGPT for state-of-the-art LLM training and deployment. Learn to pretrain, finetune, and deploy over 20 LLMs on your data using the latest techniques like LoRA, flash attention, and more. Whether you're working with 1 GPU or 1000+ GPUs/TPUs, LitGPT optimizes your AI development with low-precision settings and efficient finetuning methods. Get started now and transform the way you work with LLMs.","Unveil the power of LitGPT for training and deploying large language models (LLMs) with advanced techniques. Optimize AI development with custom data using GPUs/TPUs, low-precision settings, and more. Start now.",AI Development Platform,"Python
+
+
+
+
+
+        6,028
+
+
+
+
+
+        632
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        24 stars today",https://pl-public-data.s3.amazonaws.com/assets_lightning/LitStableLM_Badge.png,,6028,2023-05-04T17:46:11Z
+2024-04-13,https://github.com/zulip/zulip,https://raw.githubusercontent.com/zulip/zulip/main/README.md,"Zulip is an open-source collaboration platform combining aspects of email and chat to facilitate both live and asynchronous communication. Embraced by Fortune 500 companies, prominent open-source initiatives, and numerous other organizations, Zulip stands out for its topic-based threading. The project is the product of a global developer community, with over 1000 contributors and a rapidly growing codebase. Zulip encourages contributions from developers and non-developers alike, offering extensive documentation and various paths for engagement. It supports self-hosting as well as cloud solutions, catering to a broad audience. Additionally, Zulip is actively involved in outreach programs and welcomes support from its user base through advocacy, sponsorship, and feedback. The platform is licensed under the Apache 2.0 license, reflecting its commitment to open-source principles.",Exploring Zulip: The Ultimate Team Collaboration Tool for Productive Remote Work,"Zulip is revolutionizing remote work by uniquely combining email's structure with chat's immediacy in an open-source collaboration tool. With its innovative topic-based threading, it supports both synchronous and asynchronous communication, making it a favorite among Fortune 500 companies and leading open-source projects. Its development is driven by a global community of over 1000 contributors, making Zulip the most rapidly evolving team chat project. Whether you're contributing code, feedback, or simply exploring, Zulip offers comprehensive resources to fully engage with its community. Join the growing ecosystem of Zulip users and see how it can transform your team's collaboration.","Discover Zulip, the open-source collaboration platform blending email and chat functionalities to support productive remote teamwork. Learn how its unique threading, extensive community, and robust features make it ideal for any organization.",Open Source Community,"Python
+
+
+
+
+
+        19,749
+
+
+
+
+
+        7,360
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",,,19749,2015-09-25T16:37:25Z
+2024-04-13,https://github.com/outlines-dev/outlines,https://raw.githubusercontent.com/outlines-dev/outlines/main/README.md,"Outlines is a robust tool for structured text generation, developed with love by the team at .txt. It offers integration with multiple models like OpenAI and transformers, utilizes the Jinja templating engine for prompting, and supports efficient regex-structured and JSON generation adhering to JSON schemas or Pydantic models. Features include dynamic stopping, batch inference, and advanced sampling algorithms. Outlines aim to make language model outputs more predictable, improving inference speed and model performance without adding overhead. Additionally, it facilitates the creation of complex prompts via template functions. Outlines are continually updated, with the team encouraging community engagement through contributions, ideas on Discord, and issue reporting on GitHub.",Revolutionize Your Code with Outlines: Text Generation Simplified,"Discover Outlines, the must-have library for structured text generation in your coding projects. Enjoy seamless integration with models like OpenAI, quick installation, and a suite of features like regex-structured generation, efficient JSON output, and powerful prompting options. Dive into the future of code efficiency and performance with Outlines today.","Explore Outlines, the game-changing Python library for structured text generation. Get faster, more predictable outputs with OpenAI integration, complex prompt handling, and more. Perfect for developers seeking efficiency in automation.",AI Development Platform,"Python
+
+
+
+
+
+        5,425
+
+
+
+
+
+        264
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",https://raw.githubusercontent.com/outlines-dev/outlines/main/./docs/assets/images/logo.png; https://raw.githubusercontent.com/outlines-dev/outlines/main/./docs/assets/images/dottxt.png,,5425,2023-03-17T16:01:18Z
+2024-04-13,https://github.com/huggingface/dataspeech,https://raw.githubusercontent.com/huggingface/dataspeech/main/README.md,"Data-Speech is a collection of utility scripts for tagging speech datasets, designed to enhance the development of speech-based AI models, including text-to-speech engines. It focuses on implementing the annotation method from the research by Dan Lyth and Simon King, providing labels for speaker characteristics with natural language descriptions. This tool has been used on datasets like LibriTTS-R and a subset of the English version of MLS, supporting the Parler-TTS library's models. The process involves predicting annotations based on speaking rate, signal-to-noise ratio, reverberation, and pitch estimation, then mapping these annotations to discrete keywords and generating natural language descriptions. The suite, which is still under development, aims to aid in the scalable and adjustable preparation of speech synthesis datasets, acknowledging the contributions of multiple open-source resources and recommending citation for users who find the repository beneficial.",Maximizing Speech Dataset Utility with Data-Speech: Revolutionizing TTS Model Development,"Data-Speech offers revolutionary utility scripts for tagging speech datasets, facilitating high-quality text-to-speech (TTS) model development. It leverages annotations based on cutting-edge research to enrich datasets like LibriTTS-R and MLS English with detailed speaker characteristics. This suite simplifies the application of audio transformations, supports the Parler-TTS library for advanced TTS model training, and enhances speech-based AI research and development. By preparing datasets with precise annotations, Data-Speech propels the next generation of speech synthesis technologies forward.","Discover how Data-Speech transforms speech dataset preparation with utility scripts for TTS model development, featuring audio transformation and detailed annotation based on latest research. Enhance your speech AI projects now.",Natural Language Processing,"Python
+
+
+
+
+
+        129
+
+
+
+
+
+        5
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        11 stars today",,,129,2024-02-07T17:34:44Z
+2024-04-13,https://github.com/ModelTC/lightllm,https://raw.githubusercontent.com/ModelTC/lightllm/main/README.md,"LightLLM is a Python framework designed for efficient inference and serving of Large Language Models (LLMs), capitalizing on its lightness, scalability, and speed. It integrates features from various renowned open-source projects like FasterTransformer, TGI, vLLM, and FlashAttention. Key features include tri-process asynchronous collaboration enhancing GPU utilization, support for nopad attention across multiple models, dynamic batch scheduling, tensor parallelism for quick inference across multiple GPUs, and a high-performance router for optimal GPU memory management of token processes. Additionally, it supports a variety of models including BLOOM, LLaMA, and others. LightLLM facilitates easy installation and containerization for users through Docker, aiming to achieve state-of-the-art throughput performance for both text and multimodal models (e.g., QWen-VL, Llava). Performance comparisons demonstrate LightLLM’s superior service performance over older models, ensuring efficient handling of broad and dynamically changing request loads.","Exploring LightLLM: The High-Speed, Lightweight LLM Inference Framework","LightLLM stands out in the tech world as a Python-based, high-performance Large Language Model (LLM) inference and serving framework. It offers unique features such as tri-process asynchronous collaboration, dynamic batch scheduling, and innovative memory management techniques for optimized GPU utilization. LightLLM supports a range of models from BLOOM to LLaMA and beyond, promising no memory waste and efficient processing of diverse requests. Its high-performance router and Tensor Parallelism enable seamless scalability and faster inference across multiple GPUs. Dive into LightLLM for groundbreaking efficiency in large language model inference.","Discover LightLLM, a lightweight, scalable LLM inference framework offering high-speed performance, dynamic batch scheduling, and support for multiple models like BLOOM and LLaMA. Perfect for efficient, large-scale text processing.",AI Development Platform,"Python
+
+
+
+
+
+        1,755
+
+
+
+
+
+        157
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",https://raw.githubusercontent.com/ModelTC/lightllm/main/assets/lightllm.drawio.png,,1755,2023-07-22T08:11:15Z
+2024-04-13,https://github.com/goauthentik/authentik,https://raw.githubusercontent.com/goauthentik/authentik/main/README.md,"Authentik is an open-source Identity Provider designed for flexibility and versatility, ideal for integrating into existing systems and managing sign-up, recovery, and other functions efficiently. It supports Docker Compose for smaller setups and a Helm Chart for larger deployments, with documentation available for both. The project encourages community involvement, inviting users to share their adoption stories, contribute to development, and assist with translations. Development resources and security guidelines are clearly outlined, with an open call for contributions. Featuring a dual-themed UI, authentik combines robust functionality with ease of installation and a community-driven approach to identity management.",Exploring authentik: The Open-Source Identity Provider for Modern Applications,"Discover authentik, the open-source Identity Provider designed for flexibility and versatility in modern applications. Whether you're integrating into existing systems or setting up new protocols, authentik offers a streamlined solution for sign-up processes, recovery features, and more. Ideal for both small and large setups, it supports Docker Compose and Helm Chart installations. Dive into its development, see it in action through screenshots, and learn how your organization can contribute to its growth.","Learn about authentik, an open-source Identity Provider that enhances flexibility and versatility for applications. Ideal for seamless integration and supporting new protocols, it simplifies user management processes. Discover more now.",Open Source Tool,"Python
+
+
+
+
+
+        6,615
+
+
+
+
+
+        504
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://docs.goauthentik.io/img/screen_apps_light.jpg; https://docs.goauthentik.io/img/screen_apps_dark.jpg; https://docs.goauthentik.io/img/screen_admin_light.jpg; https://docs.goauthentik.io/img/screen_admin_dark.jpg,,6615,2019-12-30T09:19:48Z
+2024-04-13,https://github.com/VRSEN/agency-swarm-lab,https://raw.githubusercontent.com/VRSEN/agency-swarm-lab/main/README.md,"The Agency Swarm Lab is a collaborative repository that demonstrates the capabilities of AI agent teams created with the Agency Swarm framework. To get started, users need to clone the repository and install necessary requirements. Agencies, each with specific requirements, are housed in separate folders. Utilizing OpenAI's API, users must also set up a `.env` file with their API key for operations. Additionally, Docker installation is recommended for safer operation without affecting the local file system. The repository welcomes contributions from those who have developed custom AI agencies using the framework. The initiative aims to transform the future of work with AI, encouraging interested individuals to stay updated through their YouTube channel.",Unlocking AI Collaboration: A Guide to Agency Swarm Lab,"Welcome to Agency Swarm Lab, your comprehensive guide to creating custom AI agent teams with the cutting-edge Agency Swarm framework. Dive into the agency-centric world where collaboration meets innovation, starting with cloning the repository, setting up your environment, and running your agency with ease. Whether you're installing locally or prefer Docker for a safer environment, this guide ensures a seamless setup process. Explore the potential of AI collaboration in transforming the future of work. Don't miss out on the latest tutorials and updates by subscribing to our YouTube channel.","Discover how to create custom AI agent teams with Agency Swarm Lab. This step-by-step guide covers everything from local installation to Docker setup, helping you unlock the full potential of AI collaboration.",Collaborative AI Framework,"Python
+
+
+
+
+
+        168
+
+
+
+
+
+        88
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        31 stars today",,,168,2024-02-03T05:18:52Z
+2024-04-13,https://github.com/gto76/python-cheatsheet,https://raw.githubusercontent.com/gto76/python-cheatsheet/main/README.md,"This text is a comprehensive cheatsheet for Python, available for download or purchase as a PDF. It includes various Python concepts and features such as Collections (List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator), Types (Type, String, Regular Expressions, Format, Numbers, Combinatorics, Datetime), Syntax (Arguments, Inline, Import, Decorator, Class, Duck Types, Enum, Exception), System commands (Exit, Print, Input, Command Line Arguments, Open, Path, OS Commands), Data structures (JSON, Pickle, CSV, SQLite, Bytes, Struct, Array, Memory View, Deque), Advanced topics (Threading, Operator, Match Statement, Logging, Introspection, Coroutines), Libraries (Progress Bar, Plots, Tables, Curses, GUIs, Scraping, Web, Profiling), and Multimedia (NumPy, Image, Animation, Audio, Synthesizer, Pygame, Pandas, Plotly). The cheatsheet also includes detailed examples and syntax for various operations, data types, and concepts such as sorting lists, manipulating dictionaries, and working with sets and tuples. It serves as a quick reference for developers looking to brush up on Python syntax and its core libraries.","Ultimate Python Cheat Sheet: Tips, Tricks, and Best Practices","Discover the ultimate Python cheat sheet that compiles all the essential elements from basics to advanced concepts of Python programming in one place. Whether you're just starting out or looking to brush up on your skills, this comprehensive guide provides quick access to syntax, libraries, and functions, simplifying your development process. From collections and types to threading and multimedia libraries, enhance your coding proficiency with this essential Python cheat sheet.","Looking to elevate your Python skills? Explore our ultimate Python cheat sheet, covering everything from basic syntax to advanced programming concepts. Find quick answers and best practices to streamline your coding workflow.",Python Libraries Collection,"Python
+
+
+
+
+
+        35,327
+
+
+
+
+
+        6,357
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        57 stars today",https://raw.githubusercontent.com/gto76/python-cheatsheet/main/web/image_888.jpeg; https://raw.githubusercontent.com/gto76/python-cheatsheet/main/web/covid_deaths.png; https://raw.githubusercontent.com/gto76/python-cheatsheet/main/web/covid_cases.png,,35327,2018-01-25T04:16:53Z
+2024-04-13,https://github.com/pytorch/vision,https://raw.githubusercontent.com/pytorch/vision/main/README.md,"The torchvision package is a comprehensive tool for computer vision in PyTorch, offering datasets, model architectures, and image transformations. Installation instructions and compatibility with Python versions are detailed online, alongside guidelines for installing from source. Vision tasks leverage torch tensors and PIL images, with support for Pillow and Pillow-SIMD for faster processing. An unstable video backend is also available, requiring specific setups, especially on Linux. Additionally, torchvision enables C++ integration of PyTorch models with JIT Script, detailing steps for installation and linking. The project emphasizes the need for awareness around dataset permissions and model license responsibilities, highlighting specific terms for pre-trained models, such as those under the CC-BY-NC 4.0 license. Contributions to torchvision are welcome, with clear guidelines provided for interested developers.",Exploring TorchVision: The Essential Toolkit for Computer Vision in PyTorch,"Discover the power of TorchVision, PyTorch's library for computer vision applications, offering a vast array of datasets, model architectures, and image transformations. Learn how to seamlessly install TorchVision alongside PyTorch to empower your computer vision projects with the latest models and datasets. From image and video processing to leveraging pre-trained models for accelerated development, TorchVision is a vital component for researchers and developers in the AI field. Check the documentation for comprehensive guides and how-to's. Embrace the full potential of computer vision with TorchVision's robust toolset today.","Unveil the capabilities of TorchVision, PyTorch's comprehensive library for computer vision, featuring extensive datasets, models, and transformations. Perfect for AI researchers and developers.",Computer Vision,"Python
+
+
+
+
+
+        15,365
+
+
+
+
+
+        6,837
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",,,15365,2016-11-09T23:11:43Z
+2024-04-13,https://github.com/VRSEN/agency-swarm,https://raw.githubusercontent.com/VRSEN/agency-swarm/main/README.md,"Agency Swarm, initiated by Arsenii Shatokhin (VRSEN), aims to fully automate AI agencies through a unique framework that simplifies the creation process of collaborative agent swarms, or ""Agencies,"" each possessing distinct roles and capabilities. This approach, which anthropomorphizes automation by reflecting real-world agency structures and specialized roles, intends to make the process more intuitive for both agents and users. Key features of Agency Swarm include customizable agent roles using the Assistants API, full control over prompts for greater flexibility, tool creation with Instructor for easy interface and automatic type validation, efficient agent communication via a bespoke tool, and effective state management of assistants. Agency Swarm is designed for reliability in production environments. Users can start by setting their OpenAI key, defining custom tools with Instructor, creating agent roles, and defining agency communication flows to ensure streamlined interactions among different agents. Additional functionalities include a CLI for agency genesis, importing existing agents, and creating agent templates locally, further optimizing the process for scalability and customization. Future updates will focus on enabling agencies to autonomously create other agencies and enhancing inter-agency communication. The project is open-source under the MIT license, inviting contributions from the public.",Revolutionizing Business Automation with Agency Swarm: A Comprehensive Guide,"Discover how Agency Swarm, initiated by Arsenii Shatokhin, aims to transform the AI Agency landscape through automation. This innovative framework allows for the creation of a collaborative swarm of agents, or 'Agencies,' each equipped with unique roles and capabilities, making agent creation intuitive and efficient. Key features include customizable agent roles, full control over prompts, tool creation, efficient communication, and state management. Agency Swarm stands out for its deployability in production, ensuring reliability and straightforward application in real-world settings.","Explore Agency Swarm's cutting-edge framework for automating AI agencies. Learn about its customizable agent roles, tool creation, and efficient communication features designed to streamline agent creation and deployment.",Collaborative AI Framework,"Python
+
+
+
+
+
+        1,167
+
+
+
+
+
+        324
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",,https://www.youtube.com/watch?v=M5Pa0pLgyYU,1167,2023-11-16T02:29:26Z
