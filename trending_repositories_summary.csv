@@ -9193,3 +9193,106 @@ Several resources and tools are provided for the community, including downloadab
 
 
         15 stars today",,https://www.youtube.com/watch?v=M5Pa0pLgyYU,1167,2023-11-16T02:29:26Z
+2024-04-14,https://github.com/openai/simple-evals,https://raw.githubusercontent.com/openai/simple-evals/main/README.md,"This repository introduces a lightweight library designed for assessing language models, starting with the evaluation of `gpt-4-turbo-2024-04-09`. It aims for transparency in how accuracy numbers are derived for models by emphasizing a zero-shot, chain-of-thought approach in its evaluations, diverging from traditional few-shot or role-playing prompt methods. The library doesn't plan for active maintenance or the acceptance of new evaluations outside of bug fixes, model adapters, and benchmark updates. It contains evaluations from various sources like MMLU, MATH, GPQA, DROP, MGSM, and HumanEval, and it interfaces with model APIs like OpenAI and Claude. Instructions for setup across different evaluations and samplers are provided, as well as a demonstration command for executing evaluations using the OpenAI API. The repository shares a commitment to open-source principles but specifies its focus and limits on contributions while also clarifying the legal standing of contributions as falling under the MIT license, with contributors agreeing to OpenAI's usage policies.",Introducing the Latest Language Model Evaluation Library for GPT-4 Turbo,"Explore our new language model evaluation library, designed for transparent and accurate performance metrics of the latest models like gpt-4-turbo-2024-04-09. Aimed at a realistic assessment, it emphasizes zero-shot, chain-of-thought evaluations over traditional few-shot approaches. This open-source initiative is set to refine how we understand and improve language model capabilities, despite not being actively maintained for new evals beyond specific updates. Dive into how this tool shapes the future of model evaluations, harnessing simplicity and precision.","Discover our open-source library for evaluating language models, offering a fresh perspective on accuracy with a focus on zero-shot, chain-of-thought techniques. See how it sets new standards for model performance assessment.",Language Models Tool,"Python
+
+
+
+
+
+        567
+
+
+
+
+
+        56
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        47 stars today",,,567,2024-04-11T22:38:17Z
+2024-04-14,https://github.com/fudan-generative-vision/champ,https://raw.githubusercontent.com/fudan-generative-vision/champ/master/README.md,"Champ, developed by researchers from Nanjing University, Fudan University, and Alibaba Group, introduces a novel method for controllable and consistent human image animation with 3D parametric guidance. The project enables users to animate human images through 3D guidance, enhancing the realism and consistency of animated sequences. The framework supports various functionalities, including dance video animation, and provides tools and scripts for users to animate their own content. Pretrained models and checkpoints are available for download, ensuring users can leverage the system effectively. Installation requires specific system environments and the use of pip or poetry for package management. The project also acknowledges contributions from related works and invites participation from the research community, offering positions at the Generative Vision Lab, Fudan University. For detailed usage and future development plans, the project's roadmap is recommended. The project encourages academic citation and provides contact information for research opportunities.",Revolutionizing Human Image Animation: Discover Champ's Breakthrough,"Explore the cutting-edge Champ framework, a pioneering effort in controllable and consistent human image animation with 3D parametric guidance. Developed by a collaborative team from Nanjing University, Fudan University, and Alibaba Group, this powerful tool enables users to animate human images with unprecedented precision and realism. With the release of SMPL & rendering scripts, and comprehensive tutorials, Champ is set to transform digital animation. Dive into the future of image animation by leveraging the advanced capabilities of Champ, and join the community in pushing the boundaries of what's possible.","Discover Champ, an advanced framework for human image animation with 3D parametric guidance, developed by experts from top universities and Alibaba Group. Learn how to bring static images to life with precision and realism.",Animation Engine,"Python
+
+
+
+
+
+        2,513
+
+
+
+
+
+        275
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        45 stars today",https://raw.githubusercontent.com/fudan-generative-vision/champ/master/assets/framework.jpg,https://www.youtube.com/watch?v=2XVsy9tQRAY,2513,2024-03-17T04:49:43Z
+2024-04-14,https://github.com/OpenBMB/MiniCPM-V,https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/README.md,"MiniCPM-V and OmniLMM are open-source, multimodal large models designed for image and text understanding, providing high-quality text output from image and text inputs. Two versions have been released aiming at leading performance and efficient deployment. MiniCPM-V 2.8B is an advanced multimodal model deployable on end devices, capable of processing high-resolution images for scene text recognition and exhibiting low hallucination rates akin to GPT-4V. OmniLMM-12B, compared to models of similar size, demonstrates superior performance across multiple benchmarks, achieving lower hallucination rates than GPT-4V. These models have been evaluated extensively, showcasing their superior OCR capabilities and reliable behavior in multimodal content generation. They support bilingual (Chinese and English) capabilities and are optimized for efficient deployment even on mobile devices. Updates and enhancements are regularly released to improve performance and expand functionalities.",Exploring OmniLMM and MiniCPM-V: Pioneering Multimodal Large Models for Text and Image Understanding,"OmniLMM and MiniCPM-V are groundbreaking open-source multimodal large models designed for understanding both text and imagery, offering unparalleled performance and efficient deployment across two versions. MiniCPM-V 2.8B showcases remarkable scene text recognition and low illusion rates akin to Gemini Pro and GPT-4V, catering to edge devices. OmniLMM-12B outperforms similar-sized models in various benchmarks, presenting an even lower illusion rate compared to GPT-4V, setting new standards for reliability and multimodal integration.","Discover the capabilities of OmniLMM and MiniCPM-V, the leading open-source multimodal large models blending text and image understanding for cutting-edge performance and deployment. Learn about their top features, including exceptional scene text recognition and low illusion rates.",Multimodal AI Model,"Python
+
+
+
+
+
+        698
+
+
+
+
+
+        42
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        142 stars today",https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/./assets/minicpmv-omnilmm.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/assets/minicpmv2-cases_2.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/assets/gif_cases/station.gif; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/assets/gif_cases/london_car.gif; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/assets/omnilmm-12b-examples_2.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/assets/hk_OCR.jpg; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/assets/thunlp.png; https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/assets/modelbest.png,https://github.com/OpenBMB/OmniLMM/assets/157115220/8fec13bf-bb47-4bf8-8f8c-d0b716a964ec,698,2024-01-29T05:30:33Z
+2024-04-14,https://github.com/chengaopan/AutoMergePublicNodes,https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/main/README.md,"AutoMergePublicNodes is a project initiated by chengaopan, aimed at automatically aggregating and merging public internet nodes for free use. This initiative provides various subscription links for Base64 and Clash protocols to access free nodes, facilitating circumvention tools like v2ray, ssr, and clash. It serves as a workaround for accessing services like Google Play in regions where they are blocked, specifically addressing issues caused by domain redirections to empty servers within certain regions due to Google's server reassignments. The project offers multiple solutions, including updating project subscriptions to use foreign servers for Google services, using rooted devices to unlock GMS (Google Mobile Services) in restricted areas, or attempting connection via Clash for Android. It also includes a disclaimer emphasizing that the nodes are for educational and communication purposes only, discouraging illegal activities. Additionally, the project holds a stance against overwork, adopting an ""Anti 996"" license in protest against the 996 work schedule prevalent in some Chinese companies. The project also shares snippets and configuration pieces for integration into personal setups, housed under the 'snippets' folder on GitHub.",Unlock Global Services in China with AutoMergePublicNodes: A Guide to Free Internet,"Discover how AutoMergePublicNodes is revolutionizing access to global internet services like Google Play in China through free public node merging. Overcome restrictions with updated Clash subscriptions or ROOT methods to unlock GMS and navigate freely. Stay informed and compliant with the Anti 996 License, ensuring ethical use. Embrace the freedom of information, courtesy of the AutoMergePublicNodes project.",Learn how to bypass internet restrictions in China using AutoMergePublicNodes. Get the latest Clash subscriptions and unlock Google Play services with our comprehensive guide.,Open Source Tool,"Python
+
+
+
+
+
+        261
+
+
+
+
+
+        66
+
+
+        Built by
+
+          
+
+
+
+
+
+        24 stars today",,,261,2024-01-11T03:59:55Z
