@@ -9296,3 +9296,194 @@ Several resources and tools are provided for the community, including downloadab
 
 
         24 stars today",,,261,2024-01-11T03:59:55Z
+2024-04-15,https://github.com/TencentARC/InstantMesh,https://raw.githubusercontent.com/TencentARC/InstantMesh/main/README.md,"InstantMesh is a framework designed for generating 3D meshes from single images efficiently, employing a large reconstruction model (LRM) architecture. As the official implementation, InstantMesh has released both its inference and training code, model weights, and a Gradio demo on HuggingFace for public experimentation. It recommends environments with Python 3.10, PyTorch 2.1.0, and CUDA 12.1 for optimal performance. Users can generate 3D meshes using command-line inputs or through a local Gradio demo, with provisions for customizing output formats and handling images with or without alpha masks. Training codes are provided, although the dataset itself is not due to size constraints. The project invites further citation for its contributions to 3D generative AI and acknowledges several prior works for their influence. Future updates are expected to include support for low-memory GPUs and additional multi-view diffusion models.",Revolutionizing 3D Mesh Generation with InstantMesh: A Breakthrough Tool,"Discover the groundbreaking InstantMesh tool, an official implementation for transforming single images into efficient 3D meshes using advanced LRM architecture. With its recent release, users can now access inference and training codes, model weights, and an interactive Gradio demo. This innovation not only promises to enhance 3D modeling efficiency but also paves the way for future advancements in sparse-view large reconstruction models. A must-try for enthusiasts and professionals in the field of 3D generative AI and modeling.","Explore InstantMesh, the latest feed-forward framework designed for efficient 3D mesh generation from a single image. Experience the future of 3D modeling with its cutting-edge LRM architecture, available model weights, and interactive demos.",3D Image Rendering,"Python
+
+
+
+
+
+        364
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        51 stars today",,,364,2024-04-10T11:22:38Z
+2024-04-15,https://github.com/jina-ai/jina,https://raw.githubusercontent.com/jina-ai/jina/master/README.md,"Jina is an open-source platform designed for building multimodal AI services leveraging cloud-native technologies, enabling developers to create, scale, and deploy AI models efficiently. It supports gRPC, HTTP, and WebSockets for communication and offers seamless integration with Docker, Kubernetes, and Jina AI Cloud for production deployment. With Jina, developers can serve machine learning models for any data type using any deep learning framework, design high-performance services with features like easy scaling, streaming for Large Language Models (LLMs), and deploy them in a cloud-native environment. It differentiates from FastAPI by offering advanced orchestration, scaling capabilities, and better support for data-intensive applications through protocols like gRPC. Jina simplifies the transition from local development to production with cloud-native deployment options and tools like Executor Hub for containerization and deployment facilitation. The platform also emphasizes ease of scaling and concurrency, offering utilities for improved throughput in applications. Further, Jina aids in deploying AI applications to the cloud, highlighting its support for Kubernetes and Docker Compose. Additionally, Jina outlines an approach for efficient streaming services with LLMs, demonstrating how to serve and stream requests to maximize responsiveness and reduce latency for end-users.",How to Build Multimodal AI Applications with Jina's Cloud-Native Technologies,"Discover how Jina enables you to effortlessly build and deploy multimodal AI services and pipelines with cloud-native technologies, focusing on your logic and algorithms without worrying about infrastructure. Jina offers a seamless transition from model serving to production through advanced orchestration like Kubernetes and Docker Compose, making cloud-native technologies accessible to every developer.","Learn to build and deploy multimodal AI services using Jina's cloud-native technologies, focusing on development without the infrastructure hassle. Explore seamless transition to production with Kubernetes and Docker Compose.",AI Development Platform,"Python
+
+
+
+
+
+        19,925
+
+
+
+
+
+        2,180
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        26 stars today",https://raw.githubusercontent.com/jina-ai/jina/master/./.github/images/build-deploy.png; https://raw.githubusercontent.com/jina-ai/jina/master/./.github/images/deployment-diagram.png; https://raw.githubusercontent.com/jina-ai/jina/master/./.github/images/flow-diagram.png; https://raw.githubusercontent.com/jina-ai/jina/master/./.github/images/mona-lisa.png; https://raw.githubusercontent.com/jina-ai/jina/master/./.github/images/scaled-deployment.png,,19925,2020-02-13T17:04:44Z
+2024-04-15,https://github.com/walkxcode/dashboard-icons,https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/README.md,"Dashboard Icons offers a comprehensive collection of icons specifically designed for dashboards, touted as the best source for such graphics. Users can easily integrate these icons into various dashboards like Homepage, Homarr, and Dashy. Icons can be downloaded from the icons page via simple right-clicking or using terminal commands with curl or wget for more technical users. It supports both `png` and `svg` formats. However, users are warned about potential excessive data usage and system slowdowns when loading all icons simultaneously due to the volume. Contributions to the project are welcomed following the provided guidelines, and users must adhere to the terms outlined in the license before using any icons or software.",Top Source for Dashboard Icons: Enhance Your Projects Today,"Discover the ultimate collection of dashboard icons perfect for integrating into various dashboards like Homepage, Homarr, and Dashy. With seamless integration and easy download options available directly from the icons page, enhancing your project's aesthetics has never been easier. Learn how to use these icons on any device, avoid system slowdowns by navigating the icons wisely, and contribute to the ever-growing icon collection. Plus, understand the legal use of these assets to ensure your project complies with the licensing terms.",Explore the best source for dashboard icons to elevate your projects. Find out how to easily integrate and download these icons for your dashboard with our step-by-step guide.,Developer Monitoring Platform,"Python
+
+
+
+
+
+        4,006
+
+
+
+
+
+        411
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,,4006,2022-08-16T15:41:54Z
+2024-04-15,https://github.com/wligithub/tax-tool,https://raw.githubusercontent.com/wligithub/tax-tool/main/README.md,"The Automated Personal Tax Preparing Tool is a Python-based application designed to calculate the cost basis for the VMW-AVGO merger, specifically for US holders of VMware shares. It processes the Gain&Loss file from E*TRADE, automatically generating tax information for cash received, converted AVGO shares, and AVGO cash-in-lieu fractional shares across all lots, including those acquired via ESPP, RSU, NSO, and brokerage purchases, both sold before and on the merger date. It offers commands for adjusting ESPP offer dates for mid-year joiners at VMware and provides a detailed guide for inputting data, running the tool, and understanding output files. Additionally, it guides on adjusting the cost base for Turbo Tax filing and addresses frequently asked questions related to lot cost base and share acquisition dates. The tool emphasizes its utility for informational purposes, disclaiming professional tax advice liability.",Maximize Your Tax Returns: Easy VMW-AVGO Merger Tax Preparation with Python,"In the wake of the VMW-AVGO merger, calculating cost basis and managing tax information has become simpler with our Python-based automated tool. This innovative tool processes the Gain&Loss file from E*TRADE, automates tax calculations including cost basis for cash and AVGO shares, and supports various types of VMW shares. It's designed for US holders of VMware shares, streamlining tax preparation by automating the calculation of cost bases and generating comprehensive tax summaries. Say goodbye to manual data entry and hello to efficiency and accuracy in your tax filings.",Discover how to simplify your tax preparation for the VMW-AVGO merger with our automated Python tool. Automate cost basis calculations and streamline tax filing for US VMware shareholders.,Document Conversion Tool,"Python
+
+
+
+
+
+        109
+
+
+
+
+
+        22
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        4 stars today",,,109,2024-03-04T05:23:24Z
+2024-04-15,https://github.com/metavoiceio/metavoice-src,https://raw.githubusercontent.com/metavoiceio/metavoice-src/main/README.md,"MetaVoice-1B is a text-to-speech (TTS) model with 1.2 billion parameters, trained on 100K hours of speech, emphasizing emotional rhythm and tone in English. It enables zero-shot cloning for American and British voices with just 30 seconds of reference audio and supports voice cloning and cross-lingual cloning with finetuning, demonstrating success with minimal training data (as low as 1 minute for Indian speakers). It can synthesize text of any length and is available under the Apache 2.0 license for unrestricted use. Instructions for quick setup, installation, and usage are provided, including Docker commands, environmental setup, project dependency installation using poetry or pip/conda, and examples of usage scenarios like local use, cloud deployment, and finetuning details. The architecture involves predicting EnCodec tokens from text, diffusing these to waveform level with post-processing to clean up audio. It also outlines upcoming features, optimizations like KV-caching and batching, contribution opportunities, and acknowledgments to contributors and supporting organizations.",Exploring MetaVoice-1B: The Future of Text-to-Speech Technology,"MetaVoice-1B, a cutting-edge 1.2B parameter model trained on 100K hours of audio, brings a new level of expressiveness to text-to-speech technology with its focus on emotional speech rhythm and tone. Offering zero-shot cloning for American and British voices and support for cross-lingual voice cloning, it's a breakthrough in synthesis of arbitrary length text. Its open-source availability under the Apache 2.0 license allows unrestricted use, promising advancements in personalized audio content creation. Whether for developers or creators, MetaVoice-1B stands at the forefront of audio synthesis technology, heralding a new era of expressive and accessible digital voices.","Discover MetaVoice-1B, an open-source text-to-speech engine with emotional speech, zero-shot cloning, and cross-lingual voice cloning capabilities. Learn how it's changing the future of digital communication.",Voice Conversion Tool,"Python
+
+
+
+
+
+        2,958
+
+
+
+
+
+        381
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",,,2958,2024-02-06T17:04:29Z
+2024-04-15,https://github.com/MatrixTM/MHDDoS,https://raw.githubusercontent.com/MatrixTM/MHDDoS/main/README.md,"MHDDoS is a DDoS (Distributed Denial of Service) attack script equipped with 56 different methods, developed in Python 3. It features a variety of Layer 7 methods like GET Flood, POST Flood, Bypass OVH, and many others, including techniques to bypass Cloudflare, Google's Project Shield, and DDoS Guard. For Layer 4 attacks, MHDDoS supports TCP Flood Bypass, UDP Flood Bypass, SYN Flood, among others. Additionally, the script comes with tools for practical tasks such as finding the real IP addresses of websites protected by Cloudflare, showing DNS records, checking website statuses, and more. For ease of use, MHDDoS includes commands for starting and stopping attacks, accessing console tools, and providing user guidance. The project stresses not to attack websites without the owner's consent and offers downloads and documentation via GitHub, where users are encouraged to support the project. MHDDoS is also compatible with several requirements like dnspython, cfscrape, and impacket, which are necessary for running the script effectively.",Unveiling MHDDoS: A Python 3 Script for DDoS Defense with 56 Unique Methods,"Explore the MHDDoS script, a powerful Python 3 tool designed for cybersecurity experts to simulate DDoS attacks with 56 diverse methods, ensuring robust website defense mechanisms. From Layer7 to Layer4 and special tools, it encompasses GET and POST Floods, Bypass techniques for OVH, CloudFlare, and more, plus amplification attacks for comprehensive stress testing. Remember, ethical use in consented environments is a must for responsible cybersecurity practice.","Discover MHDDoS, a Python-based DDoS attack simulation script with 56 methods, including CloudFlare bypass and amplification attacks, for ethical cybersecurity testing. ",Cybersecurity Tool,"Python
+
+
+
+
+
+        11,139
+
+
+
+
+
+        2,336
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://i.ibb.co/3F6V9JQ/MHDDoS.png; https://i.imgur.com/aNrHJcA.png; https://i.imgur.com/4Q7v2wn.png; https://img.icons8.com/cotton/344/domain.png; https://cdn0.iconfinder.com/data/icons/database-storage-5/60/server__database__fire__burn__safety-512.png; https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/OVH_Logo.svg/1200px-OVH_Logo.svg.png; https://cdn-icons-png.flaticon.com/512/1691/1691948.png; https://cdn-icons-png.flaticon.com/512/4337/4337972.png; https://cdn.iconscout.com/icon/premium/png-256-thumb/cyber-bullying-2557797-2152371.png; https://pbs.twimg.com/profile_images/1351562987224641544/IKb4q_yd_400x400.jpg; https://cdn-icons-png.flaticon.com/512/6991/6991643.png; https://cdn2.iconfinder.com/data/icons/poison-and-venom-fill/160/loris2-512.png; https://lyrahosting.com/wp-content/uploads/2020/06/ddos-how-work-icon.png; https://img.icons8.com/plasticine/2x/null-symbol.png; https://i.pinimg.com/originals/03/2e/7d/032e7d0755cd511c753bcb6035d44f68.png; https://cdn0.iconfinder.com/data/icons/dicticons-files-folders/32/office_pps-512.png; https://cdn3.iconfinder.com/data/icons/internet-security-14/48/DDoS_website_webpage_bomb_virus_protection-512.png; https://seeklogo.com/images/D/ddos-guard-logo-CFEFCA409C-seeklogo.com.png; https://i.imgur.com/bGL8qfw.png; https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png; https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Apache_HTTP_Server_Logo_%282016%29.svg/1000px-Apache_HTTP_Server_Logo_%282016%29.svg.png; https://icon-library.com/images/icon-for-wordpress/icon-for-wordpress-16.jpg; https://cdn-icons-png.flaticon.com/512/905/905568.png; https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png; https://styles.redditmedia.com/t5_2rxmiq/styles/profileIcon_snoob94cdb09-c26c-4c24-bd0c-66238623cc22-headshot.png; https://cdn-icons-png.flaticon.com/512/1918/1918576.png; https://cdn-icons-png.flaticon.com/512/1017/1017466.png; https://icon-library.com/images/icon-ping/icon-ping-28.jpg; https://s6.uupload.ir/files/1059643_g8hp.png; https://ia803109.us.archive.org/27/items/source-engine-video-projects/source-engine-video-projects_itemimage.png; https://mycrackfree.com/wp-content/uploads/2018/08/TeamSpeak-Server-9.png; https://cdn2.downdetector.com/static/uploads/logo/75ef9fcabc1abea8fce0ebd0236a4132710fcb2e.png; https://cdn.iconscout.com/icon/free/png-512/redis-4-1175103.png; https://lyrahosting.com/wp-content/uploads/2020/06/ddos-attack-icon.png; https://cdn-icons-png.flaticon.com/512/4712/4712139.png; https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png; https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png; https://cdn-icons-png.flaticon.com/512/2653/2653461.png; https://lyrahosting.com/wp-content/uploads/2020/06/ddos-attack-icon.png; https://help.apple.com/assets/6171BD2C588E52621824409D/6171BD2D588E5262182440A4/en_US/8b631353e070420f47530bf95f1a7fae.png; https://www.tenforums.com/geek/gars/images/2/types/thumb__emote__esktop__onnection.png; https://icon-library.com/images/github-icon-vector/github-icon-vector-27.jpg; https://i.ibb.co/LthJcL8/image.png,,11139,2020-10-13T19:02:46Z
+2024-04-15,https://github.com/kohya-ss/sd-scripts,https://raw.githubusercontent.com/kohya-ss/sd-scripts/main/README.md,"This repository offers scripts for various tasks related to the Stable Diffusion AI model, including DreamBooth training, fine-tuning, LoRA training, textual inversion training, image generation, and model conversion. It is geared towards developers and researchers with projects that need custom-generated images or fine-tuned versions of Stable Diffusion. Notably, the repository supports multiple versions of Stable Diffusion and provides detailed documentation primarily in Japanese, with links to English translations. Installation requires Python and Git, with specific instructions provided for setting up the environment on Windows platforms. The repository emphasizes flexibility in training and generating images, accommodating varying requirements and capabilities of users' systems. Additionally, it includes updates and improvements such as library upgrades, introduction of masked loss and Scheduled Huber Loss, enhanced dataset settings, and more robust image tagging features. Contributions from the community have led to significant enhancements, such as DeepSpeed support, which indicates active development and responsiveness to user feedback.",Exploring Stable Diffusion Scripts for Advanced AI Image Generation,"Discover the comprehensive Stable Diffusion repository for advanced AI image training and generation scripts, including DreamBooth, Fine-tuning, LoRA, and Textual Inversion methods. Users can access GUI and PowerShell scripts for an easier experience, thanks to the community's contributions. The repository also offers support for model conversion, with detailed documentation primarily in Japanese but translated resources available. For seamless setup, the blog guides through Windows installation, highlighting the necessity of Python 3.10.6, Git, and specific PyTorch versions.","Explore an in-depth guide to Stable Diffusion scripts for AI image generation including DreamBooth training, fine-tuning, and model conversion with easy Windows setup instructions.",Image Generation Platform,"Python
+
+
+
+
+
+        4,120
+
+
+
+
+
+        703
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",,,4120,2022-12-18T04:32:15Z
