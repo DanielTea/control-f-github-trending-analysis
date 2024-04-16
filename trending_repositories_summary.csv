@@ -9487,3 +9487,271 @@ Several resources and tools are provided for the community, including downloadab
 
 
         4 stars today",,,4120,2022-12-18T04:32:15Z
+2024-04-16,https://github.com/intuitem/ciso-assistant-community,https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/README.md,"CISO Assistant is a comprehensive tool designed for cyber security posture management and GRC (Governance, Risk, and Compliance), aiming to enhance clarity and productivity in cybersecurity teams. It uniquely separates compliance from the implementation of cybersecurity controls and includes built-in standards, controls, and threats. Users can manage risk assessments, follow up on remediation plans, and maintain a security controls and threats catalog, with the option to add custom frameworks. It simplifies audits, evidence collection, and report generation, allowing teams to focus on remediation rather than paperwork. The tool supports a wide range of frameworks, like ISO 27001 and NIST CSF, among others, and offers a free trial for easy startup. Installation can be done via Docker for local testing or by setting it up for development with detailed steps provided for backend and frontend setups. It ensures security best practices and is available under the AGPLv3 license.",Revolutionize Your Cybersecurity Posture Management with CISO Assistant,"Discover how CISO Assistant transforms GRC and cybersecurity posture management, decoupling compliance for efficiency, integrating built-in standards, and enabling seamless risk assessments. Save time by reusing assessments, managing audits effortlessly, and focusing on remediation with our comprehensive tool. CISO Assistant continuously evolves to enhance clarity and productivity for cybersecurity teams, proving to be the ultimate solution for a robust cybersecurity foundation. Explore our free trial to streamline your GRC processes today.","Learn how CISO Assistant elevates cybersecurity posture management with decoupled compliance, built-in standards, and efficient risk assessments. Try our free trial for a streamlined GRC process.",Cybersecurity Tool,"Python
+
+
+
+
+
+        220
+
+
+
+
+
+        32
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/gh_banner.png; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/posture.png,,220,2023-09-20T16:47:58Z
+2024-04-16,https://github.com/dvlab-research/MiniGemini,https://raw.githubusercontent.com/dvlab-research/MiniGemini/main/README.md,"Mini-Gemini is a project aiming to enhance multi-modality vision language models, offering models ranging from 2B to 34B parameters capable of understanding, reasoning, and generating image descriptions simultaneously. Built upon LLaVA, Mini-Gemini released its paper, demo, code, models, and data to the public. The models bridge vision and language processing through dual vision encoders and a Large Language Model, effectively combining text and images. The project provides detailed installation and usage instructions, including training and evaluation guidelines. It supports models with both standard and high-resolution image capabilities. The evaluation covers various benchmarks, demonstrating the model's effectiveness in image-based question answering and multimodal interactions. The project also includes a Gradio web interface for easy interaction with the models. Mini-Gemini appreciates acknowledgments to related repositories and highlights the licensing terms for its code, data, and weights, emphasizing non-commercial use within research.",Exploring Mini-Gemini: Unleashing the Power of Vision and Language AI Models,"Mini-Gemini revolutionizes AI by supporting dense and Mixture of Experts (MoE) Large Language Models for simultaneous image understanding, reasoning, and generation. Built on LLaVA, Mini-Gemini spans models from 2B to 34B, offering unprecedented versatility across various tasks. Its groundbreaking approach combines dual vision encoders with patch-level mining and LLMs for a comprehensive understanding and generation of visual and textual content. The recent release includes a demonstration, paper, code, models, and data, inviting the community to explore its potentials.","Discover Mini-Gemini, the latest advancement in AI that integrates vision and language models ranging from 2B to 34B for enhanced understanding, reasoning, and image generation. Explore its features, applications, and access the demo today.",Vision-Language Model,"Python
+
+
+
+
+
+        1,376
+
+
+
+
+
+        90
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        293 stars today",https://raw.githubusercontent.com/dvlab-research/MiniGemini/main/images/teaser.png; https://raw.githubusercontent.com/dvlab-research/MiniGemini/main/images/pipeline.png; https://raw.githubusercontent.com/dvlab-research/MiniGemini/main/images/demo_und.png; https://raw.githubusercontent.com/dvlab-research/MiniGemini/main/images/demo_gen.png,,1376,2024-03-26T14:48:45Z
+2024-04-16,https://github.com/chiasmod0n/chiasmodon,https://raw.githubusercontent.com/chiasmod0n/chiasmodon/main/README.md,"Chiasmodon is a powerful Open Source Intelligence (OSINT) tool engineered for extensive data gathering on target domains. It empowers users to collect information such as domain emails, credentials, CIDRs, ASNs, and subdomains. Additionally, it enables searches by various identifiers including domain, CIDR, ASN, email, username, password, and Google Play application ID. The tool’s remarkable features include targeted domain searches, information on Google Play applications, exploration of network blocks and ASNs, and identification of security risks through compromised credentials. Future updates promise the addition of searches by phone numbers, company names, and facial recognition technology. Chiasmodon, named after a deep-sea fish known for swallowing prey larger than itself, symbolizes its capability to gather extensive data. It is available for subscription through Telegram and can be installed via pip. It provides a flexible user interface suitable for both command-line usage and integration as a Python library, emphasizing customization in output format and filtration by geographical locations.",Maximize Your OSINT Investigations with Chiasmodon: The Ultimate Domain Analysis Tool,"Chiasmodon, a state-of-the-art OSINT tool, transforms domain investigations with its comprehensive search capabilities. Covering domain emails, credentials, CIDRs, ASNs, and subdomains, it enables precise searches by domain, CIDR, ASN, and more. Exciting future updates promise to extend functionalities to phone numbers, company names, and facial recognition. Ideal for cybersecurity professionals and researchers, Chiasmodon offers customization and advanced options for a tailored analysis. Subscribe now to unlock its full potential for your security assessments.","Discover how Chiasmodon OSINT tool can enhance your cybersecurity efforts with advanced domain search capabilities, including emails, credentials, and subdomains. Future updates to include phone number and facial recognition searches.",Cybersecurity Tool,"Python
+
+
+
+
+
+        296
+
+
+
+
+
+        28
+
+
+        Built by
+
+          
+
+
+
+
+
+        59 stars today",https://journal.voca.network/wp-content/uploads/2017/10/DTR083_1200.png,,296,2024-03-25T01:10:45Z
+2024-04-16,https://github.com/WeChatAPIs/WeChatMsgHistory_real,https://raw.githubusercontent.com/WeChatAPIs/WeChatMsgHistory_real/main/README.md,"The Real-time Chat project offers developers and researchers a solution to deeply explore chat content, allowing access to specific group or private chat histories under certain conditions through a provided API. Its key features include chat history retrieval within the WeChat environment and flexible RESTful API access for deep utilization. The design is scalable, with future expansions such as access for unpaid users to paid group chats, AI analysis of chat content for trend tracking, and easy cloud reporting of chat data. The project emphasizes user privacy compliance with laws and regulations, ensuring no personal or sensitive information is disclosed. It is intended solely for legal research and development purposes, with strict privacy and data protection in its core design, focusing on a developer-friendly API interface and scalability. Installation involves running commands to set up a virtual environment and dependencies, with contributions welcomed via Pull Requests, ensuring coding standards and tests are passed.",Unlocking Insights with 微信 Real-time Chat: A Developer's Guide,"The 微信 Real-time Chat project presents a cutting-edge solution for developers and researchers to delve into chat analytics, offering access to specific group or private chat records under certain conditions through an easy-to-use API. Key features include chat history retrieval within the 微信 environment, API access for deep utilization, and expandability for future enhancements like unpaid user access to paid chat groups and AI-driven chat analysis. The project prioritizes user privacy, adhering to privacy laws without disclosing personal or sensitive information, and is designed solely for legal research and personal development purposes. Installation is straightforward, with a dependency on the wechatAPI and a developer-friendly API interface that ensures both privacy and ease of use.","Explore the 微信 Real-time Chat project: An innovative solution for accessing and analyzing 微信 chat records with a focus on privacy, expandability, and developer-friendly API access for legal research.",Livestream Data Extraction,"Python
+
+
+
+
+
+        507
+
+
+
+
+
+        43
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        75 stars today",https://raw.githubusercontent.com/WeChatAPIs/WeChatMsgHistory_real/main/img%2Fimg.png; https://raw.githubusercontent.com/WeChatAPIs/WeChatMsgHistory_real/main/img%2Fimg_2.png; https://raw.githubusercontent.com/WeChatAPIs/WeChatMsgHistory_real/main/img%2Fimg_1.png,,507,2024-02-23T10:39:23Z
+2024-04-16,https://github.com/nlpxucan/WizardLM,https://raw.githubusercontent.com/nlpxucan/WizardLM/main/README.md,"WizardLM is a project featuring advanced pre-trained language models (LMs) like WizardCoder and WizardMath, aimed at improving the LMs' ability to follow complex instructions. The WizardCoder models, including versions with 33B, 34B, 15B, 13B, 7B, 3B, and 1B parameters, demonstrate state-of-the-art performance on code-related benchmarks, outperforming competitors like ChatGPT across various datasets. Similarly, WizardMath models, specialized for mathematical reasoning, have surpassed significant benchmarks, showing superior capabilities over existing models. WizardLM also includes comprehensive versions from 70B to 7B parameters, emphasizing advancements in performance across foundational tasks in NLP and code generation, often achieving or approaching the best-in-class results. The project openly shares models on the Hugging Face platform, though with a focus on academic and non-commercial use. The team encourages feedback and contribution to evolve the models further, providing a novel method, Evol-Instruct, for expanding the range and difficulty level of instructions that LMs can understand and perform on.",Unleashing the Power of WizardLM: A Leap Forward in AI Language Models,"Uncover the groundbreaking advancements of WizardLM, WizardCoder, and WizardMath in transforming large pre-trained language models to understand and execute complex instructions. These cutting-edge models surpass existing benchmarks, offering unprecedented capabilities in code generation, mathematical reasoning, and more. Discover how WizardLM sets new standards in AI's ability to follow intricate commands, marking a significant milestone in the development of intelligent language processing technologies.","Explore how WizardLM revolutionizes the capabilities of large pre-trained language models with unparalleled proficiency in complex instructions, surpassing industry benchmarks and offering advanced solutions in AI language understanding.",Large-scale Language Models,"Python
+
+
+
+
+
+        8,723
+
+
+
+
+
+        658
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        153 stars today",https://raw.githubusercontent.com/nlpxucan/WizardLM/main/imgs/WizardLM.png; https://raw.githubusercontent.com/nlpxucan/WizardLM/main/imgs/WizarLM30b-GPT4.png; https://raw.githubusercontent.com/nlpxucan/WizardLM/main/imgs/evol-testset_skills-30b.png; https://raw.githubusercontent.com/nlpxucan/WizardLM/main/imgs/git_overall.png; https://raw.githubusercontent.com/nlpxucan/WizardLM/main/imgs/git_running.png,https://www.youtube.com/watch?v=WdpiIXrO4_o; https://www.youtube.com/watch?v=SaJ8wyKMBds; https://www.youtube.com/watch?v=I6sER-qivYk; https://www.youtube.com/watch?v=XjsyHrmd3Xo,8723,2023-04-23T13:26:46Z
+2024-04-16,https://github.com/RUCAIBox/LLMSurvey,https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/README.md,"LLMSurvey is an extensive collection of papers and resources focused on Large Language Models (LLMs), including a survey paper titled ""A Survey of Large Language Models"". The collection is organized to reflect categories and trends within LLM research, from technical evolutions in models like GPT and LLaMA to strategies for designing effective prompts and conducting experiments to assess LLM capabilities. For usage of this survey in research, citation details are provided. Additionally, it offers a Chinese version to make the information accessible to a wider audience. Recent updates showcase trends in LLM-related papers on arXiv, technical progress in GPT-series models, an evolutionary graph of the LLaMA family, and tips for prompt design. Experiments include instruction tuning and ability evaluation, seeking computational support for further experimentation. The documentation serves as a valuable aid for researchers by providing a structured overview of developments and resources in the domain of large language models.",Navigating the Frontier of Large Language Models: Insights and Innovations,"Explore the rapid evolution of Large Language Models (LLMs) with our comprehensive survey covering everything from the pioneering GPT and BERT models to the latest breakthroughs in AI research. Stay ahead with our analysis of technical advancements, significant milestones, and future directions in the LLM landscape. Whether you're delving into instruction tuning experiments or the fascinating world of LLaMA and its derivatives, our survey offers a treasure trove of knowledge for academics and AI enthusiasts alike.","Discover the latest trends in Large Language Models (LLMs) with our in-depth survey featuring GPT, BERT, LLaMA, technical innovations, and key research milestones in AI. Perfect for scholars and AI aficionados.",Data Science Resources,"Python
+
+
+
+
+
+        8,586
+
+
+
+
+
+        655
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        199 stars today",https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/chinese_version.png; https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/arxiv_llms.png; https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/gpt-series.png; https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/llama-0628-final.png; https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/prompts_main.png; https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/instruction_tuning_table.png; https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/ability_main.png; https://raw.githubusercontent.com/RUCAIBox/LLMSurvey/main/assets/LLMs-0623-final.png,,8586,2023-03-14T06:47:45Z
+2024-04-16,https://github.com/tech-shrimp/WechatMoments,https://raw.githubusercontent.com/tech-shrimp/WechatMoments/main/README.md,"WechatMoments is a Windows-based tool for exporting WeChat Moments as HTML. Developed by ""技术爬爬虾"", also present on Bilibili, Douyin, and YouTube, this open-source project licensed under Apache License allows users to back up their Moments. Users need to download the WechatMoments zip from the Releases section, extract it (avoiding Chinese characters in the path), and run the wechat_moments.exe as an administrator. The tool enables downloading images/videos for offline viewing, filtering exports by contacts or dates, and relies heavily on the WeChat Windows client. Challenges include unstable video downloads and limited export capabilities to only viewed Moments. Future updates aim to enhance HTML functionality and support more formats. Users are warned only to export content legally permissible for them to view, stressing that misuse leading to legal issues is solely the user's responsibility. Contributions, including problem-solving and enhancements, are welcomed through issues or emails to the developer.",Ultimate Guide to Exporting WeChat Moments: Enhance Your Digital Memories,"Discover the power of WechatMoments, a Windows-based tool for backing up your WeChat Moments to HTML format. Crafted by the innovative Tech Shrimp, this open-source project promises to secure your digital memories with ease. Whether it's downloading media for offline viewing or filtering exports by contacts and dates, WechatMoments has got you covered. Dive into the simple installation process and start preserving your WeChat memories today. For a more vivid demonstration, check out their video tutorial on Bilibili.","Learn how to easily export and back up your WeChat Moments to HTML with WechatMoments. Secure your digital memories with this user-friendly, open-source tool.",Document Conversion Tool,"Python
+
+
+
+
+
+        403
+
+
+
+
+
+        35
+
+
+        Built by
+
+          
+
+
+
+
+
+        43 stars today",https://raw.githubusercontent.com/tech-shrimp/WechatMoments/main/doc/pic/主界面.png,,404,2024-03-28T15:02:07Z
+2024-04-16,https://github.com/DeepInsight-AI/DeepBI,https://raw.githubusercontent.com/DeepInsight-AI/DeepBI/main/README.md,"DeepBI is an AI-driven data analysis platform that utilizes large language models for data exploration, querying, visualization, and sharing from various sources, enabling users to derive insights and make data-driven decisions. It supports conversational data analysis, query generation, dashboard creation, and aims to automate data analysis reporting. Compatible with multiple data sources like MySQL, PostgreSQL, and Excel, it offers multi-platform support including Windows, Linux, and Mac, and is internationalized for English and Chinese users. Installation options include Windows executable files and Docker builds, with detailed guides for setup. It emphasizes community engagement, inviting users to support the project through GitHub.",Maximizing Data Insights: A Comprehensive Guide to DeepBI,"Explore the transformative potential of DeepBI, an AI-native platform designed for comprehensive data analysis. Utilizing advanced large language models, DeepBI offers users intuitive ways to query, visualize, and share insights from any data source. Its capabilities extend to conversational data analysis, query generation, and the integration of varied data into cohesive dashboards. Enhanced further by support for multiple platforms and languages, DeepBI empowers users to make informed, data-driven decisions seamlessly.","Discover how DeepBI leverages AI to provide powerful data analysis, enabling users to gain insights and drive decisions using conversational queries, visualizations, and multi-source integration.",AI Development Platform,"Python
+
+
+
+
+
+        811
+
+
+
+
+
+        121
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",https://raw.githubusercontent.com/DeepInsight-AI/DeepBI/main/user_manual/cn/img/download.png,,811,2023-11-20T16:59:54Z
+2024-04-16,https://github.com/InternLM/xtuner,https://raw.githubusercontent.com/InternLM/xtuner/main/README.md,"XTuner is an advanced toolkit designed for efficiently fine-tuning large language models (LLMs) and vision language models (VLMs) across various GPUs. It supports a wide array of models, including the latest like InternLM2, Llama2, and Gemma, facilitating fine-tuning on almost all GPU setups, from a single 8GB GPU to multi-node configurations for models over 70B. The toolkit incorporates high-performance computing optimizations and is compatible with DeepSpeed for leveraging sophisticated optimization techniques such as ZeRO. XTuner is versatile, supporting a range of LLMs, VLMs, datasets, and fine-tuning algorithms, allowing for tailored training processes. Its comprehensive features include continuous pre-training, instruction fine-tuning, and agent fine-tuning, alongside integration capabilities with deployment and evaluation toolkits for streamlined model application. Recent updates have introduced support for Gemma, Qwen1.5 models, and multi-modal VLM pretraining with LLaVA architecture, among others. The project is open-source, inviting contributions and providing extensive documentation for quick start, fine-tuning, chatting with models, deployment, and evaluation.",Unleashing the Power of XTuner: Revolutionize Large Model Fine-Tuning,"Discover the next generation of model fine-tuning with XTuner, an efficient, flexible, and comprehensive toolkit designed for the cutting-edge fine-tuning of large language and vision models. From supporting the latest models like Gemma and Qwen1.5 to seamless integration with deployment tools, XTuner is setting new benchmarks in the AI domain. With its compatibility with almost all GPU setups and a variety of optimization techniques, including DeepSpeed, XTuner is revolutionizing how developers approach model fine-tuning. Dive deep into the capabilities of XTuner, explore its extensive support for models, datasets, and training algorithms, and learn how to get started with this revolutionary toolkit today.","Explore XTuner, the ultimate toolkit for fine-tuning large models efficiently. Learn about its support for recent models, integration with DeepSpeed, and guides for seamless model improvement.",Collaborative AI Framework,"Python
+
+
+
+
+
+        1,345
+
+
+
+
+
+        125
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://img.shields.io/badge/-grey?style=social&logo=wechat&label=WeChat)](https://cdn.vansin.top/internlm/xtuner.jpg,,1345,2023-07-11T03:18:13Z
+2024-04-16,https://github.com/archlinux/archinstall,https://raw.githubusercontent.com/archlinux/archinstall/master/README.md,"Archinstall is a guided/automated installer for Arch Linux, doubling as a Python library to manage services, packages, and other system aspects. It supports standard installation from an Arch Linux live ISO or through Python pip. The installer offers a `--config` option for running with a JSON configuration file for user and credentials setup. Archinstall provides various channels for support and contributions, including Discord, matrix.org, and IRC. It supports scripting both interactive and automated installations with examples provided in its documentation. Profiles for desktops and servers simplify the process, and it's possible to test new installations using Arch Linux Live ISO or through local loop devices. The installer strives to adhere to Arch Linux principles, offering flexibility and optional configurations throughout the process. Contributions to the project are welcome, with guidelines available in its repository.",Ultimate Guide to Archinstall: Streamline Your Arch Linux Setup,"Discover how to streamline your Arch Linux installation with Archinstall, a guided installer that doubles as a powerful python library. Learn the basics of installation, configuration, and usage, and how Archinstall offers a twist on traditional setup processes by also serving as a library for managing packages, services, and more. With support for different languages and the ability to script your own installation, Archinstall is revolutionizing the way users install and manage Arch Linux. Whether you're a newcomer or a seasoned Arch enthusiast, this post walks you through the benefits of using Archinstall for a simplified installation experience.","Learn how to use Archinstall for an easier Arch Linux setup. Simplify the installation process with this guided installer and python library for managing packages, services, and more. Perfect for both new and experienced users.",Open Source Tool,"Python
+
+
+
+
+
+        5,605
+
+
+
+
+
+        476
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",https://github.com/archlinux/archinstall/raw/master/docs/logo.png,,5605,2018-04-06T16:07:40Z
