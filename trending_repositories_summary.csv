@@ -9755,3 +9755,225 @@ Several resources and tools are provided for the community, including downloadab
 
 
         13 stars today",https://github.com/archlinux/archinstall/raw/master/docs/logo.png,,5605,2018-04-06T16:07:40Z
+2024-04-17,https://github.com/kornia/kornia,https://raw.githubusercontent.com/kornia/kornia/main/README.md,"*Kornia* is a differentiable computer vision library for PyTorch, aiming to solve generic computer vision problems. The library provides a collection of routines and differentiable modules, making use of PyTorch’s computational efficiency and auto-differentiation capabilities. It includes components for data augmentation in the GPU, color space conversions, image filtering, edge detection, normalization, intensity transformation, feature detection, and morphological operations, among others. It supports various installation methods, including pip and building from source. Kornia promotes community involvement, offering tutorials and examples for easy learning and application. It’s recommended to cite their research paper when using Kornia in scholarly works. Contributions to the library are welcomed, with discussions taking place in forums, GitHub issues, and a Slack workspace for community engagement.",Exploring Kornia: The PyTorch Differentiable Computer Vision Library for Deep Learning,"Kornia is a powerful, differentiable computer vision library for PyTorch, designed to solve generic computer vision problems efficiently with GPU support. By leveraging PyTorch's backend for auto-differentiation, Kornia enables complex function gradients, facilitating operations like image transformation, epipolar geometry, and depth estimation directly on tensors. Whether for augmenting data, converting color spaces, or enhancing images, Kornia provides a comprehensive suite of tools for researchers and developers alike. Dive into Kornia's tutorials for practical applications and join the growing community to contribute to this open-source project.","Discover Kornia, the PyTorch-based computer vision library that makes deep learning and image processing easier with GPU support. Learn how it can streamline your projects.",Computer Vision Platform,"Python
+
+
+
+
+
+        9,347
+
+
+
+
+
+        930
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",https://github.com/kornia/data/raw/main/kornia_banner_pixie.png; https://github.com/kornia/kornia/raw/main/docs/source/_static/img/hakuna_matata.gif; https://raw.githubusercontent.com/kornia/data/main/hello_world_arturito.png,,9347,2018-08-22T10:31:37Z
+2024-04-17,https://github.com/run-llama/llama_index,https://raw.githubusercontent.com/run-llama/llama_index/main/README.md,"LlamaIndex, also known as GPT Index, is a comprehensive data framework aimed at enhancing LLM (Large Language Models) applications with tailored data integration. It offers two main installation routes: a Starter package that includes the core framework and selected integrations, and a Customized option that allows users to add specific integration packages to the core framework. With over 300 integration packages available, users can customize their setup to work with preferred LLMs, embedding, and vector store providers. The Python library structure differentiates between core and integration packages to facilitate easy use in applications. Additionally, LlamaIndex supports a wide array of tools and connectors for data ingestion, structuring, and querying, making it versatile for both novice and experienced developers. The ecosystem also includes LlamaHub, for community data loaders, and LlamaLab, for advanced AGI projects. Contributions to both the core and its integrations are encouraged, with detailed documentation and example usage provided to support developers.
+",Maximizing LLM Application Potential with LlamaIndex,"LlamaIndex is revolutionizing the way developers integrate large language models (LLMs) into their applications. With its comprehensive data framework, LlamaIndex not only simplifies the process of building LLM apps but also enhances their functionality by facilitating seamless integration with a wide array of data sources and formats. Whether you're starting with the basic package or customizing your setup with core integrations, LlamaIndex offers more than 300 integration packages to cater to your specific needs. Dive deep into LlamaIndex's ecosystem and discover how it can transform your LLM application's capabilities.","Explore how LlamaIndex, a dynamic data framework, elevates LLM applications by offering over 300 integrations for customizing and expanding LLM capabilities, making development seamless and efficient.",Data Ingestion Tool,"Python
+
+
+
+
+
+        30,687
+
+
+
+
+
+        4,141
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        30 stars today",,,30687,2022-11-02T04:24:54Z
+2024-04-17,https://github.com/xlang-ai/OSWorld,https://raw.githubusercontent.com/xlang-ai/OSWorld/main/README.md,"The text introduces OSWorld, a benchmarking platform for evaluating multimodal agents designed to perform open-ended tasks in realistic computer environments. Released in April 2024 along with its paper, the project includes a repository for installation, virtual machine setup instructions for both non-virtualized systems and an upcoming guide for virtualized platforms like AWS or Azure. Users can start quickly through a minimal example demonstrating the environment interaction. Furthermore, the platform supports agent baseline experiments and provides an interface for custom agent evaluation. Running times and costs vary depending on the setting, indicating the platform's flexibility in performance and cost management. The authors encourage contributions and cite their work for users finding the environment beneficial for their research or applications.",Exploring OSWorld: A New Frontier for AI-Multimodal Agent Benchmarking,"Discover the cutting-edge OSWorld environment, designed for benchmarking multimodal agents in real computer tasks. Released in April 2024, OSWorld aims to bridge the gap between artificial intelligence and practical applications by providing a dynamic playground for testing and improving AI capabilities. From installation instructions to quick start guides, this blog post introduces you to everything you need to kickstart your journey with OSWorld. Explore the potential of AI in navigating real-world computer environments, executing tasks, and pushing the boundaries of what artificial intelligence can achieve.","Dive into OSWorld, a groundbreaking benchmark environment for multimodal agents. Learn how it facilitates real-world AI applications and get started with our comprehensive guide.",Multimodal AI Model,"Python
+
+
+
+
+
+        273
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        64 stars today",https://huggingface.co/datasets/xlangai/assets/resolve/main/github_banner_v2.png,,273,2023-10-16T01:49:13Z
+2024-04-17,https://github.com/cognitivecomputations/github2file,https://raw.githubusercontent.com/cognitivecomputations/github2file/main/README.md,"The GitHub Repository to File Converter is a Python script designed for downloading and processing files from GitHub repositories, tailored for sharing code with chatbots. It supports both public and private repositories and includes features like filtering by programming language (Python or Go), excluding directories, file types, and test files, and optionally removing comments from Python code. Users can specify a branch or tag for download, with the default being the ""master"" branch. Usage involves a simple command line syntax, with additional options for language, maintaining comments, and specifying branches. The output is a text file with combined source code, named after the repository and language. The tool requires Python 3.x and the `requests` library, and is open-source under the MIT License.",Ultimate Guide to Converting GitHub Repositories for Chatbot Sharing,"Discover how a Python script can transform your GitHub repository downloads into chatbot-friendly formats. This tool supports both public and private repositories, offers filtering by programming language, and allows for the exclusion of unwanted files. Perfect for those looking to streamline code sharing with AI, it removes barriers by processing and preparing code for large-context chatbots without manual GitHub downloads. Explore features like comment removal and branch specification to customize your code sharing.","Learn how to easily download and process GitHub repository files with a Python script. Support for public/private repos, programming language filtering, and comment stripping enhances AI chatbot code sharing.",Document Conversion Tool,"Python
+
+
+
+
+
+        723
+
+
+
+
+
+        86
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        81 stars today",,,723,2024-03-10T12:03:06Z
+2024-04-17,https://github.com/hudson-and-thames/arbitragelab,https://raw.githubusercontent.com/hudson-and-thames/arbitragelab/master/README.md,"ArbitrageLab is an open-source Python library aimed at empowering traders to exploit mean-reverting portfolios by offering comprehensive algorithms from prominent academic journals. This tool is accessible for anyone, facilitating the deployment of strategies detailed in Krauss' taxonomy for pairs trading strategies. It signifies a pivotal shift, enabling tasks previously possible only with large R&D teams. The project appreciates the significant contributions of its original team, especially noting the exceptional input of Illya Barziy and Valeriia Pervushyna for their technical skills and dedication, and Dirk Frees for his business insights. Additionally, the text mentions a dedication to WorldQuant University (WQU), highlighting its tuition-free, online Master of Science in Financial Engineering (MSFE) program as a remarkable educational opportunity in financial engineering. ArbitrageLab also promotes a Udemy course designed to help learners create production-ready Python libraries, furthering the educational mission of the team behind the library.",Unlock Financial Strategies with ArbitrageLab: A Comprehensive Guide,"ArbitrageLab is a cutting-edge python library designed for traders looking to explore mean-reverting portfolio strategies. With tools that encompass Krauss' taxonomy for pairs trading strategies, it offers a unique blend of academic theory and practical application. This open-source library is a product of dedication and innovation, crafted by a team passionate about making complex trading strategies accessible. Beyond the library, the blog highlights WorldQuant University's MSFE program, offering a tuition-free, online education in financial engineering. Explore ArbitrageLab and empower your trading strategies or elevate your career in quantitative finance through the MSFE program.","Discover how ArbitrageLab, an open-source python library, transforms trading strategies with tools backed by academic research. Also, explore WorldQuant University's MSFE program for a career in quantitative finance.",Crypto Trading Bot,"Python
+
+
+
+
+
+        274
+
+
+
+
+
+        84
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        81 stars today",,,274,2020-11-06T10:14:16Z
+2024-04-17,https://github.com/Megvii-BaseDetection/YOLOX,https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/main/README.md,"YOLOX is an anchor-free upgrade of YOLO, offering simpler design and improved performance, aimed at narrowing the gap between research and industrial application. A technical report detailing its design is available on Arxiv, with implementations in PyTorch and MegEngine. Recent updates include support for assignment visualization, JIT compile operation, optimized training leading to twice faster training and approximately 1% higher performance, and a fix for memory leak issues. The repository also anticipates the addition of larger YOLOX models, pretraining on Objects365, transformer modules, and more features. Benchmark results are provided for various YOLOX versions, including standard and light models, displaying their mAP scores, speed, parameters, and FLOPs. The repository offers a quick start guide, instructions on reproducing results on the COCO dataset, evaluation, and deployment tutorials, including on platforms such as ONNXRuntime, TensorRT, and more. Additionally, there are links to third-party resources and a tribute to Dr. Jian Sun, highlighting his influence on YOLOX's development and his significance to the computer vision field.",YOLOX: Elevating YOLO to New Heights with Anchor-Free Design,"Discover YOLOX, the anchor-free version of YOLO, designed for superior performance in object detection. Bridging the gap between research and industrial application, YOLOX simplifies yet enhances the original model. With ongoing updates and support for various features, this PyTorch implementation invites further exploration. Dive into the technical advancements and benchmarks that set YOLOX apart on our comprehensive report.","Explore YOLOX, the advanced anchor-free YOLO variant, offering simplified design and improved detection accuracy. Learn more about its features, updates, and how it excels in object detection tasks.",Computer Vision Platform,"Python
+
+
+
+
+
+        8,991
+
+
+
+
+
+        2,116
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/main/assets/logo.png; https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/main/assets/demo.png; https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/main/assets/git_fig.png; https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/main/assets/sunjian.png,,8991,2021-07-17T02:01:45Z
+2024-04-17,https://github.com/OpenTalker/SadTalker,https://raw.githubusercontent.com/OpenTalker/SadTalker/main/README.md,"The SadTalker project, detailed in a publication for CVPR 2023, introduces a method for animating still portrait images into talking heads using audio inputs. Developed by researchers from Xi'an Jiaotong University, Tencent AI Lab, and Ant Group, SadTalker is now integrated into Discord for free use, allowing users to generate high-quality talking head videos from single images and audio clips. The tool has been updated to support full image mode, and several new features and improvements have been added, such as an enhancer for video quality and various animation modes. SadTalker supports diverse platforms, including Linux, Windows, macOS, through Anaconda, Python, and Git installations, with detailed instructions for each. Pre-trained models and offline patches for enhanced face detection are available for download. Community tutorials aid installation, and the project offers both WebUI and CLI interfaces for accessibility. The project's open-source nature under the Apache 2.0 license invites collaboration while ensuring adherence to legal use respecting Tencent's intellectual property.",Revolutionizing Animated Portraits with SadTalker: The Ultimate Guide,"SadTalker transforms single portrait images into realistic talking head videos with exceptional audio synchronization, offering a blend of 3D motion and stylized animation. Leveraging advanced technology from Xi'an Jiaotong University and Tencent AI Lab, it has been integrated into platforms like Discord for easy access. With its recent updates, including full body animation and multiple new modes, SadTalker invites creators to explore its capabilities for generating high-quality videos.","Discover SadTalker, a groundbreaking tool that animates single portrait images into talking head videos with lifelike audio sync, developed by Xi'an Jiaotong University and Tencent AI Lab. Explore the latest updates and how to use SadTalker for creative video generation.",Image Generation Platform,"Python
+
+
+
+
+
+        9,983
+
+
+
+
+
+        1,813
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        132 stars today",https://user-images.githubusercontent.com/4397546/222490039-b1f6156b-bf00-405b-9fda-0c9a9156f991.gif; https://user-images.githubusercontent.com/4397546/232511411-4ca75cbf-a434-48c5-9ae0-9009e8316484.png,https://user-images.githubusercontent.com/48216707/229484996-5d7be64f-2553-4c9e-a452-c5cf0b8ebafe.mp4; https://user-images.githubusercontent.com/4397546/230717873-355b7bf3-d3de-49f9-a439-9220e623fce7.mp4,9983,2022-11-23T02:18:18Z
+2024-04-17,https://github.com/6abd/horus,https://raw.githubusercontent.com/6abd/horus/main/README.md,"Project Horus is described as a comprehensive tool designed to enhance investigative processes through API integration and data compilation, positioning itself as an essential pre-operations resource. To use Horus, users are instructed to have Python installed, clone the repository, navigate to the 'horus' directory, install necessary dependencies with 'pip install -r requirements.txt', and finally run 'horus.py' within the 'sentinel' directory. API configuration for specific command functionalities requires manual or 'apicon' command entry of API keys into a designated JSON file, with a caution to remove these keys before pushing changes if contributing or testing publicly. Current contributors include the project lead and developer, Maestro. There are open invitations for bug reporting, feature requests, PR submissions, and inquiries into becoming a long-term contributor, with contact provided via email and Discord. The document also acknowledges previous team members and mentions an intention to implement certain features, categorized by their development status.",Unveiling Horus: The Ultimate Tool for Investigation Assistance,"Discover Horus, the revolutionary tool designed to enhance your investigative endeavors by leveraging APIs and compiling crucial data. Ideal for pre-operations, Horus simplifies the complexity of setup with easy Python-based installation and comprehensive API configuration. Its capabilities extend beyond mere data aggregation, providing a secure and efficient way to manage your investigative projects. Join the community of contributors and enhance your investigative toolkit with Horus today.","Explore Horus, a comprehensive tool for investigative assistance, featuring easy setup, Python-based operations, and secure API configuration. Perfect for pre-ops tasks.",Cybersecurity Tool,"Python
+
+
+
+
+
+        83
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        33 stars today",https://i.ibb.co/kcvtBM0/Screenshot-2024-04-15-at-7-01-47-PM.png; https://i.ibb.co/Lrzj2Mf/Screenshot-2024-04-15-at-7-02-02-PM.png,,83,2024-01-21T23:32:38Z
