@@ -9977,3 +9977,276 @@ Several resources and tools are provided for the community, including downloadab
 
 
         33 stars today",https://i.ibb.co/kcvtBM0/Screenshot-2024-04-15-at-7-01-47-PM.png; https://i.ibb.co/Lrzj2Mf/Screenshot-2024-04-15-at-7-02-02-PM.png,,83,2024-01-21T23:32:38Z
+2024-04-18,https://github.com/PixArt-alpha/PixArt-sigma,https://raw.githubusercontent.com/PixArt-alpha/PixArt-sigma/master/README.md,"PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation represents a significant advancement in text-to-image generation technology. Developed by a team from Huawei Noah’s Ark Lab and various universities, it introduces a model capable of producing high-resolution 4K images from textual descriptions. The project builds upon the success of the PixArt-α project, with improvements aimed at making the repository user-friendly and conducive to community contributions. The model demonstrates superior performance compared to its predecessor, PixArt-α, in generating detailed images at increased resolutions of 2K/4K. The initiative provides extensive resources, including pre-trained models, training, and inference code, alongside a comprehensive set of tools for working with the model. A series of updates have been released, including online demos and various training and sampling codes. The model comparison showcases the qualitative leap in image fidelity and resolution, presenting samples that vividly capture the described scenes with remarkable clarity and detail. The project encourages community contribution and seeks to facilitate accessibility, furthering advancements in the field of AI-driven creative image generation.",Advancing AI Art: Exploring 4K Text-to-Image Generation with PixArt-Σ,"PixArt-Σ presents a revolutionary approach to 4K text-to-image generation, using Weak-to-Strong Training of Diffusion Transformer technology. This innovative project provides PyTorch model definitions, pre-trained weights, and sampling code, pushing the boundaries of AI-driven art. Contributors from prestigious institutions have come together under this project to refine and expand the capabilities of image generation, making strides in high-resolution artistic creations. With a user-friendly repository, PixArt-Σ invites community participation to further AI art innovation.",Explore PixArt-Σ's breakthrough in AI-powered 4K text-to-image generation leveraging Weak-to-Strong Training of Diffusion Transformer. Dive into high-resolution AI art technology.,Image Generation Platform,"Python
+
+
+
+
+
+        678
+
+
+
+
+
+        26
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        40 stars today",https://raw.githubusercontent.com/PixArt-alpha/PixArt-sigma/master/asset/logo-sigma.png,,678,2024-02-29T15:20:35Z
+2024-04-18,https://github.com/pjialin/py12306,https://raw.githubusercontent.com/pjialin/py12306/master/README.md,"py12306 is a distributed, multi-account, multi-task ticket purchasing assistant with myriad features for a seamless booking experience. It supports querying tickets for multiple dates, auto captcha-solving for orders, user session recovery, phone and email notifications as well as WeChat messages. The assistant allows multi-account and multi-thread tasks, with capabilities for station-based searches within single tasks and dynamic configuration updates. It can run distributedly, supports Docker, and offers a web management interface for real-time log viewing and task management. Initial setup involves cloning the repository, configuring settings—like captcha service and voice notification through Aliyun—and running tests to ensure account and passenger details are correct. The system is optimized for distributed clusters with Redis, enabling automatic failover and configuration sync across nodes. Docker users can easily deploy using provided commands or docker-compose. The project, which constantly updates with new features like free captcha solving and more notification services, acknowledges contributions from the community and inspiration from similar projects.",Maximize Your Train Ticket Booking with py12306: A Comprehensive Guide,"Discover how py12306, a versatile train ticket booking assistant, revolutionizes the way you purchase tickets with its distributed, multi-account, and multi-tasking capabilities. From automatic ticket ordering and voice notifications to web management interfaces and Docker support, py12306 offers an array of features designed to simplify and enhance your ticket booking experience. Its support for multiple dates, stations, and dynamic configuration updates, coupled with distributed operation, makes it a powerful tool for travelers. Ideal for Python 3.6 and above, setting up and running py12306 involves easy steps for a hassle-free booking process. Join the community of users benefiting from this efficient, automated ticket purchasing system.","Explore py12306, the ultimate train ticket booking assistant, offering automated bookings, multi-account support, and advanced features like voice notifications and a web management interface. Perfect for distributed operations and Docker environments.",Money Making Automation,"Python
+
+
+
+
+
+        13,686
+
+
+
+
+
+        3,404
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        12 stars today",https://github.com/pjialin/py12306/blob/master/data/images/web.png; https://github.com/pjialin/py12306/blob/master/data/images/order_success.png,,13686,2019-01-07T18:04:11Z
+2024-04-18,https://github.com/pytorch/torchtune,https://raw.githubusercontent.com/pytorch/torchtune/main/README.md,"Torchtune is a PyTorch-native library tailored for authoring, fine-tuning, and experimenting with Large Language Models (LLMs), now officially supporting Meta Llama3. It promises easy implementation of popular LLMs using native PyTorch components and offers hackable training recipes without relying on external frameworks. The library supports a variety of models including Llama3, Llama2, Mistral, and Gemma, with specific support for different sizes. Fine-tuning techniques such as LoRA, QLoRA, and Full fine-tune are facilitated with configurations designed for both distributed and single-device training. Torchtune emphasizes memory efficiency, providing recipes tested across various hardware setups and optimized for memory constraints, especially on single GPUs. It integrates with tools like Hugging Face Hub, EleutherAI's LM Eval Harness, and Weights & Biases to enhance usability and community engagement. The framework embodies PyTorch’s design principles, focusing on simplicity, extensibility, and correctness, while inviting community contributions. Torchtune is available under the BSD 3 license, encouraging wide use and contributions while advising users on legal obligations for third-party model usage.",Maximizing LLM Performance with PyTorch Torchtune: A Comprehensive Guide,"Discover the power of PyTorch's Torchtune for fine-tuning large language models (LLMs) like Meta Llama3. With native PyTorch implementations, Torchtune offers easy-to-use training recipes for popular techniques such as LoRA, QLoRA, and Full Fine-tune. Dive into configurations for optimized training across different hardware setups, ensuring memory efficiency even on single GPUs. Start fine-tuning with Torchtune today and push your LLM performances to the limit.","Explore the capabilities of Torchtune for fine-tuning LLMs with PyTorch. Learn how to utilize LoRA, QLoRA, and Full Fine-tune methods efficiently across various hardware configurations. Get started with Torchtune and enhance your LLM projects.",Deep Learning Tool,"Python
+
+
+
+
+
+        1,391
+
+
+
+
+
+        76
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        112 stars today",,,1391,2023-10-20T21:10:49Z
+2024-04-18,https://github.com/testerSunshine/12306,https://raw.githubusercontent.com/testerSunshine/12306/master/README.md,"The 12306 Ticket Assistant is a Python-based tool designed to automate various aspects of ticket purchasing on China's 12306 website, supporting Python versions 3.6 to 3.7.4. It includes features such as automatic captcha solving, login, timely pre-sale ticket purchasing, intelligent standby, and notification through email or ServerChan. The project requires specific dependencies, including captcha recognition models which can be downloaded from provided links, and a self-hosted captcha solving server setup. Installation is managed through pip, with detailed instructions for different user permissions. The software, structured into multiple directories for different functions, allows for command-line operation with options for running the ticket booking script, filtering CDN, and testing notifications. Additionally, Docker support is included for streamlined deployment. The repository emphasizes community contribution, warning against commercial use and encourages participation in various designated discussion groups. It includes comprehensive documentation on usage, installation issues, and updates, thanking contributors for their support.",Ultimate Guide to 12306 Ticket Assistant: Master Python Version for Efficient Ticket Booking,"Discover the seamless ticket booking experience with 12306 Ticket Assistant, optimized for Python 3.6 to 3.7.4. With features like auto captcha, login, precise pre-sales, smart standby, and notifications via email or server chan, booking your next trip has never been easier. Learn how to set up your own cloud captcha server and navigate through dependency libraries with ease. Maximize your ticket booking process with our straightforward setup instructions and enhance your chances with docker-based deployment for an uninterrupted ticket hunting experience.","Explore the 12306 Ticket Assistant, your go-to Python tool for hassle-free train ticket booking. With auto captcha, login, email/server notifications, and smart ticket booking features, secure your travel tickets effortlessly.",AI Task Automation,"Python
+
+
+
+
+
+        33,662
+
+
+
+
+
+        9,777
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",https://raw.githubusercontent.com/testerSunshine/12306/master/uml/uml.png,,33662,2017-05-17T12:23:40Z
+2024-04-18,https://github.com/xorbitsai/inference,https://raw.githubusercontent.com/xorbitsai/inference/main/README.md,"Xorbits Inference (Xinference) is a comprehensive library for easily serving language, speech recognition, and multimodal models. It simplifies deploying and serving custom or built-in models using a single command, catering to researchers, developers, and data scientists. Recent framework enhancements include support for worker and GPU indexes, SGLang backend, LoRA, speech recognition models, metrics, Docker images, and multimodal models. It features new built-in models like Qwen and OmniLMM. Integrations with platforms like Dify and Chatbox are highlighted, alongside key features like model serving simplicity, state-of-the-art model access, heterogeneous hardware utilization, flexible API and interfaces, distributed deployment, and integrations with third-party libraries. Xinference stands out for its comprehensive features compared to FastChat, OpenLLM, and RayLLM, offering a wide array of functionalities including multi-node cluster deployment, and support for image, text embedding, multimodal, and audio models. It encourages getting started with documentation, built-in and custom models guidance, deployment docs, examples, tutorials, Jupyter Notebook on Google Colab, and Docker usage for Nvidia GPU users. Finally, it invites community involvement through GitHub Issues, Slack, and Twitter and highlights contributions.",Unleashing AI Power with Xorbits Inference: Seamless Model Serving,"Discover how Xorbits Inference simplifies the deployment and serving of AI models with just a single command. This versatile library supports a wide range of models including language, speech recognition, and multimodal, making it an ideal tool for researchers, developers, and data scientists. Explore its key features like state-of-the-art model support, heterogeneous hardware utilization, and distributed deployment. Xorbits Inference empowers you to harness the full potential of AI models efficiently and effectively.","Learn how Xorbits Inference (Xinference) makes AI model serving straightforward with support for language, speech, and multimodal models. Ideal for researchers and developers seeking efficient deployment.",AI Inference Platform,"Python
+
+
+
+
+
+        2,441
+
+
+
+
+
+        189
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",https://raw.githubusercontent.com/xorbitsai/inference/main/./assets/xorbits-logo.png; https://raw.githubusercontent.com/xorbitsai/inference/main/assets/screenshot.png,,2441,2023-06-14T07:05:04Z
+2024-04-18,https://github.com/cleanlab/cleanlab,https://raw.githubusercontent.com/cleanlab/cleanlab/master/README.md,"Cleanlab is an open-source software designed for improving the quality of machine learning datasets by identifying and correcting label issues. It automates the detection of problematic data in ML datasets, supporting a wide range of classifiers and datasets with just one line of code. Cleanlab is built on confident learning algorithms, providing theoretical guarantees on its noise estimation capabilities. It is scalable, easy to use, and applicable to any dataset or model, including popular frameworks like PyTorch, TensorFlow, and XGBoost. Cleanlab offers a comprehensive suite for data cleaning, including detecting outliers, duplicates, label errors, training noise-robust models, and suggesting data for re-labeling or active learning. It is compatible with Linux, macOS, and Windows, requires Python 3.8+, and supports various machine learning tasks such as classification, regression, and object detection. Cleanlab is based on peer-reviewed research and its effectiveness in cleaning datasets is documented through several publications. The project encourages community contributions and offers a platform for professional support.",Clean Your ML Data with cleanlab: The Ultimate Guide for Improved Model Accuracy,"cleanlab offers an efficient way to clean data and labels for machine learning projects, ensuring better model performance even with messy, real-world data. By automatically detecting dataset issues and estimating the impact of label problems, cleanlab enhances your existing models' reliability. Compatible with any classifier and dataset, this tool simplifies achieving robust data quality with just one line of code. Discover how cleanlab can help you train more precise models by identifying and correcting class-level issues and overall data quality, making it a universal solution for data-centric AI.","Discover cleanlab, a data-centric AI tool that cleans your data and labels for better machine learning model accuracy. Learn to enhance model reliability with any dataset and classifier easily.",Data Science Tool,"Python
+
+
+
+
+
+        8,588
+
+
+
+
+
+        661
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        96 stars today",https://raw.githubusercontent.com/cleanlab/assets/master/cleanlab/cleanlab_logo_open_source.png; https://raw.githubusercontent.com/cleanlab/assets/master/cleanlab/datalab_issues.png; https://raw.githubusercontent.com/cleanlab/assets/master/cleanlab/label-errors-examples.png; https://raw.githubusercontent.com/cleanlab/assets/master/cleanlab/flowchart.png; https://raw.githubusercontent.com/cleanlab/assets/master/cleanlab/ml-with-cleanlab-studio.png,,8588,2018-05-11T01:55:21Z
+2024-04-18,https://github.com/yenchenlin/nerf-pytorch,https://raw.githubusercontent.com/yenchenlin/nerf-pytorch/master/README.md,"NeRF-pytorch is a PyTorch implementation of Neural Radiance Fields (NeRF) that synthesizes novel views of complex scenes with state-of-the-art results. This implementation is designed to reproduce the original results faster and has been tested to match the TensorFlow version numerically. Installation involves cloning the GitHub repository and installing required dependencies, including PyTorch 1.4 and ImageMagick for the LLFF data loader. Users can quickly start by downloading example datasets and running training scripts for different scenes like 'lego' and 'fern'. Additional datasets from the paper are available for download. Pre-trained models can also be downloaded and tested using provided scripts. The project includes tests for reproducibility and cites both the original NeRF paper and its own implementation.",Exploring NeRF with PyTorch for Advanced 3D Scene Synthesis,"Dive into NeRF-pytorch, a cutting-edge PyTorch implementation of Neural Radiance Fields that synthesizes novel views of complex scenes more efficiently. This project not only faithfully reproduces the original results but also operates 1.3 times faster than the TensorFlow version. Explore pre-trained models and learn how to train NeRF on custom datasets to create stunning 3D visuals. Perfect for both researchers and hobbyists looking to enhance their projects with the latest in 3D scene synthesis technology.",Discover NeRF-pytorch for creating 3D visuals of scenes using Neural Radiance Fields. Learn about its faster PyTorch implementation and how you can train it on custom datasets for unparalleled scene synthesis.,3D Image Rendering,"Python
+
+
+
+
+
+        5,015
+
+
+
+
+
+        1,007
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://user-images.githubusercontent.com/7057863/78472232-cf374a00-7769-11ea-8871-0bc710951839.gif; https://user-images.githubusercontent.com/7057863/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif; https://user-images.githubusercontent.com/7057863/78473103-9353b300-7770-11ea-98ed-6ba2d877b62c.gif; https://user-images.githubusercontent.com/7057863/78473081-58ea1600-7770-11ea-92ce-2bbf6a3f9add.gif,,5015,2020-04-05T08:29:57Z
+2024-04-18,https://github.com/getmoto/moto,https://raw.githubusercontent.com/getmoto/moto/master/README.md,"Moto is a library designed to help developers easily mock AWS Services for testing purposes. It works by simulating AWS services, allowing for the testing of code that interacts with AWS without having to incur the cost or complexity of actual AWS services. Installation is simple, requiring a pip command. The library supports a wide range of AWS services, with documentation available for further guidance. Moto's functionality can be seen in its ability to mock out an S3 service in a test environment, demonstrating how developers can test their AWS-interacting code efficiently. The project has garnered financial support and contributions, which are managed transparently through OpenCollective. Additionally, Moto provides a way to report security vulnerabilities through Tidelift, ensuring that security concerns are addressed promptly.",Effortlessly Mock AWS Services in Testing with Moto Library,"Discover how the Moto library can transform your AWS service testing by easily mocking services, enabling faster and more reliable tests. With Moto, you can simulate AWS environments in your tests without incurring actual AWS costs or needing to manage real AWS resources. This powerful tool supports a wide range of AWS services and ensures your tests are both scalable and cost-effective. Dive into how Moto seamlessly integrates with your Python code to mock AWS services and improve your development workflow. Explore the full capabilities and documentation of Moto to elevate your AWS testing strategy.","Learn how Moto library aids in efficiently mocking AWS services for your Python tests, making AWS testing cost-effective and scalable. Dive into the documentation to maximize your testing strategies.",Open Source Tool,"Python
+
+
+
+
+
+        7,373
+
+
+
+
+
+        1,965
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,,7373,2013-02-18T21:10:59Z
+2024-04-18,https://github.com/MakiNaruto/Automatic_ticket_purchase,https://raw.githubusercontent.com/MakiNaruto/Automatic_ticket_purchase/master/README.md,"The text discusses the discontinuation of maintenance for a ticket purchasing script for Damai, with most purchasing methods now moved to mobile and requiring packet capture for operation, and no current plans for updates. The latest version, V2.1, introduces the feature of seat selection for purchasing, supporting buying seats at specified prices but not yet capable of purchasing adjacent seats. A previous version, V2.0, was an improvement that replaced manual button operations with a more efficient process requiring only login via a webpage and proceeding with operations via requests. It involves setting up the environment, including installing necessary packages and configuring the path for a browser driver like ChromeDriver. The script, initially not supporting seat selection, allows for purchasing tickets by defining various parameters such as login credentials, item ID, and ticket quantity and price. A disclaimer clarifies that this repository is intended for personal reference and learning, and the creator bears no responsibility for commercial use or any potential infringement on Damai's interests.",Maximize Your Chances of Getting Tickets with the Latest Damai Ticket Bot V2.1,"Discover the evolution and enhancements of the Damai Ticket Bot from V2.0 to V2.1, including the shift to mobile, the introduction of seat selection for specific prices, and the streamlined process through selenium and requests instead of manual webpage interactions. Despite the discontinuation of maintenance and updates, this blog post will guide you through the necessary setup and operational steps to use the script effectively, ensuring a higher success rate in purchasing tickets on Damai.",Learn how to use the Damai Ticket Bot V2.1 for an efficient ticket purchasing experience with added seat selection feature. Get setup and operational guidance for better ticket acquisition on Damai.,AI Task Automation,"Python
+
+
+
+
+
+        3,749
+
+
+
+
+
+        770
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/MakiNaruto/Automatic_ticket_purchase/master/images/flow_chart.jpeg; https://raw.githubusercontent.com/MakiNaruto/Automatic_ticket_purchase/master/images/item_id.png,,3749,2019-05-08T01:54:09Z
+2024-04-18,https://github.com/truefoundry/cognita,https://raw.githubusercontent.com/truefoundry/cognita/main/README.md,"Cognita is an advanced framework designed for operationalizing and managing Retrieval-Augmented Generation (RAG) systems in production environments. It builds upon simple abstractions provided by Langchain/LlamaIndex to offer a structured, modular, and scalable codebase suitable for production, addressing common challenges such as modular component design, scalability, and extensibility. Cognita integrates seamlessly into production setups, supporting modular RAG components, API-driven interactions, and easy scalability. Additionally, it features no-code UI support for straightforward experimentation and incremental indexing to optimize performance. While it supports local setups for testing and development, Cognita also ensures readiness for production deployment. The framework includes comprehensive support for different components of RAG systems such as data indexing, question-answering API servers, and customizability across data loaders, embedders, parsers, and vector databases. Contributions to Cognita's open-source development are encouraged, aiming at future enhancements like broader database support, advanced embeddings, and optimized LLMs for diverse applications.",Elevating RAG Systems to Production with Cognita: A Complete Guide,"Cognita revolutionizes the deployment of RAG systems from cumbersome Jupyter notebooks to a scalable and modular framework. It encapsulates the complexities of production environments by offering modularity, API-driven components, and no-code UI support, making it ideal for both local experimentation and production deployment. Moreover, Cognita seamlessly integrates incremental indexing and enhances organizational codebase management, catering to both developers' and non-technical users' needs.","Discover how Cognita transforms RAG system deployment from prototyping to production with modular components, scalable architecture, and no-code UI, simplifying incremental indexing and codebase organization.",Collaborative AI Framework,"Python
+
+
+
+
+
+        269
+
+
+
+
+
+        45
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        70 stars today",https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/readme-banner.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/RAG-TF.gif; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/rag_arch.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/datasource.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/list-datasources-in-collection.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/adding-collection.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/dataingestion-started.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/dataingestion-complete.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/response-generation.png,,269,2023-07-26T13:08:54Z
