@@ -10250,3 +10250,298 @@ Several resources and tools are provided for the community, including downloadab
 
 
         70 stars today",https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/readme-banner.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/RAG-TF.gif; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/rag_arch.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/datasource.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/list-datasources-in-collection.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/adding-collection.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/dataingestion-started.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/dataingestion-complete.png; https://raw.githubusercontent.com/truefoundry/cognita/main/./docs/images/response-generation.png,,269,2023-07-26T13:08:54Z
+2024-04-19,https://github.com/meta-llama/PurpleLlama,https://raw.githubusercontent.com/meta-llama/PurpleLlama/main/README.md,"Purple Llama is a project aimed at enhancing the responsible development of open generative AI models, with a focus on cybersecurity and input/output safeguards. It embodies a ""purple teaming"" approach from cybersecurity, blending offensive and defensive tactics to address AI challenges. The project will license its components permissively for both research and commercial use, including benchmarks under the MIT license and models under the Llama 2 and Llama 3 Community licenses. Initial offerings include CyberSec Eval, a set of cybersecurity evaluations for large language models (LLMs), and tools like Llama Guard for filtering potentially harmful outputs. Future updates will expand safeguards and address more risk areas, promoting community collaboration and establishing standards for AI trust and safety. Further resources and guidance for using Purple Llama components with Llama models are provided, along with active encouragement for community contributions to the project.",Exploring Purple Llama: The Future of Responsible Generative AI Development,"Purple Llama is a pivotal initiative aimed at bundling tools and evaluations for building with generative AI in a responsible manner. Starting with cybersecurity and input/output safeguards, the project commits to expanding its contributions to the AI community. It embodies a 'purple teaming' approach from cybersecurity, blending offensive and defensive tactics to address the nuanced challenges of generative AI. With a permissive licensing model, Purple Llama encourages both research and commercial use, ensuring broad accessibility and collaboration. The ultimate goal is to standardize trust and safety in AI development, making secure and ethical generative technology widespread.","Discover how Purple Llama is shaping the future of responsible generative AI development with a comprehensive toolkit for cybersecurity, input/output safeguards, and collaborative community engagement.",Collaborative AI Framework,"Python
+
+
+
+
+
+        815
+
+
+
+
+
+        157
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        89 stars today",https://github.com/facebookresearch/PurpleLlama/blob/main/logo.png,https://www.youtube.com/watch?v=ab_Fdp6FVDI,815,2023-12-06T21:29:41Z
+2024-04-19,https://github.com/meta-llama/codellama,https://raw.githubusercontent.com/meta-llama/codellama/main/README.md,"Code Llama introduces a range of powerful large language models specialized in code, derived from Llama 2. These models, varying in sizes from 7B to 34B parameters, are designed to excel in completing and generating programming code, supporting long inputs and offering zero-shot capabilities in following programming instructions. The variants include foundational models, Python-specific versions, and instruction-following models. Developed through fine-tuning Llama 2 with a focus on code, Code Llama also emphasizes safety mitigations. The release is aimed at broad audiences including individuals, researchers, and businesses, offering the model weights and starting code for download. For usage, the models are available after licensing agreement, with technical documentation provided for setup, inference, and code infilling tasks. The project promotes ethical use and responsible innovation in AI, backed by a Responsible Use Guide and comprehensive support for dealing with issues and feedback.",Unlocking Next-Gen Coding: Introducing Code Llama for Developers,"Discover Code Llama, the cutting-edge large language model tailored for coding, based on Llama 2 technology. With specializations in Python, instruction-following capabilities, and support for input contexts up to 100k tokens, Code Llama opens new horizons for developers. Equipped with models varying from 7B to 34B parameters, it promises state-of-the-art performance for a wide array of programming tasks. Accessible now for both individual creators and businesses, it's designed to fuel innovation and scale projects responsibly. Dive into the world of Code Llama for an unparalleled coding experience.","Explore Code Llama, the advanced AI language model for code, offering specialized Python support and instruction-following prowess with up to 34B parameters for robust programming solutions. Now available for developers and businesses.",AI Development Platform,"Python
+
+
+
+
+
+        14,407
+
+
+
+
+
+        1,537
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        54 stars today",,,14407,2023-08-24T14:25:15Z
+2024-04-19,https://github.com/facebookresearch/llm-transparency-tool,https://raw.githubusercontent.com/facebookresearch/llm-transparency-tool/main/README.md,"The LLM Transparency Tool by Facebook Research is designed for analyzing Transformer Language Models through interactive visualization and manipulation. Users can select a model, input prompts, and run inferences. It offers features like browsing a contribution graph, selecting and viewing the representation of tokens post any block, and exploring the impact of previous blocks on token promotion or suppression. Installation instructions cover Dockerized deployment and local setup, including building the frontend. For using custom or unsupported models, modifications to the tool and additional implementation are necessary. The tool aims to facilitate a deeper understanding of how language models work, offering various interaction points for detailed analysis. If used for research, the creators provide citation details. This tool is available under a CC BY-NC 4.0 license, with a reminder to adhere to third-party terms where applicable.",Exploring AI's Black Box with LLM Transparency Tool: A Revolutionary Approach,"Discover the LLM Transparency Tool, your essential solution for understanding AI language models from Facebook Research. This tool provides an interactive way to choose models, run inferences, and analyze the internal decision-making process. It supports a range of models and can be easily set up via Docker or local installation. Enhance your research or project by visualizing how AI models make decisions, promoting transparency in AI.","Unlock the secrets of AI language models with the LLM Transparency Tool by Facebook Research. Explore its key features, installation guide, and how it promotes AI transparency.",AI Development Platform,"Python
+
+
+
+
+
+        408
+
+
+
+
+
+        24
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        26 stars today",,,408,2023-12-21T03:14:28Z
+2024-04-19,https://github.com/mistralai/mistral-common,https://raw.githubusercontent.com/mistralai/mistral-common/main/README.md,"Mistral-common is a toolkit designed to enhance working with Mistral models by offering advanced tokenization features. It extends beyond typical text-token exchanges, incorporating parsing of tools and structured conversations. The toolkit includes validation and normalization code for API use. Three tokenizer versions are released for different model sets, including v1 for models like open-mistral-7b, v2 for mistral-small-latest and mistral-large-latest, and v3 for open-mixtral-8x22b. Installation is straightforward via pip or from the source using poetry, a dependency and virtual environment manager. An example provided shows how to import necessary packages, load a Mistral tokenizer, and tokenize messages, demonstrating the toolkit's practical application in a coding environment.",Enhance Your Mistral Model Workflows with Mistral-Common Tokenizers,"Discover how mistral-common tools streamline your work with Mistral models, featuring advanced tokenization for enhanced parsing and structured conversation. Our latest release includes three versions of our tokenizer, designed to support models ranging from open-mistral-7b to open-mixtral-8x22b. Get started easily with pip installation or build from source using poetry for a more customized setup. Dive into our Colab examples to see mistral-common in action, perfecting your model's interaction capabilities.","Unlock the full potential of Mistral models with mistral-common's advanced tokenization tools, designed for efficient parsing and structured conversation. Install now and explore our easy-to-follow examples.",Natural Language Processing,"Python
+
+
+
+
+
+        258
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        60 stars today",,,258,2024-04-15T08:43:59Z
+2024-04-19,https://github.com/binarly-io/binary-risk-intelligence,https://raw.githubusercontent.com/binarly-io/binary-risk-intelligence/master/README.md,"The text introduces Binary Risk Intelligence, emphasizing the in-depth analysis of emerging advanced threats conducted by Binarly Research. It highlights a specific study on the ""xz backdoor,"" detailing investigative findings into this cybersecurity threat. The backdoor's original disclosure is referenced with a link to an announcement made on an open security mailing list dated March 29, 2024. The format suggests an official report or summary from Binarly, aimed at informing readers about their research into this particular security vulnerability.
+",Unveiling the XZ Backdoor: Insights and Impacts on Security,"Explore the forefront of cybersecurity with our detailed analysis of the xz backdoor, a significant threat recently unearthed by Binarly Research. Delving into the depths of this menace, we offer comprehensive insights into its mechanics, implications, and measures for protection. Our experts dissect the intricate details, providing a clear understanding of the risks and potential defenses. Stay informed and ahead of cyber threats with our in-depth examination.","Discover the latest in cybersecurity threats with Binarly's in-depth analysis of the xz backdoor. Understand its impact, mechanics, and how you can protect yourself from this emerging menace.",Cybersecurity Tool,"Python
+
+
+
+
+
+        128
+
+
+
+
+
+        7
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        34 stars today",https://raw.githubusercontent.com/binarly-io/logo/master/binarly_white.png,,128,2024-04-12T17:49:51Z
+2024-04-19,https://github.com/meta-llama/llama,https://raw.githubusercontent.com/meta-llama/llama/main/README.md,"Llama 2 is the latest advancement in large language models, aimed at a wide audience including individuals, creators, researchers, and businesses, facilitating experimentation, innovation, and scaling of ideas. It offers pre-trained and fine-tuned models ranging from 7B to 70B parameters, available for download upon agreement to the license. The model weights and tokenizer can be downloaded from the Meta website, and there’s also provision for access via Hugging Face. The release not only includes the models but also guides for quick start and running inferences, covering a variety of use cases from text to chat completion. This technology, while promising, comes with potential risks; therefore, a Responsible Use Guide is provided. Issues can be reported through specified channels, and the project encourages responsible and ethical AI development.",Exploring Llama 2: The New Frontier in Large Language Models,"Unlock the potential of the latest large language models with Llama 2, now accessible for everyone from individuals to businesses for innovating and scaling ideas. This release includes everything from pre-trained to fine-tuned models with 7B to 70B parameters, available on the Meta website and Hugging Face. Discover how to easily download, set up, and run these advanced models to enhance your projects, supported by extensive resources and a responsible use guide. Whether for research, development, or commercial use, Llama 2 promises to empower users with cutting-edge AI functionalities.","Discover Llama 2, Meta's latest advancement in large language models, offering extensive resources for users to download, set up, and innovatively apply AI from 7B to 70B parameters models for diverse projects.",Large-scale Language Models,"Python
+
+
+
+
+
+        52,570
+
+
+
+
+
+        9,077
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        117 stars today",,,52570,2023-02-14T09:29:12Z
+2024-04-19,https://github.com/ethereum/consensus-specs,https://raw.githubusercontent.com/ethereum/consensus-specs/master/README.md,"The Ethereum Proof-of-Stake (PoS) consensus specifications repository details the core specs for Ethereum PoS clients, described across various documentation stages and the progress of features towards implementation. It includes detailed stable specifications for different phases such as Phase 0, Altair, Bellatrix, Capella, and Deneb, each with its unique core changes, additions, and respective fork epochs. In-development specifications like Electra and outdated sections on Sharding, Custody Game, and Data Availability Sampling highlight ongoing research and adjustments. Accompanying documents offer insights into SimpleSerialize spec, Merkle proof formats, and general test formats, aimed at guiding developers. Additional specs for client implementers are accessible through linked repositories. Broad design goals prioritize minimal complexity, network resilience, quantum security readiness, inclusivity of validators, and accessibility for consumer-grade devices. External resources, contributor guides, and an online viewer for the latest releases are provided for further education and engagement, enhancing clarity on the Ethereum PoS consensus mechanism's evolution and community collaboration avenues.",Understanding Ethereum's Proof-of-Stake Transition: Specifications and Impacts,"Explore the core specifications and design goals of Ethereum's transition to a Proof-of-Stake (PoS) consensus mechanism. This crucial update aims at enhancing scalability through sharding, improving energy efficiency, and ensuring network security. Discussions about proposed changes and design rationale are encouraged, with a community-driven approach for modifications. The Ethereum PoS consensus specifications serve as a foundational guide for developers, researchers, and stakeholders in the Ethereum ecosystem.","Dive into Ethereum's Proof-of-Stake consensus specifications. Learn about the shift towards scalability, efficiency, and security in Ethereum's network through detailed specs, design goals, and community discussions.",Crypto Tools & Guides.,"Python
+
+
+
+
+
+        3,410
+
+
+
+
+
+        883
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        0 stars today",,,3410,2018-09-20T05:12:54Z
+2024-04-19,https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once,https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/README.md,"SEEM (Segment Everything Everywhere All at Once) introduces a versatile segmentation tool capable of handling a wide range of prompts, including both visual (e.g., points, scribbles, image segments) and language prompts (text and audio). It operates on a multi-modal basis, allowing for segmentation using any combination of prompts or even custom ones. This tool is built upon X-Decoder and utilizes backbones like FocalNet and DaViT, with techniques from UniCL for learning image-text representations. SEEM is designed for interactive use, with features like compositional prompt handling, multi-round interactivity, and semantic awareness, assigning semantic labels to predicted masks. It supports a broad vocabulary but can classify out-of-vocabulary items as 'others'. Demonstrations of its capabilities include versatile image segmentation tasks, video segmentation without specific training, and examples showcasing its applications across different styles and subjects. SEEM's architecture allows it to understand spatial relationships effectively, providing accurate segmentations based on complex prompts.",Introducing SEEM: Revolutionize Image Segmentation with Multi-Modal Prompts,"Discover SEEM, the cutting-edge tool for segmenting everything, everywhere, all at once using versatile multi-modal prompts. SEEM combines visual and language prompts, allowing unprecedented flexibility and precision in image segmentation tasks. Whether it's points, text, or audio cues, SEEM understands and segments with ease. Perfect for researchers and developers, it stands out for its adaptability to various prompt types and its potential for custom prompt creation. Dive into the future of image segmentation with SEEM and explore its capabilities today.",SEEM transforms image segmentation with its ability to understand and process multi-modal prompts for precise results. Explore this versatile tool for your research and development projects for improved segmentation.,Multimodal AI Model,"Python
+
+
+
+
+
+        4,019
+
+
+
+
+
+        318
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",https://user-images.githubusercontent.com/11957155/233255289-35c0c1e2-35f7-48e4-a7e9-68da50c839d3.gif; https://user-images.githubusercontent.com/11957155/233526415-a0a44963-19a3-4e56-965a-afaa598e6127.gif; https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/assets/transformers_gh.png; https://user-images.githubusercontent.com/11957155/234230320-2189056d-1c89-4f0c-88da-851d12e8323c.gif; https://user-images.githubusercontent.com/11957155/234231284-0adc4bae-ef90-41d3-9883-41f6407a883b.gif; https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/assets/text.png; https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/assets/audio.png; https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/assets/emoj.png; https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/assets/trees_text.png; https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/assets/minecraft.png; https://raw.githubusercontent.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/main/assets/compare.jpg,,4019,2023-04-12T05:08:43Z
+2024-04-19,https://github.com/josephmisiti/awesome-machine-learning,https://raw.githubusercontent.com/josephmisiti/awesome-machine-learning/master/README.md,"Awesome Machine Learning is a meticulously curated list of machine learning frameworks, libraries, and software organized by programming language. Initiated by Joseph Misiti and inspired by awesome-php, it aims to provide a comprehensive resource for those looking to delve into the field of machine learning. To ensure the list remains updated and reliable, it encourages contributions and specifies criteria for repository deprecation, such as lack of maintenance or long periods of inactivity. Additionally, it links to extensive resources covering free machine learning books, professional events, online courses, blogs, newsletters, and local meetups. The document outlines various tools and libraries across numerous programming languages and domains, including natural language processing, computer vision, and deep learning among others. It's a valuable starting point for anyone interested in exploring the vast landscape of machine learning technologies and applications.",Ultimate Guide to Awesome Machine Learning Resources,"Dive deep into the world of machine learning with this curated list of frameworks, libraries, and software by language. Inspired by `awesome-php`, this comprehensive guide covers everything from free books and courses to professional events. Stay ahead in the ever-evolving field of machine learning by exploring this go-to directory for machine learning enthusiasts and professionals alike. Make your contribution to keep it fresh and up-to-date.","Discover the ultimate resource for machine learning: frameworks, libraries, books, courses, and more in one curated list. Perfect for enthusiasts and professionals looking to expand their knowledge and stay ahead in the field.",Machine Learning Tool,"Python
+
+
+
+
+
+        63,462
+
+
+
+
+
+        14,454
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,https://www.youtube.com/watch?v=CsF4pd7fGF0,63462,2014-07-15T19:11:19Z
+2024-04-19,https://github.com/ShineChen1024/MagicClothing,https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/README.md,"Magic Clothing is an official implementation derived from OOTDiffusion that focuses on controllable garment-driven image synthesis. Introduced in a paper by Weifeng Chen, Tao Gu, Yuhao Xu, and Chengcai Chen, it offers advancements in generating detailed clothing images with customizable features. Recent updates include a 1024 version with enhanced resolution and early access, support for generating GIFs using AnimateDiff, and integration with IP-Adapter-FaceID and ControlNet-Openpose for added conditions in image synthesis. Sample demonstrations showcase its capabilities in synthesizing upper-body, lower-body, and full-body clothing images and animated versions, bolstering its practical applications. Installation instructions, inference steps for both Python and Gradio demos, and the citation for the foundational paper are provided, highlighting the project's ongoing development and accessibility to users interested in exploring garment-driven image creation.",Revolutionizing Fashion: Exploring Magic Clothing for Image Synthesis,"Discover the innovative world of Magic Clothing, a cutting-edge project designed for controllable garment-driven image synthesis. Stemming from the OOTDiffusion initiative, Magic Clothing leverages advanced technology to transform the way we interact with digital fashion. With its recent 1024 version update and support for AnimateDiff, users can now experience more realistic and dynamic clothing simulations than ever before. Dive into the details of their latest research paper and take your first steps towards a futuristic wardrobe with our comprehensive guide.","Explore the future of digital fashion with Magic Clothing, a project focused on garment-driven image synthesis. Learn about its latest updates, including the 1024 version and AnimateDiff support, for a closer look at the evolving interface of technology and fashion.",Image Generation Platform,"Python
+
+
+
+
+
+        716
+
+
+
+
+
+        56
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        64 stars today",https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/demo.png; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/workflow.png; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/a0.jpg; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/a1.png; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/b0.jpg; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/b1.png; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/c0.jpg; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/c1.png; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/valid_cloth/t1.png; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/animatediff0.gif; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/valid_cloth/t5.jpg; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/animatediff1.gif; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/valid_cloth/t6.png; https://raw.githubusercontent.com/ShineChen1024/MagicClothing/main/images/animatediff2.gif,,716,2024-02-06T02:39:13Z
+2024-04-19,https://github.com/jimbosimbo/howstheweather,https://raw.githubusercontent.com/jimbosimbo/howstheweather/main/README.md,"This text describes a simple Python command-line application named ""How is the Weather?"" that checks the weather by fetching data from the OpenWeatherMap API. The application assesses the temperature and categorizes it as ""nice and warm,"" ""mild,"" or ""cold."" Key features include real-time weather data retrieval, a straightforward command-line interface, and temperature-based weather categorization. To get started, users need Python 3.6 or above, a virtual environment in their project directory, and an API key from OpenWeatherMap. Installation instructions are provided for Linux and macOS users, involving creating a virtual environment, activating it, and installing required packages.",Build Your Own Weather CLI with Python: A Simple Guide,"Discover how to create a simple Python command-line application to check the weather in real-time. Leveraging the OpenWeatherMap API, this application effortlessly categorizes the temperature into distinct feelings: warm, mild, or cold. Ideal for beginners, the prerequisites include Python 3.6+, a virtual environment, and an OpenWeatherMap API key. Follow a straightforward installation process to get started on Linux and macOS. This project promises a fun way to apply Python skills and interact with weather data directly from your command line.",Learn how to build a Python CLI tool for real-time weather updates using the OpenWeatherMap API. A beginner-friendly guide with simple steps to install and run on your system.,Weather Application,"Python
+
+
+
+
+
+        56
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+        38 stars today",,,56,2024-04-16T16:46:33Z
