@@ -10545,3 +10545,248 @@ Several resources and tools are provided for the community, including downloadab
 
 
         38 stars today",,,56,2024-04-16T16:46:33Z
+2024-04-20,https://github.com/meta-llama/llama3,https://raw.githubusercontent.com/meta-llama/llama3/main/README.md,"Meta's Llama 3 is advancing large language model technology, making it widely accessible for experimentation and innovation among individuals, creators, researchers, and businesses. It offers pre-trained and instruction-tuned models ranging from 8B to 70B parameters, available for download upon accepting their license. The models can be accessed both from the Meta Llama website and on Hugging Face, in various formats compatible with different development environments. The documentation provides a quick start guide for local setup and inference, emphasizing the importance of following specific formats for instruction-tuned models to achieve optimal results. Additionally, Llama 3 comes with a guide for responsible use, addressing potential risks associated with its deployment. For any issues, users can report bugs, risky content, or security concerns through dedicated channels. Llama 3's licensing accommodates both research and commercial use, promoting ethical advancements in AI while ensuring openness and accessibility.",Unlocking the Power of Meta Llama 3: A New Era for Language Models,"Discover how Meta Llama 3 is revolutionizing language model accessibility for everyone from individuals to businesses. The latest release includes models ranging from 8B to 70B parameters, emphasizing experimentation, innovation, and scalable solutions. With straightforward instructions for downloading and using the models, including integration with Hugging Face, this version promises to enhance AI applications across various sectors. Explore detailed examples and get started with pre-trained and instruction-tuned models for a wide array of applications.","Explore the capabilities of Meta Llama 3, the latest version offering pre-trained and instruction-tuned language models for diverse AI applications. Learn how to download, set up, and deploy these models for your projects.",Large-scale Language Models,"Python
+
+
+
+
+
+        7,323
+
+
+
+
+
+        506
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        1,443 stars today",https://github.com/meta-llama/llama3/blob/main/Llama3_Repo.jpeg,,7323,2024-03-15T17:57:00Z
+2024-04-20,https://github.com/harperreed/photo-similarity-search,https://raw.githubusercontent.com/harperreed/photo-similarity-search/main/README.md,"Embed-Photos, developed by @harperreed, is a sophisticated photo similarity search engine using the CLIP model to match images with textual descriptions. It features rapid, efficient image searching capabilities, designed exclusively for Apple Silicon (MLX), and incorporates SQLite and Chroma for persistent storage of image embeddings. Users can interact through a web interface, ensuring secure image processing, with added benefits like logging and performance monitoring. Customization is possible via environment variables. The repository includes essential scripts and HTML templates for web interface setup. To start, clone the repository, install dependencies, configure environment variables, generate image embeddings, and launch the Flask web application. Planned improvements include incorporating siglip for enhanced functionality and making MLX optional. The project acknowledges contributions from the CLIP model and various open-source libraries.",Explore Visual Similarities with Embed-Photos: The Ultimate Photo Search Engine,"Discover the power of Embed-Photos, the innovative photo similarity search engine designed by @harperreed. Utilizing the cutting-edge CLIP model, this tool finds visually similar images with ease. Designed exclusively for Apple Silicon, it features persistent storage, a user-friendly web interface, and robust security measures. Perfect for tech enthusiasts and visual researchers alike. Dive into the world of advanced image search and explore like never before!","Unlock the potential of visual search with Embed-Photos, an advanced photo similarity engine using CLIP model technology for finding similar images. Experience fast, efficient, and secure image searches.",Image Generation Platform,"Python
+
+
+
+
+
+        262
+
+
+
+
+
+        20
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        17 stars today",,,262,2024-03-26T18:31:41Z
+2024-04-20,https://github.com/mouredev/roadmap-retos-programacion,https://raw.githubusercontent.com/mouredev/roadmap-retos-programacion/main/README.md,"The ""Roadmap retos de programación semanales 2024"" provides a structured path for improving programming logic and learning any language. It is free, self-paced, and community-driven. Users can participate in weekly programming challenges, published every week and corrected live on Twitch by Brais Moure, the organizer. Corrections and community solutions can be found in the roadmap directory for each challenge. The program encourages participation through GitHub by forking the project, solving challenges, and submitting solutions via pull requests. Participants can use any programming language. The roadmap includes foundational topics like syntax, data types, control structures, functions, data structures, and advanced concepts like recursion, classes, inheritance, polymorphism, error handling, file management, JSON/XML, unit testing, dates, asynchrony, and regular expressions. The project fosters community engagement on Discord and provides a ranking of users and languages by contributions. Additional resources and a guide on using Git and GitHub are provided. Brais Moure, a freelance full-stack iOS & Android engineer, combines app development with creating educational content on programming across various platforms.",Unlock Your Programming Potential: The Ultimate 2024 Weekly Challenges Roadmap,"Dive into our comprehensive 2024 roadmap for weekly programming challenges designed to sharpen your coding skills, enhance your logic, and learn any programming language at your own pace. With free access, community support, and a flexible timeline, you’re set for a journey that transforms the way you code. We cover various languages and difficulties, provide real-time corrections on Twitch, and foster a supportive environment via our Discord community. Whether you're starting out or looking to polish your skills, our challenges cater to all levels. Get ready to tackle new challenges, climb the user and language rankings, and join a vibrant community of coding enthusiasts.","Join our 2024 weekly programming challenges to boost your coding skills across different languages and complexities. Benefit from live corrections, community support, and a flexible learning path. Start your coding adventure today!",System Design Education,"Python
+
+
+
+
+
+        1,571
+
+
+
+
+
+        1,173
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        88 stars today",https://raw.githubusercontent.com/mouredev/roadmap-retos-programacion/main/./Images/header.jpg; https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png,https://www.youtube.com/watch?v=gEIBJ7rmLa0; https://www.youtube.com/watch?v=DLSGCh9jdes; https://www.youtube.com/watch?v=auxClgiX6UM; https://www.youtube.com/watch?v=brxtPtUbU7M; https://www.youtube.com/watch?v=CKzY7nHwulA; https://www.youtube.com/watch?v=P2OQDT9Wrb0; https://www.youtube.com/watch?v=nTfDkLRrYiM; https://www.youtube.com/watch?v=cBeRWS2X0CA; https://www.youtube.com/watch?v=W4tv8WUbum4; https://www.youtube.com/watch?v=PVBs5PWjedA; https://www.youtube.com/watch?v=mfOzfj-BrQo; https://www.youtube.com/watch?v=Bsiay2nax4Y; https://www.youtube.com/watch?v=OwStihBItEg; https://www.youtube.com/watch?v=3WFQ2grp0h0; https://www.youtube.com/watch?v=EQIAhF7NNMI; https://www.youtube.com/watch?v=YA8Ssd3AUwA,1571,2023-12-18T10:59:18Z
+2024-04-20,https://github.com/Upsonic/Tiger,https://raw.githubusercontent.com/Upsonic/Tiger/main/README.md,"Tiger is a community-driven initiative aimed at creating an integrated ecosystem of tools for AI agents, akin to Neuralink but for artificial intelligence. It enables AI agents to interact with computer systems by 'thinking', allowing them to perform tasks like code writing, web searches, and much more without traditional input methods. Tiger relies on Upsonic for isolated tool storage and document automation. It's designed to be universally applicable across various frameworks and supports a myriad of functions such as interpreter operations, searches, system inquiries, and communication abilities including Telegram integration. The project encourages community contributions and offers public and customizable tool libraries under an MIT license. For ease of use, it includes detailed documentation and a public dashboard for monitoring and documentation. Tiger also offers integration with several AI and machine learning frameworks including crewAI, LangChain, and AutoGen, demonstrating its versatility and utility in enhancing AI agent capabilities.",Tiger: Revolutionizing AI Agent Interactions with Neuralink-Inspired Tools,"Discover Tiger, a groundbreaking project that's reshaping the AI ecosystem by integrating Neuralink-inspired interfaces for LLM agents. By facilitating direct control over computers through 'thinking', Tiger empowers AI to perform an array of tasks from code execution to managing calendars. This community-driven platform not only provides a robust toolset curated for enhancing agent capabilities but also fosters a collaborative environment for open-source development. Whether you're integrating with crewAI, LangChain, or using Telegram, Tiger sets a new standard for AI interactions.","Explore Tiger, a Neuralink-inspired toolkit offering an advanced platform for AI agents to interact with computers using thought. Dive into its integrations, community-driven development, and how it's paving the way for the future of AI agent capabilities.",Collaborative AI Framework,"Python
+
+
+
+
+
+        127
+
+
+
+
+
+        7
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        25 stars today",https://raw.githubusercontent.com/Upsonic/Tiger/main/assets/overview.png; https://raw.githubusercontent.com/Upsonic/Tiger/main/assets/dashboard.png; https://raw.githubusercontent.com/Upsonic/Tiger/main/assets/documentation.png,,127,2024-04-05T18:49:43Z
+2024-04-20,https://github.com/facebookresearch/generative-recommenders,https://raw.githubusercontent.com/facebookresearch/generative-recommenders/main/README.md,"This repository provides the code for the paper ""Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations."" It currently includes code for reproducing the public experiments discussed in Section 4.1.1 of the paper, using datasets like MovieLens and Amazon Reviews. To replicate these experiments, users need to install various dependencies, download and preprocess data, and run model training on a GPU with at least 24GB HBM. The experiments demonstrate the superiority of the HSTU model over traditional methods like SASRec, BERT4Rec, and GRU4Rec in terms of hit rate and NDCG metrics across different dataset sizes. Furthermore, this document lists the contributors to the project and notes that more documentation and efficiency experiments will be provided later. The codebase is licensed under Apache 2.0.",Unleashing the Power of Generative Recommenders: Insights from Trillion-Parameter Models,"Discover the groundbreaking research on generative recommenders through the 'Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations' study. Dive into the methodology, experiments, and impressive results highlighting the superiority of HSTU models on popular datasets like MovieLens and Amazon Reviews. Learn step-by-step how to reproduce these pioneering experiments using provided code and configurations. This research not only paves the way for advanced recommendation systems but also sets a new benchmark in the machine learning community.",Explore the latest advancements in generative recommendation systems with our detailed overview of the trillion-parameter models study. Learn how to replicate key experiments and understand the impact on MovieLens and Amazon Reviews datasets.,Machine Learning Tool,"Python
+
+
+
+
+
+        104
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+        14 stars today",,,104,2024-04-08T06:03:18Z
+2024-04-20,https://github.com/QwenLM/CodeQwen1.5,https://raw.githubusercontent.com/QwenLM/CodeQwen1.5/main/README.md,"CodeQwen1.5 is a powerful transformer-based, decoder-only language model specifically designed for code generation, pre-trained on a large dataset of code. It has remarkable abilities in generating code and performs competitively across various benchmarks, with the capability to understand and generate long contexts of up to 64K tokens. The model supports 92 programming languages, making it highly versatile. Its exceptional performance is evident in tasks such as text-to-SQL and bug fixing. For instance, compared to other models, CodeQwen1.5 and its chat version show superior performance in code generation benchmarks and programming challenges across several languages. It also demonstrates high execution accuracy in the text-to-SQL context. The provided documentation includes details for setup, including system requirements and a quick start guide, encouraging users to engage through available links to Hugging Face, ModelScope, and other resources for more information and demonstrations. The project invites community interaction through platforms like Discord and WeChat.",Discover CodeQwen1.5: The Future of Code Generation across 92 Languages,"CodeQwen1.5 sets a new standard in code generation, supporting an unprecedented 92 languages and boasting superior performance benchmarks. With capabilities for long context generation up to 64K tokens, it excels in text-to-SQL, bug fixes, and more. Dive deep into its competitive edge in our latest performance evaluations, including LiveCodeBench and MultiPL-E comparisons. Experience cutting-edge coding assistance by exploring CodeQwen1.5's features on Hugging Face or ModelScope.","Explore CodeQwen1.5, a transformer-based model advancing code generation across 92 languages with remarkable performance in benchmarks and support for 64K tokens context.",AI Coding Assistant,"Python
+
+
+
+
+
+        156
+
+
+
+
+
+        6
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/codeqwen_logo_final.png; https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/intro.png,,156,2024-04-16T11:49:01Z
+2024-04-20,https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game,https://raw.githubusercontent.com/theowni/Damn-Vulnerable-RESTaurant-API-Game/main/README.md,"Damn Vulnerable RESTaurant is an intentionally vulnerable API service designed for educational purposes, targeting developers, ethical hackers, and security engineers. It offers an environment for training on identifying and exploiting vulnerabilities. Developers can play a game to find and fix vulnerabilities interactively, while ethical hackers can manually exploit them, viewing it as a Capture The Flag (CTF) challenge, starting from a low privileged API user and escalating to root. Security engineers can test vulnerability detection with various security automation tools. The project can be deployed locally using Docker and is also available on GitHub Codespaces for easy setup without a local environment. Successful participants are recognized in a Hall of Fame. The project aims to be a playground for learning about security in API services and encourages responsible use, highlighting the potential risks of deploying it in uncontrolled environments. It is developed under the GNU GPL v3.0, promoting collaboration and transparency in the open-source community.",Exploring Damn Vulnerable RESTaurant: A Training Ground for Cybersecurity Enthusiasts,"Dive into Damn Vulnerable RESTaurant, a purposely insecure API service created for developers, ethical hackers, and security engineers seeking hands-on cybersecurity training. This unique playground offers a practical way to detect and exploit vulnerabilities, providing an interactive experience for upgrading security skills. With scenarios for both fixing and hacking, participants can evolve from novices to seasoned experts. Completing challenges earns a spot in the Hall of Fame, celebrating those who have mastered the game. Whether through local deployment or GitHub Codespaces, starting the game is effortless, ensuring easy access to everyone keen on enhancing their cybersecurity prowess.","Join the ranks of cybersecurity enthusiasts by diving into Damn Vulnerable RESTaurant, an intentionally vulnerable API training platform designed for learning to detect and exploit security flaws. Easy setup, practical challenges, and a Hall of Fame await!",Cybersecurity Tool,"Python
+
+
+
+
+
+        262
+
+
+
+
+
+        32
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/theowni/Damn-Vulnerable-RESTaurant-API-Game/main/app/static/img/mad-chef-circle-text.png; https://raw.githubusercontent.com/theowni/Damn-Vulnerable-RESTaurant-API-Game/main/app/static/img/game-screenshot.png; https://raw.githubusercontent.com/theowni/Damn-Vulnerable-RESTaurant-API-Game/main/images/codespace-open-button.png; https://raw.githubusercontent.com/theowni/Damn-Vulnerable-RESTaurant-API-Game/main/images/codespace-screenshot-2.png,,262,2024-03-25T23:45:43Z
+2024-04-20,https://github.com/DAMO-NLP-SG/Video-LLaMA,https://raw.githubusercontent.com/DAMO-NLP-SG/Video-LLaMA/main/README.md,"The Video-LLaMA project aims to enhance large language models with the ability to understand video and audio content. It features instruction-tuned, audio-visual language models specifically designed for video understanding. The project has introduced Video-LLaMA-2, which utilizes LLaMA-2-Chat for language decoding, and offers pre-trained and fine-tuned models optimized for video and audio analysis. These models are trained on extensive datasets such as Webvid-2M for video captions and image-caption pairs from LLaVA to improve understanding of static visual concepts and audio aspects. The models are accessible through Hugging Face and ModelScope with documentation for both usage and training provided. The training process involves pre-training on video caption and image caption datasets followed by fine-tuning with instruction data from sources like MiniGPT-4 and VideoChat. Video-LLaMA supports various applications, including interaction with videos having background sound, without sound effects, and static images. It is designed to work with advanced GPUs and is intended for non-commercial use, emphasizing ethical guidelines against misuse.",Empowering AI with Video and Audio: Introducing Video-LLaMA,"Discover Video-LLaMA, a cutting-edge project aimed at enhancing large language models with the ability to understand both video and audio. This initiative leverages the latest in audio-visual language models to provide nuanced video understanding, utilizing a combination of vision-language (VL) and audio-language (AL) branches. With support for major languages and customization options from pre-trained checkpoints, Video-LLaMA represents a significant advancement in multimedia AI applications.","Explore Video-LLaMA, an innovative project designed to imbue large language models with comprehensive video and audio understanding capabilities, leveraging VL and AL branches for enhanced multimedia interaction.",Multimodal AI Model,"Python
+
+
+
+
+
+        2,392
+
+
+
+
+
+        215
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://raw.githubusercontent.com/DAMO-NLP-SG/Video-LLaMA/main/figs/video_llama_logo.jpg; https://raw.githubusercontent.com/DAMO-NLP-SG/Video-LLaMA/main/figs/architecture_v2.png,,2392,2023-05-06T15:35:19Z
+2024-04-20,https://github.com/mahdibland/V2RayAggregator,https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/README.md,"V2RayAggregator is a collection of automation functions implemented using GitHub Actions, aimed at testing and sharing high-speed and stable nodes from various sources for free. The core functionality includes testing the speed of free node pools on the network and nodes shared by bloggers, filtering out stable and high-speed nodes, and then sharing these nodes in the repository. It supports protocols like V2Ray, and provides nodes in major formats such as YAML, clash, v2ray, and base64 without additional conversion, ensuring compatibility and user convenience.
+
+Recent updates include fixing region-based lite speed tests, sorting based on average speed, updating required software to the latest version, fixing conversion issues, adding functions for airports, and fixing naming conventions. The project aims to clean up redundant files and functions in the future. Users can find nodes ready for import in various formats, and the repository offers manual subscription conversion services. 
+
+Node information includes a high-speed node quantity of 200, with explicit node details available. For local testing, all nodes are combined in single files, but due to high volume, it's recommended only for testing purposes to avoid client crashes.",Optimized Node Subscription: Access Global Networks,"Discover the perfect solution for stable and fast internet access with our comprehensive collection of nodes tailored for various protocols including SS, SSR, Vmess, and more. Get unlimited access to global networks with our tested, reliable nodes. Subscribe now to elevate your internet experience.","Unlock seamless internet access with our optimized node subscription. Featuring SS, SSR, Vmess compatibility and more, ensuring stable and fast connectivity. Subscribe for global network access.",Open Source Tool,"Python
+
+
+
+
+
+        1,485
+
+
+
+
+
+        241
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://i.ibb.co/g32RmJy/netlify.png; https://i.ibb.co/g32RmJy/netlify.png,,1485,2022-09-30T07:27:27Z
