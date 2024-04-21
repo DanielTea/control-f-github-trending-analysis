@@ -10790,3 +10790,182 @@ Node information includes a high-speed node quantity of 200, with explicit node 
 
 
         20 stars today",https://i.ibb.co/g32RmJy/netlify.png; https://i.ibb.co/g32RmJy/netlify.png,,1485,2022-09-30T07:27:27Z
+2024-04-21,https://github.com/moest-np/center-randomize,https://raw.githubusercontent.com/moest-np/center-randomize/main/README.md,"The Exam Center Randomization script is designed to efficiently assign exam centers to students, ensuring fair and practical distributions. It involves preparing input files, running the program (potentially multiple times to ensure no school goes unassigned and to achieve even distribution), performing sanity checks, and making minimal manual reassignments as needed. Allocation guidelines prioritize proximity, prevent students from the same school from being clustered in one center, avoid assigning a center within the same school, and forbid centers under the same management or with prior issues. Parameters include distance thresholds, minimum students per center, and a capacity stretch factor. Input files contain school and center data, including location coordinates and capacities, while output displays center allocations, including any over-capacity cases and unassigned students.",Streamlining Exam Center Allocation: A Guide to Randomization,"Efficiently assigning exam centers to students can be a daunting task, but with the right script, it becomes manageable. By preparing input files, running a randomization program, and conducting sanity checks, administrators can ensure equitable distribution. Essential steps include considering geographic proximity, capacity restrictions, and avoiding conflicts of interest. The process highlights the significance of flexible yet precise allocation guidelines to accommodate every student adequately.","Discover how to streamline the exam center allocation process using a script that considers student distribution, center capacity, and geographic proximity for fair and practical assignments.",AI Task Automation,"Python
+
+
+
+
+
+        272
+
+
+
+
+
+        85
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        65 stars today",,,272,2024-04-05T17:06:05Z
+2024-04-21,https://github.com/langchain-ai/langgraph,https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md,"LangGraph is a tool for creating stateful, multi-actor language models (LLMs) applications, enhancing the functionality of LangChain with support for complex flows including cycles, not just Directed Acyclic Graphs (DAGs). It's designed to facilitate applications that require agent-like behaviors, where LLMs respond dynamically in loops. Key features include the ability to coordinate multiple actors over computation steps in a cyclic manner, inspired by systems like Pregel and Apache Beam, with a user interface reminiscent of NetworkX. Installation is straightforward via pip, and usage examples illustrate how to manage conversation states, implement conditional logic, and interact with external tools. LangGraph also supports advanced scenarios such as streaming output from nodes, persistence, human-in-the-loop interactions, and customizable agent behaviors. It offers visualization tools for clarity, and various guides and examples are provided for specialized functions like asynchronous operations, token streaming, and custom tool integration. LangGraph's documentation covers the essential APIs, emphasizing its flexibility and potential for building intricate LLM-powered applications.",Revolutionizing Multi-Actor Language Models with LangGraph,"LangGraph is transforming the way developers approach building complex, stateful language applications. By extending LangChain's capabilities, it enables multi-actor coordination and cyclic computations, offering a powerful alternative to traditional DAG workflows. This innovative library, inspired by models like Pregel and Apache Beam, prioritizes cycles for agent-like behaviors, setting a new standard for language agent constructions. Dive into how LangGraph's state management and conditional edges facilitate creating more dynamic and interactive language models.","Explore how LangGraph leverages the power of LangChain to build stateful, multi-actor language applications. Learn about its unique approach to cycles, state management, and conditional edges for advanced language modeling.",Collaborative AI Framework,"Python
+
+
+
+
+
+        2,491
+
+
+
+
+
+        337
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        27 stars today",,,2491,2023-08-09T18:33:12Z
+2024-04-21,https://github.com/Ultimaker/Cura,https://raw.githubusercontent.com/Ultimaker/Cura/main/README.md,"Ultimaker Cura is a state-of-the-art slicer application designed to prepare 3D models for 3D printing. It boasts a plethora of settings and community-managed print profiles, positioning it as a leader for successful 3D printing projects. The app invites contributions in areas such as printer profiles and translations, providing links for those interested in contributing to these aspects. The visual presentation includes badges and buttons for various metrics and functionalities, including issues, pull requests, downloads, and contributions, alongside a security scorecard badge from OpenSSF. Images and badges serve to provide quick access to resources, reports, and the software's community-driven features.",Mastering 3D Printing: A Guide to Ultimaker Cura's Advanced Features,"Discover the powerful features of Ultimaker Cura, the leading slicer software for 3D printing projects. With its vast array of settings and community-managed print profiles, Ultimaker Cura turns intricate 3D models into reality. Whether you're contributing printer profiles or translations, this tool ensures your 3D printing success. Dive into a world where your designs come to life with precision and ease. Explore how Ultimaker Cura stands out in the 3D printing community.","Learn about the features that make Ultimaker Cura the go-to slicer software for 3D printing. Explore settings, print profiles, and how to contribute to the community.",3D Image Rendering,"Python
+
+
+
+
+
+        5,785
+
+
+
+
+
+        2,013
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",,,5785,2014-06-16T12:55:31Z
+2024-04-21,https://github.com/MetaCubeX/mihomo,https://raw.githubusercontent.com/MetaCubeX/mihomo/main/README.md,"Mihomo is a Python pydantic model for the Honkai: Star Rail game, enabling type hints and autocompletion for data parsed from the Mihomo API. It simplifies interaction with the Mihomo API, providing an easy way to fetch and process game data in two versions (v1 and v2) depending on the data format needed. Installation involves a straightforward pip command fetching from GitHub. Usage instructions detail how to fetch user data, including handling of character icon URLs and example codes to demonstrate basic fetches, including optional parameters to replace icon names with URLs for ease of access. It also includes tools for removing duplicate characters and merging character data, as well as methods for data persistence using pickle and JSON, showcasing how to save and load the processed data efficiently.",Exploring Honkai: Star Rail Data with Mihomo Python API,"Dive into the vast universe of Honkai: Star Rail data using the Mihomo Python API. This powerful pydantic model provides type hint and autocompletion support, making it easier to fetch and process game data efficiently. Learn how to install it, utilize its basic and advanced features, and leverage tools for data manipulation and persistence. Whether you're dealing with V1 or V2 data formats, Mihomo streamlines your data fetching and processing tasks.","Discover how to efficiently handle Honkai: Star Rail data with the Mihomo Python API, offering enhanced support for type hints, autocompletion, and seamless data manipulation.",Python Libraries Collection,"Python
+
+
+
+
+
+        12,414
+
+
+
+
+
+        2,260
+
+
+
+
+
+        26 stars today",,,12414,2021-05-20T11:06:33Z
+2024-04-21,https://github.com/liming-ai/ControlNet_Plus_Plus,https://raw.githubusercontent.com/liming-ai/ControlNet_Plus_Plus/main/README.md,"The GitHub repository hosts the source code for the Nerfies website, which is linked. It asks to cite a specific 2021 ICCV paper by Park, Sinha, Barron, Bouaziz, Goldman, Seitz, and Martin-Brualla titled ""Nerfies: Deformable Neural Radiance Fields"" if the Nerfies project proves useful for someone's work. Additionally, the content of the Nerfies website is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License, as indicated by a badge and a link to the license details. This license allows for sharing and adapting the work, provided proper credit is given and any derivatives are shared under the same license.",Nerfies: Revolutionizing Digital Imaging with Neural Radiance Fields,"Nerfies represent a cutting-edge development in digital imaging, encapsulating deformable neural radiance fields for dynamic 3D environments. Originating from a collaborative effort among top researchers, their work is pivotal for tech aficionados and professionals in the field. The Nerfies project, accessible through its dedicated website, encourages scholarly citations, ensuring academic integrity and further innovation. Its open-source code fosters a community-driven approach to improving and implementing these advanced imaging techniques. Furthermore, the project's commitment to the Creative Commons Attribution-ShareAlike 4.0 International License underscores its dedication to knowledge sharing and collaboration.","Explore the innovative world of Nerfies: a groundbreaking project in deformable neural radiance fields for 3D imaging, developed by leading researchers and available under the Creative Commons License.",3D Image Rendering,"Python
+
+
+
+
+
+        104
+
+
+
+
+
+        7
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        27 stars today",https://i.creativecommons.org/l/by-sa/4.0/88x31.png,,104,2024-04-11T16:18:15Z
+2024-04-21,https://github.com/embeddings-benchmark/mteb,https://raw.githubusercontent.com/embeddings-benchmark/mteb/main/README.md,"The Massive Text Embedding Benchmark (MTEB) is a comprehensive framework introduced for evaluating text embedding models across a wide spectrum of tasks, datasets, and languages. Users can install MTEB via pip and utilize it in Python scripts or via the command line interface (CLI), enabling them to specify tasks, models, and datasets for evaluation. MTEB supports advanced usage scenarios such as dataset selection by task, category, or language, evaluation on specific splits, and the use of custom models. Additionally, it includes guidance on evaluating custom datasets and tasks, contributing new datasets, and submitting models to an interactive leaderboard. The benchmark aims to facilitate extensive comparison and improvement of text embedding techniques, with its details and usage published in a series of research papers. MTEB encourages open contributions and extensions, including adding new tasks or models, and is accessible for development and contributions from the broader research community.",Unveiling MTEB: The Ultimate Guide to Massive Text Embedding Benchmarking,"Discover the power of MTEB, the Massive Text Embedding Benchmark, designed to elevate your text embedding projects to new heights. Learn how to effortlessly install, utilize, and contribute to MTEB for advancing text embedding research. Explore advanced usage, dataset selection, and the process of evaluating custom models or datasets. Engage with a comprehensive toolkit that supports a wide array of tasks, languages, and models, aimed at fostering innovation and excellence in the field of text embedding.","Explore MTEB: A comprehensive guide on installing, utilizing, and contributing to the Massive Text Embedding Benchmark for advanced text embedding research and projects.",Deep Learning Tool,"Python
+
+
+
+
+
+        1,357
+
+
+
+
+
+        149
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        9 stars today",https://raw.githubusercontent.com/embeddings-benchmark/mteb/main/./docs/images/hf_logo.png,,1357,2022-04-05T08:25:47Z
+2024-04-21,https://github.com/google-deepmind/penzai,https://raw.githubusercontent.com/google-deepmind/penzai/main/README.md,"Penzai, a portmanteau of the Chinese words for ""tray"" and ""planting"", is now a modern JAX library designed for creating, analyzing, and modifying neural network models as legible, functional pytree data structures. It excels in post-training research applications such as reverse-engineering, model component ablation, activation inspection, and more. Distinct from other neural network libraries, Penzai emphasizes transparency and interactivity, allowing users to fully understand model operations and easily integrate runtime adjustments. It offers a modular suite including a combinator-based neural network library, an interactive pretty-printer, complex pytree traversal tools, a named axis system for easy vectorization, and a system for managing side arguments and state. Penzai is accessible for installation via pip, and it promotes an interactive setup for enhanced usability in Jupyter notebooks or IPython environments, complete with examples and detailed tutorials for newcomers.",Exploring Penzai: Revolutionizing Neural Network Research with JAX,"Penzai is not just another JAX library; it's a transformative tool for neural network research, enabling easy manipulation, visualization, and analysis of models post-training. Its unique approach offers a modular suite of tools for a deep dive into model structures and behaviors, surpassing traditional neural network libraries by focusing on model flexibility and interactive debug capabilities. With features like `penzai.nn` for a combinator-based NN library, `penzai.treescope` for enhanced pytree visualization, and `penzai.core.selectors` for advanced model editing, Penzai stands out as a crucial resource for researchers and engineers looking to push the boundaries of machine learning and AI development.","Discover Penzai, a JAX library designed to revolutionize neural network research by simplifying model post-training manipulation, visualization, and analysis. Learn how it compares to other libraries and its unique features for researchers.",Deep Learning Tool,"Python
+
+
+
+
+
+        807
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+        204 stars today",https://raw.githubusercontent.com/google-deepmind/penzai/main/docs/_static/readme_teaser.png,,808,2024-04-04T01:13:03Z
