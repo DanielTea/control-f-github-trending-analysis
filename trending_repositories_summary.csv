@@ -10969,3 +10969,31 @@ Node information includes a high-speed node quantity of 200, with explicit node 
 
 
         204 stars today",https://raw.githubusercontent.com/google-deepmind/penzai/main/docs/_static/readme_teaser.png,,808,2024-04-04T01:13:03Z
+2024-04-22,https://github.com/benbusby/whoogle-search,https://raw.githubusercontent.com/benbusby/whoogle-search/main/README.md,"Whoogle Search is a self-hostable web search application that fetches Google search results but eliminates ads, JavaScript, AMP links, cookies, and IP address tracking, enhancing privacy and user experience. It's deployable via Docker and other methods such as Heroku, Render.com, Repl.it, Fly.io, Koyeb, pipx, pip, and manually, supporting multiple environments via easily configurable variables. Features include ad-free results, support for Tor and proxies, autocomplete suggestions, POST request queries, and light/dark/system themes. Whoogle is customizable with user-defined ""bangs"" for quick searches on specific sites and offers optional location-based searching. Despite utilizing server-side cookies to store non-sensitive settings and possibly using third-party JavaScript for features like search suggestions, Whoogle can work with JavaScript disabled, affirming its stance on privacy. Deployments vary in complexity, from quick Heroku setups to Docker builds and manual configurations for advanced users. It also includes a detailed guide for reverse proxying with Nginx.",Discover a Privacy-Focused Search Engine: Introducing Whoogle,"Experience Google search results with a twist – no ads, no tracking, just pure information. Whoogle Search allows you to deploy your own instance of Google Search sans privacy concerns, ads, or tracking, making it a safer way to navigate the web. Supporting a variety of deployment options including Docker, Heroku, and more, Whoogle is customizable and can be set as your primary search engine on any device. With features like no ads, no JavaScript requirements, and the ability to filter results by time, Whoogle offers a superior, privacy-focused searching experience. Explore how to deploy and configure Whoogle to reclaim your online privacy today.","Learn about Whoogle Search – a privacy-focused search engine alternative that eliminates ads, tracking, and Javascript. Deploy your own instance for a secure, customizable Google Search experience.",Privacy-focused Search Engine,"Python
+
+
+
+
+
+        8,771
+
+
+
+
+
+        886
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/banner.png; https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/screenshot_desktop.png; https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/screenshot_mobile.png,,8771,2020-01-21T20:22:33Z
