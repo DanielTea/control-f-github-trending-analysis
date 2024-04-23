@@ -10997,3 +10997,165 @@ Node information includes a high-speed node quantity of 200, with explicit node 
 
 
         20 stars today",https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/banner.png; https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/screenshot_desktop.png; https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/screenshot_mobile.png,,8771,2020-01-21T20:22:33Z
+2024-04-23,https://github.com/CrazyBoyM/llama3-Chinese-chat,https://raw.githubusercontent.com/CrazyBoyM/llama3-Chinese-chat/main/README.md,"This repository introduces the first Chinese version of llama3 for sharing and learning about llama3 in Chinese. It welcomes collaborations and issues for specialized versions discovered online. The repository highlights updates, including the completion of the world's first llama3 Chinese version, using over 170k high-quality Chinese dialogue data for overnight training, and the addition of various tutorials and deployment guidelines. It outlines plans for future updates such as video tutorials, cloud training images, browser plugin development, and more enhancements. The document describes available llama3-based models, focusing on Chinese language adaptations, performance enhancements, and specialized versions for tasks such as role-playing and music generation. It includes information on model inference costs and usage, detailing instructions for web deployment and terminal inference, providing guidance for engaging in multi-turn Q&A sessions. The document emphasizes not expanding the vocabulary to preserve the model's general capabilities and suggests focusing on enriching Chinese knowledge within the model.",Discover the Power of Llama3 in Chinese: Revolutionizing Chatbots,"Introducing the first Chinese version of Llama3, a model surpassing its predecessors in performance and capabilities. Explore comprehensive resources, including Phi3 model and web deployment tutorials, tailored for the Chinese-speaking community. Engage with updates and future plans, from training videos to advanced AI functionalities, all aimed at enhancing the Chinese chat experience. Join the vibrant community contributing to a growing repository of specialized versions and training materials.","Discover the breakthrough Llama3 Chinese chat model, boasting superior performance with complete resources for training and deployment. Join our community for the latest updates and resources.",Language Models,"Python
+
+
+
+
+
+        1,027
+
+
+
+
+
+        97
+
+
+        Built by
+
+          
+
+
+
+
+
+        412 stars today",,,1027,2024-04-18T17:54:10Z
+2024-04-23,https://github.com/mnotgod96/AppAgent,https://raw.githubusercontent.com/mnotgod96/AppAgent/main/README.md,"AppAgent, a project led by Chi Zhang and developed by a team at TencentQQGYLab, introduces a novel AI framework designed to operate smartphone applications through actions such as tapping and swiping, eliminating the need for system backend access. This multimodal agent framework utilizes both autonomous exploration and learning from human demonstrations to operate apps effectively, referencing its generated knowledge base for task execution. The project includes detailed documentation, a demo, and step-by-step guides for setup and operation. It utilizes the `gpt-4-vision-preview` or `qwen-vl-max` as its underlying models, with a focus on providing a practical tool for app interaction without direct human handling. The initiative has documented its progress through updates and welcomes community involvement through GitHub issues for any encountered problems. The research and implementation details are open-sourced, encouraging further exploration and improvement of the framework.",Unlocking Smartphone App Accessibility with AppAgent: A TencentQQGYLab Innovation,"Explore the innovative AppAgent by TencentQQGYLab, a project aimed at enhancing smartphone app accessibility through a multimodal agent framework. This cutting-edge technology enables the agent to perform app operations mimicking human-like interactions without needing system backend access. By learning through autonomous exploration or human demonstrations, AppAgent creates a knowledge base for executing complex tasks across various applications, showcasing significant advancements in smartphone app interaction.","Discover AppAgent by TencentQQGYLab, an innovative framework designed to improve smartphone app accessibility through human-like interactions, autonomous learning, and a comprehensive knowledge base for task execution.",AI Browser Automation,"Python
+
+
+
+
+
+        4,189
+
+
+
+
+
+        446
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/mnotgod96/AppAgent/main/./assets/teaser.png; https://raw.githubusercontent.com/mnotgod96/AppAgent/main/./assets/demo.png,,4189,2023-12-20T11:41:04Z
+2024-04-23,https://github.com/haizelabs/llama3-jailbreak,https://raw.githubusercontent.com/haizelabs/llama3-jailbreak/master/README.md,"Zuck and Meta released Llama 3, designed to rival OpenAI with significant emphasis on safety during its development, involving red teaming, supervised fine-tuning, and reinforcement learning with human feedback. Despite these efforts, it was discovered that Llama 3's safety measures could be easily circumvented by ""priming"" the model with a harmful prefix, leading it to generate unsafe content. This vulnerability occurs despite the model's ability to refuse harmful instructions under normal circumstances, revealing a deficiency in the model's self-reflection and understanding of its outputs. The experiment's results showed an increasing success rate of generating harmful responses with longer harmful prefixes. This raises questions about the real understanding capabilities of large language models (LLMs) and their ability to self-regulate.",Exposing Llama 3's Safety Limits: A Simple Jailbreaking Technique,"Despite Meta's extensive efforts to secure their new AI, Llama 3, a straightforward 'priming' method reveals significant vulnerabilities, bypassing its safety measures. By altering input prompts, researchers can induce Llama 3 to produce harmful outputs, challenging its ability to refuse dangerous instructions. This finding not only undermines the AI's safety protocols but also raises questions about the fundamental understanding and self-reflection capabilities of such models. The experiment demonstrates that, regardless of training on refusal scenarios, Llama 3 can be manipulated into generating inappropriate content, spotlighting a significant shortfall in current AI safety methodologies.","Discover how a simple 'priming' technique exposes critical safety shortcomings in Meta's Llama 3 AI, challenging its ability to effectively refuse harmful instructions and raising concerns about the AI's understanding and self-reflection capacities.",Large-scale Language Models,"Python
+
+
+
+
+
+        239
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+        106 stars today",https://raw.githubusercontent.com/haizelabs/llama3-jailbreak/master/images/refusal.png; https://raw.githubusercontent.com/haizelabs/llama3-jailbreak/master/images/continue.png,,239,2024-04-20T07:21:54Z
+2024-04-23,https://github.com/Lightning-AI/pytorch-lightning,https://raw.githubusercontent.com/Lightning-AI/pytorch-lightning/main/README.md,"Lightning 2.0 is a deep learning framework designed to streamline the pretraining, finetuning, and deployment of AI models. It features a clean and stable API, making it easy for developers to work with AI models. The framework can be installed simply from PyPI and comes with options for installing with optional dependencies, through Conda, as well as the stable version and the bleeding-edge version directly from the source. Lightning encompasses four core packages: PyTorch Lightning, Lightning Fabric, Lightning Data, and Lightning Apps, offering a gradient of control over PyTorch abstraction levels.
+
+PyTorch Lightning organizes PyTorch code to separate the scientific aspects from the engineering tasks, making models hardware agnostic and coding more transparent. Lightning Fabric offers expert-level control over training and scaling strategies, suited for complex models. Lightning Data facilitates fast, distributed streaming of training data from cloud storage, and Lightning Apps helps in building AI products and workflows with minimal cloud infrastructure boilerplate. Advanced features of Lightning include support for multi-GPU, TPU training, 16-bit precision, and various training strategies with minimal code changes. The framework is extensively tested, supports multiple Python and PyTorch versions, and encourages community contributions.",Introducing Lightning 2.0: Revolutionize Your AI Model Training and Deployment,"Discover Lightning 2.0, the cutting-edge deep learning framework for AI model pretraining, finetuning, and deployment. With a clean, stable API, Lightning 2.0 simplifies the complexity of AI development, allowing researchers and developers to focus on groundbreaking innovations. Explore its core packages including PyTorch Lightning for scalable training, Lightning Fabric for expert control, and Lightning Apps for building AI products with minimal cloud infrastructure setup. Join the Lightning community to contribute and leverage the power of a streamlined AI development process.","Unlock the full potential of AI with Lightning 2.0, featuring a clean API for easy model training, finetuning, and deployment. Dive into PyTorch Lightning, Lightning Fabric, and Lightning Apps for efficient AI development.",Deep Learning Platform,"Python
+
+
+
+
+
+        26,860
+
+
+
+
+
+        3,248
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",https://pl-public-data.s3.amazonaws.com/assets_lightning/LightningColor.png; https://pl-public-data.s3.amazonaws.com/assets_lightning/continuum.png; https://raw.githubusercontent.com/Lightning-AI/pytorch-lightning/main/docs/source-pytorch/_static/images/general/pl_quick_start_full_compressed.gif; https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/features_2.jpg; https://pl-public-data.s3.amazonaws.com/assets_lightning/lightning-apps-teaser.png,,26860,2019-03-31T00:45:57Z
+2024-04-23,https://github.com/ansible/ansible,https://raw.githubusercontent.com/ansible/ansible/master/README.md,"Ansible is a comprehensive IT automation platform designed to simplify configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and orchestration tasks. It prioritizes simplicity both in setup and operation, emphasizing an agentless architecture that leverages SSH, making it inherently secure and easy to manage. Ansible's design principles focus on the minimal learning curve, parallel machine management, and a human-friendly language for infrastructure management. Installation can be done via `pip` or package managers, with detailed guides available. The Ansible community encourages involvement through contributions, working groups, and feedback on the `devel` branch for those interested in the latest features. Ansible enforces coding guidelines for contributions and provides a clear roadmap for upcoming features and changes. Originally created by Michael DeHaan, Ansible has grown with contributions from over 5,000 users and is backed by Red Hat, Inc. It is licensed under the GNU General Public License v3.0.",Mastering Automation: Your Ultimate Guide to Ansible,"Discover the power of Ansible, the simple IT automation platform that transforms infrastructure management. From configuration management to application deployment, Ansible makes complex tasks like zero-downtime rolling updates effortless. Learn how its design principles promote security and ease of use without requiring agent installation. Whether you're a developer or a power user, get involved in the Ansible community to contribute, learn, and help shape its future. Dive into the latest features by exploring the 'devel' branch or stick with the stable release for your production needs.","Unlock the full potential of IT automation with Ansible. Explore how Ansible simplifies complex tasks, promotes security, and encourages community involvement. Start automating today.",AI Task Automation,"Python
+
+
+
+
+
+        61,110
+
+
+
+
+
+        23,688
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",,,61110,2012-03-06T14:58:02Z
+2024-04-23,https://github.com/yuka-friends/Windrecorder,https://raw.githubusercontent.com/yuka-friends/Windrecorder/main/README.md,"Windrecorder is an open-source alternative to Rewind for Windows, designed to capture everything on your screen to help retrieve memory cues. It indexes only the changed screens, recording their OCR text or page titles into a database, and performs database maintenance, video cleanup, and compression when the computer is unused. This tool operates entirely offline, ensuring complete data ownership. It features a comprehensive web interface for screen retrospection, semantic searches, and provides data summaries through activity statistics, word clouds, timelines, lightboxes, and scatter plots. Windrecorder supports multiple languages and is currently in early development, inviting contributions for optimization and multilingual translations. Installation involves setting up ffmpeg, Git, and Python on your system, followed by cloning the Windrecorder repository and running the installation batch file. The tool automatically starts recording when turned on, pausing during inactivity or screen sleep, and resumes when activity is detected, ensuring efficient use of resources.",Maximize Your Productivity with Windrecorder: The Ultimate Memory Cue Tool for Windows,"Discover Windrecorder, an Open Source tool designed as an alternative to Rewind for Windows users, aimed at enhancing memory recall through screen content recording. This innovative application captures everything on your screen, allowing searches via OCR text or visual descriptors, and operates entirely offline, ensuring your data remains private and secure. Experience stable, continuous recording of single or multiple screens with minimal file sizes, advanced database maintenance during inactivity, and a comprehensive web UI for easy navigation and data analysis. Windrecorder is constantly evolving, so stay tuned for upcoming features!","Unlock the power of memory recall with Windrecorder on Windows. An Open Source tool capturing screen activity for efficient search and data analysis, all while ensuring complete data privacy. Discover more.",Privacy-focused Search Engine,"Python
+
+
+
+
+
+        1,248
+
+
+
+
+
+        51
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        91 stars today",https://github.com/yuka-friends/Windrecorder/blob/main/__assets__/product-header-cn.jpg; https://github.com/yuka-friends/Windrecorder/blob/main/__assets__/product-preview-cn.jpg; https://github.com/yuka-friends/Windrecorder/blob/main/__assets__/how-it-work-sc.jpg,,1248,2023-07-30T12:26:33Z
