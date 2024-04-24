@@ -11159,3 +11159,220 @@ PyTorch Lightning organizes PyTorch code to separate the scientific aspects from
 
 
         91 stars today",https://github.com/yuka-friends/Windrecorder/blob/main/__assets__/product-header-cn.jpg; https://github.com/yuka-friends/Windrecorder/blob/main/__assets__/product-preview-cn.jpg; https://github.com/yuka-friends/Windrecorder/blob/main/__assets__/how-it-work-sc.jpg,,1248,2023-07-30T12:26:33Z
+2024-04-24,https://github.com/frappe/erpnext,https://raw.githubusercontent.com/frappe/erpnext/master/README.md,"ERPNext is an open-source enterprise resource planning (ERP) software that simplifies processes such as accounting, inventory, manufacturing, CRM, sales, purchase, project management, and HRMS, requiring MariaDB. Developed on the Frappe Framework, which utilizes Python & JavaScript, ERPNext supports easy installation through a script that installs dependencies and sets up passwords for various users, including the ERPNext ""Administrator,"" the MariaDB root user, and the frappe user. Additionally, a virtual image is available for local system use. Its source code is licensed under GNU General Public License (v3), and the documentation is Creative Commons licensed. Contributing to ERPNext involves adhering to specific guidelines, including issues, security vulnerabilities, pull requests, translations, and chart of accounts development. Frappe Technologies owns the ERPNext trademarks, setting policies for their usage focused on promoting and improving the software while distinguishing official from unofficial projects and preventing misuse in commercial activities. Permission is required for using the ERPNext name or logo, especially in domains, to avoid implying endorsement or affiliation with Frappe Technologies or the ERPNext open source project.",Unlocking Business Potential with ERPNext: A Comprehensive Overview,"Discover how ERPNext simplifies ERP for businesses, integrating functions like Accounting, Inventory, CRM, and more on the Frappe Framework. This powerful, open-source solution, optimized for MariaDB, streamlines operations from Sales to HRMS, enhancing productivity. With an easy installation script and virtual image options, ERPNext is accessible for businesses of all sizes. Dive deeper into ERPNext's capabilities by exploring its user guide and joining the discussion forum. Embrace the future of business management with ERPNext.","Explore ERPNext, the comprehensive ERP solution built on the Frappe Framework. Learn how it integrates various business functions, from Accounting to HRMS, for enhanced operational efficiency.",Open Source ERP,"Python
+
+
+
+
+
+        16,925
+
+
+
+
+
+        6,488
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",https://github.com/frappe/design/blob/master/logos/logo-2019/erpnext-logo.png; https://travis-ci.com/frappe/erpnext.png,,16925,2011-06-08T08:20:56Z
+2024-04-24,https://github.com/UnicomAI/Unichat-llama3-Chinese,https://raw.githubusercontent.com/UnicomAI/Unichat-llama3-Chinese/main/README.md,"The Unichat-llama3-Chinese, developed by China Unicom's AI Innovation Center, is the industry's first Llama3 Chinese-specific instruction fine-tuned model, launched on April 19, 2024. It is based on Meta Llama 3 and enhanced with Chinese data for high-quality Chinese question-and-answer capabilities, maintaining the original 8K context length, with a 64K version to be released later. Upcoming releases include a 70-billion-parameter version fine-tuned for Chinese, a long-text variant, and a version with secondary pre-training in Chinese. Data for model training includes high-quality command data from various fields, carefully screened for model fine-tuning. Examples demonstrate the model's capability in handling historical, mathematical, and ethical queries, as well as suggesting AI-enabled solutions for healthcare advancement. The environment requires Python 3.8+, transformers 4.37.0, torch 2.0.1, and CUDA 11.7. Instructions cover model download, environment setup, and inference code execution. Available models include Unichat-llama3-Chinese-8B with download links from Hugging Face and ModelScope. The document also suggests web UI deployment for text generation and local deployment frameworks, along with fine-tuning methods using various frameworks.",Exploring the Unichat-llama3-Chinese Model: A Milestone in AI Language Processing,"China's Unicom AI Innovation Center has released the first llama3 Chinese instruction fine-tuned model, enhancing Meta Llama 3 with Chinese training data for high-quality Mandarin question-answering capabilities. This model maintains the original 8K context length and plans to support a 64K version soon. Future releases will include a 70-billion parameter version tailored for lengthy texts and a version with secondary Chinese pre-training, addressing various domains and industries with high-quality instruction data.","Discover the groundbreaking Unichat-llama3-Chinese AI model by China's Unicom AI, a high-quality Mandarin QA model based on Meta Llama 3 enriched with Chinese data, promising advancements in AI-powered language processing.",Language Models,"Python
+
+
+
+
+
+        155
+
+
+
+
+
+        10
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        41 stars today",https://raw.githubusercontent.com/UnicomAI/Unichat-llama3-Chinese/main/assets/logo.jpg,,155,2024-04-19T06:52:54Z
+2024-04-24,https://github.com/prometeydev/Prometheus,https://raw.githubusercontent.com/prometeydev/Prometheus/main/README.md,"Prometheus is a program designed with a focus on cybersecurity testing and educational purposes, cautioning users against illegal or malicious use. The free version offers numerous features including a GUI builder, startup persistence, fake errors, code obfuscation, and extensive data theft capabilities like session tokens, passwords, cookies, and more from various platforms including Discord, Steam, and several browsers. The VIP version boasts advanced functions such as UAC bypass, custom icons, disabling Windows Defender, anti-VM measures, and cryptocurrency miners. Usage requires Windows 7 or newer, Python 3.10, and an internet connection. The stub, or payload, supports various settings for customization and evasion techniques. Instructions for building the stub are provided, emphasizing the use for educational and research purposes to prevent misuse.",Unlock Advanced Security Features with Prometheus: A Comprehensive Guide,"Discover the power of Prometheus, an advanced security tool designed for comprehensive protection and surveillance. Learn how to leverage its free and VIP features, from GUI builders and file pumpers to crypt stealers and keyloggers, to safeguard your digital assets. Understand its installation requirements and step-by-step guide to maximize your security measures effectively. Dive into the world of enhanced cybersecurity with Prometheus, and ensure your digital environment is robustly secured.","Explore the advanced security capabilities of Prometheus, offering both free and VIP features for ultimate digital protection. Get a detailed guide on its installation, features, and benefits for a fortified cybersecurity posture.",Cybersecurity Tool,"Python
+
+
+
+
+
+        245
+
+
+
+
+
+        162
+
+
+        Built by
+
+          
+
+
+
+
+
+        15 stars today",https://raw.githubusercontent.com/prometeydev/Prometheus/main/logo.png; https://github.com/prometeydev/Prometheus/blob/main/window.png; https://github.com/prometeydev/Prometheus/blob/main/msg.png; https://github.com/prometeydev/Prometheus/blob/main/virustotal.png,,245,2023-11-24T00:41:48Z
+2024-04-24,https://github.com/Evil0ctal/Douyin_TikTok_Download_API,https://raw.githubusercontent.com/Evil0ctal/Douyin_TikTok_Download_API/main/README.md,"The ""Douyin_TikTok_Download_API"" is a ready-to-use, high-performance, asynchronous data scraping tool for platforms like Douyin (TikTok's Chinese version), TikTok, and Bilibili, enabling API calls, online bulk parsing, and downloading. It supports asynchronous file IO for downloading, annotates endpoints with demo values, and has restructured project files for better organization. Major changes include the removal of outdated Bilibili code, potential additions of Kuaishou and Xigua video analysis, and updates needed for the README file and iOS shortcuts to align with the latest API responses. It allows for easy integration into other projects via a pip package and is designed for various applications, from downloading videos to data analysis. The API, accessible online, facilitates the extraction of video data and downloading without watermarks. Deployment can be accomplished via Linux or Docker, and contributors have significantly enhanced its capabilities.",Unlock the Power of Douyin and TikTok: A Comprehensive Guide to Download API,"Explore the ultimate solution for downloading content from Douyin, TikTok, and Bilibili with the Douyin_TikTok_Download_API. This high-performance, async scraping tool is ready to use out of the box, offering API calls and online bulk parsing for effortless downloads. It's designed for developers seeking to integrate video downloading capabilities into their applications seamlessly. Navigate through the complexities of content retrieval with our easy-to-use API, and dive into a world where accessing and downloading content is made simple.","Discover how to easily download videos from Douyin, TikTok, and Bilibili using Douyin_TikTok_Download_API. Learn about its async scraping mechanism, API calls, and online bulk parsing for quick content access.",Livestream Data Extraction,"Python
+
+
+
+
+
+        6,848
+
+
+
+
+
+        1,085
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://raw.githubusercontent.com/Evil0ctal/Douyin_TikTok_Download_API/main/./logo/logo192.png,,6849,2021-11-07T01:35:09Z
+2024-04-24,https://github.com/lipku/metahuman-stream,https://raw.githubusercontent.com/lipku/metahuman-stream/main/README.md,"The text introduces a streaming digital human model based on the Ernerf model, which supports audio-video synchronous dialogue with commercial viability. It highlights features like voice cloning, large model dialogue, support for various audio feature drivers (wav2vec, hubert), full-body video stitching, and compatibility with RTMP and WebRTC protocols. Installation instructions are provided for Ubuntu 20.04 with dependencies on PyTorch, CUDA, and other libraries. It covers how to run the digital human, including using RTMP servers, initiating the digital person, enabling sound cloning via services like gpt-sovits and xTTS, and how to utilize audio features using hubert. It also explains full-body video splicing, setting up background images, and using WebRTC for streaming. Docker container deployment is mentioned for easy setup. The data flow, model training files, performance analysis including frame rates and latency, and future enhancements like ChatGPT integration for dialogue are discussed. The document encourages community cooperation to enhance the project, with contact information for further engagement.",Exploring the Edge of AI: Real-Time Streaming Digital Humans with Ernerf Model,"Discover the breakthrough in AI technology with streaming digital humans based on the Ernerf model, achieving audio-video synchronous dialogue for commercial use. This cutting-edge development supports voice cloning, large model dialogue, and integrates advanced audio feature driving technologies like wav2vec and hubert. Experience the seamless interaction with full-body video splicing, optimized for RTMP and WebRTC platforms. A step forward in digital communication, showcasing the capabilities of digital replication and interactive technology.","Explore how streaming digital humans based on the Ernerf model are revolutionizing audio-video synchronized dialogues for commercial applications with voice cloning, full-body video splicing, and more.",AI Development Platform,"Python
+
+
+
+
+
+        433
+
+
+
+
+
+        102
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/lipku/metahuman-stream/main/assets/dataflow.png,,433,2023-12-19T01:32:46Z
+2024-04-24,https://github.com/UKPLab/sentence-transformers,https://raw.githubusercontent.com/UKPLab/sentence-transformers/master/README.md,"The Sentence Transformers framework offers an efficient way to compute dense vector representations for sentences, paragraphs, and images, using transformer networks like BERT and RoBERTa. It supports more than 100 languages and includes state-of-the-art pretrained models tailored for various use-cases, with the capability for users to fine-tune custom models for optimized performance in specific tasks. Installation is straightforward via pip or conda, with full documentation available online. The package also allows for the easy integration of GPU support for enhanced performance. Key applications include computing sentence embeddings, semantic textual similarity, clustering, paraphrase mining, and more, across different languages and even including image search and clustering. Developers can set up a project environment for contributions and are encouraged to cite relevant publications if the repository aids their research or project.",Harnessing the Power of BERT for Multilingual Embeddings with Sentence Transformers,"Discover how Sentence Transformers leverage BERT, RoBERTa, and XLM-RoBERTa for creating state-of-the-art sentence, paragraph, and image embeddings. This framework not only offers easy computation of dense vector representations but also provides over 100 languages support with fine-tuning capabilities for custom embeddings. Dive into our documentation and start integrating cutting-edge pretrained models or fine-tuning your specific model to enhance your application's language understanding and representation abilities today.","Explore Sentence Transformers: a powerful framework for computing dense vector representations of sentences, paragraphs, and images across 100+ languages using transformer networks like BERT. Perfect for enhancing applications with state-of-the-art language models.",Natural Language Processing,"Python
+
+
+
+
+
+        13,772
+
+
+
+
+
+        2,328
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",,,13772,2019-07-24T10:53:51Z
+2024-04-24,https://github.com/g1879/DrissionPage,https://raw.githubusercontent.com/g1879/DrissionPage/master/README.md,"DrissionPage is a Python-based web automation tool allowing for efficient web page control and data packet management by merging browser automation's convenience with the high efficiency of HTTP requests. This combination ensures both fast writing and execution capabilities, significantly enhancing development and operational efficiency. Unique for its fully self-developed core, DrissionPage eliminates the need for webdrivers and different browser version drivers, supports working across iframes, and can operate on multiple tabs simultaneously without active window requirements. The tool boasts of improved speed, simplified element location, auto-retry functions for unstable networks, and powerful download capabilities. DrissionPage's minimalist syntax and integration of common functions make coding elegant and development friendlier for beginners. It further enhances the user experience with built-in configurations, the lxml parsing engine for faster processing, and the Page Object Model (POM) for easy testing and expansion. The project, regularly updated on Gitee, underscores the importance of legal and ethical usage, urging users to respect legal regulations and moral constraints.",DrissionPage: Revolutionizing Web Automation with Python,"Discover how DrissionPage combines the power of browser automation and data request efficacy in one Python library. With a self-developed core, DrissionPage offers seamless navigation across iframes, multiple tab operations without switching, and enhanced performance without Selenium's limitations. Its user-friendly syntax and powerful capabilities make web page automation accessible to novices and efficient for experts. Experience elegant coding with minimal effort and maximum efficiency.","Explore DrissionPage, the Python-based tool transforming web page automation by blending browser control and data requests. Learn how its unique features, like iframe navigation and Selenium-free operation, simplify web automation.",AI Browser Automation,"Python
+
+
+
+
+
+        5,095
+
+
+
+
+
+        520
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        27 stars today",https://gitee.com/g1879/DrissionPageMD/raw/master/static/img/code2.jpg,,5095,2020-05-21T09:43:59Z
+2024-04-24,https://github.com/yogeshojha/rengine,https://raw.githubusercontent.com/yogeshojha/rengine/master/README.md,"This text introduces reNgine 2.0-Jasper, a major upgrade to the reNgine web application reconnaissance suite designed for security professionals, penetration testers, and bug bounty hunters. reNgine is lauded for simplifying the reconnaissance process with its highly configurable engines, efficient data correlation, continuous monitoring, an intuitive user interface, and database integration. This release marks significant contributions from [@ocervell], enhancing reNgine's capabilities with new features and refactoring. reNgine stands out for its ability to automate and improve information-gathering efforts, surpassing traditional tools and some commercial offerings in efficiency and configurability. The suite boasts advanced reconnaissance features like subdomain discovery, endpoint detection, vulnerability scanning, and OSINT capabilities, integrated with database support for refined data management and analysis. reNgine 2.0 introduces novel functionalities such as GPT-powered vulnerability and attack surface analysis, project management with role-based access control, and a streamlined process for report generation. It is open-source, with detailed documentation available, and supports a community-driven approach to continuous development and bug bounty initiatives.",Revolutionize Web App Reconnaissance with reNgine 2.0-jasper: A Comprehensive Guide,"Discover the future of web application reconnaissance with reNgine 2.0-jasper, a game-changer for security professionals, penetration testers, and bug bounty hunters. Designed to streamline and enhance the reconnaissance process, reNgine boasts configurable engines, data correlation capabilities, and an intuitive user interface. From addressing traditional tools' limitations to surpassing commercial tools' capabilities, reNgine is the comprehensive solution for automating information-gathering efforts. The release of reNgine 2.0-jasper, thanks to significant contributions from [@ocervell](https://github.com/ocervell), marks a new era in sophisticated, efficient web app reconnaissance.","Explore reNgine 2.0-jasper, the latest breakthrough in web application reconnaissance technology, offering enhanced automation and efficiency for security experts. Learn how it redefines information gathering in cybersecurity.",Cybersecurity Tool,"Python
+
+
+
+
+
+        6,723
+
+
+
+
+
+        1,045
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/yogeshojha/rengine/master/.github/screenshots/banner.gif; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/yogeshojha/rengine/master/.github/screenshots/scan_results.gif; https://user-images.githubusercontent.com/17223002/164993781-b6012995-522b-480a-a8bf-911193d35894.gif; https://user-images.githubusercontent.com/17223002/164993749-1ad343d6-8ce7-43d6-aee7-b3add0321da7.gif; https://user-images.githubusercontent.com/17223002/164993687-b63f3de8-e033-4ac0-808e-a2aa377d3cf8.gif; https://user-images.githubusercontent.com/17223002/164993689-c796c6cd-eb61-43f4-800d-08aba9740088.gif; https://user-images.githubusercontent.com/17223002/164993751-d687e88a-eb79-440f-9dc0-0ad006901620.gif; https://user-images.githubusercontent.com/17223002/164993670-466f6459-9499-498b-a9bd-526476d735a7.gif; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png,https://www.youtube.com/watch?v=Xk_YH83IQgg; https://www.youtube.com/watch?v=Xk_YH83IQgg; https://www.youtube.com/watch?v=Xk_YH83IQgg; https://www.youtube.com/watch?v=7uvP6MaQOX0; https://www.youtube.com/watch?v=A1oNOIc0h5A; https://www.youtube.com/watch?v=VwkOWqiWW5g,6724,2020-05-03T12:13:12Z
