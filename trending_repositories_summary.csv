@@ -11376,3 +11376,283 @@ PyTorch Lightning organizes PyTorch code to separate the scientific aspects from
 
 
         20 stars today",https://raw.githubusercontent.com/yogeshojha/rengine/master/.github/screenshots/banner.gif; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/yogeshojha/rengine/master/.github/screenshots/scan_results.gif; https://user-images.githubusercontent.com/17223002/164993781-b6012995-522b-480a-a8bf-911193d35894.gif; https://user-images.githubusercontent.com/17223002/164993749-1ad343d6-8ce7-43d6-aee7-b3add0321da7.gif; https://user-images.githubusercontent.com/17223002/164993687-b63f3de8-e033-4ac0-808e-a2aa377d3cf8.gif; https://user-images.githubusercontent.com/17223002/164993689-c796c6cd-eb61-43f4-800d-08aba9740088.gif; https://user-images.githubusercontent.com/17223002/164993751-d687e88a-eb79-440f-9dc0-0ad006901620.gif; https://user-images.githubusercontent.com/17223002/164993670-466f6459-9499-498b-a9bd-526476d735a7.gif; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png; https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png,https://www.youtube.com/watch?v=Xk_YH83IQgg; https://www.youtube.com/watch?v=Xk_YH83IQgg; https://www.youtube.com/watch?v=Xk_YH83IQgg; https://www.youtube.com/watch?v=7uvP6MaQOX0; https://www.youtube.com/watch?v=A1oNOIc0h5A; https://www.youtube.com/watch?v=VwkOWqiWW5g,6724,2020-05-03T12:13:12Z
+2024-04-25,https://github.com/CyanVoxel/TagStudio,https://raw.githubusercontent.com/CyanVoxel/TagStudio/main/README.md,"TagStudio, a document management system, is in the early stages of development and is designed with flexibility and user freedom in mind, avoiding proprietary formats and unnecessary file restructuring. It aims to provide a robust system for organizing and rediscovering files by utilizing tags and metadata effectively. The project, which is specifically verified to work on Windows, is open to contributors to shape its direction. It supports tag composition for detailed organization, allows for easy library creation and maintenance without moving files, and offers search functionality based on tags or metadata. The application serves as the initial implementation of this concept, with future developments focusing on improving usability, search capabilities, and metadata management. Features like handling unlinked entries and saving libraries are already in place, although some functionalities, like macros and image collages, are still under development. The project prioritizes privacy, portability, and an extensive feature set, aiming for a user-friendly interface and efficient file management across various platforms.",Introducing TagStudio: Revolutionize Your File Organization,"Discover TagStudio, the cutting-edge document management application designed for ultimate user flexibility and efficiency. A truly open-source project, it invites contributions to refine and enhance its functionalities from the get-go. With its innovative approach to tagging and metadata, TagStudio offers a clutter-free, highly customizable way to manage your documents and media files. Say goodbye to the chaos of conventional file systems and welcome a new era of organized, easily searchable, and aesthetically pleasing digital workspace.","Explore TagStudio - an open-source, flexible document management system for organizing files with ease. Join us in shaping its future, making file management more intuitive and efficient.",Document Conversion Tool,"Python
+
+
+
+
+
+        710
+
+
+
+
+
+        57
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        149 stars today",https://raw.githubusercontent.com/CyanVoxel/TagStudio/main/github_header.png; https://raw.githubusercontent.com/CyanVoxel/TagStudio/main/screenshot.jpg,,710,2024-04-17T12:14:41Z
+2024-04-25,https://github.com/iperov/DeepFaceLive,https://raw.githubusercontent.com/iperov/DeepFaceLive/master/README.md,"This document presents information about DeepFaceLive, a software used for face swapping and animation. It allows users to swap faces from webcams or video footage with various pre-trained face models, featuring notable examples like Keanu Reeves and fictional or non-existent persons for ethical reasons. The document highlights available public face models, emphasizing that while most characters are fictional, Keanu Reeves is an exception and he is acknowledged as ""breathtaking"". Users seeking higher quality or better face match are advised to train their own models using DeepFaceLab. Additionally, it introduces a Face Animator module that enables controlling a static face picture through video or real-time camera feed, although it notes the quality requires tuning for optimal results. System requirements include DirectX12 compatible graphics card, modern CPU, 4GB RAM, Windows 10, and instructions for use across Windows and Linux systems. The document also mentions community engagement and support options like Discord, forums, and donations, along with instructions on helping the project by sharing trained models or contributing financially.",Revolutionize Your Videos with DeepFaceLive: Ultimate Face Swapping Guide,"Discover DeepFaceLive, your go-to solution for real-time face swapping in videos and webcam streams. Utilize our range of public face models, including celebrities like Keanu Reeves, to create amusing or stunning visual content. Perfect your creations by training your own face models with DeepFaceLab for unparalleled quality and personalization. Dive into the world of virtual face manipulation for streaming, video calls, and more, while meeting system requirements for a seamless experience.",Learn how to use DeepFaceLive for real-time face swapping in videos and streams. Explore available models or train your own for personalized content creation. Discover the system requirements and tools for a seamless face swapping experience.,Deep Learning Tool,"Python
+
+
+
+
+
+        22,131
+
+
+
+
+
+        3,552
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        370 stars today",https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/deepfacelive_intro.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/logo_onnx.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/logo_directx.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/logo_python.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Keanu_Reeves/Keanu_Reeves.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Irina_Arty/Irina_Arty.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Millie_Park/Millie_Park.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Rob_Doe/Rob_Doe.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Jesse_Stat/Jesse_Stat.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Bryan_Greynolds/Bryan_Greynolds.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Mr_Bean/Mr_Bean.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Ewon_Spice/Ewon_Spice.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Natasha_Former/Natasha_Former.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Emily_Winston/Emily_Winston.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Ava_de_Addario/Ava_de_Addario.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Dilraba_Dilmurat/Dilraba_Dilmurat.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Matilda_Bobbie/Matilda_Bobbie.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Yohanna_Coralson/Yohanna_Coralson.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Amber_Song/Amber_Song.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Kim_Jarrey/Kim_Jarrey.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/David_Kovalniy/David_Kovalniy.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Jackie_Chan/Jackie_Chan.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Nicola_Badge/Nicola_Badge.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Joker/Joker.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Dean_Wiesel/Dean_Wiesel.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Silwan_Stillwone/Silwan_Stillwone.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Tim_Chrys/Tim_Chrys.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Zahar_Lupin/Zahar_Lupin.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Tim_Norland/Tim_Norland.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Natalie_Fatman/Natalie_Fatman.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Liu_Lice/Liu_Lice.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Albica_Johns/Albica_Johns.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Meggie_Merkel/Meggie_Merkel.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/celebs/Tina_Shift/Tina_Shift.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/lukashenko.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/insight_faceswap_example.gif; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/face_animator_example.gif; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/Ng1C78Ceyxg_screenshot.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/logo_barclay_stone.png; https://raw.githubusercontent.com/iperov/DeepFaceLive/master/doc/logo_exmo.png,https://www.youtube.com/watch?v=Ng1C78Ceyxg,22132,2020-12-15T12:19:22Z
+2024-04-25,https://github.com/McGill-NLP/webllama,https://raw.githubusercontent.com/McGill-NLP/webllama/main/README.md,"WebLlama is a project focused on developing agents capable of browsing the web and interacting in dialogues, built on the Llama 3 model and fine-tuned for web navigation tasks. The initiative, spearheaded by McGill-NLP, has released its first model, Llama-3-8B-Web, which significantly outperforms GPT-4V in web navigation benchmarks. The model is designed to assist rather than replace users by providing a powerful tool for web-based tasks. It's trained on over 24K web interaction instances and is easy to integrate with existing web platforms like Playwright and BrowserGym. The project emphasizes the importance of rigorous evaluation through benchmarks such as WebLINX and plans to expand its dataset to train more generalized web agents. The code for fine-tuning and evaluation is publicly available, and the project encourages contributions from the community.",Introducing WebLlama: Revolutionizing Web Browsing with AI Agents,"Discover WebLlama, the cutting-edge project aimed at enhancing web navigation through AI-powered agents, developed using Meta Llama 3 technology. Our first model, Llama-3-8B-Web, outperforms GPT-4V by 18% in web navigation tasks. It's designed not only to automate web tasks but to create a more symbiotic relationship between users and the web, making browsing more efficient and intuitive. Available on GitHub and Huggingface, WebLlama represents a significant leap forward in the field of AI-driven web interaction.","Explore WebLlama, the forefront of web browsing technology, leveraging AI to navigate the web efficiently. Learn how Llama-3-8B-Web surpasses existing models in accuracy and utility.",AI Browser Automation,"Python
+
+
+
+
+
+        568
+
+
+
+
+
+        24
+
+
+        Built by
+
+          
+
+
+
+
+
+        80 stars today",https://raw.githubusercontent.com/McGill-NLP/webllama/main/assets/WebLlamaLogo.png; https://raw.githubusercontent.com/McGill-NLP/webllama/main/assets/llama-3.jpg; https://raw.githubusercontent.com/McGill-NLP/webllama/main/assets/LlamaAndGPT.png; https://raw.githubusercontent.com/McGill-NLP/webllama/main/assets/LlamaAndGPTAndMindAct.png; https://raw.githubusercontent.com/McGill-NLP/webllama/main/assets/WebLINXTestSplits.png,,568,2024-04-19T15:48:09Z
+2024-04-25,https://github.com/FareedKhan-dev/Detect-AI-text-Easily,https://raw.githubusercontent.com/FareedKhan-dev/Detect-AI-text-Easily/main/README.md,"The article discusses the challenge of recognizing AI-generated text, highlighting the importance of critical thinking skills to discern AI authorship. It notes that AI, like ChatGPT, often uses sophisticated language, citing an example from a youth science-writing competition where a phrase raised suspicions of AI use. The author demonstrates how certain words have become more prevalent since the introduction of ChatGPT by analyzing their frequency in a vast corpus of English texts and academic papers, observing significant upticks in usage. The increase in specific words, traditionally less common in human writing, suggests AI's growing influence on content creation. To assist in identifying AI-generated content, the author has developed a web app that analyzes texts for signs of AI involvement, based on a curated list of 100 indicative words. This tool aims to simplify the detection process, making it accessible even to those without professional expertise in linguistic analysis.",Unveiling AI-Generated Text: Techniques to Identify Non-Human Writing,"Discover the secret to spotting AI-generated content through specific word usage, as revealed in a recent analysis of ChatGPT and other language models. Learn how a simple phrase like 'Labyrinthian mazes' can betray AI authorship. Dive into the growing trend of words such as 'delve' in academic and online texts, indicating potential AI involvement. Harness tools and a comprehensive list of 100 AI-indicative words to discern AI-written material. Explore a user-friendly web app designed to swiftly detect AI-generated text, simplifying the identification process.",Learn how to easily identify AI-generated text using specific word patterns and a web app. This guide covers practical tips and tools for recognizing non-human writing in academic and online content.,AI Development Platform,"Python
+
+
+
+
+
+        33
+
+
+
+
+
+        6
+
+
+        Built by
+
+          
+
+
+
+
+
+        8 stars today",https://cdn-images-1.medium.com/max/2448/1*fTV_vFjFWyhPSnWDauYOWw.png; https://www.english-corpora.org/now/) Corpus (by Fareed Khan)](https://cdn-images-1.medium.com/max/3856/1*Tv76vgfG7kOF5IRudR5EIg.png; https://www.english-corpora.org/now/) Corpus (by Fareed Khan)](https://cdn-images-1.medium.com/max/6512/1*EgrevS32vUy4eKx3F__oog.png; https://cdn-images-1.medium.com/max/7248/1*ypnIW51cEn7y5RqzJ0YrBw.png; https://www.kaggle.com/datasets/Cornell-University/arxiv) (by Fareed Khan)](https://cdn-images-1.medium.com/max/3856/1*Ri6_R6bLQJ6TVSmj6JXvVg.png; https://cdn-images-1.medium.com/max/4612/1*9R0i2dDcwrKXlZAqPNlvNw.png,,33,2024-04-17T13:03:38Z
+2024-04-25,https://github.com/a1600012888/PhysDreamer,https://raw.githubusercontent.com/a1600012888/PhysDreamer/main/README.md,"PhysDreamer is a cutting-edge tool enabling physics-based interaction with 3D objects through video generation. To set it up, users must first install diff-gaussian-rasterization from its GitHub page. Then, they create and activate a new Python environment in conda, install required packages, and set up the software. Users need to download specific scenes and models optimized for velocity and material fields from Hugging Face and ensure these assets are correctly placed in designated folders. Running the inference involves navigating to the inference project directory and executing a provided script. The development of PhysDreamer incorporated source code from other projects, acknowledging their contributions. Moreover, an academic citation is provided for those referencing PhysDreamer in research, detailing its authors and publication information.",Exploring PhysDreamer: Revolutionizing 3D Object Interactions & Video Generation,"Discover how PhysDreamer, a cutting-edge tool, transforms the manipulation of 3D objects through physics-based video generation. Learn to set up the environment, download essential data, and run inferences for innovative video creation. This platform leverages algorithms from leading projects, offering an unparalleled experience in dynamic 3D modeling. Dive into the future of digital interaction with PhysDreamer – where creativity meets advanced computational physics.","Unlock the potential of 3D object manipulation with PhysDreamer. This guide covers setup, data acquisition, and generating physics-based videos, opening new dimensions in digital creativity and interaction.",Video Generation Tool,"Python
+
+
+
+
+
+        246
+
+
+
+
+
+        10
+
+
+        Built by
+
+          
+
+
+
+
+
+        26 stars today",https://raw.githubusercontent.com/a1600012888/PhysDreamer/main/figures/figure_teaser.png,,246,2024-04-16T22:36:27Z
+2024-04-25,https://github.com/InternLM/lmdeploy,https://raw.githubusercontent.com/InternLM/lmdeploy/main/README.md,"LMDeploy is a toolkit designed for efficient compression, deployment, and service of large language models (LLMs), created by the MMRazor and MMDeploy teams. It introduces several optimized features for enhanced performance, including support for various quantization methods and a request distribution service for easy multi-model deployment across systems. Recent updates in 2024 include support for new models such as Llama3 and enhancements in TurboMind for rapid inference across devices, along with seamless integration options like OpenAOE. LMDeploy supports a wide range of models, offering up to 1.8 times faster request throughput compared to similar tools. It is available for installation via pip, supports CUDA 12 by default, and provides offline batch inference capabilities. Additional resources for users include detailed documentation, tutorials for getting started, user and advanced guides, and third-party project integrations. Contributions to LMDeploy are welcomed, acknowledging collaborations with projects like FasterTransformer and DeepSpeed-MII. The project is available under the Apache 2.0 license, supporting a broad developer and research community aiming at the efficient utilization of LLMs.",Maximize Your LLM Deployment with LMDeploy: A Comprehensive Guide,"Discover how LMDeploy revolutionizes LLM deployment with its latest updates for 2024, including support for Llama3, TurboMind's enhanced inference speeds, and comprehensive integration with OpenAOE. This toolkit, developed by the teams behind MMRazor and MMDeploy, offers efficiency, quantization, and ease of distribution for deploying large language models (LLMs). It's designed to improve request throughput significantly, enable effective weight-only and k/v quantization, and facilitate effortless multi-model services deployment.","Explore how LMDeploy enhances LLM deployment with features like efficient inference, effective quantization, and effortless distribution, making it easier to deploy and serve LLMs with improved performance and flexibility.",AI Deployment Platform,"Python
+
+
+
+
+
+        2,301
+
+
+
+
+
+        202
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        26 stars today",,,2301,2023-06-15T12:38:06Z
+2024-04-25,https://github.com/coqui-ai/TTS,https://raw.githubusercontent.com/coqui-ai/TTS/main/README.md,"Coqui.ai has announced several updates to its Text-to-Speech (TTS) technology, including the release of TTSv2, which supports 16 languages and offers enhanced performance. The company has also released fine-tuning code for TTS with examples, introduced streaming capabilities with sub-200ms latency, and launched a production TTS model capable of speaking in 13 languages. Additionally, Bark is now available for inference with unconstrained voice cloning, and users can access around 1100 Fairseq models within Coqui's TTS framework. Support for Tortoise with faster inference, voice generation with prompts and fusion, and voice cloning features are now live on Coqui Studio. The library focuses on high-performance, deep learning-based models for text-to-speech tasks, offering tools for training, fine-tuning, dataset analysis, and utilities for model testing. It's tested on Ubuntu 18.04 with Python versions 3.9 to 3.12, providing detailed instructions for installation, Docker usage, and speech synthesis through both Python API and command line.",Revolutionizing Text-to-Speech: Coqui.ai Unleashes New Updates and Multilingual Support,"Coqui.ai's latest updates in Text-to-Speech (TTS) technology bring groundbreaking improvements and features, including TTSv2 with 16 languages, enhanced performance, and sub-200ms streaming latency. With fine-tuning code now available, users can customize voices with ease. Additionally, Coqui introduces 'Bark' for unconstrained voice cloning and supports an extensive range of Fairseq models. These advancements promise to transform voice applications, making digital interactions more natural and accessible.","Discover the latest updates from Coqui.ai, featuring TTSv2 with 16 languages, improved performance, sub-200ms latency, and Bark for voice cloning. Explore the new era of Text-to-Speech technology.",Deep Learning Tool,"Python
+
+
+
+
+
+        29,224
+
+
+
+
+
+        3,420
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        38 stars today",https://raw.githubusercontent.com/coqui-ai/TTS/main/images/coqui-log-green-TTS.png; https://raw.githubusercontent.com/coqui-ai/TTS/main/images/TTS-performance.png,,29224,2020-05-20T15:45:28Z
+2024-04-25,https://github.com/yisol/IDM-VTON,https://raw.githubusercontent.com/yisol/IDM-VTON/main/README.md,"IDM-VTON introduces a novel approach to enhance diffusion models for more authentic virtual try-ons in various environments, as detailed in their paper and its official implementation. Users are encouraged to participate and support the project through their GitHub and Hugging Face pages. The project emphasizes data preparation, requiring the VITON-HD and DressCode datasets, with specific instructions for organizing and utilizing this data. Inference processes for both datasets are outlined, featuring command-line and script options for executing the model. Acknowledgments cite support from ZeroGPU and contributions from related projects like OOTDiffusion and DCI-VTON. The implementation also acknowledges code borrowed from IP-Adapter. The authors of the research, Choi, Kwak, Lee, Choi, and Shin, have made their code available under the CC BY-NC-SA 4.0 license, inviting use and modification within the scope of these terms.",Revolutionizing Virtual Try-Ons: How IDM-VTON Enhances Diffusion Models,"Discover the groundbreaking IDM-VTON technology that transcends existing diffusion models for virtual try-on applications. Integrating advanced algorithms and datasets like VITON-HD and DressCode, this project offers a seamless try-on experience that's impressively realistic. Its widespread applicability in fashion technology demonstrates its potential to transform online shopping experiences. Learn how to utilize this technology for your projects with a comprehensive guide on setup, inference, and data preparation. Dive into the future of virtual fashion with IDM-VTON.","Explore the IDM-VTON project, a leap forward in virtual try-on technology utilizing cutting-edge diffusion models. Perfect for developers and fashion industry innovators looking to elevate online shopping experiences.",Image Generation Platform,"Python
+
+
+
+
+
+        413
+
+
+
+
+
+        44
+
+
+        Built by
+
+          
+
+
+
+
+
+        87 stars today",https://raw.githubusercontent.com/yisol/IDM-VTON/main/assets/teaser2.png; https://raw.githubusercontent.com/yisol/IDM-VTON/main/assets/teaser.png,,413,2024-03-20T01:29:00Z
+2024-04-25,https://github.com/tamilselvanarjun/pydatascraper,https://raw.githubusercontent.com/tamilselvanarjun/pydatascraper/main/README.md,"pydatascraper is a Python-based application designed for web scraping, specifically tailored for fetching Google and Yelp reviews, as well as extracting information from OpenStreetMap. This user-friendly tool comes with a GUI making it accessible for users to operate without in-depth programming knowledge. It supports various features including web scraping from provided URLs, retrieving Google and Yelp reviews using their respective APIs, and collecting data from OpenStreetMap by extracting geographical coordinates and other details. The software requires Python 3.x and several other Python packages which can be installed using `pip`. Users can easily set up pydatascraper by cloning the repository, installing the package, importing the module, and running the application, leading to a GUI for executing scraping tasks. It's adaptable for contributing to its development and is distributed under the MIT License, encouraging open collaboration.",Unlock Web Scraping Potential with PyDataScraper: Features and How-To Guide,"PyDataScraper is revolutionizing data extraction with its Python-based web scraping capabilities, allowing for easy retrieval of Google and Yelp reviews, and more. Through its intuitive GUI, users can scrape web pages, fetch business reviews, and extract valuable OpenStreetMap data effortlessly. Installation is straightforward, requiring Python 3.x and a simple pip command. Dive into the world of efficient data gathering, whether for competitive analysis or market research, with PyDataScraper. Its open-source nature invites contributions, promising continuous improvement and adaptability to users' evolving needs.","Discover how PyDataScraper leverages Python for effective web scraping, including Google and Yelp reviews extraction. Learn about its features, installation guide, and how you can contribute to its development.",AI Browser Automation,"Python
+
+
+
+
+
+        127
+
+
+
+
+
+        90
+
+
+        Built by
+
+          
+
+
+
+
+
+        46 stars today",,,127,2024-03-03T06:28:07Z
+2024-04-25,https://github.com/tamilselvanarjun/df2file,https://raw.githubusercontent.com/tamilselvanarjun/df2file/main/README.md,"The df2file project is a Python utility aimed at allowing efficient appending of Pandas DataFrames to a single Excel file, with each DataFrame placed in a separate sheet. It simplifies the process of adding DataFrames to an existing Excel file, offering customizable options for sheet naming, starting row, and more. The utility ensures the creation of a new Excel file if the specified one doesn't exist or appends to it otherwise. Installation is straightforward via pip, and it features commands for appending data both from scripts and the command line, with dependencies on pandas and openpyxl. Users are encouraged to contribute to its development by suggesting improvements or reporting issues. The tool is open-sourced under the MIT License.",Effortlessly Merge DataFrames into Excel with df2file: A Complete Guide,"Discover the power of df2file, a Python utility designed to streamline the process of appending Pandas DataFrames to a single Excel file, with each DataFrame in its own sheet. This tool not only simplifies data management by allowing for easy DataFrame appending and sheet customization but also addresses Excel file management efficiently. Whether you're creating a new Excel file or appending to an existing one, df2file has got you covered. Installation is straightforward with pip, making it accessible for Python developers looking to enhance their data workflow. Dive into the seamless integration of DataFrame to Excel conversion and elevate your data processing tasks today.","Learn how to easily append Pandas DataFrames to Excel with df2file, complete with sheet customization and efficient file management. Perfect for Python developers seeking streamlined data workflows.",Open Source Tool,"Python
+
+
+
+
+
+        104
+
+
+
+
+
+        92
+
+
+        Built by
+
+          
+
+
+
+
+
+        50 stars today",,,104,2024-02-13T16:36:03Z
+2024-04-25,https://github.com/tamilselvanarjun/knapsack_algorithm,https://raw.githubusercontent.com/tamilselvanarjun/knapsack_algorithm/main/README.md,"The knapsack_algorithm is a Python package designed to tackle the 0/1 knapsack problem efficiently using dynamic programming. It features robust error handling for input validation and a user-friendly interface that simplifies solving knapsack problems by inputting values, weights, and the maximum capacity. Installation is straightforward via pip. The package also comes with detailed documentation for further guidance and is available under the MIT License. Additionally, it encourages contributions and issue reporting from the community. An example demonstrates its ease of use by showing how to calculate the maximum value that can fit into a knapsack given specific item values, weights, and knapsack capacity.",Optimize Your Solutions with Knapsack Algorithm Python Package,"Discover how the knapsack_algorithm Python package offers an efficient solution to the 0/1 knapsack problem using dynamic programming. It features easy-to-use interfaces, comprehensive error handling, and simple installation via pip. Perfect for developers looking for a streamlined solution, knapsack_algorithm enhances problem-solving with its user-friendly approach. Dive into its documentation for detailed insights and contribute to further enhancements.","Explore the knapsack_algorithm Python package: A dynamic programming solution for the 0/1 knapsack problem with easy installation, error handling, and a user-friendly interface.",Python Libraries Collection,"Python
+
+
+
+
+
+        100
+
+
+
+
+
+        91
+
+
+        Built by
+
+          
+
+
+
+
+
+        48 stars today",,,100,2024-02-16T07:56:50Z
