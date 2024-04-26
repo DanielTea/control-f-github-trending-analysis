@@ -11656,3 +11656,113 @@ PyTorch Lightning organizes PyTorch code to separate the scientific aspects from
 
 
         48 stars today",,,100,2024-02-16T07:56:50Z
+2024-04-26,https://github.com/apple/corenet,https://raw.githubusercontent.com/apple/corenet/main/README.md,"CoreNet is a sophisticated toolkit designed for training deep neural networks in various tasks like classification, detection, and segmentation, alongside foundation models such as CLIP and LLM. Introduced in its version 0.1.0, CoreNet brings features like OpenELM and CatLIP, aiming at efficiency and speed in training. Apple's usage of CoreNet has resulted in several publications, indicating its utility in advancing research efforts. Installation guidelines are provided for different operating systems with prerequisites like Python 3.10+ for Linux and 3.9+ for macOS. The library is structured to facilitate easy access to training recipes, model implementations, and datasets, categorized by task to streamline the development process. Contributions to CoreNet are encouraged, with detailed documentation available for potential contributors. As an evolution of CVNets, CoreNet represents a move towards supporting a wider application scope, including foundational models. Key publications related to CoreNet underline its significance in the research community, making it a valuable resource for deep learning practitioners and researchers alike.",Introducing CoreNet: Revolutionizing Deep Neural Network Research and Development,"Discover CoreNet, Apple's latest deep neural network toolkit designed to streamline the training of both standard and novel models across various tasks. From foundational models to object detection, CoreNet sets the stage for cutting-edge AI research and applications. This toolkit not only facilitates easy access to Apple's research publications but also offers detailed guides for installation and usage. With its comprehensive library, CoreNet promises to be an invaluable resource for engineers and researchers looking to push the boundaries of neural network technology.","Explore CoreNet, Apple's advanced deep neural network toolkit for training and developing AI models. Access research, installation guides, and more for your neural network projects.",Deep Learning Tool,"Python
+
+
+
+
+
+        2,894
+
+
+
+
+
+        132
+
+
+        Built by
+
+          
+
+
+
+
+
+        511 stars today",,,2894,2024-04-18T16:52:40Z
+2024-04-26,https://github.com/Snowflake-Labs/snowflake-arctic,https://raw.githubusercontent.com/Snowflake-Labs/snowflake-arctic/main/README.md,"Snowflake introduces Snowflake Arctic, an enterprise-focused Large Language Model (LLM) distinguished by its cost-effective training and openness. Recognizing enterprise demands for conversational SQL data copilots, code copilots, and RAG chatbots, Arctic has been tailored to excel at SQL generation, coding, and complex instruction following, benchmarked against enterprise intelligence metrics. Arctic showcases efficiency by achieving parity or surpassing existing models like LLAMA on these metrics with significantly lesser compute resources. Featuring a unique Dense-MoE Hybrid transformer architecture with 480B total and 17B active parameters, Arctic demonstrates a competitive edge in training efficiency and overall performance. Licensed under Apache 2.0, Arctic ensures open access to its weights and code, supporting Snowflake's aim of fostering a collaborative research community. It is available for use through multiple inference API providers and can be directly accessed via Hugging Face. Additionally, Snowflake commits to continuous enhancements and community engagement through cookbooks, tutorials, and upcoming features aimed at advancing LLM training and inference efficiency.","Introducing Snowflake Arctic: Revolutionizing Enterprise AI with Efficient, Open LLMs","Snowflake Arctic emerges as a groundbreaking LLM tailored for enterprise AI, showcasing unparalleled efficiency in training and openness. It drastically outperforms competitors in enterprise metrics while consuming significantly less compute, thanks to its Dense-MoE Hybrid architecture. The Snowflake AI Research Team's dedication has led to a model that excels in SQL generation, coding, and complex instruction following, setting a new standard for cost-effective AI training. Arctic's commitment to openness is underscored by its Apache 2.0 license, ensuring unrestricted access to its innovative technology. This marks a pivotal moment for enterprises aiming to leverage AI, offering a blend of performance, efficiency, and accessibility unprecedented in the AI sphere.","Discover Snowflake Arctic, the latest LLM from Snowflake Labs designed for enterprise AI. Experience superior performance in SQL, coding, and more with reduced training costs, fully open-sourced for unparalleled access.",Large-scale Language Models,"Python
+
+
+
+
+
+        306
+
+
+
+
+
+        26
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        105 stars today",https://raw.githubusercontent.com/Snowflake-Labs/snowflake-arctic/main/assets/Training Efficiency Figure.png; https://raw.githubusercontent.com/Snowflake-Labs/snowflake-arctic/main/assets/Standard MoE vs Arctic.png,,306,
+2024-04-26,https://github.com/microsoft/DeepSpeed,https://raw.githubusercontent.com/microsoft/DeepSpeed/master/README.md,"The text provides detailed information about DeepSpeed, a deep learning optimization software suite designed to enable the training and inference of dense or sparse models with extremely large numbers of parameters, promoting efficiency and scalability. It highlights several key news updates, including advancements in model training speed, support for large language models, and various enhancements in performance and feature capabilities across different technologies and frameworks. The software is part of Microsoft's AI at Scale initiative and is integrated with several popular deep learning frameworks, demonstrating a wide adoption in the AI community. DeepSpeed offers significant innovations through its training, inference, compression, and science-focused initiatives, addressing the challenges of training at scale, system throughput, low latency, and reduced costs for inference and compression. It is an open-source project under the Apache 2.0 license, available on PyPI for easy installation, and has a broad range of features tailored for extreme scale deep learning operations.",Exploring DeepSpeed: Revolutionizing AI Model Training & Inference,"DeepSpeed by Microsoft offers groundbreaking optimizations for deep learning, enabling training of models with trillions of parameters efficiently. It revolutionizes AI by providing extreme scale, speed, and cost efficiency in both training and inference phases. Innovations such as ZeRO, 3D-Parallelism, and Compression techniques push the boundaries of what's possible in AI, making it accessible to a wider range of developers and researchers.","Discover how Microsoft's DeepSpeed optimizes deep learning, enabling the training of gigantic AI models with unprecedented efficiency in terms of speed, scale, and cost. Learn about its key innovations like ZeRO, 3D-Parallelism, and more.",Deep Learning Platform,"Python
+
+
+
+
+
+        32,706
+
+
+
+
+
+        3,844
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        28 stars today",https://raw.githubusercontent.com/microsoft/DeepSpeed/master/docs/assets/images/DeepSpeed-pillars.png; https://user-images.githubusercontent.com/58739961/187154444-fce76639-ac8d-429b-9354-c6fac64b7ef8.jpg,https://www.youtube.com/watch?v=CaseqC45DNc; https://www.youtube.com/watch?v=y4_bCiAsIAk; https://www.youtube.com/watch?v=9V-ZbP92drg; https://www.youtube.com/watch?v=o1K-ZG9F6u0; https://www.youtube.com/watch?v=_NOk-mBwDYg; https://www.youtube.com/watch?v=sG6_c4VXLww; https://www.youtube.com/watch?v=k9yPkBTayos; https://www.youtube.com/watch?v=nsHu6vEgPew; https://www.youtube.com/watch?v=yBVXR8G8Bg8; https://www.youtube.com/watch?v=cntxC3g22oU; https://www.youtube.com/watch?v=pDGI668pNg0; https://www.youtube.com/watch?v=tC01FRB0M7w; https://www.youtube.com/watch?v=hc0u4avAkuM,0,
+2024-04-26,https://github.com/ssili126/tv,https://raw.githubusercontent.com/ssili126/tv/main/README.md,"This text provides instructions on how to automatically obtain hotel multicast sources for TV broadcasting. There are four main methods outlined:
+
+1. Input a provided URL into the TV live broadcasting software on a TV box.
+2. For those who wish to fetch live TV addresses themselves, detailed steps are provided for both Windows PCs, including installing Chrome and necessary files, and for computers with Python installed, detailing necessary packages and scripts to run.
+3. Installation and running instructions are provided for using Docker on OpenWRT or Synology NAS systems.
+4. It's recommended to run these processes on a local computer rather than on GitHub due to data accuracy and speed test issues.
+5. A directory for udp multicast sources is mentioned without detailing its contents or usage.",Effortlessly Access Live TV: Mastering Multicast Sources and Streaming,"Discover how to effortlessly access an abundance of live TV content through various methods including TV boxes, Windows PCs, Python-equipped computers, and Docker in openwrt or Synology NAS. From direct URL streaming to intricate setups with chromedriver and dedicated scripts, this guide offers step-by-step instructions for tech enthusiasts and cord-cutters. Whether you're looking to stream directly or delve into the technicalities of live TV access, find everything you need for a seamless setup.","Explore how to access live TV through multicast sources, including setups for TV boxes, Windows, Python, and Docker, with our comprehensive guide for seamless streaming.",Livestream Data Extraction,"Python
+
+
+
+
+
+        505
+
+
+
+
+
+        358
+
+
+        Built by
+
+          
+
+
+
+
+
+        12 stars today",,,0,
