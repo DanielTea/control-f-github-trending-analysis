@@ -11766,3 +11766,140 @@ PyTorch Lightning organizes PyTorch code to separate the scientific aspects from
 
 
         12 stars today",,,0,
+2024-04-27,https://github.com/CrazyBoyM/phi3-Chinese,https://raw.githubusercontent.com/CrazyBoyM/phi3-Chinese/main/README.md,"The phi3-Chinese repository focuses on compiling various phi3 model variants scattered across the open-source community, aiming to expose lesser-known, intriguing model weights to a broader audience. It also provides simplified tutorials on training, inference, and deployment related to phi. The phi3 model, with less than half the size (3.8 billion parameters) of its counterparts, surpasses the performance of llama3's 8 billion parameter version according to Microsoft's benchmarks, increasing its feasibility for deployment on mobile platforms. The repository also lists download links for both Chinese and English versions of the phi3 model in different formats, including incremental SFT, direct DPO, and an upcoming expanded vocabulary version. However, the creator expresses disappointment in the model's performance compared to its benchmarks, noting issues like its small vocabulary size, especially for Chinese tokens, and suggests potential improvements, including vocabulary expansion and incremental pre-training, for better utility.",Exploring phi3-Chinese: Performance Insights and Deployment on Mobile,"phi3-Chinese emerges as a compact powerhouse, outperforming the llama3 8b version using less than half the size, enhancing deployability on smartphones. The phi3 repository aims to gather diverse training variants scattered across the open-source community, highlighting unique and interesting models. It also provides simple tutorials on phi-related training, inference, and deployment. Despite its advantages, users report discrepancies in performance and speed, indicating potential for improvement. The quest for an expanded vocabulary and incremental pre-training might address these concerns, hinting at vast potential for lightweight tasks.","Discover phi3-Chinese's significant performance over llama3 8b with less size, making it ideal for mobile deployment. Explore user insights, potential improvements, and how it paves the way for optimized lightweight applications.",Language Models,"Python
+
+
+
+
+
+        98
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        10 stars today",,,98,2024-04-23T17:44:45Z
+2024-04-27,https://github.com/TagStudioDev/TagStudio,https://raw.githubusercontent.com/TagStudioDev/TagStudio/main/README.md,"TagStudio, currently in its preview/alpha stage, is a burgeoning photo and file organization tool developed as a personal project. Emphasizing user freedom and flexibility, it avoids proprietary formats and extensive file system modifications. Its creator aims for portability, privacy, extensibility, and rich feature inclusion, with hopes that the core concepts will endure beyond this particular implementation. Open-source from an early stage to involve contributors, it's candid about existing bugs and potential breaking changes.
+
+TagStudio allows for creating libraries or vaults, adding various metadata to files, and supports rich tagging, including tag composition. Users can search for files based on tags, metadata, or filenames, with special conditions for untagged or empty entries. It's designed to accommodate a wide range of users and library sizes, looking to balance power with aesthetics.
+
+Installation guidance is provided, primarily verified for Windows, with acknowledgment of potential issues on other platforms. Use involves creating or opening libraries, adding and editing metadata, managing unlinked files due to renaming or moving, and saving libraries. Despite its comprehensive features, certain functionalities like tag management viewing and macro applications are still in development or incomplete.
+
+As an alpha version, TagStudio addresses the need for further testing, quality of life improvements, and features expansion, outlining both immediate priorities and future enhancements. The FAQ section clarifies the project's state, planned features, and encourages community contributions while adhering to a privacy-focused vision.",Introducing TagStudio: Revolutionize Your File Management Experience,"TagStudio, a user-centric document management application, is redefining file organization without the constraints of proprietary formats and complex file structures. Despite being in its early stages, this open-source project aims to empower users with flexible tagging and metadata options, ensuring easy file retrieval and management. With its commitment to privacy and extensibility, TagStudio is designed for a wide array of users, from individuals with large digital libraries to multi-user platforms. The project is actively seeking contributors to shape its future, embracing a community-driven approach to achieve its vision of a versatile and user-friendly file management system.","Discover TagStudio, an open-source, user-focused document management system offering unparalleled freedom and flexibility in organizing files. Join the project's journey towards creating an intuitive, feature-rich application.",Open Source Tool,"Python
+
+
+
+
+
+        1,089
+
+
+
+
+
+        149
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        186 stars today",https://raw.githubusercontent.com/TagStudioDev/TagStudio/main/github_header.png; https://raw.githubusercontent.com/TagStudioDev/TagStudio/main/screenshot.jpg,,1089,2024-04-17T12:14:41Z
+2024-04-27,https://github.com/OWASP/OFFAT,https://raw.githubusercontent.com/OWASP/OFFAT/main/README.md,"OWASP OFFAT (OFFensive Api Tester) is a tool designed for automatically testing APIs for common vulnerabilities by generating tests from an openapi specification file. It enables automatic fuzzing of inputs and allows for the specification of user-provided inputs through a YAML config file. OFFAT includes a demo and focuses on various security checks, including those from the OWASP API Top 10 like SQLi, BOLA, and basic command injection, among others. Key features comprise automated and user-config-based testing, API integration, a CLI tool, and a Dockerized project setup. The tool, which is open source under the MIT License, can be installed via pip and run with specific commands as detailed in its documentation. It is important to note that even if a data leak is detected, an endpoint may still be marked as 'Success' in its results, indicating that the 'result' may not reflect the overall outcome of the test.",Exploring OWASP OFFAT: Automated API Security Testing,"Discover OWASP OFFAT, the groundbreaking tool designed for comprehensive API security testing, leveraging the OpenAPI specifications. It offers innovative features like automated fuzzing, user-config-based testing, and integration with other platforms through its API. With checks against the OWASP API Top 10, including SQL Injection and broken access control, it's an essential tool for securing your APIs. Ready to enhance your API security? Learn how to install and use OFFAT for robust testing.","Learn about OWASP OFFAT, an automated tool for testing API vulnerabilities against OWASP API Top 10, featuring automated fuzzing, user-config-based tests, and easy integration. Secure your APIs now.",Cybersecurity Tool,"Python
+
+
+
+
+
+        230
+
+
+
+
+
+        31
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        48 stars today",https://owasp.org/OFFAT/assets/images/tests/offat-v0.5.0.png,,230,2023-09-25T19:32:21Z
+2024-04-27,https://github.com/dcharatan/flowmap,https://raw.githubusercontent.com/dcharatan/flowmap/main/README.md,"FlowMap is the official software implementation of the paper **""FlowMap: High-Quality Camera Poses, Intrinsics, and Depth via Gradient Descent""** authored by Cameron Smith, David Charatan, Ayush Tewari, and Vincent Sitzmann. The project emphasizes high-quality camera positioning, intrinsic parameters, and depth estimation using gradient descent. The software requires a Python virtual environment on Linux for installation, with specific requirements stated for setup and additional modules for pretraining. FlowMap is initialized using a checkpoint found online and is pre-trained with datasets like Real Estate 10k and CO3Dv2. It's evaluated using subsets from LLFF, Mip-NeRF 360, and Tanks & Temples datasets. The software also supports running ablations and generating figures and tables as presented in the paper. The creators acknowledge support from various research funds and organizations, noting the work's academic and developmental background.",Exploring FlowMap: Revolutionary Camera Poses and Depth Estimation,"Discover the groundbreaking technology of FlowMap, a method for high-quality camera poses, intrinsics, and depth via gradient descent, developed by a talented team of researchers. This official implementation unlocks new potentials in the realms of 3D mapping and virtual reality. By leveraging advanced datasets like Real Estate 10k and CO3Dv2, FlowMap significantly enhances video and image analysis. Explore the project’s versatility through pre-training, running code, and various ablations. Dive into the fascinating world of FlowMap and how it's setting new standards in imaging technology on its [official project website](https://cameronosmith.github.io/flowmap/).","FlowMap offers an innovative approach to achieving high-quality camera poses, intrinsics, and depth through gradient descent, enhancing 3D mapping and virtual realities. Explore the official implementation now.",Computer Vision,"Python
+
+
+
+
+
+        317
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        56 stars today",,,317,2024-04-22T22:10:49Z
+2024-04-27,https://github.com/Flagsmith/flagsmith,https://raw.githubusercontent.com/Flagsmith/flagsmith/main/README.md,"Flagsmith is an open-source platform used for feature flagging and remote configuration management across web, mobile, and server-side applications. It allows developers to toggle features on or off for different environments or user segments without needing to deploy new code. This facilitates phased rollouts, A/B and multivariate testing, and obtaining early user feedback through beta programs. Flagsmith supports organization management and can be integrated with various tools. It offers a hosted SaaS option as well as an open-source version that can be deployed using Docker, Kubernetes, Redhat OpenShift, or directly to major cloud providers or on-premise. The platform includes a REST API and a web-based admin dashboard for managing features. Technical documentation and support are readily available for users.",Unlocking Next-Level Feature Management with Flagsmith,"Discover how Flagsmith, the open-source feature flag and remote config service, empowers developers to seamlessly manage features across applications. With easy setup, feature flags, remote configuration, A/B testing, and robust organization management, Flagsmith is the go-to solution for enhancing your software development lifecycle. Whether you prefer a hosted API, private cloud deployment, or on-premise solutions, Flagsmith offers flexibility and control over your feature management processes. Dive into the world of feature flags and optimize your development workflow with Flagsmith today.","Explore Flagsmith for advanced feature flag management, remote configuration, and A/B testing across your web, mobile, and server-side applications. Start with our open-source platform for better development flexibility.",Open Source Tool,"Python
+
+
+
+
+
+        4,301
+
+
+
+
+
+        320
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        38 stars today",https://raw.githubusercontent.com/Flagsmith/flagsmith/main/static-files/hero.png; https://raw.githubusercontent.com/Flagsmith/flagsmith/main/static-files/screenshot.png,,4301,2018-06-05T10:49:57Z
