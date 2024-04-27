@@ -266,3 +266,7 @@ ERROR:root:Error uploading image: 401 Unauthorized
 32 - Could not authenticate you
 ERROR:root:Error posting tweet: 401 Unauthorized
 Unauthorized
+ERROR:root:Error uploading image: 401 Unauthorized
+32 - Could not authenticate you
+ERROR:root:Error posting tweet: 401 Unauthorized
+Unauthorized
