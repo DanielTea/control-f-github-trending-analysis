@@ -11903,3 +11903,158 @@ As an alpha version, TagStudio addresses the need for further testing, quality o
 
 
         38 stars today",https://raw.githubusercontent.com/Flagsmith/flagsmith/main/static-files/hero.png; https://raw.githubusercontent.com/Flagsmith/flagsmith/main/static-files/screenshot.png,,4301,2018-06-05T10:49:57Z
+2024-04-28,https://github.com/pytorch/torchtitan,https://raw.githubusercontent.com/pytorch/torchtitan/main/README.md,"`torchtitan` is a PyTorch-based proof-of-concept designed for the large-scale training of language models (LLMs), showcasing cutting-edge distributed training features. It aims to complement, not replace, established codebases by encouraging the adoption of its showcased features. The project, still in its pre-release phase, emphasizes a clean and minimal codebase for ease of understanding and adaptability. Currently, it supports the training of Llama 2 and 3 models with features like FSDP2, Tensor Parallel, selective checkpointing, and performance metrics visualization through TensorBoard. Prepared for PyTorch ""nightly"" versions, `torchtitan` offers extensive documentation for its installation, feature utilization, and multi-node training setups. Despite its ambition, `torchtitan` does not aim to foster a large community but rather to influence existing frameworks through its innovative approach to model training. Key upcoming features include asynchronous checkpointing, FP8 support, and expanded parallel training methods. The code is available under the BSD 3 license, with dependencies on other legally governed content or services.",Exploring torchtitan: A Step Forward in Large-scale LLM Training with PyTorch,"torchtitan emerges as a groundbreaking proof-of-concept for large-scale LLM training, leveraging the powerful features of PyTorch in a minimal and understandable codebase. Designed for easy use, modification, and extension, it introduces minimal model code changes across various parallel computing techniques. This pre-release project complements existing LLM training frameworks, aspiring for quick feature adoption by industry giants. With pre-configured datasets, advanced training features, and promising pre-training capabilities with Llama models, torchtitan sets a new benchmark for distributed training efficiency and performance optimization.","Discover torchtitan, the latest pre-release project for large-scale LLM training using PyTorch's distributed features. A minimal codebase designed for efficiency, easy understanding, and quick start with advanced training features.",Deep Learning Tool,"Python
+
+
+
+
+
+        632
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        81 stars today",https://raw.githubusercontent.com/pytorch/torchtitan/main/assets/images/titan_play_video.png,https://www.youtube.com/watch?v=ee5DOEqD35I,632,2023-12-13T01:51:37Z
+2024-04-28,https://github.com/plaintextpackets/netprobe_lite,https://raw.githubusercontent.com/plaintextpackets/netprobe_lite/master/README.md,"Netprobe Lite is a straightforward tool designed for home users to measure ISP performance, including metrics like packet loss, latency, jitter, and DNS performance. These metrics are combined into a common score to monitor internet connection health. It requires a Docker-capable PC connected directly to the ISP router, with an installation process that includes cloning a git repository and using docker compose commands to start or stop the app. Users can access the tool's interface through a web browser, login with default credentials, and are encouraged to change them. The tool offers customization options for the port and DNS testing, and data persistency management. It can be set to run on startup for continuous monitoring. Netprobe Lite is intended for non-commercial use under a custom license, prohibiting commercial use without authorization. For commercial inquiries, contact is provided.",Maximize Your Home Internet Performance with Netprobe Lite,"Discover how Netprobe Lite, a simple yet powerful tool, can help you measure and improve your ISP's performance right from your home. This tool offers detailed insights by measuring packet loss, latency, jitter, and DNS performance, providing a comprehensive score to monitor your internet connection's health. With an easy setup that requires a Docker-compatible PC connected to your ISP router, Netprobe Lite is accessible for anyone seeking to optimize their internet service. Learn how to install, setup, and utilize Netprobe Lite to ensure your internet connection is running at its best.","Learn how to use Netprobe Lite to measure and improve your ISP performance. Perfect for home use, this tool provides critical insights into internet health. Easy setup and detailed metrics analysis.",Network Performance Monitor,"Python
+
+
+
+
+
+        172
+
+
+
+
+
+        20
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        20 stars today",,,172,2023-11-13T04:31:39Z
+2024-04-28,https://github.com/stitionai/devika,https://raw.githubusercontent.com/stitionai/devika/main/README.md,"Devika is an early-stage AI software engineer project designed to understand high-level human instructions, research, and write code. It uses large language models and web browsing for intelligent software development, aiming to work with minimal human guidance. Despite it being in the experimental phase with unimplemented/broken features, contributions are encouraged. Devika supports models like Claude 3, GPT-4, and others, offering features like AI planning, code writing in various languages, and a chat interface. Installation requires Python, NodeJs, and other tools, with detailed steps provided. Users can create projects, provide instructions, and monitor progress through a web interface. Configurations for API keys like Bing and OpenAI are needed for full functionality. Contributions to enhance Devika are welcome, with support offered through issue tracking and a Discord server. Devika is open-source under the MIT License.",Introducing Devika: Revolutionize Your Coding with AI Software Engineering,"Meet Devika, the advanced AI software engineer designed to transform the software development landscape. Leveraging large language models and sophisticated planning algorithms, Devika can understand complex instructions, conduct research, and write code with minimal human oversight. Aimed at being an open-source counterpart to Devin, it promises to enhance coding efficiency and innovation. With its support for multiple AI models and programming languages, Devika is not just a tool but a revolution in AI-assisted coding.","Discover Devika, the AI-powered software engineer changing how we approach coding. With advanced AI, planning capabilities, and support for multiple languages, see how it simplifies and accelerates development.",AI Development Platform,"Python
+
+
+
+
+
+        16,469
+
+
+
+
+
+        2,099
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        57 stars today",https://raw.githubusercontent.com/stitionai/devika/main/.assets/devika-avatar.png; https://raw.githubusercontent.com/stitionai/devika/main/.assets/devika-screenshot.png,,16469,2024-03-21T03:03:21Z
+2024-04-28,https://github.com/mbzuai-oryx/LLaVA-pp,https://raw.githubusercontent.com/mbzuai-oryx/LLaVA-pp/main/README.md,"LLaVA++ is a project extending the capabilities of the LLaVA 1.5 model by integrating the latest LLMs, Phi-3 Mini Instruct 3.8B, and LLaMA-3 Instruct 8B. Released by researchers at Mohamed bin Zayed University of AI, it aims to enhance visual and instruction-following abilities in LLMs. New updates include online demos, fully fine-tuned models, and Google Colab access for interactive experiments. The model zoo provides an array of pre-trained and fine-tuned models available on Hugging Face. Installation and training instructions ensure users can effectively employ these models. Acknowledgements extend to contributing projects and open-source communities. For issues or questions, contact details are provided, and contributions are recognized in the citation section.",Revolutionizing Visual AI: LLaVA++ Unveils Enhanced LLaMA-3 and Phi-3 Integration,"Discover the groundbreaking LLaVA++: an advanced integration of LLaMA-3 and Phi-3, setting new benchmarks in visual AI capabilities. This innovative upgrade introduces cutting-edge models for exceptional visual and instructional performance, showcased in comprehensive benchmarks and an accessible online demo. Explore our detailed model zoo for pre-trained and fine-tuned versions, enhancing AI research and development. Dive into the future of visual AI with LLaVA++, a blend of precision, efficiency, and accessibility.","Explore LLaVA++, the latest advancement integrating LLaMA-3 and Phi-3 for unprecedented visual AI capabilities. See benchmarks, access downloadable models, and try the live demo.",Multimodal AI Model,"Python
+
+
+
+
+
+        364
+
+
+
+
+
+        18
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        118 stars today",https://i.imgur.com/waxVImv.png; https://raw.githubusercontent.com/mbzuai-oryx/LLaVA-pp/main/images/logos/face.png; https://raw.githubusercontent.com/mbzuai-oryx/LLaVA-pp/main/images/lava++_radar_plot.png; https://raw.githubusercontent.com/mbzuai-oryx/LLaVA-pp/main/images/LLaVA-pp-results.png; https://raw.githubusercontent.com/mbzuai-oryx/LLaVA-pp/main/images/logos/IVAL_logo.png; https://raw.githubusercontent.com/mbzuai-oryx/LLaVA-pp/main/images/logos/Oryx_logo.png; https://raw.githubusercontent.com/mbzuai-oryx/LLaVA-pp/main/images/logos/MBZUAI_logo.png,,364,2024-04-26T02:52:07Z
+2024-04-28,https://github.com/sarperavci/GoogleRecaptchaBypass,https://raw.githubusercontent.com/sarperavci/GoogleRecaptchaBypass/main/README.md,"This text introduces a Python script that can bypass Google's reCAPTCHA in less than 5 seconds using the DrissionPage library, with plans to add Selenium support. Capsolver, an AI-powered service specializing in solving various captcha types, sponsors the solution. Capsolver supports a wide range of captchas and offers API integration for developers, browser extensions for Chrome and Firefox, and various pricing packages. Instructions for installing necessary dependencies and ffmpeg are provided, along with a usage example and a demonstration file named `test.py`. The method exploits audio captcha as a more programmatically solvable option compared to image captchas, with a caution about potential IP blocking by Google for excessive use. Future updates include implementing Selenium, improving exception handling, and a visual demonstrating the script's efficacy.",Bypass Google reCAPTCHA in Seconds: Your Ultimate Guide,"Discover how to bypass Google reCAPTCHA quickly and effectively with our Python script. Using the DrissionPage library, solve reCAPTCHAs in under 5 seconds, enhancing your project's efficiency. The script, suitable for developers, simplifies CAPTCHA solving with potential Selenium enhancements on the horizon. Overcome Google's bot restrictions with ease, but remember to use this power responsibly to avoid IP bans.","Learn to bypass Google reCAPTCHA effortlessly with our Python script, featuring easy integration, fast solving with the DrissionPage library, and upcoming Selenium support.",Cybersecurity Tool,"Python
+
+
+
+
+
+        168
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+        65 stars today",https://raw.githubusercontent.com/sarperavci/GoogleRecaptchaBypass/main/docs/capsolver.jpg; https://raw.githubusercontent.com/sarperavci/GoogleRecaptchaBypass/main/docs/demo.gif,,168,2024-04-24T18:39:25Z
+2024-04-28,https://github.com/Visualize-ML/Book4_Power-of-Matrix,https://raw.githubusercontent.com/Visualize-ML/Book4_Power-of-Matrix/main/README.md,"The text provides links to discounted (50% off) access for three books: ""Simplifying Statistics,"" ""Elements of Mathematics,"" and ""The Power of Matrices"" available on a platform, possibly Zhihu. These discounts appear to be open-ended, suggesting they do not expire. Additionally, there's an incentive mentioned where individuals who frequently correct errors or provide feedback might receive free books as a token of appreciation. The message emphasizes that access to these resources is aimed at personal improvement and is open source, implying they are freely accessible or shareable under certain conditions.",Unlock the Power of Math: Exclusive Discounted Access to Premier Math Resources,"Dive into the world of mathematics with our half-price offers on essential resources: 'Statistics Simplified', 'Fundamentals of Mathematics', and 'The Power of Matrices'. Gain lifetime access to open-source content designed to elevate your understanding and expertise in mathematics. Plus, the opportunity to receive a complimentary book for contributing corrections as our way of saying thank you.","Grab this opportunity to master mathematics with half-off premier resources. Lifetime access to high-quality, open-source mathematical content and a chance to receive a free book for helpful feedback.",Data Science Resources,"Python
+
+
+
+
+
+        7,638
+
+
+
+
+
+        1,119
+
+
+        Built by
+
+          
+
+
+
+
+
+        13 stars today",,,7638,2022-07-02T19:58:34Z
