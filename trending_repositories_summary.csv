@@ -12058,3 +12058,55 @@ As an alpha version, TagStudio addresses the need for further testing, quality o
 
 
         13 stars today",,,7638,2022-07-02T19:58:34Z
+2024-04-29,https://github.com/autonomousvision/gaussian-opacity-fields,https://raw.githubusercontent.com/autonomousvision/gaussian-opacity-fields/main/README.md,"Gaussian Opacity Fields (GOF) present an efficient method for geometric extraction and surface reconstruction in unbounded scenes, leveraging the identification of a level set with 3D Gaussians and enhancing surface quality through regularization. The process involves compact and adaptive mesh extraction using Marching Tetrahedra. Installation instructions and dataset acquisition details are provided, encompassing Mip-NeRF 360, NeRF-Synthetic, DTU, and Tanks and Temples datasets. Instructions for training and evaluation on these datasets, as well as on custom datasets with potential modifications for decoupled appearance modeling, are outlined. The project acknowledges contributions from various sources, including 3DGS, Mip-Splatting, and others, for their foundational technologies and evaluation tools. Citations are included for those whose work significantly contributed to this project, with specific requests to credit their code or findings where applicable.",Exploring Gaussian Opacity Fields: Revolutionizing 3D Surface Reconstruction,"Gaussian Opacity Fields (GOF) mark a significant advancement in 3D surface reconstruction, offering a method to directly extract geometry with 3D Gaussians. This technique enhances surface reconstruction through effective regularization and leverages Marching Tetrahedra for creating compact, adaptive meshes. The approach, outlined by Zehao Yu, Torsten Sattler, and Andreas Geiger, presents a scalable solution for unbounded scenes, promising substantial improvements over traditional methods. Its application spans various fields, including virtual reality, gaming, and architectural design, showcasing the potential to redefine how we interact with digital 3D environments.","Discover how Gaussian Opacity Fields innovate 3D surface reconstruction, offering efficient, high-quality, and compact solutions for digital environments. Learn about its groundbreaking approach.",3D Image Rendering,"Python
+
+
+
+
+
+        337
+
+
+
+
+
+        7
+
+
+        Built by
+
+          
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/autonomousvision/gaussian-opacity-fields/main/./media/teaser_gof.png,,337,2024-04-16T10:17:21Z
+2024-04-29,https://github.com/janeczku/calibre-web,https://raw.githubusercontent.com/janeczku/calibre-web/master/README.md,"The maintainer of Calibre-Web, after six years of dedicated programming, has decided to take a break due to feeling overwhelmed by the workload and community pressure. As a result, they have temporarily turned off all GitHub/Discord notifications to focus on developing the project according to their vision, warning that responses to issues and PRs will be slower. Calibre-Web itself is a comprehensive web app built upon a Calibre database that enhances eBook management and accessibility, supporting multiple languages and offering features like eBook reading, metadata editing, and user management. Installation can be executed via pip, and detailed guides for setup and configuration are available. The program is open-source under the GPL v3 License and acknowledges contributions from its community, implying a collaborative improvement and extension over time. For further details and support, users are encouraged to refer to the project's GitHub wiki or join the Discord community.",Taking a Break: A Calibre-Web Maintainer's Journey towards Rediscovery,"After 6 years of dedication to Calibre-Web, its maintainer declares a need for a hiatus, turning off all notifications to focus on development without disturbances. The commitment to this open-source ebook management web app, evolving from a hobby to feeling like a demanding job, prompts this decision. While the maintainer will still peek at issues and PRs, the Calibre-Web community is advised to temper expectations for immediate responses. This period aims to refocus and rejuvenate the maintainer's passion for enhancing Calibre-Web's features and user experience.",Discover the reasons behind the Calibre-Web maintainer's decision to take a break from intense programming and how it aims to improve the project's future development. Read more.,Open Source Tool,"Python
+
+
+
+
+
+        11,568
+
+
+
+
+
+        1,236
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",https://github.com/janeczku/calibre-web/wiki/images/main_screen.png,,11568,2015-08-02T19:01:42Z
