@@ -12110,3 +12110,165 @@ As an alpha version, TagStudio addresses the need for further testing, quality o
 
 
         9 stars today",https://github.com/janeczku/calibre-web/wiki/images/main_screen.png,,11568,2015-08-02T19:01:42Z
+2024-04-30,https://github.com/zk-Call/zkp-hmac-communication-python,https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/README.md,"The text introduces **zk-Call & Labs**, focusing on the implementation of ""Zero-Knowledge"" Proof with HMAC (Hash-Based Message Authentication Code) communication in Python, specifically aimed at enhancing security in messaging applications through state-of-the-art cryptographic methods. It delves into Schnorr's Protocol, elliptic curve cryptography, and the principle of ""Zero-Knowledge"" Proofs (ZKPs) — where a prover can prove the truth of a statement without conveying any additional information. The project combines ZKPs with HMAC to validate text-based secrets securely, providing a robust authentication system that ensures data integrity and authenticity without compromising privacy. The core of the system lies in its Python API, which simplifies the creation, verification, and management of cryptographic proofs, including detailed examples of usage in client-server communication scenarios. These examples demonstrate the practical application of these cryptographic techniques in ensuring secure message exchange and authentication in digital communication systems.",Implementing Zero-Knowledge Proofs and HMAC in Python: A Step-by-Step Guide,"Discover how to enhance your Python applications' security with Zero-Knowledge Proofs and HMAC for message authentication. This post introduces the core concepts of 'Zero-Knowledge' proofs and HMAC, illustrating their application within Python environments. Learn to implement these cryptographic techniques to secure communication without compromising privacy.",Unveil the power of Zero-Knowledge Proofs and HMAC in Python for securing applications. This guide offers insights into implementing cryptographic protocols for enhanced message security and authentication without revealing sensitive information.,Cybersecurity Tool,"Python
+
+
+
+
+
+        1,864
+
+
+
+
+
+        728
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        102 stars today",https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/zk-Call Preview [Python].png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/Schnorr's%20Protocol.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/Elliptic%20Curve.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/Purpose-1.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/ZKP-HMAC-1.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/ZKP-HMAC-2.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/ZKP-HMAC-3.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/ZKP-HMAC-4.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/HMAC.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/Synergistic%20Operation.png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/Core%20Components%20(Python).png; https://raw.githubusercontent.com/zk-Call/zkp-hmac-communication-python/main/assets/ZeroKnowledge%20(Python).png,,1864,2023-10-06T01:27:58Z
+2024-04-30,https://github.com/JackAILab/ConsistentID,https://raw.githubusercontent.com/JackAILab/ConsistentID/main/README.md,"ConsistentID is a project focusing on portrait generation that emphasizes maintaining identity fidelity while enabling diversity and text controllability. It incorporates FaceParsing and FaceID information into the Diffusion model, allowing for quick customization without extra training. It can integrate with other models using LoRA modules, enhancing the community’s collaborative possibilities. A major goal is releasing its training and evaluation code and improving its model with more data for better aesthetics and generalization. The project introduces a batch of 50,000 multimodal fine-grained ID datasets and a unified measurement benchmark, FGIS, for fine-grained identity preservation. Through extensive experiments, ConsistentID demonstrated state-of-the-art performance in facial personalization, highlighting its ability to improve identity consistency and modify facial features with detailed prompts. The project calls for community support to advance its development and emphasizes responsible usage. Installation and usage instructions, along with acknowledgments and a citation request, are provided.",Revolutionizing Portrait Generation: ConsistentID Unveiled,"ConsistentID marks a breakthrough in AI-driven portrait generation, promising unparalleled ID fidelity without compromising diversity or text controllability. By integrating FaceParsing and FaceID into the diffusion model, it offers rapid, highly customizable portraits in seconds. This technology not only sets new standards for facial personalization but also serves as an adaptable tool for enhancing base models with LoRA modules, fostering innovation in the community. With its state-of-the-art performance verified through extensive testing, ConsistentID opens new avenues for research in fine-grained facial personalization.","Discover ConsistentID, the latest in AI portrait generation that maintains high ID fidelity with dynamic text control, offering customizability and collaboration with base models. Learn how it's changing the face of digital identity.",Image Generation Platform,"Python
+
+
+
+
+
+        255
+
+
+
+
+
+        26
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        26 stars today",,,255,2024-04-15T08:33:46Z
+2024-04-30,https://github.com/ultralytics/ultralytics,https://raw.githubusercontent.com/ultralytics/ultralytics/main/README.md,"Ultralytics presents YOLOv8, an advanced object detection model built on the success of previous YOLO versions, featuring enhancements for improved performance and flexibility. Designed for speed, accuracy, and ease of use, it's suitable for various tasks, including object detection and tracking, instance segmentation, image classification, and pose estimation. Resources and detailed documentation are available to maximize the model's potential. YOLOv8 supports multiple languages, offers comprehensive support through GitHub issues and Discord, and requires an Enterprise License for commercial use. It also provides pretrained models on COCO and ImageNet datasets, covering detection, segmentation, pose, and classification tasks. Interactive notebooks with tutorials for training, validation, and more are accessible, alongside integrations with top AI platforms like Roboflow and Comet for enhanced AI workflows. Ultralytics invites community contributions and offers different licensing options: an open-source AGPL-3.0 License and an Enterprise License for commercial applications.",Exploring the Advanced Capabilities of YOLOv8: A Comprehensive Guide,"YOLOv8 revolutionizes object detection and tracking, posing estimation, and image classification with its state-of-the-art features and improvements. Built on the success of previous YOLO versions, YOLOv8 combines speed, accuracy, and ease of use for versatile applications. Resources, documentation, and support options are readily available to ensure users can fully leverage YOLOv8's capabilities. Enterprises can leverage YOLOv8's advancements by securing an enterprise license. YOLOv8's performance is visually summarized, showcasing its superiority in object detection tasks.","Discover the advancements YOLOv8 brings to object detection, tracking, and more. Learn how its features, performance, and resources make it a top choice for practical applications.",Deep Learning Tool,"Python
+
+
+
+
+
+        22,985
+
+
+
+
+
+        4,582
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        48 stars today",https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png; https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/yolo-comparison-plots.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-youtube-rect.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-youtube-rect.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-youtube-rect.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-youtube-rect.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-youtube-rect.png; https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-youtube-rect.png; https://raw.githubusercontent.com/ultralytics/assets/main/im/banner-tasks.png; https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png; https://github.com/ultralytics/assets/raw/main/partners/logo-roboflow.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/partners/logo-clearml.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/partners/logo-comet.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/partners/logo-neuralmagic.png; https://github.com/ultralytics/assets/raw/main/im/ultralytics-hub.png; https://github.com/ultralytics/assets/raw/main/im/image-contributors.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png; https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png; https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png,https://www.youtube.com/watch?v=j8uQc0qB91s; https://www.youtube.com/watch?v=lveF9iCMIzc; https://www.youtube.com/watch?v=hHyHmOtmEgs; https://www.youtube.com/watch?v=Ag2e-5_NpS0; https://www.youtube.com/watch?v=4ezde5-nZZw; https://www.youtube.com/watch?v=3VryynorQeo,22985,2022-09-11T16:39:45Z
+2024-04-30,https://github.com/microsoft/FILM,https://raw.githubusercontent.com/microsoft/FILM/main/README.md,"The official repository for ""Make Your LLM Fully Utilize the Context"" introduces FILM-7B, a 32K-context Large Language Model (LLM) designed to address the ""lost-in-the-middle"" issue. FILM-7B is an advancement developed from Mistral-7B-Instruct-v0.2, employing Information-Intensive (In2) Training methodologies. This model excels in probing tasks with near-perfect accuracy, showcases state-of-the-art (SOTA) results in tasks requiring extensive context understanding, and maintains efficiency in shorter contexts, amongst models of a similar ~7 billion size. The repo provides setup instructions using Conda or Pytorch Docker, usage guidelines, and comprehensive guides to reproducing probing, real-world long-context, and short-context task results. Contributions are encouraged, subject to a Contributor License Agreement (CLA) and adherence to the Microsoft Open Source Code of Conduct.",Unlocking Long-Context Understanding with FILM-7B: The Next-Level LLM,"Discover how FILM-7B, a state-of-the-art language model, is revolutionizing long-context understanding without compromising short-context performance. Trained using Information-Intensive Training, FILM-7B sets new benchmarks in near-perfect probing tasks and real-world applications among 7B-sized LLMs. Dive into the official repo for insights, setup instructions, and how to fully utilize FILM-7B's capabilities for your projects. Explore this groundbreaking model's journey to overcoming the lost-in-the-middle problem, offering unparalleled depth in context comprehension.","Explore FILM-7B, a cutting-edge 32K-context LLM, trained for exceptional long-context task performance alongside maintaining short-context accuracy. Learn how it surpasses existing benchmarks, offering a deep dive into the future of LLMs.",Large-scale Language Models,"Python
+
+
+
+
+
+        160
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        29 stars today",https://raw.githubusercontent.com/microsoft/FILM/main/./figures/probing_results_new.png; https://raw.githubusercontent.com/microsoft/FILM/main/./figures/real_world_long.png; https://raw.githubusercontent.com/microsoft/FILM/main/./figures/short.png,,160,2024-04-03T05:30:42Z
+2024-04-30,https://github.com/VinciGit00/Scrapegraph-ai,https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/README.md,"ScrapeGraphAI is a Python library designed to simplify web scraping by leveraging Large Language Models (LLMs) and direct graph logic. It facilitates the creation of scraping pipelines for websites, documents, and XML files, requiring users to specify only the information they wish to extract. The library supports integration with various LLMs such as Ollama and GPT-3.5, as well as other tools like Docker for easy deployment. ScrapeGraphAI is compatible with Playwright for scraping JavaScript-heavy websites and offers a quick installation via pip. It comes with a comprehensive documentation and a demo for users to try out its features. The project encourages community contributions and is available under the MIT License.",ScrapeGraphAI: Revolutionize Web Scraping with AI-Led Technologies,"ScrapeGraphAI leverages the power of LLM and graph logic to simplify web scraping, offering seamless pipelines for websites, documents, and XML files. Designed for both beginners and advanced users, it promises efficiency and accuracy. Install it through pip and explore its capabilities via demo projects or detailed documentation. Whether for academic research or project development, ScrapeGraphAI stands as a pioneering tool, transforming data extraction with AI innovation.","Discover ScrapeGraphAI, a cutting-edge Python library that revolutionizes web scraping using large language models and direct graph logic. Perfect for extracting information seamlessly from various sources.",Web Scraping Tool,"Python
+
+
+
+
+
+        947
+
+
+
+
+
+        69
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        176 stars today",https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/scrapegraphai_logo.png; https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/logo_authors.png,,947,2024-01-27T16:54:38Z
+2024-04-30,https://github.com/xlang-ai/OpenAgents,https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/README.md,"OpenAgents establishes an inclusive platform for deploying and interacting with language agents in real-world settings, aiming to bridge the gap between proof-of-concept tools and user-accessible applications. Currently housing three agents (Data, Plugins, and Web agents), OpenAgents presents a free-to-use demo showcasing its capability to perform complex data analysis, integrate with over 200 daily-use tools, and autonomously navigate web pages. This platform distinguishes itself by its openness to code, ease of deployment, and a comprehensive suite tailored for both general users and developers. It emphasizes a chat-based web UI for user interaction, streamlined response handling for common failures, and smooth deployment on local setups. Furthermore, it encourages community contributions by providing a detailed guide for enhancing the platform, extending to new agents, or incorporating additional tools and models. The project acknowledges contributions from various individuals and expresses gratitude towards tech communities and research funds supporting open-source development.",Exploring OpenAgents: Revolutionizing Language Agents for Everyday Use,"OpenAgents introduces an innovative platform designed to host and use language agents effectively in daily scenarios, offering a unique blend of three specially crafted agents: Data, Plugins, and Web Agents. These agents are crafted to simplify tasks ranging from data analysis, accessing numerous daily tools, to autonomous web browsing. Beyond mere functionality, OpenAgents emphasizes easy deployment, full-stack solutions, and an interactive chat web UI, making it an accessible solution for both developers and general users. This platform not only bridges the gap between advanced language agent capabilities and user-friendly interfaces but also encourages community contributions to enhance its offerings. Explore how OpenAgents is shaping the future of language agent interaction and deployment in real-world settings.","Discover how OpenAgents is transforming the use of language agents with its open platform, featuring Data, Plugins, and Web Agents for everyday tasks. Learn about its easy deployment, full-stack approach, and interactive chat UI.",AI Development Platform,"Python
+
+
+
+
+
+        3,499
+
+
+
+
+
+        356
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/openagents_overview.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/data_agent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/data_agent_demo.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/plugins_agent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/plugins_agent_demo.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/web_agent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/web_agent_demo.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/system_design.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/transparent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/transparent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/transparent.png,,3499,2023-08-08T09:15:28Z
