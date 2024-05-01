@@ -12272,3 +12272,303 @@ As an alpha version, TagStudio addresses the need for further testing, quality o
 
 
         25 stars today",https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/openagents_overview.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/data_agent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/data_agent_demo.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/plugins_agent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/plugins_agent_demo.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/web_agent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/web_agent_demo.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/system_design.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/transparent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/transparent.png; https://raw.githubusercontent.com/xlang-ai/OpenAgents/main/pics/transparent.png,,3499,2023-08-08T09:15:28Z
+2024-05-01,https://github.com/ymcui/Chinese-LLaMA-Alpaca-3,https://raw.githubusercontent.com/ymcui/Chinese-LLaMA-Alpaca-3/main/README.md,"The project, based on Meta's newly released open-source large model Llama-3, marks the third phase in the Chinese-LLaMA-Alpaca series. It introduces the Chinese version of Llama-3 base models and Llama-3-Instruct instructionally fine-tuned models. These models are incrementally pre-trained using extensive Chinese datasets on top of the original Llama-3, further enhanced with carefully selected instruction data to improve Chinese semantic understanding and instruction interpretation, achieving significant performance improvements over previous versions. The project provides models for source and instruction fine-tuning scripts, enabling further training or fine-tuning as needed. Additionally, it offers tutorials for local quantization and deployment on personal computers using CPU/GPU, supporting various Llama-3 ecosystem tools like transformers, llama.cpp, and text-generation-webui. Major contents include open-sourcing the base and instruction models, pre-training and fine-tuning scripts, instruction fine-tuning data, and guides for model quantization and deployment. The initiative supports a broad range of applications and further development within the Llama-3 ecosystem.",Exploring the Evolution of Chinese LLaMA-Alpaca Models: Unveiling the Third Generation,"Meta's latest open-source release, Chinese LLaMA-Alpaca-3, marks the third phase in the development of Chinese LLaMA-Alpaca open-source models. Leveraging extensive Chinese datasets, this iteration introduces the Chinese LLaMA-3 base and LLaMA-3-Instruct models, significantly enhancing Chinese semantic understanding and instruction-following capabilities. Compared to its predecessors, this version shows remarkable improvements, supporting the 🤗transformers ecosystem and offering tutorials for local deployment and quantization on personal computers.","Discover the advancements in the Chinese LLaMA-Alpaca-3 project by Meta, featuring improved Chinese language models and instruction-following capabilities, support for the 🤗transformers ecosystem, and local deployment tutorials.",Language Models,"Python
+
+
+
+
+
+        279
+
+
+
+
+
+        24
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        19 stars today",https://raw.githubusercontent.com/ymcui/Chinese-LLaMA-Alpaca-3/main/./pics/banner.png,,279,2023-11-09T08:11:19Z
+2024-05-01,https://github.com/magic-research/PLLaVA,https://raw.githubusercontent.com/magic-research/PLLaVA/main/README.md,"PLLaVA (Pooling LLaVA) extends image-language pre-training models to video data for dense captioning tasks, with a focus on computational efficiency and resource-light approaches. Traditional direct fine-tuning of image models for video tasks often results in performance saturation or even degradation, partly due to the dominance of certain patches in video frames. To address this, PLLaVA introduces a simple pooling strategy to smooth feature distribution over time, reducing the impact of dominant tokens. This modification leads to state-of-the-art performance on multiple datasets, including a notable improvement on the Video ChatGPT benchmark and the multi-choice benchmark MVBench. The work emphasizes easy experiment setup and result tracking, aiming to support further research and prototype development. PLLaVA's code, models, and datasets have been made publicly available, inviting contributions from the community for optimization and enhancement.",Unlocking Video Dense Captioning Excellence with PLLaVA: A Revolutionary Approach,"Discover PLLaVA, a groundbreaking parameter-free extension of LLaVA from images to videos, revolutionizing video dense captioning with state-of-the-art performance. Bridging the gap in vision-language pre-training (VLP) for video tasks, PLLaVA introduces a simple, highly efficient pooling strategy, minimizing computational resources while maximizing outputs. Dive deeper into our recent findings, methodology, and unparalleled achievements across major benchmarks, setting new standards in video question answering and caption generation. Explore more about how PLLaVA is steering the future of VLP and its remarkable impact on simplifying the adaptation of pre-trained models for video data.","PLLaVA extends image-language modeling to video data with minimal computational resources, offering unparalleled video dense captioning performance. Learn about its innovative approach and state-of-the-art achievements.",Deep Learning Platform,"Python
+
+
+
+
+
+        219
+
+
+
+
+
+        10
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        19 stars today",https://raw.githubusercontent.com/magic-research/PLLaVA/main/assert/logo.png; https://raw.githubusercontent.com/magic-research/PLLaVA/main/assert/teaser.jpg; https://raw.githubusercontent.com/magic-research/PLLaVA/main/assert/module.png; https://raw.githubusercontent.com/magic-research/PLLaVA/main/assert/zeroshot.png; https://raw.githubusercontent.com/magic-research/PLLaVA/main/assert/performance.png,https://www.youtube.com/watch?v=nAEje8tu18U; https://github.com/magic-research/PLLaVA/assets/55656210/a6619702-12d3-489d-bfcc-0ef7105544b2,219,2024-04-18T05:36:08Z
+2024-05-01,https://github.com/openai/gpt-2,https://raw.githubusercontent.com/openai/gpt-2/master/README.md,"The text provides an overview of the gpt-2 repository, stemming from the paper ""Language Models are Unsupervised Multitask Learners."" It announces the archive status of the code, meaning it's provided as-is without updates. The repository includes models from the paper, a staged release discussion, a dataset for behavior research, and acknowledges an error in the original parameter counts. It is intended as a starting point for researchers and engineers to explore GPT-2, highlighting the necessity for careful evaluation due to potential biases and inaccuracies in the models derived from their training data. The text also invites collaboration, especially from those researching malicious uses, biases, and their mitigations. It includes development resources, contributor acknowledgments, citation details, and a hint at possible future code releases for model evaluation. The licensing is under a modified MIT license.",Exploring GPT-2: A Milestone in Natural Language Processing,"Discover the intricacies of GPT-2, a transformative language model by OpenAI detailed in 'Language Models are Unsupervised Multitask Learners'. This revolutionary technology offers insights into the development and potential of AI in understanding and generating human-like text. GPT-2's release marks a significant moment in AI research, highlighting both the model's capabilities and the ethical considerations in AI deployment. Researchers are encouraged to explore its code, understand its biases, and contribute to its responsible use in various applications.","Dive into the world of GPT-2 by OpenAI, an advanced language model that's pushing the boundaries of AI research, its development, applications, and the critical discussion around its ethical use.",Open Source Tool,"Python
+
+
+
+
+
+        21,192
+
+
+
+
+
+        5,313
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,,21192,2019-02-11T04:21:59Z
+2024-05-01,https://github.com/pydantic/pydantic,https://raw.githubusercontent.com/pydantic/pydantic/main/README.md,"Pydantic is a data validation library that utilizes Python type hints for fast, extensible validation, aligning well with linters, IDEs, and developer expectations. It enables definition and validation of data in Python 3.8+. Pydantic has founded a company to continue its developmental success and principles. Version 2 of Pydantic presents a significant update over V1, with many new features, performance enhancements, and some compatibility-breaking changes. Included is backward compatibility with the latest V1 version to aid in gradual codebase updates. Installation can be done via pip or conda, and the documentation provides a simple example, installation instructions, guidance on contributing to its development, and information on reporting security vulnerabilities.",Maximizing Data Validation with Pydantic for Python Developers,"Discover the power of data validation using Python type hints with Pydantic. Fast, extensible, and IDE-friendly, Pydantic ensures your data conforms to your Pythonic schema with ease. Learn how the newly formed Pydantic Company propels this tool into the future. Dive into the enhancements of Pydantic V2, offering new features and improved performance. Whether you're upgrading from Pydantic V1 or starting fresh, this blog post guides you through the essentials.","Explore Pydantic for effective data validation in Python. Get insights into Pydantic V2's new features, the Pydantic Company, and how to seamlessly validate data with Python type hints.",Python Libraries Collection,"Python
+
+
+
+
+
+        18,729
+
+
+
+
+
+        1,652
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        37 stars today",,,18729,2017-05-03T21:23:58Z
+2024-05-01,https://github.com/VikParuchuri/surya,https://raw.githubusercontent.com/VikParuchuri/surya/master/README.md,"Surya is a comprehensive OCR toolkit named after the Hindu sun god, endorsing its universal vision capability. It outperforms cloud services in OCR with support for over 90 languages, offering line-level text detection, layout analysis to determine the document's structure, and reading order detection. Surya is suitable for various document types, proving its effectiveness through benchmarks detailed on usage and performance indicators. It encourages community engagement and development on its Discord platform. Installation requires Python 3.9+, PyTorch, and a specific transformers version, with model weights downloading upon the first run. Features include an interactive Streamlit app for trials, commands for OCR, text and layout detection, along with a Python usage model for direct implementation. The toolkit emphasizes on documents, not images or handwritten texts, and offers specific environmental variables for optimization. Manual installation for development purposes and dual licensing for commercial use over a certain revenue threshold are also available.",Elevate Your Document Processing with Surya: The Ultimate OCR Toolkit,"Discover Surya, the cutting-edge OCR toolkit that benchmarks against cloud services with support for 90+ languages. It revolutionizes document processing with line-level text detection, comprehensive layout analysis, and precise reading order detection. Surya works seamlessly across various documents, enhancing accuracy and efficiency in text recognition tasks. Dive into the future of document OCR with Surya, where powerful performance meets versatility.","Explore Surya, an advanced OCR toolkit for flawless document processing in over 90 languages, featuring line-level text detection, layout analysis, and reading order detection for unparalleled accuracy and efficiency.",Document Conversion Tool,"Python
+
+
+
+
+
+        6,112
+
+
+
+
+
+        368
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        308 stars today",https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/excerpt.png; https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/excerpt_text.png; https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/excerpt_layout.png; https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/excerpt_reading.jpg; https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/benchmark_rec_chart.png; https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/gcloud_rec_bench.png; https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/benchmark_chart_small.png; https://raw.githubusercontent.com/VikParuchuri/surya/master/static/images/benchmark_layout_chart.png,,6112,2024-01-10T05:17:42Z
+2024-05-01,https://github.com/plotly/dash,https://raw.githubusercontent.com/plotly/dash/master/README.md,"Dash is a leading Python framework for creating web applications for machine learning and data science. It integrates modern UI components with analytical Python code using technologies like Plotly.js, React, and Flask. Dash enables rapid development of interactive applications with features such as dropdowns, sliders, and graphs linked directly to the backend code. The framework offers extensive documentation, a gallery of example apps, and is designed for both beginners and seasoned developers. Dash Open Source allows for local development, while Dash Enterprise offers scalability, deployment, and enhanced productivity tools for commercial applications. Key features include Kubernetes scaling, no-code authentication, Job Queue for asynchronous tasks, Design Kit for low-code app styling, Snapshot Engine for sharing app states, and comprehensive AI and big data integrations.",Unlocking Analytics: The Power of Dash for Python Web Apps,"Discover Dash, the leading Python framework for creating interactive ML and data science web apps. Built on Plotly.js, React, and Flask, Dash seamlessly integrates modern UI elements with your data analytics code. With options for both beginners and seasoned developers, including comprehensive documentation and a gallery of sample Dash apps, learning to create dynamic web applications has never been easier. Whether for individual use or enterprise-scale deployments, Dash offers extensive features for building and scaling your web apps.","Explore the capabilities of Dash, the most trusted Python framework for building machine learning and data science web applications. Learn how Dash combines Plotly.js, React, and Flask to create interactive, user-friendly web apps.",Python Web Development,"Python
+
+
+
+
+
+        20,523
+
+
+
+
+
+        1,989
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://user-images.githubusercontent.com/1280389/30086128-9bb4a28e-9267-11e7-8fe4-bbac7d53f2b0.gif; https://user-images.githubusercontent.com/1280389/30086123-97c58bde-9267-11e7-98a0-7f626de5199a.gif; https://user-images.githubusercontent.com/1280389/30086299-768509d0-9268-11e7-8e6b-626ac9ca512c.gif; https://user-images.githubusercontent.com/2678795/161153710-57952401-6e07-42d5-ba3e-bab6419998c7.gif; https://user-images.githubusercontent.com/2678795/161155614-21c54a22-f821-4dda-b910-ee27e27fb5f2.png,,20523,2015-04-10T01:53:08Z
+2024-05-01,https://github.com/OpenInterpreter/01,https://raw.githubusercontent.com/OpenInterpreter/01/main/README.md,"The 01 Project is an open-source initiative aimed at creating an ecosystem for AI-powered devices, aspiring to be the GNU/Linux for conversational technology. It offers the 01 Light, an ESP32-based voice interface, and is working on the 01 Heavy, designed for local operations. The project is at the experimental stage, warning against use on devices with sensitive information until a stable release is achieved. A notable update includes integrating RealtimeTTS and RealtimeSTT for enhanced voice interaction. The software supports Mac OSX and Ubuntu, with experimental support for Windows, and involves cloning the repository, installing dependencies, and running simulations. They plan to expand hardware compatibility and invite contributions to support and build more hardware. The system operates a server for connectivity, supports local mode operations, and allows for customization to tailor functionality. Contributors are welcomed to further the project's development.",Revolutionizing AI Devices: Introducing The Open Source 01 Project,"The 01 Project aims to transform the AI device ecosystem with its open-source operating system, enabling conversational devices like never before. Its commitment to openness, modularity, and freedom is poised to make it the GNU/Linux of conversational AI. With rapid development and enhancements including RealtimeTTS and RealtimeSTT integration, the project is on the cusp of major breakthroughs. Users can participate in this exciting journey by cloning the repository, setting up their environment, and running simulations or local setups. Join the community to contribute towards building a more connected and interactive world.","Discover the 01 Project, an open-source initiative for AI devices designed to power conversational interfaces with ease. Learn how to join, contribute, and transform the future of conversational AI.",Open Source Tool,"Python
+
+
+
+
+
+        4,444
+
+
+
+
+
+        419
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        43 stars today",https://www.openinterpreter.com/OI-O1-BannerDemo-3.jpg,https://www.youtube.com/watch?v=1ZXugicgn6U,4444,2024-01-11T05:45:13Z
+2024-05-01,https://github.com/UniModal4Reasoning/ChartVLM,https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/README.md,"The paper introduces ChartX, a comprehensive evaluation set for benchmarking Multi-modal Large Language Models' (MLLMs) abilities in interpreting and reasoning over visual charts. ChartX covers 18 chart types, 7 tasks, and 22 topics with high-quality data. Additionally, the authors develop ChartVLM, a new model designed for multi-modal tasks requiring interpretable pattern recognition, such as those involving charts or geometric images. ChartVLM is evaluated against mainstream MLLMs using ChartX, showing superior performance in chart-related tasks, even comparable to that of GPT-4V. This work aims to advance the exploration of more interpretable multi-modal models and enhance the understanding of MLLMs' capabilities in the chart domain. The evaluation set and models presented seek to facilitate further research in this area.",Exploring ChartX & ChartVLM: Enhancing Multi-modal Large Language Models with Visual Charts,"Discover the innovative ChartX and ChartVLM, the cutting-edge tools advancing the comprehension and reasoning capabilities of Multi-modal Large Language Models (MLLMs) within the visual chart domain. ChartX sets a new benchmark with its extensive evaluation set covering diverse chart types and tasks across various disciplines. ChartVLM emerges as a superior model, outperforming existing MLLMs and chart-specific models with its interpretable pattern handling for charts and geometric images. This breakthrough study not only showcases ChartVLM's remarkable achievements but also opens new avenues for future research in multi-modal model interpretability and evaluation.",Unveil the potential of ChartX and ChartVLM in advancing MLLM's abilities to interpret and reason with visual charts. Explore how these tools set new benchmarks and outperform leading models in the field.,Multimodal AI Model,"Python
+
+
+
+
+
+        172
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/assets/motivation.png; https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/assets/tsne.png; https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/assets/chartvlm.png; https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/assets/radar_se.png; https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/assets/radar_qa.png; https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/assets/radar_desc.png; https://raw.githubusercontent.com/UniModal4Reasoning/ChartVLM/main/assets/radar_summ.png,,172,2024-01-29T10:31:30Z
+2024-05-01,https://github.com/dusty-nv/jetson-containers,https://raw.githubusercontent.com/dusty-nv/jetson-containers/master/README.md,"The project focuses on creating modular container build systems, offering a wide variety of AI/ML packages specifically designed for NVIDIA Jetson platforms. It encompasses a comprehensive suite of machine learning and artificial intelligence components, including packages for PyTorch, TensorFlow, ONNXRuntime, DeepStream, JupyterLab, and various large language models (LLMs) such as NanoLLM and Transformers. Additionally, it supports CUDA, robotics applications, audio processing, smart home technologies, and more. Users can easily build and run their own containers by combining different packages, leveraging tools provided for system setup, container building, and execution, ensuring compatibility with JetPack/L4T. The documentation guides through package lists, definitions, setup instructions, and building/running containers, supported by tutorials for getting started. The initiative facilitates the deployment of advanced AI capabilities on Jetson devices, streamlining the development process for applications ranging from voice chats and object detection to smart home solutions.",Optimizing AI: Unleashing Machine Learning Containers on NVIDIA Jetson,"Discover the power of machine learning containers designed for NVIDIA Jetson and JetPack, offering seamless integration and efficient AI development. This modular build system includes a wide array of AI/ML packages, from PyTorch to TensorFlow, making it easier than ever to deploy advanced AI applications on Jetson devices. Whether you're running ROS2 with PyTorch or need a specific CUDA version, these containers streamline the process. Dive into the world of AI with Jetson's containers and transform your projects with cutting-edge technology.","Explore how machine learning containers for NVIDIA Jetson and JetPack can revolutionize AI development with a comprehensive suite of AI/ML packages, from PyTorch to TensorFlow, for seamless integration and deployment.",AI Development Platform,"Python
+
+
+
+
+
+        1,674
+
+
+
+
+
+        388
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg; https://nvidia-ai-iot.github.io/jetson-generative-ai-playground/images/JON_Gen-AI-panels.png; https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/llamaspeak_llava_clip.gif; https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/llamaspeak_70b_yt.jpg; https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/nanodb_tennis.jpg; https://github.com/NVIDIA-AI-IOT/nanoowl/raw/main/assets/jetson_person_2x.gif; https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/live_llava.gif; https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/live_llava_bear.jpg; https://www.jetson-ai-lab.com/images/slm_console.gif,https://www.youtube.com/watch?v=UOjqF3YCGkY; https://www.youtube.com/watch?v=9ObzbbBTbcc; https://www.youtube.com/watch?v=hswNSZTvEFE; https://www.youtube.com/watch?v=wzLHAgDxMjQ; https://www.youtube.com/watch?v=OJT-Ax0CkhU; https://www.youtube.com/watch?v=wzLHAgDxMjQ; https://www.youtube.com/watch?v=w48i8FmVvLA; https://www.youtube.com/watch?v=X-OXxPiUTuU; https://www.youtube.com/watch?v=wZq7ynbgRoE; https://www.youtube.com/watch?v=X-OXxPiUTuU,1674,2020-04-29T19:50:58Z
+2024-05-01,https://github.com/epfLLM/meditron,https://raw.githubusercontent.com/epfLLM/meditron/main/README.md,"Meditron introduces Meditron-7B and Meditron-70B, advanced open-source medical Large Language Models (LLMs) derived from Llama-2. Focused on the medical domain, these models underwent additional pretraining on a diverse medical corpus, including PubMed papers, medical guidelines, and general domain data, significantly outperforming competitors like GPT-3.5 in medical reasoning tasks. However, it cautions against Meditron's clinical application without further alignment and testing due to its foundational training stage. Meditron, primarily in English, utilizes a causal decoder-only transformer architecture and is accessible through HuggingFace. Its training leveraged extensive computational resources, including NVIDIA's A100 GPUs, to achieve optimal parallelism and efficiency. Future updates will aim to enhance model performance, with Meditron-70B already available for non-clinical AI assistance in healthcare, including educational and informational queries, despite not being recommended for production use in natural language generation.","Revolutionizing Healthcare: Introducing Meditron-70B, a Medical Domain Language Model","Discover Meditron, the groundbreaking suite of open-source medical Large Language Models (LLMs), including Meditron-7B and Meditron-70B. These models have been expertly adapted from Llama-2 and fine-tuned on a vast medical corpus, outperforming other LLMs in medical reasoning tasks. Despite their advanced capabilities, Meditron is advised against use in direct medical applications without further testing. Incorporating a wide range of medical literature and guidelines, Meditron represents a significant step forward in AI-assisted healthcare.","Explore Meditron-70B & Meditron-7B: Open-source medical domain LLMs surpassing Llama-2, GPT-3.5 & Flan-PaLM in medical tasks. Learn about their development, capabilities, and advisory notice.",Large-scale Language Models,"Python
+
+
+
+
+
+        1,607
+
+
+
+
+
+        147
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/epfLLM/meditron/main/figures/meditron_LOGO.png; https://raw.githubusercontent.com/epfLLM/meditron/main/figures/meditron-pipeline.png; https://raw.githubusercontent.com/epfLLM/meditron/main/figures/prompt_example.png,,1607,2023-11-23T17:45:46Z
+2024-05-01,https://github.com/snap-stanford/stark,https://raw.githubusercontent.com/snap-stanford/stark/main/README.md,"STaRK is a benchmark designed to evaluate the performance of large language models (LLMs) on retrieval tasks within both textual and relational knowledge bases. It addresses the challenge of extracting relevant nodes from a knowledge base given a user query, a task that tests the LLM's ability to understand and manipulate complex query requirements. STaRK is significant for its introduction of a novel task combining textual and relational data, its provision of large and diverse knowledge bases across three areas, and its use of natural, practical queries that reflect real-life information needs. The benchmark includes detailed setup instructions for environment configuration, dataset loading, and evaluation, supporting both automatic data downloading and custom preprocessing. Evaluation metrics involve embedding node documents and queries to assess model performance, with specific tools and models recommended for generating these embeddings. The provided code and documentation facilitate the use of STaRK for benchmarking purposes, with a call for researchers to cite the work if it informs their own.",STaRK: A New Benchmark in LLM Retrieval from Textual and Relational Knowledge Bases,"STaRK introduces a novel benchmark for evaluating large language models (LLMs) in retrieving relevant nodes from textual and relational knowledge bases in response to user queries. It highlights the unique challenge of managing the complex relationship between text and data within queries, offering a large-scale and diverse set of knowledge bases for thorough testing. The benchmark focuses on real-life, practical queries that integrate rich relational data and textual nuances to mimic actual user scenarios. With STaRK, researchers can push the boundaries of information retrieval, providing insights into the capacities and limitations of current LLM technologies in handling intricate data retrieval tasks.","Discover STaRK, the benchmark revolutionizing how LLMs are evaluated on retrieving data from textual and relational knowledge bases, emphasizing complex query understanding and practical, real-life scenarios.",Deep Learning Tool,"Python
+
+
+
+
+
+        155
+
+
+
+
+
+        18
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        19 stars today",https://raw.githubusercontent.com/snap-stanford/stark/main/media/overview.png; https://raw.githubusercontent.com/snap-stanford/stark/main/media/kb.jpg; https://raw.githubusercontent.com/snap-stanford/stark/main/media/questions.jpg,,155,2024-04-22T17:56:26Z
