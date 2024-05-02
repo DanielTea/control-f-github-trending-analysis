@@ -12572,3 +12572,361 @@ As an alpha version, TagStudio addresses the need for further testing, quality o
 
 
         19 stars today",https://raw.githubusercontent.com/snap-stanford/stark/main/media/overview.png; https://raw.githubusercontent.com/snap-stanford/stark/main/media/kb.jpg; https://raw.githubusercontent.com/snap-stanford/stark/main/media/questions.jpg,,155,2024-04-22T17:56:26Z
+2024-05-02,https://github.com/dnhkng/GlaDOS,https://raw.githubusercontent.com/dnhkng/GlaDOS/main/README.md,"The GLaDOS Personality Core project aims to create a real-life, interactive, and aware version of the GLaDOS character, blending hardware and software. Key achievements so far include developing a GLaDOS voice generator and designing a realistic personality core. Future tasks include integrating a memory system via MemGPT, implementing vision with LLaVA, producing 3D-printable components, and developing an animatronics system. The software architecture focuses on low-latency voice interaction, minimizing dependencies, and simplifying the system for constrained hardware. The hardware will feature servo and stepper motors for animations. Installation instructions are provided for Linux, with potential adaptability to Windows, covering text-to-speech engines, voice recognition, and necessary models. Testing can be conducted through a provided demonstration notebook.",Bringing GLaDOS to Life: Real-World AI Personality Core Project,"Discover the journey of creating a real-life GLaDOS, an ambitious project combining hardware and software to develop an aware, interactive AI. This endeavor involves training a voice generator, crafting a realistic personality core, and integrating advanced features like memory and vision systems. With a focus on low-latency voice interaction and minimal dependencies, this project aims to install GLaDOS into a physical form complete with animations and the ability to track and engage with humans. Explore the cutting-edge technology and passion driving the creation of a real-world GLaDOS, embodying the iconic character with a blend of animation, voice, and AI.","Join us in building a real-life GLaDOS: an interactive, AI-driven project that breathes life into the iconic character through advanced software architecture, 3D animatronics, and innovative voice interaction.",AI Development Platform,"Python
+
+
+
+
+
+        1,076
+
+
+
+
+
+        102
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        71 stars today",https://img.youtube.com/vi/KbUfWpykBGg/0.jpg,https://www.youtube.com/watch?v=KbUfWpykBGg,1077,2023-03-23T14:49:16Z
+2024-05-02,https://github.com/TheOfficialFloW/PPPwn,https://raw.githubusercontent.com/TheOfficialFloW/PPPwn/master/README.md,"PPPwn is an exploit targeting PlayStation 4 systems up to firmware version 11.00, offering kernel-level remote code execution capabilities. It leverages a long-standing vulnerability identified as CVE-2006-4304, with proper disclosure to PlayStation's team. This proof-of-concept exploit, which simply prints ""PPPwned"" on affected PS4s, necessitates further adaptation for running homebrew enablers like Mira. It requires a computer with an Ethernet port (or USB adapter), an Ethernet cable, Linux (virtual machines are supported), and Python3 plus gcc for execution. Users need to clone the PPPwn repository, install prerequisites, compile payloads for the relevant firmware version, and run the exploit script. The setup on the PS4 involves configuring a PPPoE connection and testing the internet connection to trigger the exploit. The process involves stages from initialisation to arbitrary payload execution. Note for Mac Apple Silicon users: the code doesn't natively compile due to architecture differences, but a workaround using Docker to build the required binaries is available.",Unlocking PlayStation 4: Exploring the PPPwn Exploit for Remote Code Execution,"Discover how the PPPwn exploit enables kernel-level Remote Code Execution (RCE) on PlayStation 4 firmware up to version 11.00, utilizing a proof-of-concept for the recognized CVE-2006-4304. This groundbreaking exploit showcases a method to display 'PPPwned' on affected consoles, hinting at further possibilities for homebrew applications with additional payload modification. Requirements include a Linux-based system, Python3, and gcc, among a few hardware necessities. The process involves cloning the repository, installing requirements, compiling payloads, and executing the exploit, demonstrating a significant advancement in PS4 hacking capabilities.","Learn about the PPPwn exploit for PlayStation 4, a method for achieving kernel remote code execution on firmware up to version 11.00, advancing the realm of console hacking and homebrew applications.",Cybersecurity Tool,"Python
+
+
+
+
+
+        872
+
+
+
+
+
+        108
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        189 stars today",,,872,2024-04-30T16:09:20Z
+2024-05-02,https://github.com/zju3dv/LoG,https://raw.githubusercontent.com/zju3dv/LoG/main/README.md,"LoG is an advanced technology that employs an RTX 4090 for training highly realistic urban-scale models and for their real-time rendering. The project's codebase, which is built on PyTorch, utilizes gaussian-splatting techniques to achieve its objectives. For users interested in a hands-on experience, a detailed installation guide and preprocessing documentation are provided, alongside a minimal example dataset. The training process is straightforward, with commands for both training the model and generating interpolation visualization videos. Additionally, an update is anticipated for a real-time rendering tool aimed at immersive visualization. The project acknowledges various prior works and datasets that have been inspirational in its development. Contributions to the project are encouraged, and for academic citations, a specific BibTeX entry is shared.",Harnessing RTX 4090 for Urban-Scale Model Training and Real-Time Rendering with LoG,"Discover how LoG leverages the power of RTX 4090 to train highly realistic urban-scale models for real-time rendering. Built on PyTorch and employing advanced gaussian-splatting techniques, LoG offers a new horizon in 3D visualization and immersive experiences. Dive into our project for easy setup, dataset preparation, and efficient training guides. A breakthrough in rendering technology, LoG invites contributions and further innovation in the field.",Learn how LoG utilizes RTX 4090 for groundbreaking training of urban-scale models and their real-time rendering. Experience seamless setup and advanced techniques for unparalleled 3D visualization.,3D Image Rendering,"Python
+
+
+
+
+
+        469
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+        80 stars today",,,469,2024-03-29T14:10:48Z
+2024-05-02,https://github.com/Textualize/rich,https://raw.githubusercontent.com/Textualize/rich/master/README.md,"Rich is a versatile Python library designed to enhance terminal output with rich text and beautiful formatting capabilities. It supports colorful and styled text, pretty tables, progress bars, markdown rendering, syntax-highlighted code, tracebacks, and more, requiring no extra configuration for Jupyter notebooks. Rich is compatible with Linux, OSX, Windows (with certain color limitations on classic terminals), and requires Python 3.7 or later. Installation is straightforward via pip. Rich offers an easy way to produce richly formatted console output, including a special print method that enriches text with styles and emojis, and a REPL mode for beautified display of data structures. It also includes features for debugging and development, such as log and inspect methods, and various utilities like progress bars, tables, markdown, and syntax highlighting for enhanced code readability and debugging. Rich is extendable, encouraging users to implement their content using the Console Protocol.",Master Rich: Turbocharge Your Python Terminal Experience,"Discover how the Rich library can elevate your Python terminal applications with stunning text formatting, progress bars, markdown rendering, and more. Designed for compatibility across major operating systems, Rich supports Python 3.7 and later, making it widely accessible. Its API simplifies adding colors, styles, and complex layouts to terminal outputs, transforming mundane scripts into visually engaging experiences. From syntax-highlighted code blocks to elegant tables, Rich offers a toolkit to enhance CLI applications and debugging processes. Get started with Rich today to unlock a world of possibilities in terminal aesthetics and functionality.","Explore the Rich library for Python to beautify terminal applications with colors, styles, markdown, and more. Compatible with Python 3.7+, Rich is perfect for developers seeking to improve CLI aesthetics and usability.",Python Libraries Collection,"Python
+
+
+
+
+
+        47,171
+
+
+
+
+
+        1,671
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://github.com/textualize/rich/raw/master/imgs/features.png; https://github.com/textualize/rich/raw/master/imgs/print.png; https://github.com/textualize/rich/raw/master/imgs/repl.png; https://github.com/textualize/rich/raw/master/imgs/hello_world.png; https://github.com/textualize/rich/raw/master/imgs/where_there_is_a_will.png; https://github.com/textualize/rich/raw/master/imgs/inspect.png; https://github.com/textualize/rich/raw/master/imgs/log.png; https://github.com/textualize/rich/raw/master/imgs/logging.png; https://github.com/textualize/rich/raw/master/imgs/table_movie.gif; https://github.com/textualize/rich/raw/master/imgs/table.png; https://github.com/textualize/rich/raw/master/imgs/table2.png; https://github.com/textualize/rich/raw/master/imgs/progress.gif; https://github.com/textualize/rich/raw/master/imgs/downloader.gif; https://github.com/textualize/rich/raw/master/imgs/status.gif; https://github.com/textualize/rich/raw/master/imgs/spinners.gif; https://github.com/textualize/rich/raw/master/imgs/tree.png; https://github.com/textualize/rich/raw/master/imgs/columns.png; https://github.com/textualize/rich/raw/master/imgs/markdown.png; https://github.com/textualize/rich/raw/master/imgs/syntax.png; https://github.com/textualize/rich/raw/master/imgs/traceback.png; https://raw.githubusercontent.com/Textualize/rich-cli/main/imgs/rich-cli-splash.jpg; https://raw.githubusercontent.com/Textualize/textual/main/imgs/textual.png,,47171,2019-11-10T15:28:09Z
+2024-05-02,https://github.com/cpacker/MemGPT,https://raw.githubusercontent.com/cpacker/MemGPT/main/README.md,"MemGPT is a platform designed to build and deploy stateful LLM (Large Language Model) agents equipped with long-term memory capabilities and customizable tools. It supports connecting to external data sources like PDFs for Retriever-Augmented Generation (RAG) and defining custom functions, such as performing Google searches. Installation is straightforward, requiring `pip` for Python and setting environment variables for integration with OpenAI or using MemGPT's hosted endpoint. MemGPT offers CLI and server deployment options, the latter of which supports Docker and direct execution for running services accessible via a web developer portal. It's model-agnostic, supporting various LLM and embedding endpoints from providers like OpenAI, Azure, Google AI, and others, with performance dependent on the LLM's function-calling ability. The platform provides comprehensive documentation online, encourages community support through Discord, and aligns with legal standards through privacy and service terms. MemGPT encourages feedback on its developer roadmap and performance benchmarking to enhance model compatibility.",Elevate Your AI: Harnessing MemGPT for Advanced LLM Agents with Long-Term Memory,"MemGPT revolutionizes the way LLM agents are built and deployed by offering long-term memory management, integration with external data sources, and the ability to define and utilize custom tools. This cutting-edge framework supports a wide range of LLM and embedding endpoints from leading providers including OpenAI, Google AI, and more. Easy installation and versatile setup options, including CLI and server deployment, make MemGPT accessible for developers of all skill levels. Additionally, the platform ensures robust support and continuous improvement through its dynamic community and developer roadmap. Dive into the future of AI development by leveraging MemGPT's comprehensive documentation and versatile capabilities.","Discover how MemGPT enables the creation of stateful LLM agents with long-term memory, external data integration, and custom tools. Learn about its easy setup, diverse endpoint support, and vibrant developer community.",AI Development Platform,"Python
+
+
+
+
+
+        9,001
+
+
+
+
+
+        979
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        211 stars today",,,9001,2023-10-11T07:38:37Z
+2024-05-02,https://github.com/P1sec/QCSuper,https://raw.githubusercontent.com/P1sec/QCSuper/master/README.md,"QCSuper is a tool designed for Qualcomm-based phones and modems, enabling the capture of raw 2G/3G/4G and some 5G radio frames. It supports generating PCAP captures using a rooted Android phone, USB dongle, or existing captures in other formats. Installation and usage depend on the operating system, but it has been tested on Ubuntu LTS 22.04 and Windows 11, recommending Linux for better compatibility. Rooting the phone or exposing a diag service port is necessary for use. Wireshark can open the PCAP files for analyzing the frames, with specific version requirements based on the radio technology. QCSuper operates through the Qualcomm Diag protocol to communicate with the phone's baseband for diagnostics. Users can report device compatibility on its GitHub issue page. The tool offers various functionalities, including live Wireshark integration, PCAP dumping, memory dumping, and detailed device information gathering. It has been tested with several devices, showing a range of compatibility but aims to support a wide range of Qualcomm-based devices.",Unlock the Power of QCSuper: A Comprehensive Guide for Qualcomm Phone Analysis,"QCSuper is a powerful tool for analyzing Qualcomm-based phones, providing capabilities to capture raw radio frames across 2G, 3G, 4G, and select 5G networks. It allows users to generate PCAP captures using a rooted Android phone, USB dongle, or existing captures. With its ability to utilize the Qualcomm Diag protocol, QCSuper enables detailed communication analysis through easy-to-use commands. Whether you're troubleshooting or gathering insights, QCSuper equips you with the data needed, directly accessible in Wireshark for in-depth examination. Discover how to install and optimize QCSuper for your device, ensuring you harness its full potential for your telecommunications analysis needs.","Explore how to use QCSuper for capturing comprehensive 2G, 3G, 4G, and 5G radio frames on Qualcomm-based phones. This guide covers installation, usage, and how to analyze captured data with Wireshark for effective Qualcomm phone diagnostics.",Cybersecurity Tool,"Python
+
+
+
+
+
+        1,118
+
+
+
+
+
+        214
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        74 stars today",,,1118,2019-07-09T08:20:21Z
+2024-05-02,https://github.com/run-llama/llama_parse,https://raw.githubusercontent.com/run-llama/llama_parse/main/README.md,"LlamaParse is an API developed by LlamaIndex for efficiently parsing and representing files, facilitating better retrieval and context enhancement with LlamaIndex frameworks. It seamlessly integrates with LlamaIndex, offering a free plan for up to 1000 pages daily and a paid plan for 7000 pages weekly at $0.003 per extra page. To start, users must obtain an API key from the LlamaIndex cloud, ensure they have the latest LlamaIndex version, and follow a migration guide if upgrading from an older version. Installation involves using pip for LlamaIndex and LlamaParse packages. The API supports synchronous and asynchronous operations, including batch processing, with options for output format, worker allocation, verbosity, and language specifications. Integration with `SimpleDirectoryReader` for default PDF processing and full documentation is available, alongside various examples for easy understanding and application. Terms of Service are provided.",Maximize Your File Parsing with LlamaParse: The Ultimate Guide,"Discover the capabilities of LlamaParse, the comprehensive API designed by LlamaIndex for optimal file parsing and contextual representation. With seamless integration into the LlamaIndex frameworks, it offers a scalable solution for managing documents up to 1000 pages daily for free, and more on a budget-friendly paid plan. Learn how to get started easily, from obtaining your API key to the full installation process, and elevate your file management system today. Dive into the future of efficient file parsing and unlock new potentials for your project or organization.","Unlock efficient file parsing with LlamaParse – the robust API by LlamaIndex. Learn how to streamline your document management with our free and paid plans, easy setup guide, and powerful features for enhanced retrieval and context augmentation.",API Management Tool,"Python
+
+
+
+
+
+        898
+
+
+
+
+
+        77
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        32 stars today",,,898,2024-01-31T18:33:07Z
+2024-05-02,https://github.com/pydantic/logfire,https://raw.githubusercontent.com/pydantic/logfire/main/README.md,"Pydantic Logfire is an observability platform designed to be both simple and powerful, tailored specifically for Python applications. Developed by the team behind Pydantic, it offers an easy-to-use dashboard that provides deep insights into Python application behavior, such as rich Python object display, event-loop telemetry, and profiling for code and database queries. Logfire allows users to query data using standard SQL and integrates seamlessly with OpenTelemetry for broader language support. It also enhances understanding of data through Pydantic model validations. Logfire can be easily installed and used for manual tracing or integrated with popular Python packages like FastAPI for automatic instrumentation. The platform aims to make powerful tools accessible without complexity, encouraging usage across engineering teams. Additional details on using Logfire, including installation and authentication, can be found in the online documentation. The project welcomes contributions and addresses security vulnerabilities according to its published policies.",Elevate Your Python Projects with Pydantic Logfire: Ultimate Observability Guide,"Discover how Pydantic Logfire transforms observability for Python applications, offering a Python-centric approach to insights, SQL query capabilities, and integration with OpenTelemetry and Pydantic models. From simplifying complex data analysis via a powerful dashboard to enhancing Python application behavior visibility and streamlining data queries with SQL, Logfire is engineered for ease of use without compromising on performance. Explore the documentation and contribute to the evolving platform designed for developers seeking to amplify their engineering team's efficiency.","Learn how Pydantic Logfire revolutionizes Python application observability with a user-friendly platform, providing powerful insights into application behavior, SQL query functionalities, and comprehensive OpenTelemetry and Pydantic integration.",Developer Monitoring Platform,"Python
+
+
+
+
+
+        419
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        92 stars today",https://docs.pydantic.dev/logfire/images/index/logfire-screenshot-fastapi-200.png,,419,2024-04-23T11:50:23Z
+2024-05-02,https://github.com/Free-TV/IPTV,https://raw.githubusercontent.com/Free-TV/IPTV/main/README.md,"This text introduces a M3U playlist for accessing free TV channels globally, emphasizing the availability of channels both locally over the air in various countries and online via platforms like Plex TV and Pluto TV. The key philosophy driving this playlist includes a focus on quality over quantity, ensuring channels are in HD and work well, maintaining that only free channels are listed, and ensuring the content is mainstream, avoiding channels dedicated to adult content, specific religions, political parties, or foreign-funded channels targeting another country. The playlist is compiled using a Python script and markdown files, with each file representing a different region or group of channels. The document also outlines guidelines for submitting additions or changes through pull requests, specifying that changes should only be made to markdown files, and providing clear instructions for adding or removing channels to maintain the playlist's integrity and relevance.",Accessing Worldwide Free TV Channels: Ultimate Guide to Free M3U Playlists,"Discover the ultimate guide to accessing free TV channels worldwide using M3U playlists. From local broadcasts to digital streaming services, learn how to seamlessly enjoy a variety of content across different regions without the hassle of subscriptions. This concise overview introduces you to a range of free platforms including Plex TV, Pluto TV, and more, alongside a philosophy that prioritizes quality, ensuring only the best viewing experience. Start exploring today!","Unlock a world of entertainment with our comprehensive guide on free TV channels accessible globally through M3U playlists. From Pluto TV to Plex, enjoy quality streaming without subscriptions.",Open Source Tool,"Python
+
+
+
+
+
+        3,782
+
+
+
+
+
+        650
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",,,3782,2021-04-13T09:13:48Z
+2024-05-02,https://github.com/fishaudio/fish-speech,https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md,"The text pertains to the ""Fish Speech"" codebase and its associated models, which are available under BSD-3-Clause License and CC-BY-NC-SA-4.0 License respectively. Links to licenses, disclaimers about legal responsibilities regarding its use, documentations in English and Chinese, as well as sample outputs, are provided. Additionally, it acknowledges contributions from various projects like VITS2, Bert-VITS2, GPT VITS, MQTTS, GPT Fast, and GPT-SoVITS in the credits section. The project also highlights its sponsorship for data processing by 6Block, including a link and a logo of the sponsor. This summary encapsulates the key information about the project's licensing, documentation, legal disclaimer, contributions, and sponsorship.",Exploring the Technological Waves of Fish Speech: The Future of Audio Processing,"Discover the innovative Fish Speech project, revolutionizing audio processing with its cutting-edge technology. Released under BSD-3-Clause and CC-BY-NC-SA-4.0 Licenses, Fish Speech presents a blend of legal compliance and technological marvel. Its diverse models, including VITS2 and Bert-VITS2, underscore its commitment to transforming audio interactions. Notably, 6Block's support in data processing propels Fish Speech into the forefront of audio technology. Dive into the world of Fish Speech for an insight into tomorrow's audio advancements.","Explore Fish Speech, the forefront of audio processing technology, supported by 6Block for data handling. Learn about its licenses, models like VITS2, and its role in shaping the future.",Voice Conversion Tool,"Python
+
+
+
+
+
+        884
+
+
+
+
+
+        77
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",,,884,2023-10-10T03:16:51Z
+2024-05-02,https://github.com/Qiskit/qiskit,https://raw.githubusercontent.com/Qiskit/qiskit/main/README.md,"Qiskit is an open-source SDK focused on quantum computing, specifically handling quantum circuits, operators, and primitives. It provides tools for creating, optimizing, and working with quantum circuits through a transpiler and a quantum information toolbox for advanced operators. Qiskit supports quantum programming with constructs like quantum circuits, classical output definitions, and primitive functions (`sampler` and `estimator`) for outcome sampling and value estimation. Installation is recommended via `pip`, ensuring users get the latest version, along with all necessary dependencies. The documentation guides new users through installation, creating quantum programs, and executing them on real quantum hardware. Qiskit bridges classical to quantum computing by optimizing quantum circuits for specific hardware configurations using its transpiler, mapping circuits to hardware's native gates and connectivity. Execution on real quantum hardware necessitates the use of the Qiskit runtime environment and provider-specific backends that offer optimized primitives implementations. Contributions to Qiskit are welcomed, with guidelines available for interested developers. It is a collective effort of many contributors, and users are encouraged to cite Qiskit in their work. The project is partially supported by the DOE Office of Science and adheres to the Apache License 2.0.",Unlocking Quantum Computing: A Beginner's Guide to Qiskit,"Dive into the world of quantum computing with Qiskit, the open-source SDK designed for creating and running quantum circuits, optimizing them for real quantum hardware. Qiskit offers a comprehensive set of tools for quantum circuit design, including primitives for sampling outcomes and estimating values, and a robust transpiler for circuit optimization. With its detailed documentation and supportive community, getting started with Qiskit is accessible to programming enthusiasts and quantum computing beginners alike. Learn how to install Qiskit, build your first quantum program, and take your first steps into the quantum realm today.","Explore the basics of quantum computing with our beginner's guide to Qiskit. Learn how to install Qiskit, create quantum circuits, and execute them on real quantum hardware.",Quantum Computing,"Python
+
+
+
+
+
+        4,629
+
+
+
+
+
+        2,232
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",,,4629,2017-03-03T17:02:42Z
+2024-05-02,https://github.com/acantril/learn-cantrill-io-labs,https://raw.githubusercontent.com/acantril/learn-cantrill-io-labs/master/README.md,"The repository by learn-cantrill-io-labs provides a rich collection of free demos and mini-projects focused on AWS, with plans to include other cloud platforms in the future. These educational resources are presented in three formats: freely accessible instruction and architecture diagrams, comprehensive courses with theory lessons and guided videos on learn.cantrill.io, and some mini projects that come with video guides directly in the repo. Additionally, creators can earn by contributing new mini projects, supported by course sales on learn.cantrill.io. The projects cover a wide range of topics, including web application architecture, serverless applications, VPNs, using AWS for hybrid DNS setups, pipeline deployments, and database migration among others. Each demo is designed for easy setup, with a 1-Click Deployment feature and detailed instructions. The repository also offers opportunities for users to get course credits by submitting bug fixes through pull requests.",Explore Free AWS Demos and Mini Projects: Elevate Your Cloud Skills,"Discover a treasure trove of AWS demos and mini projects at learn-cantrill-io-labs, perfect for enhancing your cloud expertise. From serverless applications to hybrid DNS, these free resources are designed to complement theoretical knowledge with practical experience. Dive into instruction & architecture diagrams for a hands-on learning experience. Elevate your skills further with video guides available for popular projects. Plus, learn how you can contribute and get paid for creating new mini projects.","Unlock a collection of free AWS demos and mini projects at learn-cantrill-io-labs. Enhance your cloud skills with practical, hands-on resources. Learn more today.",Cloud Development Tool,"Python
+
+
+
+
+
+        5,252
+
+
+
+
+
+        2,022
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://github.com/acantril/learn-cantrill-io-labs/raw/master/demogrid.png,,5252,2020-06-24T22:39:30Z
+2024-05-02,https://github.com/encode/httpx,https://raw.githubusercontent.com/encode/httpx/master/README.md,"HTTPX is a modern HTTP client for Python 3.8+, featuring both synchronous and asynchronous APIs, support for HTTP/1.1 and HTTP/2, and an integrated command line client. It provides a user-friendly API compatible with the well-known `requests` library, adding new capabilities such as direct requests to WSGI or ASGI applications, strict timeouts, and full typing annotations. HTTPX assures 100% test coverage, enforcing reliability and robustness. Its installation is straightforward using pip, with optional support for HTTP/2, SOCKS proxy, rich terminal environments, and decompression of brotli or zstd compressed responses. The project benefits from the foundational work of `requests` and `urllib3`, offering advanced features like session management, automatic content decoding, and multipart file uploads. Extensive documentation is available online for both beginners and advanced users, with a dedicated guide for contributions. HTTPX's dependencies include `httpcore` for transport, `certifi` for SSL certificates, and `idna` for internationalized domain name support, among others.",Maximizing Efficiency with HTTPX: The Next-Generation HTTP Client for Python,"Discover HTTPX, the cutting-edge HTTP client for Python that brings an integrated command line client, full HTTP/1.1 and HTTP/2 support, and both synchronous and asynchronous APIs. Elevate your Python projects with HTTPX's advanced features, including WSGI/ASGI application requests and complete type annotation, for robust and high-performing web requests. Perfect for developers seeking the blend of `requests` simplicity with the power of asynchronous support.","Explore the perks of HTTPX, an advanced HTTP client for Python offering HTTP/1.1, HTTP/2, sync/async APIs, and an integrated CLI. Perfect for modern Python web projects.",Python Libraries Collection,"Python
+
+
+
+
+
+        12,354
+
+
+
+
+
+        799
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://raw.githubusercontent.com/encode/httpx/master/docs/img/butterfly.png; https://raw.githubusercontent.com/encode/httpx/master/docs/img/httpx-help.png; https://raw.githubusercontent.com/encode/httpx/master/docs/img/httpx-request.png,,12354,2019-04-04T12:27:00Z
