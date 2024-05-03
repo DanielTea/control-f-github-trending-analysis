@@ -12930,3 +12930,215 @@ As an alpha version, TagStudio addresses the need for further testing, quality o
 
 
         18 stars today",https://raw.githubusercontent.com/encode/httpx/master/docs/img/butterfly.png; https://raw.githubusercontent.com/encode/httpx/master/docs/img/httpx-help.png; https://raw.githubusercontent.com/encode/httpx/master/docs/img/httpx-request.png,,12354,2019-04-04T12:27:00Z
+2024-05-03,https://github.com/GistNoesis/FourierKAN,https://raw.githubusercontent.com/GistNoesis/FourierKAN/main/README.md,"FourierKAN introduces a PyTorch layer inspired by Kolmogorov-Arnold Networks, utilizing 1D Fourier coefficients instead of spline coefficients for enhanced optimization due to the global, dense nature of Fourier transforms compared to local splines. Upon optimization, the 1D function can be replaced with a spline approximation for quicker evaluations while maintaining similar results. Fourier-based functions offer the advantage of periodicity, ensuring numerical boundedness and avoiding out-of-grid issues. Users are instructed to place the provided file in the same directory for usage and can run a provided script for a demonstration. The code works on both CPU and GPU but remains untested. It's highlighted that while the current version uses memory proportional to grid size, future versions might not require temporary memory. The layer's approach to computation can either materialize a product before summing or use the einsum function for potentially less memory usage but slower performance. The project is under the MIT license, though future developments, including fused kernels, are planned to be proprietary.",Introducing FourierKAN: Revolutionizing PyTorch with Fourier Layers,"Discover the FourierKAN, a groundbreaking Pytorch layer designed to revolutionize neural networks by replacing traditional linear and non-linear activations with 1D Fourier coefficients. Inspired by Kolmogorov-Arnold networks, FourierKAN offers improved optimization, numerical bounds, and flexibility with periodic functions, promising enhancements in speed and performance once optimized with spline approximations. Open-sourced under MIT license, this innovative approach is set to change how we model with PyTorch.","Explore the capabilities of FourierKAN, a pioneering PyTorch layer using 1D Fourier coefficients for more efficient and bounded neural network modeling. Learn how it bridges the gap between theoretical innovation and practical application.",Deep Learning Tool,"Python
+
+
+
+
+
+        240
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        71 stars today",,,240,2024-05-01T11:39:36Z
+2024-05-03,https://github.com/a-real-ai/pywinassistant,https://raw.githubusercontent.com/a-real-ai/pywinassistant/main/README.md,"PyWinAssistant, launched on December 31, 2023, is the inaugural open-source framework for Windows 10/11, designed to aid user interface interaction through an Artificial Narrow Intelligence employing Visualization-of-Thought (VoT) for spatial reasoning in large language models. Distinguishing itself by not requiring OCR or object detection, this tool aims to enhance the general quality of language and vision models while being data-efficient. It enables users to control their computers using natural language, facilitates UI testing for Win32api applications via natural language, and supports automation across a multitude of desktop applications. PyWinAssistant operates on advanced natural language processing, task automation algorithms, and offers features like dynamic case generation, single-action execution, and customizable AI identity. Essentially, it streamlines workflows, boosts productivity, and makes technology more accessible, marking a shift towards more interactive and intuitive AI integration in daily computing tasks.",Revolutionizing Windows UI Automation with PyWinAssistant: A New AI-Powered Framework,"Unveiling PyWinAssistant, the groundbreaking Open Source framework released on 31 Dec 2023, designed for Windows 10/11 that leverages Large Action Model technology for unparalleled UI assistance without the need for OCR. This innovative tool utilizes Visualization-of-Thought (VoT) to enhance spatial reasoning, enabling more natural, efficient human-computer interaction while ensuring minimal data usage. Offering built-in options for improved usability and testing, PyWinAssistant represents a technical leap in UI and UX assistance, catering to any natural language prompt with security and precision at its core.","Explore PyWinAssistant, the first of its kind Large Action Model and Open Source framework for Windows, offering advanced UI assistance with Visualization-of-Thought technology. Released on 31 Dec 2023, it promises a new era of human-computer interaction.",AI Task Automation,"Python
+
+
+
+
+
+        420
+
+
+
+
+
+        35
+
+
+        Built by
+
+          
+
+
+
+
+
+        25 stars today",,,420,2024-01-01T05:54:22Z
+2024-05-03,https://github.com/fcori47/basdonax-ai-rag,https://raw.githubusercontent.com/fcori47/basdonax-ai-rag/master/README.md,"The Basdonax AI RAG v1.0 repository enables the creation of an AI-based personal assistant utilizing open-source models from Meta and Microsoft, namely `Llama3-7b` and `Phi3-4b`. It allows users to upload documents and query them, simplifying tasks with AI technology. The setup requires Docker, and optionally an RTX graphics card for enhanced performance. Installation steps include choosing the data model based on GPU capability, with `Llama3-7b` recommended for those with a capable graphics card, and `Phi3-4b` for others. Following Docker setup, users download their chosen model and modify the assistant prompt as desired. Finally, accessing the RAG is done via a local server. Future access is simplified through a desktop shortcut to reopen the RAG.",How to Build Your AI Assistant with Basdonax AI RAG v1.0: A Step-by-Step Guide,"Dive into the revolutionary world of Basdonax AI RAG v1.0 to create your own AI secretary. Utilizing open-source models from Meta and Microsoft, like `Llama3-7b` and `Phi3-4b`, this guide offers you the chance to enhance your productivity by teaching you how to upload documents and query them with ease. Get started with essential prerequisites including Docker and an optional GPU for optimal performance. Follow our simple installation process to choose the right data model and execute your AI assistant. Finally, access your AI assistant effortlessly with a final setup, allowing you to enjoy the fruits of AI technology directly from your desktop.","Learn how to create your own AI-secretary using Basdonax AI RAG v1.0, leveraging `Llama3-7b` and `Phi3-4b` models. This guide covers from installation requirements to accessing your AI assistant, making AI technology easily accessible and practical for everyday tasks.",AI Coding Assistant,"Python
+
+
+
+
+
+        69
+
+
+
+
+
+        36
+
+
+        Built by
+
+          
+
+
+
+
+
+        7 stars today",,https://www.youtube.com/watch?v=ZyBBv1JmnWQ,69,2024-04-26T21:22:09Z
+2024-05-03,https://github.com/rougier/numpy-100,https://raw.githubusercontent.com/rougier/numpy-100/master/README.md,"The text introduces a collection of 100 numpy exercises compiled from various sources including the numpy mailing list, Stack Overflow, numpy documentation, and problems created by the author to make up the number. It is aimed at providing a quick reference for numpy users at all levels, and also as a resource for educators. The collection can be accessed and tested on Binder or read on GitHub. It is generated from source data using a script and is under the MIT license. Additionally, there is mention of a similar collection for Julia, called ""100 Julia Exercises.""",Master Numpy with these 100 Exercises for Python Developers,"Dive into the ultimate collection of 100 Numpy exercises compiled from various sources including the Numpy mailing list, Stack Overflow, and official Numpy documentation. Designed to be a comprehensive guide for both beginners and experienced users, this collection not only serves as a quick reference but also as an interactive learning tool. Through a mix of problems sourced and created, this compilation aims to enhance your Numpy skills effectively. Extend your learning by exploring 'From Python to Numpy' for more in-depth exercises. Don't miss out on testing your knowledge directly on Binder or browsing through on GitHub.","Discover the perfect way to hone your Numpy skills with our collection of 100 exercises. Ideal for both new and seasoned Python developers, this guide is your roadmap to mastering Numpy.",Python Libraries Collection,"Python
+
+
+
+
+
+        11,549
+
+
+
+
+
+        5,511
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",,,11549,2014-05-27T04:09:47Z
+2024-05-03,https://github.com/e2b-dev/code-interpreter,https://raw.githubusercontent.com/e2b-dev/code-interpreter/main/README.md,"E2B's Code Interpreter SDK offers capabilities to integrate code interpreting functionalities into AI applications. Hosted in the secure, open-source E2B Sandbox, it supports running untrusted AI-generated code and AI agents across any LLM and AI framework. Key features include support for Python and JavaScript/TypeScript, compatibility with serverless and edge functions, and the ability to handle streaming content. Installation is straightforward with npm for JavaScript/TypeScript and pip for Python, followed by simple code snippets for executing code within the sandbox environment. It includes a Quickstart guide, Hello World tutorials, and a variety of example use cases and supported AI frameworks in its cookbook. Currently, it supports Python with plans to soon include JavaScript/TypeScript.",Enhance Your AI Apps with E2B's Code Interpreter SDK,"Discover how E2B's Code Interpreter SDK revolutionizes AI app development by providing easy code interpreting capabilities inside a secure sandbox. This SDK, fully open-source, supports a wide range of AI frameworks and languages, including Python and JavaScript/TypeScript. Stream content effortlessly, run AI-generated code safely, and embark on a quickstart journey with practical guides and examples. Upgrade your AI development with E2B's comprehensive coding solution.","E2B's Code Interpreter SDK offers seamless integration for AI app development with support for multiple languages, secure sandbox environments, and comprehensive guides. Learn more about enhancing your AI projects today.",AI Development Platform,"Python
+
+
+
+
+
+        449
+
+
+
+
+
+        25
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        130 stars today",,,449,2024-03-11T22:08:25Z
+2024-05-03,https://github.com/dai-motoki/zoltraak,https://raw.githubusercontent.com/dai-motoki/zoltraak/main/README.md,"Zoltraak represents the dawn of a new era of magic by introducing a powerful creation magic system that elevates unorganized spells into a structured magical language, enabling swift and broad spell casting and potent magic activation. Set to become a norm in magic, Zoltraak owes its name to the basic attack magic in Freylen's arsenal. It's an advanced system capable of converting spell constructs rapidly into ancient system languages for instant execution, enhancing both the range and power of magic dramatically. The system also promises flexibility and speed in casting, making it possible to outmaneuver opponents significantly.
+
+The latest release, version 0.1.27, improves on the file writing automation process, showcasing Zoltraak’s capability in translating natural language prompts into executable programming scripts. The project welcomes contributions and has seen participation from various developers who have contributed to its coding, documentation, and other aspects.
+
+Zoltraak utilizes a prompt compiler system, allowing for the expansion of complex magical formulas from simple spell prompts, essentially enabling the encoding of powerful magic incantations through streamlined spell casting mechanics. Future plans include compiling into unique language spells and encryption to safeguard against reverse-engineering. 
+
+It's distributed through Zoltraak Docker and Streamlit, featuring deployment instructions for Windows use, including setting up Python, acquiring an ANTHROPIC API key, and activating the virtual environment for Zoltraak's utilization. It encourages participation in its development and outlines how contributors can add to the project efficiently.",Unleashing Creativity with Zoltraak: The Dawn of a New Magical Era,"Discover Zoltraak, a formidable system of creation magic marking the beginning of a true age of magic. It elevates unstructured spells into a systematic framework, enabling rapid and extensive magical deployments. Zoltraak is set to become a fundamental part of mainstream magic, offering spellcasters an unparalleled ability to cast powerful spells swiftly and with great range. The name Zoltraak pays homage to the general attack magic in Frieren, symbolizing innovation in magical practices.","Explore Zoltraak – a revolutionary creation magic system heralding the new age of magic. Learn how it transforms spellcasting into a rapid, wide-reaching force, setting the stage for future magical practices.",Game Development Tool,"Python
+
+
+
+
+
+        159
+
+
+
+
+
+        22
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/dai-motoki/zoltraak/main/assets/videos/zoltraak2_smooth_high_quality.gif; https://raw.githubusercontent.com/dai-motoki/zoltraak/main/assets/images/cast_zoltraak.png; https://raw.githubusercontent.com/dai-motoki/zoltraak/main/assets/videos/zoltraak0.1.27_high_quality.gif; https://raw.githubusercontent.com/dai-motoki/zoltraak/main/assets/images/last_frame.png; https://raw.githubusercontent.com/dai-motoki/zoltraak/main/assets/images/llmcomment.png; https://raw.githubusercontent.com/dai-motoki/zoltraak/main/assets/images//graph.png,,159,2024-04-27T13:46:24Z
+2024-05-03,https://github.com/microsoft/PubSec-Info-Assistant,https://raw.githubusercontent.com/microsoft/PubSec-Info-Assistant/main/README.md,"As of November 15, 2023, Azure Cognitive Search is now Azure AI Search, and Azure Cognitive Services are Azure AI Services. The Information Assistant (IA) Accelerator integrates Azure and OpenAI's large language models, utilizing Azure AI Search for data retrieval and ChatGPT-style interactions. It employs the Retrieval Augmented Generation (RAG) design, enabling natural language responses based on user queries. It supports multiple response generation approaches, including grounded, ungrounded, and web-sourced responses, with customization options for AI interactions. The accelerator requires an Azure account and specific Azure OpenAI model access. Deployment involves Azure account setup, permissions, and accepting Azure AI Services Responsible AI Notice. It emphasizes responsible AI use, including transparency and content safety measures. Users must be aware of data collection practices, which they can opt out of. The documentation provides comprehensive guides on deployment, usage, and navigating the source code for further customization and development.",Maximizing AI Potential: Integrating Azure AI Search with ChatGPT for Intelligent Solutions,"Discover how the Information Assistant Accelerator, now leveraging Azure AI Search, transforms data retrieval and ChatGPT-style Q&A interactions. Unveiling a seamless integration with OpenAI's large language models, this accelerator offers a retrieval augmented generation design, ensuring precise, multilingual data handling and customizable AI interactions. Dive into its advanced features, from explainable AI to personalized settings, and watch our video to explore practical use cases.","Explore the Information Assistant Accelerator's latest integration with Azure AI Search and ChatGPT, offering enhanced data retrieval, personalized AI interactions, and a multitude of innovative features for building intelligent solutions.",Collaborative AI Framework,No specific star count found,https://raw.githubusercontent.com/microsoft/PubSec-Info-Assistant/main/docs/process_flow_chat.png; https://raw.githubusercontent.com/microsoft/PubSec-Info-Assistant/main/docs/process_flow_agent.png,,230,2023-02-14T14:28:14Z
+2024-05-03,https://github.com/ToTheBeginning/PuLID,https://raw.githubusercontent.com/ToTheBeginning/PuLID/main/README.md,"PuLID, standing for Pure and Lightning ID Customization via Contrastive Alignment, is a project developed by Zinan Guo, Yanze Wu (the corresponding author), Zhuowei Chen, Lang Chen, and Qian He at ByteDance Inc. It focuses on enhancing ID customization through contrastive alignment techniques. The project has made its resources, including the code and models, available to the public alongside a demo on the HuggingFace platform as of May 1, 2024, following the release of its arXiv paper on April 25, 2024. PuLID facilitates easy deployment and experimentation through its requirement of Python 3.7 or higher, PyTorch 2.0 or above, and its installation guidance provided for setting up a working environment. For quick demonstrations, a local Gradio demo and an online HuggingFace demo are offered. The creators encourage the academic community to cite their work if it proves helpful for research and invite feedback and queries via GitHub issues or direct contact with Yanze Wu and Zinan Guo.",Introducing PuLID: Revolutionizing ID Customization with Contrastive Alignment,"Discover PuLID, ByteDance's innovative approach to ID customization, which leverages contrastive alignment for enhanced personalization and efficiency. Recently released on arXiv and featuring a hands-on HuggingFace demo, PuLID offers cutting-edge technology for quick and tailored identity solutions. With its latest updates and easy installation, PuLID is poised to redefine the norms of ID customization.","Explore PuLID by ByteDance: A groundbreaking ID customization tool using contrastive alignment, now available with an arXiv paper and a HuggingFace demo. Learn how it redefines personalized technology.",Deep Learning Tool,"Python
+
+
+
+
+
+        358
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+        36 stars today",,,358,2024-04-17T04:04:57Z
+2024-05-03,https://github.com/xcapt0/gpt2_chatbot,https://raw.githubusercontent.com/xcapt0/gpt2_chatbot/master/README.md,"The GPT-2 Chatbot is designed for daily conversations and is trained on multiple dialogue datasets including `Daily Dialogue`, `Empathetic Dialogues`, `PERSONA-CHAT`, and `Blended Skill Talk`. It is built on the GPT2 Model transformer architecture. Users can download the model from AWS S3 storage and set it up using Docker. The chatbot operates in two modes: `train` for training the model and `interact` for engaging in conversations. Training and interaction require specifying the model's checkpoint path. The project, developed by xcapt0, is available under an MIT license, indicating it is open for modification and distribution.",Revolutionize Your Daily Conversations with GPT-2 Chatbot,"Discover how the GPT-2 chatbot, trained on diverse datasets like Daily Dialogue and PERSONA-CHAT, can transform your daily interactions. This innovative chatbot, built on the powerful GPT2 model, offers personalized and empathetic conversations. Installation is a breeze with a downloadable model from AWS S3, and users can choose between train and interact modes for customization. Dive into the future of daily dialogue with the easy-to-use GPT-2 chatbot.","Elevate your conversations with the GPT-2 chatbot, a user-friendly tool trained on extensive datasets for meaningful interactions. Download now and experience the future of chatbots.",Language Models,"Python
+
+
+
+
+
+        50
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+        4 stars today",https://user-images.githubusercontent.com/70326958/151570518-ce70261a-6e8e-47a0-92e5-2d7638e7aa68.jpg,,50,2021-12-29T10:56:49Z
