@@ -13142,3 +13142,244 @@ It's distributed through Zoltraak Docker and Streamlit, featuring deployment ins
 
 
         4 stars today",https://user-images.githubusercontent.com/70326958/151570518-ce70261a-6e8e-47a0-92e5-2d7638e7aa68.jpg,,50,2021-12-29T10:56:49Z
+2024-05-04,https://github.com/isocpp/CppCoreGuidelines,https://raw.githubusercontent.com/isocpp/CppCoreGuidelines/master/README.md,"The C++ Core Guidelines are a set of recommendations led by Bjarne Stroustrup to facilitate the use of modern C++ (C++11 and newer) effectively and safely. These guidelines, resulting from extensive collaboration and discussion, aim to help coders produce code that is safer, simpler, and faster by focusing on higher-level issues such as interfaces, resource management, and concurrency. They are designed to evolve over time, adapting to new understandings and changes in the language. The document is available in a simple, MarkDown format to support ease of use and automatic processing. Additionally, the guidelines encourage the use of a Guidelines Support Library for implementation and are open for contributions and suggestions for improvement. Hosted by DigitalOcean, these rules are intended to be incrementally adopted and supported by analysis tools to ease integration and compliance.",Mastering Modern C++: An Insight into the C++ Core Guidelines,"Discover the essence of modern C++ with the C++ Core Guidelines, a collaborative effort led by Bjarne Stroustrup aimed at safer and more effective coding practices. These guidelines serve as a blueprint for developing robust C++ code for future projects, emphasizing safety, simplicity, and performance. Ideal for both new and experienced programmers, they are continuously updated to incorporate the latest in coding standards and practices. Dive into this evolving document to shape your coding skills for the better, ensuring your code is type-safe, efficient, and leak-free.","Explore the C++ Core Guidelines, a comprehensive guide by Bjarne Stroustrup and collaborators for writing safer, simpler, and faster C++ code. Perfect for modern C++ programming.",System Design Education,"Python
+
+
+
+
+
+        41,613
+
+
+
+
+
+        5,369
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",https://raw.githubusercontent.com/isocpp/CppCoreGuidelines/master/cpp_core_guidelines_logo_text.png,,41613,2015-08-19T20:22:52Z
+2024-05-04,https://github.com/pypa/pipx,https://raw.githubusercontent.com/pypa/pipx/main/README.md,"pipx is a tool for installing and running Python applications in isolated environments, similar to brew for macOS, npx for JavaScript, and apt for Linux. It uses pip for package management but focuses on applications that can be run from the command line, providing environment isolation for each installed application to prevent dependency conflicts. Pipx can install programs from PyPI as well as other sources like git URLs or local directories. It supports macOS, Linux, and Windows, offering installation through methods like Homebrew, Scoop, and pip. Users can utilize pipx to install applications globally, upgrade them, and uninstall them. It also allows running applications in temporary environments with the `run` command for one-time use without permanent installation. This makes pipx a secure and convenient way to manage command-line tools in Python without risking dependency conflicts or pollution of global package space. Additionally, it offers features like shell completions and the ability to inject additional packages into existing pipx-managed environments.",Maximizing Python Efficiency: The Power of pipx for Isolated Environment Management,"Discover the prowess of pipx, a dynamic tool for installing and executing Python applications in isolated environments, ensuring a clutter-free workspace. Unlike traditional methods that risk dependency conflicts, pipx maintains each application in its dedicated space, leveraging the vast repository of PyPI. Learn how to effortlessly install, manage, and execute Python applications with pipx, all while keeping your system secure and your dependencies harmonized. Upgrade your Python toolkit today with the simplicity and reliability of pipx.","Learn how to use pipx for installing and running Python applications in isolated environments, avoiding dependency conflicts and system clutter. Discover tips for efficient Python application management with pipx.",Python Libraries Collection,"Python
+
+
+
+
+
+        8,935
+
+
+
+
+
+        374
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://github.com/pypa/pipx/raw/main/pipx_demo.gif,,8935,2018-10-06T18:47:46Z
+2024-05-04,https://github.com/netbox-community/netbox,https://raw.githubusercontent.com/netbox-community/netbox/master/README.md,"NetBox, since its 2016 release, has established itself as a critical tool for network engineers worldwide, providing an advanced solution for the modeling and documentation of network infrastructure. It offers a unified, extensive data model and APIs for managing everything network-related, from cable layouts to device configurations, positioning itself as the essential source of truth for modern networking. Designed to function as the authoritative center for network state information, NetBox supports robust automation systems by making detailed network data programmatically available, without directly interfacing with network nodes. It is built with a comprehensive data model that includes all components of network infrastructure, supports focused development on making network infrastructure programmatically accessible, and allows extensive customization to meet specific network requirements. NetBox also features a flexible permission system, custom validation and protection rules for network data, configuration rendering using Jinja2 templates, the ability to automate workflows through custom scripts and event rules, and comprehensive change logging. Additionally, it encourages community involvement, offering a platform for users to contribute, suggest features, or report bugs.",NetBox: Revolutionizing Network Automation and Documentation,"Since its inception in 2016, NetBox has emerged as a pivotal tool for network engineers worldwide, setting a new standard for modeling and documenting network infrastructure. It surpasses legacy IPAM and DCIM solutions by offering a comprehensive data model and a singular interface for all network-related tasks. With its robust user interface and programmable APIs, NetBox functions as the ultimate source of truth in modern network management, facilitating seamless integration with automation and monitoring tools. This transformative approach not only enhances accuracy and efficiency but also propels organizations towards fully automated network operations.","Discover how NetBox, the leading network modeling and documentation platform since 2016, is revolutionizing network infrastructure management with its comprehensive data model and integrative APIs.",Network Performance Monitor,"Python
+
+
+
+
+
+        14,995
+
+
+
+
+
+        2,426
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/screenshots/home-light.png; https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/misc/reference_architecture.png; https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/misc/netbox_cloud.png; https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/screenshots/home-light.png; https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/screenshots/home-dark.png; https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/screenshots/prefixes-list.png; https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/screenshots/rack.png; https://raw.githubusercontent.com/netbox-community/netbox/master/docs/media/screenshots/cable-trace.png,,14995,2016-02-29T14:15:46Z
+2024-05-04,https://github.com/florestefano1975/ComfyUI-HiDiffusion,https://raw.githubusercontent.com/florestefano1975/ComfyUI-HiDiffusion/main/README.md,"ComfyUI-HiDiffusion introduces a custom node leveraging HiDiffusion technology, still in development and testing phases. Users are warned of potential bugs and advised to test in a separate environment to avoid issues, noting that the project lacks a requirements file to prevent dependency conflicts. Users must manually resolve any missing dependencies based on console errors. The SDXL node has been updated to include numerous options like checkpoint naming, optimizations, and scheduler settings. An example showcases a high-resolution image generated with specific model parameters. Resources and further information are available through links to the HiDiffusion project, repository, and related documentation. Additionally, references to other projects and a donation link for support are provided.",Exploring ComfyUI-HiDiffusion: A Leap in HiDiffusion Technology Integration,"Discover the cutting-edge ComfyUI-HiDiffusion custom node integration for HiDiffusion technology, designed to enhance your tech experience with advanced options in the SDXL model, including ckpt_name and apply_raunet. However, tread carefully as the project is still in testing, posing risks of bugs and malfunctions. Important to note, the removal of the requirements.txt file necessitates manual dependency installations for smooth operation. This development aims at refining and expanding the functionality of ComfyUI nodes, promising significant advancements in technology utilization.","Unveil the potential of ComfyUI-HiDiffusion in technology integration, a project under development bringing advanced options and cautions against possible malfunctions. Learn more about this intriguing venture.",Custom Node Pack,"Python
+
+
+
+
+
+        70
+
+
+
+
+
+        5
+
+
+        Built by
+
+          
+
+
+
+
+
+        13 stars today",https://raw.githubusercontent.com/florestefano1975/ComfyUI-HiDiffusion/main/assets/overview.png; https://raw.githubusercontent.com/florestefano1975/ComfyUI-HiDiffusion/main/assets/sdxl-2.png; https://raw.githubusercontent.com/florestefano1975/ComfyUI-HiDiffusion/main/assets/sdxl-3.png; https://raw.githubusercontent.com/florestefano1975/ComfyUI-HiDiffusion/main/assets/comfyui-hidiffusion-4096x2304.jpg,,70,2024-04-27T15:45:35Z
+2024-05-04,https://github.com/zgimszhd61/prompt-collection-quickstart,https://raw.githubusercontent.com/zgimszhd61/prompt-collection-quickstart/main/README.md,"The text outlines various templates for organizing, summarizing, and analyzing information, especially focusing on creating concise summaries, extracting prompts for easy understanding by Chinese readers, synthesizing answers from provided text, categorizing customer service inquiries, determining the accuracy of solutions to questions, and giving hints without revealing answers directly. It includes instructions for grouping arguments, summarizing texts into shorter forms or bullet points, answering questions based on provided documents, categorizing customer service inquiries into main and subcategories, evaluating solutions, and providing feedback without direct answers.",Maximizing Your Arguments: Strategies for Effective Debate,"Understanding and dissecting arguments is crucial in any debate. Grouping pro and con cases for each argument allows for clearer analysis and presentation. Doing so helps in effectively conveying your stance and addressing counter-arguments. This method ensures a comprehensive understanding and robust defense of your points, leading to a more persuasive argument.","Discover how to enhance your debating skills by organizing arguments into pro and con cases for a clear, persuasive presentation. Learn strategies for effective argumentation.",Natural Language Processing,"Python
+
+
+
+
+
+        178
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+        23 stars today",,,178,2024-04-28T04:42:18Z
+2024-05-04,https://github.com/Nixtla/neuralforecast,https://raw.githubusercontent.com/Nixtla/neuralforecast/main/README.md,"Neural Forecast by Nixtla offers a user-friendly collection of state-of-the-art neural forecasting models, aiming to improve the accuracy and efficiency of forecasting pipelines. The library includes a wide range of models from RNNs to transformers and supports features like exogenous variables, interpretability, and probabilistic forecasting. Nixtla created NeuralForecast to address the challenges of using neural networks in forecasting, such as their complexity and computational demands, by focusing on efficient and accurate implementations. The library provides easy installation, a quick start guide, extensive documentation, and features automatic model selection with hyperparameter tuning. It also offers integration with related forecasting tools and the possibility to add new models. NeuralForecast is designed for both beginners and experts in forecasting, emphasizing usability and performance. Contributions are welcome, and the project appreciates the work of all contributors and the influence of preceding scholarly works on neural forecasting methods.",Leveraging NeuralForecast for Cutting-Edge Time Series Prediction,"Discover NeuralForecast, the top-tier library for neural forecasting models, designed to enhance the accuracy and efficiency of your forecasting pipeline. With user-friendly models like RNN, LSTM, and GRU, alongside advanced transformers, NeuralForecast is built for performance and ease of use. Whether you're implementing classic networks or exploring state-of-the-art models, this library supports a wide array of functionalities including exogenous variables and probabilistic forecasting. Dive into the world of advanced forecasting with NeuralForecast today.","Explore NeuralForecast for state-of-the-art neural forecasting models like RNN, LSTM, and advanced transformers. Enhance your forecasting with high performance, usability, and robust features. Start now.",Deep Learning Tool,"Python
+
+
+
+
+
+        2,469
+
+
+
+
+
+        286
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        16 stars today",https://raw.githubusercontent.com/Nixtla/neuralforecast/main/nbs/imgs_indx/logo_new.png,,2469,2021-04-26T00:15:19Z
+2024-05-04,https://github.com/quixio/quix-streams,https://raw.githubusercontent.com/quixio/quix-streams/main/README.md,"Quix Streams is a cloud-native Python library for processing data in Kafka, focusing on simplicity and integration with the Python ecosystem. It eliminates the need for JVM, orchestrators, or server-side engines, offering a Stream DataFrame API for easy data transformation, akin to pandas. Quix Streams supports JSON and Quix-specific serialization, stateful operations via RocksDB, and various aggregation methods, ensuring ""at-least-once"" processing guarantees. Designed for resilience and scalability, it can run locally or in containers, integrating seamlessly with Quix Cloud for enhanced features like auto-configuration and monitoring. The documentation provides installation instructions, example applications, and additional resources for getting started, including tutorials on specific use cases. Active development continues to add new features, and the community is encouraged to contribute. Quix Streams is Apache 2.0 licensed, with a supportive Slack community and social media presence for updates and support.",Leveraging Real-Time Data with Quix Streams: A Revolutionary Python Library for Kafka,"Discover Quix Streams, a Python library maximizing real-time data processing in Kafka without compromising simplicity. Engineered for both beginners and seasoned developers, it offers a seamless experience with intuitive Pythonic interfaces, robust support for stateful operations, and seamless integration with cloud ecosystems. Its lightweight design ensures efficient data management, enabling sophisticated data transformation and analysis on-the-fly. Perfect for machine learning, AI, and real-time analytics projects, Quix Streams is transforming how developers approach stream processing in Python.","Explore Quix Streams, the cloud-native Python library for Kafka, designed for effortless real-time data processing. Dive into its Pythonic simplicity and robust features for modern data-driven applications.",Data Ingestion Tool,"Python
+
+
+
+
+
+        764
+
+
+
+
+
+        34
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://github.com/quixio/quix-streams/blob/main/images/quixstreams-banner.jpg,,764,2022-11-17T20:36:03Z
+2024-05-04,https://github.com/Shubhamsaboo/awesome-llm-apps,https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/README.md,"The text introduces ""Awesome LLM Apps,"" a curated collection of applications utilizing Large Language Models (LLMs) like RAG from OpenAI, Anthropic, Gemini, and open-source options. It details several projects, including a local chat app that interacts with webpages using Llama-3 and RAG, a Gmail assistant, a Substack newsletter chat using GPT-4, a PDF document interaction tool, and a YouTube video query app. Each app enhances user interaction with digital content through natural language processing. Instructions for getting started with these projects involve cloning the repository, navigating to a project directory, installing dependencies, and following project-specific setup instructions. The text encourages contributions to the collection, asking for pull requests that adhere to the project's structure and include a detailed README.md for any new app additions.",Discover the Latest in AI: Top LLM Apps for Enhanced Productivity,"Explore our curated list of innovative LLM applications, from chatting with webpage content to interactive Gmail management, all harnessing the power of models like RAG, OpenAI, and more. These apps, including Streamlit and local AI solutions, offer 100% offline capabilities, transforming how you interact with digital content. Whether it's engaging with newsletters, PDFs, or YouTube videos through natural queries, these tools are set to revolutionize your digital interaction. Get started by cloning our repository and dive into a world where technology meets convenience.","Unlock the potential of AI with our guide to the best LLM apps. From local webpage chats to interactive Gmail, PDFs, and YouTube content, discover tools that change how you engage with the digital world.",Large-scale Language Models,"Python
+
+
+
+
+
+        176
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+        16 stars today",https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/docs/banner/unwind.png,,177,2024-04-29T05:30:25Z
+2024-05-04,https://github.com/SuperpoweredAI/spRAG,https://raw.githubusercontent.com/SuperpoweredAI/spRAG/main/README.md,"spRAG is an advanced RAG (Retrieval-Augmented Generation) framework designed for unstructured data, improving upon traditional RAG systems. It shows exceptional performance in handling complex queries across dense texts such as financial reports, legal documents, and academic papers, significantly outperforming vanilla RAG baselines. For example, in the FinanceBench benchmark, spRAG accurately answers questions 83% of the time compared to the 19% accuracy of vanilla RAG baselines. 
+
+The framework enhances performance through two key features: AutoContext and Relevant Segment Extraction (RSE). AutoContext enriches text chunks with document-level context before embedding, leading to more accurate retrieval of information. RSE, a post-processing step, combines relevant chunks into comprehensive segments for better context, proving particularly effective for complex queries.
+
+spRAG can be easily installed via Python package and configured for use with various models and APIs like OpenAI, Anthropic, and Cohere. It also supports basic customization allowing users to adapt it according to their requirements. The architecture of spRAG includes components such as KnowledgeBase, VectorDB, ChunkDB, Embedding, Reranker, and LLM, all of which are customizable. The community can engage with spRAG's development and seek support through its Discord.",Revolutionizing Data Analysis with spRAG: The Future of RAG Frameworks,"Discover how spRAG, a cutting-edge RAG framework for unstructured data, is transforming the way we handle dense text queries in finance, law, and academia. By remarkably outperforming traditional RAG systems in complex question-answering tasks, spRAG utilizes innovative methods like AutoContext and Relevant Segment Extraction to achieve higher accuracy and relevance. Its ability to intelligently contextualize and segment data sets a new benchmark in data processing, making it an essential tool for professionals and researchers alike. Learn how to easily integrate spRAG into your projects and customize it to your needs, significantly improving information retrieval and analysis.","Explore the advancements spRAG brings to processing unstructured data with unparalleled accuracy in dense text analysis. Learn how it leverages AutoContext and Relevant Segment Extraction to transform data handling in finance, law, and academia.",Deep Learning Tool,"Python
+
+
+
+
+
+        301
+
+
+
+
+
+        10
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        81 stars today",,,301,2024-04-17T19:56:08Z
