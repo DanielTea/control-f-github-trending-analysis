@@ -13383,3 +13383,318 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         81 stars today",,,301,2024-04-17T19:56:08Z
+2024-05-05,https://github.com/Blealtan/efficient-kan,https://raw.githubusercontent.com/Blealtan/efficient-kan/master/README.md,"This repository offers an efficient version of the Kolmogorov-Arnold Network (KAN), addressing performance issues found in the original implementation by optimizing the way activation functions are handled. Instead of expanding intermediate variables, it utilizes a reformulation involving B-splines for activation, streamlining computations through straightforward matrix multiplication, beneficial for both forward and backward processes. The updated implementation modifies the sparsification approach for better interpretability by applying L1 regularization on weights rather than inputs, a change necessitated by compatibility with the computational reformulation. Additional enhancements include optional learnable scales for activation functions to potentially improve results. The update on May 4, 2024, introduced a new initialization technique for certain parameters, significantly improving performance on the MNIST dataset. Further experimentation is necessary to validate these modifications and their impacts on efficiency and accuracy.",Revolutionizing Neural Networks: Efficient Kolmogorov-Arnold Network Implementation,"Discover the latest advancement in neural network technology with an efficient implementation of the Kolmogorov-Arnold Network (KAN). This new approach significantly reduces memory costs by reformulating computations for activation functions, leading to straightforward matrix multiplication that enhances both forwards and backward pass efficiency. Challenges in sparsification and regularization are addressed by replacing L1 regularization on input samples with weight regularization, compatible with the new computational model. Initial experiments, including promising results on the MNIST dataset with reinitialized weight parameters, suggest a promising direction, though further experimentation is necessary.","Explore an efficient implementation of Kolmogorov-Arnold Network that optimizes memory use and computational efficiency for neural networks, with insights into regularization modifications and promising preliminary results.",Deep Learning Tool,"Python
+
+
+
+
+
+        395
+
+
+
+
+
+        25
+
+
+        Built by
+
+          
+
+
+
+
+
+        68 stars today",,,395,2024-05-02T14:19:28Z
+2024-05-05,https://github.com/PromtEngineer/localGPT,https://raw.githubusercontent.com/PromtEngineer/localGPT/main/README.md,"LocalGPT is an open-source platform for secure interactions with documents, maintaining privacy by operating entirely locally on a user's computer. It integrates a variety of open-source models and allows for seamless data embedding, alongside features like chat history and a user-friendly API for building RAG applications. It offers support for various computing platforms including GPU, CPU, and MPS. The technical infrastructure leverages the LangChain tool for document parsing and Chroma for storing vectorized document data. Setup involves cloning the repository, creating a virtual environment, and installing dependencies. LocalGPT offers detailed documentation and a graphical interface for ease of use. Users can ingest their own data, chat with documents, and customize LocalGPT for different large language models (LLMs). It requires a specific Python version, a C++ compiler for certain installations, and outlines GPU/VRAM requirements for different model sizes. The project, inspired by the privateGPT initiative, emphasizes user privacy and local data processing.",Introducing LocalGPT: Enhance Your Privacy with Local Document Conversations,"Discover LocalGPT, the open-source platform that transforms the way you interact with your documents, securely and privately on your own computer. With LocalGPT, your data never leaves your digital boundaries, offering you the ultimate privacy and security. Embrace the power of local processing with a variety of support for open-source models and enjoy features like seamless API integration, diverse embeddings, and graphical interfaces without compromising your data privacy. Get started easily with our pre-configured virtual machine and unlock the future of document interaction today.","Explore LocalGPT, the innovative tool for secure, private conversations with your documents. Enjoy ultimate data protection, open-source model support, and easy setup. Dive into privacy-first document interactions now.",AI Development Platform,"Python
+
+
+
+
+
+        19,210
+
+
+
+
+
+        2,136
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",,https://www.youtube.com/watch?v=MlyoObdIHyo; https://www.youtube.com/watch?v=lbFmceo4D5E; https://www.youtube.com/watch?v=d7otIM_MCZs; https://www.youtube.com/watch?v=G_prHSKX9d4,19210,2023-05-24T05:32:40Z
+2024-05-05,https://github.com/eureka-research/DrEureka,https://raw.githubusercontent.com/eureka-research/DrEureka/main/README.md,"DrEureka introduces a novel approach for transferring robot skills from simulation to the real world using Large Language Models (LLMs) to automate sim-to-real transfers. This methodology significantly streamlines the process by eliminating the need for manual design and tuning of task reward functions and simulation physics parameters. The team demonstrates DrEureka's efficacy through competitive results on tasks such as quadruped locomotion and dexterous manipulation, and its ability to tackle new challenges like balancing and walking on a yoga ball without manual iteration. The project includes code to generate rewards, configure domain randomization, and manage deployment infrastructure, all supported by comprehensive documentation. The system is built to be modular and easily configurable for rapid development and deployment of robotic skills. DrEureka, which primarily runs on PyTorch and is tested on Ubuntu 20.04, is open-sourced under the MIT License, encouraging further advancements and applications in the field.",Revolutionizing Robotics: DrEureka's LLM-Guided Sim-to-Real Transfer,"Discover how DrEureka leverages Large Language Models (LLMs) to streamline sim-to-real robotics tasks, significantly reducing human labor and speeding up the process. By automating the design of reward functions and domain randomization, DrEureka not only matches but potentially surpasses manually-designed configurations in complex tasks like quadruped locomotion and dexterous manipulation. This groundbreaking approach also shows promise in novel tasks, such as balancing and walking on a yoga ball, opening new doors for robotics applications.","Explore DrEureka's innovative approach to robot skills acquisition, using Large Language Models for efficient sim-to-real transfer in robotics. Learn how it automates reward function design and domain randomization for advanced tasks.",AI Development Platform,"Python
+
+
+
+
+
+        290
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+        67 stars today",,,290,2024-05-03T07:40:01Z
+2024-05-05,https://github.com/apple/ml-stable-diffusion,https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/README.md,"This repository provides tools to run Stable Diffusion, a state-of-the-art image generation model, on Apple Silicon devices using Core ML. It contains a Python package (`python_coreml_stable_diffusion`) for converting PyTorch models into Core ML format and generating images with Hugging Face diffusers in Python. Additionally, a Swift package (`StableDiffusion`) is available for integrating image generation capabilities into Xcode projects, relying on Core ML model files produced by the Python package. Users are advised to check system requirements, including macOS, Python, coremltools versions, and target device specifications, before starting. Performance benchmarks for various devices and configurations are provided, showcasing latency and diffusion speed. Advanced weight compression techniques supported by coremltools for optimizing model performance on mobile devices are discussed, including 6-bit or higher compression and Mixed-Bit Palettization (MBP) for further optimization. The repository also covers model conversion for the XL version of Stable Diffusion, usage of ControlNet for guided image generation, and leveraging the System Multilingual Text Encoder for multilingual image generation. Ready-made Core ML models from Hugging Face Hub are available for easy use.",Harnessing Apple Silicon for Advanced ML: Core ML Stable Diffusion Implementation Guide,"Learn how to deploy Stable Diffusion on Apple Silicon using Core ML to leverage advanced image generation capabilities in your applications. This guide covers converting PyTorch models to Core ML format with python_coreml_stable_diffusion and integrating Stable Diffusion into Xcode projects with Swift. Ensure compatibility by reviewing the system requirements for model conversion, project build, and target device runtime.","An essential guide on deploying Stable Diffusion with Core ML on Apple Silicon, covering system requirements, model conversion to Core ML, and integration into Swift apps for next-gen image generation.",Image Generation Platform,"Python
+
+
+
+
+
+        16,219
+
+
+
+
+
+        864
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        38 stars today",https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/readme_reel.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/palette6_cpuandne_readmereel.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/float16_cpuandne_readmereel.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/float16_gpu_readmereel.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/mbp/a_high_quality_photo_of_a_surfing_dog.7667.final_3.41-bits.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/mbp/a_high_quality_photo_of_a_surfing_dog.7667.final_4.50-bits.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/mbp/a_high_quality_photo_of_a_surfing_dog.7667.final_6.55-bits.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/mbp/a_high_quality_photo_of_a_surfing_dog.7667.final_float16_original.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/mbp/stabilityai_stable-diffusion-xl-base-1.0_psnr_vs_size.png; https://raw.githubusercontent.com/apple/ml-stable-diffusion/main/assets/controlnet_readme_reel.png,,16219,2022-11-16T00:48:18Z
+2024-05-05,https://github.com/karpathy/makemore,https://raw.githubusercontent.com/karpathy/makemore/master/README.md,"Makemore is a simple, hackable tool designed for educational purposes, which generates text based on input files through an autoregressive character-level language model. It can create unique, nonexistent items like baby names, company names, or English-like words when fed with a relevant database. Its simplicity is highlighted by being a single file application with PyTorch as its sole requirement. The tool supports various models, from bigrams to Transformers, aligning with methodologies from several key research papers. To use, one simply feeds it a text file such as the included `names.txt`, specifying input and output through simple command-line instructions. Training doesn't need special hardware, and the system can produce results on a range of devices, even enhancing speed with GPU support. Sample names generated exhibit uniqueness and creativity, showcasing makemore's capability for generating inventive and plausible names. The software is available under the MIT license.",Exploring makemore: The Ultimate Tool for Generating Unique Names,"Discover the power of makemore, a versatile autoregressive language model for generating original names, whether for babies, companies, or just for fun. Utilizing advanced techniques from bigrams to Transformers, this lightweight, educational tool requires only PyTorch. Perfect for those looking to dive into machine learning applications without the complexity, makemore simplifies the process of creating new, English-like terms or names. Its implementation spans across several key models, offering insights into the workings of neural networks. Get started with just a text file and let makemore inspire you with unique name ideas.","Learn how makemore uses machine learning from bigrams to Transformers for generating unique names. Ideal for educational purposes, this tool only needs PyTorch. Dive into our blog to discover its simplicity and potential.",Language Models Tool,"Python
+
+
+
+
+
+        2,093
+
+
+
+
+
+        536
+
+
+        Built by
+
+          
+
+
+
+
+
+        2 stars today",,,2093,2022-06-09T19:29:36Z
+2024-05-05,https://github.com/edgedb/edgedb,https://raw.githubusercontent.com/edgedb/edgedb/master/README.md,"EdgeDB is presented as an innovative graph-relational database amalgamating the best features of relational databases, graph databases, and ORMs, introducing a fresh concept for database design. It employs types and object-oriented schema over traditional tables, aiming to align more intuitively with modern programming languages and eliminating the need for foreign keys or tabular data modeling. EdgeDB introduces EdgeQL, a powerful query language designed to fetch complex, nested data structures efficiently and without the complexities of SQL JOINs. This database system supports a broad range of functionalities including a strict type system, indexes, constraints, computed properties, and stored procedures, while also incorporating modern features like link properties and advanced JSON support. Beyond merely serving as an ORM alternative, EdgeDB promises a comprehensive developer experience with easy-to-use migration systems, client libraries, command-line tools, and forthcoming cloud hosting solutions. Enthusiasts and developers can get involved or start learning through various resources including a quick start guide, cloud service, interactive tutorial, comprehensive e-book, and detailed documentation. EdgeDB encourages community contributions and offers an open-source Apache 2.0 licensed codebase.",Exploring EdgeDB: The Future of Graph-Relational Databases,"EdgeDB is redefining database architecture by merging the best features of relational, graph databases, and ORMs into a single, innovative graph-relational model. It introduces a schema-first approach with object types instead of tables, making data modeling more intuitive and compatible with modern programming languages. EdgeDB's powerful query language, EdgeQL, eliminates the need for JOINs by enabling rich, structured object queries and compositions. Beyond a mere ORM, EdgeDB provides a comprehensive toolset for database management, including migrations, client libraries, and an upcoming cloud hosting platform. It promises to streamline every aspect of database usage for developers, from modeling and migration to querying and management.","Discover EdgeDB, the cutting-edge graph-relational database combining the power of relational and graph databases with ORM's ease, aimed at simplifying database management and queries for developers.",Database System,"Python
+
+
+
+
+
+        12,521
+
+
+
+
+
+        386
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        62 stars today",https://www.edgedb.com/github_banner.png,,12521,2017-06-29T20:30:48Z
+2024-05-05,https://github.com/Datalux/Osintgram,https://raw.githubusercontent.com/Datalux/Osintgram/master/README.md,"Osintgram is an open-source OSINT (Open Source Intelligence) tool designed for performing reconnaissance on Instagram profiles. It allows users to collect, analyze, and retrieve information from Instagram accounts using an interactive shell that operates via a nickname. The tool is capable of extracting various types of data, including addresses, captions, comments, followers, following, emails, phone numbers, hashtags, likes, media types, photos, profile pictures, stories, and tagged users. It is specified for educational purposes only, with a strict warning against using personal or primary accounts due to potential security risks. Osintgram supports command line operations and offers a Docker container for easy deployment. The tool is available in both a stable and a development version, with the latter containing the latest features and fixes. Updates are managed through Git, and the community is encouraged to contribute to its development. Installation involves cloning the repository, setting up a virtual environment, installing dependencies, and configuring credentials.",Mastering Osintgram: An Ultimate Guide to Instagram OSINT Tools,"Discover the power of Osintgram, the ultimate OSINT tool for Instagram, designed to help you conduct detailed reconnaissance and analysis on any Instagram account. From retrieving followers and comments to downloading stories and identifying user interactions, Osintgram equips you with an interactive shell for comprehensive Instagram account investigations. Ensure you use it responsibly and avoid your primary account to steer clear of potential security issues. With continuous updates and a supportive community, dive into the depths of Instagram like never before.","Explore how Osintgram, the leading OSINT tool for Instagram, can transform your investigative and analytical capabilities on the platform with our in-depth guide.",Cybersecurity Tool,"Python
+
+
+
+
+
+        8,800
+
+
+
+
+
+        1,885
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/Datalux/Osintgram/master/.img/carbon.png,,8800,2019-06-07T23:23:40Z
+2024-05-05,https://github.com/prometheus-eval/prometheus-eval,https://raw.githubusercontent.com/prometheus-eval/prometheus-eval/main/README.md,"Prometheus-Eval is an advanced repository aimed at evaluating Large Language Models (LLMs) in generation tasks. It recently released its Prometheus 2 models (7B & 8x7B versions), with the latter offering state-of-the-art evaluation capabilities, including improved performance over its predecessors and support for both absolute grading and pairwise ranking. These models demonstrate high correlation and agreement with human judgments across various benchmarks. The Prometheus 2 (7B) version, targeted at users with limited hardware, delivers substantial performance with lower resource requirements. The repository offers tools for training, evaluating, and utilizing models for internal evaluation pipelines, promoting fairness, controllability, and affordability in LLM evaluation. The provided `prometheus-eval` Python package facilitates easy application of these models, supporting both direct individual responses evaluation and comparison between two responses. Additionally, the initiative underscores its commitment to openness and community support by encouraging contributions and feedback.",Unveiling Prometheus 2: A New Era of Language Model Evaluation,"Discover the revolutionary Prometheus-Eval, a cutting-edge tool designed for evaluating language models in generation tasks. Released in May 2024, Prometheus 2 introduces open-source evaluator models (7B & 8x7B) surpassing its predecessor with improved performances and support for both direct assessment and pairwise ranking formats. With a Pearson correlation ranging from 0.6 to 0.7 with GPT-4 and high agreement rates with human judgments across multiple benchmarks, Prometheus 2 represents a significant advancement in language model evaluation, providing an affordable, controllable, and fair alternative to proprietary evaluations.","Explore Prometheus-Eval, an innovative repository for evaluating language models in generation tasks. Learn about the latest Prometheus 2 models that offer enhanced evaluation accuracy and support for various grading formats.",Large-scale Language Models,"Python
+
+
+
+
+
+        191
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        38 stars today",https://raw.githubusercontent.com/prometheus-eval/prometheus-eval/main/assets/logo.png; https://raw.githubusercontent.com/prometheus-eval/prometheus-eval/main/assets/finegrained_eval.png; https://raw.githubusercontent.com/prometheus-eval/prometheus-eval/main/assets/formats.png,,191,2024-04-18T17:19:09Z
+2024-05-05,https://github.com/PSGO/PPPwnGo,https://raw.githubusercontent.com/PSGO/PPPwnGo/main/README.md,"The text outlines instructions for using a specific tool to exploit PS4 systems across various firmware versions (FW 9.00 with GoldHEN through FW 11.00), emphasizing the need for a Windows 7 or higher operating system. It sets expectations by stating the tool is a demo with a current low success rate, advising patience. Users are instructed to update ""pppwn.py"" and ""offsets.py"" without needing to update the executable file. The procedure involves installing Python, preparing a payload on a USB drive, connecting the PS4 to a PC via network cable, configuring the PS4's network settings, and running ""PPPwnGo.exe"" to initiate the exploit. If problems occur, users are advised to repeat steps or restart both the PS4 and PC if multiple failures happen. The text concludes with special thanks to Andy for his contributions.",Ultimate Guide to PS4 Jailbreak: FW 9.00 to 11.00 Exploit Tutorial,"Discover the step-by-step method to jailbreak your PS4, supporting firmware versions from 9.00 to 11.00. This tutorial requires a Windows 7 or newer OS and emphasizes patience due to its varying success rate. Covering everything from preparing your USB drive with the necessary files to connecting your PS4 to your PC for the jailbreak process, it's crucial to follow each step carefully. Remember, if you encounter issues, restarting both your PS4 and PC might be necessary. Special thanks to Andy for his contributions to this guide.","Follow our detailed PS4 jailbreak tutorial for firmware versions 9.00 to 11.00. Learn how to prepare your setup, execute the jailbreak, and troubleshoot common issues. Special thanks to Andy for the guidance.",Cybersecurity Tool,"Python
+
+
+
+
+
+        78
+
+
+
+
+
+        3
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        21 stars today",,,78,2024-05-02T02:08:02Z
+2024-05-05,https://github.com/NVlabs/DoRA,https://raw.githubusercontent.com/NVlabs/DoRA/main/README.md,"DoRA: Weight-Decomposed Low-Rank Adaptation, presented at ICML 2024, introduces a PyTorch implementation for fine-tuning pre-trained weights with enhanced efficiency and stability. By decomposing weights into magnitude and direction, and specifically updating direction using LoRA, DoRA minimizes trainable parameters without increasing inference overhead. It outperforms LoRA in various tasks, including commonsense reasoning, visual instruction, and image/video-text understanding with models like LLaMA and VL-BART. DoRA is fully integrated into the HuggingFace PEFT package, supporting an array of layers and offering practical benefits in fine-tuning. Experimental results show DoRA's superiority in quality, especially at lower ranks, compared to LoRA. This repository provides detailed code for reproducing the results, highlighting DoRA’s robust performance across commonsense reasoning tasks, significantly improving accuracy over LoRA.",Unveiling DoRA: Pioneering Weight-Decomposed Low-Rank Adaptation for AI Models,"Discover the revolution in AI model fine-tuning with [ICML2024] DoRA: Weight-Decomposed Low-Rank Adaptation, offering a groundbreaking approach by decomposing pre-trained weights into magnitude and direction. This method not only enhances learning capacity and stability over LoRA but also ensures efficiency by minimizing trainable parameters. DoRA shines across various AI tasks, surpassing LoRA in performance without additional inference costs. Explore the full potential of DoRA for commonsense reasoning, visual instruction tuning, and more.","Explore DoRA, the weight-decomposed low-rank adaptation method presented at ICML 2024, enhancing AI model training efficiency and performance without extra inference overhead. Perfect for AI enthusiasts and researchers.",Deep Learning Tool,"Python
+
+
+
+
+
+        105
+
+
+
+
+
+        6
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        13 stars today",https://raw.githubusercontent.com/NVlabs/DoRA/main/./imgs/dora.png; https://raw.githubusercontent.com/NVlabs/DoRA/main/./imgs/dora_lora_yoda_emoji.jpg; https://raw.githubusercontent.com/NVlabs/DoRA/main/./imgs/dora_lora_lego.jpeg,,105,2024-04-11T15:55:29Z
+2024-05-05,https://github.com/SCLBD/DeepfakeBench,https://raw.githubusercontent.com/SCLBD/DeepfakeBench/main/README.md,"DeepfakeBench, presented at NeurIPS 2023, is a comprehensive benchmark for deepfake detection, introduced by Zhiyuan Yan, Yong Zhang, Xinhang Yuan, Siwei Lyu, and Baoyuan Wu. This platform supports 34 detectors, including both image and video models, and incorporates state-of-the-art (SoTA) detection methods such as LSDA (CVPR '24) and IID (CVPR '23). It offers an integrated framework for training and evaluation, featuring data preprocessing for efficiency, multi-GPUs training, and extensive evaluation metrics like frame-level AUC and accuracy for fake and real detections. DeepfakeBench aims to address the lack of standardization in deepfake detection by providing a unified platform, consistent data management, and standardized evaluations to foster new technology developments. The benchmark also includes a diverse set of datasets and welcomes contributions from the community for further advancements in deepfake detection methods.",DeepfakeBench-v2: Elevating Deepfake Detection with 34 Detectors and Enhanced Benchmarks,"DeepfakeBench-v2 now supports 34 detection methods, including advanced image and video detectors, providing LMDB for IO efficiency, DDP for multi-GPUs training, and an integrated framework. It introduces standardized evaluations across various metrics, ensuring comprehensive analysis and new insights for deepfake detection technology. This benchmark represents a significant step forward in the fight against deepfakes, offering an extensive toolkit for researchers.","Discover DeepfakeBench-v2's latest enhancements, featuring support for 34 deepfake detection methods, LMDB data preprocessing, multi-GPUs training, and more. Explore the integrated framework and standardized evaluations designed to advance deepfake detection technology.",Deep Learning Tool,"Python
+
+
+
+
+
+        270
+
+
+
+
+
+        41
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        14 stars today",https://raw.githubusercontent.com/SCLBD/DeepfakeBench/main/figures/archi.png,,270,2023-06-06T09:29:52Z
+2024-05-05,https://github.com/lancedb/lancedb,https://raw.githubusercontent.com/lancedb/lancedb/main/README.md,"LanceDB, an open-source vector-search database, boasts efficient retrieval, filtering, and management of embeddings with persistent storage. It's designed for production-scale vector search without the need for server management, supporting storage, querying, and filtering of vectors, metadata, and multimodal data like text, images, videos, and more. Key features include support for vector similarity search, full-text search, SQL, native Python and JavaScript/TypeScript support, zero-copy, automatic versioning, and GPU support for building vector indexes. LanceDB integrates with various ecosystems and is built in Rust using Lance, an open-source columnar format for ML workloads. Quick start guides are available for JavaScript and Python, showcasing simple code snippets to connect to and interact with LanceDB. Additionally, resources like blogs and tutorials offer insights into leveraging LanceDB for enhanced performance and practical applications like building a Q&A bot.",Leveraging LanceDB for Advanced Vector Search in AI Applications,"Discover how LanceDB, an open-source vector-search database, revolutionizes data retrieval and management for AI applications. With key features like production-scale vector search without server management, multi-modal data support, and ecosystem integrations, LanceDB simplifies the complexities involved in handling vast amounts of embeddings. Its core, crafted in Rust, and the utilization of the columnar format Lance, ensure optimal performance for ML workloads. Dive into the future of data management with LanceDB's seamless support for vector similarity search, full-text search, SQL, and no-code version management.","Explore how LanceDB redefines vector search and data management in AI with serverless production-scale search, multi-modal data handling, and powerful ecosystem integrations. Perfect for developers leveraging AI.",Database System,"Python
+
+
+
+
+
+        2,879
+
+
+
+
+
+        186
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",,,2879,2023-02-28T01:15:17Z
