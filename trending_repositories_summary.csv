@@ -13698,3 +13698,83 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         19 stars today",,,2879,2023-02-28T01:15:17Z
+2024-05-06,https://github.com/flet-dev/flet,https://raw.githubusercontent.com/flet-dev/flet/main/README.md,"Flet is a framework designed to simplify the creation of real-time web, mobile, and desktop applications without requiring frontend experience. It enables rapid development of apps such as internal tools, dashboards, and prototypes using just Python, with support for other languages planned. Flet offers a simple architecture, eliminating the need for a JavaScript frontend, REST API backend, and other complex infrastructure, allowing developers to build stateful, real-time single-page applications easily. It comes with a built-in web server, facilitates development with any IDE or text editor, and does not require SDKs or multiple dependencies. Powered by Flutter, Flet allows the development of professional-looking apps that can be deployed across all platforms and devices, including as web apps, desktop applications for Windows, macOS, Linux, and mobile apps through PWA or Flet's iOS and Android apps. The documentation provides guides, control references, and sample Python apps to help get started, alongside a community for support and contributions to the project.",Build Apps Fast with Flet: The Ultimate Real-Time App Framework,"Discover Flet, the groundbreaking framework that revolutionizes app development by allowing you to build real-time web, mobile, and desktop applications effortlessly with your favorite programming language. Say goodbye to complex architecture and hello to a streamlined process with Flet's simple, stateful app design. From professional-looking UI powered by Flutter to support for multiple languages and devices, Flet includes everything you need to bring your app ideas to life in minutes, no frontend experience required.","Explore how Flet enables swift creation of real-time web, mobile, and desktop apps with no frontend experience needed. Build with Flutter, deploy anywhere, and develop in your preferred language.",Software Development,"Python
+
+
+
+
+
+        9,283
+
+
+
+
+
+        358
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",https://flet.dev/img/docs/getting-started/flet-counter-macos.png; https://flet.dev/img/docs/getting-started/flet-counter-safari.png,,9283,2022-03-24T15:44:12Z
+2024-05-06,https://github.com/judahpaul16/gpt-home,https://raw.githubusercontent.com/judahpaul16/gpt-home/main/README.md,"GPT Home turns a Raspberry Pi into a smart home assistant, surpassing Google Nest Hub or Amazon Alexa with features built using the OpenAI API. The setup is designed for those with a Raspberry Pi 4B, utilizing Ubuntu Server as the OS, and includes detailed steps for configuring Wi-Fi, installing dependencies, and setting up the system. Highlighting both necessary and optional components—with costs ranging from $102-$198—the guide emphasizes the hardware needed and the configurations for Wi-Fi connection using `wpa_supplicant`, system dependencies installation, along with a helpful setup script to automate the installation process. Moreover, it tackles setting up system services, NGINX for reverse proxy, and highlights extensive documentation for further customization and troubleshooting. Contributions from the community are welcomed, and the project is freely distributed under the GNU GPL v3.0 License.",Build Your Own Smart Home Device with Raspberry Pi and OpenAI GPT,"Discover how to create your own smart home assistant using a Raspberry Pi, incorporating the advanced capabilities of OpenAI GPT for a truly personalized experience. This step-by-step guide will show you how to assemble the hardware, configure software dependencies, and integrate OpenAI's GPT technology, transforming your Raspberry Pi into a powerful home assistant. Perfect for tech enthusiasts and DIYers, this project not only enhances your home but also provides a rewarding challenge.","Learn to build a smart home device with Raspberry Pi & OpenAI GPT. Follow our step-by-step guide to create a powerful, personalized home assistant.",AI Development Platform,"Python
+
+
+
+
+
+        203
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+        49 stars today",https://raw.githubusercontent.com/judahpaul16/gpt-home/main/screenshots/my_build.jpg; https://raw.githubusercontent.com/judahpaul16/gpt-home/main/screenshots/schematic_bb.png; https://raw.githubusercontent.com/judahpaul16/gpt-home/main/screenshots/schematic_schem.png,,203,2023-09-05T17:17:22Z
+2024-05-06,https://github.com/Efficient-Large-Model/VILA,https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/README.md,"VILA represents a breakthrough in pre-training visual language models (VLMs) by utilizing interleaved image-text data, which significantly enhances video and multi-image understanding capabilities. Pre-trained using a novel approach that includes unfreezing language learning models (LLMs) and re-blending text instruction data, VILA has shown proficiency in video reasoning, in-context learning, visual chain-of-thought, and improved world knowledge. Supporting various model sizes and deployable on the edge using AWQ 4bit quantization and the TinyChat framework, VILA boasts impressive performance across multiple image and video QA benchmarks. It efficiently operates on diverse NVIDIA GPUs, offering considerable speedups in inference times. VILA has been open-sourced, including training and evaluation code, datasets, and model checkpoints, under specific licenses for both code and pre-trained weights, promoting accessibility and further research in visual language processing.",VILA: Revolutionizing Visual Language Models with Pre-training Innovations,"Discover VILA, a state-of-the-art visual language model that empowers video understanding and multi-image interpretation like never before. Utilizing advanced pre-training on interleaved image-text data, VILA excels in video reasoning, in-context learning, and visual chain-of-thought processing. Explore its deployment possibilities with AWQ 4bit quantization for cutting-edge efficiency on diverse platforms. Join us in exploring how VILA's unique pre-training approach and compression techniques redefine the capabilities of visual language models.","Explore VILA, the groundbreaking visual language model pre-trained with interleaved image-text data, offering unparalleled video understanding and multi-image interpretation. Learn about its efficient deployment with AWQ 4bit quantization.",Vision-Language Model,"Python
+
+
+
+
+
+        449
+
+
+
+
+
+        32
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        57 stars today",https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/vila-logo.jpg; https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/demo_img_1.png; https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/demo_img_2.png; https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/demo_img_3.png,,449,2024-02-23T09:19:16Z
