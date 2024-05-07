@@ -13778,3 +13778,138 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         57 stars today",https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/vila-logo.jpg; https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/demo_img_1.png; https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/demo_img_2.png; https://raw.githubusercontent.com/Efficient-Large-Model/VILA/main/demo_images/demo_img_3.png,,449,2024-02-23T09:19:16Z
+2024-05-07,https://github.com/NVlabs/RADIO,https://raw.githubusercontent.com/NVlabs/RADIO/main/README.md,"AM-RADIO, presented by NVIDIA Research and set to feature in CVPR 2024, introduces a revolutionary single vision foundation model named RADIO that integrates multiple domains into one framework. This model outperforms several existing models in various metrics by effectively distilling Large Vision Foundation models and integrating CLIP variants, DINOv2, and SAM through distillation. It maintains unique feature capabilities such as text grounding and segmentation correspondence and is efficient and scalable, supporting images of any resolution and aspect ratio. Newly released versions, including RADIOv2.1, offer improved metrics and training in bf16 precision. Available for use through TorchHub and HuggingFace platforms, RADIO and its efficient variant E-RADIO boast significant advancements in throughput and zero-shot learning performance over existing models like OpenAI CLIP and DINOv2. The project is open for business inquiries through NVIDIA Research Licensing, presenting opportunities for further exploration and utilization in the vision and AI research community.",Exploring AM-RADIO: The Next Frontier in Agglomerative Vision Foundation Models,"Discover how AM-RADIO reshapes visual domain models by integrating the prowess of CLIP variants, DINOv2, and SAM into one unified framework, as presented at CVPR 2024. This groundbreaking work by NVIDIA Research not only streamlines domain-specific models but also enhances efficiency and performance in vision-related tasks. Delve into the details of how AM-RADIO outperforms its predecessors in zero-shot, kNN, and segmentation metrics, making it a versatile tool for researchers and developers alike. Explore the potential of this innovative model to revolutionize image processing and analysis across various applications.","Unveil the capabilities of AM-RADIO, an agglomerative vision foundation model presented at CVPR 2024 by NVIDIA Research, improving upon CLIP, DINOv2, and SAM models for superior visual domain performance.",Computer Vision Platform,"Python
+
+
+
+
+
+        276
+
+
+
+
+
+        7
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        28 stars today",https://raw.githubusercontent.com/NVlabs/RADIO/main/assets/radio.png; https://raw.githubusercontent.com/NVlabs/RADIO/main/assets/radio_overview_github.png,,276,2023-12-08T19:53:01Z
+2024-05-07,https://github.com/huggingface/datatrove,https://raw.githubusercontent.com/huggingface/datatrove/main/README.md,"DataTrove is a scalable library providing tools for processing, filtering, and deduplicating text data efficiently. It includes a variety of prebuilt processing blocks and supports customization to meet specific needs. Designed for large-scale workloads, such as processing training data for Large Language Models (LLMs), DataTrove operates with low memory usage across various platforms, including local setups and slurm clusters. It smoothly integrates with local and remote file systems via fsspec. The framework allows building robust data processing pipelines, customizable with a range of built-in and user-defined blocks for reading, writing, extracting, filtering, and deduplicating data. Pipelines are modular, supporting execution in diverse environments with logging and execution control features to streamline processing tasks. DataTrove is equipped for both individual modules and complex, scalable data processing activities, encouraging contributions and offering guides for setup, execution, and customization.",Maximizing Text Data Processing with DataTrove: Efficient Pipelines for Large-Scale Tasks,"Explore DataTrove, a powerful library designed for processing, filtering, and deduplicating text data on a massive scale. DataTrove offers prebuilt processing blocks and custom functionality, supporting platform-agnostic pipelines across local machines and slurm clusters. With low memory consumption and support for various file systems through fsspec, it's the ideal tool for handling extensive workloads like LLM's training data preparation.","Discover how DataTrove can transform your text data processing tasks with its efficient, scalable pipelines and support for large datasets. Ideal for LLM training data preparation and more.",Data Ingestion Tool,"Python
+
+
+
+
+
+        1,347
+
+
+
+
+
+        79
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",,,1347,2023-06-14T12:05:28Z
+2024-05-07,https://github.com/dmunozv04/iSponsorBlockTV,https://raw.githubusercontent.com/dmunozv04/iSponsorBlockTV/main/README.md,"iSponsorBlockTV is a project that allows users to skip sponsor segments in YouTube videos on various YouTube TV devices, using asynchronous Python for fast operation. It's compatible with a wide range of devices including Apple TV, Android TV, Chromecast, gaming consoles like Nintendo Switch and PlayStation, and more. To install, users are directed to check the project's wiki, with a note that docker armv7 builds are deprecated. The software functions by connecting to a device on the same network, utilizing the SponsorBlock API to skip or mute sponsor segments and ads. It involves libraries like pyytlounge and aiohttp for device interaction and network requests. Users can contribute via GitHub, and the project is under GNU GPLv3 license. Key contributors include dmunozv04, HaltCatchFire, and Oxixes.",Enhance Your YouTube TV Experience with iSponsorBlockTV: Seamless Ad Skipping,"Say goodbye to intrusive sponsor segments on YouTube TV with iSponsorBlockTV, the innovative project that brings ad-free viewing to various devices. Utilizing asynchronous Python for swift operation, this tool integrates with the SponsorBlock API to skip sponsor segments and ads seamlessly. With broad compatibility across devices like Apple TV, Android TV, and gaming consoles, and simple installation through its wiki, iSponsorBlockTV enhances your streaming experience without hassle.","Discover how iSponsorBlockTV can transform your YouTube TV watching experience by skipping annoying ads and sponsor segments on a wide range of devices. Installation is straightforward, ensuring an uninterrupted viewing journey.",AI Browser Automation,"Python
+
+
+
+
+
+        1,882
+
+
+
+
+
+        70
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        725 stars today",https://www.gnu.org/graphics/gplv3-127x51.png,,1882,2022-01-15T18:26:33Z
+2024-05-07,https://github.com/ansible/awx,https://raw.githubusercontent.com/ansible/awx/master/README.md,"AWX is a web-based interface, REST API, and task engine leveraging Ansible. It's the upstream project for the Red Hat Ansible Automation Platform. Users interested in installing AWX can find instructions in their Install Guide, and can learn more about the platform through the AWX documentation site or the project's FAQ section. AWX logos and branding assets are protected under trademark guidelines. Community contributions are welcome; guidelines for contributing, including code submission and the sign-off process, are outlined in their Contributing Guide. Issues or suggestions for improvements can be submitted via their issues guide. All community members are expected to adhere to the Ansible Code of Conduct, with contact information provided for assistance. Engagement with the community is encouraged through various channels such as the Ansible AWX channel on Matrix and the Ansible Community Forum.",Maximizing Automation with AWX: An Essential Guide to Ansible's Web UI,"AWX serves as a crucial web-based UI, REST API, and task engine built atop Ansible, streamlining project workflows for Red Hat Ansible Automation Platform users. This comprehensive guide offers insights into installing, utilizing, and contributing to AWX, expanding your automation capabilities. Explore the resources available, including installation instructions, detailed documentation, and community support options. Contribute to its development or seek assistance and share feedback through various community channels. Embrace the full potential of automation by integrating AWX into your development lifecycle.","Explore how AWX, the web-based interface for Ansible, enhances automation efforts. Learn to install, use, and contribute to AWX with our comprehensive guide, and join the vibrant community for support and collaboration.",Open Source ERP,"Python
+
+
+
+
+
+        13,473
+
+
+
+
+
+        3,333
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",,,13473,2017-05-17T15:50:14Z
+2024-05-07,https://github.com/RevoltSecurities/Subdominator,https://raw.githubusercontent.com/RevoltSecurities/Subdominator/main/README.md,"Subdominator is a potent subdomain enumeration tool essential for cybersecurity professionals during reconnaissance and bug hunting. It utilizes 35+ passive sources for subdomain enumeration, offering features such as configurable API keys, an integrated notification system, and support for various output formats. Its usage is straightforward, requiring simple command lines for operations, and it supports extensive customizations for optimizing searches, including proxy use and source selection. The tool integrates with numerous free API sources, and for maximal efficiency, some sources need API key setups. Installation is via Python and pip, and post-installation, users can configure API keys through a specified YAML file setup. Subdominator emphasizes security, promising user safety in operations and updates. It encourages community contributions and improvement suggestions.",Maximize Bug Hunting Success with Subdominator: A Subdomain Enumeration Tool,"Discover the capabilities of Subdominator, an essential tool for cybersecurity experts and bug hunters. By providing efficient and comprehensive subdomain enumeration, it aids in identifying potential security threats. Subdominator leverages over 35 free passive resources, offering configurable API keys setup and an integrated notification system for streamlined operations. Perfect for those seeking to enhance their reconnaissance efforts in cybersecurity.",Learn how Subdominator can transform your bug hunting and cybersecurity reconnaissance by efficiently enumerating subdomains using 35+ passive resources. A must-have tool for security professionals.,Cybersecurity Tool,"Python
+
+
+
+
+
+        216
+
+
+
+
+
+        32
+
+
+        Built by
+
+          
+
+
+
+
+
+        22 stars today",,,216,2023-07-24T15:23:44Z
