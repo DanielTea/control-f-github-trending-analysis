@@ -13913,3 +13913,193 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         22 stars today",,,216,2023-07-24T15:23:44Z
+2024-05-08,https://github.com/huggingface/lerobot,https://raw.githubusercontent.com/huggingface/lerobot/main/README.md,"LeRobot, developed by Hugging Face, focuses on lowering the entry barrier to the field of robotics. It is a comprehensive library designed for real-world robotics applications, leveraging PyTorch for machine learning models. The library includes pretrained models, human-collected dataset demonstrations, and simulation environments, eliminating the need for users to assemble physical robots. It incorporates state-of-the-art techniques in imitation and reinforcement learning, promising easy transferability to real-world scenarios. With an aim to expand its support for affordable and capable robots, LeRobot encourages sharing and collaboration within the community. The repository offers thorough guidance for installation, utilization of pretrained models, visualization of datasets, and evaluation of policies. It also provides a framework for training new policies with detailed instructions and supports experiment tracking with Weights and Biases. Acknowledgments extend to contributors of various policies, environments, and datasets adapted within LeRobot, highlighting a collaborative effort to advance robotics research and accessibility. The library not only facilitates robotics research but also invites contributions to expand its capabilities, including adding new datasets or pretrained policies to the Hugging Face hub.",Introducing LeRobot: Revolutionizing Robotics with Machine Learning,"LeRobot, powered by Hugging Face, is set to transform the robotics landscape by offering state-of-the-art machine learning models, datasets, and tools designed for real-world applications. Aimed at lowering the barrier to entry, it encourages contributions and sharing within the community. With a focus on imitation and reinforcement learning, LeRobot provides everything needed to get started, including pretrained models and simulation environments. It's not just about making advanced robotics more accessible; it's about building a community around shared innovation and progress.","Discover how LeRobot by Hugging Face is making advanced robotics accessible to all through community-driven sharing of models, datasets, and tools, focusing on real-world applications.",Collaborative AI Framework,"Python
+
+
+
+
+
+        1,618
+
+
+
+
+
+        85
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        321 stars today",https://raw.githubusercontent.com/huggingface/lerobot/main/media/lerobot-logo-thumbnail.png; http://remicadene.com/assets/gif/aloha_act.gif; http://remicadene.com/assets/gif/simxarm_tdmpc.gif; http://remicadene.com/assets/gif/pusht_diffusion.gif; https://raw.githubusercontent.com/huggingface/lerobot/main/media/wandb.png,,1619,2024-01-26T15:50:41Z
+2024-05-08,https://github.com/hbb1/2d-gaussian-splatting,https://raw.githubusercontent.com/hbb1/2d-gaussian-splatting/main/README.md,"The official implementation of ""2D Gaussian Splatting for Geometrically Accurate Radiance Fields"" is presented, focusing on representing scenes with 2D oriented disks for accurate surfel rasterization and enhanced reconstruction quality through developed regularizations and meshing approaches. Key updates include support for unbounded mesh extraction using adaptive TSDF truncation. The provided installation and training guides facilitate the use of COLMAP or NeRF Synthetic datasets, with specific parameter adjustments recommended for different scene scales. Testing instructions cover both bounded and unbounded mesh extraction. The project also offers evaluation scripts for novel view synthesis and geometric reconstruction accuracy, built upon notable repositories like 3DGS and Open3D. Acknowledgments highlight contributions from related works, encouraging citations for academic use.",Exploring 2D Gaussian Splatting for Realistic Radiance Fields in Computer Graphics,Discover the groundbreaking technique of 2D Gaussian Splatting for enhancing geometrically accurate radiance fields in computer graphics. This advanced method uses 2D oriented disks to accurately represent scenes and incorporates perspective-correct differentiable rasterization for improved scene reconstruction. Learn how recent updates like unbounded mesh extraction and adaptive TSDF truncation are setting new standards in the field. Perfect for developers and researchers in 3D computer graphics seeking cutting-edge rendering solutions.,"Unveil the potential of 2D Gaussian Splatting for creating geometrically accurate radiance fields, featuring updates like unbounded mesh extraction and adaptive TSDF truncation for superior 3D scene reconstruction.",3D Image Rendering,"Python
+
+
+
+
+
+        752
+
+
+
+
+
+        20
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        136 stars today",https://raw.githubusercontent.com/hbb1/2d-gaussian-splatting/main/assets/teaser.jpg; https://raw.githubusercontent.com/hbb1/2d-gaussian-splatting/main/assets/unbounded.gif,https://www.youtube.com/watch?v=oaHCtB6yiKU,753,2024-04-27T05:28:40Z
+2024-05-08,https://github.com/OpenDevin/OpenDevin,https://raw.githubusercontent.com/OpenDevin/OpenDevin/main/README.md,"OpenDevin is an AI and LLM-powered platform designed to assist software engineers in coding, debugging, and feature development. It fosters collaboration between agents and human developers, aiming to enhance the efficiency of software engineering tasks. Users can quickly start with OpenDevin using Docker and its documentation offers comprehensive guides on utilizing different LLM providers, troubleshooting, and advanced configurations. The project encourages community contributions in various forms, including code development, research, evaluation, and feedback. OpenDevin has a thriving community on Slack and Discord, inviting discussions on research, architecture, and development. It is a community-driven project open to contributions and aims at improving software engineering through AI. The platform is licensed under the MIT License, ensuring wide accessibility and collaborative improvement.",Maximizing Productivity with OpenDevin: AI-Powered Software Development,"Discover OpenDevin, the cutting-edge platform transforming software development through AI and Machine Learning Language Models (LLMs). OpenDevin's unique system enables autonomous collaboration between humans and AI agents, streamlining code writing, debugging, and feature deployment. With Docker support and an inclusive community backing, OpenDevin is revolutionizing how developers approach software projects. Join us to explore how you can enhance your coding efficiency and contribute to the forefront of AI in software engineering.","Explore OpenDevin, the AI and LLM-powered platform that's changing software development. Learn how it fosters collaboration between AI agents and developers to code faster and more efficiently.",AI Development Platform,"Python
+
+
+
+
+
+        24,390
+
+
+
+
+
+        2,694
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        224 stars today",https://raw.githubusercontent.com/OpenDevin/OpenDevin/main/./docs/static/img/logo.png; https://raw.githubusercontent.com/OpenDevin/OpenDevin/main/./docs/static/img/screenshot.png; https://raw.githubusercontent.com/OpenDevin/OpenDevin/main/docs/static/img/results.png,,24390,2024-03-13T03:33:31Z
+2024-05-08,https://github.com/Kroery/DiffMOT,https://raw.githubusercontent.com/Kroery/DiffMOT/main/README.md,"DiffMOT, presented at CVPR 2024, introduces a real-time, diffusion-based system for tracking multiple objects with non-linear prediction capabilities, significantly improving tracking performance across various datasets. It incorporates trained motion models and is compatible with several detectors, showcasing flexibility within different application scenarios. The framework's efficacy is demonstrated through benchmarks on DanceTrack, SportsMOT, MOT17, and MOT20 datasets, with notable improvements in tracking accuracy and speed. The tracker achieves optimal results when paired with different YOLOX detectors, balancing accuracy and frame rate to suit user needs. Installation and usage instructions are detailed for users to set up the system, which involves preparing data, downloading pre-trained models, and executing tracking. The project acknowledges contributions from related works and provides thorough documentation to assist users. Contact information is provided for further inquiries, emphasizing collaboration and support within the research community.",Revolutionizing Object Tracking: Explore DiffMOT's Real-time Capabilities,"DiffMOT, introduced at CVPR 2024, sets a new standard for real-time, diffusion-based multiple object tracking with its innovative non-linear prediction model. The breakthrough framework boasts impressive tracking performance across diverse benchmarks like DanceTrack and SportsMOT. It integrates seamlessly with different detectors, achieving up to 30.3 FPS on an RTX 3090 GPU, ensuring flexibility for various application scenarios. The research team has also made their trained motion model publicly available, promising significant advancements in the field of computer vision. This milestone highlights their commitment to pushing the boundaries of object tracking technology.","Discover DiffMOT, the cutting-edge real-time, diffusion-based multiple object tracker from CVPR 2024. Learn how it achieves top performance with non-linear prediction on benchmarks like DanceTrack and SportsMOT.",Computer Vision Platform,"Python
+
+
+
+
+
+        213
+
+
+
+
+
+        26
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        50 stars today",https://raw.githubusercontent.com/Kroery/DiffMOT/main/assets/teaser_git.png; https://raw.githubusercontent.com/Kroery/DiffMOT/main/assets/diffmot_git.png; https://raw.githubusercontent.com/Kroery/DiffMOT/main/assets/ddmp_git.png; https://raw.githubusercontent.com/Kroery/DiffMOT/main/assets/DiffMOT_DanceTrack.gif; https://raw.githubusercontent.com/Kroery/DiffMOT/main/assets/DiffMOT_SportsMOT.gif,,213,2023-11-23T11:07:14Z
+2024-05-08,https://github.com/deepseek-ai/DeepSeek-Coder,https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/README.md,"DeepSeek Coder is a comprehensive suite of state-of-the-art code language models, trainable in various sizes ranging from 1B to 33B. It uses a vast dataset of 2T tokens, primarily code (87%) with English and Chinese natural language (13%), optimizing for project-level code completion and infilling via a 16K window size and a unique fill-in-the-blank task. The models excel in performance across multiple programming languages and standards, outperforming other open-source alternatives in benchmarks like HumanEval, MultiPL-E, MBPP, DS-1000, and APPS. Additionally, it supports a wide range of programming languages, from common ones like Python and Java to less mainstream ones. The creation process involved collecting and filtering GitHub code, parsing dependencies, and concatenating files for quality training data. DeepSeek Coder's training capitalized on an initial and extended pre-training phase, followed by instruction fine-tuning. Users can interact with DeepSeek Coder through code completion, insertion, chat model inference, and repository level code completion, with mentioned examples illustrating its advanced capabilities. For further customization, DeepSeek offers a fine-tuning script supporting training on user-specific tasks with deep learning acceleration technologies. The detailed evaluation results provided showcase its versatility and superior performance across a spectrum of coding tasks and benchmarks, asserting its position as a leading solution in the realm of code intelligence and model training.",Unleashing the Power of DeepSeek Coder: AI-Driven Code Solutions,"Discover the revolutionary DeepSeek Coder, your AI-powered coding assistant designed with a massive 2T token dataset for unparalleled coding assistance in multiple languages. Boasting superior model sizes up to 33B, DeepSeek Coder excels at project-level code completion and infilling, making it a leader among open-source code models. Its remarkable training on a blend of code and natural language ensures it meets diverse coding requirements with ease, from basic code completions to advanced project-level challenges. Enhance your coding projects with state-of-the-art performance across various benchmarks.","Explore DeepSeek Coder, an advanced AI coding assistant trained on 2T tokens for superior code completion and infilling in English and Chinese. Achieve state-of-the-art coding performance with models up to 33B.",Language Models Tool,"Python
+
+
+
+
+
+        5,444
+
+
+
+
+
+        367
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        42 stars today",https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/logo.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/home.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/result.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/table.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/data_clean.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/model_pretraining.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/completion_demo.gif; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/HumanEval.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/MBPP.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/DS-1000.png; https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Coder/main/pictures/Math.png,,5444,2023-10-20T06:38:01Z
+2024-05-08,https://github.com/instructlab/instructlab,https://raw.githubusercontent.com/instructlab/instructlab/main/README.md,"InstructLab CLI is a tool developed for enhancing Large Language Models (LLMs) with synthetic data-based alignment tuning, focusing on chatbots. The CLI facilitates downloading a pre-trained LLM, interacting with it, and adding new knowledge or skills through a companion taxonomy repository. Following this, users can generate synthetic training data, re-train the LLM, and chat with the updated model to see improvements. The CLI is designed to be accessible on Linux and macOS systems, requiring Python 3.9+, a C++ compiler, and about 60GB of disk space. The documentation guides users through installing `ilab`, initializing it, downloading the model, serving it, and iterating on the model by adding new knowledge, generating synthetic datasets, and re-training. InstructLab emphasizes community contributions, allowing users to contribute new knowledge or skills back to the project. The process, though optimized for modest hardware, offers options for higher-fidelity results with more advanced setups.",Unlocking the Power of Synthetic Data with InstructLab CLI: A Comprehensive Guide,"Discover the cutting-edge InstructLab CLI, a revolutionary tool designed for enhancing Large Language Models (LLMs) with synthetic data-based alignment tuning. Learn how to install, initialize, and utilize `ilab` for downloading pre-trained models, generating new synthetic training data, and retraining LLMs to integrate new knowledge and skills. With InstructLab, users can leverage modest hardware to achieve remarkable fidelity in model training, paving the way for more sophisticated language applications.","Explore how InstructLab CLI leverages synthetic data to fine-tune Large Language Models (LLMs) on any hardware. This guide covers installation, initialization, and how to use `ilab` for model enhancement.",AI Development Platform,"Python
+
+
+
+
+
+        275
+
+
+
+
+
+        94
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        107 stars today",,,275,2024-02-21T22:59:01Z
+2024-05-08,https://github.com/NVIDIA/Megatron-LM,https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/README.md,"The Megatron repository consists of two core components, Megatron-LM and Megatron-Core, designed for optimizing transformer model training at scale on GPUs. Megatron-LM is research-oriented, providing a foundation for large language model (LLM) training leveraging the GPU-optimized techniques of Megatron-Core. Megatron-Core is a library that introduces advanced system-level optimizations and modular APIs for efficient, customizable transformer model training. It supports all NVIDIA Tensor Core GPUs, including the latest with FP8 acceleration. This toolset allows for training of models ranging from billions to a trillion parameters, demonstrating near-linear scaling across thousands of GPUs. It integrates with NVIDIA's NeMo Framework for end-to-end, cloud-native solutions and supports advanced parallelization, activation checkpointing, and distributed optimization for peak performance and efficiency. Pretrained models are available for immediate use or fine-tuning, and the documentation provides guidance on training, data preprocessing, and evaluation for various models like BERT, GPT, and T5 within a distributed architecture.",NVIDIA's Breakthrough in AI: Megatron-Core for Optimized Transformer Models,"NVIDIA has revolutionized the AI landscape with the release of Megatron-Core, enhancing the capabilities of Megatron-LM through GPU-optimized techniques for training transformer models at an unprecedented scale. This advancement offers developers and researchers modular and composable APIs, scaling up system-level optimizations for efficient, large language model training. Compatible with NVIDIA Tensor Core GPUs, Megatron-Core supports the most advanced model and data parallelism techniques. Dive into the future of AI with NVIDIA's latest innovation, enabling the construction of sophisticated models for a wide range of applications.","Unlock the full potential of transformer model training with NVIDIA’s Megatron-Core. Explore cutting-edge system-level optimizations and GPU-optimized techniques for scalable, efficient AI development.",Large-scale Language Models,"Python
+
+
+
+
+
+        8,710
+
+
+
+
+
+        1,948
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/images/Achieved_petaFLOPs.png,,8710,2019-03-21T16:15:52Z
