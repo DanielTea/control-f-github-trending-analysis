@@ -14103,3 +14103,85 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         15 stars today",https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/images/Achieved_petaFLOPs.png,,8710,2019-03-21T16:15:52Z
+2024-05-09,https://github.com/AdityaNG/kan-gpt,https://raw.githubusercontent.com/AdityaNG/kan-gpt/main/README.md,"KAN-GPT is a PyTorch implementation that utilizes Generative Pre-trained Transformers (GPTs) with Kolmogorov-Arnold Networks (KANs) for efficient language modeling. Available for installation via PyPI, it offers an easy setup for both usage and development, including detailed steps for setting up the environment, installing dependencies, and preparing data. It provides a user-friendly interface for training and deploying the model with support for different configurations and datasets like WebText and Tiny Shakespeare. Early results show that KAN-GPT slightly outperforms its MLP-GPT counterpart on selected metrics. The project integrates tools and scripts for dataset downloading, training, prompting the model, and results visualization, alongside planned improvements and extensive documentation for contributors.",Exploring KAN-GPT: A Novel Approach in Language Modeling with PyTorch,"Discover the cutting-edge KAN-GPT, a PyTorch-based generative pre-trained transformer model leveraging Kolmogorov-Arnold Networks (KANs) for unparalleled language modeling. This blog sheds light on how to install, use, and develop the KAN-GPT model, alongside insights into its superior performance over traditional MLP models on datasets like Tiny Shakespeare. Dive into the technical architecture, setup instructions, and use cases that set KAN-GPT apart as a significant advancement in natural language processing.","Learn about KAN-GPT, the breakthrough in language modeling using PyTorch and Kolmogorov-Arnold Networks. Find out how it excels over traditional models with a guide on installation, usage, and development.",Deep Learning,"Python
+
+
+
+
+
+        394
+
+
+
+
+
+        25
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        86 stars today",https://raw.githubusercontent.com/AdityaNG/kan-gpt/main/media/results_loss.png; https://raw.githubusercontent.com/AdityaNG/kan-gpt/main/media/results_cross_entropy.png; https://raw.githubusercontent.com/AdityaNG/kan-gpt/main/media/results_perplexity.png,,394,2024-05-02T15:41:42Z
+2024-05-09,https://github.com/wilsonfreitas/awesome-quant,https://raw.githubusercontent.com/wilsonfreitas/awesome-quant/master/README.md,"This text provides a comprehensive list of libraries, packages, and resources for quantitative finance, available across various programming languages like Python, R, Matlab, Julia, Java, JavaScript, Haskell, Scala, Ruby, Golang, CPP (C++), CSharp, and Rust. For Python, it highlights numerical libraries and data structures, financial instruments and pricing, indicators, trading, backtesting, and risk analysis tools. Similar tools and libraries are listed for other languages, each suited for different aspects of quantitative finance such as data analysis, trading algorithms, market data retrieval, financial modeling, and strategy backtesting. The list also includes frameworks for several languages, enhancing quantitative analysis and trading strategies development. Additionally, it mentions resources for Excel integration and data visualization, ensuring a wide array of tools for quants to conduct financial analysis, develop trading systems, and manage portfolios efficiently.","Ultimate Guide to Quantitative Finance Tools: Libraries, Packages, and Resources","Discover the ultimate curated list of insanely awesome libraries, packages, and resources for Quants in this comprehensive guide. Covering a wide range of programming languages like Python, R, Matlab, and more, this article is your gateway to numerical libraries, financial instruments pricing, trading strategies, and risk analysis tools. Dive into the world of Quantitative Finance with essential tools like Python's NumPy for scientific computing, pandas for data analysis, QuantLib for financial instruments and pricing, and much more. Whether you're a seasoned finance professional or new to quantitative analysis, this guide offers valuable insights and tools to enhance your financial modeling and analytical skills.","Explore the best libraries, packages, and resources for quantitative finance across Python, R, Matlab, and more. From scientific computing, data analysis to financial modeling, get started with essential tools for your quantitative finance journey.",Finance Programming Resources,"Python
+
+
+
+
+
+        16,144
+
+
+
+
+
+        2,428
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        35 stars today",,,16144,2015-09-30T09:53:49Z
+2024-05-09,https://github.com/mouredev/hello-git,https://raw.githubusercontent.com/mouredev/hello-git/main/README.md,"César Tolentino from Peru shares his excitement about a comprehensive Git & GitHub course offered by MoureDev, praising its coverage from basics to advanced concepts, including Laravel or mobile development tips with Java or Kotlin, and architecture best practices. The course spans 5 hours and 45 lessons, teaching Git essentials, over 25 commands, GitHub from scratch, integration of Git with GitHub, collaborative workflows, and includes practical examples. Additionally, a new 300-page guidebook to complement the video course is highlighted. The course is designed for beginners and aims to provide a thorough understanding of Git & GitHub, offering a blend of theory and practice to equip learners with the necessary skills for version control and collaboration.",Master Git & GitHub: The Ultimate Guide for Beginners,"Discover the comprehensive 5-hour course for mastering Git and GitHub from scratch designed for beginners. Learn everything from Git basics and essential commands to GitHub integration and collaborative workflows, all through practical examples and a community-supported learning environment. This course also includes access to a detailed theoretical-practical guide to deepen your understanding. Join the MoureDev community on Twitch for live sessions and become proficient in Git and GitHub to boost your development projects.","Kickstart your Git & GitHub journey with our beginner-friendly course. Learn the fundamentals, commands, and GitHub collaboration in just 5 hours with practical examples. Join our community for ongoing support.",System Design Education,"Python
+
+
+
+
+
+        7,178
+
+
+
+
+
+        2,192
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        24 stars today",https://raw.githubusercontent.com/mouredev/hello-git/main/./Media/header.jpg; https://raw.githubusercontent.com/mouredev/hello-git/main/./Media/book.jpg; http://i3.ytimg.com/vi/3GymExBkKjE/maxresdefault.jpg; http://i3.ytimg.com/vi/pNtcTmCiXzw/maxresdefault.jpg; https://raw.githubusercontent.com/mouredev/hello-git/main/./Media/terminal.gif; https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png,https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=pNtcTmCiXzw; https://www.youtube.com/watch?v=pNtcTmCiXzw,7178,2023-01-04T09:01:03Z
