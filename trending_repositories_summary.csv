@@ -14185,3 +14185,134 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         24 stars today",https://raw.githubusercontent.com/mouredev/hello-git/main/./Media/header.jpg; https://raw.githubusercontent.com/mouredev/hello-git/main/./Media/book.jpg; http://i3.ytimg.com/vi/3GymExBkKjE/maxresdefault.jpg; http://i3.ytimg.com/vi/pNtcTmCiXzw/maxresdefault.jpg; https://raw.githubusercontent.com/mouredev/hello-git/main/./Media/terminal.gif; https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png,https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=3GymExBkKjE; https://www.youtube.com/watch?v=pNtcTmCiXzw; https://www.youtube.com/watch?v=pNtcTmCiXzw,7178,2023-01-04T09:01:03Z
+2024-05-10,https://github.com/lllyasviel/IC-Light,https://raw.githubusercontent.com/lllyasviel/IC-Light/main/README.md,"IC-Light is a project focusing on changing the lighting in images, known as ""Imposing Consistent Light"". It offers two models: one conditioned on text and the other on background, both targeting the enhancement of foreground images. Users can start with provided scripts for either the text-conditioned or background-conditioned relighting model, with automated model downloads. The text-conditioned model outputs vary based on lighting preferences and prompts, showcasing a wide range of lighting effects from neon to natural sunlight. The project demonstrates the consistent relighting capability of the models, even allowing the combination of relights into normal maps without direct training on them. This is shown through experiments that highlight the models' ability to produce consistent and high-quality lighting adjustments. IC-Light is open for use and further exploration, with its codebase and models available on GitHub, complemented by examples and detailed instructions for replication. The project contributes to the broader field of image manipulation, with references to related works on portrait relighting and background replacement.",Unveiling IC-Light: Revolutionize Image Illumination with Advanced Relighting Models,"IC-Light stands at the forefront of image manipulation, specializing in advanced relighting models that adapt illumination with unmatched consistency. The project introduces two groundbreaking models: text-conditioned and background-conditioned relighting, catering to diverse lighting preferences using foreground images. Its seamless integration through a simple script setup promises to elevate visuals in a hyper-realistic manner. IC-Light not only enhances images but invites users to experiment with its capabilities, ensuring each output maintains the highest fidelity to natural light conditions. Embark on a journey of visual transformation with IC-Light, where every image is a canvas for illumination perfection.","Discover IC-Light, the cutting-edge project transforming image illumination through text-conditioned and background-conditioned relighting models. Elevate your visuals with consistent, hyper-realistic lighting conditions.",Image Generation Platform,"Python
+
+
+
+
+
+        1,781
+
+
+
+
+
+        71
+
+
+        Built by
+
+          
+
+
+
+
+
+        351 stars today",,,1781,2024-05-07T13:26:05Z
+2024-05-10,https://github.com/google-research/timesfm,https://raw.githubusercontent.com/google-research/timesfm/master/README.md,"TimesFM, developed by Google Research, is a pretrained model for time-series forecasting, set to be discussed at ICML 2024. Its code and checkpoints are available on Hugging Face. The model, not officially backed by Google, specializes in univariate forecasting up to 512 timepoints for any horizon length, requiring contiguous context of the same frequency. It mainly generates point forecasts, with experimental quantile forecasts uncalibrated post-pretraining. Installation involves creating a conda environment for either GPU or CPU setups, followed by package installation. Usage includes model initialization with specific parameters and performing inference on array inputs or pandas dataframes, accommodating various time series frequencies.",Unlocking the Future of Time-Series Forecasting with Google's TimesFM,"Discover TimesFM, the latest innovation in time-series forecasting by Google Research, designed to revolutionize how we predict future trends. This model highlights the seamless integration of cutting-edge technology for univariate time-series forecasting, supporting context lengths up to 512 timepoints without the need for probabilistic forecasts. Dive deep into its capabilities, including uncalibrated quantile heads and the requirement for contiguous context, by exploring the comprehensive benchmarks and practical applications. Learn how to seamlessly install and utilize TimesFM for both GPU and CPU setups, ensuring you can leverage this powerful tool regardless of your hardware preferences. Understand the impact of TimesFM on the future of forecasting by visiting the official Google Research blog and accessing the model through the Hugging Face checkpoint repository.","Explore TimesFM, Google's innovative foundation model for accurate time series forecasting, including setup instructions, benchmarks, and practical applications for advanced forecasting challenges.",Time Series Forecasting,"Python
+
+
+
+
+
+        855
+
+
+
+
+
+        33
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        178 stars today",,,856,2024-04-29T21:26:26Z
+2024-05-10,https://github.com/QwenLM/Qwen,https://raw.githubusercontent.com/QwenLM/Qwen/main/README.md,"The text details the release and features of the Qwen series, including base language models and chat models in various sizes (1.8B, 7B, 14B, 72B) with a focus on multilingual data, emphasizing Chinese and English. The models have been pretrained on up to 3 trillion tokens, achieving competitive performance on benchmark datasets. Introduced are models' quantization strategies for efficient memory usage and speed, including Int4 and Int8 versions. It highlights the utility of models in tasks like chatting, content creation, summarization, translation, coding, and solving math problems. The text mentions the support for system prompt enhancement and tool use in models. It provides technical details for finetuning, including LoRA and Q-LoRA techniques, and deployment on CPUs and multi-GPU setups. The availability of a technical report with detailed model performance and the hosting of models on platforms like ModelScope and Hugging Face for easy access and inference are also mentioned. Finally, it offers guidance on getting started, including environmental setup, quickstart examples, and troubleshooting assistance through FAQs.",Exploring Qwen Series: A Deep Dive into Multilingual Language Models,"Discover the power of Qwen series language models, including Qwen-1.8B, Qwen-7B, Qwen-14B, and Qwen-72B, which have shown exceptional performance across a range of benchmark datasets. These models have been pretrained on up to 3 trillion tokens covering multiple languages and domains, demonstrating their versatility in tasks like chatting, content creation, summarization, translation, and more. With detailed quantization and fine-tuning instructions, the Qwen series stands out for its robust training, inference efficiency, and multilingual capabilities, marking a significant advancement in AI language processing.","Learn about the Qwen series AI multilingual language models, including their capabilities, performances on benchmarks, and advanced features like quantization and fine-tuning for efficient AI language processing across various tasks.",Large-scale Language Models,"Python
+
+
+
+
+
+        11,285
+
+
+
+
+
+        907
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        56 stars today",https://qianwen-res.oss-cn-beijing.aliyuncs.com/logo_qwen.jpg; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/radar_72b.jpg; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/web_demo.gif; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/cli_demo.gif; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/openai_api.gif; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/system_prompt_language_style.png; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/system_prompt_role_play_en.png; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/code_interpreter_showcase_001.jpg; https://raw.githubusercontent.com/QwenLM/Qwen/main/assets/qwen_72b_needle_in_a_haystack.png,,11285,2023-08-03T04:56:38Z
+2024-05-10,https://github.com/JaveleyQAQ/WeChatOpenDevTools-Python,https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/README.md,"This document details a library intended strictly for learning purposes, disclaiming any responsibility by the developers for issues that may arise from its use. If the library infringes on any rights, contact for removal is advised. It outlines the compatibility of various WeChat versions with this tool across Windows and Mac platforms, offering detailed guides on how to check the current WeChat version running on a system, and procedures for utilizing the features like enabling F12 for mini-programs and the WeChat built-in browser. Additionally, it addresses common issues such as incompatibility messages, inability to modify the Chinese language, and version rollback queries, providing solutions and suggesting precautions. For Mac users, it notes specific limitations and steps to avoid crashes when debugging mini-programs, also highlighting where to find assistance for process access issues.",Maximizing Development with WeChatOpenDevTools-Python: A Guide,"Dive into the depths of WeChatOpenDevTools-Python, a pivotal tool for developers seeking to enhance their WeChat applications. This tool, initially birthed from the need to automate mundane tasks and now fully rewritten in Python3, promises a streamlined workflow. Discover how to leverage this tool for opening developer tools in WeChat, thereby significantly improving development efficiency. Whether you're troubleshooting or pushing the envelope on innovation, this guide illuminates the path to mastering WeChat's developmental capabilities. Note: This tool is for educational purposes only, and the developer disclaims responsibility for any misuse.",Explore WeChatOpenDevTools-Python for advanced WeChat app development. Learn how to access F12 developer tools in WeChat and enhance your development process. Use responsibly.,Open Source Tool,"Python
+
+
+
+
+
+        946
+
+
+
+
+
+        310
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        35 stars today",https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/./docs/images/version0.jpg; https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/./docs/images/version1.jpg; https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/./docs/images/version2.jpg; https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/./docs/images/run.jpg; https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/./docs/images/MG38.jpg; https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/./docs/images/demo1.png; https://raw.githubusercontent.com/JaveleyQAQ/WeChatOpenDevTools-Python/main/./docs/images/demo2.png,,946,2024-01-17T02:17:07Z
+2024-05-10,https://github.com/vocodedev/vocode-python,https://raw.githubusercontent.com/vocodedev/vocode-python/main/README.md,"Vocode is an open-source library designed to simplify the creation of voice-based LLM applications. It empowers developers to easily generate real-time streaming conversations, deployable over phone calls, Zoom meetings, and more, enabling the development of personal assistants or unique applications like voice-controlled chess. The library offers straightforward abstractions and integrations, consolidating essential tools in one package. Vocode supports a range of out-of-the-box integrations with transcription and synthesis services, including popular ones like AssemblyAI, Deepgram, Google Cloud, Microsoft Azure, and Whisper among transcribers, and Azure, Google Cloud, and AWS Polly among synthesizers. It is compatible with various LLMs like ChatGPT and GPT-4. The project encourages community contributions and is actively seeking maintainers. Installation is streamlined through pip, and the platform provides comprehensive documentation to facilitate development.",Unlock the Power of Voice: Building LLM Apps with Vocode,"Discover how Vocode, the open-source library, simplifies creating voice-based LLM apps for various platforms, including phone calls and Zoom meetings. Perfect for developers aiming to integrate real-time streaming conversations with large language models (LLMs), Vocode offers a comprehensive suite of tools and integrations. Whether you're building personal assistants or innovative apps like voice-based chess, Vocode provides the resources you need in one library. Join our community of maintainers to contribute to the future of voice-based applications.","Explore Vocode to build voice-based LLM apps quickly and efficiently. From personal assistants to voice-enabled games, find out how this open-source library can transform your projects with easy integrations and powerful features.",Voice Conversion Tool,"Python
+
+
+
+
+
+        2,338
+
+
+
+
+
+        374
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://user-images.githubusercontent.com/6234599/228337850-e32bb01d-3701-47ef-a433-3221c9e0e56e.png,,2338,2023-02-24T18:44:46Z
