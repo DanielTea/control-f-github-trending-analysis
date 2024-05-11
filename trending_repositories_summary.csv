@@ -14316,3 +14316,157 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         2 stars today",https://user-images.githubusercontent.com/6234599/228337850-e32bb01d-3701-47ef-a433-3221c9e0e56e.png,,2338,2023-02-24T18:44:46Z
+2024-05-11,https://github.com/kyegomez/AlphaFold3,https://raw.githubusercontent.com/kyegomez/AlphaFold3/main/README.md,"The text introduces AlphaFold3, an implementation of the algorithm from the paper ""Accurate structure prediction of biomolecular interactions with AlphaFold3,"" available in PyTorch. Users can install the software using pip. It outlines how to generate input tensor sizes for both pair and single representations using PyTorch, details the Genetic Diffusion process which operates on atomic coordinates, and provides a full model example showcasing a forward pass through the AlphaFold3 model. The model aims to predict biomolecular interactions' structure accurately by working with explicit atomic positions, simplifying MSA processing, and utilizing a diffusion module to produce a distribution of potential structures. This approach helps counteract the model's tendency to ""hallucinate"" plausible but incorrect structures by incorporating cross-distillation with training data enriched by AlphaFold multimer predictions and incorporating various techniques for predicting structural confidence levels. The provided citation details the contributors and the journal it's published in. Lastly, it discusses the model's ability to predict protein nuclear structures and the plan for future improvements, including generating a large number of predictions to rank them and using top confidence samples for better inference accuracy.",Exploring AlphaFold3: A New Horizon in Biomolecular Structure Prediction,"AlphaFold3 introduces groundbreaking advancements in biomolecular structure prediction through its implementation in PyTorch. With features like genetic diffusion and enhanced sequence processing, AlphaFold3 leverages deep learning to predict atomic coordinates with unmatched accuracy. Its innovative approach combines pair and single representations, diffusing through steps to refine predictions and counteract hallucinations in structure generation. AlphaFold3 not only predicts structures but also includes confidence measures, opening new avenues in scientific research and drug discovery.","Dive into the capabilities of AlphaFold3, the latest breakthrough in predicting biomolecular interactions with unparalleled accuracy. Learn how its PyTorch implementation and unique features set a new standard in structural biology.",Deep Learning Tool,"Python
+
+
+
+
+
+        363
+
+
+
+
+
+        36
+
+
+        Built by
+
+          
+
+
+
+
+
+        46 stars today",https://raw.githubusercontent.com/kyegomez/AlphaFold3/main/agorabanner.png,,363,2024-05-08T16:54:21Z
+2024-05-11,https://github.com/stooged/PI-Pwn,https://raw.githubusercontent.com/stooged/PI-Pwn/main/README.md,"PI Pwn is a script designed for setting up PPPwn on a Raspberry Pi to facilitate running GoldHen on a PS4 with firmware version 11.0. Installation is demonstrated through videos, and it's compatible with Raspberry Pi models 3B+, 4, 5, and 400, with slower performance on Raspberry Pi Zero 2 W and Pi Zero W using USB to Ethernet adapters. Users need to install Raspberry Pi OS Lite on an SD card, adjust settings if using a USB to Ethernet adapter, and follow specific commands to install and run PPPwn. For the PS4 setup, adjustments in the Network settings are required, including PPPoE selection and DNS configurations. GoldHen necessitates placing a file on a USB drive. The Raspberry Pi attempts to exploit the PS4 automatically, requiring patience as the process may fail and retry multiple times. The system is designed for ease, aiming to exploit the console without user intervention after initial setup. Editing of exploit scripts is possible by accessing the SD card directly.",Ultimate Guide to Installing PPPwn on Raspberry Pi for PS4 Exploits,"Discover how to set up PPPwn on your Raspberry Pi and run GoldHen on PS4 firmware 11.0, adding new levels of functionality to your gaming experience. This post guides you through installing Raspberry Pi OS Lite, configuring your system for success, and linking your PS4 for an automated exploit process. Whether you're using a Raspberry Pi 3B+, 4 Model B, or even the newer Raspberry Pi 5, we've got you covered. Plus, find out how to tackle the setup using a USB to Ethernet adapter for models like the Raspberry Pi Zero 2 W. Dive into the endless possibilities of gaming enhancements with this simple, step-by-step tutorial.","Learn how to effortlessly install PPPwn on Raspberry Pi and execute GoldHen on PS4 fw 11.0. Follow our easy guide for a seamless setup process, compatible with multiple Raspberry Pi models.",Game Development Tool,"Python
+
+
+
+
+
+        113
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+        28 stars today",,,113,2024-05-09T07:28:30Z
+2024-05-11,https://github.com/stanford-oval/storm,https://raw.githubusercontent.com/stanford-oval/storm/main/README.md,"STORM (Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking) is an advanced system designed to write Wikipedia-like articles by conducting internet-based research. Launched in April 2024, the system has since introduced a refactored codebase, enabling customization across different language models and integration with various search engines. STORM operates in two main stages: firstly, the pre-writing stage where it gathers references and generates an outline through internet research, and secondly, the writing stage where it compiles a full-length article using the outlined structure and citations. The unique approach of STORM lies in its method of generating in-depth and broad questions, utilizing strategies like Perspective-Guided Question Asking and Simulated Conversation. These innovations allow the system to cover various angles of a topic by simulating a dialogue between a Wikipedia writer and an expert, enriching the content creation process. While initially not generating publication-ready articles, STORM serves as a valuable tool for experienced Wikipedia editors at the pre-writing phase. The system's modularity and flexibility in customization invite contributions from users to further enhance its capabilities, from refining the knowledge curation engine to integrating diverse language models and search engines.",Unlocking the Power of Automated Research and Writing with STORM,"STORM propels the synthesis of Wikipedia-like articles by automating the research and writing stages, forming a bridge between raw information and structured knowledge. By breaking down the article generation process into collecting references and creating detailed outlines before the final write-up, it serves as a versatile tool for Wikipedia editors. Its innovative approach includes perspective-guided question asking and simulated conversations to enrich content depth. STORM is not just software but a highly customizable platform, encouraging contributions to refine and enhance its capabilities. Dive into STORM's world to revolutionize how knowledge is curated and presented.","Explore how STORM revolutionizes writing Wikipedia-like articles through automated research and multi-perspective question asking, offering a customizable platform for knowledge curation.",AI Development Platform,"Python
+
+
+
+
+
+        4,224
+
+
+
+
+
+        408
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        72 stars today",https://raw.githubusercontent.com/stanford-oval/storm/main/assets/overview.png; https://raw.githubusercontent.com/stanford-oval/storm/main/assets/two_stages.jpg,,4224,2024-03-24T16:23:39Z
+2024-05-11,https://github.com/jgravelle/AutoGroq,https://raw.githubusercontent.com/jgravelle/AutoGroq/main/README.md,"The PDF file provides the project's code, enabling modifications via Claude.AI or ChatGPT, created using a specific GitHub tool. AutoGroq is highlighted as an AI conversational assistant improving user interaction with AI tools. It's characterized by dynamic generation of expert agents and workflows, facilitating customized and efficient support for various tasks. AutoGroq's features include natural conversation flow, code snippet extraction, and flexible agent management. To use AutoGroq, one can access an online demo or install it locally following a detailed setup guide, involving prerequisites, virtual environment setup, dependency installation, and application launch procedures. The process involves inputting requests to generate agents and workflows. AutoGroq's architecture comprises a Streamlit application and utility modules for API interactions and agent management. Contributions to AutoGroq are welcome, and it's open-source under the MIT License.",Revolutionize AI Interactions with AutoGroq: Your Ultimate Conversational Assistant,"Discover how AutoGroq is transforming AI interactions with its powerful, AI-driven conversational assistant. Offering dynamic expert agent generation, customizable workflows, and a user-friendly interface, AutoGroq addresses the limitations of existing solutions. It's designed for intuitive, natural conversations and effortless code snippet extraction. Experience the future of AI with AutoGroq's live demo or explore its impactful features by installing it today.","Explore AutoGroq, an AI-powered conversational assistant revolutionizing user interactions with AI. Featuring dynamic agent generation, intuitive conversations, and seamless code extraction, AutoGroq promises a superior, user-friendly experience.",AI Development Platform,"Python
+
+
+
+
+
+        238
+
+
+
+
+
+        148
+
+
+        Built by
+
+          
+
+
+
+
+
+        34 stars today",,https://www.youtube.com/watch?v=JkYzuL8V_4g,238,2024-03-29T14:32:46Z
+2024-05-11,https://github.com/IAHispano/Applio,https://raw.githubusercontent.com/IAHispano/Applio/main/README.md,"Applio is a VITS-based Voice Conversion application highlighted for its simplicity, quality, and performance. It is accessible via its [official website](https://applio.org) and provides various resources such as documentation, plugins, compiled versions, and a playground for users to experiment with. The tool is cross-platform, supporting installations on Windows, Linux, and through Makefile, catering to different platform users. Users are guided on how to run Applio on Windows and Linux platforms, ensuring a seamless setup experience. Significant enhancements have been made to the repository, including a modular codebase, hop length implementation for increased efficiency, translations in over 30 languages, cross-platform compatibility, optimized requirements, and a more streamlined installation process. Furthermore, Applio features include a hybrid F0 estimation method, a user-friendly UI, an efficient plugin system, an overtraining detector, model search, and support for various output formats. It also employs a unique ID hashing system for models to prevent duplication, a model download system from multiple sources, and advanced Text-to-Speech functionalities. Enhancements aim to make Applio more robust, scalable, and user-friendly, inviting contributions from the community to further enrich its capabilities.",Maximize Your Audio Projects with Applio Voice Conversion: A Comprehensive Guide,"Discover the simplicity, quality, and performance of Applio, a VITS-based voice conversion tool designed for accessibility and enhanced performance. From easy installation on various platforms to robust usage guidelines, Applio streamlines voice conversion processes. The recent enhancements, including modular codebase, optimized requirements, and a user-friendly interface, underscore its commitment to innovation. With features like a plugin system, overtraining detector, and enhanced TTS functionality, Applio stands out as a versatile tool for diverse audio projects. Join the Applio community today to elevate your audio projects!","Explore the advanced features of Applio, the VITS-based voice conversion platform that emphasizes ease of use, quality, and performance. Learn how its recent updates, including modular codebase and optimized UI, make it a top choice for audio professionals.",Voice Conversion Tool,"Python
+
+
+
+
+
+        1,049
+
+
+
+
+
+        176
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",,,1049,2023-08-07T22:42:16Z
+2024-05-11,https://github.com/mustafaaljadery/gemma-2B-10M,https://raw.githubusercontent.com/mustafaaljadery/gemma-2B-10M/main/README.md,"The Gemma 2B model offers a significant advancement in language model development by supporting a 10-million token context length while operating under a memory constraint of less than 32GB. This efficiency is achieved through the innovative use of recurrent local attention mechanisms, optimized for CUDA, allowing for linear memory usage (O(N)) contrary to the quadratic memory requirement found in standard multi-head attention designs. The initial release is an early checkpoint at 200 steps, with plans for extensive further training. To use the model, it can be installed via pip and the Huggingface platform. The implementation highlights not only technical prowess but also a collaborative effort among developers Mustafa Aljadery, Siddharth Sharma, and Aksh Garg. This approach draws inspiration from the Transformer-XL paper and employs strategies from the InfiniAttention concept, addressing the main memory bottleneck in large language models by segmenting the attention into manageable local blocks. For those interested, a deeper dive into the model's motivations, design, and theoretical underpinnings is available on Medium.",Introducing Gemma 2B: Cutting-Edge AI with 10M Sequence Length and Efficient Memory Use,"Explore the revolutionary Gemma 2B model, boasting a 10M sequence length while operating under 32GB of memory. This groundbreaking technology employs recurrent local attention and cuda-optimized native inference, achieving O(N) memory consumption. An early checkpoint is now accessible, with more extensive training planned. Quick start guides and technical insights are readily available for enthusiasts eager to delve into the future of AI model efficiency.","Discover Gemma 2B, the AI model reshaping large sequence processing with a 10M context and <32GB memory requirement. Dive into the features, quick start guide, and the innovative technology behind it.",Language Models,"Python
+
+
+
+
+
+        348
+
+
+
+
+
+        20
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        175 stars today",https://raw.githubusercontent.com/mustafaaljadery/gemma-2B-10M/main/./images/graphic.png,,348,2024-05-07T00:52:21Z
