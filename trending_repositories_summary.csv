@@ -14470,3 +14470,111 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         175 stars today",https://raw.githubusercontent.com/mustafaaljadery/gemma-2B-10M/main/./images/graphic.png,,348,2024-05-07T00:52:21Z
+2024-05-12,https://github.com/sol3dev/SOL-shitcoinbot,https://raw.githubusercontent.com/sol3dev/SOL-shitcoinbot/main/README.md,"The Solana-shitcoinbot is a trading and sniping bot designed for automated trading of Shitcoins on the Solana blockchain, emphasizing speed, security, and flexibility. It uses premium APIs like Birdeye for rapid data analysis and supports major exchanges, including Raydium, Jupiter, and Orca. Key features include in-depth market analysis, data visualization, advanced notification options, and customizable trading strategies. Users maintain complete control over their data, with everything processed locally for enhanced security. Installation involves downloading the package, running the auto-installer, and setting up trading parameters. It offers tools for detailed operation analysis, account management, and supports multiple trading profiles. Originally a personal project by Sol3Dev, the bot has gained traction for its precision and effectiveness. Users can support its development through donations to a provided Solana wallet address.",Maximize Your Trading Efficiency with Solana-Shitcoinbot: The Ultimate Sniping Tool,"Discover the power of Solana-Shitcoinbot, your go-to solution for automated trading and sniping of Shitcoins on the Solana blockchain. With features like high-speed data analysis, comprehensive market analysis, and support for major exchanges, this bot offers unparalleled trading efficiency and security. Customize your trading strategy with advanced notification options and data visualization tools, all while maintaining complete control over your trading operations. Perfect for both novice and experienced traders, Solana-Shitcoinbot is the key to unlocking the full potential of your trading endeavors.","Enhance your trading on Solana with Solana-Shitcoinbot: a highly efficient and secure bot for sniping and trading Shitcoins. Key features include real-time data analysis, market monitoring, and compatibility with major exchanges. Learn how to maximize your trading potential today.",Crypto Trading Bot,"Python
+
+
+
+
+
+        230
+
+
+
+
+
+        24
+
+
+        Built by
+
+          
+
+
+
+
+
+        115 stars today",https://raw.githubusercontent.com/sol3dev/SOL-shitcoinbot/main/readme/Solanabot.png; https://raw.githubusercontent.com/sol3dev/SOL-shitcoinbot/main/readme/dwsmall.png; https://raw.githubusercontent.com/sol3dev/SOL-shitcoinbot/main/readme/interface.png; https://raw.githubusercontent.com/sol3dev/SOL-shitcoinbot/main/readme/res1.png; https://raw.githubusercontent.com/sol3dev/SOL-shitcoinbot/main/readme/res2.png,,230,2024-05-04T12:18:45Z
+2024-05-12,https://github.com/modelscope/agentscope,https://raw.githubusercontent.com/modelscope/agentscope/main/README.md,"AgentScope is an innovative platform intended for developers to create multi-agent applications with large-scale models easily. It is released under Apache License 2.0, and contributions are welcome. This project supports a wide range of model libraries through `ModelWrapper` for both local model services and third-party APIs. Key features include easy usage, high robustness, and actor-based distribution for simplified development of distributed applications. Various services such as web search, data query, and text processing are supported, alongside a plethora of example applications. AgentScope can be installed from the source or via pip, requiring Python 3.9 or higher. It allows for decoupled model deployment and invocation, facilitated by model configuration files. For interaction, agents communicate through messages containing necessary fields like name and content. Detailed tutorials are available for getting started, along with advanced topics like custom agent creation, pipeline management, and distribution strategies. Additionally, AgentScope provides a runtime user interface for a better development experience.",Exploring AgentScope: Revolutionizing Multi-Agent Applications Development,"Discover AgentScope, the cutting-edge platform for developing LLM-empowered multi-agent applications with ease. Offering robust features like customizable fault-tolerance, streamlined distributed application development, and extensive model library support, AgentScope stands out as the go-to solution for developers. Embrace the future of application development by leveraging AgentScope's comprehensive documentation, examples, and community support. Dive into the world of AgentScope and elevate your developer journey.","Unlock the potential of building multi-agent applications with AgentScope. Explore its easy-to-use interface, high robustness, and actor-based distribution system for an enhanced development experience. Join the AgentScope community today.",AI Development Platform,"Python
+
+
+
+
+
+        1,729
+
+
+
+
+
+        106
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        173 stars today",https://img.alicdn.com/imgextra/i2/O1CN01cdjhVE1wwt5Auv7bY_!!6000000006373-0-tps-1792-1024.jpg; https://gw.alicdn.com/imgextra/i1/O1CN01hhD1mu1Dd3BWVUvxN_!!6000000000238-2-tps-400-400.png; https://img.alicdn.com/imgextra/i2/O1CN01tuJ5971OmAqNg9cOw_!!6000000001747-0-tps-444-460.jpg; https://img.alicdn.com/imgextra/i3/O1CN01SFL0Gu26nrQBFKXFR_!!6000000007707-2-tps-500-500.png; https://img.alicdn.com/imgextra/i3/O1CN01SFL0Gu26nrQBFKXFR_!!6000000007707-2-tps-500-500.png; https://img.alicdn.com/imgextra/i3/O1CN01SFL0Gu26nrQBFKXFR_!!6000000007707-2-tps-500-500.png; https://gw.alicdn.com/imgextra/i3/O1CN01X673v81WaHV1oCxEN_!!6000000002804-0-tps-2992-1498.jpg,,1729,2024-01-12T03:41:59Z
+2024-05-12,https://github.com/Alpha-VLLM/Lumina-T2X,https://raw.githubusercontent.com/Alpha-VLLM/Lumina-T2X/main/README.md,"Lumina-T2X, with its Flow-based Large Diffusion Transformers (Flag-DiT), turns textual descriptions into images, videos, multi-view 3D images, and synthesized speech. The Flag-DiT, supporting up to 7 billion parameters for sequences up to 128,000 tokens long, enables high-resolution, aspect ratio, and duration flexible outputs. Employing techniques like RoPE, RMSNorm, and KQ-norm, it accelerates training and stabilizes dynamics. Lumina-T2X models, particularly Lumina-T2I and Lumina-Next-T2I, exhibit notable achievements in generating high-quality visual and audio content from text. The project, showcasing advanced computational efficiency, also released substantial checkpoints and interactive demos, contributing significantly to textual content transformation research.",Unveiling Lumina-T2X: A New Frontier in Text-to-Modality Transformations,"Discover the cutting-edge Lumina-T2X, a groundbreaking series of Diffusion Transformers aimed at converting text into vivid images, dynamic videos, 3D models, and synthesized speech. Boasting a robust Flow-based Large Diffusion Transformer core, Lumina-T2X can generate content of any resolution, aspect ratio, and duration. Its innovative design ensures fast training, stable dynamics, and supports an array of modalities within a single framework. Transform text into stunning visuals or audio with minimal computational resources, thanks to Lumina-T2X's efficient learning model.","Explore Lumina-T2X, the revolutionary text-to-any modality transformer capable of generating images, videos, 3D models, and speech from textual descriptions. Experience unparalleled resolution, aspect ratio, and duration flexibility with cutting-edge technology.",Multimodal AI Model,"Python
+
+
+
+
+
+        451
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        74 stars today",https://raw.githubusercontent.com/Alpha-VLLM/Lumina-T2X/main/./assets/lumina-logo.png,https://www.youtube.com/watch?v=KFtHmS5eUCM; https://www.youtube.com/watch?v=KFtHmS5eUCM,451,2024-03-28T13:23:28Z
+2024-05-12,https://github.com/xinntao/Real-ESRGAN,https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/README.md,"Real-ESRGAN is a practical application for general image/video restoration, extending from the powerful ESRGAN model and trained with purely synthetic data. It introduces new models optimized for anime images and videos, featuring the **AnimeVideo-v3** and **RealESRGAN_x4plus_anime_6B** for enhanced anime visual quality. The project offers various ways to use the models, including online demos, portable executable files for Windows/Linux/MacOS without the need for a CUDA or PyTorch environment, and a Python script for more flexibility. Real-ESRGAN also integrates with GFPGAN for face enhancement and supports arbitrary output sizes, tiling, images with alpha channels, gray images, and 16-bit images in its inference process. The project has seen multiple updates, adding new models, implementation options, and detailed guides for training and fine-tuning on custom datasets. Real-ESRGAN is part of a broader ecosystem of projects aimed at image and video restoration and enhancement, and it encourages community contributions and feedback.",Exploring Real-ESRGAN: Enhance Your Images with AI,"Discover the power of Real-ESRGAN, an advanced AI tool designed for image and video restoration, enhancing visual content with incredible detail. From boosting the quality of anime videos to improving general scene images, Real-ESRGAN offers versatile solutions for both personal and professional use. Explore its easy-to-use demos, portable executable files, and Python scripts for quick inference. Whether you're enhancing faces with GFPGAN or enlarging images without losing quality, Real-ESRGAN is reshaping the future of digital imagery.",Unleash the potential of Real-ESRGAN for superior image and video enhancement. Learn how this AI-powered tool can transform your visual content with ease. Explore now!,Image Generation Platform,"Python
+
+
+
+
+
+        26,293
+
+
+
+
+
+        3,301
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/assets/realesrgan_logo.png; https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/assets/teaser.jpg; https://raw.githubusercontent.com/xinntao/public-figures/master/Real-ESRGAN/cmp_realesrgan_anime_1.png,https://www.youtube.com/watch?v=fxHWoDSSvSc,26293,2021-07-19T03:23:30Z
