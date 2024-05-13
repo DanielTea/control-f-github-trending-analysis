@@ -14578,3 +14578,193 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         14 stars today",https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/assets/realesrgan_logo.png; https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/assets/teaser.jpg; https://raw.githubusercontent.com/xinntao/public-figures/master/Real-ESRGAN/cmp_realesrgan_anime_1.png,https://www.youtube.com/watch?v=fxHWoDSSvSc,26293,2021-07-19T03:23:30Z
+2024-05-13,https://github.com/linyiLYi/bilibot,https://raw.githubusercontent.com/linyiLYi/bilibot/main/README.md,"The Bilibili chatbot project is developed from user comments on Bilibili, supporting text and voice dialogues generated from a `questions.txt` file. It utilizes the [Qwen1.5-32B-Chat](https://huggingface.co/Qwen/Qwen1.5-32B-Chat) model with fine-tuning from Apple's [mlx-lm LORA](https://github.com/ml-explore/mlx-examples/blob/main/llms/mlx_lm/LORA.md) project. Voice generation is based on the [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) open-source project, with voice models trained by Bilibili user [白菜工厂1145号员工](https://space.bilibili.com/518098961). The project structure includes scripts, models, templates, and a compression tool for model optimization. Installation requires Python 3.10, with setup recommended via Anaconda, and has been tested on macOS. Instructions cover environment setup, model fine-tuning, inference testing, and voice generation setup using [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS), followed by running an API for voice service and a QA dialogue program.",Unlocking the Potential of Bilibili Chatbots with Advanced AI Training,"Explore the creation of a sophisticated chatbot trained on Bilibili user comments, leveraging the latest in AI from Qwen1.5-32B-Chat and Apple's mlx-lm LORA project for text generation, and the GPT-SoVITS open-source project for voice synthesis. This project stands out by not only supporting text chats but generating voice dialogues for specific questions, making it a comprehensive guide for Python enthusiasts and developers interested in AI chatbot development and voice synthesis.","Discover how to develop your own advanced AI chatbot with voice synthesis capabilities using Bilibili comments and the latest AI models, including a detailed guide on setting up the environment, training, and generating voice responses.",AI Development Platform,"Python
+
+
+
+
+
+        844
+
+
+
+
+
+        111
+
+
+        Built by
+
+          
+
+
+
+
+
+        317 stars today",,,844,2024-05-06T09:02:52Z
+2024-05-13,https://github.com/alibaba-damo-academy/FunClip,https://raw.githubusercontent.com/alibaba-damo-academy/FunClip/main/README.md,"FunClip is a fully open-source, locally deployed, automated video clipping tool utilizing Alibaba's Damo Academy's open-source FunASR Paraformer series models for speech recognition in videos. Users can select textual segments or speakers identified from the speech recognition results to easily clip corresponding video segments. It features integration with Alibaba's Paraformer-Large, a leading Chinese ASR model known for its accuracy and predictive timestamp abilities, and SeACo-Paraformer for hot-word customization to enhance recognition. Additionally, it incorporates CAM++ for speaker ID recognition, allowing users to clip specific speakers' segments. Utilizing Gradio for interaction, FunClip offers simplicity in installation and use, supports multi-segment clipping, and automatically generates SRT subtitles for entire videos and selected clips. Recent updates include configuration options for output directories, UI improvements, bug fixes from FunASR API updates, and time offset settings for each clip. The tool plans to integrate Whisper for English video editing and large language models for advanced editing capabilities. Installation involves cloning the repository, installing Python dependencies, and optionally, imagemagick for auto subtitle generation. Users can access FunClip via Gradio on localhost, command line, or through the Modelscope space for a hands-on experience.",Explore FunClip: The Ultimate Open-Source Video Clipping Tool,"Discover FunClip, an open-source, precise, and user-friendly video clipping tool that leverages Alibaba DAMO Academy's FunASR for speech recognition. With features like integration of industrial-grade Paraformer-Large model for Chinese ASR, custom hotword functionality via SeACo-Paraformer, and speaker identification with CAM++, FunClip offers unparalleled accuracy in video editing. It supports multi-segment clipping, providing both full video and targeted segment SRT subtitles for a convenient editing experience. Join the community to explore more and contribute to subtitle generation or speech recognition advancements.","Learn about FunClip, an advanced open-source video clipping tool integrating Alibaba's FunASR for efficient video editing. Features include high-accuracy speech recognition, hotword customization, speaker ID cutting, and multi-segment clipping with subtitle support.",Video Translation Tool,"Python
+
+
+
+
+
+        1,202
+
+
+
+
+
+        137
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        134 stars today",https://raw.githubusercontent.com/alibaba-damo-academy/FunClip/main/docs/images/interface.jpg; https://raw.githubusercontent.com/alibaba-damo-academy/FunClip/main/docs/images/guide.jpg; https://raw.githubusercontent.com/alibaba-damo-academy/FunClip/main/docs/images/dingding.png; https://raw.githubusercontent.com/alibaba-damo-academy/FunClip/main/docs/images/wechat.png,,1202,2023-05-17T07:23:44Z
+2024-05-13,https://github.com/multimodal-art-projection/MAP-NEO,https://raw.githubusercontent.com/multimodal-art-projection/MAP-NEO/main/README.md,"MAP-NEO is an open-source Large Language Model (LLM) trained on 4.5T English and Chinese tokens, showcasing performance on par with LLaMA2 7B. It excels in complex tasks such as reasoning, mathematics, and coding, aiming for transparency in LLM training by releasing all components of its development, including data, processing pipelines, pretraining scripts, and alignment code. The release includes MAP-NEO 7B models (base and chat versions), intermediate checkpoints, a custom tokenizer, the training corpus, and optimized pre-training code. These resources are available for both academic and commercial use under the terms of the MIT License, with the hope of fostering a wide range of research. Models can be accessed through Hugging Face.",Introducing MAP-NEO: The Groundbreaking Open-Sourced Large Language Model,"Discover MAP-NEO, a fully open-sourced Large Language Model that rivals proprietary models in reasoning, mathematics, and coding. Trained on over 4.5T tokens in English and Chinese, MAP-NEO matches the performance of top-tier models like LLaMA2 7B. With complete transparency, it includes pretraining data, a novel data processing pipeline, and efficient pretraining scripts. Publicly accessible, including various model sizes and the full data matrix, MAP-NEO aims to empower both academic and commercial research. Dive into this revolutionary project for an unrestricted exploration of Large Language Models.","Explore MAP-NEO: A fully open-sourced Large Language Model offering transparent, high-performance tools for research in reasoning, mathematics, coding, and more. Access the full suite of resources including data, models, and code.",Large-scale Language Models,"Python
+
+
+
+
+
+        296
+
+
+
+
+
+        31
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        65 stars today",,,296,2024-05-08T11:58:35Z
+2024-05-13,https://github.com/LLaVA-VL/LLaVA-NeXT,https://raw.githubusercontent.com/LLaVA-VL/LLaVA-NeXT/master/README.md,"LLaVA-NeXT introduces stronger multimodal models, enhancing capabilities for processing images, video, and more complex tasks. Released models, such as LLaVA-NeXT-34B, showcase advancements over previous versions like LLaVA-1.5, demonstrating improved performance on various benchmarks. Notably, the LLaVA-NeXT for Video model excels in video understanding through zero-shot modality transfer and benefits significantly from DPO training and AI feedback. The project aims at facilitating the development of new Large Multimodal Models (LMMs) by providing accessible training and evaluation resources, including a highly efficient evaluation pipeline (LMMs-Eval) and upgraded models with enhanced reasoning, OCR, and world knowledge. The models are built upon Vicuna and offer high scalability and efficiency. The project acknowledges contributions from numerous individuals and relies on frameworks such as lmms-eval for evaluation support. It adheres to the original licensing agreements of datasets and checkpoints used, highlighting the project's commitment to compliance and ethical usage.",Exploring LLaVA-NeXT: Enhancements in Large Multimodal Models,"Discover the latest advancements in multimodal AI with LLaVA-NeXT's release, showcasing stronger, image, and video models with cutting-edge capabilities. The newly released LLaVA-NeXT models, including stronger LMMs and video understanding models, offer improved performance on various benchmarks. Special features include zero-shot modality transfer and DPO training, indicating significant advancements in multimodal AI. Learn how these developments pave the way for future applications across diverse fields. Explore the demos, blogs, and code repositories to witness these innovations in action.","Explore the groundbreaking LLaVA-NeXT release, featuring enhanced large multimodal models with superior image and video understanding capabilities. Dive into the future of AI with our latest developments.",Multimodal AI Model,"Python
+
+
+
+
+
+        333
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        63 stars today",https://i.postimg.cc/pL17YtG4/WX20240508-220230-2x.png; https://raw.githubusercontent.com/LLaVA-VL/LLaVA-NeXT/master/assets/demo.gif,https://www.youtube.com/watch?v=mkI7EPD1vp8,333,2024-03-08T12:54:09Z
+2024-05-13,https://github.com/pentestfunctions/BlueDucky,https://raw.githubusercontent.com/pentestfunctions/BlueDucky/main/README.md,"BlueDucky is an exploitation tool for Bluetooth devices, leveraging a vulnerability (CVE-2023-45866) for code execution via DuckyScript. It allows users to load, automatically save scanned Bluetooth devices, and send messages. Developed for Raspberry Pi 4, it operates on various phones except for some exceptions like Vodafone in New Zealand. Installation involves updating system packages, installing dependencies, and setting up BlueDucky and additional tools like bdaddr. Running the tool involves cloning the BlueDucky repository, initializing Bluetooth configuration, and executing the script with options for automatic scanning and using a known_devices.txt file for targeted attacks. Users can create custom payloads in DuckyScript format for different operations, such as opening websites in private browsing mode.",Exploit Bluetooth Vulnerabilities with BlueDucky: A Complete Guide,"Discover the power of BlueDucky, an innovative tool designed to exploit a major vulnerability in Bluetooth devices, allowing for unauthenticated peering and code execution. Learn how to set up and run BlueDucky on a Raspberry Pi 4, target invisible devices with saved Bluetooth profiles, and send commands using DuckyScript. Explore the steps for successful execution and automatic connection to various devices, including a caveat for Vodafone phones in New Zealand. Join the community on HackNexus to discuss more and share ideas for Duckyscript payloads. Dive into the world of Bluetooth security with BlueDucky today.","Unlock the potential of BlueDucky for exploiting Bluetooth vulnerabilities. This guide covers setup, usage, and operational steps for successful device targeting and command execution. Join our community on HackNexus.",Cybersecurity Tool,"Python
+
+
+
+
+
+        571
+
+
+
+
+
+        94
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        76 stars today",https://raw.githubusercontent.com/pentestfunctions/BlueDucky/main/./images/duckmenu.png; https://raw.githubusercontent.com/pentestfunctions/BlueDucky/main/./images/BlueDucky.gif,,571,2024-01-16T06:52:02Z
+2024-05-13,https://github.com/OS-Copilot/OS-Copilot,https://raw.githubusercontent.com/OS-Copilot/OS-Copilot/main/README.md,"OS-Copilot is an open-source platform designed to create generalist agents capable of interacting with various elements of an operating system, including web, code terminals, files, multimedia, and third-party applications. It was accepted at the LLM Agents Workshop@ICLR 2024. The platform offers a guide to quickly start with cloning its repository, setting up Python environment, installing dependencies, configuring OpenAI API key, and running a demo script. The tutorials provide instructions for beginners to advanced users, covering installation, getting started, adding tools, deploying API services, automating tasks with Excel, and enhancing functionalities with self-learning and custom API tools. The community around OS-Copilot is accessible via Discord and Twitter, encouraging contributions and sharing developments. The project includes a disclaimer regarding its ""as is"" use and potential risks. The creators invite contact for inquiries or suggestions via email and provide a citation for academic use.",OS-Copilot: Revolutionizing Computer Task Automation with AI,"Discover OS-Copilot, the cutting-edge open-source library designed for creating generalist computer agents that can seamlessly interface with various OS components, including web, code terminals, files, multimedia, and third-party applications. This revolutionary tool marks a significant stride towards automating general computer tasks through intuitive agent interactions, empowering users to boost their productivity and simplify complex workflows. Join the OS-Copilot community now and contribute to the future of automated computer operations.","Explore OS-Copilot, an innovative AI-driven platform for building generalist agents that automate interactions across OS elements. Enhance productivity with smart automation. Join our community today!",AI Development Platform,"Python
+
+
+
+
+
+        1,244
+
+
+
+
+
+        128
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        34 stars today",,,1244,2024-02-02T01:55:49Z
+2024-05-13,https://github.com/h2oai/h2ogpt,https://raw.githubusercontent.com/h2oai/h2ogpt/main/README.md,"h2oGPT is an open-source Apache V2 project enabling users to interact with or summarize documents privately using GPT LLMs. It supports a wide range of document types including PDFs, Excel, Word, images, videos, audio, code, and more, using a private offline database that supports various storage backends and accurate embeddings. The project boasts efficient, parallel processing capabilities and supports a variety of models with GPU and CPU options. It features a user-friendly UI and CLI, supporting document upload and view, image and voice processing, and an AI assistant voice control mode. Additionally, h2oGPT offers easy installation for Linux, macOS, and Windows, supports inference servers, and complies with OpenAI's server proxy API. Users can also integrate web-search, evaluate model performance, and explore a wide range of experimental features. The project emphasizes quality with extensive testing and aims to enhance large language models' code completion, reasoning, and factual accuracy while minimizing unwanted outputs.",Transforming Digital Document Management with h2oGPT: The Ultimate Open-Source Solution,"Discover h2oGPT, an Apache V2 open-source project revolutionizing document management and GPT LLM interactions in a private, efficient, and versatile environment. With support for a wide array of document types and a robust database, h2oGPT offers parallel summarization, cutting-edge model support, and intuitive UI/CLI access. Experience unparalleled performance and privacy in managing, summarizing, and querying documents or engaging in conversational AI, all supported across major operating systems. Join the h2oGPT community and elevate your GPT LLM interactions today.","Explore h2oGPT, the leading open-source project for private and efficient management of documents and GPT LLM conversations. Offers versatile model support, parallel processing, and a user-friendly interface across all major OS.",AI Development Platform,"Python
+
+
+
+
+
+        10,643
+
+
+
+
+
+        1,176
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        107 stars today",https://raw.githubusercontent.com/h2oai/h2ogpt/main/docs/img-small.png,https://www.youtube.com/watch?v=Coj72EzmX20; https://www.youtube.com/watch?v=FTm5C_vV_EY; https://www.youtube.com/watch?v=H8Dx-iUY49s; https://www.youtube.com/watch?v=_iktbj4obAI,10643,2023-03-24T21:31:25Z
