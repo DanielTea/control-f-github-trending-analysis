@@ -14768,3 +14768,56 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         107 stars today",https://raw.githubusercontent.com/h2oai/h2ogpt/main/docs/img-small.png,https://www.youtube.com/watch?v=Coj72EzmX20; https://www.youtube.com/watch?v=FTm5C_vV_EY; https://www.youtube.com/watch?v=H8Dx-iUY49s; https://www.youtube.com/watch?v=_iktbj4obAI,10643,2023-03-24T21:31:25Z
+2024-05-14,https://github.com/entropy-research/Devon,https://raw.githubusercontent.com/entropy-research/Devon/main/README.md,"""Devon"" is an open-source project designed to function as a pair programmer, helping developers with multi-file editing, codebase exploration, config and test writing, bug fixing, and architecture exploration. It's particularly geared towards Python, with limited functionality for other languages. To install, prerequisites include node.js, npm, pipx, and an Anthropic API key. Installation can be done via a bash script or using pipx and npm for the Python backend and CLI tool. The project is in its early stages, seeking contributions to enhance features like multi-model support, a plugin system, a self-hostable Electron app, and setting new benchmarks. Contributions are welcomed in core functionality, research, feedback, and testing. The project also emphasizes the value of community feedback and contributions, inviting members to join their Discord server or file issues and suggestions on GitHub. Devon operates under the Apache 2.0 License.",Devon: Revolutionizing Pair Programming with Open Source Collaboration,"Discover Devon, the open-source pair programmer that's changing the game for developers everywhere. With features like multi-file editing, bug fixing, and architecture exploration, it's designed to enhance your coding efficiency. Installation is straightforward, requiring node.js, npm, and an Anthropic API key. Despite being in its early stages, Devon promises to significantly impact how developers write code, thanks to its community-driven approach and future plans for multi-model support and a self-hostable Electron app. Join the journey and contribute to making Devon an indispensable tool for developers.","Explore Devon, an open-source pair programmer enhancing coding efficiency with features like multi-file editing and bug fixing. Easy to install and community-driven, it's set to revolutionize software development.",AI Coding Assistant,"Python
+
+
+
+
+
+        495
+
+
+
+
+
+        36
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        74 stars today",,,495,2024-03-15T04:52:31Z
+2024-05-14,https://github.com/CTFd/CTFd,https://raw.githubusercontent.com/CTFd/CTFd/master/README.md,"CTFd is a customizable Capture The Flag (CTF) framework designed for ease of use, facilitating individuals or teams to run CTF competitions. It boasts a wide array of features including creating challenges, dynamic scoring, a plugin architecture for custom challenges, automatic bruteforce protection, and support for both individual and team competitions. The platform offers a comprehensive admin interface for managing challenges, categories, hints, flags, and more, along with a scoreboard, scoregraphs, and a Markdown content management system. It supports SMTP and Mailgun for email functionalities and includes options for automatic competition management. CTFd can be easily installed via Docker or by running a Python script, with extensive documentation available for deployment and customization. The platform also integrates with MajorLeagueCyber for event tracking and registration. For those seeking a managed hosting solution, CTFd offers services for hassle-free deployment.",Maximizing CTF Performance: An Expert Guide to CTFd Features and Setup,"Discover how CTFd offers a comprehensive framework designed for ease of use and adaptability in Capture The Flag competitions. With dynamic scoring, team competitions, and extensive customization through plugins and themes, CTFd is the ultimate platform for organizing and running CTF challenges. Uncover the steps to install CTFd, explore its vast range of features, including automatic bruteforce protection and team management, and learn how it integrates seamlessly with MajorLeagueCyber for enhanced competition management.","Unlock the full potential of your Capture The Flag competition with CTFd. Learn about its user-friendly design, plethora of features for robust competition management, and easy steps for setup and integration with MajorLeagueCyber.",Cybersecurity Tool,No specific star count found,,,5344,2015-01-01T05:36:55Z
+2024-05-14,https://github.com/Chaphlagical/Deblur-GS,https://raw.githubusercontent.com/Chaphlagical/Deblur-GS/main/README.md,"The paper ""Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images,"" to be presented at I3D 2024, introduces Deblur-GS, a novel method for reconstructing sharp radiance fields from blurred images using 3D Gaussian Splatting (3DGS). This approach addresses the limitations of previous methods that struggle with the quality of input images and initial camera pose initialization. By treating motion blur as a joint optimization challenge involving camera trajectory estimation and time sampling, Deblur-GS cohesively optimizes the parameters of Gaussian points and the camera trajectory during the shutter time. This method significantly enhances performance and rendering quality over existing approaches, as validated through evaluations on both synthetic and real datasets. The official implementation, accompanied by installation and running instructions, supports various command-line arguments for customization, including training, evaluation, rendering, and video generation.",Revolutionizing 3D Visuals with Deblur-GS: A Groundbreaking Method,"Deblur-GS introduces a novel approach to enhance novel view synthesis by reconstructing sharp radiance fields from camera motion blurred image sets. This innovative method considerably reduces training times and accelerates rendering speeds without compromising on quality. It tackles the challenge of motion blur through a joint optimization of camera trajectory estimation and time sampling, setting a new standard in 3D Gaussian splatting technology. Deblur-GS's superior performance has been validated on both synthetic and real-world datasets, marking a significant advancement in the field of 3D imaging and rendering.","Explore how Deblur-GS transforms 3D imaging by accurately reconstructing quality visuals from motion-blurred images, significantly improving rendering speeds and quality. A deep dive into the future of 3D visualization.",Image Generation Platform,"Python
+
+
+
+
+
+        193
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+        64 stars today",https://raw.githubusercontent.com/Chaphlagical/Deblur-GS/main/asset/teaser.png,,193,2024-03-06T03:54:32Z
