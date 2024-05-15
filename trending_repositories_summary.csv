@@ -14821,3 +14821,171 @@ spRAG can be easily installed via Python package and configured for use with var
 
 
         64 stars today",https://raw.githubusercontent.com/Chaphlagical/Deblur-GS/main/asset/teaser.png,,193,2024-03-06T03:54:32Z
+2024-05-15,https://github.com/pipecat-ai/pipecat,https://raw.githubusercontent.com/pipecat-ai/pipecat/main/README.md,"Pipecat is a versatile framework designed for creating voice and multimodal conversational agents, including personal assistants, storytelling toys for children, customer support bots, and various other interactive applications. It allows for easy development and deployment, supporting both local setup and cloud-based solutions, with capabilities to integrate functionalities like telephone numbers, image and video processing, alongside different Large Language Models (LLMs). The framework provides a straightforward installation process, and while it comes with basic functionality, it allows for the addition of optional dependencies to extend its capabilities, covering a wide range of AI services and transport methods. Pipecat includes a variety of example applications and foundational code snippets to help users start developing their own conversational agents. It demonstrates a simple voice agent setup using WebRTC for real-time media transport and text-to-speech services, with detailed guidance on setting up, running tests, and customizing the development environment for optimal use. Pipecat also emphasizes the importance of Voice Activity Detection (VAD) for interactive applications and offers community support through Discord and X for further assistance and collaboration.",Unleashing Potential with Pipecat: The Next Generation Conversational Agent Framework,"Pipecat is revolutionizing the way we interact with technology through its advanced framework for building voice and multimodal conversational agents. From personal coaches to customer support bots, Pipecat offers a range of applications. The platform supports various AI services and transports, providing developers with the tools to create innovative applications. Whether running locally or in the cloud, Pipecat simplifies the development of voice agents with its flexible framework. Dive into the future of conversational agents by exploring Pipecat's capabilities and example applications.","Discover Pipecat, the advanced framework for building voice and multimodal conversational agents. Explore innovative applications and start developing with Pipecat today.",AI Development Platform,"Python
+
+
+
+
+
+        887
+
+
+
+
+
+        25
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        265 stars today",https://raw.githubusercontent.com/pipecat-ai/pipecat/main/pipecat.png; https://raw.githubusercontent.com/pipecat-ai/pipecat/main/examples/simple-chatbot/image.png; https://raw.githubusercontent.com/pipecat-ai/pipecat/main/examples/storytelling-chatbot/image.png; https://raw.githubusercontent.com/pipecat-ai/pipecat/main/examples/translation-chatbot/image.png; https://raw.githubusercontent.com/pipecat-ai/pipecat/main/examples/moondream-chatbot/image.png,https://www.youtube.com/watch?v=lDevgsp9vn0,887,2023-12-27T12:59:00Z
+2024-05-15,https://github.com/openai/tiktoken,https://raw.githubusercontent.com/openai/tiktoken/main/README.md,"TikToken is a rapid Byte Pair Encoding (BPE) tokenizer designed for compatibility with OpenAI's models, offering a 3-6x speed improvement over similar open-source tokenizers. It effectively converts text into a sequence of tokens—allowing for reversible, lossless text transformations that support both known and unseen text while compressing the original text and identifying common subwords to aid in model generalization. Users can easily install it via PyPI and find its documentation and usage examples online, including in the OpenAI Cookbook. TikToken can be extended either by directly creating custom `Encoding` objects or by using its plugin mechanism to register new encodings. Support and detailed information on BPE and TikToken's functionality, including educational resources for better understanding, are readily accessible.",Introducing tiktoken: The High-Speed BPE Tokenizer for OpenAI Models,"Discover tiktoken, the latest Byte Pair Encoding (BPE) tokenizer optimized for OpenAI's models, offering 3-6x faster performance compared to existing solutions. This open-source tool is easy to install from PyPI and integrates seamlessly with the OpenAI API, providing a robust and efficient method for text tokenization. Detailed documentation and example code available in the OpenAI Cookbook facilitate its application in diverse AI tasks. Whether you're extending its capabilities or integrating with custom encodings, tiktoken proves to be a valuable asset for developers working with language models.","Explore tiktoken, a fast and efficient BPE tokenizer for OpenAI models, featuring easy installation, extensive documentation, and superior performance. Ideal for developers enhancing AI applications.",AI Coding Assistant,"Python
+
+
+
+
+
+        10,258
+
+
+
+
+
+        697
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        90 stars today",,,10258,2022-12-01T23:22:11Z
+2024-05-15,https://github.com/openai/openai-python,https://raw.githubusercontent.com/openai/openai-python/main/README.md,"The OpenAI Python library provides easy access to the OpenAI REST API for Python 3.7 and later versions, supporting both synchronous and asynchronous clients. It is automatically generated from the OpenAPI specification and offers type definitions for request parameters and response fields to facilitate reliable development practices. The library's detailed documentation is available online, and installation is straightforward using Pip. The SDK underwent a significant rewrite in version 1, released on November 6th, 2023, complete with a migration guide for existing users.
+
+The library facilitates various operations, including chat completions, polling for asynchronous actions, bulk uploads, and streaming for handling ongoing interactions. It emphasizes security by recommending environment variables for API keys to avoid hardcoding sensitive information in source code. Error handling is robust, distinguishing between connection issues and API status errors, providing detailed feedback for debugging. It supports extensive customization, such as setting request timeouts and retries, and offers detailed logging capabilities. Advanced features include the handling of nested request parameters, file uploads, and pagination for list methods. For Microsoft Azure OpenAI users, a specific class is available that caters to Azure's API requirements, including support for Azure Active Directory tokens and custom endpoints.
+",Mastering the OpenAI Python Library: A Complete Guide for Developers,"Explore the powerful features of the OpenAI Python library, your gateway to integrating sophisticated AI into your Python applications. Harness the power of GPT models with ease thanks to detailed type definitions, asynchronous support, and comprehensive API documentation. Discover how to install the library, navigate its usage, and leverage advanced features like streaming responses, file uploads, and error handling. This guide covers everything from installation to advanced usage, making it a must-read for developers looking to integrate OpenAI's AI capabilities into their projects.","A developer's guide to using the OpenAI Python library. Learn to easily integrate OpenAI's GPT models into your applications with detailed instructions on installation, usage, and leveraging advanced features.",AI Python Client,"Python
+
+
+
+
+
+        20,187
+
+
+
+
+
+        2,737
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        41 stars today",,,20187,2020-10-25T23:23:54Z
+2024-05-15,https://github.com/aqlaboratory/openfold,https://raw.githubusercontent.com/aqlaboratory/openfold/main/README.md,"The text introduces OpenFold, a trainable PyTorch adaptation of DeepMind's AlphaFold 2, designed for protein structure prediction. OpenFold's documentation, installation, and training instructions are available on its ReadTheDocs page. The project's copyright section highlights that while OpenFold and AlphaFold's source code is under the Apache License 2.0, DeepMind's pretrained parameters are CC BY 4.0 licensed, a change from the previous CC BY-NC 4.0 license as of January 2022. The community is encouraged to contribute through issues and pull requests. The text also includes a request to cite their paper if OpenFold's work is used, along with a separate citation for using the OpenProteinSet. It emphasizes citing both AlphaFold and AlphaFold-Multimer works if relevant to the user's research.",Exploring OpenFold: A Trainable PyTorch Reproduction of AlphaFold 2,"OpenFold represents a remarkable effort to reproduce AlphaFold 2 using PyTorch, making it both faithful to the original and adaptable for further training. It's licensed under Apache License 2.0, making its advancements accessible while respecting DeepMind's original CC BY 4.0 licensed parameters. The project's documentation and resources are readily available online, encouraging contributions from the global community. Researchers and developers interested in structural biology and machine learning can benefit from OpenFold's insights into protein folding mechanisms and generalization capabilities. OpenFold not only advances the field of protein structure prediction but also fosters an open science culture.","Discover OpenFold, the PyTorch-based counterpart to DeepMind's AlphaFold 2, designed for enhanced trainability and open-source advancements in protein structure prediction. Learn how it contributes to the scientific community's understanding of protein folding mechanisms.",Deep Learning Tool,"Python
+
+
+
+
+
+        2,458
+
+
+
+
+
+        445
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/aqlaboratory/openfold/main/imgs/of_banner.png,,2458,2021-09-14T23:59:02Z
+2024-05-15,https://github.com/nkasmanoff/pi-card,https://raw.githubusercontent.com/nkasmanoff/pi-card/main/README.md,"Pi-C.A.R.D is an AI-powered voice assistant specifically designed for the Raspberry Pi, utilizing its capabilities for conversational AI tasks similar to models like ChatGPT. If equipped with a camera, Pi-C.A.R.D can also capture images, describe them, and interact based on visual data. It operates by listening for a wake word to initiate conversation, eliminating the need for repeating the wake word for further commands. The device aims to offer a fun and possibly helpful assistant experience while prioritizing user privacy by operating entirely offline. Setup involves using cpp implementations for audio transcription and vision language models. The hardware requires a Raspberry Pi 5 Model B, a USB microphone, speaker, and a camera. Future updates aim to improve response times, add external services, and enhance interactive capabilities. The project name stands for Rasberry Pi - Camera Audio Recognition Device, highlighting its core functionalities.",Explore the Power of Pi-C.A.R.D: Your AI Voice Assistant on Raspberry Pi,"Discover the innovative Pi-C.A.R.D, an AI voice assistant designed to run on Raspberry Pi, offering conversational interactions and visual recognition capabilities. This device, short for Camera Audio Recognition Device, transforms your Raspberry Pi into a privacy-focused, standalone assistant. It operates locally, ensuring user data privacy and providing functionalities like taking photos and interpreting them without relying on the internet. Perfect for hobbyists and privacy advocates, Pi-C.A.R.D promises a blend of fun and functionality while keeping future expansions in sight.","Learn about Pi-C.A.R.D, the AI voice assistant for Raspberry Pi that supports voice commands and visual recognition, all while operating offline to protect your privacy. Ideal for DIY enthusiasts.",AI Development Platform,"Python
+
+
+
+
+
+        482
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        158 stars today",https://raw.githubusercontent.com/nkasmanoff/pi-card/main/assets/assistant.png; https://raw.githubusercontent.com/nkasmanoff/pi-card/main/assets/picard-facepalm.jpg,https://www.youtube.com/watch?v=OryGVbh5JZE,482,2024-05-04T18:23:28Z
+2024-05-15,https://github.com/Chainlit/cookbook,https://raw.githubusercontent.com/Chainlit/cookbook/main/README.md,"The Chainlit Demos repository is a compilation of example projects showcasing the use of Chainlit for creating chatbot UIs. To run a demo, you first clone the repository, navigate to a demo folder, install dependencies, set up a `.env` file with necessary configurations, and then run the Chainlit app. The steps are designed to be straightforward, making it easy for users to get a demo running in their browser. Additionally, the document encourages community contributions, inviting users to share their own demos or suggest new ideas by opening issues or creating pull requests, highlighting the project's collaborative approach.",Ultimate Guide to Building Chatbot UIs with Chainlit: Step-by-Step Demos,"Discover the potential of Chainlit with our comprehensive cookbook-style repository, designed to guide you through creating cutting-edge chatbot UIs effortlessly. From cloning the repository to launching your own demo chatbot UI, we cover all the essential steps. Dive into various demo projects, each showcasing unique capabilities and integrations, making it simple to kickstart your Chainlit project. Get hands-on experience by following our easy-to-navigate steps and witness your chatbot take shape. Contribute to our ever-growing community with your own demos or by enhancing existing ones.","Explore our Chainlit Cookbook for a step-by-step guide on creating innovative chatbot UIs with various demos. Learn to clone, setup, and run your Chainlit chatbot effortlessly. Join our community today.",Collaborative AI Framework,"Python
+
+
+
+
+
+        578
+
+
+
+
+
+        212
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",,,578,2023-05-10T08:52:57Z
