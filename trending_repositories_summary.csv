@@ -14989,3 +14989,114 @@ The library facilitates various operations, including chat completions, polling 
 
 
         3 stars today",,,578,2023-05-10T08:52:57Z
+2024-05-16,https://github.com/Tencent/HunyuanDiT,https://raw.githubusercontent.com/Tencent/HunyuanDiT/main/README.md,"Hunyuan-DiT is a state-of-the-art multi-resolution diffusion transformer developed by Tencent for generating high-quality images from text descriptions, offering fine-grained understanding of both Chinese and English. It leverages a precisely designed transformer structure, combined with a bilingual text encoder and unique positional encoding to update and evaluate data continuously for model optimization. A multimodal large language model (MLLM) further refines image captions for better language understanding. Hunyuan-DiT excels in multi-turn text-to-image generation, allowing iterative dialogue with users to refine the generated images. It has been evaluated and compared to other models by over 50 professional human evaluators, showcasing superior performance in Chinese-to-image generation. Hunyuan-DiT's open-source plan includes the model itself for inference, checkpoints, and plans to release a distilled and TensorRT version for efficient deployment. The software and pre-trained models are available for download, with detailed instructions for setting up the environment, dependencies, and running inference via command line or Gradio interface.",Unleashing Creativity with Hunyuan-DiT: The Cutting-Edge Chinese Text-to-Image Transformer,"Discover the power of Hunyuan-DiT, a state-of-the-art diffusion transformer designed for fine-grained Chinese and English text-to-image understanding and generation. This innovative tool sets new benchmarks in visual clarity, bilingual language processing, and creative image synthesis, supported by a comprehensive suite of features including multi-turn text-to-image generation and a robust open-source plan for community collaboration. Whether for professional graphic design or personal creative projects, Hunyuan-DiT offers unparalleled capabilities to bring your imagination to life.","Explore Hunyuan-DiT, a groundbreaking diffusion transformer for fine-grained Chinese and English text-to-image generation. Experience next-level creativity with advanced features like multi-turn dialogue and robust open-source support.",Image Generation Platform,"Python
+
+
+
+
+
+        1,170
+
+
+
+
+
+        62
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        268 stars today",https://raw.githubusercontent.com/Tencent/HunyuanDiT/main/asset/logo.png; https://raw.githubusercontent.com/Tencent/HunyuanDiT/main/asset/framework.png; https://raw.githubusercontent.com/Tencent/HunyuanDiT/main/asset/mllm.png; https://raw.githubusercontent.com/Tencent/HunyuanDiT/main/asset/chinese elements understanding.png; https://raw.githubusercontent.com/Tencent/HunyuanDiT/main/asset/long text understanding.png,,1170,2024-05-10T08:47:15Z
+2024-05-16,https://github.com/livekit/agents,https://raw.githubusercontent.com/livekit/agents/main/README.md,"The LiveKit Agent Framework facilitates the creation of real-time, programmable participants in WebRTC sessions, enabling the manipulation and generation of audio, video, and data streams on a server level. It includes plugins for common functions such as voice activity detection and speech-to-text, integrating seamlessly with the LiveKit server to handle job queuing and scheduling, thus removing the need for separate queuing infrastructure. While still in Developer Preview and not production-ready, developers are encouraged to provide feedback or contribute. Agents can easily scale to accommodate thousands of concurrent sessions when deployed in a production environment. Installation involves using pip to install the core agents library and any necessary plugins, which cover a range of features from speech-to-text to text-to-speech and more. The framework outlines roles for agents as server-side participants, workers for job management, and plugins for specific tasks. Running an agent requires setting environment variables and potentially downloading model files for plugins, supported by documentation and examples for ease of use.",Exploring LiveKit Agents: Revolutionizing Real-time Communication,"LiveKit Agents framework is revolutionizing real-time communication by enabling the creation of programmable, server-side participants for WebRTC sessions. This powerful SDK supports audio, video, and data streams processing, and integrates seamlessly with LiveKit server for efficient job scheduling. With the inclusion of prebuilt plugins for voice activity detection, speech-to-text, and more, developing complex communication solutions has never been easier. As it enters Developer Preview mode, the LiveKit Agents framework invites developers to contribute and refine this cutting-edge technology.",Discover how the LiveKit Agents framework can transform real-time communication by simplifying the development of programmable participants for WebRTC sessions with easy integration and built-in plugins.,Collaborative AI Framework,"Python
+
+
+
+
+
+        346
+
+
+
+
+
+        50
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        50 stars today",https://raw.githubusercontent.com/livekit/agents/main/.github/banner_light.png,,346,2023-10-19T23:00:55Z
+2024-05-16,https://github.com/microsoft/EveryoneCanCode-US,https://raw.githubusercontent.com/microsoft/EveryoneCanCode-US/main/README.md,"The ""Everyone Can Code! – Light Your Fire for Coding"" initiative is designed to make the tech world more diverse and inclusive. With women comprising just 25% of tech industry employees and 11% in leadership roles, there's a significant gender gap, especially for women of diverse cultural backgrounds. This coding event aims to empower individuals from all walks of life to explore technology and contribute to the future of the industry. No prior coding experience is necessary, making it accessible for anyone curious about coding. The initiative provides hands-on activities, expert instruction, and a supportive community, encouraging participants to start writing their own coding stories. Contributions and feedback are welcomed, emphasizing the collaborative effort behind this project to welcome more diversity into tech.","Unlock Your Potential: Discover Coding, Regardless of Background | U.S. Edition","Dive into the empowering world of technology with our inclusive 'Everyone Can Code' online event, designed to break the barriers of gender and cultural diversity in the tech industry. With only 25% of tech employees and 11% in leadership being women, it's crucial to diversify and enrich the sector. This event invites individuals of any age, gender, or profession to explore coding in a supportive, beginner-friendly environment. No prior experience? No problem. Join us to begin your coding adventure, learning the language of technology to create and innovate for the future.","Join our 'Everyone Can Code' event aimed at fostering diversity in the tech industry. Explore coding in an inclusive, beginner-friendly online workshop regardless of background. No prior experience needed. Start your tech journey today!",System Design Education,"Python
+
+
+
+
+
+        56
+
+
+
+
+
+        136
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/microsoft/EveryoneCanCode-US/main/./content-images/MSFT_EveryoneCanCode_Banner.png; https://raw.githubusercontent.com/microsoft/EveryoneCanCode-US/main/./content-images/everyone-can-code-core-team.png; https://raw.githubusercontent.com/microsoft/EveryoneCanCode-US/main/./content-images/everyone-can-code-content-reviewers.png,,56,2024-05-02T13:53:33Z
+2024-05-16,https://github.com/AgentOps-AI/agentops,https://raw.githubusercontent.com/AgentOps-AI/agentops/main/README.md,"AgentOps is a tool designed to assist developers in building, evaluating, and monitoring AI agents, addressing the issue of ""AI agents suck"" by offering a comprehensive suite of tools for development from prototype to production. It features replay analytics for step-by-step execution, cost management for tracking spending with language model providers, agent benchmarking with over 1,000 evaluations, compliance detection for common security issues, and easy integration with existing frameworks such as CrewAI and LangChain. Installation is straightforward via pip, and it enables detailed session analytics and replays accessible through the AgentOps dashboard. The platform supports integrations with CrewAI, LangChain, and Cohere, offering features like automatic monitoring, observability, and chat functionality enhancements. Future updates promise support for LlamaIndex, time travel debugging, and an Agent Arena for competitive evaluation, along with an extensive roadmap for evaluations and debugging tools aimed at enhancing performance testing, environment compatibility, and agent reasoning analysis. AgentOps positions itself as a solution to transform AI agents from lab projects to production-ready tools, emphasizing ease of testing and performance evaluation.",Revolutionize AI Development with AgentOps: Streamline Your Workflow,"AgentOps is transforming the way developers build, evaluate, and monitor AI agents with advanced tools for a seamless transition from prototype to production. Featuring replay analytics for debugging, efficient LLM cost management, comprehensive agent benchmarking, and robust compliance and security measures, AgentOps integrates easily with popular frameworks such as CrewAI and LangChain. Elevate your AI development process with AgentOps and experience unparalleled efficiency and security.","Discover how AgentOps revolutionizes AI agent development with powerful analytics, benchmarking, cost management, and security. Streamline your workflow from prototype to production effortlessly.",AI Development Platform,"Python
+
+
+
+
+
+        690
+
+
+
+
+
+        47
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        16 stars today",https://raw.githubusercontent.com/AgentOps-AI/agentops/e6002beaf277762fa2b9fa5240a1216b335d7e2c/logo.png,,690,2023-08-15T23:26:23Z
