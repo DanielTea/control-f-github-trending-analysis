@@ -15100,3 +15100,155 @@ The library facilitates various operations, including chat completions, polling 
 
 
         16 stars today",https://raw.githubusercontent.com/AgentOps-AI/agentops/e6002beaf277762fa2b9fa5240a1216b335d7e2c/logo.png,,690,2023-08-15T23:26:23Z
+2024-05-17,https://github.com/likejazz/llama3.np,https://raw.githubusercontent.com/likejazz/llama3.np/main/README.md,"`llama3.np` is a NumPy-based implementation of the Llama 3 model, showcasing a straightforward execution using the stories15M model trained by Andrej Karpathy. It offers detailed explanations in both English and Korean, aiming to make the technical aspects accessible to a broader audience. The provided usage example demonstrates the model's functionality through a simple command-line interface, generating text based on a given prompt. The project encourages academic citation to foster awareness within the research community. Acknowledgments include various resources and libraries that contributed to the development of `llama3.np`, highlighting the collaborative nature of this project. The software is available under the MIT License, ensuring open access for further development and study.",Llama 3 NumPy Implementation Guide: Detailed Overview and Usage,"Discover the cutting-edge llama3.np, a pure NumPy implementation of the Llama 3 model, meticulously developed for accuracy and performance. Sang Park's latest project, llama3.np, showcases a highly accurate reproduction of the stories15M model, trained by renowned data scientist Andrej Karpathy. Dive into a detailed English guide or explore the Korean version for comprehensive insights. Learn about its simple usage to ignite your deep learning projects, and understand its significance in academic research through proper citation guidelines.","Explore the llama3.np project for an accurate NumPy implementation of the Llama 3 AI model, complete with usage guides, citations, and insights into enhancing your deep learning ventures.",Language Models Tool,"Python
+
+
+
+
+
+        559
+
+
+
+
+
+        37
+
+
+        Built by
+
+          
+
+
+
+
+
+        381 stars today",,,559,2024-05-13T09:16:30Z
+2024-05-17,https://github.com/yuweihao/MambaOut,https://raw.githubusercontent.com/yuweihao/MambaOut/main/README.md,"The paper ""MambaOut: Do We Really Need Mamba for Vision?"" introduces a PyTorch implementation called MambaOut, which challenges the necessity of state space models (SSMs) in image classification tasks on the ImageNet dataset. The study extends Gated CNNs with an additional SSM to form Mamba blocks, then empirically examines their impact by comparing various configurations. Notably, MambaOut models outperform their SSM-equipped counterparts in image classification accuracy. The paper also explores the effectiveness of causal attention and RNN-like models for handling sequences, revealing that RNNs, despite their lossy nature, can manage long sequences more efficiently than attention mechanisms due to constant computational complexity. Additionally, modifying the Vision Transformer's (ViT) attention to a causal mode resulted in degraded performance on ImageNet, suggesting that causal mixing may not be essential for visual understanding tasks. The paper provides access to MambaOut models trained on ImageNet, a Colab notebook for inference demonstration, and a Gradio web demo. Finally, the project acknowledges support from various research programs and collaborations, indicating its foundation on diverse technological and community resources.",Exploring the Necessity of Mamba in Vision Technologies: A Deep Dive,"Discover the potential of Mamba, a PyTorch implementation challenging the indispensability of state space models (SSM) in image classification, as revealed in our rigorous comparison with traditional models on ImageNet. Our findings, encapsulated in 'MambaOut: Do We Really Need Mamba for Vision?', suggest Mamba's SSM might not be crucial for image understanding tasks, backed by empirical evidence. This exploration not only questions established norms but also opens avenues for simpler, equally potent architectural designs in AI vision. Dive into the technicalities and outcomes of our investigation, understanding the impact on future research and development.","Unveiling 'MambaOut: Do We Really Need Mamba for Vision?'—a groundbreaking study questioning the criticality of state space models in image classification, backed by empirical findings on ImageNet. Discover the future of AI vision technologies.",Deep Learning Tool,"Python
+
+
+
+
+
+        1,450
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+        165 stars today",https://raw.githubusercontent.com/yuweihao/misc/master/MambaOut/mamba_out.png; https://raw.githubusercontent.com/yuweihao/misc/master/MambaOut/mambaout_first_figure.png; https://raw.githubusercontent.com/yuweihao/misc/master/MambaOut/mambaout_second_figure.png; https://raw.githubusercontent.com/yuweihao/misc/master/MambaOut/mambaout_third_figure.png,,1450,2024-05-13T21:14:49Z
+2024-05-17,https://github.com/matplotlib/matplotlib,https://raw.githubusercontent.com/matplotlib/matplotlib/main/README.md,"Matplotlib is an extensive library designed for creating a wide range of visualizations in Python, including static, animated, and interactive figures. It supports various output formats and can be utilized in different environments, such as Python scripts, shells, web servers, and GUI toolkits. Users interested in installing or contributing to Matplotlib can find detailed instructions and documentation on its website. The project emphasizes community involvement, offering several mediums for communication and contribution, such as forums, mailing lists, and development chats on Gitter. For academic projects that benefit from Matplotlib, users are encouraged to cite the library in their publications, with a citation guide provided on the Matplotlib website.",Unlocking Visual Storytelling: A Guide to Matplotlib in Python,"Matplotlib stands as a key library in Python for creating a wide array of static, animated, and interactive visualizations. Catering to various platforms, it enables users to craft publication-quality figures across different environments. Whether incorporated in Python scripts, web servers, or GUI toolkits, Matplotlib ensures your data visualizations achieve professional standards. Discover how to install, contribute to, and leverage this comprehensive tool for your data visualization needs. For more details, explore the official Matplotlib home page.","Discover the power of Matplotlib for creating exceptional visualizations in Python. Learn about installation, contribution, and how to utilize this library for your projects.",Python Libraries Collection,"Python
+
+
+
+
+
+        19,386
+
+
+
+
+
+        7,425
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://matplotlib.org/_static/readme_preview.png,,19386,2011-02-19T03:17:12Z
+2024-05-17,https://github.com/huggingface/pytorch-image-models,https://raw.githubusercontent.com/huggingface/pytorch-image-models/main/README.md,"PyTorch Image Models (`timm`) is a comprehensive library offering a collection of image models, layers, utilities, optimizers, schedulers, data-loaders, and scripts for training and validation. It incorporates a vast selection of state-of-the-art (SOTA) models suitable for various computer vision tasks and aims to facilitate the reproduction of ImageNet training results. The library has undergone significant updates since October 2022, with changes in model organization, addition of new models and features, and improvements in support for feature extraction. It also adds support for loading weights from Hugging Face Hub, making it a primary source for `timm` weights. New models and features added include support for PaliGemma jax weights, Hiera models, and various Vision Transformer (ViT) variants optimized for different resource constraints. The documentation and training scripts are designed to support a wide range of use cases, with detailed acknowledgment of all source material and contributions from the community. The code is licensed under Apache 2.0, with pretrained weights subjected to their respective licenses, highlighting the importance of considering the original dataset licenses when using pretrained models.",Exploring the New Frontiers of PyTorch Image Models with timm: Updates and Features,"Discover the latest advancements in PyTorch Image Models (timm) with new updates post-Oct 10, 2022, available in version >= 0.9. This blog post covers significant changes, including the migration of `timm.models.layers` to `timm.layers`, introduction of `architecture.pretrained_tag` naming, revamped model naming conventions, and the shift towards the Hugging Face Hub as the primary source for `timm` weights. Learn how these updates facilitate better model performance, ease of use, and integrations with cutting-edge model architectures and features.","Explore the latest updates in PyTorch Image Models (timm) including structural changes, naming conventions, and the Hugging Face Hub integration for improved AI model performance and research.",Image Generation Platform,"Python
+
+
+
+
+
+        30,039
+
+
+
+
+
+        4,591
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        23 stars today",,,30039,2019-02-02T05:51:12Z
+2024-05-17,https://github.com/roboflow/sports,https://raw.githubusercontent.com/roboflow/sports/main/README.md,"This text introduces Roboflow's initiative in utilizing sports as a testing domain for enhancing its technologies in object detection, image segmentation, keypoint detection, and foundational models. Roboflow has created a repository that serves as a toolkit applicable in sports and other areas. The documentation mentions that the code migration is ongoing and provides instructions for installing their tools directly from the source in a Python 3.8 or higher environment. It highlights the availability of datasets for soccer player detection and soccer field keypoint detection, available for download from Roboflow Universe. Additionally, there's a mention of demos and an invitation for contributions, encouraging feedback and suggestions on further developments.",Elevating Sports Performance with Advanced Tech - Discover Roboflow's Innovation,"In the competitive world of sports, precision is key, and Roboflow is revolutionizing this realm with cutting-edge technologies aimed at enhancing performance metrics. Their venture into sports through advanced object detection, image segmentation, and more, showcases the potential to transform athletic analysis and training. With the development of reusable tools extending beyond sports, Roboflow paves the way for future innovations. The ongoing code migration and call for community contributions highlight the dynamic and collaborative effort in this technological journey. Explore the possibilities with Roboflow on GitHub and contribute to the future of sports analytics.",Discover how Roboflow is revolutionizing sports with advanced technologies like object detection and image segmentation to enhance performance and precision. Join the innovation journey on GitHub.,Computer Vision Platform,"Python
+
+
+
+
+
+        172
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+        19 stars today",,,172,2024-05-13T14:51:16Z
+2024-05-17,https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956,https://raw.githubusercontent.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956/main/README.md,"The text describes a Python script designed to automate the creation of a new administrator account on a WordPress site and to execute a reverse shell on the target server by exploiting a CSV injection vulnerability in the wp-automatic plugin. It outlines the script's features, including support for massive attack targets, multiple targets, automatic target finding, and customization options like subnet scanning, delay adjustments, remote listeners, and thread count optimization. It provides a basic usage guide, prerequisites (Python 3.x, `requests` library, Netcat), and step-by-step instructions for exploiting vulnerable WordPress sites. The text includes a disclaimer emphasizing the script's purpose for educational and testing use only, cautioning against unauthorized or illegal application and disclaiming any liability from the author for misuse.",Exploiting WordPress with WP-Automatic Exploit: A Guide to Advanced Security Testing,"Learn to automate the creation of a WordPress admin account and execute a reverse shell using the WP-Automatic plugin vulnerability with our Python script. This guide covers advanced techniques for massive attack targets, including subnet scanning, custom delay adjustments, remote listener setup, and multithreading to enhance your security testing capabilities. Perfect for ethical hackers and security professionals, this tool also features automatic target discovery to streamline the exploitation process. Remember to obtain proper authorization before testing systems to avoid legal issues.","Explore advanced WordPress security testing with our guide on exploiting the WP-Automatic plugin vulnerability. Automate admin account creation and execute a reverse shell with ease, including tips on avoiding detection.",Cybersecurity Tool,"Python
+
+
+
+
+
+        43
+
+
+
+
+
+        10
+
+
+        Built by
+
+          
+
+
+
+
+
+        8 stars today",,,43,2024-05-14T14:21:49Z
