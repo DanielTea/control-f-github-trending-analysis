@@ -15252,3 +15252,225 @@ The library facilitates various operations, including chat completions, polling 
 
 
         8 stars today",,,43,2024-05-14T14:21:49Z
+2024-05-18,https://github.com/ngc660sec/NGCBot,https://raw.githubusercontent.com/ngc660sec/NGCBot/main/README.md,"The text introduces NGCBot, a WeChat robot based on HOOK technology. It supports a variety of functions.",Explore NGCBot: The Ultimate WeChat Robot Powered by HOOK Technology,"Discover NGCBot, the groundbreaking WeChat robot based on HOOK technology, offering a wide array of functionalities. This innovative bot enhances your WeChat experience by automating tasks, managing messages, and much more. Perfect for both personal and professional use, NGCBot is revolutionizing the way we interact on WeChat. Dive into the world of NGCBot and unlock the full potential of your WeChat account today.","NGCBot is an advanced WeChat robot utilizing HOOK technology to provide multiple functions, streamlining your digital communication and tasks on WeChat. Explore its features now.",AI Coding Assistant,"Python
+
+
+
+
+
+        903
+
+
+
+
+
+        130
+
+
+        Built by
+
+          
+
+
+
+
+
+        62 stars today",,,903,2022-12-12T03:40:22Z
+2024-05-18,https://github.com/getredash/redash,https://raw.githubusercontent.com/getredash/redash/master/README.md,"Redash is a user-friendly tool designed for both technical and non-technical users to utilize data through querying, visualization, and sharing. It supports analysis across various organizations worldwide, thanks to its compatibility with over 35 SQL and NoSQL data sources and the ability to add more. Key features include a web-based interface for easy collaboration, an intuitive query editor, comprehensive visualization and dashboard creation tools, scheduled updates, instant alerts, and a REST API for extended functionality. Redash encourages community involvement for bug reporting and feature enhancements and offers resources for getting started and troubleshooting through documentation, a forum, and a development discussion platform. It is open-source, licensed under BSD-2-Clause, with the project welcoming contributions.",Maximize Data Insights with Redash: A Comprehensive Guide,"Discover the full potential of Redash, a versatile data analysis tool designed for users of all technical levels. From SQL enthusiasts to business analysts, Redash empowers users to explore, query, visualize, and share data from diverse sources effortlessly. With features like a browser-based interface, user-friendly query editor, and dynamic dashboards, Redash streamlines data-driven decision-making across numerous organizations worldwide. Dive into the world of easy data collaboration, automated updates, and broad data source support with Redash. Unlock the power of your data today and foster a culture of insight-driven innovation within your organization.","Unlock the power of data with Redash: Explore how this data analysis tool simplifies querying, visualization, and sharing of data across various sources, enabling informed decisions at every organizational level.",Data Science Tool,"Python
+
+
+
+
+
+        25,075
+
+
+
+
+
+        4,263
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/getredash/website/8e820cd02c73a8ddf4f946a9d293c54fd3fb08b9/website/_assets/images/redash-anim.gif,,25075,2013-10-28T13:19:39Z
+2024-05-18,https://github.com/pypa/hatch,https://raw.githubusercontent.com/pypa/hatch/master/README.md,"Hatch is a cutting-edge Python project manager known for its extensibility. It offers a standardized build system ensuring reproducible builds and robust environment management that includes support for custom scripts and UV. Hatch enables configurable Python distribution management, streamlined test execution following best practices, and static analysis with reasonable defaults. It comes with a built-in script runner, simplifies the publishing process to PyPI or similar platforms, and handles version and project template management effectively. Hatch is recognized for its fast and responsive CLI, being noticeably quicker than similar tools. It prioritizes best practices in project generation and provides comprehensive documentation, hosted on GitHub Pages and created with Material for MkDocs. Hatch is available under the MIT license, catering to developers and project managers looking for a modern solution to Python project management.",Maximizing Efficiency with Hatch: The Modern Python Project Manager,"Unlock the full potential of your Python projects with Hatch, a cutting-edge project manager designed for modern developers. Its robust features include a standardized build system, versatile environment management, and comprehensive Python distribution management. With Hatch, you can execute tests, manage versions, and even publish to PyPI with ease. It's the perfect tool for developers aiming for reproducible builds and best practices in their Python projects. Learn how Hatch can streamline your project management today.","Discover how Hatch, the modern extensible Python project manager, can transform your development workflow with features like reproducible builds, environment management, and easy publishing to PyPI.",Python Libraries Collection,"Python
+
+
+
+
+
+        5,441
+
+
+
+
+
+        265
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",,,5441,2017-05-31T23:37:53Z
+2024-05-18,https://github.com/JadyXuan/NTTS,https://raw.githubusercontent.com/JadyXuan/NTTS/main/README.md,"The text introduces a package that transforms Traceback output when a KeyboardInterrupt (e.g., pressing ctrl+C) interrupts a Python program, especially if it stops at a `time.sleep()` call. By incorporating this package into a project, any output showing the traceback information due to a KeyboardInterrupt is altered to display the last line as coming from `model.py`. This change makes it appear as though the code is executing a neural network model, adding a cool factor to the project's output. To use it, one needs to clone the project into their working directory and import it into their entry file with `import NTTS`, resulting in a stylized traceback output upon a KeyboardInterrupt event.",Elevate Your Code's Cool Factor with NTTS: No More Embarrassing sleep() Interruptions,"Ever felt awkward when ctrl+C stops your code on time.sleep(), exposing a traceback? Integrate the NTTS package into your project and transform those interrupt tracebacks to end with model.py, making your code look as if it's running a sophisticated neural network model. Simply clone the NTTS project into your project directory, import it at the start, and voila, you'll get sleek traceback outputs upon ctrl+C, enhancing your coding experience and making your project appear more advanced.","Discover how the NTTS package can transform your code's traceback outputs from awkward interruptions to cool neural network model simulations, making your projects look more professional and cutting-edge.",Python Libraries Collection,"Python
+
+
+
+
+
+        530
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        140 stars today",,,530,2024-05-14T12:28:13Z
+2024-05-18,https://github.com/modelscope/swift,https://raw.githubusercontent.com/modelscope/swift/main/README.md,"SWIFT is a scalable framework designed for training, inference, evaluation, and deployment of nearly 200 large language models (LLMs) and multimodal large models (MLLMs). Aimed at both developers and those new to deep learning, it supports a range of training techniques including PEFT's lightweight training solutions and a complete Adapters library for cutting-edge techniques like NEFTune and LoRA+. For ease of use, it includes a Gradio web UI for controlling training and inference processes, alongside deep learning courses and best practices for beginners. The framework is expanding to support additional modalities like full-parameter training and LoRA training for AnimateDiff. It boasts comprehensive documentation and encourages contributions from the community.
+
+Recent updates include support for new model series and training techniques, like the Llava-Next and Yi-1.5 series, along with advances in quantized inference and model parallel training strategies to optimize memory usage and computational efficiency.
+
+Installation options include pip for a straightforward setup, cloning from source for those who prefer accessing the full suite of training and inference scripts directly, and Docker images for containerized environments. The getting-started guide covers basic training, inference, evaluation, and deployment steps.
+
+For developers looking to dive deeper, detailed documentation and best practices are available, covering efficient tuning methods, deployment strategies, and supported models and datasets, ensuring users have the necessary resources to effectively utilize the framework for their large model applications.",Expanding Capabilities with SWIFT: Revolutionizing LLMs and MLLMs Deployment,"SWIFT is a robust framework designed to streamline the training, inference, evaluation, and deployment process for large language models (LLMs) and multimodal large models (MLLMs). It supports nearly 200 models, embracing technologies like LoRA+, NEFTune, and offers a Gradio web UI for easy use. The framework is highly adaptable for both beginners and advanced users, aiming to cater to a wide range of deep learning applications. SWIFT's comprehensive documentation and support for the latest training techniques make it an indispensable tool in the AI field.","Discover SWIFT, the scalable framework for LLMs and MLLMs, offering advanced training techniques, easy deployment, and a Gradio web UI for user-friendly interfacing. Ideal for both novice and expert users in deep learning.",Deep Learning Platform,"Python
+
+
+
+
+
+        1,473
+
+
+
+
+
+        156
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/modelscope/swift/main/resources/banner.png; https://raw.githubusercontent.com/modelscope/swift/main/asset/wechat.png,,1473,2023-08-01T15:06:39Z
+2024-05-18,https://github.com/zhenglinpan/SakugaDataset,https://raw.githubusercontent.com/zhenglinpan/SakugaDataset/main/README.md,"The Sakuga-42M Dataset, presented by Zhenglin Pan, Yu Zhu, and Yuxuan Mu, is a pioneering large-scale cartoon animation dataset containing 42 million keyframes. This dataset aims to address the data scarcity issue in cartoon research and foster the development of robust and transferable applications to aid animators. It includes diverse resources such as parquet files for dataset preparation and plans for releasing pre-trained models and other tools. Researchers can apply for access to this dataset, designed to facilitate broad exploratory avenues in animation studies. Despite challenges in data collection due to anti-bot measures, the creators are committed to making updates and enhancements. This work, licensed under CC BY-NC-SA 4.0, underscores the importance of respecting copyright while encouraging academic research within the animation field. For further use and reference, they provide a citation format and maintain open lines of communication for collaborative opportunities and rights-related inquiries.",Unveiling Sakuga-42M: The Future of Cartoon Animation Research,"Discover the Sakuga-42M Dataset, a groundbreaking collection bridging the gap in cartoon animation research with 42 million keyframes. Aimed at propelling the field forward, this dataset enables the exploration of large-scale models and innovative techniques. By facilitating easier content creation for animators and inviting further research, it marks a significant stride in leveraging technology for creative endeavours. Stay tuned for more updates and how you can contribute to or benefit from this revolutionary project.","Explore the Sakuga-42M Dataset, a pioneering resource with 42 million keyframes designed to advance cartoon animation research and development. Learn how it can transform content creation and spur further innovation.",Data Science Resources,"Python
+
+
+
+
+
+        194
+
+
+
+
+
+        6
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        20 stars today",https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/teaser.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/pipeline.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/future_research.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/rough.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/undead_unluck.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/mickey.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/miyamori.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/sakura.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/diamond.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/♪❤muteki❤no❤idoru❤♪-Scene-0091_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/cthulhu_musume_(zannenn)-Scene-0021_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/👓miraiinaimiraiwawatashigahoshikunainnda!👓-Scene-0011_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/naruto!doushida!-Scene-0101_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/bluefat_and_his_friends-Scene-0011_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/★pokemon★getto★daze★!-Scene-0081_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/nobitanofriend-Scene-0021_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/ribai!!_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/ekubo!!!-Scene-0021_1_fps14.gif; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png; https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png,,194,2024-04-28T04:09:14Z
+2024-05-18,https://github.com/drunkdream/weread-exporter,https://raw.githubusercontent.com/drunkdream/weread-exporter/main/README.md,"The text describes a tool for exporting books from WeChat Read to local files in various formats. It explains how the tool works by intercepting the Canvas function on web pages to extract text and style details, which are then converted to Markdown format. These files can subsequently be transformed into ePub, PDF, or MOBI formats, with MOBI being generated using the KindleGen tool from the ePub file. Instructions for installation and usage are provided, indicating how to install the tool via pip, run it with specific book IDs to save files in chosen formats, and an optional command for forced login. It is mentioned that ePub is suitable for mobile, PDF for computer, and MOBI for Kindle devices. A disclaimer warns that the tool is for technical research only and should not be used for commercial or illegal purposes, absolving the tool of any liability arising from its use.
+",Unveiling the Magic: How to Export WeRead Books into Epub or PDF,"Discover the innovative tool that transforms WeRead books into markdown, epub, or pdf formats right from your browser. By intercepting Web page Canvas functions, it captures text and styles for conversion. Installation is a breeze with a simple pip command, and usage involves running a straightforward Python script, specifying the book's ID and your desired output format. While designed for personal research and educational purposes, remember to use this tool responsibly.","Explore how to easily convert WeRead books to epub, pdf, or mobi formats for offline reading across devices. Learn about this tool's installation, usage, and ethical guidelines.",Document Conversion Tool,"Python
+
+
+
+
+
+        861
+
+
+
+
+
+        126
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        23 stars today",,,861,2023-02-11T23:56:15Z
+2024-05-18,https://github.com/deepset-ai/haystack,https://raw.githubusercontent.com/deepset-ai/haystack/main/README.md,"Haystack, developed by deepset, is an advanced framework for building applications with LLMs (Large Language Models), Transformer models, vector search, and more. It facilitates end-to-end NLP applications by orchestrating various embedding models and LLMs into pipelines. It supports a range of use cases including retrieval-augmented generation (RAG), document search, question answering, and answer generation. Haystack is technology agnostic, supporting models from OpenAI, Cohere, Hugging Face, and others, emphasizing flexibility, extensibility, and user-friendliness. It offers seamless integration with databases, file conversion, training, and inference tools. The framework collects anonymous usage statistics to understand component usage. The community is encouraged to contribute to its development, and many companies including Airbus, Apple, and Netflix have utilized Haystack for NLP solutions. Installation is straightforward through pip, and Docker images are also available. Detailed documentation, tutorials, and a Cookbook for advanced use cases are provided to help users get started and implement sophisticated NLP applications.",Unlocking the Potential of LLMs with Haystack 2.0: A Complete Guide,"Haystack 2.0 is an innovative LLM framework designed to revolutionize the way we build NLP applications, from retrieval-augmented generation to question answering. By providing flexibility in technology choices, including support for models from OpenAI, Cohere, and Hugging Face, Haystack makes it simpler to craft bespoke NLP solutions. Its comprehensive toolkit facilitates everything from data manipulation to model training and inference, accommodating both out-of-the-box models and custom fine-tuning. Whether you're aiming to enhance document search capabilities, implement semantic search, or build complex decision-making applications, Haystack offers the necessary components and guidance. Embrace the transformative power of Haystack 2.0 to elevate your NLP projects to new heights.","Discover how Haystack 2.0, the flexible and extensible LLM framework, can amplify your NLP projects with state-of-the-art models and technologies for retrieval-augmented generation, question answering, and more.",Natural Language Processing,"Python
+
+
+
+
+
+        13,918
+
+
+
+
+
+        1,655
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",https://github.com/deepset-ai/haystack/blob/main/docs/img/banner_20.png; https://github.com/deepset-ai/haystack/raw/main/docs/img/deepset-cloud-logo-lightblue.png,,13918,2019-11-14T09:05:28Z
