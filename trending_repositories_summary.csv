@@ -15474,3 +15474,31 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         19 stars today",https://github.com/deepset-ai/haystack/blob/main/docs/img/banner_20.png; https://github.com/deepset-ai/haystack/raw/main/docs/img/deepset-cloud-logo-lightblue.png,,13918,2019-11-14T09:05:28Z
+2024-05-19,https://github.com/datafold/data-diff,https://raw.githubusercontent.com/datafold/data-diff/master/README.md,"As of May 17, 2024, Datafold will cease active support and development of the open source project data-diff, expressing gratitude to all contributors. For additional details regarding this decision, a blog post has been made available. Data-diff, renowned for enabling fast data comparisons within or across SQL databases, has had a substantial community involvement, as indicated by the contributor visual on GitHub. The project is distributed under the MIT License, ensuring its availability for use, distribution, and modification under these terms even after support ends.",Data-diff Discontinuation: What You Need to Know,"Effective May 17, 2024, Datafold will cease support and development for the open-source project data-diff, a tool designed to compare datasets swiftly across SQL databases. This decision doesn’t come lightly, and we deeply appreciate the efforts of all contributors who have been a part of this journey. For more details about the reasons behind the discontinuation and what this means for users, refer to our full blog post.","Discover why Datafold is ending support for data-diff as of May 17, 2024, and what it means for its users. Learn more about the transition and future recommendations.",Open Source Tool,"Python
+
+
+
+
+
+        2,888
+
+
+
+
+
+        225
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,,2888,2022-03-07T15:29:23Z
