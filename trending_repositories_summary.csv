@@ -15502,3 +15502,52 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         6 stars today",,,2888,2022-03-07T15:29:23Z
+2024-05-20,https://github.com/AzeemIdrisi/PhoneSploit-Pro,https://raw.githubusercontent.com/AzeemIdrisi/PhoneSploit-Pro/main/README.md,"PhoneSploit Pro is a potent all-in-one hacking toolkit designed to exploit Android devices via ADB (Android Debug Bridge) and the Metasploit Framework, simplifying penetration testing and vulnerability assessment. It automates the entire process of creating, installing, and executing a payload on an Android device with an open ADB port TCP 5555, facilitating complete device hacking in one click. The toolkit bypasses the need to learn command-line arguments by providing various features for both Wi-Fi and USB connections, including device connection, file management, screen capture, app management, and system control operations like rebooting and shutting down. Additionally, it offers advanced functions like SMS management, unlocking devices, data dumping (SMS, contacts, call logs), APK extraction, and audio recording. It supports Python 3.10 and is compatible with multiple operating systems including Windows, Linux distributions, and Termux on Android. Installation requires Python, ADB, Metasploit-Framework, scrcpy, and Nmap, with specific instructions provided for different platforms. The developers emphasize ethical use for educational purposes only, disclaiming any responsibility for misuse or illegal activities.",Master Android Hacking with PhoneSploit Pro: A Comprehensive Guide,"Dive into the world of Android hacking with PhoneSploit Pro, the ultimate tool that integrates with Metasploit for easy penetration testing and vulnerability assessment. PhoneSploit Pro is designed to automate hacking processes, offering features like one-click Meterpreter sessions, file access, and device control, all without needing in-depth command knowledge. Its aim is to simplify Android security testing, making it accessible for everyone. Explore how PhoneSploit Pro can enhance your Android hacking capabilities conveniently.","Discover PhoneSploit Pro, a powerful Android hacking tool integrated with Metasploit for easy penetration testing. Simplify Android security assessments with one-click hacking tools.",Cybersecurity Tool,"Python
+
+
+
+
+
+        4,247
+
+
+
+
+
+        561
+
+
+        Built by
+
+          
+
+
+
+
+
+        13 stars today",https://raw.githubusercontent.com/AzeemIdrisi/PhoneSploit-Pro/main/docs/Screenshot-1.png; https://raw.githubusercontent.com/AzeemIdrisi/PhoneSploit-Pro/main/docs/Screenshot-2.png; https://raw.githubusercontent.com/AzeemIdrisi/PhoneSploit-Pro/main/docs/Screenshot-3.png; https://github.com/AzeemIdrisi/AzeemIdrisi/blob/main/docs/default-yellow.png,,4247,2022-12-24T18:05:33Z
+2024-05-20,https://github.com/minyoungg/platonic-rep,https://raw.githubusercontent.com/minyoungg/platonic-rep/main/README.md,"The ""Platonic Representation Hypothesis"" paper by Minyoung Huh, Brian Cheung, Tongzhou Wang, and Phillip Isola presents a framework for quantifying the alignment between language and vision models. It details a procedure requiring Python 3.11 and PyTorch 2.2.0, where users can install necessary dependencies via pip. The process includes extracting features from language and vision models, then computing alignment scores using specified commands. Additionally, the framework allows for the scoring of one's models against the Platonic Representation Hypothesis during training or evaluation. The paper outlines custom metrics, how to add models, customize metrics, and handle potential issues with download URLs or reporting scores. Essentially, it provides comprehensive guidelines for evaluating the alignment of models with the Platonic Representation Hypothesis, including instructions for installing the library, extracting features, computing scores, and integrating custom models or features.",Exploring the Platonic Representation Hypothesis in AI,"The Platonic Representation Hypothesis revolutionizes how AI models align with human linguistic and visual perceptions. Developed by leading researchers, this methodology leverages Python and PyTorch for advanced feature extraction and alignment scoring. It allows for the integration and evaluation of different models, providing a framework for understanding AI's interpretative capabilities. The hypothesis is detailed in a paper and further explained through a project page, showcasing the collaborative effort in advancing AI research.","Discover the Platonic Representation Hypothesis - a breakthrough in AI research by Minyoung Huh, Brian Cheung, Tongzhou Wang, and Phillip Isola, for aligning AI models with human perception using Python and PyTorch. Learn how to implement and score your model.",Vision-Language Model,"Python
+
+
+
+
+
+        182
+
+
+
+
+
+        4
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        23 stars today",,,182,2024-05-11T23:54:18Z
