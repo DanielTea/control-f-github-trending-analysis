@@ -15551,3 +15551,127 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         23 stars today",,,182,2024-05-11T23:54:18Z
+2024-05-21,https://github.com/IDEA-Research/Grounding-DINO-1.5-API,https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/README.md,"Grounding DINO 1.5, developed by IDEA Research, is an advanced suite of open-world object detection models, including the Pro version for generalization across scenarios and the Edge version optimized for edge computing. This model series aims to push the boundaries of open-set object detection, leveraging a deep early fusion architecture. Grounding DINO 1.5 Pro achieved state-of-the-art (SOTA) performance on multiple benchmarks, demonstrating significant advancements over previous models. The project offers comprehensive guidance for API usage, running demo code, and online Gradio demos, alongside examples hosted on DeepDataSpace. Additionally, it includes a variety of performance comparisons and qualitative analyses across different detection tasks, highlighting its capabilities in common, long-tailed, and dense object detection, as well as caption grounding and edge device optimization. The work is open-source, with resources and further details available on GitHub and DeepDataSpace, encouraging community engagement despite ongoing server traffic issues.",Exploring Grounding DINO 1.5: The Frontier of Open-World Detection Models,"Discover Grounding DINO 1.5 by IDEA Research, the latest evolution in open-world object detection models. Offering unparalleled examples for practical use and hosted on DeepDataSpace, it stands as the benchmark in combining efficiency and capability for both edge computing and broader scenario applications. Join us in navigating the robust framework, exceptional performance benchmarks, and the ease of API integration, marking a significant leap forward in AI-driven object detection technologies.","Dive into Grounding DINO 1.5 by IDEA Research, the pinnacle of open-world object detection technology with unmatched efficiency and capability. Learn about its integration, performance, and access to the models.",Computer Vision,"Python
+
+
+
+
+
+        308
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        50 stars today",https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/asset/video_cover.jpg; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/gd1.5_overall_framework.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/zeroshot.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/common_object_vis.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/common_object_vis2.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/longtail_object_vis.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/short_caption_vis.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/long_caption_vis.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/long_caption_vis2.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/long_caption_vis3.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/dense_object_vis.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/dense_object_vis2.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/video_object_vis.png; https://raw.githubusercontent.com/IDEA-Research/Grounding-DINO-1.5-API/master/./asset/qualitative_visualization/edge_vis.png,,308,2024-05-14T08:34:39Z
+2024-05-21,https://github.com/alexfazio/viral-clips-crew,https://raw.githubusercontent.com/alexfazio/viral-clips-crew/main/README.md,"The ""viral-clips-crew"" prototype offers a revolutionary way for social media content curators to bypass the time-consuming editing process, efficiently creating polished video highlights from long-form content. It leverages the CrewAI tool to extract potentially viral segments, simplifying content repurposing to enhance audience engagement on social media platforms and drive traffic to the original content. The tool requires Python 3.7+, CrewAI, and an API key from OpenAI or Google Gemini. Installation involves cloning the repository, installing dependencies via Poetry, and setting up an environment variable with the API key. Users can process videos by placing them in the `input_files` directory and running the program with Poetry, with the final output saved in the `subtitler_output` directory. The project, designed for demonstration and not direct production use, encourages community support through contributions and stars, thanking the community for early development support and is licensed under the MIT license.",Maximize Your Social Media Impact with Viral Clips Crew: Your AI Video Editing Assistant,"Discover how 'viral-clips-crew', your AI-powered video editing assistant, can transform long-form content into viral social media clips in minutes. Save time with automated, attention-grabbing video highlights ready for social sharing. Effortlessly repurpose content, engaging your audience anew. With requirements like Python 3.7+ and an OpenAI or Google Gemini API key, set-up is straightforward, paving the way for efficient content creation. Embrace the revolution in content repurposing and give your social media strategy a competitive edge.","Unlock the power of viral content with viral-clips-crew, an AI video editing tool designed to convert long-form videos into engaging, shareable clips. Streamline your content creation, save time, and boost your social media presence effortlessly.",Video Generation Tool,"Python
+
+
+
+
+
+        167
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+        21 stars today",https://i.imgur.com/TBD2bvj.png,,167,2024-05-18T09:36:18Z
+2024-05-21,https://github.com/lanqian528/chat2api,https://raw.githubusercontent.com/lanqian528/chat2api/main/README.md,"CHAT2API is a straightforward ChatGPT to API proxy allowing free and unlimited usage of GPT-3.5 without requiring an account. It supports using an AccessToken to access advanced models like GPT-4, GPT-4o, and other GPTs. It ensures that the response format is consistent with the real API, making it adaptable for almost all clients. The platform boasts completed features like streaming/non-streaming transmission, login-free GPT-3.5 dialogues, image and file uploads, and a WebUI for non-logged-in users. It supports multiple account polling and token management. Deployment can be done via direct installation, Docker, or Docker Compose, with detailed steps provided. Users can interact with the service through a web interface or API, supporting various GPT models with optional AccessToken or RefreshToken. Additionally, the service handles tokens management and supports external services for ArkoseToken, essential for certain functionalities. Common issues include errors related to IP restriction, login requirement bypass, and the necessity for an ArkoseToken for PLUS account holders.",Unlocking the Power of GPT-3.5 & GPT-4 with Chat2API: A Comprehensive Guide,"Explore the revolutionary Chat2API, a seamless ChatGPT to API proxy that offers unlimited access to GPT-3.5 without requiring an account. Discover its support for GPT-4, GPT-4o, and GPTs models using AccessTokens, ensuring compatibility with almost all clients through accurate API response emulation. Key features include both stream and non-stream transmission, image and file uploads, multi-account token rotation, and a user-friendly WebUI for effortless navigation and use.","Dive into Chat2API for a seamless experience with GPT-3.5 and GPT-4, offering free access, token management, and accurate API responses compatible with numerous clients. Perfect for developers seeking advanced AI integration.",AI Development Platform,"Python
+
+
+
+
+
+        670
+
+
+
+
+
+        131
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        95 stars today",https://raw.githubusercontent.com/lanqian528/chat2api/main/docs/tokens.png; https://raw.githubusercontent.com/lanqian528/chat2api/main/docs/capsolver.jpg,,670,2024-04-04T20:22:33Z
+2024-05-21,https://github.com/Fooyao/web3Task,https://raw.githubusercontent.com/Fooyao/web3Task/main/README.md,"This text lists various online resources and tasks related to cryptocurrency airdrops, token purchases, proxy services, and captcha recognition platforms. Notable mentions include affordable Twitter and Discord accounts offered by hdd.cm, residential proxy services for $1.8/G by nstproxy, and a captcha solution platform capsolver. Additionally, it shares updates and support channels on Telegram for script requests or issues. The tasks section highlights activities such as registering and linking Twitter accounts to participate in airdrops, daily sign-ins on UxLink for UXUY tokens requiring ETH for gas, completing registration missions on GmNetWork, claiming airdrops on DOP, and registering plus linking Twitter and Discord for tasks on optopia.",Explore Affordable Digital Tools & Exclusive Airdrops: Your Ultimate Guide,"Discover the best deals on Twitter tokens and Discord authorization numbers at hdd.cm, and get your hands on residential proxies for as low as $1.8/G at nstproxy. Dive into the world of CAPTCHA solving with capsolver, and stay updated with the latest scripts and tools through our dedicated channels. From joining the Macaron airdrop to earning UXUY tokens on UxLink, our guide covers essential tasks and airdrops to enhance your online experience.","Unlock the secrets to affordable digital tools and exclusive airdrops. Get the lowest prices on Twitter and Discord identifiers, residential proxies, and more. Join now and elevate your digital presence.",Crypto Tools & Guides.,"Python
+
+
+
+
+
+        71
+
+
+
+
+
+        18
+
+
+        Built by
+
+          
+
+
+
+
+
+        6 stars today",,,71,2024-05-18T12:37:49Z
+2024-05-21,https://github.com/lucidrains/alphafold3-pytorch,https://raw.githubusercontent.com/lucidrains/alphafold3-pytorch/main/README.md,"The document outlines a Pytorch implementation of Alphafold 3, a model for predicting the structure of biomolecules. Contributors Joseph and Felipe have added specific modules to enhance its functionality. Users can install the package via pip and utilize it by setting up configurations for atom inputs, additional residue features, template features, and multiple sequence alignments among others. Training requires specifying labels for various geometric properties of molecules, with examples given for how to execute training and inference processes. The project encourages contributions by providing a script to streamline the addition of new modules and tests. It concludes with a citation for a Nature article detailing Alphafold 3's development and its significant contributions by various researchers in biomolecular structure prediction.",Exploring AlphaFold 3 Implementation in PyTorch: A Deep Dive,"AlphaFold 3, the groundbreaking protein structure prediction model, is now implemented in PyTorch. This blog post covers the essentials of the AlphaFold 3 PyTorch implementation, useful for researchers and developers alike. Learn how to install, set up, and utilize AlphaFold 3 in your projects. Contributions from Joseph and Felipe have enhanced functionalities, including Relative Positional Encoding and Weighted Rigid Align among others. Dive into the future of bioinformatics with AlphaFold 3 PyTorch.","Discover the implementation of AlphaFold 3 in PyTorch including installation, usage, and contributions. Perfect for researchers and developers interested in advanced bioinformatics tools.",Deep Learning Tool,"Python
+
+
+
+
+
+        447
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        18 stars today",https://raw.githubusercontent.com/lucidrains/alphafold3-pytorch/main/./alphafold3.png,,447,2024-05-08T15:26:29Z
