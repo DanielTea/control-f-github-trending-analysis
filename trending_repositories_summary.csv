@@ -15675,3 +15675,189 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         18 stars today",https://raw.githubusercontent.com/lucidrains/alphafold3-pytorch/main/./alphafold3.png,,447,2024-05-08T15:26:29Z
+2024-05-22,https://github.com/Codium-ai/cover-agent,https://raw.githubusercontent.com/Codium-ai/cover-agent/main/README.md,"CodiumAI's Cover Agent is a cutting-edge project aimed at automating the generation of unit tests to improve code coverage efficiently. It uses Generative AI to enhance existing test suites, making the development process smoother and ensuring high-quality software. The first of its kind to implement TestGen-LLM, Cover Agent supports multiple programming languages and can be run as a standalone executable or via Python Pip. It requires an OPENAI_API_KEY and optionally Python and Poetry for installation from the source. This open-source tool encourages community collaboration to extend its capabilities and explore new test-generation techniques. Its roadmap includes generating tests for various scenarios, analyzing code behavior to tailor tests, checking test flakiness, and improving integration with CI platforms and tools. CodiumAI is dedicated to helping development teams maintain code integrity with their suite of tools, including enhanced Pro versions for enterprise needs.",Maximize Code Coverage with CodiumAI's Cover Agent: A Revolutionary Test Generation Tool,"Discover how CodiumAI's Cover Agent is transforming software development by automating test generation to improve code coverage efficiency. Utilizing advanced Generative AI, this tool seamlessly integrates into development workflows, aiming to boost the quality of unit tests. It is designed for easy integration with CI platforms, encouraging community collaboration to further its capabilities. Explore how Cover Agent facilitates high-quality software development through its robust feature set, including AI-driven test creation and compatibility with various programming languages.","CodiumAI's Cover Agent leverages Generative AI to automate and enhance unit test generation, streamlining development and ensuring top-notch code quality. Learn how it can transform your testing workflow.",AI Development Platform,"Python
+
+
+
+
+
+        1,251
+
+
+
+
+
+        66
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        803 stars today",https://www.codium.ai/images/cover-agent/cover-agent-light.png; https://www.codium.ai/wp-content/uploads/2024/05/CodiumAI-CoverAgent-v240519-small-loop.gif,https://www.youtube.com/watch?v=fIYkSEJ4eqE,1251,2024-05-18T09:34:18Z
+2024-05-22,https://github.com/THUDM/CogVLM2,https://raw.githubusercontent.com/THUDM/CogVLM2/main/README.md,"The CogVLM2 introduces a new generation of models that improve significantly upon its predecessor, featuring enhancements in benchmarks like TextVQA and DocVQA, support for up to 8K content length, and higher image resolution (1344 * 1344). It provides open-source models that are bilingual, supporting both Chinese and English. Two models based on Meta-Llama-3-8B-Instruct have been released, with additional resources available for online trials and experiences on the ZhipuAI Open Platform. Benchmark comparisons showcase its superior performance against both open-source and proprietary models, especially in text and visual understanding tasks without external OCR tools. The project also offers resources for developers including basic calling methods, fine-tuning examples, and OpenAI API format calls. The model is released under specific licensing, with acknowledgments to Meta Llama 3's license, and encourages citations for academic use.",Exploring CogVLM2: The Cutting-Edge in Multilingual Visual Language Models,"Discover the new generation of CogVLM2 series, offering significant improvements in visual and textual benchmarks, supporting 8K content, and handling high-resolution images. This open-source marvel extends support to both English and Chinese, integrating seamlessly with platforms like Huggingface and ModelScope. Dive into the technical advancements and access links to online demos and resources, embracing the future of visual language models with CogVLM2.","Unveil the potential of CogVLM2, the latest in visual language models, featuring superior benchmark performance, enhanced content support, and dual language capabilities. Explore demos and open-source resources now.",Multimodal AI Model,"Python
+
+
+
+
+
+        446
+
+
+
+
+
+        22
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        146 stars today",,,446,2024-05-10T09:07:11Z
+2024-05-22,https://github.com/khoj-ai/khoj,https://raw.githubusercontent.com/khoj-ai/khoj/master/README.md,"Khoj is an open-source application designed to create personal AI agents to enhance individual capabilities by extending the digital brain. Users can upload notes, documents, and access real-time information via the internet. It supports various formats including pdf, markdown, org-mode, Notion files, and GitHub repositories. Khoj offers features like fast semantic search across documents, personalized image creation, and speech understanding. It's accessible on multiple platforms like Desktop, Emacs, Obsidian, Web, and WhatsApp and is self-hostable. Additionally, Khoj encourages community involvement, allowing users to contribute by developing new features, improving documentation, or addressing bugs. The project appreciates its contributors and sponsors, highlighting their support on its platforms.",Expand Your Digital Brain with Khoj: The Ultimate AI Assistant,"Discover Khoj, the cutting-edge open-source application designed to enhance your capabilities with personal AI agents. Use Khoj to seamlessly integrate real-time information from the internet, share a wide range of files, and enjoy fast, accurate semantic search on your documents. Experience the convenience of accessing Khoj across multiple platforms, including Desktop, Emacs, Obsidian, Web, and Whatsapp. Dive into creating deeply personal images and leveraging advanced speech understanding with your AI agents. Khoj's open-source, self-hostable nature ensures that you can always expand your digital brain.","Explore Khoj, an open-source personal AI to extend your digital brain. Share documents, incorporate real-time internet data, and get semantic search on your docs with Khoj.",AI Development Platform,"Python
+
+
+
+
+
+        5,437
+
+
+
+
+
+        269
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        196 stars today",https://raw.githubusercontent.com/khoj-ai/khoj/master/src/khoj/interface/web/assets/icons/khoj-logo-sideways-500.png; https://raw.githubusercontent.com/beekeeb/piantor/main/docs/beekeeb.png,,5438,2021-08-16T01:48:44Z
+2024-05-22,https://github.com/shamhi/TapSwapBot,https://raw.githubusercontent.com/shamhi/TapSwapBot/main/README.md,"The text describes a multifunctional bot designed for automated tasks within a specific platform. It supports features like multithreading, session-based proxy bindings, and automatic item purchases using coins (e.g., tap, energy, charge). The bot's operations include random sleep intervals and click counts to simulate human-like behavior and support for various session formats. Users can customize settings including API credentials, minimum energy levels before delaying operations, tap counts during turbo mode, upgrading mechanisms for taps, energy, and charge levels, daily boosts, and proxies. Installation involves cloning the repository, setting up the environment, installing dependencies, configuring API keys, and running the bot. Users can also utilize command-line arguments to quickly start the bot with specific actions.",Maximize Your Efficiency with TapSwapBot: Ultimate Telegram Automation,"Discover the potential of TapSwapBot, a feature-rich Telegram bot designed for ultimate automation and efficiency. With support for multi-threading, session-specific proxy bindings, and automated item purchases, TapSwapBot elevates your Telegram experience. It intelligently adjusts activity with random sleep times and click counts, supports various session files, and offers extensive customization through settings. Dive into the world of TapSwapBot and unleash the full power of Telegram automation.","Explore TapSwapBot for Telegram: A powerful bot offering multi-threading, proxy support, automatic purchases, and advanced customization to streamline your Telegram activities.",Money Making Automation,"Python
+
+
+
+
+
+        57
+
+
+
+
+
+        14
+
+
+        Built by
+
+          
+
+
+
+
+
+        3 stars today",https://raw.githubusercontent.com/shamhi/TapSwapBot/main/.github/images/demo.png,,57,2024-03-26T17:01:00Z
+2024-05-22,https://github.com/mikel-brostrom/yolo_tracking,https://raw.githubusercontent.com/mikel-brostrom/yolo_tracking/master/README.md,"BoxMOT is a collection of state-of-the-art, pluggable multi-object tracking (MOT) modules designed to integrate with segmentation, object detection, and pose estimation models. It supports both heavy and lightweight ReID (Re-identification) models, including CLIPReID and OSNet, for appearance description. BoxMOT is compatible with popular object detection models like Yolov8, Yolo-NAS, and YOLOX. It includes a variety of trackers, each evaluated on MOT17 sequences with key metrics like HOTA, MOTA, and IDF1 presented. The repository provides extensive tutorials, experiments, and options for fast experimentation and evaluation on custom datasets. Notable features include tracking per class, trajectory plotting, hyperparameter optimization, and support for different input sources such as videos and webcams. It streamlines experiments with pregenerated detections and embeddings, achieving significant pipeline speedup. BoxMOT can be installed via poetry or pip and aims to accommodate different hardware capabilities, from CPUs to powerful GPUs, facilitating ultra-fast experimentation with local data storage.",Unlocking Advanced Object Tracking with BoxMOT: A Comprehensive Guide,"BoxMOT revolutionizes object tracking by integrating pluggable SOTA trackers with segmentation, detection, and pose estimation models. It includes CLIPReID and LightMBN among other appearance description models for versatility. Designed for both CPUs and GPUs, BoxMOT offers scripts for accelerated experimentation, making it a robust tool for researchers and developers. The intuitive installation process and support for various detection models like YOLOv8, ensure ease of use and flexibility in application.","Discover BoxMOT, the ultimate toolkit for multi-object tracking integrating state-of-the-art trackers with segmentation, detection, and pose estimation. Learn how to streamline your research or development projects with our easy installation guide and flexible model support.",Computer Vision,"Python
+
+
+
+
+
+        6,212
+
+
+
+
+
+        1,656
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/mikel-brostrom/yolo_tracking/master/assets/images/track_all_seg_1280_025conf.gif,https://www.youtube.com/watch?v=Zgi9g1ksQHc,6212,2020-06-26T09:26:23Z
+2024-05-22,https://github.com/magic-research/magic-animate,https://raw.githubusercontent.com/magic-research/magic-animate/main/README.md,"MagicAnimate is an advancement in human image animation that leverages a diffusion model for temporal consistency, developed by a team led by Zhongcong Xu along with other contributors from the National University of Singapore and ByteDance. The project, which includes the release of inference code, a Gradio demo, and the MagicAnimate paper, utilizes pretrained base models such as StableDiffusion V1.5 and MSE-finetuned VAE, alongside its own checkpoints, to animate human images in a way that maintains temporal coherence throughout the sequence. The setup requires having Python, CUDA, and ffmpeg installed, with models and checkpoints organized in a specified directory structure for the system to function. Users can run inference using either single or multiple GPUs and can also try out MagicAnimate through an online Gradio demo or a local setup. The project encourages community engagement by making their resources widely accessible and cites the support from AK and the Huggingface team for their online demo setup.
+",Exploring MagicAnimate: Revolutionizing Human Image Animation,"Discover MagicAnimate, a cutting-edge project that brings temporally consistent human image animation to life using advanced diffusion models. Developed by a talented team from the National University of Singapore and ByteDance, this technology aims to redefine animation standards. The project has recently released its inference code and gradio demo, following the successful launch of its paper and project page. MagicAnimate stands on the shoulders of powerful base models like StableDiffusion V1.5 and MSE-finetuned VAE, offering a glimpse into the future of digital animations.","Unlock the future of human image animation with MagicAnimate, a breakthrough using diffusion models by the National University of Singapore and ByteDance. Learn about its powerful base models and user-friendly demos.",Image Generation Platform,"Python
+
+
+
+
+
+        9,935
+
+
+
+
+
+        1,008
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/magic-research/magic-animate/main/assets/teaser/t4.gif; https://raw.githubusercontent.com/magic-research/magic-animate/main/assets/teaser/t2.gif,,9935,2023-11-21T08:33:54Z
+2024-05-22,https://github.com/W01fh4cker/CVE-2024-22120-RCE,https://raw.githubusercontent.com/W01fh4cker/CVE-2024-22120-RCE/main/README.md,"CVE-2024-22120 affects versions 6.0.0 to 6.0.27, 6.4.0 to 6.4.12, and 7.0.0alpha1 of ToolKit. This vulnerability allows low-privilege users with script execution permissions to exploit the system. Users can execute a remote command execution (RCE) script by capturing packets for sessionid and hostid, using tools like requests and pwntools. Another exploit, CVE-2024-22120-Webshell, is less frequently usable due to permissions issues but allows executing a web shell script when administrator session ID is available. The CVE-2024-22120-LoginAsAdmin script enables logging in as an admin by capturing and using a valid session ID. These scripts exploit vulnerabilities to gain unauthorized system access or control.",Exploring CVE-2024-22120: A Comprehensive Toolkit Guide,"Discover the crucial aspects of CVE-2024-22120, covering affected versions and how low-privilege users can leverage scripts for various actions including RCE, webshell deployment, and admin login. Comprehensive examples and usage instructions provide a clear path for security professionals to test and understand the vulnerability's impact. Essential credits and further reading links offer a deeper dive into the topic.","This blog post offers an in-depth look at CVE-2024-22120, including affected versions, exploitation techniques like RCE, webshell use, and admin login. Learn how to execute scripts with a detailed guide.",Cybersecurity Tool.,"Python
+
+
+
+
+
+        66
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        15 stars today",https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520113821013.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520113103613.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520112956658.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520160457471.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520175955624.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520180010132.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520180055161.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520180339314.png,,66,2024-05-20T03:29:09Z
