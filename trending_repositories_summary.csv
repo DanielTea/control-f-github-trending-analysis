@@ -15861,3 +15861,195 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         15 stars today",https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520113821013.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520113103613.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520112956658.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520160457471.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520175955624.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520180010132.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520180055161.png; https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240520180339314.png,,66,2024-05-20T03:29:09Z
+2024-05-23,https://github.com/psf/requests,https://raw.githubusercontent.com/psf/requests/main/README.md,"Requests is a highly popular and simple HTTP library for Python, known for its ease of use in making HTTP/1.1 requests without the need for manual URL manipulation or data encoding. It supports a range of features like connection pooling, sessions with cookie persistence, authentication, and automatic content decompression, making it suited for building robust HTTP applications. Available via PyPI, it supports Python 3.8 and above, and is heavily relied upon by over a million repositories on GitHub. Its documentation can be found on Read the Docs. When cloning its repository, specific Git configurations are suggested to avoid timezone errors. Requests has a vast user base with around 30 million weekly downloads, indicating its trustworthiness and wide adoption among developers.",Unlocking the Power of Python Requests: A Guide to Simplified HTTP Requests,"Discover the simplicity and elegance of Python's Requests library, a tool that revolutionizes how HTTP requests are made. With its straightforward syntax, Requests enables effortless API calls, handling authentication, headers, and session cookies seamlessly. This library, trusted by over a million repositories and boasting 30 million weekly downloads, supports a myriad of features designed for modern HTTP communication. Whether you're uploading files, managing sessions, or verifying SSL certificates, Requests streamlines these processes, making it an indispensable tool for developers.","Explore the capabilities of the Python Requests library: Learn how to make HTTP requests easily with our guide on simplifying API calls, managing sessions, and handling authentication.",Python Libraries Collection,"Python
+
+
+
+
+
+        51,505
+
+
+
+
+
+        9,219
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",https://raw.githubusercontent.com/psf/requests/main/ext/ss.png; https://raw.githubusercontent.com/psf/requests/main/ext/kr.png; https://raw.githubusercontent.com/psf/requests/main/ext/psf.png,,51505,2011-02-13T18:38:17Z
+2024-05-23,https://github.com/onnx/onnx,https://raw.githubusercontent.com/onnx/onnx/main/README.md,"The Open Neural Network Exchange (ONNX) is an open-source ecosystem designed to help AI developers pick the appropriate tools for their projects as they evolve. It offers an open format for AI models, supporting both deep learning and traditional ML, and features an extensible computation graph model, built-in operators, and standard data types focusing mainly on inferencing capabilities. ONNX is widely supported across different frameworks, tools, and hardware, enhancing interoperability and accelerating innovation within the AI community by making it easier to move from research to production. The project encourages community involvement in its evolution through contributions, feedback, and participation in Special Interest and Working Groups. ONNX also provides documentation, tutorials, pre-trained models, and utilities for working with ONNX graphs, such as shape and type inference, opset version conversion, and graph optimization. Installation can be done via PyPI, Conda, or building from source, catering to various development environments. ONNX emphasizes community engagement, code quality, and security, as evidenced by its compliance with multiple best practices and standards.",Exploring the ONNX Ecosystem: A Comprehensive Guide for AI Developers,"Open Neural Network Exchange (ONNX) is revolutionizing the AI world by providing an open ecosystem for developers, offering compatibility across various AI tools and frameworks. Its extensible computation graph model, built-in operators, and data types support are pivotal for both deep learning and traditional ML projects. ONNX aims to facilitate the smooth transition of AI models from research phase to production, highlighting the importance of interoperability and innovation. Join the rapidly growing community to contribute and navigate through the vast resources like documentation, tutorials, and pre-trained models available. Embrace the future of AI with ONNX, where flexibility meets efficiency.","Discover how ONNX empowers AI developers with an open ecosystem for seamless model interchange between different tools and frameworks, ensuring innovative and efficient AI project evolution.",AI Development Platform,"Python
+
+
+
+
+
+        16,993
+
+
+
+
+
+        3,611
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",https://github.com/onnx/onnx/raw/main/docs/onnx-horizontal-color.png,,16993,2017-09-07T04:53:45Z
+2024-05-23,https://github.com/spack/spack,https://raw.githubusercontent.com/spack/spack/master/README.md,"Spack is a multi-platform package manager designed to facilitate the building and installation of multiple software versions and configurations on platforms like Linux, macOS, Windows, and various supercomputers. It enables coexistence of multiple package configurations without interference. Utilizing a unique ""spec"" syntax, Spack simplifies specifying software versions and configurations, allowing package scripts to be written in Python for flexibility across different builds. Spack supports a wide range of applications from individual usage to large HPC deployments, emphasizing non-destructive installations and modular package management. Its community-driven approach encourages contributions ranging from new packages to documentation and core features. Spack’s development is guided by a Code of Conduct, ensuring a welcoming community environment. Licensing is dual under MIT and Apache-2.0 terms, giving users and contributors flexibility in how they use or contribute to the project.",Mastering Spack: The Ultimate Package Manager for HPC and Beyond,"Discover Spack, the versatile package manager tailored for Linux, macOS, Windows, and supercomputers, designed to handle multiple software versions and configurations seamlessly. With its straightforward 'spec' syntax, Spack empowers users to specify precisely the software versions and configuration options they need, utilizing Python for package scripts. It supports concurrent installations, ensuring new software additions don't disrupt existing setups, and allows for easy customization. Whether you're seeking to deploy software across diverse systems or manage complex packages, Spack's comprehensive documentation and community support provide all the resources needed for success.","Explore the capabilities of Spack, the multi-platform package manager perfect for HPC environments, offering non-destructive installs, easy configuration, and support for multiple systems.",Open Source Community,"Python
+
+
+
+
+
+        4,026
+
+
+
+
+
+        2,167
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",,,4026,2014-01-08T09:22:12Z
+2024-05-23,https://github.com/OpenLLMAI/OpenRLHF,https://raw.githubusercontent.com/OpenLLMAI/OpenRLHF/main/README.md,"OpenRLHF is an open-source, high-performance Reinforcement Learning from Human Feedback (RLHF) framework designed for simplicity, ease of use, and compatibility with Hugging Face models and datasets. Built on Ray, DeepSpeed, and HF Transformers, it significantly enhances RLHF performance, particularly in the sample generation stage, achieving over twice the efficiency of similar tools. This framework features distributed RLHF across GPUs, advanced PPO implementation techniques, and supports vast model sizes up to 70 billion parameters. It allows for accelerated vLLM generation, supports multiple reward models, various optimization methods (e.g., DPO, KTO), and integrates novel features like Rejection Sampling and Conditional SFT. OpenRLHF is adaptable for multi-node training, including on Slurm, and supports a wide array of additional functionalities, such as Wandb logging, QLoRA, LoRA, and various inference engines, making it a versatile tool for RLHF tasks. The project invites contributions and offers a straightforward setup on both nvidia-docker and conda environments, aiming to grow its community through collaboration and sponsorship.",Introducing OpenRLHF: The Future of High-Performance RLHF Frameworks,"OpenRLHF emerges as a groundbreaking RLHF framework leveraging Ray, DeepSpeed, and HF Transformers for unparalleled performance and ease of use. It significantly outperforms existing frameworks with 2x+ faster speeds, supports distributed RLHF across advanced GPU models, and integrates PPO tricks for enhanced training stability. Catering to developers and researchers alike, it offers extensive features like distributed PPO, support for models over 70 billion parameters, and various optimization techniques. With comprehensive documentation and community support, OpenRLHF paves the way for advanced NLP and AI development projects.","Discover OpenRLHF, the advanced RLHF framework built on Ray, DeepSpeed, and HF Transformers, offering 2x+ speed, distributed RLHF, and PPO implementation tricks for superior performance.",AI Development Platform,"Python
+
+
+
+
+
+        1,317
+
+
+
+
+
+        119
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        24 stars today",https://raw.githubusercontent.com/OpenLLMAI/OpenRLHF/main/./docs/logo.png,,1317,2023-07-30T02:20:13Z
+2024-05-23,https://github.com/secdev/scapy,https://raw.githubusercontent.com/secdev/scapy/master/README.md,"Scapy is a versatile, Python-based tool for packet manipulation, allowing users to forge or decode packets, perform network scans, probes, and more, replacing tools like `hping`, `tcpdump`, and `wireshark`. Designed for rapid prototyping, Scapy supports a wide range of protocols, enabling tasks such as sending invalid frames, injecting 802.11 frames, and combining techniques for network attack and discovery. It works on Linux, OSX, BSD, and Windows, requiring Python 3.7 or higher. Scapy is user-friendly, offering an interactive shell and comprehensive documentation for both beginners and advanced users. Installation is straightforward, mainly requiring a clone from its Git repository, with additional Python modules like `matplotlib` or `cryptography` recommended for full functionality. Scapy's code and tools are GPL v2 licensed, while its documentation is under the CC BY-NC-SA 2.5 license. Contributions are welcomed, with guidelines available in its CONTRIBUTING document.",Master Packet Manipulation with Scapy: A Comprehensive Guide,"Discover the powerful features of Scapy, the Python-based tool for interactive packet manipulation and network analysis. Scapy enables users to forge, decode, capture, and analyze packets with ease, supporting a vast array of protocols. It stands out for its ability to handle tasks like scanning, network discovery, and more, surpassing tools like `tcpdump` and `wireshark`. With support for Python 3.7+ and cross-platform compatibility, Scapy is an essential tool for network engineers, security experts, and IT professionals looking to gain deeper insights into their networks.","Explore the capabilities of Scapy, the Python library for packet manipulation and network analysis, offering support for numerous protocols and cross-platform functionality.",Network Performance Monitor,"Python
+
+
+
+
+
+        10,135
+
+
+
+
+
+        1,972
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://github.com/secdev/scapy/raw/master/doc/scapy/graphics/scapy_logo.png,,10135,2015-10-01T17:06:46Z
+2024-05-23,https://github.com/R4gd0ll/I-Wanna-Get-All,https://raw.githubusercontent.com/R4gd0ll/I-Wanna-Get-All/main/README.md,"The text introduces ""I Wanna Get All,"" a cybersecurity tool integrated with 281 vulnerabilities, including undisclosed ones, developed based on Apt-T00ls. It operates in a Java environment and strictly prohibits unauthorized vulnerability scanning and attacks. The tool updates include DNS log configuration and Jeecg token configuration, enhancing the Jeecg-Boot module with 16 vulnerabilities. It features various modules, such as ATT for interface detection and execution of exploits, MemShell for integrating memory shell payloads with support for multiple formats and platforms, and Sqlmap for automated SQL injection testing. Additionally, it houses a Crypt module for encryption/decryption tasks, a TaskList module preserving Apt-T00ls' original antivirus identification function, and a Command Create module for generating common commands. The text warns against illegal use and emphasizes the tool is only for authorized security testing. Users are advised to fully understand and comply with local laws and obtain necessary permissions before using the tool.",Exploring I Wanna Get All: A Comprehensive Vulnerability Scanning Tool,"Discover the 'I Wanna Get All' tool, an enhancement of Apt-T00ls dedicated to security professionals, integrating 281 vulnerabilities including nday and undisclosed 1day vulnerabilities. It emphasizes legal and ethical use, prohibiting unauthorized scans, and offers a variety of modules for vulnerability detection, exploitation, and post-exploitation such as MemShell, Sqlmap, and more. The tool facilitates detailed system analysis, offering capabilities like OA encryption/decryption, coding/decoding, and even provides tamper scripts for specific SQL injection vulnerabilities. A must-read for those tasked with lawful cybersecurity enforcement and eager to strengthen system defenses.","Unveil the capabilities of 'I Wanna Get All', the enhanced security tool with over 281 vulnerabilities for authorized ethical hacking, system defense analysis, and vulnerability management. A pivotal read for cybersecurity enthusiasts and professionals.",Cybersecurity Tool,"Python
+
+
+
+
+
+        500
+
+
+
+
+
+        39
+
+
+        Built by
+
+          
+
+
+
+
+
+        22 stars today",https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/update.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/jeecgcheck.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/dnslog.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223102241624.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223102353236.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223102904034.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223103147463.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223105521102.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223105914972.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223110035708.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223110851090.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223111206672.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223111318555.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223104122068.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223104220406.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223111623212.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223130450098.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223131531476.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134600563.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134621644.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134655226.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134750702.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223135223833.png; https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223135242674.png,,500,2024-02-23T05:59:57Z
+2024-05-23,https://github.com/THUDM/CogVLM,https://raw.githubusercontent.com/THUDM/CogVLM/main/README.md,"CogVLM and CogAgent are two powerful open-source visual language models (VLMs). CogVLM-17B, with 10 billion visual parameters and 7 billion language parameters, excels in image understanding and multi-turn dialogue up to a resolution of 490*490. It has achieved state-of-the-art performance in 10 classic cross-modal benchmarks. On the other hand, CogAgent-18B, an improved version of CogVLM with 11 billion visual parameters and 7 billion language parameters, supports image understanding at a higher resolution of 1120*1120, along with GUI image Agent capabilities, outperforming existing models on classic benchmarks and GUI operation datasets. Both models offer a Web Demo and multiple deployment options, including CLI and web demo interfaces, and detailed instructions for finetuning in specific tasks or using OpenAI Vision format. They are designed for various applications, including multi-turn image dialogues, GUI operations, and more, providing tools and prompts for fine-tuning and integrating these models into different tasks.",Explore CogVLM & CogAgent: Next-Gen Visual-Language Models,"Discover CogVLM & CogAgent, the state-of-the-art visual-language models revolutionizing image understanding and multi-turn dialogue. CogVLM-17B sets new performance benchmarks across 10 cross-modal benchmarks with its 17 billion parameters. CogAgent-18B extends these capabilities, introducing GUI Agent functionalities with unparalleled precision in GUI operation datasets. Experience their cutting-edge performance through a user-friendly web demo and dive into the future of visual-language modelling.","Unveil the power of CogVLM and CogAgent visual-language models: Breakthroughs in image understanding, multi-turn dialogue, and GUI operations. Discover their unmatched capabilities and try them via an interactive web demo.",Vision-Language Model,"Python
+
+
+
+
+
+        5,314
+
+
+
+
+
+        374
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://raw.githubusercontent.com/THUDM/CogVLM/main/assets/compare.png; https://raw.githubusercontent.com/THUDM/CogVLM/main/assets/chat.png,,5314,2023-09-18T02:12:50Z
