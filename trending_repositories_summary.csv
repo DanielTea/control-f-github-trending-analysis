@@ -16053,3 +16053,138 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         22 stars today",https://raw.githubusercontent.com/THUDM/CogVLM/main/assets/compare.png; https://raw.githubusercontent.com/THUDM/CogVLM/main/assets/chat.png,,5314,2023-09-18T02:12:50Z
+2024-05-24,https://github.com/PostHog/posthog,https://raw.githubusercontent.com/PostHog/posthog/master/README.md,"PostHog is an all-in-one, open-source platform designed to help build better products by offering a suite of tools for product analytics, user behavior understanding, and data management. It features event-based analytics, user and group tracking, data visualizations, SQL access for deeper analysis, session replays, heatmaps, feature flags for safe rollout of new features, A/B testing, and surveys. PostHog also offers tools for data import/export and integrates with various data warehouses. It is available for deployment in the EU or US, is SOC 2 compliant, and offers a generous free tier. Contributions to PostHog are encouraged through voting on features, opening PRs, and more. The platform aims to give companies control over their data in a world concerned with privacy and compliance. It stays up to date with new features, analytics, and beta offerings to continuously improve product development processes.",Maximize Your Product's Potential with PostHog: The Ultimate Open Source Analytics Platform,"Discover how PostHog's comprehensive, open source analytics platform can transform your product development process. With features like event-based analytics, session replays, feature flags, and A/B testing, PostHog provides the data insights you need to make informed decisions and enhance your product. It's fully SOC 2 compliant, offers EU and US hosting, and includes a generous free tier to get you started. Plus, PostHog's commitment to constant innovation means you're always ahead of the curve with the latest analytics tools.","Unlock the secret to product success with PostHog's open source analytics platform. Enjoy powerful features like event analytics, session replays, and A/B testing, all within a SOC 2 compliant, privacy-first framework.",Open Source Tool,"Python
+
+
+
+
+
+        17,736
+
+
+
+
+
+        1,062
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        31 stars today",https://user-images.githubusercontent.com/65415371/205059737-c8a4f836-4889-4654-902e-f302b187b6a0.png; https://img.youtube.com/vi/2jQco8hEvTI/0.jpg; https://user-images.githubusercontent.com/85295485/144591577-fe97e4a5-5631-4a60-a684-45caf421507f.gif,https://www.youtube.com/watch?v=2jQco8hEvTI,17736,2020-01-23T22:46:58Z
+2024-05-24,https://github.com/kangpeilun/VastGaussian,https://raw.githubusercontent.com/kangpeilun/VastGaussian/master/README.md,"The text describes an unofficial implementation of ""VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction,"" created by an individual tackling such a project for the first time. The implementation is noted to potentially contain errors and lack some engineering finesse. It emphasizes the absence of any pre-existing implementation of VastGaussian online, encouraging feedback or queries through provided contact details. The document lists completed and pending tasks, including various aspects of data handling and model training yet to address parallel training on a GPU and bug fixes. Modifications to the original 3DGS code for clarity and function, along with the approach to dataset processing and training commands, are outlined. It mentions using particular datasets for testing purposes, acknowledging limitations when dealing with large data due to hardware constraints. The effort attempts to stay true to the methodologies described in the pertinent literature, with some adaptations made possibly due to the author's interpretations.",Exploring the Unofficial VastGaussian Implementation: A Deep Dive into 3D Scene Reconstruction,"Diving into the realm of 3D scene reconstruction, the unofficial VastGaussian implementation marks a significant milestone for enthusiasts and researchers. Despite being a first attempt, the recreation of VastGaussian from scratch offers insights and paves the way for further exploration in large scene reconstruction. While acknowledging the presence of potential errors and a learning curve in coding practices, the initiative to fill the gap in available implementations is commendable. The journey into modifying and adapting the original 3DGS framework reveals dedication and invites collaboration from the community to enhance and debug the project.","Discover the unofficial implementation of VastGaussian for 3D scene reconstruction. Learn about the challenges and modifications made to adapt the original 3DGS framework, and how you can contribute to its development.",3D Image Rendering,"Python
+
+
+
+
+
+        150
+
+
+
+
+
+        10
+
+
+        Built by
+
+          
+
+
+
+
+
+        19 stars today",https://raw.githubusercontent.com/kangpeilun/VastGaussian/master/image/img_.png,,150,2024-05-14T06:05:07Z
+2024-05-24,https://github.com/pytube/pytube,https://raw.githubusercontent.com/pytube/pytube/master/README.md,"Pytube is a user-friendly, dependency-free Python library and command-line tool for downloading YouTube videos. It is designed for simplicity and reliability, with no external dependencies, making scripting video downloads easy for programmers. Pytube supports both progressive and DASH streams, playlist downloads, caption track downloads, and offers features like download progress callbacks. It also allows for downloading of video captions in .srt format, obtaining video thumbnail URLs, and has a command-line interface for direct downloads from the terminal. The library requires Python 3.6 or newer and can be installed via pip from PyPI or directly from the source on GitHub. Comprehensive documentation is available at pytube.io, with a quick start guide provided for basic use. Pytube actively welcomes contributions, including issues and pull request submissions from the community.",Master YouTube Video Downloads with PyTube: An Ultimate Guide,"Discover the power of PyTube, a Python library for effortless YouTube video downloads, without any third-party dependencies. This lightweight tool not only allows for quick video and playlist downloads but also offers features like downloading captions and handling different stream types. Whether you're scripting or using the command-line, PyTube makes downloading YouTube content straightforward and efficient. Dive into PyTube's extensive documentation for detailed usage, or start with the quickstart guide to download videos in minutes.","Learn how to download YouTube videos effortlessly with PyTube, a lightweight Python library. Explore features like playlist downloads, caption support, and more with our comprehensive guide.",Video Translation Tool,"Python
+
+
+
+
+
+        10,449
+
+
+
+
+
+        2,325
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",,https://www.youtube.com/watch?v=2lAe1cqCOXo; https://www.youtube.com/watch?v=2lAe1cqCOXo; https://www.youtube.com/watch?v=2lAe1cqCOXo,10449,2012-03-18T19:33:44Z
+2024-05-24,https://github.com/baidubce/app-builder,https://raw.githubusercontent.com/baidubce/app-builder/main/README.md,"The Baidu Intelligent Cloud Qianfan AppBuilder-SDK is a client SDK for AI-native app developers provided by the Baidu Intelligent Cloud Qianfan AppBuilder, a one-stop development platform. It offers functionalities in three major categories: basic components, process orchestration, and end-to-end applications. With it, developers can quickly set up AI-native applications locally, combining basic components and process orchestration for personalized Assistant + FunctionCall applications. It supports service deployment via API calls and interactive windows for fast cloud adoption and product integration. The SDK, currently at version 0.7.1, requires Python 3.9 or later for installation with guidance also available for Java, Go, and Docker usage. A code example demonstrates the SDK's use case for creating a geographic-themed query application, including setting up trial tokens, application IDs, and showing response outputs. Additional resources include links to the SDK's installation guide, version history, various examples of AI-native application development, popular applications recommendations, and community engagement information. The license is Apache-2.0.",Introducing Baidu's AppBuilder-SDK: A Guide for AI-Native Application Development,"Explore Baidu Smart Cloud Qianfan AppBuilder-SDK, a comprehensive development platform designed for AI-native app developers. This one-stop SDK offers foundational components, workflow orchestration, and end-to-end application functionalities, enabling rapid, local assembly of AI-native applications using Baidu's industrial practices. Whether it’s creating personalized Assistant + FunctionCall apps or deploying services via API calls and interactive windows, the AppBuilder-SDK empowers swift cloud integration and seamless product embedding.","Discover how Baidu's AppBuilder-SDK transforms AI-native app development with foundational components, workflow orchestration, and application functionalities for easy deployment and integration.",AI Development Platform,"Python
+
+
+
+
+
+        318
+
+
+
+
+
+        86
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,,318,2023-12-05T01:48:12Z
+2024-05-24,https://github.com/darrenburns/elia,https://raw.githubusercontent.com/darrenburns/elia/main/README.md,"Elia is a terminal-based interface designed for efficient and keyboard-centric interaction with various large language models (LLMs) such as ChatGPT, Claude 3, and local models like Llama 3 and Phi 3. It allows users to conduct conversations stored in a local SQLite database and supports interaction with both proprietary and local models, requiring specific API keys for some. Installation is through pipx, and the application features commands for launching chats, specifying models, and configuring settings such as default models, syntax highlighting themes, and adding new model support through a configuration file. Elia does not currently allow keybinding modifications but suggests workarounds for message sending. Users can import conversations from ChatGPT and manage the local database, including wiping data. The application is uninstalled via the pipx uninstall command.",Unlock Terminal Productivity: Interact with AI Models Using Elia,"Discover Elia, the terminal-based application transforming how you interact with large language models like ChatGPT, Claude, and Llama 3. Designed for keyboard enthusiasts, Elia prioritizes efficiency and fun, storing conversations locally and supporting a range of models for diverse inquiries. Install it easily with pipx, and dive into a user interface that's as snappy as it is smart. Whether you're chatting inline or in full screen, Elia adapts to your workflow, making AI conversations a seamless part of your terminal experience.","Elevate your terminal with Elia, the efficient application for engaging with AI models like ChatGPT and Llama 3. Experience keyboard-centric interaction, easy installation, and versatile model support.",Language Models Tool,"Python
+
+
+
+
+
+        617
+
+
+
+
+
+        46
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        20 stars today",,,617,2023-05-04T20:34:55Z
