@@ -16188,3 +16188,220 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         20 stars today",,,617,2023-05-04T20:34:55Z
+2024-05-25,https://github.com/W01fh4cker/CVE-2024-21683-RCE,https://raw.githubusercontent.com/W01fh4cker/CVE-2024-21683-RCE/main/README.md,"CVE-2024-21683-RCE details a remote code execution vulnerability. Credits for discovering and documenting this CVE are attributed to sources at x.com and a Substack post by realalphaman. Users interested in testing or utilizing this exploit can do so by cloning a designated GitHub repository (`W01fh4cker/CVE-2024-21683-RCE`), then proceeding to set up their environment by installing necessary Python packages (`requests` and `bs4`). Conducting the exploit involves running a Python script with parameters for the target URL, administrator credentials, file name (`exploit.js`), and the attacker’s server URL. The `exploit.js` file contains a simple Java command to execute `calc.exe`, illustrating how arbitrary code execution can be achieved.",Unveiling CVE-2024-21683-RCE: Exploring Its Impact and Mitigation Strategies,"The recently disclosed CVE-2024-21683-RCE poses a significant security threat by allowing remote code execution through authenticated sessions. Credits for its discovery go to online entities realalphaman_ and various contributions on Substack. The vulnerability is exploitable via a specifically crafted shell script, affecting systems accessible at certain IP addresses. Mitigation involves understanding the intricacies of the exploit, with guidelines available through specific online repositories including detailed steps for reproduction and defense.",,Cybersecurity Tool,"Python
+
+
+
+
+
+        63
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+        13 stars today",https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/image-20240523170746510.png,,63,2024-05-23T09:05:40Z
+2024-05-25,https://github.com/google-research/omniglue,https://raw.githubusercontent.com/google-research/omniglue/main/README.md,"The CVPR 2024 paper ""OmniGlue: Generalizable Feature Matching with Foundation Model Guidance"" introduces OmniGlue, a novel learnable image matcher aimed at addressing the limitations of existing feature matching techniques in generalizing to new image domains. OmniGlue leverages knowledge from vision foundation models and employs a keypoint position-guided attention mechanism to enhance matching descriptors' generalization capabilities. The paper presents comprehensive experiments across six datasets, demonstrating OmniGlue's superiority over existing methods, with significant gains in performance on unseen domains. The official code release includes installation instructions, usage examples, and a demo, alongside direct download links for necessary models such as SuperPoint, DINOv2, and OmniGlue weights. Despite being an unofficial Google product, OmniGlue represents a significant advancement in the field of image matching, offering improved generalization for real-world applications.",OmniGlue: Revolutionizing Image Matching with AI - CVPR 2024,"Discover the groundbreaking OmniGlue, unveiled at CVPR 2024, a pioneering image matcher designed to transcend traditional limitations in feature matching. By integrating vision foundation model insights, it sets new standards for domain generalization, retaining efficacy in unseen image terrains. Enhanced by a novel keypoint attention mechanism, OmniGlue offers unmatched descriptor refinement, validated across diverse datasets for superior real-world applicability. Its release heralds a new era in image processing, promising significant advancements in machine vision.","Explore OmniGlue, the CVPR 2024 introduced AI model transforming feature matching with unparalleled generalization across diverse image domains and superior descriptor enhancement for real-world applications.",Image Generation Platform,"Python
+
+
+
+
+
+        209
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        17 stars today",,,209,2024-05-07T18:50:52Z
+2024-05-25,https://github.com/ungoogled-software/ungoogled-chromium,https://raw.githubusercontent.com/ungoogled-software/ungoogled-chromium/master/README.md,"ungoogled-chromium is a lightweight version of Google Chromium without dependency on Google web services, aiming to be a drop-in replacement for the original, while focusing on enhancing privacy, control, and transparency. These goals are achieved by disabling Google-specific functionality, removing background requests to Google services, and stripping binaries from the source code. Features promoting user control and privacy need to be manually activated. It retains the Chromium experience as much as possible and includes features from other projects like Inox patchset, Bromite, Debian, and Iridium Browser. Builds are available for various platforms, and the project welcomes contributions from the community to further its development. The project is BSD-3-clause licensed, encouraging open-source collaboration.",Exploring Ungoogled-Chromium: The Privacy-Focused Browser,"Dive into the world of ungoogled-chromium, a unique Chromium fork that eliminates the need for Google web services while prioritizing privacy and transparency. It's designed as a drop-in replacement for Chromium, retaining the familiar browsing experience but with enhanced controls for a more secure online journey. With manual activation of privacy features, users gain significant control over their digital footprint. Explore this open-source project to understand its philosophy, features, and how you can contribute to its development.","Discover ungoogled-chromium, the open-source browser project removing Google dependencies for enhanced privacy and control. Learn about its features, and how it maintains the Chromium experience.",Privacy-focused Browser,"Python
+
+
+
+
+
+        19,226
+
+
+
+
+
+        791
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        21 stars today",,,19226,2015-06-12T22:24:24Z
+2024-05-25,https://github.com/epic-open-source/seismometer,https://raw.githubusercontent.com/epic-open-source/seismometer/main/README.md,"The seismometer suite is a collection of tools designed to evaluate the performance of AI models in healthcare, focusing on accuracy and supporting equitable care across diverse patient populations. Developed to adhere to standards set by healthcare systems, IT developers, experts, and the government, seismometer aids in validating AI models' effectiveness within specific local workflows and patient demographics. It offers features for analyzing model performance, fairness, and the impact of interventions, evolving with advancements in validation techniques. Installation is straightforward via pip. Support includes a user guide, an issues page for bug reports and suggestions, and an email for additional queries. Contributions to seismometer are encouraged, covering bug reports, documentation, enhancements, and ideas, with a guide available for interested contributors.",Enhancing Healthcare AI with Seismometer: A Guide to Improved Patient Outcomes,"Healthcare organizations leverage AI to boost patient outcomes and clinician efficiency, necessitating tools like Seismometer for AI model evaluation. Seismometer offers a suite of tools for implementing standardized criteria to test AI models against diverse patient data and workflows, specifically designed for healthcare applications. It enables ongoing validation and performance monitoring of healthcare AI models, ensuring they deliver equitable care. With features for analyzing model performance and fairness, Seismometer is essential for healthcare AI validation.",Discover how Seismometer can transform healthcare AI by offering tools for evaluating AI models based on standardized criteria to improve patient outcomes and ensure equitable care.,AI Development Platform,"Python
+
+
+
+
+
+        96
+
+
+
+
+
+        8
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",,,96,2024-05-06T18:56:00Z
+2024-05-25,https://github.com/huggingface/accelerate,https://raw.githubusercontent.com/huggingface/accelerate/main/README.md,"This text outlines the essence of 🤗 Accelerate, a software tool designed to simplify the execution of PyTorch training scripts across various hardware configurations, including multi-GPU, TPU, and mixed precision setups. Developed by the Hugging Face team, Accelerate abstracts away the complexity of scaling up training scripts while allowing PyTorch users to maintain control over their training loops. The documentation highlights easy integration into existing codebases by demonstrating modifications to a sample PyTorch script, introducing minimal changes for compatibility with Accelerate's API. Furthermore, it provides a Command Line Interface (CLI) for easy configuration and deployment of training environments. Additionally, it briefly discusses experimental support for DeepSpeed, utility for notebook environments, and mentions various high-level frameworks and tools that integrate with 🤗 Accelerate for enhanced functionality. Installation guidance and support for a range of computational setups are outlined, emphasizing Accelerate's role in making distributed and efficient training accessible. The effort concludes with an invitation to cite 🤗 Accelerate in related publications, providing a BibTeX entry for academic use.",Master PyTorch Training with Hugging Face's 🤗 Accelerate: A Complete Guide,"Discover the ease of integrating Hugging Face's 🤗 Accelerate into your PyTorch projects for efficient, boilerplate-free multi-GPU/TPU and mixed precision training. Learn how just a few lines of code can optimize your training process, enabling seamless debugging and execution across various environments without altering your core training loop. Explore our detailed documentation and examples to leap into distributed training with confidence.",A comprehensive guide to optimizing PyTorch training scripts with Hugging Face's 🤗 Accelerate for multi-GPU/TPU support and mixed precision. Learn how to simplify your training loop and enhance debugging and deployment with minimal code modifications.,Deep Learning Tool,"Python
+
+
+
+
+
+        7,133
+
+
+
+
+
+        826
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://raw.githubusercontent.com/huggingface/accelerate/main/docs/source/imgs/accelerate_logo.png; https://raw.githubusercontent.com/huggingface/accelerate/main/docs/source/imgs/course_banner.png,,7133,2020-10-30T13:27:12Z
+2024-05-25,https://github.com/Acly/krita-ai-diffusion,https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/README.md,"Generative AI for Krita is a plugin that enables users to generate, expand, and refine image content directly within Krita, a popular digital painting software. With features like inpainting to replace or remove parts of an image, outpainting for expanding canvases with matching content, and generating new images from text prompts or sketches, it enhances creative workflows by integrating AI tools seamlessly. It supports various resolution images, provides real-time feedback through live painting, and allows extensive customization for both beginner and advanced users. The plugin is local, open-source, free, and supports hardware acceleration on NVIDIA, AMD, and Apple M-series GPUs, though CPU support is available but slower. Installation requires Krita 5.2.0 or newer, and while the plugin includes a job queue and history for managing multi-step creations, users can also manually configure or connect to external servers for advanced features like object selection tools and GPU cloud support for faster processing.",Unlock Creativity with Generative AI for Krita: Complete Guide,"Discover how the Generative AI plugin transforms Krita, allowing artists to generate, expand, and refine images effortlessly. From inpainting to outpainting, this plugin introduces a suite of tools designed to enhance the digital painting workflow, making creative content generation more intuitive and efficient than ever. It's local, open-source, and free, perfect for artists seeking to push the boundaries of digital art with AI. Whether refining existing artwork or starting afresh, this plugin is a game-changer for Krita users.","Enhance your Krita artwork with the Generative AI plugin. Explore features like inpainting, outpainting, and live painting to revolutionize your digital art. Download now and start creating.",Image Generation Platform,"Python
+
+
+
+
+
+        5,024
+
+
+
+
+
+        224
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        24 stars today",https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/ai_diffusion/icons/logo-128.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-2.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-1.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-3.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-4.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-5.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-6.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-installation.png; https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/media/screenshot-style.png,https://www.youtube.com/watch?v=Ly6USRwTHe0; https://www.youtube.com/watch?v=Ly6USRwTHe0; https://www.youtube.com/watch?v=AF2VyqSApjA; https://www.youtube.com/watch?v=-QDPEcVmdLI,5024,2023-09-01T22:52:13Z
+2024-05-25,https://github.com/pathwaycom/pathway,https://raw.githubusercontent.com/pathwaycom/pathway/main/README.md,"Pathway is a Python data processing framework designed for analytics and AI pipelines over data streams, perfect for real-time processing like streaming ETL or data pipelines for unstructured data. It features an easy-to-use Python API, integrating with Python ML libraries, and supports both development and production environments. Powered by a scalable Rust engine for incremental computation, it offers robust performance for multithreading, multiprocessing, and distributed computations. Pathway includes features such as various connectors for external data sources, stateless and stateful transformations, persistence for computational state, and time-handling for consistency. It supports real-time processing for a variety of use cases, from ETL to analytics and AI pipelines. Installation is straightforward via pip, and it offers comprehensive support through its community on Discord, GitHub, and documentation online. Pathway is licensed under BSL 1.1, with code transitioning to Apache 2.0 License after four years, encouraging both non-commercial and commercial use.",Unlock Real-time Data Processing with Pathway: A Python Framework for AI and Analytics Pipelines,"Discover Pathway, the Python framework revolutionizing data processing for analytics and AI over data streams. With its easy-to-use API and robust Rust engine, Pathway seamlessly integrates with your favorite Python libraries, handling both batch and streaming data for development and production. It offers multithreading, multiprocessing, and distributed computations, ensuring efficient real-time processing. Plus, deployment is a breeze with Docker and Kubernetes. Get started with `pip install -U pathway` and join the community on Discord for any questions.","Explore Pathway, the cutting-edge Python framework for real-time data processing in analytics and AI. Learn how its Rust engine and seamless library integration empower development and production, with easy deployment via Docker and Kubernetes.",Data Ingestion Tool,"Python
+
+
+
+
+
+        2,117
+
+
+
+
+
+        80
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        70 stars today",https://d14l3brkh44201.cloudfront.net/pathway-dashboard.png; https://github.com/pathwaycom/pathway-benchmarks/raw/main/images/bm-wordcount-lineplot.png,,2117,2022-11-27T13:01:14Z
+2024-05-25,https://github.com/geekcomputers/Python,https://raw.githubusercontent.com/geekcomputers/Python/master/README.md,"The text introduces a personal project by someone who experiments with Python for automation and educational purposes, despite not considering themselves a programmer. They are open to feedback and improvements on their code, which can be viewed in Notepad++. The repository holds a diverse collection of Python scripts aimed at automating tasks, solving problems, and serving as learning examples. It includes utilities for batch file renaming, directory creation, YouTube video downloading, image retrieval, game creation, and more. Educational tools encompass a Blackjack game, live cricket scores, a simple stopwatch, and a voice-controlled program named JARVIS, among others. The author encourages exploration and use of these scripts for learning and automation needs, crediting original authors where applicable.",Master Python Automation: Discover Exciting Projects for Beginners,"Dive into the world of Python with a treasure trove of scripts aimed at reducing workload and enhancing your learning. From batch renaming files to mastering the Blackjack-21 game, this collection is perfect for anyone looking to experiment with Python or streamline their tasks. Notepad++ users will appreciate the documentation's alignment, ensuring easy code readability. Explore, use, and improve these scripts to fit your automation needs or as a stepping stone in your Python learning journey. Your feedback and improvements are always welcome, so feel free to reach out!","Explore a curated collection of Python scripts for beginners. Learn, automate, and improve your coding skills with practical Python projects. Ideal for education and task automation.",Python Libraries Collection,"Python
+
+
+
+
+
+        30,158
+
+
+
+
+
+        12,008
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        30 stars today",,https://www.youtube.com/watch?v=v2X51AVgl3o,30158,2011-11-30T09:04:08Z
