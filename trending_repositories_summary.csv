@@ -16405,3 +16405,247 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         30 stars today",,https://www.youtube.com/watch?v=v2X51AVgl3o,30158,2011-11-30T09:04:08Z
+2024-05-26,https://github.com/THU-MIG/yolov10,https://raw.githubusercontent.com/THU-MIG/yolov10/main/README.md,"YOLOv10 represents a significant advancement in the domain of real-time object detection, refining the balance between efficiency and accuracy. This iteration addresses the inefficiencies of previous YOLO versions, notably by eliminating reliance on non-maximum suppression (NMS) for post-processing, which improves inference latency. The researchers introduce a dual assignment method for NMS-free training, significantly enhancing the model's speed and efficiency without compromising performance. Comprehensive optimizations across the model's architecture have further reduced computational overhead while boosting detection capabilities. YOLOv10 sets new benchmarks in the performance-efficiency trade-off across various scales, outperforming predecessors like YOLOv9 in latency, parameter count, and floating point operations per second (FLOPs) for comparable accuracy. The official release includes PyTorch implementation, updated checkpoints with added attributes, and demonstrations across several platforms, including a Transformers.js demo and Colab and Hugging Face integrations, showcasing its practical applicability and superior performance metrics in real-world settings.",Exploring YOLOv10: The Future of Real-Time Object Detection,"YOLOv10 sets a new benchmark in real-time object detection with its official PyTorch implementation, marking a significant advancement in the YOLO series. By optimizing the balance between performance and computational efficiency, YOLOv10 outshines its predecessors and competitors in latency, accuracy, and model size. This latest iteration introduces NMS-free training and a holistic model design strategy, drastically enhancing detection capability and reducing inference latency. YOLOv10's state-of-the-art performance is validated through extensive testing, proving its superiority in speed and efficiency across various metrics on COCO dataset. The continuous updates and integrations, including accessible checkpoints and demos, demonstrate the thriving community and ongoing improvements surrounding this breakthrough in object detection technology.","Discover YOLOv10, the pinnacle of real-time end-to-end object detection technology, offering unprecedented speed, accuracy, and efficiency in object detection. Learn about its latest advancements and community contributions.",Deep Learning,"Python
+
+
+
+
+
+        1,353
+
+
+
+
+
+        107
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        287 stars today",,,1353,2024-05-23T09:15:07Z
+2024-05-26,https://github.com/Dataherald/dataherald,https://raw.githubusercontent.com/Dataherald/dataherald/main/README.md,"The Dataherald monorepo represents a natural language-to-SQL engine designed for enterprises to query their relational data in plain English, significantly simplifying data analysis and insights extraction. It facilitates direct questions to databases through an API, eliminating the need for intermediary data analysts. This solution is ideal for businesses wishing to integrate query functionalities within their SaaS applications or develop a ChatGPT plug-in using their own data. The repository comprises four main components: the core engine, enterprise application API, admin-console for GUI, and a Slackbot for interactive querying via Slack. To deploy Dataherald locally, users need to set environment variables and run services with a provided script, ensuring a seamless setup process. The project welcomes contributions in various forms, including new features, infrastructure improvements, or documentation enhancements.",Harness the Power of Natural Language Queries with Dataherald,"Discover Dataherald, the cutting-edge natural language-to-SQL engine designed for enterprises. This remarkable technology allows business users to extract insights from data warehouses directly with natural language, enabling seamless Q+A from production databases and the creation of ChatGPT plugins from proprietary data. With components like Engine, Enterprise, Admin-console, and Slackbot, Dataherald provides a comprehensive solution for setting up an API from your database. It's an open-source project welcoming contributions to further enhance its capabilities.",Explore how Dataherald's natural language-to-SQL engine transforms enterprise data querying by allowing business users to interact with data warehouses using plain English. Learn about its components and how to contribute.,Natural Language Processing,"Python
+
+
+
+
+
+        2,323
+
+
+
+
+
+        158
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        380 stars today",https://files.dataherald.com/logos/dataherald.png,,2323,2023-06-20T21:06:11Z
+2024-05-26,https://github.com/mistralai/mistral-finetune,https://raw.githubusercontent.com/mistralai/mistral-finetune/main/README.md,"The `mistral-finetune` codebase facilitates the efficient and high-performance finetuning of Mistral's models, leveraging the LoRA training paradigm for minimal additional training of weights. It is optimized for A100 or H100 GPUs and supports multi-GPU setups. The codebase comes with an instructional guide for installation, model download, dataset preparation, and verification to ensure correct formatting and efficient training. Specifically, it covers model download links, detailed instructions for preparing datasets in required formats, verifying data integrity, and estimating training time. It emphasizes the use of jsonl format for training and evaluation data, supporting two data types: pretrain and instruct. Additionally, it guides on customizing training configurations, including model path, data paths, batch size, sequence length, and other parameters crucial for tailored training setups. Finally, it concludes with inference instructions and tips for extending model vocabularies to ensure compatibility with the v3 tokenizer and addresses FAQs on fine-tuning practices and troubleshooting common issues like CUDA memory errors.",Unlock Powerful Custom AI Models with Mistral-finetune and LoRA,"Discover how Mistral-finetune leverages the LoRA paradigm, offering a memory-efficient way to fine-tune AI models with just 1-2% additional weights. Perfect for models up to 7B on GPUs like A100 or H100, it simplifies the finetuning process for maximum efficiency. With support for both pretrain and instruct modes, this tool promises to revolutionize the way we approach AI model personalization.","Learn to easily fine-tune Mistral's AI models using Mistral-finetune with LoRA. Memory-efficient, effective, and optimized for A100 or H100 GPUs, it's designed for multi-GPU setups but efficient enough for single GPU. Start customizing AI models for your specific needs today.",Deep Learning Tool,"Python
+
+
+
+
+
+        1,312
+
+
+
+
+
+        64
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        479 stars today",,,1312,2024-05-24T18:19:28Z
+2024-05-26,https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs,https://raw.githubusercontent.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/main/README.md,"Uni-MoE introduces a novel framework for scaling Unified Multimodal Large Language Models (LLMs) by incorporating a Mixture of Experts (MoE) approach, capable of processing audio, image, text, and video data. This method involves integrating modality-specific experts within LLM's transformer blocks, featuring a shared self-attention mechanism, modality-specific feed-forward networks, and a sparse routing mechanism for token-level attention. Uni-MoE is structured around three training stages aimed at building connectors for multimodal understanding, developing modality-specific experts for deep understanding, and refining the model with the LoRA technique on mixed data. The project invites users to contribute by starring the repository on GitHub and offers detailed instructions for installation, weight management, and both inference and training processes. Encoder weights for vision, speech, and audio are available for download. The Uni-MoE project encourages research use, complying with LLaMA and Vicuna license agreements, and provides citation information for academic use.",Unlocking Multimodal AI: UMOE's Revolutionary Approach,"Discover UMOE, a groundbreaking multi-modal AI framework capable of processing audio, image, text, and video through a unified system. UMOE employs a cutting-edge Mixture of Experts within LLMs, blending shared self-attention mechanisms with modality-specific experts and a novel sparse routing strategy. This innovative approach enables unparalleled token-level expert attention across diverse data types, promising to revolutionize multimodal learning. The UMOE project invites contributions and community engagement on GitHub, marking a significant leap forward in AI's journey towards understanding multimodal data. Explore the full capabilities and development journey of UMOE - a game-changer in the field of artificial intelligence.","Explore UMOE: A cutting-edge multimodal framework that integrates audio, image, text, and video processing into a unified AI system, promising revolutionary advances in multimodal learning.",Multimodal AI Model,"Python
+
+
+
+
+
+        358
+
+
+
+
+
+        16
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        148 stars today",https://s21.ax1x.com/2024/03/07/pFrOouV.png; https://raw.githubusercontent.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/main/resource/model.png,,358,2024-03-04T07:17:51Z
+2024-05-26,https://github.com/maitrix-org/Pandora,https://raw.githubusercontent.com/maitrix-org/Pandora/main/README.md,"Pandora introduces a step towards a General World Model (GWM), aiming to create a model capable of simulating world states as videos across various domains and controlled by natural language actions at any time. The project, detailed on [world-model.ai](world-model.ai), launched its model, inference code, website, and paper on May 23, 2024. Pandora is supported on systems with CUDA 12.1 or 11.8, with installation instructions provided for setting up the environment. While the model weights are currently unavailable due to licensing issues, a Gradio demo is available, allowing users to interact with the model once the setup is complete. The development and potential applications of Pandora are documented in a paper authored by a team led by Jiannan Xiang et al.",Pandora: Revolutionizing AI with Natural Language Actions & Video State Simulation,"Discover Pandora, the cutting-edge leap towards a General World Model designed to simulate any world state through video generation and be controlled via natural language. This innovative AI model marks a significant milestone by allowing for intuitive interaction and deeper AI integration across various domains. As of May 2024, the Pandora model and its comprehensive resources have been officially released, including a detailed paper and a user-friendly website for researchers and developers. Visit the official website to explore the results, download the model, and gain insights into this groundbreaking technology.","Explore Pandora, an AI General World Model that simulates world states via video and is controlled through natural language. Visit now for the model, paper, and exclusive insights.",Multimodal AI Model,"Python
+
+
+
+
+
+        228
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        25 stars today",https://raw.githubusercontent.com/maitrix-org/Pandora/main/./assets/logo.png; https://raw.githubusercontent.com/maitrix-org/Pandora/main/assets/architecture.png,,228,2024-05-22T17:33:34Z
+2024-05-26,https://github.com/shamhi/HamsterKombatBot,https://raw.githubusercontent.com/shamhi/HamsterKombatBot/main/README.md,"The text provides detailed instructions on how to set up and use a Telegram bot named HamsterKombatBot, which is designed to automate various tasks such as purchasing items using coins and performing clicks with pauses and variability in count. The bot supports features like multi-threading, session-specific proxy binding, auto-purchasing items, sleep time between clicks, and random click counts per request. It is compatible with tdata, pyrogram .session, and telethon .session. Configuration settings include API_ID/API_HASH for Telegram session initiation, energy levels for triggering actions, and settings for auto-upgrading and daily bonuses. Quick start instructions include installing libraries on Windows, and prerequisites mention the need for Python 3.10 or 3.11. Steps for obtaining API keys from the Telegram website and setting up the bot by cloning the repository and installing dependencies are outlined. The installation process varies slightly for Linux and Windows systems, with specific commands provided for each. Additionally, quick start commands are available for initiating sessions or running the clicker function.",Maximize Your Earnings with HamsterKombatBot: The Ultimate Telegram Bot Guide,"Discover the power of HamsterKombatBot, a Telegram bot designed for automated item purchases and more, with features like multi-threading, session-specific proxy binding, and auto-upgrades. Learn how to quickly start, from installing necessary libraries to running the bot with simple commands for Windows and Linux users. Ensure you have Python 3.10 or 3.11 installed, and follow our guide to obtain your API keys for a smooth setup. Perfect your bot's performance by adjusting settings such as minimum energy levels, sleep intervals, and random tap counts. Dive into the world of efficient Telegram bot usage with our easy-to-follow guide.","Step up your game with HamsterKombatBot, a Telegram bot offering automatic item purchases, multi-threading, and more. Get quick setup instructions and optimize your bot's performance with our expert guide.",AI Task Automation,"Python
+
+
+
+
+
+        95
+
+
+
+
+
+        30
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://raw.githubusercontent.com/shamhi/HamsterKombatBot/main/.github/images/demo.png,,95,2024-04-05T17:36:13Z
+2024-05-26,https://github.com/eloialonso/diamond,https://raw.githubusercontent.com/eloialonso/diamond/main/README.md,"The text introduces DIAMOND (DIffusion as a Model Of eNvironment Dreams), a novel reinforcement learning agent developed for modeling environments in certain Atari games, showcasing its capabilities through ""autoregressive imagination."" It provides installation instructions for two environments: one using Miniconda and another using Python's venv system. By downloading the pretrained models, users can try DIAMOND on a selection of Atari games, with options to control aspects such as the imagination horizon and policy switching between agent and human control. It mentions training procedures, configuration details, visualization tools, and organizational structure for running and storing experiment data. Also provided are links to resources and acknowledgments, including contributions from various repositories and tools that supported the development of DIAMOND. The document concludes with the citation for DIAMOND's research and a nod to notable contributions to the project.",Revolutionizing Atari Gameplay: Introducing DIAMOND for Advanced World Modeling,"Discover DIAMOND, a groundbreaking reinforcement learning agent using diffusion models for unprecedentedly rich Atari game experiences. This agent, trained via a world model called DIAMOND, enhances autoregressive imagination in various Atari games, offering a deeper, more immersive gameplay. Experience the future of gaming by testing pretrained models or dive into creating your own environments. This innovation not only pushes the boundary of what's possible in game design but also provides a platform for research in reinforcement learning. Get started with DIAMOND today and redefine your gaming experience.","Explore DIAMOND, an advanced reinforcement learning agent that uses diffusion world models for richer, detailed visualizations in Atari games. Learn how to test or customize your own models for a cutting-edge gaming experience.",Machine Learning,"Python
+
+
+
+
+
+        131
+
+
+
+
+
+        7
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        20 stars today",https://raw.githubusercontent.com/eloialonso/diamond/main/assets/main.gif,,131,2024-05-19T22:31:40Z
+2024-05-26,https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap,https://raw.githubusercontent.com/floodsung/Deep-Learning-Papers-Reading-Roadmap/master/README.md,"The text provides a comprehensive roadmap for reading Deep Learning papers, recommended for newcomers to the field. It offers a structured approach to gradually understanding the evolution, theories, methodologies, and applications of Deep Learning. The roadmap suggests starting with foundational works and progressing to state-of-the-art research, covering topics from neural network basics, history, and key milestones in ImageNet evolution and speech recognition, to deep reinforcement learning and specific applications in NLP, object detection, and beyond. Notable papers include those by Bengio, LeCun, and Hinton, among others, spanning various Deep Learning facets like CNNs, RNNs, unsupervised learning, and more. Furthermore, it touches on optimization methods, sequence modeling, unsupervised learning, and specific applications across robotics, art, and more, intending to keep the collection updated with new significant works.",Essential Guide to Starting Your Journey in Deep Learning Research,"Embarking on deep learning research can be daunting for newcomers. This blog post outlines a curated roadmap of essential deep learning papers, guiding you from the fundamentals to sophisticated applications. By adhering to this roadmap, you'll journey through the transition from theory to practice, explore the evolution of algorithms, and dive into specialized research areas. Stay tuned as we continue to update our roadmap with the latest groundbreaking papers.","Begin your deep learning research journey with our expertly curated roadmap of foundational and cutting-edge papers. Navigate from basics to advanced topics, and stay updated with continually added new research.",Deep Learning Platform,"Python
+
+
+
+
+
+        37,534
+
+
+
+
+
+        7,291
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        33 stars today",,,37534,2016-10-14T11:49:48Z
+2024-05-26,https://github.com/bellingcat/telegram-phone-number-checker,https://raw.githubusercontent.com/bellingcat/telegram-phone-number-checker/main/README.md,"The Telegram Phone Number Checker is a Python-based tool for verifying if phone numbers are linked to Telegram accounts, while also retrieving usernames, names, and IDs where available. Users can install it directly from PyPI or clone it from GitHub. Running the script requires a Telegram account with an active phone number, and the `API_ID` and `API_HASH` obtained from creating a developer account on Telegram. These credentials can be set in a `.env` file or provided when executing the script. Usage involves passing a single or multiple phone numbers as arguments, with results output to the console and optionally to a `results.json` file. Possible responses include the retrieval of connected Telegram user information, a message indicating a non-username-linked account, an error suggesting the number isn't linked to an account or has restricted contact settings, or an unspecified error. Development setup details and dependencies management instructions are also provided for those interested in contributing to the project.
+",Ultimate Guide to Telegram Phone Number Checker: Installation and Usage,"Discover how to use the Telegram Phone Number Checker tool to find out if phone numbers are connected to Telegram accounts, including usernames and IDs. This Python script is easily installed from PyPI or GitHub, requiring only a few simple commands. You need a Telegram account, API_ID, and API_HASH for setup. The tool supports checking multiple numbers simultaneously and outputs the results in a convenient JSON format. Perfect for developers and investigators needing to verify phone number connections to Telegram.","Learn to install and use the Telegram Phone Number Checker to identify phone numbers connected to Telegram accounts, including setup instructions and usage examples.",Web Scraping Tool,"Python
+
+
+
+
+
+        883
+
+
+
+
+
+        150
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        34 stars today",,,883,2021-02-17T11:31:31Z
