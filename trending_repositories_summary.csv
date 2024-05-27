@@ -16649,3 +16649,55 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         34 stars today",,,883,2021-02-17T11:31:31Z
+2024-05-27,https://github.com/vb000/LookOnceToHear,https://raw.githubusercontent.com/vb000/LookOnceToHear/main/README.md,"The paper ""Look Once to Hear: Target Speech Hearing with Noisy Examples"" introduces an innovative hearable system designed to enhance the user's ability to hear a target speaker amidst noise by simply looking at them. This system, which received an honorable mention at CHI 2024, leverages clean speech, background noise, HRTFs, and BRIRs for training. The training involves the use of the Scaper toolkit to generate audio mixtures synthetically. Users interested in utilizing or exploring this technology can set up the environment using specified Python versions, install requirements, and follow instructions for training and evaluation provided in the repository. Training data and necessary configurations are available for download, and the evaluation process utilizes model checkpoints that are also accessible. This repository not only details the technical setup but also provides the necessary resources, including datasets and source code, enabling replication and further investigation of the proposed system.",Unlock the Future of Hearables: Look Once to Hear Paper Overview,"Discover the breakthrough in hearable technology with the paper, 'Look Once to Hear: Target Speech Hearing with Noisy Examples'. This innovative system allows users to focus on a speaker by simply looking at them, enhancing communication in noisy environments. Awarded an honorable mention at CHI 2024, this study paves the way for advancements in auditory assistance devices. Explore the technical setup, training details, and evaluation outcomes of this fascinating project.","Explore the 'Look Once to Hear' paper, an award-winning study on hearable technology that enables target speech hearing in noisy settings by looking at the speaker. Learn about its setup, training, and evaluation.",AI Development Platform,"Python
+
+
+
+
+
+        135
+
+
+
+
+
+        18
+
+
+        Built by
+
+          
+
+
+
+
+
+        43 stars today",,,135,2024-05-10T01:46:00Z
+2024-05-27,https://github.com/talkdai/dialog,https://raw.githubusercontent.com/talkdai/dialog/main/README.md,"The text introduces *talkd/dialog*, an application designed for programmers working with AI and deploying Retrieval Augmented Generation (RAG) models, focusing on simplifying the deployment and maintenance of Large Language Models (LLMs) without requiring extensive server maintenance knowledge. It offers an API through *dialog-lib* for deploying LLMs and aims to humanize RAGs while expanding on RAG deployment techniques. Users can quickly start projects with Docker, clone the repository, and follow setup instructions involving environment variables and Docker commands. Tutorials, a partnership with Open-WebUI for front-end interface, prompt customization using `.csv` knowledge bases, and `.toml` prompt configurations are available to assist users. The project emphasizes the ease of adding new knowledge and managing dialogue flows with customizable prompts. The documentation provided offers detailed guidance on setting up the project and customizing it to users' needs, including environment variable setups. The project is maintained by a team led by four main contributors and is aimed at the developer community interested in advancing their AI models with efficient deployment solutions, backed by *talkd.ai*.",Simplify Your LLM Deployment: Effortless AI Integration with Dialog App,"Discover how Dialog App revolutionizes AI deployments for programmers by simplifying LLM integration, focusing on easing the deployment of Retrieval-Augmented Generation (RAG) without requiring server maintenance expertise. This tool not only humanizes RAGs but also expands to offer better deployment and maintenance solutions, supported by a robust API from [dialog-lib](https://github.com/talkdai/dialog-lib). With comprehensive documentation and a straightforward setup process involving Docker, Dialog App promises an easier path for developers to train models more efficiently. Explore Dialog's unique approach to AI deployment in our latest blog.","Explore Dialog App for an effortless deployment of LLMs and RAGs, designed for programmers without server maintenance knowledge. Simplify your AI integrations, train models efficiently, and focus more on development with our comprehensive guide.",AI Deployment Platform,"Python
+
+
+
+
+
+        212
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        42 stars today",,https://www.youtube.com/watch?v=pTFZFxd4hOI,212,2023-11-09T21:48:54Z
