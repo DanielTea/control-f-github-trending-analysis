@@ -16701,3 +16701,133 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         42 stars today",,https://www.youtube.com/watch?v=pTFZFxd4hOI,212,2023-11-09T21:48:54Z
+2024-05-28,https://github.com/lks-ai/anynode,https://raw.githubusercontent.com/lks-ai/anynode/main/README.md,"AnyNode v0.1 is a beta feature of ComfyUI that leverages Large Language Models (LLMs) to process input and generate various types of output. Recently, it introduced `AnyNode (Gemini)` and `AnyNode (Local LLM)` nodes, catering to requests for using local or hosted LLM services that are OpenAI compatible. Users can install AnyNode via ComfyUI Manager and configure it for use with OpenAI, Gemini, or Local LLMs APIs, depending on their preference. It allows users to create python functions automatically to process and connect input and output to other nodes seamlessly. Despite its versatility, limitations include the necessity for some programming knowledge and the inability to predict highly complex tasks without detailed prompts. Future updates include exporting nodes, saving functions, incorporating multiple inputs and outputs, and enhancing function storage and search capabilities. Users are advised on prompt engineering to avoid common coding errors.",Unlocking Creativity with AnyNode v0.1: The Future of Node-Based Programming,"Discover AnyNode v0.1, the innovative ComfyUI node leveraging LLMs to transform any input into versatile outputs. Its recent update introduces the much-anticipated Local LLMs Generating Nodes, allowing for unparalleled customization and efficiency in programming tasks. Whether it's simplifying complex workflows or integrating various data sources, AnyNode facilitates a new level of programming agility and creative exploration.",Explore AnyNode v0.1 and its latest update featuring Local LLM Generating Nodes. Tailor your programming with ComfyUI for enhanced productivity and creativity in developing versatile outputs from any input.,AI Development Platform,"Python
+
+
+
+
+
+        193
+
+
+
+
+
+        11
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        99 stars today",https://img.youtube.com/vi/f52K5pkbZy8/maxresdefault.jpg,https://www.youtube.com/watch?v=f52K5pkbZy8; https://www.youtube.com/watch?v=f52K5pkbZy8,193,2024-05-25T15:58:58Z
+2024-05-28,https://github.com/dbrojas/optlib,https://raw.githubusercontent.com/dbrojas/optlib/master/README.md,"Optlib is a Python library for fetching financial option chains and pricing options, created by Davis Edwards and packaged by Daniel Rojas. It uses closed-form solutions, following the MIT License, and has undergone various updates since its inception on January 1, 2017. Updates include the creation of formulas for different types of options, adding theoretical formula explanations, implementing sensitivity analysis graphics, and approximation models for American Options. On August 31, 2020, Daniel Rojas extended its functionality to fetch option chains and historical data via the TDAmeritrade API. Installation involves cloning the repository, creating a virtual environment, and installing the library. The library is designed to price a variety of financial derivatives widespread in the industry, based on the Black Scholes Merton framework, and necessitates a TDAmeritrade API key for fetching real-time data. Its scope also includes documentation on pricing formulas for various types of options and theoretical background on the generalized Black Scholes model, modifications for different financial instruments, and specific models like Asian and Spread options, along with approximations for American options and implied volatility calculations.
+
+",Unlocking Financial Derivatives: A Guide to the optlib Python Library,"optlib stands as a pivotal Python library engineered by Davis Edwards and Daniel Rojas, serving a critical role in fetching financial option chains and pricing options using closed-form solutions. Highlighting its evolution, from the creation of GBS and Asian option formulas to the integration with TDAmeritrade API for fetching historical data, this library adheres to the MIT License, ensuring open accessibility. It caters to financial analysts and Python developers keen on applying sophisticated pricing models across various financial products, marking a significant stride in financial computational tools. Through its comprehensive coverage, from European and American options to implied volatility calculators, optlib proves an invaluable asset in the arsenal of financial modeling.","Explore the features of optlib, a Python library for fetching financial option chains and pricing options. Learn how it leverages closed-form solutions and the TDAmeritrade API for enhanced financial analysis and modeling.",Finance Programming Resources,"Python
+
+
+
+
+
+        590
+
+
+
+
+
+        80
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        77 stars today",,,590,2020-08-17T00:30:14Z
+2024-05-28,https://github.com/RUC-NLPIR/FlashRAG,https://raw.githubusercontent.com/RUC-NLPIR/FlashRAG/main/README.md,"FlashRAG is a Python toolkit aimed at simplifying the development and reproduction of Retrieval Augmented Generation (RAG) research. It features 32 benchmark RAG datasets and 12 state-of-the-art RAG algorithms. Its extensive framework allows for the customization and flexible assembly of various RAG components such as retrievers, rerankers, generators, and compressors. FlashRAG streamlines experimentation with its comprehensive collection of pre-processed datasets, pre-implemented advanced algorithms, and efficient data preprocessing tools. Its efficient execution is further enhanced by technology like vLLM, FastChat for LLM inference acceleration, and Faiss for vector indexing. Installation is straightforward via GitHub cloning and pip installation, with Python 3.9+ required. FlashRAG promotes ease of use through quick-start examples, ready-made pipeline implementation, and the ability to build customizable pipelines for complex RAG processes. It also offers guidance on utilizing individual components for those integrating FlashRAG into existing projects. With its adaptable components and pipelines, FlashRAG supports various RAG methods and experiments, making it a comprehensive toolkit for researchers in the field.",Introducing FlashRAG: The Ultimate Python Toolkit for RAG Research,"Discover FlashRAG, a Python toolkit designed to revolutionize Retrieval Augmented Generation (RAG) research. With 32 benchmark datasets and 12 advanced algorithms, FlashRAG enables effortless replication and innovation in RAG research. Its extensive framework supports customizable components, making it easier than ever to test, validate, and push the boundaries of RAG models.","Explore FlashRAG, a comprehensive Python toolkit for RAG research, offering pre-processed datasets, state-of-the-art algorithms, and a flexible framework for developing and testing RAG models.",AI Development Platform,"Python
+
+
+
+
+
+        301
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        101 stars today",https://raw.githubusercontent.com/RUC-NLPIR/FlashRAG/main/asset/framework.png,,301,2024-03-14T01:40:33Z
+2024-05-28,https://github.com/princeton-nlp/SimPO,https://raw.githubusercontent.com/princeton-nlp/SimPO/main/README.md,"The repository hosts the code and models for the paper on Simple Preference Optimization (SimPO), introducing a preference optimization algorithm that does not require a reference model, making it simpler and more effective than Direct Preference Optimization (DPO) and its variants. SimPO demonstrates superior performance over benchmarks like AlpacaEval 2, MT-Bench, and Arena-Hard under different scenarios. The released models span several configurations and sizes, showing significant improvements in performance metrics across various tasks. Installation instructions and training scripts for different environment settings are provided, ensuring users can replicate the results. Evaluation processes align with the official implementations for each benchmark. The authors also offer support for issues and questions via email. The citation section invites users to reference their work if it aids in their research.",Revolutionizing AI Benchmarking with SimPO: A Reference-Free Preference Optimization Algorithm,"Discover the groundbreaking SimPO algorithm, outperforming Direct Preference Optimization (DPO) across various AI benchmarks without needing a reference model. SimPO's innovative approach offers more simplicity and effectiveness, demonstrating superior performance on AlpacaEval 2, MT-Bench, and Arena-Hard benchmarks. Explore our released models for detailed insights and learn how SimPO sets new standards in preference optimization for AI technologies.","Explore the SimPO algorithm, an advancement over DPO for AI benchmarks, offering simplicity and superior performance without a reference model. Learn about its impact on AlpacaEval 2, MT-Bench, and Arena-Hard.",Machine Learning Tool,"Python
+
+
+
+
+
+        257
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        56 stars today",https://raw.githubusercontent.com/princeton-nlp/SimPO/main/./SimPO.png,,257,2024-05-21T20:13:33Z
+2024-05-28,https://github.com/transcriptionstream/transcriptionstream,https://raw.githubusercontent.com/transcriptionstream/transcriptionstream/main/README.md,"Transcription Stream Community Edition, offered by transcription.stream, is a comprehensive self-hosted diarization service, enabling users to conduct drag-and-drop diarization and transcription, use a web interface for file management, and leverage summarization features powered by Ollama and Mistral. It is designed for offline use, featuring Meilisearch for efficient full-text search capabilities. This tool simplifies workflow integration with its web and SSH interfaces, allowing for easy upload, review, and download of processed files. Installation and usage are facilitated through Docker images, with detailed instructions provided for building the service locally and additional customization options. Transcription Stream supports various features like task alerts, HTML5 web player for audio files, and time-synced transcription, aiming to enhance user experience with advanced search and file management functionalities. However, users are advised that it requires an NVIDIA GPU and the GPU image is notably large.",Revolutionizing Transcription: Introducing Transcription Stream Community Edition,"Transcription Stream Community Edition is a ground-breaking, self-hosted diarization service, crafted for both efficiency and privacy, offering offline capabilities. Thanks to contributions from MahmoudAshraf97 and jmorganca, it features drag-and-drop transcription, a web interface for file management, summarization with Ollama and Mistral, and lightning-fast full-text search with Meilisearch. Its ease of use, combined with sophisticated tools like Ollama, enables users to extract complex insights from their transcriptions swiftly. Whether via SSH or its user-friendly web interface, managing your transcription workflow has never been easier. Dive into the detailed install and walkthrough videos to effortlessly integrate this service into your daily operations.","Discover Transcription Stream Community Edition: a powerful, self-hosted diarization solution with drag-and-drop transcription, summarization, and Meilisearch for fast full-text retrieval. Enhance your workflow privacy and efficiency today.",AI Transcription Platform,"Python
+
+
+
+
+
+        510
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+        115 stars today",https://transcription.stream/ts-sshupload.png; https://transcription.stream/ts-sshtranscribed.png; https://transcription.stream/ts-web.png; https://transcription.stream/videothumb.png; https://transcription.stream/summary.png,https://www.youtube.com/watch?v=3RufeOjnlcE; https://www.youtube.com/watch?v=pbZ8o7_MjG4; https://www.youtube.com/watch?v=pbZ8o7_MjG4; https://www.youtube.com/watch?v=UAgbcZjR4mM,510,2023-11-13T21:05:20Z
