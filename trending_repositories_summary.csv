@@ -16831,3 +16831,190 @@ For developers looking to dive deeper, detailed documentation and best practices
 
 
         115 stars today",https://transcription.stream/ts-sshupload.png; https://transcription.stream/ts-sshtranscribed.png; https://transcription.stream/ts-web.png; https://transcription.stream/videothumb.png; https://transcription.stream/summary.png,https://www.youtube.com/watch?v=3RufeOjnlcE; https://www.youtube.com/watch?v=pbZ8o7_MjG4; https://www.youtube.com/watch?v=pbZ8o7_MjG4; https://www.youtube.com/watch?v=UAgbcZjR4mM,510,2023-11-13T21:05:20Z
+2024-05-29,https://github.com/vladmandic/automatic,https://raw.githubusercontent.com/vladmandic/automatic/master/README.md,"SD.Next is an advanced Stable Diffusion implementation featuring multiple backends (Diffusers and Original), user interfaces (Standard and Modern), and diffusion models (including Stable Diffusion 1.5/2.1, SD-XL, and many others). It supports text, image, batch, and video processing with built-in Control options for detailed customization. The platform is designed to be multiplatform, supporting Windows, Linux, macOS, and various GPUs (nVidia, AMD, Intel Arc) and CPUs, with platform-specific optimizations. Installation includes enterprise-level logging, API stability, automatic updates, and dependency management, alongside a modernized UI with theme support. Model support is extensive, with continuous updates and additions based on public interest. Backend support is divided between the new Huggingface Diffusers and the expanded LDM reference implementation. SD.Next also offers guidance for installation, including a step-by-step guide, advanced notes, and common error solutions. Additional features include built-in control for various processing types, several pre-installed extensions, and detailed documentation via a comprehensive wiki.",Unlock Advanced Features with Stable Diffusion's SD.Next Implementation,"Discover SD.Next, the advanced Stable Diffusion implementation that offers multi-backend support, various UIs, and extensive model coverage for cutting-edge AI image and text processing. With features like built-in control for diverse media formats and multiplatform compatibility, SD.Next elevates content creation and editing to new heights. Its user-friendly install process and comprehensive support make it accessible for both beginners and experienced users.","Explore SD.Next, an enhanced Stable Diffusion implementation with multi-backend support, extensive models, multiplatform compatibility, and easy installation. Perfect for advanced AI-driven content creation.",Image Generation Platform.,"Python
+
+
+
+
+
+        4,938
+
+
+
+
+
+        346
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",https://github.com/vladmandic/automatic/blob/dev/html/favicon.png; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-text2image.jpg; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-modernui.jpg; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-ipadapter.jpg; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-color.jpg; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-instantid.jpg; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-control.jpg; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-processors.jpg; https://raw.githubusercontent.com/vladmandic/automatic/master/html/screenshot-mask.jpg; https://github.com/Tillerz.png; https://github.com/allangrant.png; https://github.com/BrentOzar.png; https://github.com/inktomi.png; https://github.com/4joeknight4.png; https://github.com/SaladTechnologies.png; https://github.com/mantzaris.png; https://github.com/CurseWave.png,https://www.youtube.com/watch?v=nWTnTyFTuAs,4938,2022-12-24T20:59:11Z
+2024-05-29,https://github.com/Tele-AI/TeleSpeech-ASR,https://raw.githubusercontent.com/Tele-AI/TeleSpeech-ASR/master/README.md,"The text introduces the ""Star Speech Large Model"" (星辰语音大模型), a sophisticated AI system for automatic speech recognition (ASR) that can understand over 30 dialects, including Cantonese, Shanghainese, Sichuanese, and Wenzhounese. It is based on pretraining with 300,000 hours of unlabeled multi-dialect speech data and fine-tuning with 30 types of labeled data to overcome the limitation of models recognizing only a single dialect. The release includes two pre-trained models without labels and one fine-tuned on the KeSpeech dataset covering 8 dialects.
+
+Instructions for environmental setup, data preparation, feature extraction, and model fine-tuning are provided. It also details the process for further training the model on downstream ASR tasks using frameworks like Fairseq and Wenet. The document emphasizes the importance of compliant data use and states the conditions under which the TeleSpeech model can be used, including for commercial purposes with proper authorization. Lastly, it presents the model's performance on various Chinese speech datasets, showing significant improvements in character error rate (CER) across different dialects.",Exploring Multidialect ASR Capabilities with the TeleSpeech Model,"Discover the newest breakthrough in automatic speech recognition (ASR) with the TeleSpeech Model, capable of understanding an impressive 30 dialects including Cantonese, Shanghainese, Sichuanese, and Wenzhounese. This advancement comes from over 300,000 hours of non-annotated, multidialect speech data, refined with annotated data from 30 dialects to break the limitations of single-dialect recognition. The open-source release includes two massive unsupervised pretraining models and a fine-tuned model on the KeSpeech dataset covering eight dialects. Embrace the power of diverse dialect understanding and enhanced ASR performance for various applications.","Explore the TeleSpeech ASR Model v1.0, capable of recognizing 30 dialects including Cantonese, Shanghainese, and more, using 300,000 hours of speech data. Learn about its open-source models and groundbreaking dialect recognition capabilities.",Natural Language Processing,"Python
+
+
+
+
+
+        263
+
+
+
+
+
+        23
+
+
+        Built by
+
+          
+
+
+
+
+
+        67 stars today",,,263,2024-05-23T03:08:23Z
+2024-05-29,https://github.com/open-mmlab/mmdetection,https://raw.githubusercontent.com/open-mmlab/mmdetection/main/README.md,"MMDetection is an open-source object detection toolbox belonging to the OpenMMLab project, built on PyTorch. It supports various detection tasks including object detection, instance segmentation, panoptic segmentation, and semi-supervised object detection with high efficiency and state-of-the-art performance. The project emphasizes modular design for easy construction of customized detection frameworks. MMDetection is notable for its speed and performance, matching or exceeding other popular frameworks. The toolbox originates from the MMDet team's codebase, known for winning the COCO Detection Challenge in 2018. Recent updates introduced pre-trained weights for MM-Grounding-DINO Swin-B and Swin-L, and released the version 3.3.0 featuring MM-Grounding-DINO, a model unifying object detection and phrase grounding. Additionally, RTMDet, a new real-time object recognition model family, has been announced offering outstanding performance and efficiency. Installation instructions, getting started guides, user and advanced guides are provided in their documentation for users and developers. The benchmark results and a wide range of models are available in the model zoo. MMDetection encourages contributions and acknowledges the efforts of its diverse community of contributors and users.",Exploring OpenMMLab's MMDetection: A Comprehensive Guide,"Discover the vast possibilities of object detection with OpenMMLab's MMDetection, a PyTorch-based toolbox designed for researchers and developers. It supports a wide range of detection tasks and offers state-of-the-art performance. Learn how to utilize its modular design for your projects, enhance your models with pre-trained weights, and benefit from its high efficiency. Join the community to contribute and explore the advancing frontier of object detection technology.","A detailed overview of OpenMMLab's MMDetection: explore how this PyTorch-based toolbox facilitates object detection, offers modular design, supports various tasks, and provides pre-trained models for superior performance.",Computer Vision Platform,"Python
+
+
+
+
+
+        28,139
+
+
+
+
+
+        9,233
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",https://raw.githubusercontent.com/open-mmlab/mmdetection/main/resources/mmdet-logo.png; https://user-images.githubusercontent.com/25839884/219255827-67c1a27f-f8c5-46a9-811d-5e57448c61d1.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218347213-c080267f-cbb6-443e-8532-8e1ed9a58ea9.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218346637-d30c8a0f-3eba-4699-8131-512fb06d46db.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218346691-ceb2116a-465a-40af-8424-9f30d2348ca9.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/219026751-d7d14cce-a7c9-4e82-9942-8375fca65b99.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/219026120-ba71e48b-6e94-4bd4-b4e9-b7d175b5e362.png; https://user-images.githubusercontent.com/12907710/187674113-2074d658-f2fb-42d1-ac15-9c4a695e64d7.png; https://user-images.githubusercontent.com/12907710/208044554-1e8de6b5-48d8-44e4-a7b5-75076c7ebb71.png,,28139,2018-08-22T07:06:06Z
+2024-05-29,https://github.com/octo-models/octo,https://raw.githubusercontent.com/octo-models/octo/main/README.md,"The Octo repository features code for training and fine-tuning generalist robotic policies (GRPs) using transformer-based diffusion models trained on a diverse dataset of 800k robot trajectories. Octo supports RGB camera inputs, various robot arms, and instructions via language or images. It can be fine-tuned with minimal data and computing resources, thanks to its modular attention structure. The setup guide includes installation steps, and the repo provides scripts for both GPU and TPU setups, with specific versions and compatibility noted. Pretrained models are available, with performance metrics for different model sizes. The repository offers examples for inference, fine-tuning, data loading, and evaluation, including on real robots. Pretraining on the large Open X-Embodiment Dataset is detailed, along with the finetuning options and evaluation techniques. The codebase is structured with clear separation for configurations, the training loop, model architecture, and utility functions. FAQs address specific implementation questions, and version 1.5 updates include improved cross-attention, language augmentation, and bug fixes. The Octo project, available under the MIT license, aims to advance robotics with its open-source policy, detailed in a citation for academic referencing.",Transform Your Robotics: Introducing Octo Generalist Robotic Policies,"Discover the innovative world of Octo, a cutting-edge project featuring transformer-based diffusion policies for robotics, trained on 800k diverse robot trajectories. With its transformer architecture, Octo models excel in handling various robotic tasks, seamlessly integrating with multiple RGB camera inputs, and supporting different robot arms aimed at maximizing robotic efficiency and adaptability. This accessible project invites developers to tap into the potential of generalist robotic policies (GRPs), revolutionizing how robots learn and interact with their environments. Get started with Octo to unlock new dimensions in robotic capabilities.","Unlock the future of robotics with Octo's generalist robotic policies, transformer-based models trained on 800k robot trajectories for unmatched adaptability and efficiency in robotic tasks.",AI Development Platform,"Python
+
+
+
+
+
+        507
+
+
+
+
+
+        84
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/octo-models/octo/main/docs/assets/teaser.jpg,,507,2023-12-13T09:58:56Z
+2024-05-29,https://github.com/ambionics/cnext-exploits,https://raw.githubusercontent.com/ambionics/cnext-exploits/main/README.md,"The text outlines a buffer overflow vulnerability identified as CVE-2024-2961 in the glibc's iconv(), brought to attention by a user named @cfreal_. This vulnerability is detailed through a series of blog posts, with the first part available on the Ambionics website, discussing how this exploit can be leveraged to compromise the PHP engine. While further analysis and exploits are indicated to be released in the future, one exploit named ""CNEXT: file read to RCE exploit"" is already mentioned, suggesting it enables remote code execution through reading files. This text essentially highlights a significant security issue within glibc's iconv() and points to ongoing and forthcoming discussions and solutions.",Exploring the CNEXT Vulnerability: A Deep Dive into CVE-2024-2961 Exploits,"Discover the critical CNEXT exploits targeting CVE-2024-2961, a significant buffer overflow flaw in glibc's iconv function, as unveiled by security researcher @cfreal_. This comprehensive analysis covers the technical facets and implications of exploiting the glibc to compromise the PHP engine, promising upcoming insights with further revelations. Stay informed on the evolving landscape of cybersecurity threats.","Uncover the intricacies of CNEXT (CVE-2024-2961) exploits via a technical deep dive into the buffer overflow in glibc's iconv(), as detailed by @cfreal_. Learn about the impact on PHP engine security.",Cybersecurity Tool,"Python
+
+
+
+
+
+        151
+
+
+
+
+
+        18
+
+
+        Built by
+
+          
+
+
+
+
+
+        23 stars today",,,151,2024-05-27T08:30:06Z
+2024-05-29,https://github.com/rushter/MLAlgorithms,https://raw.githubusercontent.com/rushter/MLAlgorithms/master/README.md,"This project offers a collection of simple, clean implementations of machine learning algorithms aimed at those interested in understanding the mechanics of these algorithms or implementing them from scratch. All algorithms are coded in Python, utilizing libraries such as numpy, scipy, and autograd for ease of understanding and adaptability. The range of algorithms implemented includes deep learning techniques (MLP, CNN, RNN, LSTM), linear and logistic regression, Random Forests, SVM with kernels, K-Means, Gaussian Mixture Model, K-nearest neighbors, Naive Bayes, PCA, Factorization machines, RBM, t-SNE, Gradient Boosting trees, and Reinforcement learning. Instructions are provided for installation, running examples without installation, and using Docker for experimentation. Contributions to the project are welcomed, especially for significant changes which should be proposed through opening an issue.",Mastering Machine Learning: Your Ultimate Guide to Implementing ML Algorithms,"Dive into the world of machine learning with our comprehensive guide on implementing algorithms from scratch using Python. Ideal for enthusiasts eager to understand the nuts and bolts of ML algorithms, this project offers clean, minimal implementations using numpy, scipy, and autograd. Perfect for those looking to decode the complexities of deep learning, linear models, and more in an accessible format. Our resource is designed to simplify your journey through the maze of machine learning, making it easier to tweak and play with various algorithms. Start your path to becoming an ML expert today.",Explore our easy-to-follow guide for implementing machine learning algorithms from scratch using Python. Perfect for understanding and playing with ML internals.,Machine Learning,"Python
+
+
+
+
+
+        10,582
+
+
+
+
+
+        1,768
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        32 stars today",,,10582,2016-10-05T06:46:45Z
+2024-05-29,https://github.com/tencent-ailab/V-Express,https://raw.githubusercontent.com/tencent-ailab/V-Express/main/README.md,"The paper introduces **V-Express**, a novel method aimed at improving portrait video generation from single images by addressing the challenge of balancing control signals of varying strengths (like text, audio, and pose). Specifically, the method addresses the issue of weaker signals, such as audio, being overshadowed by stronger ones, which complicates the direct training process. V-Express employs a series of progressive dropout operations to gradually enhance the effectiveness of weaker control signals, thus allowing for the generation of portrait videos that accurately integrate pose, input image, and audio elements. The project has released the corresponding code and models, offering installation and usage instructions, including a demonstration of the method's capabilities through various scenarios. The authors also acknowledged contributions from other projects and noted the academic and non-commercial license of V-Express. Finally, they provide a citation for those interested in referencing their work in academic pursuits.",Revolutionizing Portrait Video Generation with V-Express: A Step-by-Step Guide,"Discover V-Express, the groundbreaking approach to portrait video generation using conditional dropout methods for progressive training. This innovative method ensures effective control by weaker conditions, enhancing the generation of portrait videos with precise pose, image, and audio integration. Learn how to effortlessly download, install, and utilize the V-Express model to create high-quality portrait videos with minimal flicker, maximizing the potential of generative models in video production.","Unlock the secrets of advanced portrait video generation with V-Express, leveraging conditional dropout for unmatched quality and control. Explore our comprehensive guide on how to enhance your video production with state-of-the-art generative models.",Video Generation Tool,"Python
+
+
+
+
+
+        320
+
+
+
+
+
+        32
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        135 stars today",https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/global_framework.png; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/crop_example.jpeg; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_10_no_retarget.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_tys_fix_face.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_tys_offset_retarget.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_tys_naive_retarget.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/fix_face_weight.gif,,320,2024-05-21T09:16:34Z
