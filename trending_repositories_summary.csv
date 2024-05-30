@@ -17018,3 +17018,243 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
 
         135 stars today",https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/global_framework.png; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/crop_example.jpeg; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_10_no_retarget.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_tys_fix_face.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_tys_offset_retarget.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/talk_tys_naive_retarget.gif; https://raw.githubusercontent.com/tencent-ailab/V-Express/main/./assets/demo/fix_face_weight.gif,,320,2024-05-21T09:16:34Z
+2024-05-30,https://github.com/TMElyralab/MusePose,https://raw.githubusercontent.com/TMElyralab/MusePose/main/README.md,"MusePose, developed by the Lyra Lab at Tencent Music Entertainment, is an innovative image-to-video generation framework aimed at creating virtual humans based on pose-guidance. It represents the culmination of the Muse open-source series, designed to generate end-to-end virtual humans capable of complex movements and interactions. MusePose, working alongside MuseV and MuseTalk, enables the production of high-quality dance videos from static images through pose sequences, thanks to its diffusion-based technology and a unique pose align algorithm. This significantly enhances model usability and inference performance. The project acknowledges contributions from AnimateAnyone and Moore-AnimateAnyone, which have propelled AIGC community advancements. Release highlights include trained model availability, the pose align tool, and the anticipation of further milestones such as training guidelines and a Gradio demo on Huggingface. The framework sets a high standard in the open-source realm for virtual human generation, addressing challenges like detail consistency and background noise, and is available under MIT License for code, with models for non-commercial use.",Exploring MusePose: Revolutionizing Virtual Human Generation,"Discover MusePose, a cutting-edge framework by Lyra Lab at Tencent for creating virtual humans through pose-driven image-to-video transformation. This tool completes the Muse series, aiming for seamless full-body virtual human creation with dynamic movement and interaction capabilities. MusePose stands out by generating high-quality dance videos from static images, thanks to its diffusion-based, pose-guided approach and significant performance enhancements. The collaboration with projects like AnimateAnyone accelerates the AIGC community's growth, promising exciting advancements in virtual human generation.","MusePose by Lyra Lab, Tencent, pushes the boundaries of virtual human generation with a pose-driven image-to-video framework. Discover how it enhances virtual interactions and contributes to the AIGC community.",Image Generation Platform,"Python
+
+
+
+
+
+        654
+
+
+
+
+
+        32
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        259 stars today",,https://github.com/TMElyralab/MusePose/assets/47803475/bb52ca3e-8a5c-405a-8575-7ab42abca248; https://github.com/TMElyralab/MusePose/assets/47803475/6667c9ae-8417-49a1-bbbb-fe1695404c23; https://github.com/TMElyralab/MusePose/assets/47803475/7f7a3aaf-2720-4b50-8bca-3257acce4733; https://github.com/TMElyralab/MusePose/assets/47803475/c56f7e9c-d94d-494e-88e6-62a4a3c1e016; https://github.com/TMElyralab/MusePose/assets/47803475/00a9faec-2453-4834-ad1f-44eb0ec8247d; https://github.com/TMElyralab/MusePose/assets/47803475/41ad26b3-d477-4975-bf29-73a3c9ed0380; https://github.com/TMElyralab/MusePose/assets/47803475/2bbebf98-6805-4f1b-b769-537f69cc0e4b; https://github.com/TMElyralab/MusePose/assets/47803475/1b2b97d0-0ae9-49a6-83ba-b3024ae64f08,654,2024-05-24T10:14:14Z
+2024-05-30,https://github.com/Jeff-LiangF/streamv2v,https://raw.githubusercontent.com/Jeff-LiangF/streamv2v/main/README.md,"StreamV2V, developed by researchers including Feng Liang, Akio Kodaira, and others, is a tool for real-time video-to-video translation capable of running on one RTX 4090 GPU. It offers features such as face swapping to celebrities like Elon Musk or Will Smith and video stylization transformations, for instance, converting videos into Claymation or doodle art styles. It is highlighted for its real-time capabilities demonstrated through a camera demo available on GPU. The project, which leans heavily on contributions from both its developers and the open-source community, includes code adapted from StreamDiffusion and LCM-LORA, plus uses models and technologies from SD 1.5 and various LORAs by CIVITAI. Interested individuals can find installation and usage instructions on its project page. StreamV2V is shared under a UT Austin Research License, encouraging its use and citation in further research, for which a BibTeX citation format is provided.",Revolutionizing Video Editing with StreamV2V: Real-Time Video-to-Video Translation,"Discover StreamV2V, the cutting-edge tool for real-time video-to-video translation, capable of running on a single RTX 4090 GPU. Explore innovative features like face swapping to celebrities and transforming videos into various art styles. Experience these functionalities firsthand by watching our demonstration videos or trying out the camera demo. StreamV2V leverages a variety of open-source technologies, including StreamDiffusion and LCM-LORA, to deliver unparalleled performance. Dive into the future of video editing and content creation with StreamV2V today.","StreamV2V introduces a groundbreaking real-time video-to-video translation technology on RTX 4090 GPU, featuring face swap and video stylization. Watch demos or try it yourself to experience the future of video editing.",Video Translation Tool,"Python
+
+
+
+
+
+        168
+
+
+
+
+
+        25
+
+
+        Built by
+
+          
+
+
+
+
+
+        20 stars today",http://img.youtube.com/vi/k-DmQNjXvxA/0.jpg; http://img.youtube.com/vi/N9dx6c8HKBo/0.jpg,https://www.youtube.com/watch?v=k-DmQNjXvxA; https://www.youtube.com/watch?v=k-DmQNjXvxA; https://www.youtube.com/watch?v=N9dx6c8HKBo; https://www.youtube.com/watch?v=N9dx6c8HKBo,168,2024-05-25T20:34:49Z
+2024-05-30,https://github.com/drivendataorg/cookiecutter-data-science,https://raw.githubusercontent.com/drivendataorg/cookiecutter-data-science/master/README.md,"Cookiecutter Data Science (CCDS) provides a flexible, standardized structure for data science projects, incorporating best practices. It involves a tool that sets up a project template to help in organizing, sharing work, and extending the Cookiecutter template utility's functionality. Version 2 introduces significant changes, requiring the cookiecutter-data-science Python package for setup and offering a new `ccds` command for creating projects. It requires Python 3.8+ and can be installed via pipx (recommended), pip, or soon through conda. The structure of a new project includes directories for data, models, notebooks, documentation, and more, aiming to facilitate data processing, model training, and analysis. Users can still access the older v1 template with specific commands. The initiative invites contributions, providing guidelines for participation and setting up environments for development and testing.",Maximize Your Data Science Projects with Cookiecutter Data Science,"Discover how Cookiecutter Data Science (CCDS) revolutionizes project setup, incorporating best practices for efficient and standardized work in data analytics. With the latest v2, it introduces a more structured and extendable framework through the new `ccds` command-line program, requiring Python 3.8+. Learn the straightforward installation process and kickstart your new project with a comprehensive, predefined directory structure, ensuring your work is organized and accessible. Dive into the future of data science project management with CCDS, whether you're starting fresh or contributing to ongoing development.","Learn how to streamline and standardize your data science projects with the Cookiecutter Data Science tool. From installation to starting a new project, discover the benefits of this structured, flexible approach.",Data Science Resources,"Python
+
+
+
+
+
+        7,702
+
+
+
+
+
+        2,370
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        16 stars today",,,7702,2015-10-30T19:19:57Z
+2024-05-30,https://github.com/huggingface/huggingface_hub,https://raw.githubusercontent.com/huggingface/huggingface_hub/main/README.md,"The `huggingface_hub` library is the official Python client facilitating access to the Hugging Face Hub, which centralizes open-source machine learning resources and collaboration. It makes it straightforward to download and upload models, datasets, and files, manage repositories, document models with Model Cards, run inference on models, and search the platform's vast resources. The library promotes sharing and community engagement through contributions and interactions. Installation is simple via pip or conda, with additional optional dependencies for extended functionalities. The Hugging Face Hub offers integration benefits for ML libraries, including free hosting, versioning, serverless inference APIs, and fast, global downloads. Efforts to expand integrations and feature improvements are ongoing, with contributions from the community encouraged across various forms, from code to documentation.",Unlocking AI Collaboration: A Beginner's Guide to Hugging Face Hub,"Explore the possibilities of the Hugging Face Hub, the ultimate platform for open-source machine learning. With the `huggingface_hub` library, you can download, upload, and manage AI models and datasets effortlessly. Discover thousands of machine learning apps, contribute your own creations, and engage with a vibrant community. This beginner's guide will help you get started with the `huggingface_hub` library, enhancing your machine learning projects and collaborations.","Dive into the Hugging Face Hub with our beginner's guide. Learn how to use the `huggingface_hub` library to download, upload, and share AI models and datasets on this collaborative platform.",AI Python Client,"Python
+
+
+
+
+
+        1,755
+
+
+
+
+
+        452
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",,,1755,2020-12-22T10:20:28Z
+2024-05-30,https://github.com/ChrisBuilds/terminaltexteffects,https://raw.githubusercontent.com/ChrisBuilds/terminaltexteffects/main/README.md,"Terminal Text Effects (TTE) is a visual effects engine designed for use in terminal applications. It can be installed as either a system application or as a Python library for embedding effects within Python scripts. TTE supports a wide range of effects, such as color gradients, character animations, and complex movements, ensuring compatibility with modern terminals by utilizing standard ANSI sequences. Its effect library is extensive, featuring effects like rain, fireworks, and many others, each with customizable options. TTE is built entirely in Python and requires no external dependencies. It is easy to install via pip and offers extensive documentation to guide users through installation, usage, and effect customization. With features like inline effects execution and preservation of terminal state, TTE enhances the visual experience of terminal applications. It's licensed under the MIT License, ensuring open accessibility and modification freedom. The project is actively developed, with regular updates introducing performance optimizations, new features, and bug fixes, available on GitHub.",Transform Your Terminal with TerminalTextEffects: A Comprehensive Guide,"Discover how TerminalTextEffects (TTE) revolutionizes terminal visuals with its Python-based engine, offering inline visual effects for a more dynamic experience. From 256 color support to complex animations, TTE enhances your terminal without third-party modules. Ideal for both system applications and as a library in Python scripts, it maintains terminal workflow seamlessly. Dive into the variety of built-in effects and customize your terminal visuals like never before.","Unleash the power of TerminalTextEffects for dynamic terminal visuals with RGB color support, complex animations, and custom effect configurations. Enhance your terminal experience with TTE.",Animation Engine,"Python
+
+
+
+
+
+        1,796
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        542 stars today",,https://www.youtube.com/watch?v=eWnYlxOREu4,1796,2023-07-24T20:28:05Z
+2024-05-30,https://github.com/eriklindernoren/ML-From-Scratch,https://raw.githubusercontent.com/eriklindernoren/ML-From-Scratch/master/README.md,"This project presents Python implementations of fundamental Machine Learning models and algorithms created from scratch. It aims not at maximizing efficiency but at showcasing how these algorithms work in a clear and understandable manner. The contents include a range of topics from installation instructions, examples of machine learning applications like polynomial regression, classification with CNNs, density-based clustering, to more complex approaches including deep reinforcement learning and genetic algorithms. Various models covered include supervised and unsupervised learning techniques, reinforcement learning, and deep learning architectures. The project is intended for educational purposes, demonstrated by the inclusion of a diverse set of machine learning implementations, offering a hands-on approach to understanding the fundamentals of machine learning algorithms and their applications.",Exploring Machine Learning Algorithms Through Python Code,"Dive into the world of Machine Learning with Python as we break down fundamental models and algorithms from scratch. This initiative aims to showcase the mechanics behind popular Machine Learning techniques, making the process understandable for enthusiasts and learners. By forgoing optimization in favor of clarity, this project presents an accessible introduction to anyone curious about how algorithms function internally. Explore various facets of Machine Learning including supervised, unsupervised learning, and deep learning through comprehensive examples like Polynomial Regression, CNNs for classification, and more.","Get an in-depth look at implementing fundamental Machine Learning algorithms using Python. From Polynomial Regression to Neural Networks, learn how these models are coded from scratch.",Machine Learning,"Python
+
+
+
+
+
+        23,393
+
+
+
+
+
+        4,530
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        50 stars today",http://eriklindernoren.se/images/p_reg.gif; http://eriklindernoren.se/images/mlfs_cnn1.png; http://eriklindernoren.se/images/mlfs_dbscan.png; http://eriklindernoren.se/images/gan_mnist5.gif; http://eriklindernoren.se/images/mlfs_dql1.gif; http://eriklindernoren.se/images/rbm_digits1.gif; http://eriklindernoren.se/images/evo_nn4.png,,23393,2017-02-05T12:11:23Z
+2024-05-30,https://github.com/OpenDriveLab/Vista,https://raw.githubusercontent.com/OpenDriveLab/Vista/main/README.md,"Vista is a cutting-edge driving world model designed to generalize across different scenarios, offering high fidelity in predictions and exceptional controllability. Developed by a collaborative team including Shenyuan Gao, Jiazhi Yang, and several others, it enables the prediction of future events in driving scenarios over continuous and extended horizons, facilitating multi-modal actions like steering and speed adjustments. Besides action execution, Vista provides action-based rewards without the need for actual ground truth data. The model's implementation and its paper were both released in May 2024, with ongoing plans to release installation guides, model weights, and optimize configurations. This project, which credits its foundational technology to Stability AI's open-source work on generative models, invites citations and engagement from the research community interested in advancements in autonomous driving technologies.",Vista: Revolutionizing Driving Simulations with High-Fidelity Predictions and Control,"Discover the cutting-edge Vista model, a breakthrough in driving world simulations offering high-fidelity future predictions across diverse scenarios. This state-of-the-art model provides unparalleled control through multi-modal action execution and rewards for various actions without needing ground truth actions. Unveiled recently, it sets a new standard in driving simulations, promising vast applications in autonomous driving research and beyond. Its capabilities extend predictions to continuous, long horizons, marking a significant leap forward in generalizable world modeling.","Explore the innovative Vista model, a pioneering driving world simulation with high-fidelity predictions and flexible control, designed to advance autonomous driving technologies and research.",Deep Learning Platform,"Python
+
+
+
+
+
+        221
+
+
+
+
+
+        6
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        26 stars today",https://raw.githubusercontent.com/OpenDriveLab/Vista/main/assets/teaser.gif; https://raw.githubusercontent.com/OpenDriveLab/Vista/main/assets/overview.png,,221,2024-05-10T09:28:15Z
+2024-05-30,https://github.com/OSU-NLP-Group/HippoRAG,https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/main/README.md,"HippoRAG introduces a novel retrieval augmented generation framework inspired by human long-term memory to enhance large language models (LLMs) by integrating knowledge from external documents efficiently. It promises similar capabilities to iterative LLM processes but at a lower computational cost. The framework, programmable through Python and requiring certain technical setup including Conda and GPU resources, facilitates document indexing and retrieval for enhanced query understanding and response. It integrates with existing LLM and retrieval technologies, such as OpenAI and Hugging Face's Contriever, offering a streamlined process for expanding LLM capabilities with external knowledge sources. This could significantly reduce the resources needed for high-latency LLM operations while providing a foundation for research into neurobiologically inspired LLM enhancements. The paper’s reproducibility is emphasized, with detailed setup, execution instructions, and provided data for experiments. Its intersection with AI, neurobiology, and computational efficiency offers insights into future LLM development pathways.",HippoRAG: Revolutionizing Retrieval Augmented Generation with Human-Like Long-Term Memory,"Discover how HippoRAG, a groundbreaking retrieval augmented generation framework, mimics human long-term memory to enhance large language models (LLMs) efficiency and knowledge integration without significant computational costs. By leveraging the neurobiology of memory, HippoRag offers a more efficient approach to integrating knowledge across a wide range of documents, potentially transforming the landscape of machine learning and AI research. Learn more about this innovative framework and its capabilities in our latest research paper.","Explore HippoRAG, a novel framework enhancing LLMs with neurobiologically inspired long-term memory, for efficient knowledge integration and processing. Read our paper for insights.",Deep Learning Tool,"Python
+
+
+
+
+
+        210
+
+
+
+
+
+        17
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        50 stars today",https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/main/images/icon.png; https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/main/images/hook_figure.png,,210,2024-05-23T23:07:16Z
+2024-05-30,https://github.com/lyuwenyu/RT-DETR,https://raw.githubusercontent.com/lyuwenyu/RT-DETR/main/README.md,"RT-DETR: DETRs Beat YOLOs on Real-time Object Detection is a breakthrough in object detection technology, introducing the first real-time end-to-end object detector named RT-DETR. Achieving significant performance improvements over the YOLO models, RT-DETR-R50 and RT-DETR-R101 models deliver 53.1% and 54.3% AP on the COCO dataset, with impressive speeds of 108 and 74 FPS on T4 GPU, respectively. These models not only outperform YOLO variants in speed and accuracy but also excel against DINO-R50 in both metrics. After incorporating pre-training on the Objects365 dataset, the RT-DETR models further advance their AP to 55.3% (R50) and 56.2% (R101). Recent updates include acceptance to CVPR 2024, various improvements, and the release of models, codes, and training logs focused on enhancing data augmentation, custom dataset training, and deployment across platforms like ONNX, TensorRT, and OpenVINO. This work, supported by an array of updates and community engagement, marks a significant step forward in the real-time object detection field.",RT-DETR: Revolutionizing Real-time Object Detection with DETRs Outperforming YOLOs,"Discover the groundbreaking RT-DETR, a DETR-based real-time object detection model that surpasses YOLOs in both speed and accuracy. Officially accepted to CVPR 2024, RT-DETR sets a new standard with its real-time end-to-end detection capabilities, achieving remarkable accuracy and speed on COCO dataset benchmarks. With detailed comparisons and updates, RT-DETR marks a pivotal advancement in object detection technologies. Witness how RT-DETR-R50 and R101 variants redefine performance metrics, blending efficiency with high precision.","Explore RT-DETR, the latest in real-time object detection technology, surpassing YOLO models in speed and accuracy on the COCO dataset. Learn about its CVPR 2024 acceptance and revolutionary performance.",Computer Vision,"Python
+
+
+
+
+
+        1,472
+
+
+
+
+
+        156
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        39 stars today",,,1472,2023-05-10T06:35:56Z
