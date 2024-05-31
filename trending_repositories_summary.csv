@@ -17258,3 +17258,136 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
 
         39 stars today",,,1472,2023-05-10T06:35:56Z
+2024-05-31,https://github.com/pdm-project/pdm,https://raw.githubusercontent.com/pdm-project/pdm/main/README.md,"PDM is a cutting-edge Python package and dependency manager that adheres to the latest PEP standards. It was originally designed for personal use, offering an alternative to other package managers like Pipenv, Poetry, and Hatch, for those who find these existing tools lacking. PDM is lauded for its simple, yet fast dependency resolver, support for PEP 517 and PEP 621 standards, a flexible plugin system, and capability to manage both project-specific and centralized virtual environments. Unlike its competitors, PDM allows the freedom to choose any build backend, does not limit to specific project configurations, and supports standardized `pyproject.toml` files for project metadata. The tool requires Python version 3.8 or higher and can be installed via a script, package managers like Homebrew and Scoop, or directly with pipx. PDM enables the initialization of new projects, addition of dependencies, and includes its own locking mechanism, evidenced through a `pdm.lock` file. It encourages community engagement by offering badges for projects using PDM and sustains an ecosystem supported by an extensive suite of plugins and resources, highlighted in the ""Awesome PDM"" list.",Exploring PDM: The Modern Python Package and Dependency Manager,"Discover PDM, a cutting-edge Python package management tool designed for today's developers. Embrace the future with a solution that supports the latest PEP standards, including PEP 517 for build backends and PEP 621 for project metadata. With its high-performance dependency resolver and versatile plug-in system, PDM stands out in the ecosystem. Simplify your Python project management and installation process whether you're on Linux, Mac, or Windows. Dive into a seamless Python package management experience with PDM.","Unveil PDM, the modern Python package and dependency manager offering fast resolution, PEP 517 & 621 compliance, and an extendable plug-in system for streamlined project management.",Python Libraries Collection,"Python
+
+
+
+
+
+        6,922
+
+
+
+
+
+        346
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        126 stars today",https://raw.githubusercontent.com/pdm-project/pdm/main/docs/assets/logo_big.png,,6922,2019-12-27T03:50:57Z
+2024-05-31,https://github.com/mustafaaljadery/llama3v,https://raw.githubusercontent.com/mustafaaljadery/llama3v/main/README.md,"Llama3v is a state-of-the-art (SOTA) vision model integrating the Llama3 8B and siglip-so400m models, designed for vision and language tasks. It is notable for its open-source availability on Huggingface, promising fast local inference with both inference and upcoming training code releases. This innovative model combines the siglip-so400m for vision with Llama3 8B for processing multi-modal image-text inputs, using a unique training process that includes a projection layer addition for better image understanding within the LLaMA embedding space. Initially, only this projection layer's weights are adjusted during pretraining on 600K images, whereas, in fine-tuning, the Llama3 8B model weights are updated based on 1M images plus synthetic multimodal data from the YI model family, aiming for enhanced multimodal text generation. Contributions to this project come from Mustafa Aljadery, Aksh Garg, and Siddharth Sharma, alongside various other cited resources, shaping it as an open-source GPT-4v competitor in visual-language learning.",Exploring llama3v: A Groundbreaking Open-Source Vision Model,"Discover llama3v, the state-of-the-art (SOTA) vision model, leveraging the power of Llama3 8B and siglip-so400m for unparalleled image understanding and text generation. Easily accessible on Huggingface, llama3v promises fast local inference and is set to release training codes soon. Dive into its architecture, usage, and the innovative training process combining siglip-so400m with Llama3 8B for seamless image-text integration.","Explore the features, usage, and training process of llama3v, the latest SOTA open-source vision language model, for transformative image understanding and generation capabilities.",Vision-Language Model,"Python
+
+
+
+
+
+        451
+
+
+
+
+
+        13
+
+
+        Built by
+
+          
+
+
+
+
+
+        56 stars today",https://raw.githubusercontent.com/mustafaaljadery/llama3v/main/./images/metrics.png; https://raw.githubusercontent.com/mustafaaljadery/llama3v/main/./images/architecture.png,,451,2024-05-16T00:08:53Z
+2024-05-31,https://github.com/wandb/wandb,https://raw.githubusercontent.com/wandb/wandb/main/README.md,"Weights & Biases (W&B) offers a platform for tracking and visualizing various components of machine learning projects, facilitating the building of better models more efficiently. It supports tracking datasets, experiment metrics, and production model performance, simplifying the machine learning workflow from research to production. W&B provides free accounts, with special terms for students, educators, and academic researchers. It is designed for seamless collaboration within ML teams and supports scalable MLOps for production environments. The platform is compatible with popular frameworks and tools like PyTorch, TensorFlow, Keras, and Hugging Face, among others. Users can quickly integrate W&B into their projects to log experiments, visualize results, and compare different runs. Installation is straightforward, requiring only a few steps - signing up, installing the SDK, logging in, and starting to track experiments. W&B also offers various hosting options, including cloud or on-premise solutions, to meet diverse infrastructure needs. The community is supported through documentation, guides, tutorials, and a dedicated Discord channel for real-time interactions with the team and other users.",Maximize Your ML Pipeline Efficiency with Weights & Biases,"Discover how Weights & Biases (W&B) can transform your machine learning projects by tracking and visualizing every aspect of your ML pipeline. From datasets to production models, W&B offers the tools you need to build better models faster. Get started for free and explore specialized plans for seamless team collaboration and large-scale MLOps. Dive into our documentation and quickstart guides to maximize your ML workflow efficiency today.","Learn how to streamline your ML projects with Weights & Biases. Track, visualize, and manage your machine learning pipeline from datasets to production with W&B. Start for free and explore advanced features for teams and large-scale operations.",AI Development Platform,"Python
+
+
+
+
+
+        8,393
+
+
+
+
+
+        618
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/wandb/wandb/main/./assets/wandb_demo_experiments.gif; https://raw.githubusercontent.com/wandb/wandb/main/./assets/integrations.png,,8393,2017-03-24T05:46:23Z
+2024-05-31,https://github.com/firmai/financial-machine-learning,https://raw.githubusercontent.com/firmai/financial-machine-learning/master/README.md,"I am unable to access these links directly, so I cannot provide the contents or summaries related to them. However, this list seems to include various resources related to financial machine learning, such as repositories for courses, data, and research materials. These are potentially valuable for anyone interested in quantitative finance, trading algorithms, data analysis, and the application of machine learning techniques in the financial sector. Each entry likely includes tools, datasets, research papers, or educational material intended to further knowledge in financial machine learning, quantitative finance, high-frequency trading, and more.",Revolutionizing Finance: A Deep Dive into the Financial Machine Learning Tools on GitHub,"Discover the cutting-edge collection of financial machine learning tools and applications highlighted by FirmAI on GitHub. The repository showcases a curated list of Python tools designed for practical applications in finance, from stock prediction models to algorithmic trading platforms. This revamp, officially under way since March 2021, aims to be the go-to resource for financial analysts, data scientists, and enthusiasts keen on applying ML techniques within the finance sector. Join the vibrant community on Gitter and contribute to the evolving landscape of financial machine learning.","Explore FirmAI's curated GitHub repository featuring the latest financial machine learning tools and applications in Python. From stock predictions to algorithmic trading, this resource is ideal for data scientists and financial professionals.",Finance Programming Resources,"Python
+
+
+
+
+
+        6,205
+
+
+
+
+
+        1,152
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        302 stars today",https://user-images.githubusercontent.com/26666267/145840123-bc077dd0-0980-439a-824b-9c09a5f779de.png,,6205,2019-03-21T21:00:35Z
+2024-05-31,https://github.com/bin123apple/AutoCoder,https://raw.githubusercontent.com/bin123apple/AutoCoder/main/README.md,"AutoCoder is a new model surpassing GPT-4 Turbo in code generation tasks, with a test accuracy of 90.9% on the HumanEval dataset, compared to GPT-4 Turbo's 90.2%. Unlike previous models, AutoCoder can automatically install required packages and attempt to run code, enhancing usability. It outperforms both GPT-4 Turbo, which lacks external library access, and the OpenCodeInterpreter by introducing conditional code verification only when requested. Available on Huggingface, AutoCoder comes in two versions, a 33B and a 6.7B variant. The model provides a straightforward setup procedure, supports various tests (HumanEval, MBPP, DS-1000), and includes a web demo featuring a code interpreter. The project, developed by Bin Lei, Yuchen Li, and Qiuwu Chen, invites feedback and queries via email.",AutoCoder vs GPT-4 Turbo: A New Benchmark in Code Generation,"Introducing AutoCoder, a revolutionary model that outperforms GPT-4 Turbo with a 90.9% accuracy on the HumanEval dataset. Unlike traditional models, AutoCoder can automatically install necessary packages, setting a new standard in code generation and execution. This feature, along with comprehensive testing across multiple datasets, positions AutoCoder as a leader in automated code interpretation. Explore the capabilities of AutoCoder, available now on Huggingface, and witness firsthand the future of coding made simpler and more efficient.",Discover how AutoCoder surpasses GPT-4 Turbo with groundbreaking features like automatic package installation and superior code generation accuracy. Learn more about the future of coding.,AI Coding Assistant,"Python
+
+
+
+
+
+        234
+
+
+
+
+
+        29
+
+
+        Built by
+
+          
+
+
+
+
+
+        60 stars today",,,234,2024-05-13T03:06:16Z
+2024-05-31,https://github.com/adysec/wechat_sqlite,https://raw.githubusercontent.com/adysec/wechat_sqlite/main/README.md,"This text outlines the process of decrypting a WeChat SQLite database. It begins with installing required libraries using `pip install -r requirements.txt`. Next, it describes how to obtain the decryption key while logged into WeChat either by running a Python script `python 1-search_wechat_key.py` or an executable file `wechat-dump-rs.exe`. After acquiring the key, you should copy the `MSG0.db` file to the current directory and decrypt it using another Python script `python 2-decode_db.py`. The effectiveness of this process is demonstrated with images, showing the before and after of the decryption.",Ultimate Guide to Decoding WeChat SQLite Database,"Learn how to decrypt the WeChat SQLite database with our step-by-step guide. First, install the necessary libraries using pip. Then, obtain the decryption key by running a script in your logged-in WeChat. Next, copy the MSG0.db to your current directory and decrypt it with the provided key. Our guide makes it easy to access and read your WeChat data securely.",,Cybersecurity Tool,No specific star count found,https://raw.githubusercontent.com/adysec/wechat_sqlite/main/1.jpg; https://raw.githubusercontent.com/adysec/wechat_sqlite/main/2.jpg,,63,2024-01-10T02:20:45Z
