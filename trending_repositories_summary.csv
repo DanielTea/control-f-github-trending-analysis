@@ -17391,3 +17391,215 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
         60 stars today",,,234,2024-05-13T03:06:16Z
 2024-05-31,https://github.com/adysec/wechat_sqlite,https://raw.githubusercontent.com/adysec/wechat_sqlite/main/README.md,"This text outlines the process of decrypting a WeChat SQLite database. It begins with installing required libraries using `pip install -r requirements.txt`. Next, it describes how to obtain the decryption key while logged into WeChat either by running a Python script `python 1-search_wechat_key.py` or an executable file `wechat-dump-rs.exe`. After acquiring the key, you should copy the `MSG0.db` file to the current directory and decrypt it using another Python script `python 2-decode_db.py`. The effectiveness of this process is demonstrated with images, showing the before and after of the decryption.",Ultimate Guide to Decoding WeChat SQLite Database,"Learn how to decrypt the WeChat SQLite database with our step-by-step guide. First, install the necessary libraries using pip. Then, obtain the decryption key by running a script in your logged-in WeChat. Next, copy the MSG0.db to your current directory and decrypt it with the provided key. Our guide makes it easy to access and read your WeChat data securely.",,Cybersecurity Tool,No specific star count found,https://raw.githubusercontent.com/adysec/wechat_sqlite/main/1.jpg; https://raw.githubusercontent.com/adysec/wechat_sqlite/main/2.jpg,,63,2024-01-10T02:20:45Z
+2024-06-01,https://github.com/jianchang512/ChatTTS-ui,https://raw.githubusercontent.com/jianchang512/ChatTTS-ui/main/README.md,"ChatTTS WebUI & API provides a simple local web interface for text-to-speech synthesis directly through a browser using ChatTTS, and also offers an API for external use. Users can download Windows packages from the Releases section on GitHub. It supports deployment on Windows, Linux, and MacOS, with detailed installation and setup instructions for each, including requirements like Python 3.9+, environment setup, dependency installation, and optional CUDA acceleration for GPU usage. Issues related to deployment, such as missing models or proxy errors, are addressed, with solutions provided. Moreover, customization options allow changing the server address and modifying API request parameters for voice synthesis, including text input, voice type, and audio settings. Additionally, there's integration support for pyVideoTrans software for enhanced functionality.",Ultimate Guide to Setting Up ChatTTS: Local Text-to-Speech Conversion,"Discover how to use ChatTTS, a straightforward web interface and API for converting text to speech locally on your webpage. This guide covers everything from downloading the integrated package for Windows to setting up the source code on Linux and MacOS systems. You'll also learn how to deploy sources on Windows and troubleshoot common issues to ensure a smooth experience. Extend your applications with ChatTTS's versatile API for a variety of voice tones and customizations, enhancing your projects with high-quality, synthesized speech.","Learn how to easily set up ChatTTS for local text-to-speech conversion on Windows, Linux, and MacOS, including API integration for custom voice tones and advanced text-to-speech features.",AI Development Platform,"Python
+
+
+
+
+
+        1,059
+
+
+
+
+
+        114
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        178 stars today",,,1060,2024-05-30T03:11:05Z
+2024-06-01,https://github.com/ToonCrafter/ToonCrafter,https://raw.githubusercontent.com/ToonCrafter/ToonCrafter/main/README.md,"ToonCrafter uses pre-trained image-to-video diffusion priors to interpolate between two cartoon images, generating videos of up to 16 frames at a resolution of 512x320. It showcases various applications, including generating video from cartoon images, sparse sketch guidance for video generation, cartoon sketch interpolation, and reference-based sketch colorization, highlighting its flexibility and creativity in creating animated content. Future updates will include sketch control and colorization functions. For setup, ToonCrafter recommends using Anaconda, and users can run inferences through command line or a local Gradio demo after downloading the pretrained model. However, the project includes a disclaimer emphasizing its intent for open-source research and responsible use, acknowledging that it may not meet all expectations and its success rate isn't guaranteed.",Exploring ToonCrafter: A Leap into Generative Cartoon Interpolation,"Discover the magic of ToonCrafter, an innovative approach to cartoon image interpolation using cutting-edge image-to-video diffusion techniques. Our latest project offers a deep dive into transforming static images into dynamic cartoon sequences, pushing the boundaries of AI-driven animation. With ToonCrafter, creators can seamlessly generate videos up to 16 frames in length, boasting impressive resolutions. The recent release of our code and model weights marks a significant milestone, empowering developers and artists alike. Dive into our project for a blend of creativity and technology, revolutionizing how cartoons are brought to life.","Unlock the potential of generative cartoon interpolation with ToonCrafter, leveraging advanced diffusion priors to transform images into animated sequences. Explore our breakthrough in AI-driven animation.",Video Generation Tool,"Python
+
+
+
+
+
+        1,044
+
+
+
+
+
+        68
+
+
+        Built by
+
+          
+
+
+
+
+
+        238 stars today",,,1044,2024-05-28T19:17:40Z
+2024-06-01,https://github.com/novitalabs/AnimateAnyone,https://raw.githubusercontent.com/novitalabs/AnimateAnyone/main/README.md,"The Animate Anyone repository offers unascribed pre-trained weights and code for animation inference, drawing inspiration from the MooreThreads/Moore-AnimateAnyone implementation but with modified training processes and datasets. It includes demonstrative videos showcasing its capabilities. Users are guided to build their environment with Python (version 3.10 or higher) and CUDA (version 11.7), followed by instructions to download necessary weights and run inference scripts. Additionally, it provides steps for using custom reference images or converting videos into pose videos for animation. The Animate Anyone model is also available on Novita AI's platform for users to experiment with. The project acknowledges its foundation on the MooreThreads/Moore-AnimateAnyone’s work and the Animate Anyone initiative.",Bring Your Photos to Life with Animate Anyone: Unofficial Guide,"Discover the magic of bringing static images to animated life with the Animate Anyone project – now accessible through unofficial pre-trained weights and a user-friendly inference guide. Leveraged from the MooreThreads/Moore-AnimateAnyone's groundwork, this repository offers enhanced training processes and diverse datasets to elevate your animation game. Dive into detailed demos, learn how to set up your environment, and explore the potential of these animations with dedicated support for newer Python and CUDA versions. Experience it firsthand on Novita AI's Playground or download the weights to transform your own images and videos into captivating animations.","Explore the unofficial guide to Animate Anyone, offering pre-trained weights and easy-to-follow code for animating static images. See demos and get started with your own projects.",Animation Engine,"Python
+
+
+
+
+
+        317
+
+
+
+
+
+        24
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        42 stars today",,https://github.com/novitalabs/AnimateAnyone/assets/4327933/49d9c98c-a3bb-4cfc-b1ce-c0e85731e7f8; https://github.com/novitalabs/AnimateAnyone/assets/4327933/cd58d1e8-95d8-46e2-8b34-ba004067c6c9; https://github.com/novitalabs/AnimateAnyone/assets/4327933/1f07f5e7-073e-4d02-872b-da63e2a97c1b; https://github.com/novitalabs/AnimateAnyone/assets/4327933/3e492adf-9d07-493d-b3c9-65db47713bf3,317,2024-05-30T08:09:27Z
+2024-06-01,https://github.com/huggingface/peft,https://raw.githubusercontent.com/huggingface/peft/main/README.md,"The Hugging Face team has introduced 🤗 PEFT—a collection of state-of-the-art Parameter-Efficient Fine-Tuning (PEFT) methods aimed at reducing the costs of adapting large pretrained models for various tasks by fine-tuning only a fraction of the model's parameters. This approach considerably diminishes both computational and storage fees while achieving performances close to those of fully fine-tuned models. 🤗 PEFT combines with Transformers, Diffusers, and Accelerate for seamless training, managing, and deploying of models. The implementation facilitates significant savings on compute and storage, enabling the utilization of consumer hardware for training substantial models like the bigscience/mt0-large by only fine-tuning 0.19% of its parameters. Examples and integration with quantization techniques further expand its utility, making it possible to fine-tune large language models on consumer-grade GPUs with limited resources effectively. The initiative supports widespread models across the Hugging Face ecosystem, encourages community contributions, and provides extensive documentation to assist users in applying PEFT methods to various downstream tasks efficiently.",Unlocking the Power of PEFT: Efficiently Fine-Tuning Large Models,"Discover the potential of Parameter-Efficient Fine-Tuning (PEFT) methods for adapting large pretrained models to new tasks with minimal compute and storage requirements. PEFT offers a practical solution for reducing the high costs associated with training large models, ensuring comparable performance with fully fine-tuned counterparts. It integrates seamlessly with popular libraries like Transformers, Diffusers, and Accelerate, facilitating easy training and distribution of models. Explore practical applications and benefits of PEFT across various machine learning tasks and hardware configurations.","Explore how PEFT enables efficient and cost-effective adaptation of large models to new tasks with minimal additional resources. Learn about its integration and benefits in Transformers, Diffusers, and Accelerate.",Deep Learning Tool,"Python
+
+
+
+
+
+        14,416
+
+
+
+
+
+        1,344
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",,,14416,2022-11-25T03:51:09Z
+2024-06-01,https://github.com/pengHTYX/Era3D,https://raw.githubusercontent.com/pengHTYX/Era3D/main/README.md,"Era3D offers an open-source implementation for high-resolution multiview diffusion with efficient row-wise attention, designed to transform single images into digital portraits. Detailed instructions for environment setup, model installation, and inferencing steps are provided, including commands for creating a digital environment, installing necessary dependencies, and executing the model. It enables downloading model weights directly from Hugging Face and includes procedures for generating multiview images, removing backgrounds, and extracting textured meshes. The project acknowledges contributions from related projects and is licensed under AGPL-3.0, necessitating open sourcing of any derived solutions. The text also includes a citation format for those who wish to reference Era3D in their work.",Era3D Official Guide: Transform Single Images into Digital Portraits,"Discover the official implementation of Era3D, revolutionizing digital portrait creation from single images using High-Resolution Multiview Diffusion with Efficient Row-wise Attention. This comprehensive guide includes step-by-step instructions for installation, model weights acquisition, and running inferences to generate multi-view color and normal images. Learn how to extract textured meshes and remove backgrounds for pristine results. Dive into the future of digital portraits with Era3D.","Explore the Era3D official implementation for creating high-resolution, multiview digital portraits with efficient row-wise attention. Installation, weights, and inference tips provided.",Image Generation Platform,"Python
+
+
+
+
+
+        294
+
+
+
+
+
+        12
+
+
+        Built by
+
+          
+
+
+
+
+
+        26 stars today",https://raw.githubusercontent.com/pengHTYX/Era3D/main/assets/teaser.jpg,,294,2024-05-19T17:15:42Z
+2024-06-01,https://github.com/abetlen/llama-cpp-python,https://raw.githubusercontent.com/abetlen/llama-cpp-python/main/README.md,"The Python bindings for **@ggerganov's** `llama.cpp` library offer a bridge between Python and this C++ library, enabling low-level access to the C API via `ctypes` and a high-level Python API for text completion tasks similar to OpenAI's offerings. It supports OpenAI-like APIs, compatibility with LangChain and LlamaIndex, and features an OpenAI-compatible web server for local development uses, such as a Local Copilot replacement, function calling, and multimodal models support. Installation requires Python 3.8+, a C compiler, and the `pip install llama-cpp-python` command. It offers extensive documentation and installation instructions for various environments, including specific hardware acceleration backend support like OpenBLAS, CUDA, Metal, and Vulkan among others. Advanced usage includes pulling models from Hugging Face, chat completion, JSON and JSON Schema mode for responses, function calling, multimodal models handling, speculative decoding, embeddings support, adjusting the context window, and running as a web server. Development is ongoing, with the project open for contributions.",Unleashing the Power of Python Bindings for llama.cpp: A Comprehensive Guide,"Discover how to harness the simplicity and efficiency of `llama.cpp` with Python bindings, bridging the gap between Python's simplicity and C++'s performance. This guide provides a straightforward path to integrate complex C++ libraries into Python projects, enabling high-level access to llama.cpp for text completion, API compatibility, and acceleration backends. Perfect for developers seeking an efficient pathway to extend Python with C++ speed without sacrificing ease of use.","Learn how to seamlessly integrate the high-performance llama.cpp library into your Python projects with Python bindings. Get started with text completion, API compatibility, and leveraging acceleration backends for your applications.",AI Development Platform,"Python
+
+
+
+
+
+        6,839
+
+
+
+
+
+        814
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",,,6839,2023-03-23T09:30:33Z
+2024-06-01,https://github.com/mail-in-a-box/mailinabox,https://raw.githubusercontent.com/mail-in-a-box/mailinabox/main/README.md,"Mail-in-a-Box is a project by [@JoshData](https://github.com/JoshData) and contributors aimed at simplifying email server deployment. It provides a one-click setup for a mail server on a fresh Ubuntu 22.04 LTS 64-bit machine, with no user-configurable options needed. The setup includes SMTP, IMAP, CardDAV/CalDAV, and Exchange ActiveSync servers, along with webmail, spam filtering, DNS with several policy records, TLS certificates via Let's Encrypt, and system management tools like health monitoring and a control panel. It supports internationalized domain names and static website hosting. The project emphasizes privacy, ease of deployment, and decentralization without claiming to be fully unhackable or customizable for power users. For installation, users are guided to a detailed setup guide and encouraged to contribute to the open-source project. Inspired by various sources, Mail-in-a-Box has gained attention through appearances on Hacker News and mentions in publications like FastCompany.",Master Email Privacy: How Mail-in-a-Box Gives You Control,"Discover how Mail-in-a-Box empowers individuals to reclaim email privacy with a one-click setup for a comprehensive mail server. This open-source project simplifies email server deployment, enhances web privacy, and offers a suite of features including SMTP, IMAP, spam filtering, and full DNS management. By automating complex configurations, Mail-in-a-Box turns a standard Ubuntu machine into a secure mail server, promoting decentralization and user privacy. Learn more about setting up your own mail server and joining the Mail-in-a-Box community today.","Explore Mail-in-a-Box: An easy one-click solution to deploy your mail server, enhancing email privacy and control. Perfect for individuals seeking to decentralize their email.",Open Source ERP,"Python
+
+
+
+
+
+        13,511
+
+
+
+
+
+        1,414
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        29 stars today",,,13511,2013-08-21T13:56:50Z
+2024-06-01,https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining,https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/README.md,"The Amazon Bedrock Serverless Prompt Chaining repository demonstrates how to develop complex, scalable generative AI applications using AWS Step Functions and Amazon Bedrock through prompt chaining. Prompt chaining involves breaking down a complex task into smaller, manageable subtasks, feeding these to a large language model (LLM) in a specific sequence to accomplish an overarching task. Using AWS Step Functions, developers can orchestrate sequences of prompts that include conditional logic, loops, parallel execution, and integration with AWS services for complex workflows. Both Bedrock and Step Functions offer a serverless architecture, eliminating the need to manage infrastructure. The repository includes examples of various prompt chaining techniques, such as prompt templating, sequential and parallel execution, incorporating conditions and loops, and handling human inputs. Techniques also cover integrating AI model responses with other AWS services. Examples provided include generating blog posts, stories, trip plans, movie pitches, meal plans, and summarizing trending GitHub repositories. These serve to showcase how to build serverless generative AI applications that are modular, flexible, and capable of performing complex cognitive tasks by leveraging AWS's cloud infrastructure and AI/ML services.",Unleashing the Power of AWS for Complex Generative AI Tasks with Serverless Prompt Chaining,"Explore how AWS Step Functions and Amazon Bedrock simplify the creation of complex, serverless generative AI applications using prompt chaining. Learn to build applications that can handle intricate tasks by breaking them into smaller, manageable subtasks. Discover the flexibility of integrating with over 220 AWS services, all without the hassle of managing infrastructure. Step Functions orchestrate these tasks efficiently, allowing for parallel processing, loops, and condition-based workflows. Dive into our repository for real-world examples and accelerate your generative AI projects with AWS.",Learn how to leverage AWS Step Functions and Amazon Bedrock for building scalable serverless generative AI applications with prompt chaining. Discover techniques for complex task management and integration with AWS services.,AI Development Platform,"Python
+
+
+
+
+
+        93
+
+
+
+
+
+        41
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/model_invocation.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/prompt_templating.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/sequential_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/parallel_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/condition_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/map_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/aws_service_invocation.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/validation.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/human_input.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/architecture/ServerlessPromptChainingArchitecture.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/blog_post.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/blog_post.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/story_writer.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/story_writer.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/trip_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/trip_planner_itinerary.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/trip_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/movie_pitch.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/movie_pitch_one_pager.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/movie_pitch.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/meal_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/meal_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/most_popular_repo.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/most_popular_repo.png,,93,2023-10-26T22:17:30Z
