@@ -17603,3 +17603,158 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
 
         6 stars today",https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/model_invocation.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/prompt_templating.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/sequential_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/parallel_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/condition_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/map_chain.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/aws_service_invocation.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/validation.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/human_input.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/architecture/ServerlessPromptChainingArchitecture.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/blog_post.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/blog_post.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/story_writer.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/story_writer.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/trip_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/trip_planner_itinerary.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/trip_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/movie_pitch.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/movie_pitch_one_pager.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/movie_pitch.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/meal_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/meal_planner.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/docs/screenshots/most_popular_repo.png; https://raw.githubusercontent.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/main/webapp/pages/workflow_images/most_popular_repo.png,,93,2023-10-26T22:17:30Z
+2024-06-02,https://github.com/lllyasviel/Omost,https://raw.githubusercontent.com/lllyasviel/Omost/main/README.md,"Omost is a project designed to transform the coding capabilities of Large Language Models (LLMs) into image generation skills, specifically focusing on composing images through a process termed as image composing. The name ""Omost"" suggests its goal of nearing the completion of an image creation process and emphasizes its universal (omni-modal) approach to maximizing output from the given input. It works by allowing LLMs to write code for a virtual ""Canvas"" that, when rendered by certain image generators, produces images. Currently, Omost supports three pretrained LLM models based on variations of Llama3 and Phi3. These models are trained on a mix of ground-truth annotations, automatically annotated images, reinforcement from Direct Preference Optimization, and data from OpenAI's GPT4 on multimodality. Users can experiment with Omost through an official HuggingFace space or by setting up a local instance requiring specific hardware specifications. Omost aims to create detailed compositions for various scenes and concepts, leveraging a structured approach to text-to-image conversion with specific parameters for describing image elements and their arrangements.
+",Revolutionizing Image Generation with Omost: A Multi-Model Approach,"Omost is an innovative project transforming LLMs' coding capabilities into prowess for composing images, pushing the boundaries of multimodal AI. By leveraging three pretrained LLM models, including variations of Llama3 and Phi3, Omost enables the creation of intricate visual content through a virtual 'Canvas' agent. These models, enriched with diverse training datasets and Direct Preference Optimization, craft detailed image compositions that are rendered into visuals by specific image generators. Users can start generating images using Omost on HuggingFace or through a locally deployed setup, inviting a new era of accessible, high-quality image generation for creators and developers alike.",Discover how Omost is innovating in the field of AI-driven image generation by converting LLM coding capabilities into tools for creating detailed visuals. Explore its unique approach and how to start creating with it.,Image Generation Platform,"Python
+
+
+
+
+
+        1,556
+
+
+
+
+
+        84
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        327 stars today",,,1556,2024-05-29T12:58:14Z
+2024-06-02,https://github.com/kholia/OSX-KVM,https://raw.githubusercontent.com/kholia/OSX-KVM/master/README.md,"This README.md outlines the setup for a Virtual Hackintosh system, emphasizing that all resources provided can be independently derived following the included instructions. The author, Dhiru Kholia, offers commercial support via email and prioritizes project sponsors with direct support and private repository access. The document covers assistance with Content Caching, Proxmox, and offline macOS installations, inviting contributions for documentation, usage across various platforms, debugging, and robustness improvements. It specifies requirements like a modern Linux distribution, QEMU version, and specific CPU support details, highlighting compatibility with modern AMD Ryzen processors. Installation preparations involve installing QEMU, cloning the repository, configuring KVM, and fetching the macOS installer. Detailed steps for the installation process are provided, alongside optional configurations for libvirt users. A note on expectations clarifies the virtual system's limitations, such as lack of graphical acceleration and USB 3.0 functionality. Post-installation tips cover networking, device passthrough, resolution adjustments, and iMessage troubleshooting. Legal considerations and the author's motivation to facilitate macOS-related tasks outside of Apple's ecosystem while contributing to open-source software interoperability are disclosed.",How to Create a Virtual Hackintosh System: A Step-by-Step Guide,"Discover the innovative process of building a Virtual Hackintosh system, a valuable resource for macOS education, software testing, and security research without the need for Apple hardware. Learn how to install macOS on your Linux system using QEMU and KVM, enabling macOS based tasks and development with ease. This guide provides detailed instructions on preparing your system, installing macOS, and post-installation tips for a robust Virtual Hackintosh setup. Whether you're working on kernel debugging, software builds, or simply exploring macOS, this guide has you covered.","Step into the world of Virtual Hackintosh: Learn to seamlessly install and run macOS on Linux with our comprehensive guide. Ideal for developers, researchers, and tech enthusiasts.",Open Source Tool,"Python
+
+
+
+
+
+        18,810
+
+
+
+
+
+        1,765
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        46 stars today",,,18810,2015-11-06T12:27:28Z
+2024-06-02,https://github.com/G-U-N/Phased-Consistency-Model,https://raw.githubusercontent.com/G-U-N/Phased-Consistency-Model/master/README.md,"The Phased Consistency Model (PCM) advances the field of fast text-conditioned image generation with large diffusion models, addressing the limitations of prior consistency models (CM) and latent-consistency models (LCM). PCM efficiently overcomes issues like lack of flexibility, sensitivity to prompts, and inconsistent results across different inference steps, which were inherent in LCMs. By exploring and enhancing the original CM design space, PCM significantly improves high-resolution image generation, particularly in lower-step regimes where LCM struggled. This model emphasizes the stability of sampling by phasing the ODE trajectory into sub-trajectories, simplifying the learning process compared to the Consistency Trajectory Model (CTM). Demonstrated through superior performance against contemporaneous fast generation models (e.g., GAN-based methods, rectified-flow-based methods), PCM promises impressive image synthesis quality even with a reduced number of inference steps. The work combines deep learning advancements with strategic model training to achieve notable speed and quality in image generation, marking a significant contribution to generative model research and applications.",Exploring the Phased Consistency Model for Rapid Image Generation,"Discover the breakthroughs of the Phased Consistency Model (PCM) for fast text-conditioned image generation, introducing a groundbreaking sampling acceleration technique in diffusion models. The PCM addresses the limits of Latent Consistency Models (LCM) by offering enhanced flexibility, consistency, and image quality even in lower-step regimes. This innovative approach leverages the power of consistency models for high-resolution, text-based image creation, promising a new horizon in the field of generative models.","Dive into the Phased Consistency Model (PCM), a leading strategy for speedy text-conditioned image generation in large diffusion models, offering significant improvements over previous models. Learn how PCM is revolutionizing image synthesis.",Image Generation Platform,"Python
+
+
+
+
+
+        181
+
+
+
+
+
+        4
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        25 stars today",https://raw.githubusercontent.com/G-U-N/Phased-Consistency-Model/master/_assets_/teaser/teaser.png; https://raw.githubusercontent.com/G-U-N/Phased-Consistency-Model/master/_assets_/imgs/flaws.png; https://raw.githubusercontent.com/G-U-N/Phased-Consistency-Model/master/_assets_/imgs/diff.png; https://raw.githubusercontent.com/G-U-N/Phased-Consistency-Model/master/_assets_/imgs/teaser.png; https://raw.githubusercontent.com/G-U-N/Phased-Consistency-Model/master/_assets_/imgs/comparison.png,,181,2024-05-28T06:49:42Z
+2024-06-02,https://github.com/fofr/cog-consistent-character,https://raw.githubusercontent.com/fofr/cog-consistent-character/main/README.md,"The text outlines a method for generating images of a character in various poses using a tool hosted on Replicate and a workflow for ComfyUI, which limits output to one pose per operation. It provides instructions for developers to clone a specific GitHub repository, install necessary custom nodes for the project, and then run a web UI from a Cog container. The process involves starting a GPU-supported Cog container, exposing a specific port, and accessing a server via the GPU machine's IP to utilize the ComfyUI web form. The detailed steps ensure developers can locally develop and use the service for consistent character image creation.",Create Consistent Character Poses Easily with Replicate and ComfyUI,Discover how to generate consistent character poses using Replicate's ComfyUI. A guide to setting up a local development environment for character imaging by cloning the repository and running custom scripts. Learn about installing custom nodes and setting up the Web UI from your Cog container for creative character design. An easy workflow for artists and developers alike.,Learn to create consistent character poses with ease using Replicate and ComfyUI. Follow a simple setup guide for developing locally and running the Web UI from your Cog container.,Custom Node Pack,"Python
+
+
+
+
+
+        249
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+        91 stars today",,,249,2024-05-30T10:24:32Z
+2024-06-02,https://github.com/Bklieger/groqbook,https://raw.githubusercontent.com/Bklieger/groqbook/main/README.md,"Groqbook is a Streamlit app that creates books from a single prompt using Llama3 on Groq. It's designed for nonfiction, generating each chapter quickly by alternating between Llama3-8b for content and Llama3-70b for structure. Currently, chapter generation relies solely on section titles, but future updates aim to incorporate the broader context for quality fiction writing. The app allows for markdown-styled book creation and the ability to download the book as a text file. Users can access Groqbook via a hosted version or run it locally by setting up their Groq API key and installing necessary dependencies. However, it may produce inaccurate or placeholder content, and is recommended primarily for entertainment. The latest version introduces a demo showcasing Groqbook's generation statistics, with contributions welcome through PRs.",Revolutionize Book Creation with Groqbook: Instant Nonfiction Writing on Streamlit,"Discover how Groqbook leverages the power of Llama3 and Groq to transform a single prompt into a complete book within seconds, specifically tailored for nonfiction. This advanced Streamlit app combines different models of Llama3 to balance between creating a solid structure and detailed content, ensuring rapid and quality outputs. While currently focused on nonfiction, future updates aim to expand its capabilities to fiction, promising an even broader creative horizon. Experience Groqbook's efficiency with live demos and download the markdown-styled books directly.","Explore Groqbook, an innovative Streamlit app using Llama3 on Groq, to generate nonfiction books from a single prompt in seconds. Perfect for quick content creation, with future updates to include fiction.",Language Models Tool,"Python
+
+
+
+
+
+        309
+
+
+
+
+
+        62
+
+
+        Built by
+
+          
+
+
+
+
+
+        54 stars today",,,309,2024-05-19T23:56:33Z
+2024-06-02,https://github.com/isaac-sim/IsaacLab,https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md,"Isaac Lab is a comprehensive framework designed for robot learning, aiding in robotics research functions like reinforcement learning (RL), learning from demonstrations, and motion planning. It integrates NVIDIA Isaac Sim to offer state-of-the-art simulation for photo-realistic environments and high-fidelity simulations. It supports Python 3.10 and is optimized for Linux 64 systems. Recent updates include significant improvements and the addition of new environments for dexterous manipulation and legged locomotion. Isaac Lab encourages community contributions and offers thorough documentation for setup and troubleshooting. It is freely available under the BSD-3 License, extending open collaboration and development opportunities within robotics research communities.",Exploring Isaac Lab: A Comprehensive Framework for Robotic Research,"Isaac Lab emerges as a groundbreaking framework for robot learning, streamlining robotics research workflows, including reinforcement learning, learning from demonstrations, and motion planning. By integrating NVIDIA Isaac Sim, it offers unparalleled simulation capabilities for creating photo-realistic scenes and executing simulations with high accuracy and speed. The framework's recent updates introduce enhanced modularity, terrain generation, and improvements in dexterous manipulation environments. Isaac Lab not only fosters community contributions but also provides extensive documentation and troubleshooting support, setting a new standard in robotics research tools. Dive into Isaac Lab for an in-depth look at its features, installation guide, and how it transforms robotics research efficiency.","Discover Isaac Lab, a modular framework revolutionizing robotics research with NVIDIA Isaac Sim's simulation capabilities. Learn about its features, latest updates, and how it simplifies workflows.",Robotics Research Framework,"Python
+
+
+
+
+
+        912
+
+
+
+
+
+        301
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/docs/source/_static/isaaclab.jpg,,912,2022-11-16T23:55:13Z
