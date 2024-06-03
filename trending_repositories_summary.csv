@@ -17758,3 +17758,53 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
 
         6 stars today",https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/docs/source/_static/isaaclab.jpg,,912,2022-11-16T23:55:13Z
+2024-06-03,https://github.com/onuratakan/gpt-computer-assistant,https://raw.githubusercontent.com/onuratakan/gpt-computer-assistant/master/README.md,"The GPT Computer Assistant is an initiative that brings the functionality of the ChatGPT MacOS app to Windows and Linux users. This project, powered by Upsonic Tiger, allows users to install it as a Python library with plans for native installation scripts (.exe) in the future. The assistant supports various capabilities, such as screen reading, system audio, memory access, opening apps and URLs, clipboard management, using search engines, Python and Shell interpreters, writing and running scripts, managing knowledge, and integrating with a Telegram account. Upcoming features include facial analysis with DeepFace, and native applications for Windows, Linux, and MacOS. Users can switch between different profiles (work, personal, upsonic) for diverse usage contexts and upgrade the assistant via pip. It also features a reset option, can handle long audio files via Whisper API, offers text input, and provides a text-only mode among other enhancements. Challenges with Intel on MacOS are acknowledged, with a resolution in progress.",Unlocking New Possibilities: The Cross-Platform GPT Computer Assistant,"Discover the innovative GPT Computer Assistant, a versatile tool designed to bring the functionalities of the ChatGPT MacOS app to Windows and Linux users. This cutting-edge solution offers seamless installation as a Python library, with plans to introduce native install scripts for an even easier setup. Powered by Upsonic Tiger, it stands as a robust function hub for llm agents, promising a fresh and stable platform for various applications. Explore its capabilities from screen reading to system audio control, and engage in a community of like-minded users by joining their Discord channel.","Explore the GPT Computer Assistant, a cross-platform tool designed to extend ChatGPT functionalities to Windows and Linux, offering a seamless installation and a broad range of capabilities for an enhanced user experience.",AI Development Platform,"Python
+
+
+
+
+
+        763
+
+
+
+
+
+        56
+
+
+        Built by
+
+          
+
+
+
+
+
+        108 stars today",,,763,2024-05-26T16:23:38Z
+2024-06-03,https://github.com/TMElyralab/Comfyui-MusePose,https://raw.githubusercontent.com/TMElyralab/Comfyui-MusePose/main/README.md,"MusePose is a cutting-edge framework that enables the generation of videos from images, specifically focusing on the control of virtual human poses. It represents the culmination of the Muse open-source series, which includes MuseV and MuseTalk, aiming at seamless end-to-end generation of virtual humans with realistic body movements and interactions. For Linux or non-admin Windows users, installation instructions are provided to ensure proper setup within the ComfyUI environment, including necessary permissions and command lines for dependency installation. Additionally, the process for downloading pre-trained weights crucial for the functionality of MusePose and related components is outlined, showcasing the project's reliance on diverse sources for optimal performance. The documentation also includes links to workflow demonstrations, emphasizing MusePose’s practical applications and ease of integration into existing projects.",Revolutionizing Virtual Human Generation with MusePose: A Comprehensive Guide,"Discover MusePose, a cutting-edge framework for transforming images into control signal-driven video sequences of virtual humans. As the latest addition to the Muse opensource series, MusePose works alongside MuseV and MuseTalk, aiming to achieve seamless end2end generation of virtual humans capable of full-body movement and interaction. Learn how to install Comfyui-MusePose on Linux or Windows and download the necessary weights to leap into the future of virtual interaction. This guide is your first step towards participating in the evolution of virtual human technology.","Explore MusePose, the groundbreaking framework for creating virtual humans through image-to-video generation under control signals. This guide covers installation, setup, and how to join the Muse opensource series evolution.",Video Generation Tool,"Python
+
+
+
+
+
+        169
+
+
+
+
+
+        10
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        60 stars today",,,169,2024-05-31T08:21:26Z
