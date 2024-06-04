@@ -17808,3 +17808,132 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
 
         60 stars today",,,169,2024-05-31T08:21:26Z
+2024-06-04,https://github.com/AiuniAI/Unique3D,https://raw.githubusercontent.com/AiuniAI/Unique3D/main/README.md,"Unique3D is a project aimed at producing high-fidelity and diverse textured 3D meshes from single images rapidly, within 30 seconds. Developed by Kailu Wu and colleagues, it represents the official implementation of their research efforts, with resources including a paper, project page, and various demos available online. The project asserts its superiority in demo inference speed, offering guidelines for optimal input images to enhance reconstruction quality. Currently, Unique3D is evolving, with the promise of future updates like detailed tutorials and improved support for different operating systems. The setup involves a Linux system and the use of Gradio for interactive inference. Acknowledgments are given to numerous repositories for their contributions to the Unique3D codebase. Additionally, there's a call for collaborations to advance into 4D generative modeling. For those finding the project helpful, a citation format is provided.",Revolutionizing 3D Modeling: Introducing Unique3D for Single Image Mesh Generation,"Unique3D signifies a breakthrough in 3D mesh generation from single images, marrying high quality with efficiency. Developed by leading researchers, it promises to transform your single-view wild images into high-fidelity textured meshes in just 30 seconds. The technology not only supports multiple demo platforms but is also under active development for enhanced features and broader accessibility. Its sensitivity to image facing direction and resolution ensures top-notch reconstructions, setting new standards for 3D modeling efficacy.","Discover Unique3D, the advanced solution for generating high-quality 3D meshes from single images in seconds. Created by experts, it's perfect for efficient, detailed model creation. Learn more.",3D Image Rendering,"Python
+
+
+
+
+
+        310
+
+
+
+
+
+        20
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        77 stars today",https://raw.githubusercontent.com/AiuniAI/Unique3D/main/assets/teaser_safe.jpg,,310,2024-05-30T18:37:51Z
+2024-06-04,https://github.com/tevslin/meeting-reporter,https://raw.githubusercontent.com/tevslin/meeting-reporter/main/README.md,"The meeting_reporter project showcases a Streamlit app designed for multiagent and human collaboration to create news stories from meeting transcripts. It utilizes langgraph for coordinating interactions and integrates it with the Streamlit state machine to process text input, either via URL or upload. The system includes agents for uploading documents, drafting, and critiquing content, with the human participant editing drafts or critiques. This cycle repeats until a satisfactory draft is produced for display. Initially focused on meetings due to the abundance of public meetings and the lack of reporters covering them, this project could extend to various news types and incorporate features like fact-checking. The project repository provides all necessary code for deployment on Streamlit Cloud and instructions for use in different environments, including customization options and suggestions for enhancements such as prompt selection, fact-checking, and more. Privacy concerns are minimal, and no warranty is provided, although contributions are encouraged.",Revolutionizing Journalism: Streamlit & Langgraph for Collaborative Reporting,"Discover how meeting_reporter leverages Streamlit and Langgraph for groundbreaking multiagent and human collaboration in journalism. This innovative tool transforms meeting minutes into news stories through a seamless integration of technology, allowing for efficient teamwork between human journalists and AI agents. With features such as multi-source fact-checking and customizable news story generation, meeting_reporter redefines the capabilities of digital reporting. Perfect for covering more events with fewer reporters, it invites users to partake in an evolving landscape of news production. Get involved, enhance the technology, or simply explore its potential to change how news is crafted and shared.","Unveil the future of journalism with meeting_reporter, a cutting-edge application combining Streamlit and Langgraph for AI-enhanced human collaboration. Transform meeting transcripts into news stories effortlessly.",AI Development Platform,"Python
+
+
+
+
+
+        96
+
+
+
+
+
+        15
+
+
+        Built by
+
+          
+
+
+
+
+
+        15 stars today",,,96,2024-04-08T21:00:01Z
+2024-06-04,https://github.com/julep-ai/julep,https://raw.githubusercontent.com/julep-ai/julep/main/README.md,"Julep is an advanced platform designed for creating stateful and functional AI applications, integrating large language models. It simplifies the development of AI apps by handling state management, context, and automatic function calls, making it easier and faster to build and deploy AI-driven applications. Julep supports both local installation and cloud usage, allowing developers to easily set up and start building AI apps with tools like Python's pip for installation and docker-compose for local deployment. Julep is highly customizable, offering features such as statefulness by design, automatic function calling, and production readiness with Docker support. It provides the flexibility to use and switch between various large language models and connects to over 150 third-party applications via Composio. The platform is open-source under the Apache 2.0 License and encourages community contributions. Support is available through Discord, GitHub, email, and direct calls for custom deployment assistance.",Exploring Julep: The Ultimate Platform for Building AI Apps,"Discover the power of Julep, an innovative platform designed for creating stateful AI applications with ease. With Julep, developers can seamlessly integrate large language models to develop functional and interactive AI apps. Its features include statefulness by design, automatic function calling, and the ability to switch between different LLMs effortlessly. Whether you're deploying locally or using the Julep Cloud, this platform supports a wide range of tools and services, making it ideal for both beginners and experienced developers alike.","Unlock the potential of AI app development with Julep, the open platform that simplifies the creation of stateful AI apps. Learn about its key features, including automatic function calling, statefulness, and easy integration with various LLMs.",AI Development Platform,"Python
+
+
+
+
+
+        496
+
+
+
+
+
+        19
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        44 stars today",https://raw.githubusercontent.com/julep-ai/julep/main/image.png,,496,2024-04-04T09:33:02Z
+2024-06-04,https://github.com/myhhub/KnowledgeGraph,https://raw.githubusercontent.com/myhhub/KnowledgeGraph/master/README.md,"This text provides a comprehensive guide to building knowledge graphs from scratch, covering everything from foundational knowledge to theoretical frameworks and practical implementation. It starts with the basics of knowledge graphs including concepts, representation, modeling, extraction, mining, storage, fusion, reasoning, semantic search, and question answering. It also highlights two significant papers: one from Tsinghua University on a semi-automatic approach for constructing domain-specific knowledge graphs, and another doctoral dissertation from East China University of Science and Technology on constructing general and industry-specific knowledge graphs from multiple data sources. Additionally, the text presents a series of practical tutorials on building a movie domain and encyclopedic knowledge graphs, detailing processes such as data acquisition, structuring data to RDF, simple question answering, semantic search with ElasticSearch, relation extraction from unstructured text, data storage in graph databases like Neo4j, and knowledge fusion.",Mastering Knowledge Graph Construction: From Theory to Practice,"Dive deep into the world of knowledge graph construction with a comprehensive guide from basics to implementation. Explore foundational concepts, theoretical frameworks and engage in hands-on building of domain-specific and general-purpose knowledge graphs. Learn through an extensive series of blog posts and academic papers that cover the essentials of knowledge extraction, storage, and reasoning, as well as practical tutorials on creating knowledge graphs in areas such as the movie industry and encyclopedic knowledge.","Unlock the secrets of building knowledge graphs from scratch with our in-depth guide. Discover essential theories, practical implementations, and expert tips for successful knowledge graph construction.",Open Source Tool,"Python
+
+
+
+
+
+        893
+
+
+
+
+
+        121
+
+
+        Built by
+
+          
+
+
+
+
+
+        5 stars today",,,893,2019-10-17T07:02:55Z
+2024-06-04,https://github.com/tsale/EDR-Telemetry,https://raw.githubusercontent.com/tsale/EDR-Telemetry/main/README.md,"This repository offers a detailed comparison of telemetry features across various EDR (Endpoint Detection and Response) products and endpoint agents like Sysmon. The project's goal is to help security experts evaluate the telemetry capabilities of these tools, promoting transparency from EDR vendors about their offerings. Telemetry, in this context, refers to log data generated and transmitted by agents or sensors in near real-time, crucial for compliance, investigations, forensics, and enhancing cybersecurity measures through custom analytics and detection strategies. The documentation includes a telemetry comparison table, evaluation and scoring of EDR solutions based on their features, and a detailed breakdown of telemetry capabilities, including process activity, file manipulation, network activity, and more. The comparison aims not at evaluating the products' threat detection or prevention capabilities but at their telemetry provisions. Contributions and updates to the project are encouraged, acknowledging that EDR capabilities may evolve over time.",EDR Telemetry: Comprehensive Comparison for Cybersecurity Experts,"Discover the ultimate comparison of EDR telemetry features across major products, empowering security practitioners to enhance their cyber defense capabilities. This repo serves as a critical tool for evaluating EDR products, pushing for transparency in telemetry offerings, and tailoring detection and analytics to specific security needs. Learn more about the project’s motivation, methodology, and access detailed telemetry comparisons to inform your cybersecurity strategies.",A detailed analysis and comparison of Endpoint Detection and Response (EDR) telemetry features to aid cybersecurity practitioners in evaluating tools for enhanced defense capabilities.,Cybersecurity Tool.,"Python
+
+
+
+
+
+        1,337
+
+
+
+
+
+        133
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        23 stars today",,,1337,2023-04-01T20:02:33Z
