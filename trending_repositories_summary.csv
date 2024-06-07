@@ -17937,3 +17937,115 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
 
         23 stars today",,,1337,2023-04-01T20:02:33Z
+2024-06-07,https://github.com/Stability-AI/stable-audio-tools,https://raw.githubusercontent.com/Stability-AI/stable-audio-tools/main/README.md,"Stable Audio Tools provides training and inference code for audio generation models, allowing for easy installation via PyPI and requiring Python 3.8.10 and PyTorch 2.0 or newer. It includes a Gradio interface to test trained models with support for pre-trained checkpoints from Hugging Face. Training utilizes PyTorch Lightning for multi-GPU and multi-node setups and requires a Weights & Biases account for logging. Unwrapping model checkpoints post-training aids in inference and fine-tuning. Training settings and model hyperparameters are configured through JSON files, catering to various model types. The tool also accommodates different data sources, including local audio files and WebDataset datasets. Future updates plan to add troubleshooting guides and contribution instructions.",Unlocking Audio Magic: Get Started with Stable Audio Tools for Model Training and Inference,"Dive into the world of audio generation with Stable Audio Tools, an innovative library supporting the latest in audio model training and inference. From hassle-free installation via PyPI to advanced training with multi-GPU support, learn how to enhance your audio projects. Explore features like Gradio interface for model testing and essential tips for fine-tuning and unwrapping models. Whether you're developing in Python 3.8.10, or leveraging PyTorch 2.0 for cutting-edge Flash Attention support, Stable Audio Tools equips you with everything needed to create captivating audio experiences.","Discover how to deploy Stable Audio Tools for top-notch audio generation models. From easy installation and Gradio interface setup to multi-GPU training and fine-tuning, master audio model development with this comprehensive guide.",Machine Learning Tool,"Python
+
+
+
+
+
+        1,719
+
+
+
+
+
+        152
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        46 stars today",,,1719,2023-05-23T15:51:04Z
+2024-06-07,https://github.com/google/mesop,https://raw.githubusercontent.com/google/mesop/main/README.md,"Mesop is a Python-based UI framework used at Google for rapidly building web apps, including demos and internal applications, without needing to write Javascript, CSS, or HTML. It simplifies UI development by allowing developers to write in idiomatic Python, using a reactive UI paradigm, and offering ready-to-use components. Mesop supports hot reload for instant updates without losing state, and offers rich IDE support with type safety. Developers can quickly compose custom UIs into components through Python functions. A demonstration app showcases its capabilities, and Mesop can be tried via Google Colab or installed locally with just a few steps. However, it's noted that Mesop is not an officially supported Google product.",Mesop: The Future of Python Web Apps Development,"Discover Mesop, the Python UI framework revolutionizing web app development, as used by Google. Mesop enables developers to create web applications swiftly without diving into JavaScript, CSS, or HTML, courtesy of its idiomatic Python coding and reactive UI design. With features like hot reload, strong IDE support, and the ability to compose custom UIs into Python functions, Mesop promises an intuitive and frictionless development experience. Begin with Mesop in less than 10 lines of code and explore its potential for your web projects today.","Explore Mesop, the intuitive Python UI framework for rapid web app development. Learn how to build web apps with idiomatic Python, leveraging features like hot reload and strong IDE support.",Python Web Development,"Python
+
+
+
+
+
+        1,109
+
+
+
+
+
+        47
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        344 stars today",,,1109,2023-10-13T23:24:32Z
+2024-06-07,https://github.com/pre-commit/pre-commit-hooks,https://raw.githubusercontent.com/pre-commit/pre-commit-hooks/main/README.md,"The text provides an overview of `pre-commit-hooks`, a collection of ready-to-use hooks for the `pre-commit` framework, which automates code checks to ensure code quality before committing. Users can integrate these hooks into their projects by adding the repository URL and desired hooks to their `.pre-commit-config.yaml` file. The document lists various hooks available for different purposes, such as checking for large files, validating syntax of Python, JSON, XML, and YAML files, enforcing naming conventions, and ensuring no sensitive data like AWS credentials or private keys are committed. It also includes hooks for fixing common issues like trailing whitespaces, sorting file contents, and removing byte order markers. Deprecated hooks and detailed usage for configuring and customizing the hooks are mentioned, alongside the availability of these hooks as a standalone package through pip installation.",Maximizing Code Quality with Pre-Commit Hooks: A Comprehensive Guide,"Discover how pre-commit hooks can revolutionize your coding workflow by enforcing quality checks and standards automatically. Learn to integrate these hooks into your `.pre-commit-config.yaml` to catch large files, ensure code syntax, and maintain consistent coding styles across various file types. From identifying merge conflicts to sorting YAML files, this guide covers the essentials for setting up pre-commit hooks in your projects. Enhance your development process and prevent common errors with this easy-to-follow tutorial.",Unlock the full potential of pre-commit hooks to ensure code quality and consistency. Learn how to set up and configure essential hooks for your projects with our comprehensive guide.,Open Source Tool,"Python
+
+
+
+
+
+        4,961
+
+
+
+
+
+        679
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",,,4961,2014-03-13T15:21:46Z
+2024-06-07,https://github.com/mategol/PySilon-malware,https://raw.githubusercontent.com/mategol/PySilon-malware/main/README.md,"PySilon Malware is an advanced Python-based RAT (Remote Access Trojan) that can be fully controlled through Discord, featuring a GUI builder for ease of setup. This malware offers wide-ranging capabilities, such as handling multiple computers, bypassing User Account Control for administrative access, self-deletion, logging keystrokes, taking screenshots or recording screens, elevating process status to critical, manipulating victim's PC graphics, turning off/on monitors, blocking websites, managing processes, communicating in various ways, using text-to-speech, capturing webcam images, blocking input devices, stealing WiFi passwords and browsing data, grabbing system information, manipulating audio settings, playing audio files, recording microphone input, browsing and altering files on the target PC, replacing cryptocurrency wallet addresses, triggering jumpscares or Blue Screen of Death, executing fork bombs, and avoiding detection on virtual machines. It supports detailed setup instructions and supports through community channels on Telegram and Discord, with emphasis on educational purposes only for its usage.",Exploring PySilon Malware: A Python RAT Controllable via Discord,"Discover the advanced features of PySilon malware, a Python-based RAT fully manageable via Discord, offering a robust GUI builder for easy setup. PySilon stands out for its extensive capabilities, including system manipulation, data theft, and real-time surveillance features. Learn about its broad command set, from keylogging to screen recording, and how it leverages Discord for streamlined control. For detailed setup instructions and more information, delve into the PySilon Wiki and join the community on Telegram and Discord.","Uncover the complexities of PySilon Malware, a Discord-controllable Python RAT with a GUI builder. Explore its key features, setup process, and community resources for an in-depth understanding.",Cybersecurity Tool.,"Python
+
+
+
+
+
+        487
+
+
+
+
+
+        82
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://user-images.githubusercontent.com/44233157/205148071-ed0f810e-be71-4b18-8c6b-94e838ebda5d.png,,487,2022-11-19T15:25:20Z
