@@ -18050,3 +18050,114 @@ Instructions for environmental setup, data preparation, feature extraction, and 
 
         15 stars today",https://user-images.githubusercontent.com/44233157/205148071-ed0f810e-be71-4b18-8c6b-94e838ebda5d.png,,487,2022-11-19T15:25:20Z
 2024-06-08,https://github.com/microsoft/TaskWeaver,https://raw.githubusercontent.com/microsoft/TaskWeaver/main/README.md,"TaskWeaver is an agent framework designed for code-first planning and execution of data analytics tasks. It stands out by tracking both chat and code execution history, including in-memory data, which makes it particularly suited for handling complex data like high-dimensional tables. Recent updates include new blog posts, support for all-in-one Docker images, and various modes for operational flexibility and security enhancements. TaskWeaver emphasizes ease of use, customization through plugins, domain-specific knowledge integration, stateful execution, and security. It’s built to accommodate rich data structures and allows users to encapsulate their algorithms into plugins for better orchestration. Installation involves cloning the repository and setting up Python and LLM configurations. Users can interact with TaskWeaver via command line or Web UI, and it can also be imported as a library into existing projects. The framework encourages community involvement for improvements and can be used for complex tasks by extending its capabilities through additional plugins.",Introducing TaskWeaver: Revolutionizing Data Analytics with a Code-First Agent Framework,"TaskWeaver is a groundbreaking code-first agent framework designed for executing complex data analytics tasks seamlessly. It stands out by maintaining both chat and code execution history, including in-memory data, which boosts the framework's ability to handle complex data structures efficiently. TaskWeaver's stateful execution capability ensures a smooth and consistent user experience, making it perfect for developers needing customized algorithmic orchestration and state management. Ideal for Python users, this innovative tool supports an extensive array of plugins, fostering ease of use and extension for diverse analytics needs.","Discover TaskWeaver, a code-first agent framework for data analytics, featuring stateful execution, rich data structure handling, and extensive plugin support, ideal for Python developers.",AI Development Platform,No specific star count found,https://raw.githubusercontent.com/microsoft/TaskWeaver/main/./.asset/taskweaver_arch.png,,4878,2023-09-11T03:17:38Z
+2024-06-11,https://github.com/piku/piku,https://raw.githubusercontent.com/piku/piku/master/README.md,"Piku, inspired by Dokku, is a deployment tool that enables users to perform `git push` deployments to their own servers, regardless of size. It provides a simple, stable, and Heroku-like deployment experience without requiring Docker, making it suitable even for small ARM and Intel-based servers. The project supports multiple programming environments, manages dependencies, and utilizes a `Procfile` for process management with `uwsgi`. Piku promotes easy configuration through environment variables and offers virtual host support with SSL options via Let's Encrypt. Designed to run on low-end devices, it emphasizes simplicity, accessibility, and a minimal dependency footprint. Piku is intended for a wide range of POSIX-compatible systems, supporting deployments on Linux, FreeBSD, Cygwin, and WSL, primarily targeting Debian and Ubuntu on cloud servers. With a commitment to the 12-factor app methodology, Piku aims to cover the most common use cases while keeping the user experience straightforward and leveraging standard tools like `git`, `ssh`, `nginx`, and `uwsgi`.",Deploy Your Apps with Ease Using Piku on Any Server,"Discover 'piku', the lightweight platform inspired by 'dokku' for easy git push deployments on your servers, regardless of their size. Perfect for ARM and Intel architectures, 'piku' supports a Heroku-like workflow, allowing for seamless app scaling and management. It handles multiple programming environments with compatibility across a wide range of cloud providers and physical servers. Whether you're deploying to ARM boards or looking for a simplified solution without Docker, 'piku' offers a stable, efficient, and scalable deployment tool. Explore how 'piku' can streamline your development and deployment process today.","Explore 'piku' for simple, efficient git push deployments to any server. A lightweight, Heroku-like solution compatible with ARM and Intel, supporting a wide range of programming environments. Ideal for developers seeking a stable, scalable, and Docker-free deployment tool.",Open Source Tool,"Python
+
+
+
+
+
+        4,621
+
+
+
+
+
+        113
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        412 stars today",https://raw.githubusercontent.com/piku/piku/master/./img/logo.png,https://www.youtube.com/watch?v=ec-GoDukHWk,4621,2016-03-26T12:53:50Z
+2024-06-11,https://github.com/litestar-org/litestar,https://raw.githubusercontent.com/litestar-org/litestar/main/README.md,"Litestar is an ASGI framework designed for building APIs with a focus on performance and flexibility. It supports high-performance data validation and parsing, dependency injection, ORM integration, authorization primitives, and more, aiming to provide everything needed to quickly develop applications. It encourages the use of typing to leverage Python's type hints for validation, parsing, and documentation purposes. It features a plugin system for extending functionality, built-in support for SQLAlchemy, and automatic OpenAPI schema generation. Litestar also supports dependency injection, middleware, route guards, and request lifecycle hooks. For asynchronous support, it integrates with Trio via AnyIO. Documentation is available for detailed feature overview. Pre-built example applications demonstrate Litestar's capabilities and best practices. It also highlights community engagement through Reddit, Discord, and Matrix channels while being open to contributions from developers.",Maximize Performance and Productivity with Litestar: The Ultimate ASGI Framework,"Discover how Litestar, a high-performance ASGI framework, revolutionizes API development with its powerful features including data validation, ORM integration, and more. With Litestar, development is not just faster, but also more efficient, thanks to its class-based controllers, dependency injection, and comprehensive documentation. Dive into the Litestar ecosystem and see your productivity soar.","Explore Litestar ASGI framework: Boost your API development with advanced features like data validation, ORM integration, and class-based controllers. Learn more now!",Python Web Development,"Python
+
+
+
+
+
+        4,726
+
+
+
+
+
+        338
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        23 stars today",,,4726,2021-12-06T19:43:06Z
+2024-06-11,https://github.com/dyang886/Game-Cheats-Manager,https://raw.githubusercontent.com/dyang886/Game-Cheats-Manager/main/README.md,"Game Cheats Manager offers a comprehensive solution for gamers to easily manage their game trainers. It features a user-friendly interface that lets users browse, download, and manage trainers—all from a single location. Users can directly launch or delete trainers within the app, streamlining the gaming setup. The software also provides options for adjusting settings, importing trainers, accessing the download folder, and unlocking premium features with WeMod Pro. Installation is straightforward, requiring downloading and running the installer from the GitHub page. Importantly, the software acts solely as a management tool and is not linked with the trainers' creators, advising users to adhere to each trainer's terms. Support and further development are facilitated through its GitHub repository.",Maximize Your Gaming Experience with Game Cheats Manager,"Game Cheats Manager is the ultimate solution for gamers looking to streamline their experience with game trainers. It enables easy browsing, downloading, and management of trainers, directly through its user-friendly interface. With features like customizable settings, direct trainer management, and support for multiple languages and themes, it empowers gamers to keep their gaming environment organized and efficient. Moreover, it's designed for ease of installation and is supported by a strong community via its GitHub repository.","Discover how Game Cheats Manager can transform your gaming setup by allowing you to manage game trainers efficiently, download new trainers easily, and customize your experience with various settings.",Game Cheats Manager,"Python
+
+
+
+
+
+        2,247
+
+
+
+
+
+        70
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        32 stars today",,,2247,2023-12-31T10:09:12Z
+2024-06-11,https://github.com/locustio/locust,https://raw.githubusercontent.com/locustio/locust/master/README.md,"Locust is an open-source tool for performance and load testing of web services and various protocols, emphasizing a developer-friendly approach through the use of plain Python code for test scenario creation. It supports running tests via command line or a web interface, allowing real-time monitoring and result analysis. Key features include the ability to write tests in Python using regular programming constructs, low overhead per simulated user facilitating highly concurrent workloads, and a scalable, distributed architecture capable of handling hundreds of thousands of users. The web UI offers dynamic test control and real-time progress visualization. Locust is flexible, catering to testing almost any system by writing custom clients or utilizing community-created ones. Its hackable nature allows for extensive customization, including direct reporting to databases for visualization or adjusting test scenarios to specific needs. Locust has a vibrant community contributing to its development, with comprehensive documentation and support available. It is licensed under the MIT license.",Mastering Locust for Performance Testing: A Comprehensive Guide,"Discover how Locust, an open-source performance testing tool, revolutionizes HTTP and protocol load testing through Python-based scenarios. Learn to craft tests using Python code, scale your testing efforts with Locust's distributed nature, and enjoy real-time insights with a web-based UI. Whether you're testing web services or other systems, Locust's flexibility and developer-friendly approach makes it an unparalleled choice for modern load testing needs.","Harness the power of Locust for load testing with our guide on deploying Python-based tests, scaling your efforts, and leveraging real-time analytics for unmatched testing efficiency.",Open Source Tool,"Python
+
+
+
+
+
+        23,964
+
+
+
+
+
+        2,906
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/locustio/locust/master/docs/images/total_requests_per_second.png; https://raw.githubusercontent.com/locustio/locust/master/docs/images/webui-running-statistics.png; https://raw.githubusercontent.com/locustio/locust/master/docs/images/locust_workers.png; https://raw.githubusercontent.com/locustio/locust/master/docs/images/webui-splash-screenshot.png,,23964,2011-02-17T11:08:03Z
