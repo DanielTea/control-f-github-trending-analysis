@@ -18276,3 +18276,144 @@ For developers and organizations looking for a scalable, extensible, and program
 
         16 stars today",https://user-images.githubusercontent.com/43399466/216040281-6c8b89c3-8c22-4620-ad1c-8edd78eb31ae.png; https://user-images.githubusercontent.com/43399466/215974891-196abfe9-ace0-407b-abd2-adcffe218e3f.png; https://user-images.githubusercontent.com/43399466/215975712-2fc569cb-9d76-49b4-9345-d8b62187aa22.png; https://user-images.githubusercontent.com/43399466/215959008-3ebca431-1f14-4d81-9f12-6bb232bfbee3.png; https://user-images.githubusercontent.com/43399466/215959294-047eadef-7e64-4795-bd3b-b1efb0375988.png; https://user-images.githubusercontent.com/43399466/215959398-344b5721-28ec-47a5-8908-b698e435608d.png; https://user-images.githubusercontent.com/43399466/215959757-403246c8-e739-4103-9265-6bdab418013e.png; https://user-images.githubusercontent.com/43399466/215961440-3f13f82b-61a2-4117-88bc-0da265a67fa7.png; https://user-images.githubusercontent.com/43399466/215973898-7c366525-15db-4876-bd71-49522ecb267d.png,https://www.youtube.com/watch?v=zZfhAXfBvVA,5291,2023-02-01T04:33:00Z
 2024-06-13,https://github.com/open-mmlab/mmsegmentation,https://raw.githubusercontent.com/open-mmlab/mmsegmentation/main/README.md,"MMSegmentation, a toolbox for semantic segmentation based on PyTorch, is a part of the OpenMMLab project, now officially releasing its latest version, v1.0.0. The project emphasizes a unified benchmark, modular design, support of multiple methods out of the box, and high efficiency in training speed. The v1.0.0 upgrade introduces significant improvements and new features over its predecessor, 0.x, including support for open-vocabulary semantic segmentation algorithms like SAN, and adding support for monocular depth estimation tasks with methods such as VPD and Adabins. Additionally, new highlights include projects like CAT-Seg, a real-time segmentation algorithm, and PP-MobileSeg, alongside detailed documentation for migration from 0.x to 1.x versions, user guides, and tutorials. The benchmarks and model zoo provide a comprehensive overview of supported backbones, methods, heads, datasets, and more, encouraging contributions from the community to enhance and extend MMSegmentation's capabilities.",Exploring MMSegmentation v1.0.0: A Leap in Semantic Segmentation,"MMSegmentation v1.0.0 marks a significant milestone in the semantic segmentation landscape, introducing a unified benchmark toolbox, modular design for customized frameworks, and extensive support for contemporary methods. Enhanced with features such as support for open-vocabulary semantic segmentation and monocular depth estimation, this release sets a new standard in flexibility and efficiency. Check out our migration guide to smoothly transition your projects to leverage the cutting-edge functionalities of MMSegmentation v1.x.","Discover what's new in MMSegmentation v1.0.0, including unified benchmarks, modular designs, and advanced features like open-vocabulary segmentation, all designed to enhance the flexibility and efficiency of your semantic segmentation projects.",Deep Learning Tool,No specific star count found,https://raw.githubusercontent.com/open-mmlab/mmsegmentation/main/resources/mmseg-logo.png; https://user-images.githubusercontent.com/25839884/219255827-67c1a27f-f8c5-46a9-811d-5e57448c61d1.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218347213-c080267f-cbb6-443e-8532-8e1ed9a58ea9.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218346637-d30c8a0f-3eba-4699-8131-512fb06d46db.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/218346691-ceb2116a-465a-40af-8424-9f30d2348ca9.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/219026751-d7d14cce-a7c9-4e82-9942-8375fca65b99.png; https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png; https://user-images.githubusercontent.com/25839884/219026120-ba71e48b-6e94-4bd4-b4e9-b7d175b5e362.png; https://raw.githubusercontent.com/open-mmlab/mmsegmentation/main/resources/seg_demo.gif,,7601,2020-06-14T04:32:33Z
+2024-06-14,https://github.com/Azure/azure-cli,https://raw.githubusercontent.com/Azure/azure-cli/main/README.md,"The Microsoft Azure CLI is a command-line tool providing a multi-platform experience for managing Azure resources. It's available for installation through various methods, including Docker and edge builds, and can also be accessed directly via the Azure Cloud Shell. The CLI supports commands for a broad range of Azure services, allowing users to execute actions, query resources, and configure settings. Users can customize their output using the `--query` parameter and manage command outputs for scripting with specific exit codes. To improve usability, it includes features like tab-completion and provides guidance on effective CLI usage. The Azure CLI collects telemetry data by default, which users can opt out of. Bugs and feedback can be reported through GitHub or the `az feedback` command. For developers interested in contributing or creating custom command modules, detailed guides are available. This project adheres to the Microsoft Open Source Code of Conduct, encouraging contributions under Microsoft's guidelines.",Mastering Microsoft Azure CLI: Your Essential Guide,"Discover the power of Microsoft Azure CLI, your essential tool for managing Azure services efficiently. Explore detailed installation instructions, usage tips, and advanced features like query and tab completion to elevate your cloud management experience. Whether you're a developer or an IT professional, this guide provides valuable insights into leveraging Azure CLI for streamlined cloud operations. Test drive Azure CLI now and transform your cloud management tasks into a simplified, efficient process.","Explore the ultimate guide to Microsoft Azure CLI for efficient cloud management. Learn about installation, usage, advanced features, and tips to maximize your Azure command line experience.",Cloud Development tool,"Python
+
+
+
+
+
+        3,895
+
+
+
+
+
+        2,856
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://raw.githubusercontent.com/Azure/azure-cli/main/doc/assets/AzBlogAnimation4.gif,,3895,2016-02-04T00:21:51Z
+2024-06-14,https://github.com/demisto/content,https://raw.githubusercontent.com/demisto/content/master/README.md,"The Cortex XSOAR Platform, previously known as Demisto, provides a comprehensive content repository to automate and orchestrate Security Operations. It contains an ever-growing collection of playbooks, automation scripts, report templates, and other resources aimed at security professionals. The repository encourages a collaborative approach to security, inviting users to contribute, modify, and share tools and techniques. It supports Docker for running scripts and integrations in a controlled environment, and promotes the use of its visual playbook editor for automating processes with existing security tools and services. The platform seeks to enhance security operations through community engagement and contributions, offering detailed documentation and guides for users to develop and contribute content. Integration with security and IT products is facilitated through scripts and integrations written in Python or Javascript, allowing for flexible and customizable security operations.",Maximizing Security Operations: A Deep Dive into Cortex XSOAR's Comprehensive Content Repository,"Discover the Cortex XSOAR Platform's content repository, a treasure trove of Demisto's automation scripts, playbooks, and report templates geared to streamline your security operations. Delve into a world where customization and community collaboration reign supreme, allowing you to modify resources to fit your unique needs while contributing to the ever-evolving security landscape. Engage with an active community, share insights, and enhance your security toolkit on this open and collaborative platform. Learn, contribute, and accelerate your security operations with Cortex XSOAR's rich library of resources. Check out our Content Developer Portal for guidance on contributing and harness the power of collective intelligence in cybersecurity.","Explore the Cortex XSOAR Content Repository for an extensive collection of automation scripts, playbooks, and report templates designed to optimize your security operations. Join our community today and contribute to the evolution of cybersecurity.",Cybersecurity Tool,"Python
+
+
+
+
+
+        1,090
+
+
+
+
+
+        1,600
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        0 stars today",https://raw.githubusercontent.com/demisto/content/master/xsoar_content_logo.png,,1090,2016-06-06T12:17:02Z
+2024-06-14,https://github.com/dbt-labs/dbt-core,https://raw.githubusercontent.com/dbt-labs/dbt-core/main/README.md,"The text introduces dbt (data build tool), a tool that enables data analysts and engineers to transform data using practices akin to software development. dbt simplifies data transformation by allowing users to write select statements that it automatically converts into tables and views within a data warehouse. These transformations are organized into models which can depend on one another, with dbt aiding in managing these relationships, visualizing them, and ensuring their quality through testing. The document also guides new users on how to get started with dbt, including installation and introductory resources. Furthermore, it invites users to join the dbt community through forums like Slack and Discourse, offers information on how to report bugs, request features, contribute to the project, and underscores the importance of abiding by the dbt Code of Conduct in all community interactions.",Mastering Data Transformations with dbt: A Comprehensive Guide,"Discover the powerful capabilities of dbt for data analysts and engineers looking to streamline their data transformation processes. Learn how simple SQL select statements can be turned into complex data models, facilitating easy management and visualization of data relationships. With robust documentation, a supportive community, and tools for ensuring data quality, dbt is the go-to framework for efficient data warehouse management. Get started with dbt by exploring installation options, diving into foundational concepts, and joining the vibrant dbt Community to enhance your data engineering workflows.","Explore how dbt enables efficient data transformation for analysts and engineers using SQL statements, offering tools for managing data models, ensuring quality, and fostering a strong community.",Data Transformation Tool,"Python
+
+
+
+
+
+        9,150
+
+
+
+
+
+        1,525
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://github.com/dbt-labs/dbt-core/blob/202cb7e51e218c7b29eb3b11ad058bd56b7739de/etc/dbt-transform.png; https://raw.githubusercontent.com/dbt-labs/dbt-core/6c6649f9129d5d108aa3b0526f634cd8f3a9d1ed/etc/dbt-dag.png,,9150,2016-03-10T02:38:00Z
+2024-06-14,https://github.com/kubeflow/pipelines,https://raw.githubusercontent.com/kubeflow/pipelines/master/README.md,"Kubeflow is a machine learning toolkit aimed at simplifying ML workflow deployments on Kubernetes, ensuring they are portable and scalable. Kubeflow Pipelines, integral to this service, allow for reusable ML workflows. Key goals include end-to-end orchestration, facilitating easy experimentation, and promoting the reuse of components for efficiency. The installation of Kubeflow Pipelines is adaptable with options provided, including a shift to the Emissary Executor for better compatibility across different Kubernetes container runtimes, especially since Docker's deprecation. Extensive documentation is available, covering how to get started, utilize the SDK, and understand API specifications. Community engagement is encouraged through contributions, regular meetings, a dedicated Slack channel, and various informative blog posts. Kubeflow acknowledges the support from Argo Workflows and offers Tekton backend integration for additional orchestration options.",Mastering Kubeflow Pipelines: A Comprehensive Guide to ML Workflows,"Kubeflow Pipelines revolutionize the deployment of machine learning workflows, emphasizing simplicity, portability, and scalability on Kubernetes. They provide end-to-end orchestration, facilitate easy experimentation, and offer reusability of components. With installation options diverse and documentation rich, it's designed for both ease of use and deep customization. The ecosystem supports a broad community, contributing resources, and regular updates, ensuring Kubeflow Pipelines remain at the forefront of ML workflow technology.","Discover how Kubeflow Pipelines provide an efficient, scalable platform for machine learning workflows on Kubernetes, facilitating easy orchestration, experimentation, and component reuse.",Machine Learning Tool,"Python
+
+
+
+
+
+        3,486
+
+
+
+
+
+        1,562
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        0 stars today",,,3486,2018-05-12T00:31:47Z
+2024-06-14,https://github.com/zauberzeug/nicegui,https://raw.githubusercontent.com/zauberzeug/nicegui/main/README.md,"NiceGUI is a Python-based UI framework designed for ease of use, allowing the creation of web-based interfaces with standard and high-level elements like buttons, dialogs, 3D scenes, and plots. Ideal for micro web apps, dash boarding, robotics projects, and smart home solutions, it supports development tasks such as machine learning algorithm tuning. It offers various features, including automatic reloads on code change, built-in timers, data binding, and customization options for appearance. NiceGUI is compatible with Jupyter Notebooks and supports Python's interactive mode. It is available as a PyPI package, Docker image, on conda-forge, and GitHub, with documentation and examples provided online. The project invites contributions and is supported by contributions and sponsorships.",Exploring NiceGUI: A User-Friendly Python UI Framework for Web Applications,"Discover the ease of creating web and desktop applications with NiceGUI, a Python-based UI framework designed for simplicity and effectiveness. From micro web apps to complex robotics projects, NiceGUI offers an extensive array of features like buttons, dialogs, 3D scenes, and plots, easily accessible through a browser. Available as a PyPI package, Docker image, or on conda-forge, it supports live reloading, data binding, and custom styling options, making it ideal for development and deployment. Dive into the world of NiceGUI for your next project.","Learn about NiceGUI, a Python UI framework for building simple to complex web and desktop applications, featuring live reloading, extensive widgets, and customization options.",Python Web Development,"Python
+
+
+
+
+
+        7,957
+
+
+
+
+
+        485
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://github.com/lechler-gmbh.png,,7957,2021-05-07T13:55:05Z
+2024-06-14,https://github.com/aws-cloudformation/cfn-lint,https://raw.githubusercontent.com/aws-cloudformation/cfn-lint/main/README.md,"The AWS CloudFormation Linter (cfn-lint) is a tool that validates AWS CloudFormation YAML/JSON templates against the AWS CloudFormation Resource Provider Schemas, alongside additional checks, including resource property validation and best practices. Its ability to validate complex properties and values is based on a best-effort approach. The linter is open-source, encouraging contributions via its contributing guidelines. It supports integration with various editors and IDEs through plugins, offers a Docker image for containerized environments, and can be installed via pip, Homebrew, or by building from the source. The tool supports custom rules for template validation, allows override of AWS CloudFormation Resource Provider Schemas, and provides detailed configuration options through command-line arguments, a configuration file, or template metadata. Usage includes single or multiple file linting, with controls over regions, rules, and output formats. Exit codes indicate the presence of errors, warnings, or informational findings.",Maximizing AWS CloudFormation Efficiency with cfn-lint,"AWS CloudFormation Linter (cfn-lint) optimizes the process of validating AWS CloudFormation templates, ensuring best practices and preventing deployment errors. This advanced tool checks yaml/json templates against AWS CloudFormation resource provider schemas alongside additional checks, including resource properties and values validation. It supports the Serverless Application Model, integrates seamlessly through IDE plugins, and is extendable via custom rules for tailored validation, making it indispensable for cloud engineers seeking to streamline their CloudFormation template creation.","Discover how AWS CloudFormation Linter (cfn-lint) elevates your infrastructure as code by validating templates against AWS specifications, best practices, and custom rules for error-free deployments.",Cloud Development Tool,No specific star count found,,,2376,2018-04-10T23:16:16Z
