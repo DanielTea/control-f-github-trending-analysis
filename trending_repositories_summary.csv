@@ -18417,3 +18417,120 @@ For developers and organizations looking for a scalable, extensible, and program
 
         10 stars today",https://github.com/lechler-gmbh.png,,7957,2021-05-07T13:55:05Z
 2024-06-14,https://github.com/aws-cloudformation/cfn-lint,https://raw.githubusercontent.com/aws-cloudformation/cfn-lint/main/README.md,"The AWS CloudFormation Linter (cfn-lint) is a tool that validates AWS CloudFormation YAML/JSON templates against the AWS CloudFormation Resource Provider Schemas, alongside additional checks, including resource property validation and best practices. Its ability to validate complex properties and values is based on a best-effort approach. The linter is open-source, encouraging contributions via its contributing guidelines. It supports integration with various editors and IDEs through plugins, offers a Docker image for containerized environments, and can be installed via pip, Homebrew, or by building from the source. The tool supports custom rules for template validation, allows override of AWS CloudFormation Resource Provider Schemas, and provides detailed configuration options through command-line arguments, a configuration file, or template metadata. Usage includes single or multiple file linting, with controls over regions, rules, and output formats. Exit codes indicate the presence of errors, warnings, or informational findings.",Maximizing AWS CloudFormation Efficiency with cfn-lint,"AWS CloudFormation Linter (cfn-lint) optimizes the process of validating AWS CloudFormation templates, ensuring best practices and preventing deployment errors. This advanced tool checks yaml/json templates against AWS CloudFormation resource provider schemas alongside additional checks, including resource properties and values validation. It supports the Serverless Application Model, integrates seamlessly through IDE plugins, and is extendable via custom rules for tailored validation, making it indispensable for cloud engineers seeking to streamline their CloudFormation template creation.","Discover how AWS CloudFormation Linter (cfn-lint) elevates your infrastructure as code by validating templates against AWS specifications, best practices, and custom rules for error-free deployments.",Cloud Development Tool,No specific star count found,,,2376,2018-04-10T23:16:16Z
+2024-06-15,https://github.com/ddgth/cf2dns,https://raw.githubusercontent.com/ddgth/cf2dns/master/README.md,"The text introduces updates and usage instructions for the cf2dns docker image and its features across various updates. On June 4, 2024, it was updated to include the addition of the dddb/cf2dns Docker image. The instruction for using this docker image involves pulling the image, setting up a working directory, downloading configuration files, making necessary modifications, running the docker image, and checking the running logs.
+
+Significant fixes and features include a fix for Tencent Cloud's DNS calling issue updated on January 3, 2023, after API 2.0 was deprecated. On December 19, 2022, they introduced a feature supporting updates for either IPv4 or IPv6 addresses through Actions. Support for Huawei Cloud DNS was added on October 25, 2022, by installing dependencies and modifying the configuration files.
+
+Further, the addition of optimized IPv6 functionality was introduced on July 6, 2022, and a feature to prevent ""Fake GFW"" attacks was updated on August 8, 2021, by providing exclusive optimized IP addresses.
+
+General usage scenarios involve filtering quality Cloudflare IP addresses for DNS resolution to speed up websites, benefiting small website owners, individuals wanting to set up websites on overseas servers, or those looking to accelerate their internet browsing. The disclaimer advises testing with free keys first and a reminder of the non-profit nature of the pricing.
+
+Methods for running the software include manual execution on a personal VPS or computer and an automated process via GitHub Actions, detailing the steps required for setup, including obtaining API keys, configuring domain information, and scheduling regular updates.",Maximize Web Performance: Cloudflare IP Selection and DNS Management Guide,"Learn how to optimize your website's performance with Cloudflare IP selection and DNS management using cf2dns. This guide covers everything from pulling the cf2dns Docker image, setting up the working directory, downloading and configuring the necessary files, to running the Docker image and monitoring logs. Perfect for site owners seeking stability and speed for their global audience, it also details fixes for Tencent Cloud DNS issues, introducing support for IPv6, Huawei Cloud DNS, and protection against fake wall attacks.","Optimize your website speed by selecting the best Cloudflare IPs and managing DNS settings effectively with cf2dns. Includes steps for Docker setup, Huawei Cloud DNS, and combating fake wall attacks.",Cloud Development Tool,"Python
+
+
+
+
+
+        3,296
+
+
+
+
+
+        1,658
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        68 stars today",https://img.hostmonit.com/images/2020/11/05/fork.png; https://img.hostmonit.com/images/2023/03/04/actions.png; https://img.hostmonit.com/images/2020/11/05/modify.png; https://img.hostmonit.com/images/2020/11/05/commit.png; https://img.hostmonit.com/images/2020/11/05/build.png,,3296,2020-08-29T09:34:28Z
+2024-06-15,https://github.com/reorx/httpstat,https://raw.githubusercontent.com/reorx/httpstat/master/README.md,"httpstat is a Python script designed for visualizing curl statistics beautifully and clearly, without any dependencies, and compatible with Python 3. Users can install it directly by downloading the script, using pip, or through homebrew for macOS users. A Go-based version is recommended for Windows users. The tool is easy to use, either by running the script with python or using it as a command if installed via pip or brew. It wraps cURL and allows passing most cURL supported options. httpstat includes several environment variables to customize its behavior, such as showing or hiding the response body, IP addresses, speed, and allowing response data to be output in JSON format for easy parsing or debugging with environment-specific configurations. The project also integrates with various other implementations across different programming languages and showcases related projects for convenience and further exploration in the HTTP request analysis domain.",Elevate Your Command Line: Mastering httpstat for Enhanced Curl Statistics,"Discover the elegance and efficiency of httpstat, a Python script that enhances curl(1) statistics with its dependency-free, single-file design compatible with Python 3. Learn how to install it using wget, pip, or homebrew and explore its unique features, including customizable environment variables for tailored curl command insights. Upgrade your command-line toolkit today and experience refined data visualization and performance metrics at your fingertips.","Master httpstat, the Python script that beautifies curl statistics on your command line. Learn installation tips and how to customize your experience for optimal performance metrics and data visualization.",Open Source Tool,"Python
+
+
+
+
+
+        5,828
+
+
+
+
+
+        387
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        64 stars today",https://raw.githubusercontent.com/reorx/httpstat/master/screenshot.png,,5828,2016-08-30T06:30:59Z
+2024-06-15,https://github.com/CollegesChat/university-information,https://raw.githubusercontent.com/CollegesChat/university-information/master/README.md,"The project is inspired by discussions on understanding the real-life conditions and facilities at universities across the country that aren't typically advertised but significantly affect student life quality. It collects and provides information on various essential yet often overlooked aspects of university life, such as dormitory layouts, availability of air conditioning and private bathrooms, study requirements, holiday durations, allowance of takeaway food, campus amenities like laundry and internet service, and more, through a dedicated website and discussion forum. These considerations aim to give prospective students a clearer picture beyond academic rankings, emphasizing the practical living and studying conditions in universities—a move to help students make informed choices. The project operates under the CC BY-NC-SA 4.0 license and encourages contributions, questions, and dialogue through its GitHub Discussions page.",Unlocking the Secrets of University Life: What You Really Need to Know,"Discover what truly affects the quality of university life beyond the glossy brochures. Inspired by discussions and insights from students nationwide, our project aims to uncover the real conditions and unspoken details of campuses across the country. From dorm amenities to meal policies, we delve into the aspects of academic life that can make or break your college experience. Join the conversation and contribute your own experiences to help future students make informed decisions. Explore more at colleges.chat and participate in our discussions to shape a comprehensive guide to university living.","Dive into the untold aspects of university life that impact student satisfaction. From dorm layouts to campus facilities, uncover what really matters for a quality college experience. Learn more and contribute your insights.",Job Opportunities Collection,"Python
+
+
+
+
+
+        2,074
+
+
+
+
+
+        141
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        11 stars today",,,2074,2021-06-25T13:20:35Z
+2024-06-15,https://github.com/autogluon/autogluon,https://raw.githubusercontent.com/autogluon/autogluon/master/README.md,"AutoGluon is a powerful tool that automates machine learning tasks, enabling users to quickly achieve high predictive performance with minimal coding effort. It supports Python versions 3.8 to 3.11 and works on Linux, MacOS, and Windows platforms. Installation is straightforward via pip. AutoGluon simplifies the creation of high-accuracy machine learning and deep learning models for a variety of data types including images, text, time series, and tabular data. It boasts a quickstart guide that demonstrates building end-to-end ML models with just three lines of code. Additionally, AutoGluon provides extensive resources such as tutorials, talks, scientific publications, and articles to help users maximize its potential. It also offers options for train/deploy in the cloud, enhancing flexibility and accessibility for different project needs. The community is encouraged to contribute to the project, and AutoGluon is available under the Apache 2.0 License, ensuring broad usability and collaboration.",Simplify Machine Learning with AutoGluon: Achieve High Accuracy in Minutes,"Discover the power of AutoGluon, a comprehensive tool that automates the process of building high-performance machine learning models. With just a few lines of code, users can easily train and deploy models for various data types, including image, text, and tabular data. AutoGluon simplifies machine learning tasks, making it accessible to developers of all skill levels. Whether you're a seasoned data scientist or a novice in the field, AutoGluon helps you achieve strong predictive performance effortlessly. Embrace the future of AI with AutoGluon's user-friendly approach to machine learning.",Learn how to use AutoGluon to automate machine learning tasks and achieve superior predictive performance with minimal coding. Perfect for data scientists and developers alike.,Machine Learning Tool,"Python
+
+
+
+
+
+        7,318
+
+
+
+
+
+        864
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",https://user-images.githubusercontent.com/16392542/77208906-224aa500-6aba-11ea-96bd-e81806074030.png,https://www.youtube.com/watch?v=5tvp_Ihgnuk; https://www.youtube.com/watch?v=Lwu15m5mmbs; https://www.youtube.com/watch?v=J1UQUCPB88I; https://www.youtube.com/watch?v=VAAITEds-28,7318,2019-07-29T18:51:24Z
