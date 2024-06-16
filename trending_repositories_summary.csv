@@ -18534,3 +18534,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         13 stars today",https://user-images.githubusercontent.com/16392542/77208906-224aa500-6aba-11ea-96bd-e81806074030.png,https://www.youtube.com/watch?v=5tvp_Ihgnuk; https://www.youtube.com/watch?v=Lwu15m5mmbs; https://www.youtube.com/watch?v=J1UQUCPB88I; https://www.youtube.com/watch?v=VAAITEds-28,7318,2019-07-29T18:51:24Z
+2024-06-16,https://github.com/Anjok07/ultimatevocalremovergui,https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/README.md,"The Ultimate Vocal Remover GUI v5.6 is a sophisticated software that removes vocals from audio files using advanced source separation models, except for the Demucs v3 and v4 4-stem models which were developed outside the project. It was primarily developed by Anjok07 and aufr33, with significant contributions from various other developers and researchers. The software, along with all necessary dependencies, can be easily installed on Windows, macOS, and Linux systems, although there are specific instructions and system requirements for each platform. For instance, Windows installations require Windows 10 or higher, and macOS installations are optimized for macOS Big Sur and above, including specific considerations for Mac M1 users. The software leverges FFmpeg for processing non-WAV files and the Rubber Band library for time-stretch and pitch-shift operations. Installation packages for Windows and macOS are readily available, alongside manual installation instructions for those who prefer a more hands-on approach. Performance improvements include faster model load times and quicker import/export processes for audio files. Troubleshooting sections provide solutions to common issues, and the project encourages detailed issue reporting for further assistance. The application is open-source, licensed under MIT, inviting contributions and modifications from the community.",Ultimate Vocal Remover GUI v5.6: Elevate Your Audio Editing Experience,"Discover the groundbreaking Ultimate Vocal Remover GUI v5.6, an application that uses advanced source separation models for removing vocals from audio files. Developed by core developers Anjok07 and aufr33, this tool includes state-of-the-art models, except Demucs v3 and v4 4-stem models, trained specifically for this purpose. Supporting Windows, MacOS, and Linux, UVR v5.6 promises an enhanced audio editing experience with fast model load times and efficient importing/exporting of audio files. Whether you're running on an Nvidia GPU or an AMD Radeon, this tool is tailored to significantly uplift your audio manipulation tasks.","Explore Ultimate Vocal Remover GUI v5.6 for advanced vocal removal from audio files using state-of-the-art source separation models. Perfect for Windows, MacOS, and Linux users seeking efficient audio editing.",Voice Conversion Tool,"Python
+
+
+
+
+
+        15,754
+
+
+
+
+
+        1,200
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        27 stars today",,,15754,2020-07-20T21:29:01Z
+2024-06-16,https://github.com/NVIDIA/warp,https://raw.githubusercontent.com/NVIDIA/warp/main/README.md,"NVIDIA's Warp is a Python framework aimed at enabling high-performance simulation and graphics through just-in-time compilation of Python functions into efficient CPU or GPU kernel code. It is well-suited for spatial computing tasks such as physics simulation, perception, robotics, and geometry processing, and supports integration into machine learning pipelines with frameworks like PyTorch and JAX. Warp offers differentiability for its kernels, enhancing its utility in computational applications. Installation is straightforward via PyPI or directly from GitHub for users requiring specific CUDA runtime builds. Warp's repository includes extensive examples and detailed documentation to help users get started with simulations or graphics projects. Developers interested in contributing to Warp's development can build the library themselves, needing tools like Microsoft Visual Studio or GCC, and CUDA Toolkit 11.5 or higher. Warp is licensed under the NVIDIA Software License, and contributions are welcome under set terms outlined in its licensing agreement.",Exploring NVIDIA Warp: A Comprehensive Guide for High-Performance Simulation,"NVIDIA's Warp is a breakthrough Python framework designed to JIT compile Python functions into efficient kernel code for CPU and GPU, optimizing high-performance simulation and graphics work. It's ideal for spatial computing with applications in physics, simulation, robotics, and geometry processing. Warp integrates seamlessly with machine learning frameworks, offering differentiated kernels for advanced computational pipelines. Whether you're a developer looking to enhance simulation applications or a researcher focused on cutting-edge graphics, Warp provides the tools for efficient, scalable computing solutions. Dive into Warp's extensive documentation and community support to unlock its full potential.","Discover how NVIDIA's Warp Python framework transforms high-performance simulation and graphics code for CPU/GPU, offering advanced integration with ML frameworks. Perfect for developers and researchers.",Deep Learning Platform,"Python
+
+
+
+
+
+        2,693
+
+
+
+
+
+        163
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        128 stars today",https://github.com/NVIDIA/warp/raw/main/docs/img/header.jpg; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_dem.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_fluid.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_graph_capture.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_marching_cubes.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_mesh.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_nvdb.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_raycast.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_raymarch.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_sph.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_torch.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_wave.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_apic_fluid.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_convection_diffusion.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_diffusion_3d.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_diffusion.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_mixed_elasticity.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_navier_stokes.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_stokes_transfer.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_stokes.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_bounce.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_cloth_throw.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_diffray.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_drone.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_inverse_kinematics.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_spring_cage.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_trajectory.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_walker.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_cartpole.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_cloth.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_granular.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_granular_collision_sdf.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_jacobian_ik.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_quadruped.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_chain.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_contact.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_force.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_gyroscopic.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_soft_contact.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_soft_body.png,,2693,2022-03-18T21:56:23Z
