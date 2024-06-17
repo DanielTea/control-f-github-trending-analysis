@@ -18590,3 +18590,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         128 stars today",https://github.com/NVIDIA/warp/raw/main/docs/img/header.jpg; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_dem.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_fluid.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_graph_capture.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_marching_cubes.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_mesh.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_nvdb.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_raycast.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_raymarch.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_sph.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_torch.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/core_wave.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_apic_fluid.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_convection_diffusion.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_diffusion_3d.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_diffusion.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_mixed_elasticity.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_navier_stokes.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_stokes_transfer.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/fem_stokes.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_bounce.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_cloth_throw.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_diffray.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_drone.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_inverse_kinematics.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_spring_cage.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_trajectory.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/optim_walker.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_cartpole.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_cloth.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_granular.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_granular_collision_sdf.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_jacobian_ik.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_quadruped.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_chain.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_contact.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_force.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_gyroscopic.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_rigid_soft_contact.png; https://github.com/NVIDIA/warp/raw/main/docs/img/examples/sim_soft_body.png,,2693,2022-03-18T21:56:23Z
+2024-06-17,https://github.com/satwikkansal/wtfpython,https://raw.githubusercontent.com/satwikkansal/wtfpython/master/README.md,"The text introduces ""What the f*ck Python!"", a project exploring Python's surprising snippets and lesser-known features to understand the language's internals. It highlights counter-intuitive examples to challenge experienced programmers and intrigue learners, providing a fun way to learn about Python's quirks. The project has translations in various languages and is accessible through an interactive website, notebooks, and a CLI tool. It encourages exploring Python features that may initially seem odd or wrong (referred to as WTFs), but upon closer examination, reveal interesting aspects of Python. The text includes examples structured around setup code, unexpected outputs, and explanations, tested on Python 3.5.2 but applicable across versions unless specified. The goal is to demystify these behaviors, offering insights into Python's design and behavior.",Unpacking the Mysteries of Python's Surprising Snippets,Dive into the quirky world of Python where not everything is as it seems. Explore counter-intuitive snippets and lesser-known features that reveal the intricacies and inner workings of Python. Challenge your understanding and refresh your memory with surprising aspects of Python programming.,Discover the quirks of Python programming through surprising snippets and features that defy expectations. Perfect for experienced programmers looking to explore Python's lesser-known intricacies.,Python Learning Journey,"Python
+
+
+
+
+
+        35,393
+
+
+
+
+
+        2,639
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://raw.githubusercontent.com/satwikkansal/wtfpython/master/images/string-intern/string_intern.png; https://raw.githubusercontent.com/satwikkansal/wtfpython/master/images/tic-tac-toe/after_row_initialized.png; https://raw.githubusercontent.com/satwikkansal/wtfpython/master/images/tic-tac-toe/after_board_initialized.png,https://www.youtube.com/watch?v=sH4XF6pKKmk,35393,2017-08-28T20:22:19Z
+2024-06-17,https://github.com/kovidgoyal/calibre,https://raw.githubusercontent.com/kovidgoyal/calibre/master/README.md,"Calibre is a versatile e-book manager that allows users to view, convert, edit, and catalog e-books across all major formats. It also facilitates communication with e-book reader devices, can fetch metadata from the internet for books, and convert newspapers into e-book formats for easier reading. Calibre is compatible with Linux, Windows, and macOS platforms. Additional resources such as the user manual, development environment setup, and source code are available online. Users are encouraged to report bugs via the calibre bug tracker on Launchpad, and contributions to support ongoing development are welcome through donations. Further information on building calibre binaries and the availability of calibre across different repositories can be found through provided links.",Unleash the Power of Your eBooks with Calibre: The Ultimate Manager,"Discover the versatility of calibre, the all-in-one e-book manager designed for readers and tech enthusiasts alike. Offering comprehensive solutions for viewing, converting, editing, and cataloging e-books across various formats, calibre stands out with its capability to sync with e-reader devices, fetch metadata, and even download newspapers for an enriched reading experience. Available on Linux, Windows, and macOS, calibre is open-source innovation at its best, continuously evolving with contributions from a global community. Explore how calibre can transform your digital library by visiting the official website.","Explore calibre, the free e-book manager that views, converts, catalogs, and syncs your ebooks. Perfect for Linux, Windows, and macOS users. Learn more!",E-book Management Tool,"Python
+
+
+
+
+
+        18,692
+
+
+
+
+
+        2,196
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://raw.githubusercontent.com/kovidgoyal/calibre/master/resources/images/lt.png,,18692,2013-05-28T10:03:23Z
+2024-06-17,https://github.com/numpy/numpy,https://raw.githubusercontent.com/numpy/numpy/main/README.md,"NumPy is a key library for scientific computing in Python, offering a robust N-dimensional array object, sophisticated functions, and tools for integrating C/C++, Fortran code, as well as linear algebra, Fourier transform, and random number generation abilities. It is a community-driven, open-source project supported by NumFOCUS with a commitment to an inclusive, welcoming environment, as outlined in their Code of Conduct. Contributions to NumPy are encouraged, covering a wide range of opportunities beyond code contributions, such as reviewing pull requests, developing educational materials, maintaining the website, and more. The project communicates openly via public channels like mailing lists and GitHub, also facilitating a biweekly community call for more direct engagement. For those unfamiliar with open-source contributions, NumPy and its community are accessible and welcoming to new contributors, providing various ways to get involved and make impactful contributions.",Mastering Scientific Computing: A Comprehensive Guide to NumPy,"NumPy is the cornerstone of scientific computing in Python, offering powerful N-dimensional arrays, sophisticated functions, and tools for seamless integration with C/C++, Fortran, alongside capabilities in linear algebra, Fourier transform, and random number generation. Beyond its robust technical offerings, NumPy embodies a vibrant community committed to inclusivity and open collaboration, inviting contributions across coding, documentation, education, and more. Dive into NumPy for a thriving project that marries high-performance scientific computing with a welcoming community. Discover how you can contribute to this vital project, whether you’re a seasoned developer or new to open source.","Discover the essentials of NumPy, the heart of Python's scientific computing, offering powerful tools and a welcoming community for contributors of all levels. Learn how you can be part of its growth.",Python Libraries Collection,"Python
+
+
+
+
+
+        26,846
+
+
+
+
+
+        9,562
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        35 stars today",,,26846,2010-09-13T23:02:39Z
