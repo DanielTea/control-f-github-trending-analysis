@@ -18674,3 +18674,32 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         35 stars today",,,26846,2010-09-13T23:02:39Z
+2024-06-18,https://github.com/google-research/bert,https://raw.githubusercontent.com/google-research/bert/master/README.md,"On March 11th, 2020, a release of 24 smaller BERT models for English was announced, aimed at environments with restricted computational resources. These models, ranging in size, extend the effective application of the standard BERT methodology beyond the original BERT-Base and BERT-Large designs. Smaller BERT variants are proposed to work effectively, particularly through knowledge distillation techniques where labels are produced by a larger, more accurate model. The initiative opens new research avenues, especially for those with limited computational power, promoting innovation in efficient model scaling. Additionally, updates on Whole Word Masking models, TensorFlow Hub integration, un-normalized multilingual models (including Thai and Mongolian languages), state-of-the-art SQuAD 2.0 scores, and third-party PyTorch and Chainer implementations were shared. This extensive effort underscores BERT's adaptability and the ongoing commitment to enhancing pre-trained model architecture for a wide range of NLP tasks, encouraging community engagement and utilization of these models.
+",Introducing Smaller BERT Models for Resource-Limited Environments,"Newly released smaller BERT models offer the same innovative architecture and training approach but are more suitable for environments with restricted computational resources. These compact models are designed for institutions with fewer computational resources, aiding in research and development efforts. Available for download, the smaller models maintain effectiveness, especially in knowledge distillation contexts. This development opens up new avenues for innovation in machine learning, particularly in optimizing model size without compromising performance.","Discover the new release of smaller BERT models optimized for environments with limited computational resources. Ideal for research with fewer resources, these models provide an effective way to leverage state-of-the-art language understanding.",Natural Language Processing,"Python
+
+
+
+
+
+        37,323
+
+
+
+
+
+        9,528
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",,,37323,2018-10-25T22:57:34Z
