@@ -18703,3 +18703,115 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         4 stars today",,,37323,2018-10-25T22:57:34Z
+2024-06-19,https://github.com/landing-ai/vision-agent,https://raw.githubusercontent.com/landing-ai/vision-agent/main/README.md,"Vision Agent is a library designed to expedite the process of solving vision tasks by generating code through agent frameworks. It transforms the cumbersome task of finding and programming the right model for a given vision problem, which could take hours or days, into a quick, straightforward procedure. Users describe their problem in text, and Vision Agent provides ready-to-use code. This service is accessible via a web application and documented extensively for user convenience. Installation is simple through pip, and it requires setting an OpenAI API key as an environment variable. Examples of basic and detailed usage demonstrate how Vision Agent can interpret tasks and generate code, including multi-turn conversations for refining results. Additionally, it offers tools for creating custom solutions and supports integration with Azure OpenAPI models for enhanced functionality. This integration requires specific environment variables and sufficient quota management for Azure model deployments.",Revolutionize Your Vision Tasks with Vision Agent: AI Coding Simplified,"Explore the cutting-edge Vision Agent library, designed to leverage intelligent agent frameworks for automating vision task code generation. Say goodbye to the tedious trial and error in selecting models and programming solutions. Vision Agent offers an instant code generation experience, allowing users to simply describe their problem and receive ready-to-use code. Dive into our community on Discord for more insights and updates. Enhance your development workflow with Vision Agent's live web application and comprehensive documentation today.","Discover how Vision Agent leverages AI to automate code generation for vision tasks, providing developers with a fast, accurate tool for creating solutions. Join our Discord community for updates.",AI Development Platform,"Python
+
+
+
+
+
+        619
+
+
+
+
+
+        65
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        99 stars today",,,619,2024-02-13T02:06:20Z
+2024-06-19,https://github.com/argilla-io/argilla,https://raw.githubusercontent.com/argilla-io/argilla/main/README.md,"Argilla is a collaboration platform for AI engineers and domain experts designed to enhance model outputs through data quality, full data ownership, and efficiency. It is ideal for handling both generative and predictive tasks, providing tools to manage data and models effectively. Argilla supports engaging data interaction, enabling quick labeling, AI feedback suggestions, and semantic search for efficient model training and monitoring. It is an open-source, community-driven project encouraging contributions, particularly in NLP and LLM areas, demonstrated by its use in creating high-quality datasets and models. AI teams from various organizations utilize Argilla to improve project quality and efficiency. Key features include easy installation, local or cloud deployment, data set creation and management, and functionalities for adding records, querying, and performing semantic searches within datasets. Additionally, weak supervision and model training capabilities are highlighted, alongside an invitation for community contribution and collaboration towards re-greening sub-Saharan Africa.",Maximize AI Performance with Argilla: A Platform for Collaborative Model Improvements,"Argilla is revolutionizing the way AI engineers and domain experts collaborate to enhance model outputs, offering a unique blend of high-quality data management, full data ownership, and efficiency. With features designed for both generative and predictive tasks, Argilla provides the tools needed to refine AI performance and maintain high data standards. It stands out by allowing users to fully control their data and models, unlike other black-box AI platforms. Additionally, Argilla boosts efficiency by facilitating rapid data labeling and model iteration, ensuring AI teams can focus on what matters most. Embrace the future of AI collaboration with Argilla, where data quality and user empowerment lead to superior model outputs.","Discover Argilla, the cutting-edge platform designed for AI engineers and domain experts aiming to enhance their model outputs through collaborative tools, full data ownership, and efficient data management. Elevate your AI projects with Argilla now.",Collaborative AI Framework.,"Python
+
+
+
+
+
+        3,317
+
+
+
+
+
+        324
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/hub/spaces-argilla-embed-space.png; https://docs.argilla.io/en/latest/_images/snapshot-feedback-demo.png; https://docs.argilla.io/en/latest/_images/features-annotate.png; https://docs.argilla.io/en/latest/_images/features-search.png; https://docs.argilla.io/en/latest/_images/features-similaritysearch.png; https://docs.argilla.io/en/latest/_images/features-weak-labelling.png; https://argilla.io/blog/introducing-argilla-trainer/train.png,https://www.youtube.com/watch?v=ZsCqrAhzkFU; https://www.youtube.com/watch?v=jWrtgf2w4VU; https://www.youtube.com/watch?v=ePDlhIxnuAs; https://share.descript.com/view/nvlUjF8tNcZ,3317,2021-04-28T14:37:42Z
+2024-06-19,https://github.com/SkalskiP/courses,https://raw.githubusercontent.com/SkalskiP/courses/master/README.md,"This repository is a comprehensive collection of Artificial Intelligence (AI) course links catering to both beginners and advanced learners. It includes free resources ranging from Generative AI, Deep Learning, Natural Language Processing, to subjects on Large Language Models and Computer Vision, provided by reputable institutions like Microsoft, MIT, and Stanford University from 2013 to 2023. The repository also seeks recommendations for free courses on fundamental mathematical concepts for ML careers. Contributors are encouraged to add valuable AI courses or suggest improvements via issues or pull requests, aiming to create the best AI learning hub on GitHub.",Top AI Courses in 2023: Master Artificial Intelligence for Free,"Discover the crème de la crème of AI courses in 2023, tailored for learners at all levels, from beginners to advanced enthusiasts. This curated repository offers links to an array of courses covering various AI topics such as Deep Learning, Natural Language Processing, and much more. Whether you're looking to dive into AI fundamentals or explore specific areas like Generative AI or Large Language Models, you'll find high-quality, free resources. Plus, find out how you can contribute to this evolving learning hub. Start your AI journey today and be part of a community dedicated to advancing in the field of Artificial Intelligence.","Explore the best AI courses available in 2023, from Deep Learning to NLP and beyond. Find free, high-quality resources for all skill levels and contribute to the ultimate AI learning community on GitHub.",Data Science Resources,"Python
+
+
+
+
+
+        4,865
+
+
+
+
+
+        440
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        100 stars today",,https://www.youtube.com/watch?v=nLRL_NcnK-4; https://www.youtube.com/watch?v=dJYGatp4SvA,4865,2023-04-02T10:34:53Z
+2024-06-19,https://github.com/tensorflow/models,https://raw.githubusercontent.com/tensorflow/models/master/README.md,"The TensorFlow Model Garden is a comprehensive repository offering a variety of state-of-the-art model implementations for TensorFlow users, aimed at demonstrating the best modeling practices. It encourages usage of TensorFlow for research and product development, striving to enhance transparency and reproducibility through training logs on TensorBoard.dev when possible. The repository includes directories for official SOTA models using TensorFlow 2's APIs, research models by researchers, community-curated TensorFlow 2 models, and a lightweight library named Orbit for customized training loops. Users can easily install the Model Garden via pip package (`tf-models-official` for stable releases or `tf-models-nightly` for the latest changes) or by cloning the source from GitHub. Additionally, it welcomes contributions under an Apache License 2.0, with guidance for those interested in contributing. This initiative not only facilitates access to cutting-edge models but also fosters a collaborative environment for advancing TensorFlow applications.",Exploring the TensorFlow Model Garden: A Comprehensive Guide,"Discover the TensorFlow Model Garden, your one-stop repository for state-of-the-art model implementations. Learn about the best practices for modeling with TensorFlow, enhancing transparency with training logs on TensorBoard.dev, and navigating through collections of SOTA models, research models, and community contributions. Get started with the latest TensorFlow 2's high-level APIs for optimal performance and ease of use. Whether you're into research, product development, or just passionate about machine learning, the Model Garden offers a wealth of resources to elevate your projects.","Unlock the full potential of TensorFlow with the Model Casino documentation, introducing cutting-edge model implementations and best modeling practices for research and product development. Explore now.",Deep Learning Platform,"Python
+
+
+
+
+
+        76,738
+
+
+
+
+
+        45,858
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",https://storage.googleapis.com/tf_model_garden/tf_model_garden_logo.png,,76738,2016-02-05T01:15:20Z
