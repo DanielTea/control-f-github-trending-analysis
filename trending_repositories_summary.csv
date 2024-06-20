@@ -18815,3 +18815,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         3 stars today",https://storage.googleapis.com/tf_model_garden/tf_model_garden_logo.png,,76738,2016-02-05T01:15:20Z
+2024-06-20,https://github.com/XPixelGroup/BasicSR,https://raw.githubusercontent.com/XPixelGroup/BasicSR/master/README.md,"BasicSR, or Basic Super Restoration, is an open-source project aimed at image and video restoration employing PyTorch, offering solutions for super-resolution, denoise, deblurring, and removing JPEG artifacts. Its repository features diverse resources including HOWTOs for quick starting with models, installation guides, training commands, dataset preparation help, and access to a model zoo. Since its inception, BasicSR has integrated with XPixel and expanded its offerings to include plot scripts, examples through BasicSR-Examples for Python package usage, and specific algorithms like ECBSR for mobile super-resolution and SwinIR for improved quality in super-resolution tasks. The project encourages community engagement and contribution, providing comprehensive documentation in both English and Simplified Chinese. It is backed by an active community, evident from its invitation to join tech exchange groups and its open call for users to share projects employing BasicSR. Licensing is under Apache 2.0, and users are encouraged to cite BasicSR in their work to acknowledge its utility in the field of image and video restoration.",Exploring BasicSR: A Comprehensive Guide for Super-Resolution and Restoration,"BasicSR, an open-source toolbox based on PyTorch, offers comprehensive solutions for image and video restoration tasks, including super-resolution, denoise, deblurring, and JPEG artifacts removal. Its continuous updates and the addition of BasicSR-Examples for guidance highlight its commitment to facilitating advanced restoration projects. Whether for research or practical application, BasicSR's wide range of functionalities and examples serves as a testament to the dynamic nature of image and video restoration technology today.","Discover BasicSR, the open-source image and video restoration toolbox offering state-of-the-art tools for super-resolution, denoise, and more, ideal for both researchers and practitioners.",Deep Learning Tool,"Python
+
+
+
+
+
+        6,387
+
+
+
+
+
+        1,135
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",https://raw.githubusercontent.com/XPixelGroup/BasicSR/master/assets/basicsr_xpixel_logo.png; https://user-images.githubusercontent.com/17445847/134879983-6f2d663b-16e7-49f2-97e1-7c53c8a5f71a.jpg; https://user-images.githubusercontent.com/17445847/139572512-8e192aac-00fa-432b-ac8e-a33026b019df.png,,6387,2018-04-19T18:58:00Z
+2024-06-20,https://github.com/mesonbuild/meson,https://raw.githubusercontent.com/mesonbuild/meson/master/README.md,"Meson is designed to be the best next-generation build system, requiring Python version 3.7 or newer and Ninja 1.8.2 or newer. It supports older Python versions with specific Meson releases. Installation is straightforward from PyPi via pip, and for building with Ninja, Ninja can be downloaded directly or via PyPi. Meson operates with a source and a separate build directory, initiated through a `meson.build` file in the source root. Usage involves setting up with `meson setup` followed by `ninja` for compiling and `ninja test` for running unit tests. Contributions are welcome, with guidelines available on Meson's website, which also offers further information and a running guide. Meson has a dedicated IRC channel for support and discussions. It's a registered trademark of Jussi Pakkanen.",Mastering Meson: The Ultimate Build System Guide,"Discover the power of Meson®, the next-generation build system designed to streamline your development processes. With support for Python 3.7+, Ninja 1.8.2+, and straightforward installation via pip, Meson simplifies compiling and testing. Explore the convenience of creating standalone scripts and efficiently manage your build directories for a seamless development experience. Learn how you can contribute to this rapidly growing project and join the vibrant community on IRC. Dive into the future of build systems with Meson and elevate your coding projects today.","Unlock the secrets of Meson, the innovative build system enhancing Python and Ninja projects. Learn installation tips, script creation, and community engagement for a superior development workflow.",Open Source Tool,"Python
+
+
+
+
+
+        5,356
+
+
+
+
+
+        1,536
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        0 stars today",https://mesonbuild.com/assets/images/meson_logo.png,,5356,2014-05-14T15:08:16Z
+2024-06-20,https://github.com/labelmeai/labelme,https://raw.githubusercontent.com/labelmeai/labelme/main/README.md,"Labelme is an open-source graphical image annotation tool inspired by labelme.csail.mit.edu, written in Python and utilizing Qt for its interface. It supports annotations for polygons, rectangles, circles, lines, and points, as well as flag annotations for image classification and video annotation. Labelme is designed with features like GUI customization, exporting datasets in VOC and COCO formats for semantic and instance segmentation, and video annotation capabilities. It provides a comprehensive starter guide, installation instructions for various platforms including Anaconda, Ubuntu, macOS, and Windows, alongside command line usage details. Users can contribute or develop with Labelme by testing their environment setup according to provided guidelines, contributing via GitHub, and even building a standalone executable of the tool for macOS, Linux, and Windows. The repository acknowledges its origins from a fork of mpitid/pylabelme.",Ultimate Guide to Image Annotation with Labelme: Enhance Your ML Projects,"Discover the power of Labelme, the ultimate Python tool for polygonal image annotation designed to boost your machine learning projects. From easy installation across various platforms to a wide range of features including video annotation and GUI customization, Labelme is versatile. It supports exporting annotations in VOC and COCO formats for instance and semantic segmentation. Start with the comprehensive starter guide and explore tutorials that cover everything from the first annotation to integration with other programs. Whether for classification, detection, or segmentation, Labelme is the toolkit you need to streamline your workflow.","Explore Labelme, the versatile image annotation tool with Python for machine learning projects. Features include polygonal annotation, video annotation, VOC and COCO formats export, and a comprehensive starter guide for easy learning.",Open Source Tool,"Python
+
+
+
+
+
+        12,655
+
+
+
+
+
+        3,310
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://raw.githubusercontent.com/labelmeai/labelme/main/labelme/icons/icon.png; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/.readme/annotation.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/JPEGImages/2011_000006.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationClass/2011_000006.png; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationClassVisualization/2011_000006.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationObject/2011_000006.png; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationObjectVisualization/2011_000006.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/semantic_segmentation/.readme/annotation.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/bbox_detection/.readme/annotation.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/classification/.readme/annotation_cat.jpg; https://user-images.githubusercontent.com/4310419/47907116-85667800-de82-11e8-83d0-b9f4eb33268f.gif; https://user-images.githubusercontent.com/4310419/47922172-57972880-deae-11e8-84f8-e4324a7c856a.gif; https://user-images.githubusercontent.com/14256482/46932075-92145f00-d080-11e8-8d09-2162070ae57c.png,,12655,2016-05-09T12:30:26Z
