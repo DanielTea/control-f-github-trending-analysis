@@ -18899,3 +18899,114 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         8 stars today",https://raw.githubusercontent.com/labelmeai/labelme/main/labelme/icons/icon.png; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/.readme/annotation.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/JPEGImages/2011_000006.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationClass/2011_000006.png; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationClassVisualization/2011_000006.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationObject/2011_000006.png; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/instance_segmentation/data_dataset_voc/SegmentationObjectVisualization/2011_000006.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/semantic_segmentation/.readme/annotation.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/bbox_detection/.readme/annotation.jpg; https://raw.githubusercontent.com/labelmeai/labelme/main/examples/classification/.readme/annotation_cat.jpg; https://user-images.githubusercontent.com/4310419/47907116-85667800-de82-11e8-83d0-b9f4eb33268f.gif; https://user-images.githubusercontent.com/4310419/47922172-57972880-deae-11e8-84f8-e4324a7c856a.gif; https://user-images.githubusercontent.com/14256482/46932075-92145f00-d080-11e8-8d09-2162070ae57c.png,,12655,2016-05-09T12:30:26Z
+2024-06-21,https://github.com/encode/django-rest-framework,https://raw.githubusercontent.com/encode/django-rest-framework/master/README.md,"Django REST framework is a versatile toolkit for building Web APIs, praised for its web-browsable API, full documentation, and strong community support. It supports customizable authentication, serialization for ORM and non-ORM data sources, and provides a range of features like function-based views, routers, and viewsets. The project emphasizes collaboration and funding from commercial users to support ongoing development, with a vision to sustain full-time development staff. The documentation details steps for installation, showcasing an example setup for a simple API to manage users and groups, including configuration tips and how to interact with the API using tools like curl. Security practices and community support channels are highlighted for users seeking guidance.",Master Django REST Framework: A Guide to Building Web APIs,"Discover the power and flexibility of Django REST Framework for building Web APIs. Whether you're a beginner or an experienced developer, this toolkit supports both ORM and non-ORM data sources, offers customizable views, and comes with extensive documentation and community support. Dive into developing web-browsable APIs with ease and learn the essentials of authentication, serialization, and API routing. Your journey to mastering web API development starts here.","Explore how to use Django REST Framework to build powerful Web APIs. Offering extensive documentation, community support, and a user-friendly web browsable API, start creating customizable and scalable web applications today.",Python Web Development,"Python
+
+
+
+
+
+        27,750
+
+
+
+
+
+        6,751
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        6 stars today",,,27750,2011-03-02T17:13:56Z
+2024-06-21,https://github.com/zilliztech/GPTCache,https://raw.githubusercontent.com/zilliztech/GPTCache/main/README.md,"GPTCache is a library designed to significantly reduce costs and increase the speed of responses for applications utilizing large language models (LLMs) like ChatGPT. By creating a semantic cache to store responses to LLM queries, it aims to lower API costs by up to 10 times and boost response speed by 100 times. It is fully integrated with LangChain and supports multiple LLMs and programming languages. As the project is rapidly developing, its API may change, but detailed information and updates can be found in its documentation. GPTCache features easy installation and usage, offering developers the ability to decrease expenses and enhance performance without extensive modifications to existing code. The tool is particularly useful for developers working on applications that make frequent LLM requests, providing a seamless development and testing environment that mimics LLM APIs. It also ensures improved scalability and availability by reducing the dependency on LLM services and their associated rate limits. GPTCache employs embedding algorithms and vector stores for similarity searches, optimizing cache hits for LLM queries. Its modular design allows for customization and integration with various LLM and multimodal models, storage solutions, and embedding generators, facilitating a more efficient and cost-effective use of generative AI technologies.",Maximize LLM API Efficiency with GPTCache: Cut Costs and Accelerate Responses,"Discover GPTCache, a pioneering library designed to create a semantic cache for Large Language Model (LLM) queries, offering significant cost reductions and speed enhancements for API usage. GPTCache seamlessly handles high-traffic scenarios, making it an essential tool for developers and businesses seeking to optimize their LLM applications. It's fully compatible with various LLMs and offers easy integration, even in swiftly developing projects. Embrace the power of GPTCache to enjoy enhanced performance and decreased expenses without sacrificing scalability or development agility.","Learn how GPTCache can slash your LLM API costs by 10x and boost speed by 100x. This library creates a semantic cache for queries, optimizing expenses and performance for developers and businesses.",Open Source Tool,"Python
+
+
+
+
+
+        6,634
+
+
+
+
+
+        465
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/zilliztech/GPTCache/main/docs/GPTCacheStructure.png,,6634,2023-03-24T05:51:16Z
+2024-06-21,https://github.com/airtai/faststream,https://raw.githubusercontent.com/airtai/faststream/main/README.md,"FastStream is a comprehensive framework designed to simplify the integration of event stream services, focusing on making streaming microservices accessible and manageable, especially for junior developers. FastStream supports multiple message brokers like Kafka, RabbitMQ, NATED, and Redis, and leverages Pydantic for message validation and serialization. It automatically generates documentation using the AsyncAPI specification, offers full-typed editor support, and features a powerful dependency injection system for efficient service management. The framework is built to be extensible, supports in-memory testing for CI/CD pipelines, and is compatible with any HTTP framework, with specific optimizations for FastAPI. FastStream facilitates effortless writing of producers and consumers for message queues, handling parsing, networking, and documentation generation automatically, making streaming microservices easier to develop while supporting advanced use cases. The project encourages new developments and is the recommended choice for starting new services, based on the experiences from FastKafka and Propan. Installation is straightforward across major platforms using `pip`, and it includes a CLI for easy management. FastStream also introduces `faststream-gen`, utilizing generative AI for automatic code generation, further easing the development process.",Streamline Your Event Driven Architecture with FastStream,"Discover how FastStream, an advanced tool for effortless event stream integration, transforms writing producers and consumers in your services. With support for multiple message brokers and automatic documentation, FastStream is designed with simplicity in mind, making it accessible for developers at all levels. Features like Pydantic validation, dependency injection, and comprehensive testing capabilities ensure your microservices are built on a strong foundation. Dive into FastStream for a seamless development experience, making the creation of streaming microservices efficient and intuitive.","Learn about FastStream: A robust tool facilitating easy integration of event streams in your microservices. Features include multi-broker support, Pydantic validation, automatic documentation, and more. Simplify your service architecture with FastStream.",Open Source Tool,"Python
+
+
+
+
+
+        2,058
+
+
+
+
+
+        99
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        24 stars today",https://img.shields.io/github/license/airtai/faststream.png,,2058,2022-12-01T09:46:18Z
+2024-06-21,https://github.com/ocrmypdf/OCRmyPDF,https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/README.md,"OCRmyPDF is an open-source software designed to add an OCR text layer to scanned PDF files, making them searchable and allowing text to be copy-pasted. It is a scriptable command-line program that can handle multilingual content, fix misrotated pages, deskew PDFs, change output metadata, and use multiple cores to speed up the process. It generates searchable PDF/A files from regular PDFs, accurately places OCR text below images, maintains original image resolutions, optimizes PDF images to produce smaller files, and can deskew and clean images before OCR processing. OCRmyPDF is compatible with Linux, Windows, macOS, and FreeBSD, supports Tesseract OCR engine capable of recognizing over 100 languages, and distributes workload across available CPU cores. The software is motivated by the absence of a satisfactory free command-line tool for OCR PDF files, aiming to overcome common issues such as misplaced text, unsupported characters, and large file sizes. It is available for installation through various packages and requires Python 3.8+, Ghostscript, and Tesseract OCR. The project encourages reporting issues on GitHub, offers extensive documentation, and is licensed under MPL-2.0, with some components under MIT and documentation under CC-BY-SA 4.0.",Maximize Your PDFs: How OCRmyPDF Transforms Scanned Documents into Searchable PDFs,"Discover how OCRmyPDF can revolutionize your scanned PDF documents by adding an OCR text layer, enabling text searchability and copy-paste functionality. Beyond merely making PDFs searchable, OCRmyPDF preserves original image quality, optimizes file sizes, and supports multilingual content with Tesseract OCR. It’s an open-source tool designed for efficiency, running on all available CPU cores to process even the most extensive documents securely and quickly. Whether you need to digitalize your archive or make a few scanned documents more accessible, OCRmyPDF stands out as the go-to solution.","Learn how OCRmyPDF adds searchable text layers to scanned PDFs without compromising image quality, supports multiple languages, and optimizes file sizes for easy accessibility and storage.",Document Conversion Tool,"Python
+
+
+
+
+
+        12,633
+
+
+
+
+
+        928
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",,,12633,2013-12-20T08:26:28Z
