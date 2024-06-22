@@ -19010,3 +19010,31 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         19 stars today",,,12633,2013-12-20T08:26:28Z
+2024-06-22,https://github.com/dgtlmoon/changedetection.io,https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/README.md,"Changedetection.io offers a self-hosted solution for monitoring website changes and triggering actions like notifications through various channels, including Discord, Email, and Slack. It allows users to proactively engage with data changes on websites and supports immediate setup without registration. Users can specify parts of a webpage to monitor using a visual selector tool and perform actions like filling in text boxes or clicking buttons to set up monitoring scenarios. This tool finds use in numerous applications like price changes, stock alerts, document updates, and regulatory compliance amongst others. It supports complex JSON and HTML embedded data monitoring, notification customization via Jinja2 templating, and proxy configurations for privacy. Installation options include Docker, Windows, and Python Pip, with updates easily managed through Docker commands. Its API supports managing watch lists, and the project offers a paid subscription for additional features like proxy use. There's also community and commercial support available for users.",Stay Ahead with ChangeDetection.io: Your Ultimate Web Page Monitoring Solution,"ChangeDetection.io empowers you to monitor web page changes efficiently, offering notifications through Discord, Email, Slack, Telegram, and more. This self-hosted service enables proactive data life management, without the hassle of installation and with the ease of browser login. It outperforms competitors with affordable plans, visual selector tools, and comprehensive filters for precise change detection. Whether for stock monitoring, PDF updates, or regulatory compliance, ChangeDetection.io is versatile. Start today and transform how you track web page changes.","Discover ChangeDetection.io, a powerful tool for webpage change detection and notifications. Affordable, user-friendly, and feature-rich, it's ideal for tracking website content updates. Start monitoring with ease!",Web Scraping Tool,"Python
+
+
+
+
+
+        15,570
+
+
+
+
+
+        874
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        73 stars today",https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/visualselector-anim.gif; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-diff.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/browsersteps-anim.gif; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/./docs/chrome-extension-screenshot.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-notifications.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-filter-field-example.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-diff-example.png,,15570,2021-01-27T16:03:30Z
