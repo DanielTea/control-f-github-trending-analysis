@@ -19038,3 +19038,115 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         73 stars today",https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/visualselector-anim.gif; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-diff.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/browsersteps-anim.gif; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/./docs/chrome-extension-screenshot.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-notifications.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-filter-field-example.png; https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-diff-example.png,,15570,2021-01-27T16:03:30Z
+2024-06-23,https://github.com/mindsdb/mindsdb,https://raw.githubusercontent.com/mindsdb/mindsdb/main/README.md,"MindsDB is an AI platform that allows customization of AI from enterprise data, enabling real-time creation, serving, and fine-tuning of models directly from databases, vector stores, and application data. It supports a wide range of Python versions and integrates with various data sources and AI/ML frameworks, including AutoML and LLMs. MindsDB simplifies AI system deployment through SQL and REST APIs alongside Python, JavaScript, and MongoDB-QL SDKs. It offers solutions for fine-tuning, knowledge bases, semantic search, real-time forecasting, chatbots, and automation, with examples provided for data enrichment and AI system deployment involving AI agents with specific skills. MindsDB encourages community contributions, provides rewards, and offers community and commercial support options. It's open to suggestions and contributions under a contributor code of conduct, with current contributions visually acknowledged and updates shared through Slack community and newsletters. The project is licensed for users to check detailed information in the LICENSE file.",Unleashing AI Capabilities for Enterprises: An Intro to MindsDB,"Discover how MindsDB revolutionizes the deployment of AI applications directly from enterprise data. With seamless integration into various data sources and AI/ML frameworks, MindsDB empowers developers to effortlessly create, serve, and fine-tune predictive models. Its innovative SQL and API interfaces simplify implementing bespoke AI solutions, enabling real-time customization and automation of AI workflows. Dive into the future of enterprise AI with MindsDB.","Explore how MindsDB enables enterprises to deploy custom AI models using their data. Learn about its integrations, developer-friendly tools, and how to start automating AI workflows for real-time applications.",AI Development Platform,"Python
+
+
+
+
+
+        22,095
+
+
+
+
+
+        2,941
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        127 stars today",https://raw.githubusercontent.com/mindsdb/mindsdb/main/docs/assets/mindsdb_logo.jpg; https://raw.githubusercontent.com/mindsdb/mindsdb/main/docs/assets/diagram.png; https://raw.githubusercontent.com/mindsdb/mindsdb/main/docs/assets/ai_workflow_automation.png; https://raw.githubusercontent.com/mindsdb/mindsdb/main/docs/assets/ai_system_deployment.png,,22095,2018-08-02T17:56:45Z
+2024-06-23,https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved,https://raw.githubusercontent.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved/main/README.md,"The text introduces an improved integration of AnimateDiff for ComfyUI that offers advanced animation features and sampling options, known as Evolved Sampling. It highlights the significance of reading the AnimateDiff documentation for understanding its core functionalities. Several node packs are mentioned for specific capabilities such as prompt-travel, controlling latents with ControlNets, video processing, and additional controlnet supports among others, maintained by various contributors. For installation, it provides steps for both ComfyUI Manager and manual methods, including model setup instructions with links to different model versions and motion modules for varied animation effects. The document emphasizes on AnimateDiff's compatibility with various tools, infinite animation length, support for multiple motion models, and upcoming features like UniCtrl support and dynamic memory management for motion models. It mentions basic usage and the distinction between Gen1 and Gen2 nodes, explaining their inputs, outputs, and how they cater to different user needs for animation creation, including keyframes for changing animation characteristics over time, context and view options for managing VRAM usage and animation length, and custom noise scheduling for tailored animation effects.",Enhancing Animation in ComfyUI with Advanced AnimateDiff Integration and Evolved Sampling,"Discover how AnimateDiff elevates ComfyUI's animation capabilities, offering advanced integration and evolved sampling options. This post introduces AnimateDiff for ComfyUI, highlighting its utility in prompt-travel functionality, control over latent effects through ControlNets, and seamless video manipulation. With support for multiple node packs and a detailed installation guide, users can push the boundaries of animated content creation. Learn about the installation process, model setup, and unique features like infinite animation length and custom noise scheduling for unparalleled creative freedom.","Learn how to integrate AnimateDiff with ComfyUI for enhanced animation control and evolved sampling options for creative animations. Includes installation guide, model setup, and unique features.",Animation Engine,"Python
+
+
+
+
+
+        2,260
+
+
+
+
+
+        171
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",,,2260,2023-08-26T16:24:00Z
+2024-06-23,https://github.com/LmeSzinc/AzurLaneAutoScript,https://raw.githubusercontent.com/LmeSzinc/AzurLaneAutoScript/master/README.md,"AzurLaneAutoScript is a bot for the mobile game Azur Lane that automates almost all gameplay aspects. It supports multiple servers including CN, EN, JP, and TW, and is designed to run 24/7. As Azur Lane has reached the late stage of its life cycle, the bot aims to reduce the time players spend on the game. It is an open-source project available on GitHub. The bot's GUI development was acknowledged along with the support for English, Japanese, and Taiwanese versions, thanks to contributions from various developers. It offers features for engaging in combat, collecting resources, completing daily tasks, and navigating the large world. Additionally, it includes mood control to prevent negative statuses and seamless task execution. The bot is updated regularly to fix bugs and improve functionality. To report bugs, users are advised to prepare detailed descriptions and include error logs. There are some known issues like handling network fluctuations and performance on low-spec computers. The community is invited to contribute to its development and follow guidelines for respectful interaction. AzurLaneAutoScript is part of a broader ecosystem of related projects and maintains an active community through Discord and QQ.",Maximize Your Gameplay with Alas: The Ultimate Azur Lane Bot,"Discover the revolutionary Azur Lane bot, Alas, designed to fully automate your gameplay on all servers seamlessly. With its advanced GUI, Alas supports CN, EN, JP, TW, and more, ensuring your fleet is in action 24/7 without your direct time investment. As Azur Lane reaches the later stages of its lifecycle, Alas emerges as a free, open-source solution to enhance your gaming experience by taking over nearly all gameplay aspects. Let Alas handle the grind as you enjoy the strategic depth of Azur Lane without the time sink.","Explore how Alas bot transforms your Azur Lane gaming experience by automating gameplay on CN, EN, JP, TW servers with its GUI interface. Free and open-source, Alas offers round-the-clock fleet management.",Game Cheats Manager,"Python
+
+
+
+
+
+        6,329
+
+
+
+
+
+        750
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/LmeSzinc/AzurLaneAutoScript/master/doc/README.assets/gui.png,,6329,2020-04-26T07:58:15Z
+2024-06-23,https://github.com/casualsnek/onthespot,https://raw.githubusercontent.com/casualsnek/onthespot/main/README.md,"Onthespot is a QT-based music downloader program developed in Python, available for use across multiple platforms including Linux, Windows, and MacOS. It allows users to download music by searching or entering URLs directly and supports downloading in bulk. Users can engage and suggest improvements via a dedicated Discord server. Installation methods vary: users can choose between running it from the source with dependencies like ffmpeg, Python3, and Git installed, using prebuilt binaries for ease, or manually building the application for more control over the build process. The application requires initial setup including adding Spotify accounts to enable multiple simultaneous downloads. It offers customizable download settings, including file naming conventions and download directories, and supports changing the format of downloaded media. The development team encourages community contribution through code, issue reporting, or financial support and emphasizes the importance of community engagement for the project's improvement and support.",Onthespot: A Comprehensive Guide to Installing and Using the Qt-Based Music Downloader,"Onthespot revolutionizes music downloading with its Python-based architecture, offering an easy-to-use, qt-based interface for music enthusiasts. Whether launching directly from source, using prebuilt binaries across various operating systems, or even building from scratch, Onthespot provides a versatile solution for all users. Dive into its seamless installation process and explore advanced downloading capabilities including direct URL downloads and extensive configuration options for personalized music experience. Engage with the community on Discord to share ideas and get support. Perfect for those seeking a reliable, feature-rich music downloader built with python.","Discover Onthespot, the versatile qt-based music downloader built with Python. Learn how to install, launch, and customize your music downloading experience. Join our Discord community for support and discussions.",Music Downloader Program,"Python
+
+
+
+
+
+        717
+
+
+
+
+
+        52
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://raw.githubusercontent.com/casualsnek/onthespot/main/src/onthespot/resources/icon.png; https://i.imgur.com/C4V94gy.png,,717,2022-09-27T03:52:04Z
