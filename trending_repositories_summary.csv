@@ -19150,3 +19150,84 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         2 stars today",https://raw.githubusercontent.com/casualsnek/onthespot/main/src/onthespot/resources/icon.png; https://i.imgur.com/C4V94gy.png,,717,2022-09-27T03:52:04Z
+2024-06-24,https://github.com/modelscope/DiffSynth-Studio,https://raw.githubusercontent.com/modelscope/DiffSynth-Studio/main/README.md,"DiffSynth Studio is a state-of-the-art diffusion engine offering advanced computational architecture improvements, including a Text Encoder, UNet, VAE, and compatibility with leading models from the open-source community. Its roadmap highlights several innovations in video and image synthesis, starting with the proposal of DiffSynth for video synthesis on August 29, 2023, and introducing multiple projects thereafter, such as FastSDXL for diffusion advancements, FastBlend for video deflickering, and ExVideo for extended video generation capabilities. DiffSynth Studio incorporates a wide range of models like Stable Diffusion, ControlNet, and ESRGAN, leading up to its transition to ModelScope by June 13, 2024. Furthermore, it emphasizes user accessibility with comprehensive installation and usage guides, including Python code examples for long video synthesis, high-resolution image generation, toon shading, video stylization, and support for Chinese character image synthesis, alongside a user-friendly WebUI interface.",Exploring DiffSynth Studio: The Frontier of Video and Image Synthesis,"Discover the capabilities of DiffSynth Studio, a cutting-edge Diffusion engine, enhancing computational performance while integrating Text Encoder, UNet, VAE, and more. From its beginnings with DiffSynth for video synthesis to the innovative ExVideo, DiffSynth Studio has continuously evolved. It supports a multitude of models including Stable Diffusion, ControlNet, and AnimateDiff, pushing the boundaries of video and image generation. This framework not only adheres to open-source compatibility but also leads in efficiency and innovation. Dive into the future of digital creation with DiffSynth Studio's dynamic fusion of AI and artistic expression.","Uncover the magic of DiffSynth Studio, an advanced Diffusion engine for unparalleled video and image synthesis. Explore its journey from DiffSynth to ExVideo, supporting models like Stable Diffusion and AnimateDiff.",Image Generation Platform,"Python
+
+
+
+
+
+        1,522
+
+
+
+
+
+        160
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        362 stars today",,,1522,2023-12-07T16:52:15Z
+2024-06-24,https://github.com/w-okada/voice-changer,https://raw.githubusercontent.com/w-okada/voice-changer/master/README.md,"The VC Client software enables real-time voice conversion using various AI technologies and now progresses under version 2 development, including a macOS version release. Recent updates have included bug fixes, the addition of a similarity graph for better speaker selection in version 1.5.3.17, and support for experimental features like Beatrice on Windows for CPU users. It supports multiple voice conversion AIs such as MMVC, so-vits-svc, RVC, DDSP-SVC, and others. Pre-built binaries are available for Windows, Mac, and via Google Colab for easy setup, with detailed tutorials for setup and troubleshooting provided. Advanced users can also use Docker or Anaconda for a custom environment setup. Acknowledgments include contributions from various community resources and voice samples. Users are cautioned about content creation sensitivities and advised to comply with the terms of use for different voice sources. The software has no developer signature, so users need to bypass security warnings upon first execution, and any damages or issues arising from use are the user's responsibility.",Revolutionize Your Voice with VC Client: The Latest in AI Voice Conversion,"Discover the cutting-edge VC Client, a software designed for real-time voice transformation using various AI-driven voice conversion technologies. Now supporting multiple AIs like MMVC and Beatrice JVS Corpus Edition, it's developed to offload processing work during high-load applications like gaming, making it versatile across Windows, Mac, and Linux platforms. With the release of v.2.0.24-alpha on Colab, exploring voice modification has never been more accessible or straightforward. Dive into the future of voice conversion with VC Client and experience seamless integration in diverse environments.","Explore the latest advancements in AI voice conversion with VC Client. Featuring support for MMVC, Beatrice, and other AIs, VC Client offers cutting-edge, real-time voice transformation for Windows, Mac, and Linux users.",Voice Conversion Tool,"Python
+
+
+
+
+
+        15,190
+
+
+
+
+
+        1,629
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        16 stars today",https://user-images.githubusercontent.com/48346627/206640768-53f6052d-0a96-403b-a06c-6714a0b7471d.png; https://user-images.githubusercontent.com/48346627/212567711-c4a8d599-e24c-4fa3-8145-a5df7211f023.png,https://www.youtube.com/watch?v=POo_Cg0eFMU; https://www.youtube.com/watch?v=fba9Zhsukqw; https://www.youtube.com/watch?v=s_GirFEGvaA,15190,2022-08-22T05:08:43Z
+2024-06-24,https://github.com/google/google-ctf,https://raw.githubusercontent.com/google/google-ctf/main/README.md,"The repository contains challenges and infrastructure used in Google's Capture The Flag (CTF) competitions since 2017. It includes directories for years 201x and 202x, which intentionally contain unfixed security vulnerabilities. The disclaimer warns against using this code on real production infrastructure due to the security risks. This collection, despite being associated with Google CTF, is not an official Google product. Information and further details about Google Ctf can be found on the provided link to Google's security blog, which announced the CTF event in 2017.",Exploring Google CTF: A Repository of Challenges & Infrastructure Since 2017,"The Google CTF repository offers a treasure trove of challenges and infrastructure used in competitions since 2017. It's crucial to note, however, that the code within the 201x and 202x folders contains intentional security vulnerabilities. These challenges are designed for learning and should not be deployed on real production infrastructure. Discover the evolution of Google CTF and harness these resources for educational purposes only. Remember, this is not an official Google product.","Dive into the Google CTF repository for a comprehensive archive of challenges and infrastructure from 2017 to the present, designed for educational use and not for production environments.",Cybersecurity Tool,"Python
+
+
+
+
+
+        4,363
+
+
+
+
+
+        546
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        36 stars today",,,4363,2018-04-27T15:56:03Z
