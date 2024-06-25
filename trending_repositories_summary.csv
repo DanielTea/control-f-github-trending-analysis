@@ -19231,3 +19231,110 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         36 stars today",,,4363,2018-04-27T15:56:03Z
+2024-06-25,https://github.com/microsoft/table-transformer,https://raw.githubusercontent.com/microsoft/table-transformer/main/README.md,"The Table Transformer (TATR) is a deep learning model designed for extracting tables from PDFs and images, utilizing object detection techniques. It was introduced alongside the PubTables-1M dataset aimed at advancing table extraction tasks from unstructured documents as detailed by Smock et al. in several publications. TATR is capable of being tailored to various document domains, provided that one trains their own model with the resources provided, though, as of now, only models trained on the PubTables-1M dataset are readily available. The tool requires additional inputs for text extraction, such as OCR or direct PDF text, to output HTML or CSV formats. Updates include the release of new pre-trained models and improvements to the training scripts and codebase. The PubTables-1M dataset encompasses a vast collection of annotated tables and document pages for training models on table detection, structure recognition, and functional analysis, with extensive details available in their respective papers. Potential users and researchers have access to data, training, evaluation, and inference code, underlining Microsoft’s commitment to contributions from the wider community as per their open-source code of conduct and contributing guidelines.",Unlocking Table Data: Transforming PDFs and Images into Usable Information with Table Transformer,"Table Transformer (TATR) revolutionizes table extraction from PDFs and images through advanced deep learning based on object detection. Developed alongside vital research, including PubTables-1M, GriTS, and alignment of benchmark datasets, TATR offers unparalleled accuracy in recognizing and analyzing table data. It's equipped for multiple document domains, welcoming contributions for broadening its pre-trained model database. With extensive support for training and evaluation, TATR is at the forefront of making unstructured table data comprehensively accessible.","Discover how Table Transformer (TATR) uses deep learning for precise table extraction from PDFs and images, enhancing data usability across various document domains. Explore its foundation through research like PubTables-1M.",Deep Learning Tool,"Python
+
+
+
+
+
+        1,976
+
+
+
+
+
+        229
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        5 stars today",https://user-images.githubusercontent.com/10793386/139559159-cd23c972-8731-48ed-91df-f3f27e9f4d79.jpg,,1976,2021-05-17T19:01:34Z
+2024-06-25,https://github.com/OpenBB-finance/OpenBBTerminal,https://raw.githubusercontent.com/OpenBB-finance/OpenBBTerminal/main/README.md,"The OpenBB Platform is a pioneering financial platform that is both free and fully open-source. It provides comprehensive access to financial data and analytics across various domains, including equity, options, crypto, forex, macroeconomy, fixed income, and more. The platform is highly extensible, allowing users to customize their experience through a wide range of extensions. The platform can be installed as a PyPI package or by cloning its GitHub repository. It introduces a command-line interface (CLI) for direct terminal access, enhancing functionality while maintaining the familiar feel of the former OpenBB Terminal. For those interested in contributing, OpenBB offers clear pathways through creating GitHub tickets, contributing directly, or providing feedback on various social platforms. The project operates under the AGPLv3 License, and despite the inherent risks of trading and investment, does not shoulder liability for trading outcomes. OpenBB encourages informed decision-making in financial trading and investment, supported by the rich resources and community contributions that form the backbone of the platform.",Exploring the OpenBB Platform: The Ultimate Free Financial Toolkit,"Discover the OpenBB Platform, the first fully open-source financial tool that provides unparalleled access to equity, options, crypto, and more. Learn how to enhance your finance experience with a wide range of extensions. Sign up for OpenBB Hub today and tap into the vast potential of the OpenBB ecosystem to meet all your investment needs. From hassle-free installation as a PyPI package to joining a growing community of contributors, OpenBB is your go-to for financial analyses.","Unlock the power of financial analysis with OpenBB Platform – the premier open-source financial toolkit for accessing equity, options, crypto, forex, and more. Get started today for free, and join the OpenBB community.",Finance Programming Resources,"Python
+
+
+
+
+
+        26,454
+
+
+
+
+
+        2,591
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",,,26455,2020-12-20T10:46:38Z
+2024-06-25,https://github.com/cluic/wxauto,https://raw.githubusercontent.com/cluic/wxauto/main/README.md,"Wxauto is a project focused on automating the Windows version of the WeChat client. It supports basic operations such as sending and receiving messages and is still under development. To ensure compatibility, it requires Windows 10 or 11, WeChat version 3.X, and Python 3.X. Due to variations in WeChat's UI, some versions may not work with wxauto as of June 10, 2022. The provided code examples demonstrate how to interact with the WeChat client, including listing chat sessions, sending messages and files, and capturing screenshots within WeChat. Users encountering issues or with suggestions are encouraged to contact the developer through GitHub issues or email. The project also welcomes support and contributions, highlighted by options to star the project on GitHub or follow updates. However, the code is intended for study and exchange purposes only, and users are cautioned against using it for illegal activities, with the creator disclaiming responsibility for any legal disputes that may arise.",Automate Your WeChat on Windows: A Simple Guide with wxauto,"Discover the possibilities of automating your WeChat client on Windows using wxauto. This tool allows you to send and receive messages programmatically, catering to both new and existing versions of WeChat. Despite being under development, wxauto proves to be a potent tool for those looking to enhance their WeChat experience through automation. Get started now and join the community in refining this exciting project.",Explore how to automate the WeChat client on Windows using wxauto. Learn the basics of sending and receiving messages programmatically and how you can contribute to its development.,AI Task Automation,"Python
+
+
+
+
+
+        1,761
+
+
+
+
+
+        314
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        29 stars today",https://i.328888.xyz/2023/02/09/3QaBP.png; https://i.328888.xyz/2023/02/09/3Q1JX.png,,1761,2021-08-15T16:24:05Z
+2024-06-25,https://github.com/google/flax,https://raw.githubusercontent.com/google/flax/main/README.md,"Flax is a flexible neural network library for JAX, initiated by Google Research's Brain Team and developed in collaboration with the JAX team and the open-source community. It is designed for researchers to easily experiment with new training forms by modifying examples and training loops without extending the framework itself. Flax is popular within various Alphabet research departments and the larger open-source community, providing components like the `flax.linen` neural network API, which includes a range of layers and utilities, and educational examples for getting started. It also offers large-scale end-to-end examples for more advanced research needs. Installation is straightforward via PyPi, and it requires Python 3.6 or later, alongside a JAX installation. Flax promotes best practices through its documentation, including a guide on the `Module` abstraction and other developer notes. It also integrates with Hugging Face for training and evaluating models in NLP, Computer Vision, and Speech Recognition. Despite being a non-official Google product, Flax is actively maintained and aims to support the JAX neural network research ecosystem extensively.",Exploring Flax: The Flexible Neural Network Library for JAX,"Discover Flax, a neural network library designed for flexibility in JAX, developed by Google Research and the open-source community. Flax supports high-performance research with a focus on freedom for experimentation. It offers a comprehensive neural network API, educational examples, and utilities for seamless research workflows. Whether you're in academia or industry, Flax fosters innovation by allowing researchers to experiment with new training forms by modifying existing examples rather than expanding the framework's core.","Learn about Flax, the neural network library for JAX that emphasizes flexibility and performance, designed by Google Research. Flax facilitates innovative neural network research with extensive APIs, educational examples, and utilities.",Deep Learning Tool,"Python
+
+
+
+
+
+        5,758
+
+
+
+
+
+        605
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        5 stars today",https://raw.githubusercontent.com/google/flax/main/images/flax_logo_250px.png,,5758,2020-01-10T09:48:37Z
