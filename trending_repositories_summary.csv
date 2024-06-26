@@ -19338,3 +19338,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         5 stars today",https://raw.githubusercontent.com/google/flax/main/images/flax_logo_250px.png,,5758,2020-01-10T09:48:37Z
+2024-06-26,https://github.com/ethereum/EIPs,https://raw.githubusercontent.com/ethereum/EIPs/master/README.md,"The Ethereum Improvement Proposals (EIPs) repository, which standardizes documentation for Ethereum and its conventions, has recently separated Ethereum Request for Comments (ERCs) to a new repository. This initiative aims to streamline the process of submitting and updating ERCs. EIP-1 outlines the procedure for publishing EIPs, distinguishing between various types of proposals, including Core, Networking, Interface, ERC, Meta, and Informational EIPs. Discussion and consensus are required before submitting an EIP, with platforms like Ethereum Magicians and Ethereum Research serving as forums for preliminary discussions. The repository also specifies preferred citation formats, validation, and automerging processes for EIPs, utilizing tools like eip-review-bot, eipw, HTMLProofer, CodeSpell, and markdownlint to maintain quality. Additionally, instructions are provided for running the EIP validator locally and building the status page using Jekyll, emphasizing the repository's role in documenting standards rather than implementation support.",Understanding Ethereum Improvement Proposals: A Comprehensive Guide,"Ethereum Improvement Proposals (EIPs) are vital for the evolution of the Ethereum blockchain, offering a standardized process for introducing enhancements. Recently, ERCs (Ethereum Request for Comments) have been relocated to a dedicated repository, signifying a pivotal shift in Ethereum's developmental focus. EIPs cover various aspects, including core protocol specifications, networking layers, and interface standards, guiding the blockchain's future directions. Participants are encouraged to discuss potential EIPs within the community before formal submission, ensuring a collaborative approach to Ethereum's growth. This structured process ensures that every improvement proposal is meticulously documented, discussed, and validated, contributing to Ethereum's robust ecosystem.","Explore the essential role of Ethereum Improvement Proposals (EIPs) in enhancing the Ethereum blockchain, including the recent separation of ERCs, the importance of community discussion, and the categories of EIPs that shape Ethereum's future.",Open Source Tool,"Python
+
+
+
+
+
+        12,699
+
+
+
+
+
+        5,143
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",,,12699,2015-10-26T13:57:23Z
+2024-06-26,https://github.com/frappe/hrms,https://raw.githubusercontent.com/frappe/hrms/master/README.md,"Frappe HR is an open-source, modern, and user-friendly HR and Payroll software designed to cater to the needs of all organizations. The software comprises over 13 different modules, including Employee Management, Onboarding, Leaves, Payroll, Taxation, and more, aiming to drive excellence within companies. Key features include management of employee lifecycle, leave and attendance, shift scheduling, expense claims, hiring processes, performance, fleet, training, compensation, and analytics. The software can be manually installed by first installing Bench, followed by ERPNext, and then adding the HRMS app to the bench. Frappe HR offers extensive documentation, a user forum, and a Telegram group for community engagement and support. Contributions are encouraged through issue and contribution guidelines, and the software is licensed under GNU GPL V3.",Revolutionizing HR: Discover Frappe HR's Open Source Software Solution,"Frappe HR introduces an open-source, comprehensive HR and Payroll software, designed to meet the modern needs of all organizations. With over 13 easy-to-use modules covering everything from employee management, leave and attendance, to payroll and analytics, it offers a holistic solution for managing HR tasks efficiently. The platform supports manual installation for tailored setup, and its community-driven support ensures constant updates and a rich knowledge base. Ideal for businesses looking for a scalable and feature-rich HR management system.","Explore Frappe HR, the open-source HR and Payroll software ideal for any organization. Discover its 13+ modules for efficient employee management, payroll, and more.",Open Source ERP,"Python
+
+
+
+
+
+        937
+
+
+
+
+
+        551
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://raw.githubusercontent.com/frappe/hrms/develop/hrms/public/images/frappe-hr-logo.png; https://raw.githubusercontent.com/frappe/hrms/master/hrms.png,,937,2022-06-08T14:45:49Z
