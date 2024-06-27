@@ -19394,3 +19394,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         2 stars today",https://raw.githubusercontent.com/frappe/hrms/develop/hrms/public/images/frappe-hr-logo.png; https://raw.githubusercontent.com/frappe/hrms/master/hrms.png,,937,2022-06-08T14:45:49Z
+2024-06-27,https://github.com/intel-analytics/ipex-llm,https://raw.githubusercontent.com/intel-analytics/ipex-llm/main/README.md,"The `bigdl-llm` library has been rebranded to `ipex-llm`, as part of Intel's PyTorch library for low-latency LLM (Large Language Model) running on Intel CPUs and GPUs. The library is built from various community efforts and supports over 50 models including LLaMA2, Mistral, and Whisper. It now offers Docker support, Windows installation with a single command, and new features like experimental NPU support, pipeline parallel inference, and RAGFlow on Intel GPUs. It boasts integration with popular tools like HuggingFace transformers and DeepSpeed AutoTP, providing both Python and C++ interfaces for diverse development needs. Recent updates have introduced advanced features such as INT2 support for large-sized LLM on Intel GPUs, self-speculative decoding for faster inference, and support for comprehensive finetuning on Intel GPUs. To get started, a variety of quickstart guides, detailed API documentation, and a range of tutorials are available, alongside a FAQ section for troubleshooting.",Maximizing LLM Performance on Intel: Introducing IPEX-LLM,"Discover the power of IPEX-LLM, the newly updated library for optimizing Large Language Models (LLM) on Intel CPUs and GPUs. Enjoy seamless integration with top frameworks like llama.cpp and transformers, and access over 50 optimized models for unparalleled efficiency and speed. From local PCs to Intel Arc GPUs, IPEX-LLM offers significant latency reductions, making it easier than ever to deploy advanced AI applications.","Explore IPEX-LLM for Intel CPUs and GPUs: The ultimate solution for running LLMs with low latency. Efficient, versatile, and integrated with leading AI libraries, it transforms AI deployment on Intel hardware.",Large-scale Language Models,"Python
+
+
+
+
+
+        6,191
+
+
+
+
+
+        1,222
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",https://llm-assets.readthedocs.io/en/latest/_images/MTL_perf.jpg; https://llm-assets.readthedocs.io/en/latest/_images/Arc_perf.jpg; https://llm-assets.readthedocs.io/en/latest/_images/iris_phi3-3.8B_q4_0_llamacpp_long.gif; https://llm-assets.readthedocs.io/en/latest/_images/mtl_mistral-7B_q4_k_m_ollama.gif; https://llm-assets.readthedocs.io/en/latest/_images/arc_llama3-8B_fp8_textwebui.gif; https://llm-assets.readthedocs.io/en/latest/_images/2arc_qwen1.5-32B_fp6_fastchat.gif,https://private-user-images.githubusercontent.com/1931082/319632616-895d56cd-e74b-4da1-b4d1-2157df341424.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIyNDE4MjUsIm5iZiI6MTcxMjI0MTUyNSwicGF0aCI6Ii8xOTMxMDgyLzMxOTYzMjYxNi04OTVkNTZjZC1lNzRiLTRkYTEtYjRkMS0yMTU3ZGYzNDE0MjQubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MDRUMTQzODQ1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Y2JmYzkxYWFhMGYyN2MxYTkxOTI3MGQ2NTFkZDY4ZjFjYjg3NmZhY2VkMzVhZTU2OGEyYjhjNzI5YTFhOGNhNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Ga8mmCAO62DFCNzU1fdoyC_4MzqhDHzjZedzmi_2L-I; https://private-user-images.githubusercontent.com/1931082/319625142-68da379e-59c6-4308-88e8-c17e40baba7b.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIyNDA2MzQsIm5iZiI6MTcxMjI0MDMzNCwicGF0aCI6Ii8xOTMxMDgyLzMxOTYyNTE0Mi02OGRhMzc5ZS01OWM2LTQzMDgtODhlOC1jMTdlNDBiYWJhN2IubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MDRUMTQxODU0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzYwOWI4MmQxZjFhMjJlNGNhZTA3MGUyZDE4OTA0N2Q2YjQ4NTcwN2M2MTY1ODAwZmE3OTIzOWI0Y2U3YzYwNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.g0bYAj3J8IJci7pLzoJI6QDalyzXzMYtQkDY7aqZMc4; https://private-user-images.githubusercontent.com/1931082/319625685-ff13b099-bcda-48f1-b11b-05421e7d386d.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIyNDA4MTcsIm5iZiI6MTcxMjI0MDUxNywicGF0aCI6Ii8xOTMxMDgyLzMxOTYyNTY4NS1mZjEzYjA5OS1iY2RhLTQ4ZjEtYjExYi0wNTQyMWU3ZDM4NmQubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MDRUMTQyMTU3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MWQ3MmEwZGRkNGVlY2RkNjAzMTliODM1NDEzODU3NWQ0ZGE4MjYyOGEyZjdkMjBiZjI0MjllYTU4ODQ4YzM0NCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.OFxex8Yj6WyqJKMi6B1Q19KkmbYqYCg1rD49wUwxdXQ; https://private-user-images.githubusercontent.com/1931082/325939544-2fc0ad5e-9ac7-4f95-b7b9-7885a8738443.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQxMjYwODAsIm5iZiI6MTcxNDEyNTc4MCwicGF0aCI6Ii8xOTMxMDgyLzMyNTkzOTU0NC0yZmMwYWQ1ZS05YWM3LTRmOTUtYjdiOS03ODg1YTg3Mzg0NDMubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQyNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MjZUMTAwMzAwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjZlZDE4YjFjZWJkMzQ4NmY3ZjNlMmRiYWUzMDYxMTI3YzcxYjRiYjgwNmE2NDliMjMwOTI0NWJhMDQ1NDY1YyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.WfA2qwr8EP9W7a3oOYcKqaqsEKDlAkF254zbmn9dVv0; https://raw.githubusercontent.com/intel-analytics/ipex-llm/main/319632616-895d56cd-e74b-4da1-b4d1-2157df341424.mp4; https://raw.githubusercontent.com/intel-analytics/ipex-llm/main/319625142-68da379e-59c6-4308-88e8-c17e40baba7b.mp4; https://raw.githubusercontent.com/intel-analytics/ipex-llm/main/319625685-ff13b099-bcda-48f1-b11b-05421e7d386d.mp4; https://raw.githubusercontent.com/intel-analytics/ipex-llm/main/325939544-2fc0ad5e-9ac7-4f95-b7b9-7885a8738443.mp4,6191,2016-08-29T07:59:50Z
+2024-06-27,https://github.com/bunkerity/bunkerweb,https://raw.githubusercontent.com/bunkerity/bunkerweb/master/README.md,"BunkerWeb is a next-generation, open-source Web Application Firewall (WAF) designed to secure web services by making them ""secure by default"". It is based on NGINX and integrates seamlessly into various environments like Linux, Docker, Swarm, Kubernetes, offering easy integration and highly customizable security features. BunkerWeb provides fundamental security features as a part of its core offering but can be extended with additional features through a plugin system. It supports HTTPS with Let's Encrypt automation, ModSecurity WAF with the OWASP Core Rule Set, bot blocking, connection and request limits, and more. The software is free under the AGPLv3 license, with professional services available for technical support and custom development. BunkerWeb also provides a user-friendly web UI for efficient management and a PRO version for enhanced security features. The detailed documentation covers setup for different environments, quickstart guides, security tuning, and the web UI. Community support is available via forums, and the project encourages contributions and responsible security disclosures.",BunkerWeb: Revolutionizing Web Application Firewall for Open-Source Security,"Discover BunkerWeb, the next-generation, open-source web application firewall designed to secure web services and ensure security by default. Leveraging NGINX, BunkerWeb facilitates easy integration into existing environments, offers customizable security features, and supports a plugin system for enhanced functionality. Experience seamless security integration and make your web services secure by default with BunkerWeb's innovative features.","Explore BunkerWeb, an advanced, open-source Web Application Firewall based on NGINX, designed to provide secure by default web services with ease of integration, customization, and extendibility through plugins. Secure your web environment effortlessly.",Cybersecurity Tool,"Python
+
+
+
+
+
+        3,703
+
+
+
+
+
+        237
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",https://github.com/bunkerity/bunkerweb/raw/v1.5.8/misc/logo.png; https://img.youtube.com/vi/ZhYV-QELzA4/0.jpg,https://www.youtube.com/watch?v=ZhYV-QELzA4; https://www.youtube.com/watch?v=Ao20SfvQyr4,3703,2019-08-20T21:20:48Z
