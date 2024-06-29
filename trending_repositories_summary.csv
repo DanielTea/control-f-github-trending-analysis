@@ -19450,3 +19450,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         14 stars today",https://github.com/bunkerity/bunkerweb/raw/v1.5.8/misc/logo.png; https://img.youtube.com/vi/ZhYV-QELzA4/0.jpg,https://www.youtube.com/watch?v=ZhYV-QELzA4; https://www.youtube.com/watch?v=Ao20SfvQyr4,3703,2019-08-20T21:20:48Z
+2024-06-29,https://github.com/snakers4/silero-vad,https://raw.githubusercontent.com/snakers4/silero-vad/master/README.md,"Silero VAD is a pre-trained, enterprise-grade Voice Activity Detector lauded for its stellar accuracy, speed, and light weight. Specifically, it can process an audio chunk in less than 1ms on a CPU, supports sampling rates of 8000 Hz and 16000 Hz, and is trained on a diverse dataset covering over 6000 languages, making it highly effective across various sound environments. It is versatile, working on any platform supporting PyTorch or ONNX, and comes with no attachments like telemetry or registration requirements, under an MIT license. The model is particularly suited for IoT, telephony, voice bots, and voice interface applications. It provides an easy start guide for Python users and lists numerous use cases, including voice activity detection in edge devices, telephony automation, and voice interface development. Links for further reading, examples, quality metrics, and performance metrics are provided, along with details on where to access support or contribute to the project.",Unlocking the Potential of Silero VAD for Superior Voice Activity Detection,"Discover the power of Silero VAD - a pre-trained, enterprise-grade Voice Activity Detector that boasts stellar accuracy, lightning-fast processing, and unrivaled flexibility for diverse audio conditions. Suitable for a myriad of applications from IoT to voice interfaces, Silero VAD operates on a lightweight model, supports various sampling rates, and is highly portable across platforms. This detector excels in handling audios from various domains, ensuring efficient voice detection and noise management with its vast linguistic coverage.","Explore Silero VAD, the leading Voice Activity Detector. Enjoy fast, accurate detection for over 6000 languages across different platforms with Silero VAD's lightweight, flexible model.",Voice Conversion Tool,"Python
+
+
+
+
+
+        3,231
+
+
+
+
+
+        342
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        19 stars today",https://user-images.githubusercontent.com/12515440/89997349-b3523080-dc94-11ea-9906-ca2e8bc50535.png,,3231,2020-11-23T09:54:16Z
+2024-06-29,https://github.com/modelscope/FunASR,https://raw.githubusercontent.com/modelscope/FunASR/main/README.md,"FunASR aims to bridge the gap between academic research and industrial applications in speech recognition. It provides training and fine-tuning for industrial-grade models, enabling easier research and development. Key features include speech recognition, voice activity detection, punctuation restoration, language models, speaker verification and diarization, and multi-talker ASR. The toolkit supports a variety of pre-trained models, available in academically and industrially focused Model Zoos on ModelScope and Huggingface. Recent updates introduce services for offline file transcription with GPU support, an array of emotion recognition models, large-scale audio-text multimodal models, and support for multilingual software Whisper. FunASR is easy to install, supports Python 3.8 and above, and is accessible via pip or from source. Its comprehensive model zoo showcases its versatility, offering solutions for multiple languages and different speech processing tasks.",Introducing FunASR: Bridging Academic Research and Industrial Applications in Speech Recognition,"Discover the cutting-edge evolution in speech recognition with FunASR, a groundbreaking toolkit designed for both academic and industrial use. Offering a suite of features including ASR, VAD, and more, FunASR simplifies the deployment of high-quality speech recognition services. With a vast collection of pre-trained models and support for customization, it sets the stage for innovative advancements in speech technology.","Explore the capabilities of FunASR, an advanced speech recognition toolkit fostering collaboration between research and industry. Learn how its comprehensive features and extensive model library can accelerate your speech recognition projects.",Speech Recognition,"Python
+
+
+
+
+
+        4,443
+
+
+
+
+
+        491
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/funasr_logo.jpg; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/dingding.png; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/wechat.png; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/alibaba.png; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/nwpu.png; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/China_Telecom.png; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/RapidAI.png; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/aihealthx.png; https://raw.githubusercontent.com/modelscope/FunASR/main/docs/images/XVERSE.png,,4443,2022-11-24T02:28:11Z
