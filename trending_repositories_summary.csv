@@ -19562,3 +19562,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         3 stars today",,,12560,2010-04-30T20:37:14Z
+2024-07-02,https://github.com/pydata/xarray,https://raw.githubusercontent.com/pydata/xarray/main/README.md,"Xarray, previously known as Xray, is an open-source Python package designed to simplify working with labeled multi-dimensional (N-D) arrays in a manner that's efficient and enjoyable for users. It enhances raw NumPy-like arrays with labels for dimensions, coordinates, and attributes, enabling more intuitive operations, concise coding, and reduced errors. Xarray is heavily influenced by pandas and is particularly suited for handling netCDF files. It seamlessly integrates with Dask for parallel computing, offering a robust toolset for advanced analytics and visualization across various domains. The project encourages contributions, providing documentation and interactive Jupyter notebook examples for new users. As a fiscally sponsored project of NumFOCUS, Xarray supports the broader scientific computing community and is backed by a large pool of contributors. It is licensed under the Apache License 2.0, with some portions borrowing from pandas, NumPy, Seaborn, CPython, and the icomoon package under their respective licenses.",Exploring Multidimensional Data with Xarray: A Comprehensive Guide,"Discover the power of Xarray, a Python package that revolutionizes the handling of N-D labeled arrays and datasets, making data manipulation intuitive and efficient. By extending NumPy's capabilities with labels for dimensions, coordinates, and attributes, Xarray simplifies complex operations on multidimensional data. Whether for scientific computing, engineering, or data analysis, Xarray's domain-agnostic functions offer advanced analytics and visualization tools seamlessly integrated with pandas and dask for unrivaled data exploration experience.","Learn how Xarray, the Python package, makes working with labeled multi-dimensional arrays simple and effective. Dive into its functionalities, integration with pandas and dask, and how it supports complex data analysis and visualization.",Open Source Tool,"Python
+
+
+
+
+
+        3,489
+
+
+
+
+
+        1,039
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",https://numfocus.org/wp-content/uploads/2017/07/NumFocus_LRG.png,,3489,2013-09-30T17:21:10Z
+2024-07-02,https://github.com/huggingface/trl,https://raw.githubusercontent.com/huggingface/trl/main/README.md,"TRL, or Transformer Reinforcement Learning, is a comprehensive library designed for fine-tuning and aligning transformer language and diffusion models with techniques including Supervised Fine-tuning Step (SFT), Reward Modeling (RM), Proximal Policy Optimization (PPO), and Direct Preference Optimization (DPO). It enhances the [`transformers`](https://github.com/huggingface/transformers) library, allowing the use of its model architectures. TRL features efficient and scalable training enabled by [`accelerate`](https://github.com/huggingface/accelerate), integration with [`PEFT`](https://github.com/huggingface/peft) for large model training on modest hardware, and [`unsloth`](https://github.com/unslothai/unsloth) for faster training. It provides a command-line interface for code-free fine-tuning and interaction with language models, alongside versatile Trainer classes for applying fine-tuning methods effortlessly. Examples include training GPT2 for positive movie reviews and reducing toxicity in GPT-j models. TRL can be installed via `pip` or directly from the source for those desiring the latest features. The library supports engaging with models through CLI for tasks like Supervised Fine-tuning and testing aligned models. For developers interested in contributing or customizing, a developer installation guide and contribution instructions are available.",Maximizing Model Performance with TRL: A Comprehensive Guide,"TRL, or Transformer Reinforcement Learning, is a full-stack library designed for fine-tuning and aligning large language and diffusion models. Built on the transformers library, TRL leverages Supervised Fine-tuning (SFT), Reward Modeling (RM), Direct Preference Optimization (DPO), and the Proximal Policy Optimization (PPO), enhancing model training capabilities. Its integration with accelerate, PEFT, and unsloth makes scaling up model training efficient, even on modest hardware. TRL's command-line interface simplifies the fine-tuning process, catering to both code-savvy users and those preferring GUI interfaces. With examples like training GPT2 for positive movie reviews and reducing toxicity in GPT-j, TRL proves to be a potent tool in the evolving field of model training.","Discover how the TRL library transforms transformer model training with efficient scaling, comprehensive training methods, and user-friendly interfaces for optimized performance.",Natural Language Processing,"Python
+
+
+
+
+
+        8,658
+
+
+
+
+
+        1,062
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        38 stars today",https://huggingface.co/datasets/trl-internal-testing/example-images/resolve/main/images/trl_banner_dark.png,,8658,2020-03-27T10:54:55Z
+2024-07-02,https://github.com/stanford-futuredata/ColBERT,https://raw.githubusercontent.com/stanford-futuredata/ColBERT/main/README.md,"ColBERT is a fast and accurate BERT-based retrieval model designed for scalable search across large text collections within milliseconds. The model enhances the quality of search results beyond single-vector representations by utilizing contextual late interaction, encoding passages and queries into token-level embeddings matrices. This method allows for efficient, fine-grained similarity scoring between queries and passages using vector-similarity operations. ColBERT achieves efficient scaling through this process, making it superior for handling extensive corpora. The implementation details, use cases, and several advancements are documented through various research papers. Recent announcements include the integration of new features such as an index updater and additional support for Hugging Face models, with recommendations for the RAGatouille library as a practical application tool. ColBERT requires Python 3.7+, Pytorch 1.9+, and benefits from the Hugging Face Transformers library for optimal performance, recommending installation via conda for reliability. The procedure for employing ColBERT involves preprocessing your dataset, using or training a model checkpoint, indexing the collection for fast retrieval, and finally, performing the search process. Advanced training options and server functionality for direct API queries are also supported, showcasing ColBERT's flexibility and efficiency in modern search applications.","Exploring ColBERT v2: The Fast, Accurate Retrieval Model Revolutionizing Search","ColBERT v2 introduces groundbreaking speed and accuracy in information retrieval, using contextual late interaction over BERT for surpassing single-vector models while ensuring scalability. Through token-level embeddings, it achieves fine-grained search results within milliseconds, making it a go-to solution for large-scale text search applications. Its efficiency is further demonstrated through compatibility with models like RAGatouille and support for systems beyond academic research, proven by extensive documentation and updates.","Discover the unparalleled speed and accuracy of ColBERT v2, a BERT-based model enhancing search capabilities with contextualized late interaction. Ideal for scalable, high-quality text search.",Natural Language Processing,"Python
+
+
+
+
+
+        2,667
+
+
+
+
+
+        355
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/stanford-futuredata/ColBERT/main/docs/images/colbertofficial.png; https://raw.githubusercontent.com/stanford-futuredata/ColBERT/main/docs/images/ColBERT-Framework-MaxSim-W370px.png,,2667,2020-05-25T18:01:18Z
