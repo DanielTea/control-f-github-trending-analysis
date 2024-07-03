@@ -19646,3 +19646,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         4 stars today",https://raw.githubusercontent.com/stanford-futuredata/ColBERT/main/docs/images/colbertofficial.png; https://raw.githubusercontent.com/stanford-futuredata/ColBERT/main/docs/images/ColBERT-Framework-MaxSim-W370px.png,,2667,2020-05-25T18:01:18Z
+2024-07-03,https://github.com/coreruleset/coreruleset,https://raw.githubusercontent.com/coreruleset/coreruleset/main/README.md,"The OWASP Core Rule Set (CRS) is a project offering a set of generic attack detection rules for ModSecurity or compatible web application firewalls, aiming to shield web applications from various attacks including the OWASP Top Ten, with minimal false alerts. It's recognized as an OWASP flagship project, endorsing best practices by the Core Infrastructure Initiative, and is available under the Apache 2.0 License. Users are encouraged to contribute by reporting bugs, false positives, evasions, and suggesting new detection ideas. The CRS community offers resources for installation, configuration, and maintenance, accessible through the official website, a Google Group for discussion, and a dedicated OWASP Slack channel for live chat. The project is actively maintained from 2006 to the present, inviting contributions and participation from both new and experienced users to enhance web application security.",Unlocking Web Application Security with OWASP CRS: A Comprehensive Guide,"Explore the power of the OWASP Core Rule Set (CRS), a premier tool for defending web applications against the most critical threats, including the OWASP Top Ten. The CRS is designed for integration with ModSecurity and similar web application firewalls, aiming to minimize false alerts while maximizing protection. Dive into the world of CRS to enhance your web application's defense and contribute to its development and refinement. Learn how to get started, configure, and effectively use the CRS via the official OWASP CRS page, and become part of the vibrant community shaping the future of web security.","Discover how the OWASP Core Rule Set (CRS) shields web applications from diverse attacks with minimal false alerts. Learn to install, configure, and contribute to the CRS for enhanced web security.",Cybersecurity Tool,"Python
+
+
+
+
+
+        2,064
+
+
+
+
+
+        355
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",,,2064,2020-05-13T11:28:52Z
+2024-07-03,https://github.com/ComposioHQ/composio,https://raw.githubusercontent.com/ComposioHQ/composio/master/README.md,"Composio offers a comprehensive toolset for AI agents, enabling easy integration with a variety of software, operating systems, browsers, and more, without worrying about authentication, accuracy, or reliability. It allows the use of over 100 tools across different categories such as GitHub, Notion, Gmail, and Salesforce with simple one-line code implementations. Composio is compatible with frameworks like OpenAI, Claude, and others, providing managed authorization for different protocols (OAuth, API Keys, JWT, etc.) and ensuring high agentic accuracy. Key features include embedding capabilities for whitelabel backend applications and pluggability for easy extension. Getting started guides for Python and JavaScript detail installation, setting up OpenAI and Composio toolsets, and executing example agents. It welcomes contributions and is open-source, licensed under the Elastic License.",Elevate Your AI Agents with Composio: A Comprehensive Toolset Guide,"Discover how Composio revolutionizes the integration of AI agents with over 100 tools in a single line of code. Learn to equip your agents with Composio for enhanced accuracy, reliability, and ease of authentication across various platforms. From software and browsers to search and SWE tools, Composio offers seamless integration without the complexity. Get started with Composio to transform your AI agent's capabilities today.","Unleash the full potential of your AI agents with Composio's all-in-one toolset. Explore the key features, benefits, and easy steps to get started with Composio for unmatched efficiency and reliability in AI agent integration.",AI Development Platform,"Python
+
+
+
+
+
+        1,203
+
+
+
+
+
+        406
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        222 stars today",https://raw.githubusercontent.com/ComposioHQ/composio/master/./docs/imgs/banner.gif,,1203,2024-02-23T13:58:27Z
+2024-07-03,https://github.com/MiuLab/Taiwan-LLM,https://raw.githubusercontent.com/MiuLab/Taiwan-LLM/main/README.md,"TAME (Taiwan Mixture of Experts) introduces Llama-3-Taiwan-70B, a large language model fine-tuned to support Traditional Mandarin and English, specifically optimized for Taiwanese culture. This advanced model, boasting 70 billion parameters and an 8K token context length, demonstrates leading performance across various Traditional Mandarin NLP benchmarks. Llama-3-Taiwan-70B is proficient in language understanding, generation, reasoning, and engaging in multi-turn dialogues, with applications ranging from legal, manufacturing, medical to electronics domains. Sponsored by notable organizations, including NVIDIA and Chang Gung Memorial Hospital, it was developed using NVIDIA’s NeMo Framework on DGX H100 systems. The model supports diverse use cases like multi-turn dialogue, RAG (Retrieval Augmented Generation), and function calling, showcased through online demos and interfaces. This initiative underlines a significant step towards briding linguistic divides and enhancing machine understanding of Taiwanese Mandarin within the AI community.",Exploring TAME: The Powerhouse Behind Taiwanese Cultural AI,"Discover TAME (TAiwan Mixture of Experts), the pioneering force in linguistic AI that specializes in Taiwanese culture across various domains. This cutting-edge language model, Llama-3-Taiwan-70B, fine-tuned for Traditional Mandarin and English, demonstrates unparalleled performance in NLP. With its extensive support from notable tech giants and academia, TAME is set to revolutionize how we engage with AI in understanding and generating culturally resonant content.","Explore TAME's Llama-3-Taiwan-70B, a 70B parameter language model elevating Taiwanese cultural engagement through state-of-the-art NLP. Dive into the future of culturally informed AI now.",Large-scale Language Models,"Python
+
+
+
+
+
+        1,084
+
+
+
+
+
+        90
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        30 stars today",https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/vlfv5sHbt4hBxb3YwULlU.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/hfstnJElgB39Um4Bco11D.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/Zcl20NsPmY2vObIaMtT8G.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/xuXEHIkMgDEB7xxDd3JoL.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/dCGo92llL3_ammH_Nu2-c.png,,1084,2023-08-10T16:05:51Z
