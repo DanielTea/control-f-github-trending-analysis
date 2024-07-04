@@ -19730,3 +19730,138 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         30 stars today",https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/vlfv5sHbt4hBxb3YwULlU.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/hfstnJElgB39Um4Bco11D.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/Zcl20NsPmY2vObIaMtT8G.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/xuXEHIkMgDEB7xxDd3JoL.png; https://cdn-uploads.huggingface.co/production/uploads/5df9c78eda6d0311fd3d541f/dCGo92llL3_ammH_Nu2-c.png,,1084,2023-08-10T16:05:51Z
+2024-07-04,https://github.com/microsoft/graphrag,https://raw.githubusercontent.com/microsoft/graphrag/main/README.md,"GraphRAG is a project that focuses on extracting structured information from unstructured text through large language models (LLMs). It provides a data pipeline and transformation suite designed to enhance the reasoning capabilities of LLMs concerning private data. Interested parties can start with the GraphRAG Solution Accelerator for an easy-to-use experience. Despite being a demonstration rather than an official Microsoft product, it encourages community feedback and contributions. For optimal results, users are advised to fine-tune prompts per the provided guide. The project also addresses responsible AI practices, detailing its evaluation, limitations, uses, and performance metrics. Additionally, it adheres to Microsoft’s privacy and trademark policies.",Unlocking Data Discovery with GraphRAG: Transform Unstructured Text into Structured Knowledge,"Discover how GraphRAG, a project from Microsoft Research, leverages Language Learning Models (LLM) to transform unstructured text into actionable, structured data. This data pipeline and transformation suite offers a breakthrough in managing narrative private data, enhancing LLMs' reasoning capabilities. For a deep dive into its functionalities and how to leverage GraphRAG for your data needs, read the comprehensive guide on Microsoft's Research Blog and explore the official documentation and resources provided. Perfect for data scientists and developers seeking to elevate their LLM applications.","Explore how Microsoft's GraphRAG turns unstructured text into structured, meaningful data using LLMs, enhancing data analysis capabilities. Learn about its applications and how to start using it today.",Natural Language Processing,"Python
+
+
+
+
+
+        3,690
+
+
+
+
+
+        248
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        1,200 stars today",,,3690,2024-03-27T17:57:52Z
+2024-07-04,https://github.com/chatanywhere/GPT_API_free,https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/README.md,"GPT-API-free is a project that emphasizes privacy and does not collect or store any text input by users or returned by OpenAI servers. It offers free and paid versions, supporting a range of models including GPT-4, GPT-3.5-Turbo, and more, with recent updates adding new models and functions. The project guarantees compatibility with OpenAI's interface standards and provides dynamic acceleration for users in China, eliminating the need for a VPN. Free usage is limited to 200 requests per day per IP and key, with GPT-4 available for free use three times daily. Paid keys offer unlimited usage with costs lower than official OpenAI prices, with services powered by Azure OpenAI API, ensuring stability, performance, and functionality at reduced prices. The project aims for sustainability by offering paid keys to cover operational expenses while maintaining free service as long as possible.",Unleash AI's Potential with GPT-API-Free: A Comprehensive Guide,"Discover how GPT-API-free offers unparalleled access to GPT-4 and other AI models without needing a proxy, easily integrating with your projects for dynamic performance acceleration in Mainland China. This service highly values privacy, never collecting or storing user inputs or responses, ensuring a secure AI interaction experience. Explore the vast possibilities of free and paid keys, each tailored to different uses, from personal non-commercial applications to more intensive GPT-4 interactions. Stay updated with the latest enhancements, including model expansions and improved support features, promising an optimized AI Utilization. Join the revolution of accessible, efficient, and privacy-conscious AI computing with GPT-API-free.",Explore GPT-API-free for secure and efficient access to GPT-4 and other models without a proxy. Get started with free keys or enhance your AI projects with paid options. Benefit from privacy-first interactions and continuous updates.,AI Development Platform,"Python
+
+
+
+
+
+        18,621
+
+
+
+
+
+        1,433
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        33 stars today",https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/./images/logo.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/botgem.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/chatbox.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/zotero-gpt.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/zotero-pdf-translate.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/sidebar.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/./images/jet1.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/jet2.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/raycast1.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/raycast2.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/raycast3.png; https://raw.githubusercontent.com/chatanywhere/GPT_API_free/main/images/raycast4.gif,,18621,2023-04-23T12:42:08Z
+2024-07-04,https://github.com/EleutherAI/lm-evaluation-harness,https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/main/README.md,"The Language Model Evaluation Harness (v0.4.0) offers a comprehensive platform for testing generative language models across a diverse set of evaluation tasks. The latest updates include the addition of new Open LLM Leaderboard tasks, internal refactoring, enhanced task configuration through YAMLs, Jinja2 support for prompt design, and advanced configuration options for output post-processing and few-shot settings. It supports faster evaluation speeds and compatibility with new modeling libraries, improved logging, and usability. The framework supports over 60 standard benchmarks, models from various libraries including HuggingFace's transformers, and commercial APIs like OpenAI. Other features include multi-GPU evaluation, support for NVIDIA's NeMo models, optimized inference with vLLM, and model evaluations served via commercial APIs or local inference servers. Installation and basic usage instructions are provided, along with the support for saving results, visualizing them through Zeno or Weights & Biases, and how to contribute. Optional extras are available for specific functionalities, and the project encourages feedback and contribution through GitHub or the EleutherAI Discord.",Revolutionizing Language Model Testing: Exploring the lm-evaluation-harness v0.4.0,"The launch of lm-evaluation-harness v0.4.0 marks a significant milestone in language model evaluation, offering new Open LLM Leaderboard tasks, enhanced configuration options, support for diverse modeling libraries, and substantial speed improvements. With its comprehensive documentation and continuous development, this framework is set to simplify and refine how generative language models are assessed, providing a unified platform for extensive testing across various benchmarks.","Discover the new v0.4.0 release of lm-evaluation-harness. Learn about its new features like Open LLM Leaderboard tasks, advanced configurations, and support for a wider range of modeling libraries, aimed at streamlining language model evaluation.",Language Models Tool,"Python
+
+
+
+
+
+        5,765
+
+
+
+
+
+        1,536
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",,,5765,2020-08-28T00:09:15Z
+2024-07-04,https://github.com/Kedreamix/Linly-Talker,https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/README.md,"Linly-Talker is a state-of-the-art digital human conversation system equipped with the latest artificial intelligence technologies such as Large Language Models (LLM), Automatic Speech Recognition (ASR), Text-to-Speech (TTS), and voice cloning technology. The system features an interactive web interface that permits users to upload images for a personalized conversation experience with a virtual persona. Updates include the integration of advanced models like GeminiPro and Qwen, improved visual and voice cloning capabilities, and real-time interaction enhancements. Linly-Talker combines visual models and ASR for enhanced user interaction, supporting voice uploads for cloning and multi-turn GPT conversations for realistic dialogues. The system is designed to offer a unique form of human-computer interaction, allowing for immersive conversations with digital avatars that understand, respond, and simulate human communication effectively.",Revolutionizing AI Conversations: Meet Linly-Talker's Advanced Virtual Dialogue System,"Discover the future of digital communication with Linly-Talker, where cutting-edge advancements from 2023 to 2024 in AI technology redefine human-computer interaction. Integrating large language models like GeminiPro and Qwen with advanced image processing, voice cloning, and real-time capabilities, Linly-Talker offers a highly interactive and realistic virtual dialogue experience. Users can now upload images, utilize voice cloning to speak in their own voices, and engage in multi-turn conversations, enhancing both the realism and personalization of their digital persona. The addition of ER-NeRF for avatar generation and MuseTalk for real-time conversations in the latest updates further pushes the boundaries of what's possible in the domain of digital humans.","Explore Linly-Talker, an AI-powered dialogue system integrating GeminiPro and Qwen models for interactive conversations with a virtual self. Learn about its latest updates including voice cloning, real-time capabilities, and enhanced avatar generation.",AI Development Platform,"Python
+
+
+
+
+
+        1,200
+
+
+
+
+
+        215
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        49 stars today",https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/linly_logo.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/HOI_en.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/WebUI2.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/WebUI.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/WebUI3.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/UI.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/UI2.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/UI3.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/UI4.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/UI5.png; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/Alipay.jpg; https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/WeChatpay.jpg,https://github.com/Kedreamix/Linly-Talker/assets/61195303/f1deb189-b682-4175-9dea-7eeb0fb392ca; https://github.com/Kedreamix/Linly-Talker/assets/61195303/968b5c43-4dce-484b-b6c6-0fd4d621ac03; https://github.com/Kedreamix/Linly-Talker/assets/61195303/f052820f-6511-4cf0-a383-daf8402630db; https://github.com/Kedreamix/Linly-Talker/assets/61195303/118eec13-a9f7-4c38-b4ad-044d36ba9776,1200,2023-10-17T06:18:27Z
+2024-07-04,https://github.com/Dao-AILab/flash-attention,https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/README.md,"The FlashAttention GitHub repository introduces FlashAttention and FlashAttention-2, innovations aimed at providing fast, memory-efficient mechanisms for exact attention in neural networks, with a focus on IO-awareness. Developed by Tri Dao and colleagues, these methods, detailed in their respective papers, enhance the execution of attention mechanisms, crucial for models like GPT, by optimizing speed and memory usage, making them particularly efficient on modern GPUs. The repository offers a complete guide on installing, using, and integrating FlashAttention into existing projects, emphasizing compatibility with CUDA, PyTorch, and specific hardware requirements. It also includes several updates introducing new features and optimizations aimed at improving inference, handling varying sequence lengths, and supporting local (sliding window) attention among others. Practical usage examples, a comprehensive testing framework, and a reference to a full model code implementation are provided to facilitate adoption. The repository encourages user contribution and feedback through GitHub Issues for continued development and support.",Unlocking the Power of FlashAttention for Efficient AI,"Explore FlashAttention and FlashAttention-2, revolutionary tools for fast, memory-efficient AI computations. Designed with IO-awareness, these tools significantly enhance model training and inference speeds while optimizing memory use. Ideal for GPT models, they offer up to 20X memory savings and 3-5X training speedups, compatible with the latest GPUs. Dive into the future of AI efficiency with FlashAttention.","Discover FlashAttention and FlashAttention-2, the cutting-edge solutions for fast, memory-efficient exact attention in AI. Learn how they provide significant speed and memory benefits for model training and inference.",Deep Learning Tool,"Python
+
+
+
+
+
+        11,863
+
+
+
+
+
+        1,052
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        23 stars today",https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flashattn_banner.jpg; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flashattention_logo.png; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flash2_a100_fwd_bwd_benchmark.png; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flashattn_memory.jpg; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flash2_h100_fwd_bwd_benchmark.png,,11863,2022-05-19T21:22:06Z
