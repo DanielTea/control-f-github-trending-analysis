@@ -19865,3 +19865,143 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         23 stars today",https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flashattn_banner.jpg; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flashattention_logo.png; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flash2_a100_fwd_bwd_benchmark.png; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flashattn_memory.jpg; https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/assets/flash2_h100_fwd_bwd_benchmark.png,,11863,2022-05-19T21:22:06Z
+2024-07-05,https://github.com/Azure-Samples/graphrag-accelerator,https://raw.githubusercontent.com/Azure-Samples/graphrag-accelerator/main/README.md,"The GraphRAG Accelerator is a solution built on the graphrag Python package and hosted on Azure. It offers API endpoints for triggering indexing pipelines and querying a knowledge graph. Users interested in deploying or contributing to GraphRAG can find instructions in the provided deployment and development guides. The project invites contributions under a Contributor License Agreement and adheres to Microsoft's Open Source Code of Conduct. Issues and feature requests can be filed through GitHub Issues. The project also acknowledges the importance of adhering to trademark and logo usage guidelines, including Microsoft’s and third parties', ensuring no confusion or implied sponsorship.",Unleashing the Power of GraphRAG Accelerator on Azure,"Discover the capabilities of the GraphRAG accelerator, a solution that extends the graphrag python package for advanced indexing and querying on Azure. Ideal for developers and corporations alike, it provides easy-to-use API endpoints for efficient data management. Learn how to deploy and utilize GraphRAG with our detailed guides and quickstart tutorials. Perfect for contributing to the future of data analysis and graph technology.",Explore how the GraphRAG accelerator leverages Azure to enhance the graphrag python package for superior indexing and querying functionalities. A valuable asset for developers seeking streamlined data management solutions.,AI Development Platform,"Python
+
+
+
+
+
+        527
+
+
+
+
+
+        63
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        212 stars today",https://raw.githubusercontent.com/Azure-Samples/graphrag-accelerator/main/docs/assets/graphrag-architecture-diagram.png,,527,2024-03-27T18:49:12Z
+2024-07-05,https://github.com/danielgatis/rembg,https://raw.githubusercontent.com/danielgatis/rembg/main/README.md,"Rembg is a tool designed for removing the background from images, leveraging advanced machine learning techniques. It's available for use directly as a command-line interface (CLI) or as a library for integration into other software projects. The project is open-source under the MIT License and has garnered attention for its effectiveness and ease of use. Rembg supports various models for different use cases, including general image background removal, human segmentation, cloth segmentation, and even specialized models for anime characters. Installation is straightforward, with support for both CPU and GPU environments, ensuring compatibility with a wide range of systems. The tool allows for easy background removal from individual images or batches, and it can also be used to start an HTTP server for processing images via a web API. Additionally, Rembg can process video streams by interfacing with other tools like FFMPEG. The documentation provides extensive guidance on usage, including examples and tips for optimizing performance. Contributors to the project are encouraged to support its development through donations, and there's a call to action for users to contribute if they find the tool helpful.",Ultimate Guide to Removing Image Backgrounds with Rembg,"Discover the powerful capabilities of Rembg, a versatile tool for seamlessly removing backgrounds from images. Whether you're dealing with cars, animals, or personal photos, Rembg offers an efficient solution. With support for various Python versions and easy installation instructions, integrating Rembg into your projects has never been easier. Explore how to use Rembg as a CLI tool or a library in your applications to achieve professional-grade background removal.","Learn how to remove backgrounds from any image using Rembg. This guide covers installation, usage as a CLI tool, and integration as a library with examples for developers.",Image Generation Platform,"Python
+
+
+
+
+
+        15,364
+
+
+
+
+
+        1,754
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-1.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-1.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-2.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-2.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-3.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-3.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-1.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-1.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-2.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-2.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-3.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-3.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/girl-1.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/girl-1.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/girl-2.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/girl-2.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/girl-3.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/girl-3.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anime-girl-1.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anime-girl-1.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anime-girl-2.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anime-girl-2.out.png; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anime-girl-3.jpg; https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anime-girl-3.out.png; https://font-cdn.photoroom.com/media/api-logo.png; https://raw.githubusercontent.com/danielgatis/rembg/master/onnxruntime-installation-matrix.png; https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png,https://www.youtube.com/watch?v=3xqwpXjxyMQ; https://www.youtube.com/watch?v=dFKRGXdkGJU; https://www.youtube.com/watch?v=Ai-BS_T7yjE; https://www.youtube.com/watch?v=D7W-C0urVcQ,15364,2020-08-10T14:38:24Z
+2024-07-05,https://github.com/Rikorose/DeepFilterNet,https://raw.githubusercontent.com/Rikorose/DeepFilterNet/main/README.md,"DeepFilterNet is a speech enhancement framework designed for full-band audio (48kHz) that utilizes deep filtering to provide noise suppression. It integrates with PipeWire for virtual noise suppression microphones and is available for Linux users to test through a demo. Recent developments include the DeepFilterNet and DeepFilterNet2 papers, showcasing real-time speech enhancement capabilities and integration into embedded devices. It offers a pre-compiled binary and a LADSPA plugin for real-time noise reduction without Python dependencies. DeepFilterNet supports Linux, macOS, and Windows, with training tested primarily on Linux. It includes a Python interface for easier usage and script-based enhancements, as well as detailed instructions for manual installation and data preparation for training. The framework is dual-licensed under MIT or Apache 2.0, offering flexibility for users and contributors. Citations are provided for the DeepFilterNet series and related works, encouraging proper acknowledgment in academic contexts.",Revolutionize Your Audio: Introducing DeepFilterNet for Enhanced Speech Quality,"Discover DeepFilterNet, the cutting-edge speech enhancement framework designed for full-band audio at 48kHz, utilizing deep filtering to deliver unparalleled clarity. Ideal for integration into PipeWire as a virtual noise suppression microphone, DeepFilterNet elevates your audio experience. Explore its capabilities, including a Linux-exclusive demo, and dive into the latest advancements with DeepFilterNet2 for real-time enhancement on embedded devices. Embrace the future of audio with DeepFilterNet's low complexity, high performance solution.","Explore DeepFilterNet, a revolutionary speech enhancement framework for 48kHz full-band audio using deep filtering. Perfect for PipeWire integration, offering a virtual noise suppression microphone. Experience unparalleled audio clarity.",Speech Recognition,"Python
+
+
+
+
+
+        2,139
+
+
+
+
+
+        198
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",,https://www.youtube.com/watch?v=EO7n96YwnyE; https://www.youtube.com/watch?v=it90gBqkY6k,2139,2021-10-10T17:32:57Z
+2024-07-05,https://github.com/OpenGVLab/InternVL,https://raw.githubusercontent.com/OpenGVLab/InternVL/main/README.md,"InternVL presents a pioneering open-source initiative aimed to bridge the gap between commercial multimodal models and the open-source domain, positioning itself as a robust alternative to GPT-4o. It introduces InternVL2, demonstrating comparable performance to leading closed-source models with a 62.0% accuracy on the MMMU Benchmark. Highlighted achievements include the development of MM-NIAH, the first benchmark for evaluating MLLMs on long multimodal documents; significant advancements in the Image MLLM category with InternVL 1.5; and the release of ShareGPT-4o, a large-scale resource with extensive annotations. Furthermore, InternVL's integration into AI ecosystems is evident through its support in the Hugging Face and lmdeploy platforms, offering easy-to-use APIs and models for various applications. The project also emphasizes its contributions to academic and practical fields by accepting CVPR 2024 and providing comprehensive benchmarks and comparisons with state-of-the-art VLLMs, underlining its commitment to advancing multimodal understanding and interaction.",Bridging the Open-Source Gap: InternVL vs. GPT-4o in Multimodal AI Models,"InternVL is making strides toward narrowing the capability gap between open-source and commercial multimodal models, achieving a landmark with InternVL2 matching GPT-4o's performance. With the release of diverse tools and benchmarks, InternVL offers an open-source alternative fostering innovation in the AI community. This advancement is complemented by the provision of a free API, enabling broader access and application of multimodal AI.","Discover how InternVL is closing the gap between open-source and proprietary multimodal AI models, offering a competitive alternative to GPT-4o with its latest release, InternVL2. Explore the suite of tools and benchmarks that support the development and testing of advanced AI applications.",Multimodal AI Model,"Python
+
+
+
+
+
+        3,913
+
+
+
+
+
+        300
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        34 stars today",,,3913,2023-11-22T08:08:08Z
+2024-07-05,https://github.com/InternLM/InternLM,https://raw.githubusercontent.com/InternLM/InternLM/main/README.md,"InternLM introduces the InternLM2.5 series, including models with state-of-the-art performance in reasoning, notably in math, and a 1M-long context window for superior long-context tasks. The latest releases, such as InternLM2.5-7B and its chat variants, are highlighted for their performance and new capabilities, such as tool use by gathering information from over 100 web pages. Key updates and releases are provided along with comprehensive performance evaluations against benchmarks like MMLU, CMMLU, and more. InternLM models are accessible in various formats and compatible with popular libraries and frameworks. Deployment and usage are facilitated through tools like LMDeploy and ModelScope. The documentation covers various aspects, including fine-tuning, agent evaluation, and performance assessment through OpenCompass. InternLM welcomes contributions and provides guidance for commercial licensing. The project emphasizes community involvement, offering extensive support and resources for developers and researchers to engage with and advance the capabilities of the InternLM series.",Exploring InternLM2.5: A New Frontier in AI Language Models,"Discover the capabilities of InternLM2.5, the revolutionary AI language model outperforming predecessors in reasoning, context understanding, and tool use. With state-of-the-art performance in math reasoning, a 1M context window, and advanced tool utilization, InternLM2.5 marks a significant leap forward in AI language models. Its versatility and efficiency make it ideal for research and industrial applications, promising to transform how we interact with AI.","Unveiling InternLM2.5's breakthroughs in AI with unmatched reasoning, extended context window, and superior tool use. Learn how it's setting new standards in language models for both research and commercial use.",Large-scale Language Models,"Python
+
+
+
+
+
+        5,636
+
+
+
+
+
+        406
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        56 stars today",https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png,,5636,2023-07-06T04:52:06Z
