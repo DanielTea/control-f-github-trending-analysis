@@ -20005,3 +20005,139 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         56 stars today",https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png; https://raw.githubusercontent.com/InternLM/InternLM/main/./assets/modelscope_logo.png,,5636,2023-07-06T04:52:06Z
+2024-07-06,https://github.com/disposable-email-domains/disposable-email-domains,https://raw.githubusercontent.com/disposable-email-domains/disposable-email-domains/master/README.md,"The repository hosts a list identifying domains of disposable and temporary email addresses used for creating dummy accounts to spam or abuse services. It features a blocklist and an allowlist, the latter includes domains mistakenly thought to be disposable. The repository welcomes contributions, urging users to submit PRs to add or request the removal of domains, substantiating their claims with evidence. Major updates include the addition of new maintainers, availability as a PyPI module, and the conversion of all domains to the second level to enhance matching accuracy. Implementation examples are provided for various programming languages, including Python, PHP, Go, Ruby on Rails, NodeJS, C#, Bash, and Java, demonstrating how to check if an email belongs to the disposable domain list.",Ultimate Guide to Blocking Disposable Email Domains,"Discover the crucial role of maintaining a clean email domain list to prevent spam and enhance service integrity. This repository offers a comprehensive blocklist of disposable and temporary email addresses, alongside a vital allowlist for exceptions. With regular updates and community contributions, it serves as an essential resource for developers and service providers aiming to uphold email validation standards.","Explore our repository for an up-to-date list of disposable email domains to secure your services against spam. Learn how our allowlist corrects common misconceptions, contributing to more accurate email validation.",Cybersecurity Tool,"Python
+
+
+
+
+
+        2,495
+
+
+
+
+
+        523
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        28 stars today",https://licensebuttons.net/p/zero/1.0/88x31.png,,2495,2014-09-02T20:31:28Z
+2024-07-06,https://github.com/freelabz/secator,https://raw.githubusercontent.com/freelabz/secator/main/README.md,"Secator is a versatile tool designed for pentesters and security researchers to enhance productivity by automating security assessments. With support for numerous well-known security tools, Secator offers features like a curated list of commands, unified input options, output schema, CLI and library usage, distributed options with Celery, and customizable tasks for simple to complex workflows. It integrates with a variety of tools across different categories such as web crawling, fuzzer, OSINT, DNS, IP reconnaissance, vulnerability scanning, and more. Installation is straightforward with options for pipx, pip, bash, Docker, and Docker Compose, alongside additional setups for languages, tools, addons, and CVEs. Users can check installation health to ensure all necessary components are in place. Secator’s usage is simplified with a clear help command and examples for fuzzing tasks, URL crawls, and host scans, making it a comprehensive ""swiss knife"" for pentesting tasks. Further information and getting started tutorials are available through its documentation, tutorial videos, and social media channels.",Secator: The Ultimate Pentesting Swiss Knife for Security Professionals,"Discover Secator, a comprehensive task and workflow runner tailored for pentesters and security researchers. Enhance your productivity with support for dozens of top security tools, featuring a curated list of commands, unified input and output options, and customizable workflows. Whether you're conducting simple tasks or complex assessments, Secator scales to your needs, offering CLI and library usage alongside distributed options with Celery. Dive into the future of penetration testing with Secator.","Explore Secator, the pentester's swiss knife, designed to streamline security assessments with support for numerous security tools. Improve your pentesting efficiency with customizable and scalable options.",Cybersecurity Tool,"Python
+
+
+
+
+
+        654
+
+
+
+
+
+        50
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        30 stars today",https://raw.githubusercontent.com/freelabz/secator/main/images/demo.gif; https://raw.githubusercontent.com/freelabz/secator/main/images/help.png,https://www.youtube.com/watch?v=-JmUTNWQDTQ,654,2023-02-25T10:14:26Z
+2024-07-06,https://github.com/tanelpoder/0xtools,https://raw.githubusercontent.com/tanelpoder/0xtools/master/README.md,"0x.tools offers a collection of open-source utilities aimed at simplifying the analysis of application performance on Linux systems, emphasizing ease of deployment and minimal dependencies to streamline systematic troubleshooting. It supports older Linux kernel versions without necessitating major system upgrades or the addition of heavyweight monitoring tools. These utilities enable detailed investigation into individual thread activities, system calls, and CPU usage without relying on traditional, often less precise methods. The latest updates introduce xcapture-bpf and xtop v2.0.2, leveraging eBPF for a highly customizable, programmable perspective on performance data, including system-level overviews and insights into specific threads and kernel events. Designed for efficiency and depth, these tools represent just the beginning of the potential unlocked by eBPF technology for performance analysis.",Unlock Advanced Linux Performance Analysis with 0x.Tools,"0x.Tools offers a revolutionary suite of tools designed to analyze and optimize application performance on Linux systems without the need for heavy installations or system upgrades. These tools provide an in-depth look into system and thread level activities, allowing for detailed troubleshooting and performance monitoring. With the recent introduction of xcapture-bpf and xtop v2.0.2, users now have even more power to customize and extend their diagnostic capabilities, leveraging the full potential of eBPF for comprehensive system analysis. Stay tuned for further enhancements and explore how 0x.Tools can transform your approach to Linux system performance optimization.",Explore 0x.Tools for advanced Linux performance analysis without heavy installations. Discover how xcapture-bpf and xtop leverage eBPF for in-depth system and thread level monitoring.,Open Source Tool,"Python
+
+
+
+
+
+        1,122
+
+
+
+
+
+        99
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        162 stars today",https://0x.tools/images/xcapture-bpf-stacktiles.png,,1122,2019-04-03T14:52:45Z
+2024-07-06,https://github.com/sczhou/CodeFormer,https://raw.githubusercontent.com/sczhou/CodeFormer/main/README.md,"The NeurIPS 2022 paper ""Towards Robust Blind Face Restoration with Codebook Lookup Transformer"" and its associated project, CodeFormer, introduce a technique aimed at enhancing the quality of facial images. Developed by a team from Nanyang Technological University’s S-Lab, including Shangchen Zhou, Kelvin C.K. Chan, Chongyi Li, and Chen Change Loy, CodeFormer focuses on improving the fidelity and visual quality of degraded or low-resolution facial images using a transformer-based approach. Recent updates include integration into various platforms for wider accessibility, the release of training codes and config files, and additional features such as video input support, face inpainting, and colorization. The project provides a comprehensive setup and inference guide, recommending Python and Pytorch for implementation. Pre-trained models are available for download, and the project is licensed under the NTU S-Lab License 1.0. The CodeFormer project has potentially wide applications in enhancing old photos, fixing AI-generated art distortions, and more, all of which can significantly contribute to various image or video enhancement projects.",Revolutionizing Face Restoration: Discover CodeFormer Technology,"The CodeFormer project represents a significant leap in blind face restoration technology, utilizing a Codebook Lookup Transformer to achieve unprecedented results. Featured at NeurIPS 2022, this innovative approach allows for robust restoration of facial images, offering functionalities like inpainting, colorization, and video enhancement. With ongoing updates and the availability of training codes, CodeFormer is not only enhancing images but also supporting a wide range of applications. Interested users can access the project page, paper, and try out demos on platforms like Hugging Face and Replicate for a first-hand experience. This step forward in face restoration technology showcases the potential of advanced AI methods in improving image quality and usability.","Explore CodeFormer, the cutting-edge AI for blind face restoration as unveiled at NeurIPS 2022, featuring demos, training codes, and applications in inpainting, colorization, and video enhancement.",Image Generation Platform,"Python
+
+
+
+
+
+        14,166
+
+
+
+
+
+        3,072
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        16 stars today",https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/CodeFormer_logo.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/network.jpg; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/imgsli_1.jpg; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/imgsli_2.jpg; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/imgsli_3.jpg; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/restoration_result1.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/restoration_result2.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/restoration_result3.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/restoration_result4.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/color_enhancement_result1.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/color_enhancement_result2.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/inpainting_result1.png; https://raw.githubusercontent.com/sczhou/CodeFormer/main/assets/inpainting_result2.png,https://www.youtube.com/watch?v=d3VDpkXlueI,14166,2022-06-21T02:48:14Z
+2024-07-06,https://github.com/qdrant/fastembed,https://raw.githubusercontent.com/qdrant/fastembed/main/README.md,"FastEmbed is a Python library designed to generate lightweight and rapid embeddings, supporting a variety of popular text models. It doesn't require a GPU and minimizes dependencies by using the ONNX Runtime, making it suitable for environments like AWS Lambda. FastEmbed excels in speed, size, and accuracy, outperforming certain models like OpenAI Ada-002. Installation is straightforward with pip, and it offers flexibility in generating both dense and sparse text embeddings, image embeddings, and utilizes late interaction models. It integrates seamlessly with Qdrant for processing and querying embedded data. Additionally, it provides GPU support for enhanced performance. FastEmbed's comprehensive documentation and examples facilitate ease of use, including its integration with the Qdrant Client for advanced data management and retrieval applications, making it a practical option for versatile embedding generation tasks.",Unlocking Text Processing Speed with FastEmbed: A Comprehensive Guide,"Discover the capabilities of FastEmbed, a Python library designed for efficient embedding generation without the need for extensive dependencies or hardware. FastEmbed shines in its lightweight structure, speed, and accuracy, outperforming similar tools by leveraging the ONNX Runtime. It supports a broad spectrum of models, including multilingual and is ideal for applications in environments like AWS Lambda. Learn how to install, implement, and integrate FastEmbed for various tasks, from dense and sparse text embeddings to late interaction models and image embeddings, all with or without GPU support.","Explore how FastEmbed offers a fast, accurate, and lightweight solution for embedding generation in Python, supporting a wide range of models with easy integration for diverse tasks and environments.",Python Libraries Collection,"Python
+
+
+
+
+
+        1,057
+
+
+
+
+
+        80
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,,1057,2023-07-14T04:59:33Z
