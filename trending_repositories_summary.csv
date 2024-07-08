@@ -20169,3 +20169,31 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         17 stars today",https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/logo-with-text.png; https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/frontpage/_images/eq.jpg; https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/frontpage/_images/figure.jpg; https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/frontpage/_images/code.jpg; https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/frontpage/_images/notebook.gif; https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/frontpage/_images/map.png,,22408,2018-10-09T01:04:37Z
+2024-07-08,https://github.com/hacs/integration,https://raw.githubusercontent.com/hacs/integration/main/README.md,"HACS, short for Home Assistant Community Store, is an integration designed for Home Assistant that enhances the user interface, making it easier to manage (install, update, and remove), track, and discover custom elements directly. HACS aids users by offering a powerful UI for discovering new custom elements and managing existing ones, including downloading updates and accessing repository or issue tracker shortcuts. It also provides a repository of useful links for general documentation, basic configuration, FAQs, and points of community engagement like GitHub and Discord. Additionally, it encourages supporting the development through sponsorships or donations. Users experiencing issues are encouraged to report them via the provided issue link.",Master Your Home Assistant: Discover the Power of HACS,"HACS (Home Assistant Community Store) revolutionizes your smart home experience by simplifying the management of custom elements. With an intuitive UI, it facilitates the discovery, installation, tracking, and updating of custom elements, enriching your Home Assistant ecosystem. Explore a vast repository of custom integrations and make your smart home truly yours. Stay updated and never miss out on the latest enhancements to your system.","Elevate your Home Assistant setup with HACS: A comprehensive guide to discovering, managing, and updating custom elements directly from the user interface. Make your smart home smarter.",Open Source Community,"Python
+
+
+
+
+
+        4,885
+
+
+
+
+
+        1,227
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",,,4885,2019-02-26T15:01:10Z
