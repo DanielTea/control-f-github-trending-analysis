@@ -20197,3 +20197,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         2 stars today",,,4885,2019-02-26T15:01:10Z
+2024-07-09,https://github.com/frappe/frappe,https://raw.githubusercontent.com/frappe/frappe/master/README.md,"Frappe is a full-stack web application framework with ""batteries included,"" designed for building web applications using Python and MariaDB on the server side, with a closely integrated client side library. It is notably used for ERPNext, a comprehensive enterprise resource planning tool. The framework is accessible at [frappe.io](https://frappe.io) and is accompanied by a variety of resources including documentation, a guide for contributing, and licensing information under the MIT License. Installation can be performed via Frappe Bench. The project promotes collaboration and contributions, providing guidelines for pull requests and a platform for translations. Furthermore, it maintains a strong presence on GitHub, with badges indicating continuous integration status and documentation availability.",Exploring Frappe: The Full-Stack Web Application Framework,"Dive into the world of Frappe, a comprehensive full-stack web application framework that leverages Python and MariaDB for server-side operations, and a seamless client-side library. Ideal for powering ERPNext, it comes with a rich set of features and a strong community support, evident in the numerous badges from Travis CI, Coveralls, and CodeTriage. Whether you're installing it via Frappe Bench, contributing through pull requests, or utilizing its extensive documentation, Frappe is a robust framework designed for developers who demand efficiency and reliability in web application development. It's not just about the technology; it's about building solutions that matter.","Discover Frappe, the robust full-stack web application framework with Python, offering an integrated server and client-side library, extensive documentation, and community support for developers.",Custom Node Framework,"Python
+
+
+
+
+
+        6,697
+
+
+
+
+
+        3,210
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/frappe/frappe/master/.github/frappe-bird.png,https://www.youtube.com/watch?v=LOjk3m0wTwg,6697,2011-06-08T08:14:16Z
+2024-07-09,https://github.com/Xpra-org/xpra,https://raw.githubusercontent.com/Xpra-org/xpra/master/README.md,"Xpra, open-source under GPLv2+, functions like ""screen for X"", allowing seamless use of X11 programs on remote hosts with display directed to a local machine. Users can disconnect and reconnect without losing the application state, enabling remote access to individual graphical applications or even full desktop sessions. It supports various platforms with clients and servers, including a built-in HTML5 client, adapting well to network conditions and protocols. Xpra also forwards desktop features like audio, print services, clipboard, system notifications, and more, for a transparent integration into the client's desktop environment. Official downloads are available for Windows, MacOS, and Linux, with options to build from source. Usage requires installation on both client and host, supporting a wide range of network connections and security options. Documentation covers extensive details, and support is available through FAQs, GitHub discussions, IRC, and Discord.",Ultimate Guide to Xpra: Seamless Remote Desktop Access & More,"Explore the power of Xpra, known as 'screen for X', enabling seamless remote access to X11 programs with state persistence across connections. Xpra couples the convenience of accessing remote graphical applications and desktop sessions with the flexibility of open-source software. It is designed to adapt to varying network protocols, ensuring a smooth, integrated user experience. Features like audio synchronization, remote document access, and display adaptation highlight its capabilities. Xpra stands out by providing an extensive platform and network protocol support, ensuring users have robust, flexible remote access solutions.","Discover how Xpra offers seamless, stateful remote access to graphical applications and desktop sessions. Learn about its key features, platform support, and adaptability to different network conditions.",Open Source Tool,"Python
+
+
+
+
+
+        1,752
+
+
+
+
+
+        152
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        221 stars today",https://raw.githubusercontent.com/Xpra-org/xpra/master/docs/images/screenshots/win11-glxspheres.png,,1752,2021-01-22T12:36:06Z
