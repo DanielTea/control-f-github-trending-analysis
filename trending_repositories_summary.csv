@@ -20253,3 +20253,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         221 stars today",https://raw.githubusercontent.com/Xpra-org/xpra/master/docs/images/screenshots/win11-glxspheres.png,,1752,2021-01-22T12:36:06Z
+2024-07-10,https://github.com/microsoft/pyright,https://raw.githubusercontent.com/microsoft/pyright/main/README.md,"Pyright is a robust, standards-compliant static type checker for Python, offering high performance for large codebases. It's available as a command-line tool and a Visual Studio Code extension, providing flexibility for developers. Users can also explore Pyright through an online playground. The project supports community engagement, inviting users to ask questions, report bugs, or suggest enhancements via its discussion section and issue trackers. Contribution is welcomed, with a recommendation to discuss significant changes with maintainers beforehand. Contributors must agree to a Contributor License Agreement (CLA). Pyright champions the Microsoft Open Source Code of Conduct, ensuring a respectful and inclusive community.",Mastering Pyright: The Ultimate Guide to Python Static Type Checking,"Discover Pyright, the powerful static type checker for Python designed for both performance and large codebases. Pyright offers a cutting-edge command-line tool and a Visual Studio Code extension to enhance your coding experience. Explore its features further through the Pyright Playground and enhance your development with extensive documentation. Engage with the community for support and contribute to the project to make Pyright even better.","Learn everything about Pyright, the high-performance static type checker for Python, including features, benefits, installation, and how to contribute to its development.",Python Libraries Collection,"Python
+
+
+
+
+
+        12,581
+
+
+
+
+
+        1,344
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://github.com/microsoft/pyright/blob/main/docs/img/PyrightLarge.png,,12581,2019-03-12T03:38:46Z
+2024-07-10,https://github.com/Netflix/dispatch,https://raw.githubusercontent.com/Netflix/dispatch/master/README.md,"Dispatch is designed to streamline the management of security incidents by automating various ad-hoc tasks and integrating with familiar organizational tools like Slack, GSuite, and Jira. It focuses on creating resources, gathering team members, sending notifications, tracking tasks, and facilitating post-incident reviews, freeing teams to concentrate on resolving the issue at hand. By leveraging tools already in use within an organization, Dispatch avoids the need to introduce new software, making the incident management process more efficient. Additional information and resources about Dispatch, including a blog post, source code, documentation, issue tracker, and Docker details, are available online for further exploration.",Maximize Incident Management Efficiency with Netflix's Dispatch,"Discover how Dispatch revolutionizes incident management by seamlessly integrating with tools like Slack, Jira, and GSuite. This platform tackles the manual, ad-hoc tasks plaguing security incident management, enabling your team to concentrate on solution-oriented actions. With Dispatch, orchestration becomes second nature, leveraging familiar tools while providing resource creation, participant assembly, notification distribution, task tracking, and post-incident analysis.","Enhance your incident management process with Netflix's Dispatch. Learn how it simplifies tasks through integration with Slack, GSuite, and Jira, focusing your efforts on fixing issues faster.",Cybersecurity Tool,"Python
+
+
+
+
+
+        4,816
+
+
+
+
+
+        476
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://github.com/Netflix/dispatch/raw/master/docs/images/screenshots/thumb-1.png; https://github.com/Netflix/dispatch/raw/master/docs/images/screenshots/thumb-2.png; https://github.com/Netflix/dispatch/raw/master/docs/images/screenshots/thumb-3.png; https://github.com/Netflix/dispatch/raw/master/docs/images/screenshots/thumb-4.png,,4816,2020-02-10T17:21:28Z
+2024-07-10,https://github.com/mikumifa/biliTickerBuy,https://raw.githubusercontent.com/mikumifa/biliTickerBuy/main/README.md,"biliTickerBuy is a free, open-source, easy-to-use, and fast graphical-interface tool designed to assist with Bilibili VIP purchases. It offers quick installation guides for Windows users with direct download links for the latest releases and provides instructions for MacOS and Linux users to deploy using Docker if local captcha support is not available. The project has thoroughly restructured its UI, showing a local URL upon startup for easy access. Users can start the program using source code with the option to create a share link. The document includes visual steps for the ticket-grabbing process and slider verification. It invites users to discuss program issues or suggest new features and bug reports on GitHub. The project references other scripts for ticket purchases and lists a community of contributors. The repository's popularity can be tracked via its Star History chart. The project operates under the MIT License, includes a disclaimer against profit-making activities, and offers a donation link for support.",Maximizing Your Bilibili Experience: The Ultimate Guide to biliTickerBuy,"Discover the power of biliTickerBuy, the open-source, fast, and easy-to-use Bilibili membership purchase assistant tool for Windows, with Docker deployment for MacOS and Linux users. This guide covers everything from quick installation to usage instructions, ensuring you get the most out of your Bilibili experience. Whether you're navigating GitHub for the first time with our beginner's guide or looking for advanced ticket-snatching strategies with additional scripts, biliTickerBuy enhances your access to Bilibili content effortlessly.","Unlock the full potential of Bilibili with biliTickerBuy, an efficient membership purchase assistant tool. Learn about easy installation, smooth UI, and effective strategies for enhancing your viewing experience. Get started now.",AI Browser Automation,"Python
+
+
+
+
+
+        550
+
+
+
+
+
+        137
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        45 stars today",,,550,2023-04-23T10:58:58Z
