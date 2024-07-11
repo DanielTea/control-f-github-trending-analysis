@@ -20337,3 +20337,117 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         45 stars today",,,550,2023-04-23T10:58:58Z
+2024-07-11,https://github.com/Significant-Gravitas/AutoGPT,https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/master/README.md,"AutoGPT is a versatile AI agent capable of performing a variety of tasks autonomously using a generalist LLM. It's designed for tasks like summarizing research papers, writing marketing material, and detailing AI news in blog posts. AutoGPT's mission is to provide essential tools for building, testing, and delegating work to AI, enabling users to focus on innovation. The platform includes components like Forge, a template for creating agent applications; Benchmark, for measuring agent performance; a user-friendly UI; and a CLI for easy interaction with the tools and agents. It offers extensive documentation, encourages contributions, and supports through a community on Discord. AutoGPT adheres to the agent protocol standard, ensuring compatibility across various applications.",AutoGPT: Revolutionizing AI with Autonomous Agents,"Discover the potential of AutoGPT, a versatile AI capable of performing tasks autonomously. From summarizing research papers to executing marketing strategies and writing informative blog posts, AutoGPT is designed to streamline your work process. Join the forefront of AI innovation and build, test, and delegate with AutoGPT to bring your creative ideas to life. Embrace the future of technological advancement and be part of the AI revolution today.","Explore AutoGPT, a cutting-edge AI agent for automating tasks. Learn how it can assist in research, marketing, and content creation, simplifying your workflow. Join the AI revolution with AutoGPT.",AI Development Platform,"Python
+
+
+
+
+
+        163,911
+
+
+
+
+
+        43,549
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        62 stars today",,,163911,2023-03-16T09:21:07Z
+2024-07-11,https://github.com/milesial/Pytorch-UNet,https://raw.githubusercontent.com/milesial/Pytorch-UNet/master/README.md,"This document details the implementation of U-Net using PyTorch for the Carvana Image Masking Challenge, showcasing a model trained with 5k high-definition images, achieving a Dice coefficient of 0.988423 over 100k test images, adaptable for various segmentation tasks. It provides guides for setup without Docker, involving CUDA and PyTorch installation, and with Docker, including Docker and NVIDIA container toolkit installation. Training involves downloading data and executing the training script with options for epochs, batch size, learning rate, model loading, image scaling, validation split, and mixed precision. Prediction instructions are given for single and multiple images with customization options. The document mentions integration with Weights & Biases for real-time training visualization, availability of a pretrained model for the Carvana dataset, and instructions for data preparation, highlighting flexibility with custom datasets. It concludes with references to the original U-Net paper and depicts the network architecture.
+
+",Master U-Net for Semantic Segmentation with PyTorch Guide,"Unlock the power of U-Net for semantic segmentation in your PyTorch projects, a comprehensive approach for high-definition image processing challenges such as Kaggle's Carvana Image Masking Challenge. With a ready-to-use docker image and detailed instructions for both docker and non-docker users, get up and running with PyTorch's implementation of U-Net quickly. Learn to customize training, leverage a pretrained model, and efficiently process image data for multiclass segmentation tasks. Perfect your skills in medical, portrait, and various segmentation applications with this detailed guide.","Discover how to implement U-Net with PyTorch for semantic segmentation. Step-by-step guide for setup, training, and prediction with a docker option for easy deployment.",Deep Learning Platform,"Python
+
+
+
+
+
+        8,701
+
+
+
+
+
+        2,405
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://i.imgur.com/GD8FcB7.png; https://i.imgur.com/jeDVpqF.png,,8701,2017-08-16T12:17:08Z
+2024-07-11,https://github.com/MrForExample/ComfyUI-3D-Pack,https://raw.githubusercontent.com/MrForExample/ComfyUI-3D-Pack/main/README.md,"The ComfyUI-3D-Pack is designed to enhance ComfyUI's capabilities by enabling the processing of 3D inputs such as Mesh & UV Texture with advanced algorithms like 3DGS and NeRF. It includes a suite of nodes powered by models like InstantMesh and CRM for various 3D content creation workflows. Installation is simplified through ComfyUI-Manager, with support for multiple operating systems, Python versions, and CUDA. Pre-built packages and automatic build scripts facilitate easy setup. The pack boasts features like character generation, multi-view image conversion, and 3D mesh reconstruction with detailed guides for utilizing pre-trained model weights. It supports 3D asset visualization and customization, offering utilities for camera pose generation and mesh refinement. Additionally, developers can contribute to its growth by adding new nodes or improving existing functionalities. The roadmap outlines future enhancements like better 3DGS to mesh conversion algorithms.",Unlocking 3D Asset Creation with ComfyUI: A Comprehensive Guide,"Discover how ComfyUI 3D Pack revolutionizes 3D asset creation by integrating advanced algorithms and models for seamless processing of 3D inputs. From generating 3D meshes with texture to instantly setting up 3D pipelines, ComfyUI 3D Pack offers an extensive suite of tools for professionals and enthusiasts alike. Learn how to easily install, leverage powerful features, and transform your 3D asset workflow today.","Explore how ComfyUI 3D Pack simplifies the creation of 3D assets with cutting-edge algorithms and models. Complete guide on installation, features, and benefits for 3D professionals.",3D Image Rendering,"Python
+
+
+
+
+
+        1,769
+
+
+
+
+
+        171
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/MrForExample/ComfyUI-3D-Pack/main/_Example_Workflows/_Example_Outputs/Wonder3D_FatCat_MVs.jpg; https://raw.githubusercontent.com/MrForExample/ComfyUI-3D-Pack/main/_Example_Workflows/_Example_Outputs/Cammy_Cam_Rotate_Clockwise_Camposes.png; https://raw.githubusercontent.com/MrForExample/ComfyUI-3D-Pack/main/_Example_Workflows/_Example_Outputs/Cammy_Cam_Rotate_Counter_Clockwise_Camposes.png; https://raw.githubusercontent.com/MrForExample/ComfyUI-3D-Pack/main/_Example_Workflows/_Example_Outputs/Cammy_Cam_Rotate_Clockwise.gif; https://raw.githubusercontent.com/MrForExample/ComfyUI-3D-Pack/main/_Example_Workflows/_Example_Outputs/Cammy_Cam_Rotate_Counter_Clockwise.gif,https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/45dd6bfc-4f2b-4b1f-baed-13a1b0722896; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/fc210cac-6c7d-4a55-926c-adb5fb7b0c57; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/a0648a44-f8cb-4f78-9704-a907f9174936; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/33aecedb-f595-4c12-90dd-89d5f718598e; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/cf68bb83-9244-44df-9db8-f80eb3fdc29e; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/ec4f8df5-5907-4bbf-ba19-c0565fe95a97; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/e221d7f8-49ac-4ed4-809b-d4c790b6270e; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/90e7f298-bdbd-4c15-9378-1ca46cbb4871; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/9f3c56b1-afb3-4bf1-8845-ab1025a87463; https://github.com/MrForExample/ComfyUI-3D-Pack/assets/62230687/166bbc1f-04b7-42c8-87bb-302e3f5aabb2,1769,2024-01-05T21:49:14Z
+2024-07-11,https://github.com/urchade/GLiNER,https://raw.githubusercontent.com/urchade/GLiNER/main/README.md,"GLiNER is a state-of-the-art Named Entity Recognition (NER) model that distinguishes itself by recognizing a limitless variety of entities with the efficiency of bidirectional transformer encoders akin to BERT. This model overcomes the conventional NER models' limitation to predefined entity categories and offers a more resource-efficient solution compared to the more extensive and expensive Large Language Models, making it ideal for resource-limited setups. The model, including its installation and usage instructions, demo, and available models, is readily accessible, with getting started guides, demos, and a list of available models provided on platforms like Hugging Face and via a dedicated Discord server. The project benefits from the support and funding of FI Group and the Laboratoire Informatique de Paris Nord, showcasing a collaborative effort between academic excellence and industry support. The model's developers encourage its application in research and provide a detailed citation format for users to reference in their studies, highlighting the model's contribution to advancing NER technology.",Exploring GLiNER: The Future of Named Entity Recognition with Bidirectional Transformers,"GLiNER is revolutionizing Named Entity Recognition (NER) by identifying any entity type through a bidirectional transformer encoder, outpacing traditional NER models and Large Language Models in efficiency and scalability. Unlike conventional models limited to predetermined entities, GLiNER's flexibility facilitates broader applications, especially in contexts where resources are a constraint. Its implementation is straightforward, involving model installation, entity prediction with customizable labels, and output evaluation, thereby democratizing advanced NER tools for wide-ranging research and development projects. The model's authors and contributing institutions underline the collaborative effort underpinning this innovative tool, signaling a significant advancement in computational linguistics.","Discover how GLiNER, a generalist and lightweight Named Entity Recognition model, is setting new standards in NER technology by leveraging bidirectional transformer encoders for unparalleled efficiency and flexibility in entity identification.",Named Entity Recognition,"Python
+
+
+
+
+
+        989
+
+
+
+
+
+        86
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://raw.githubusercontent.com/urchade/GLiNER/main/logo/FI Group.png,,989,2023-11-14T18:11:11Z
