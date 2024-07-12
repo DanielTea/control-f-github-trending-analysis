@@ -20451,3 +20451,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         15 stars today",https://raw.githubusercontent.com/urchade/GLiNER/main/logo/FI Group.png,,989,2023-11-14T18:11:11Z
+2024-07-12,https://github.com/apify/crawlee-python,https://raw.githubusercontent.com/apify/crawlee-python/master/README.md,"Crawlee is a comprehensive web scraping and browser automation library designed to facilitate building reliable scrapers quickly. It's compatible with Python and has an early adopters program for its Python version. Crawlee can simulate human-like interactions to evade modern bot protections and supports a range of utilities for crawling, data scraping, and storing in readable formats. It offers rich configuration options for customization. Additionally, Crawlee has a TypeScript version available. It can be installed via PyPI, and optional dependencies can enhance its functionalities. Examples provided in the documentation include how to use `BeautifulSoupCrawler` for HTML content scraping without executing JavaScript, and `PlaywrightCrawler` for JavaScript-heavy sites. Crawlee emphasizes easy setup, parallel crawling capabilities, proxy rotation, and error handling among its features. It encourages contributions from the community and is licensed under the Apache License 2.0.",Maximize Your Web Scraping Capabilities with Crawlee: A Comprehensive Guide,"Discover the power of Crawlee, the ultimate web scraping and browser automation library designed to make your crawling end-to-end simple and efficient. From flying under the radar of modern bot protections with its human-like crawlers to persistently storing scraped data in machine-readable formats, Crawlee is the tool you need for your next web scraping project. It supports both Python and TypeScript, and is equipped with rich configuration options to tailor its performance to your project's specific needs. Installation and getting started is straightforward, with additional, optional dependencies for extended features. Whether you are a beginner or an expert, Crawlee provides comprehensive documentation and a community-ready to assist you in building reliable scrapers fast.","Learn how to use Crawlee, the web scraping library that simplifies building reliable scrapers. Covers installation, features, and comparison with Scrapy for Python and TypeScript users.",Web Scraping Tool,"Python
+
+
+
+
+
+        1,114
+
+
+
+
+
+        56
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        132 stars today",,,1114,2024-01-10T08:44:47Z
+2024-07-12,https://github.com/Sitoi/dailycheckin,https://raw.githubusercontent.com/Sitoi/dailycheckin/main/README.md,"DailyCheckIn is a comprehensive daily check-in script that can be installed via Pypi and deployed on multiple platforms such as Docker, QL Panel, Synology, and locally. It supports check-ins on various platforms, multi-account check-ins, scheduled tasks, notifications via numerous channels, and automatic updates of the project. The script covers a wide range of services including social media, online forums, streaming platforms, and cloud services, allowing users to perform daily tasks such as site submissions, coin and point collections, member benefits, and more across these services. The project invites contributions from the community and thanks its contributors for their participation. DailyCheckIn is open-source, licensed under MIT, and aims to automate daily online check-in activities efficiently.",Maximize Your Online Presence: A Guide to Setting Up Daily Sign-ins Across Multiple Platforms,"Discover the ultimate guide to automating your online sign-ins with DailyCheckIn. Learn how to seamlessly integrate DailyCheckIn with Docker, QingLong Panel, Synology, or locally to keep your accounts active across various platforms. From Pypi package installations to supporting multiple accounts and scheduled tasks, our tutorial covers all you need to ensure your digital presence is always up-to-date and your benefits maximized. Plus, stay informed with multi-platform notifications. Boost your online efficiency today with DailyCheckIn.","Master your daily online sign-ins with DailyCheckIn. Integrate effortlessly with Docker, QingLong, Synology, and more to maximize your digital presence on various platforms. Start simplifying your online routine now.",AI Task Auutomation,"Python
+
+
+
+
+
+        6,067
+
+
+
+
+
+        1,173
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        22 stars today",,,6067,2021-05-26T01:35:16Z
+2024-07-12,https://github.com/InternLM/Tutorial,https://raw.githubusercontent.com/InternLM/Tutorial/main/README.md,"The Shanghai AI Lab introduces the ""ShuSheng·PuYu Big Model Practical Camp,"" aimed at enhancing developers' efficiency in learning and applying big models across various industries. This camp provides a platform for learning and practical development of big models, covering the whole process from tuning to deployment and evaluation within two weeks. Registration for the spring session is open, with perks such as top-notch instructors from leading research institutes, free computational resources, exclusive community access, and official certification for outstanding students. The course schedule includes seven sessions, covering the full spectrum of working with big models, from introduction to deployment and evaluation, featuring experts and influential contributors in the field. Homework assignments are provided, and computational resources are accessible through a designated platform, with support available for additional needs or questions.",Maximize Your AI Potential: Join the Shusheng·Puyu Model Combat Camp Today,"The Shanghai AI Lab introduces the Shusheng·Puyu Big Model Combat Camp, a platform for developers to efficiently learn and apply large model development. This two-week program covers end-to-end techniques from fine-tuning to deployment and evaluation of big models. Spring session enrollment is open, featuring expert instructors from leading research institutions and support for free A100 computational power for training. Join now to gain access to exclusive resources, mentorship, and the opportunity to earn a prestigious certificate.","Join the Shusheng·Puyu Big Model Combat Camp to explore the full lifecycle of large AI model applications with expert guidance, free computational resources, and exclusive community support. Enroll today for a hands-on AI learning experience!",AI Development ElementRef,"Python
+
+
+
+
+
+        971
+
+
+
+
+
+        273
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",https://raw.githubusercontent.com/InternLM/Tutorial/main/./asset/camp.png,,971,2023-12-13T08:12:30Z
