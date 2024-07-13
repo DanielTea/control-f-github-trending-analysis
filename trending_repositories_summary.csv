@@ -20535,3 +20535,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         15 stars today",https://raw.githubusercontent.com/InternLM/Tutorial/main/./asset/camp.png,,971,2023-12-13T08:12:30Z
+2024-07-13,https://github.com/opendatalab/MinerU,https://raw.githubusercontent.com/opendatalab/MinerU/master/README.md,"MinerU is an open-source data extraction tool offering high-quality services for PDF documents, web pages, and e-books. Its Magic-PDF feature allows converting PDFs into Markdown format, with support for multiple models, retaining original formatting, and compatible across Windows, Linux, and macOS. It supports CPU and GPU environments and requires Python >= 3.9. Magic-Doc focuses on converting web pages or e-books into markdown, supporting various document formats and recognizing 176 languages. The project acknowledges contributors and utilizes libraries like PyMuPDF, with future updates intending to transition to more permissively licensed libraries. Installation and usage guides are provided, along with the encouragement for community contributions.",Unlocking Data with MinerU: Comprehensive Guide to Easy PDF and Document Extraction,"Discover the ultimate solution for data extraction with MinerU, an open-source tool designed for swift and high-quality extraction from PDFs, web pages, and e-books. It supports versatile features like multi-format support, language detection, and works across different platforms. MinerParameterU's advanced algorithms ensure original formatting is retained, making document conversion seamless and efficient. Whether you're dealing with local files or cloud storage, MinerU simplifies the process, saving you time and resources. Dive into the world of easy data extraction and streamline your workflows with MinerU today.","Explore MinerU, a one-stop, high-quality, open-source data extraction tool for PDFs, web pages, and e-books. Features include multi-platform support, original formatting retention, and easy integration.",Document Conversion Tool,"Python
+
+
+
+
+
+        459
+
+
+
+
+
+        36
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        83 stars today",https://raw.githubusercontent.com/opendatalab/MinerU/master/docs/images/project_panorama_en.png; https://raw.githubusercontent.com/opendatalab/MinerU/master/docs/images/flowchart_en.png,,459,2024-02-29T08:52:34Z
+2024-07-13,https://github.com/donnemartin/data-science-ipython-notebooks,https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/README.md,"The repository ""data-science-ipython-notebooks"" contains a vast collection of IPython Notebooks demonstrating a wide array of data science concepts and applications. It covers deep learning frameworks like TensorFlow, Keras, Theano, and others, with practical tutorials ranging from basic operations to advanced neural network configurations. It also explores data handling and analysis using tools like scikit-learn for machine learning, pandas for data manipulation, matplotlib and Seaborn for data visualization, and NumPy for numerical computations. Additional contents include guides on statistical inference with SciPy, using Python for data analysis, participating in Kaggle competitions, and leveraging big data technologies like Spark and Hadoop. Moreover, it provides insights into working with Amazon Web Services (AWS) for cloud computing solutions. The repository also features tutorials on miscellaneous topics such as regular expressions and working with various command line tools. This comprehensive resource is designed to help individuals at different levels of their data science journey, from beginners to advanced users, with practical code examples and detailed explanations.",Harness the Power of Deep Learning with IPython Notebooks: A Comprehensive Guide,"Dive into the fascinating world of deep learning with our comprehensive guide on IPython notebooks for data science. Discover step-by-step tutorials covering TensorFlow, Keras, Scikit-learn, and more, designed for beginners and advanced learners alike. Enhance your data analysis skills with practical examples on classification, regression, and neural network algorithms using real-world datasets. Start your deep learning journey today and unlock the full potential of your data.","Explore our in-depth guide on using IPython notebooks for deep learning. Learn TensorFlow, Keras, and Scikit-learn through practical tutorials and examples. Perfect for data science enthusiasts eager to expand their knowledge and skills.",Data Science Resources,"Python
+
+
+
+
+
+        26,835
+
+
+
+
+
+        7,784
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        51 stars today",https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/README_1200x800.gif; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/coversmall_alt.png; http://i.imgur.com/ZhKXrKZ.png; http://www.deeplearning.net/software/theano/_static/theano_logo_allblue_200x46.png; http://i.imgur.com/L45Q8c2.jpg; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/scikitlearn.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/scipy.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/pandas.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/matplotlib.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/numpy.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/python.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/kaggle.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/spark.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/mrjob.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/aws.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/commands.png,,26835,2015-01-23T19:38:29Z
