@@ -20591,3 +20591,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         51 stars today",https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/README_1200x800.gif; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/coversmall_alt.png; http://i.imgur.com/ZhKXrKZ.png; http://www.deeplearning.net/software/theano/_static/theano_logo_allblue_200x46.png; http://i.imgur.com/L45Q8c2.jpg; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/scikitlearn.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/scipy.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/pandas.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/matplotlib.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/numpy.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/python.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/kaggle.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/spark.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/mrjob.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/aws.png; https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/commands.png,,26835,2015-01-23T19:38:29Z
+2024-07-14,https://github.com/zhiyiYo/PyQt-Fluent-Widgets,https://raw.githubusercontent.com/zhiyiYo/PyQt-Fluent-Widgets/master/README.md,"PyQt-Fluent-Widgets is a library of fluent design widgets compatible with PyQt5. It can be installed in a lite version missing the `AcrylicLabel` widget or as a full-featured version. This library supports different environments, including Win32, Linux, and macOS, and comes in both free and Pro versions, with the latter offering advanced components for purchase. It's licensed under GPLv3 for non-commercial projects, requiring a commercial license for profit ventures. Installation issues, such as `ImportError`, suggest a lower package version and can be resolved by reinstallation. For UI design integration, a designer plugin named Fluent Client is available for purchase. The project showcases several demos and is documented on its official website. It also links to related projects like QMaterialWidgets and Groove, aims to adhere to Windows design guidelines, and provides a C++ version for those requiring it.",Enhance Your GUI Designs with PyQt-Fluent-Widgets: A Comprehensive Guide,"Discover how PyQt-Fluent-Widgets can transform your GUI design projects with its fluent design library based on PyQt5. From sleek, modern widgets tailored for PyQt to advanced components in the Pro version for enhanced user experiences, PyQt-Fluent-Widgets offers solutions for developers and designers alike. Learn how to install, run examples, and integrate with design software for a seamless design workflow. Whether you're working on a non-commercial project or need a commercial license for broader use, PyQt-Fluent-Widgets caters to all. Enhance your applications with a visually appealing and intuitive interface using PyQt-Fluent-Widgets.","Explore the comprehensive guide on PyQt-Fluent-Widgets, a fluent design library for PyQt5. Learn about installation, examples, designer integration, and licensing for upgrading your GUI design projects.",Open Source Tool,"Python
+
+
+
+
+
+        5,013
+
+
+
+
+
+        467
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        6 stars today",https://raw.githubusercontent.com/zhiyiYo/PyQt-Fluent-Widgets/master/docs/source/_static/logo.png; https://raw.githubusercontent.com/zhiyiYo/PyQt-Fluent-Widgets/master/docs/source/_static/Interface.jpg; https://img.fastmirror.net/s/2024/02/18/65d22363d4a73.jpg,https://www.youtube.com/watch?v=7UCmcsOlhTk,5013,2021-07-29T16:14:27Z
+2024-07-14,https://github.com/mingrammer/diagrams,https://raw.githubusercontent.com/mingrammer/diagrams/master/README.md,"Diagrams is a tool that allows for creating cloud system architecture diagrams through Python code, aimed at prototyping and visualizing architectures without traditional design tools. It supports a wide range of providers including AWS, Azure, GCP, Kubernetes, and more, along with on-premise, SaaS, and programming frameworks. The project adheres to the MIT license, requires Python 3.7 or higher, and depends on Graphviz for rendering. Installation can be done via pip, pipenv, or poetry. Diagrams emphasize ease of tracking changes within version control systems. Despite its capabilities, Diagrams doesn't manage cloud resources or generate deployment code. The documentation provides guides, quick start instructions, and examples. Contributions are welcome following the project's guidelines. Noteworthy users include Apache Airflow and Cloudiscovery, among others. There's also a Go equivalent, go-diagrams, for those more comfortable with the Go language.",Mastering Cloud Architecture Diagrams with Diagrams Python Library,"Discover the power of the Diagrams library, a groundbreaking tool for drawing cloud system architecture directly in Python. Ideal for prototyping and visualizing cloud infrastructures, Diagrams supports a wide array of providers including AWS, Azure, and GCP, among others. Beyond visualization, Diagrams enables tracking architecture diagram changes with version control, streamlining the design process alongside software development. Dive into how Diagrams is revolutionizing the way developers and architects illustrate and conceptualize cloud architectures without traditional design tools.","Learn how to use Diagrams for Python to effortlessly create, visualize, and track your cloud architecture diagrams for AWS, Azure, GCP, and more.",Cloud Development Tool,"Python
+
+
+
+
+
+        35,609
+
+
+
+
+
+        2,313
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        83 stars today",https://raw.githubusercontent.com/mingrammer/diagrams/master/assets/img/diagrams.png; https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png; https://diagrams.mingrammer.com/img/event_processing_diagram.png; https://diagrams.mingrammer.com/img/stateful_architecture_diagram.png; https://diagrams.mingrammer.com/img/advanced_web_service_with_on-premise.png,,35609,2020-02-02T15:23:24Z
+2024-07-14,https://github.com/spotDL/spotify-downloader,https://raw.githubusercontent.com/spotDL/spotify-downloader/master/README.md,"SpotDL v4 is a command-line music downloader that sources songs from Spotify playlists through YouTube, capturing album art, lyrics, and metadata in the process. It is freely available under the MIT License and supports various Python versions, with downloads facilitated through PyPI. Users can install SpotDL using pip, download pre-built executables, utilize Docker, or build from source. Additionally, spotDL requires FFmpeg, advising users to install it within the spotDL directory or system-wide. The tool supports operations such as downloading, saving metadata, fetching direct URLs, synchronizing directories with playlists, and updating song metadata. SpotDL prioritizes high audio quality, achieving bitrates up to 128 kbps or 256 kbps for YouTube Music premium listeners. Community contributions are encouraged, with guidelines available for developers. Donations to support development are welcomed through PayPal and Ko-fi.",Download Spotify Playlists with spotDL v4: The Ultimate Guide,"spotDL v4 revolutionizes music downloading by converting Spotify playlists into downloadable tracks, complete with album art, lyrics, and metadata. Using YouTube as its music source, it offers a straightforward installation process and a variety of download options, including a command-line interface and web option. The tool provides an easy way for users to keep their music libraries in sync with Spotify playlists, ensuring they have the latest tracks with the best available audio quality. However, users should be mindful of the legal implications of downloading copyrighted material. Whether you're a casual listener or a music enthusiast, spotDL v4 is a compelling tool for expanding your music collection.","Explore how to use spotDL v4 to easily download songs from Spotify playlists with high-quality audio, including album art, lyrics, and metadata, directly from YouTube.",Music Downloader Program,"Python
+
+
+
+
+
+        15,626
+
+
+
+
+
+        1,487
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        3 stars today",,,15626,2016-07-06T18:19:20Z
