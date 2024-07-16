@@ -20675,3 +20675,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         3 stars today",,,15626,2016-07-06T18:19:20Z
+2024-07-16,https://github.com/mem0ai/mem0,https://raw.githubusercontent.com/mem0ai/mem0/main/README.md,"Mem0 provides a dynamic memory layer designed to personalize Large Language Models (LLMs) across different applications by retaining user, session, and AI agent memories for improved interaction. It now encompasses the Embedchain project within its repository, highlighting continued support and development. Installation is straightforward via pip, and its implementation allows for storing, retrieving, searching, updating, and tracking the history of memories with simple commands in Python. Key features include adaptive personalization through interaction-based learning, developer-friendly APIs for easy integration, consistency across platforms, and a managed service for hassle-free hosting. Future developments aim at expanding LLM provider integrations, framework support, and hosted platform options. Support and community engagement are encouraged through Slack, Discord, Twitter, and email for discussions and assistance.",Enhancing AI Personalization with Mem0: A Revolutionary Memory Layer,"Mem0 introduces an innovative memory layer for Large Language Models, offering a path to personalized AI experiences like never before. This game-changing technology not only integrates seamlessly into existing applications but also continuously improves and adapts through every interaction. With its developer-friendly API, Mem0 promises easy integration and a consistent experience across different platforms. Whether enhancing user engagement or creating more intuitive AI interactions, Mem0 sets a new standard in personalized technology.","Discover how Mem0 is revolutionizing personalized AI experiences with its self-improving memory layer for Large Language Models. Learn about its core features, easy integration, and how it adapts over time to provide seamless user experiences.",AI Development Platform,"Python
+
+
+
+
+
+        9,199
+
+
+
+
+
+        1,153
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        159 stars today",https://raw.githubusercontent.com/mem0ai/mem0/main/docs/images/mem0-bg.png,,9199,2023-06-20T08:58:36Z
+2024-07-16,https://github.com/aiwaves-cn/agents,https://raw.githubusercontent.com/aiwaves-cn/agents/master/README.md,"Agents 2.0 is a significant update to the Agents framework, which enhances the capabilities of language agents through symbolic learning, akin to neural network training. This framework allows for the training of agents via a process that mirrors neural network workings, employing backward propagation and gradient-based updates. It introduces a novel method of implementing loss function, back-propagation, and optimizer using language-based parameters. These developments enable the dynamic updating of agents' learning components and their interaction patterns. Agents 2.0 supports multi-agent systems optimization, expanding the practicality and applicability of the framework in various complex scenarios. This version was released on June 25, 2024, and is available for installation from GitHub or for local development setup. The project encourages contributions and is licensed under Apache 2.0, providing a comprehensive documentation for ease of use and further research explorations.",Revolutionizing AI: How Agents 2.0 Empowers Self-Evolving Language Agents,"Agents 2.0 marks a significant breakthrough in the field of AI, introducing self-evolving language agents through symbolic learning. This innovative framework draws inspiration from neural network training, implementing loss functions, back-propagation, and weight optimization tailored for agent training. By treating each node within an agent's pipeline as a distinct layer akin to those in neural networks, the system enables complex learning and optimization processes. The method incorporates prompt-based evaluations and language gradients, paving the way for highly efficient multi-agent system optimization. Agents 2.0 evidences the potential for more adaptive and intelligent AI systems, setting a new benchmark for agent-based machine learning.","Discover the pioneering Agents 2.0 framework, a leap forward in AI technology enabling the development of self-evolving language agents through advanced symbolic learning methods.",Collaborative AI Framework,"Python
+
+
+
+
+
+        4,884
+
+
+
+
+
+        381
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",,,4884,2023-07-18T02:01:03Z
+2024-07-16,https://github.com/hiroi-sora/Umi-OCR,https://raw.githubusercontent.com/hiroi-sora/Umi-OCR/main/README.md,"Umi-OCR is a free, open-source, offline OCR software that is efficient, convenient, and flexible. It can be used directly without installation and operates without the need for an internet connection. It features a high-efficiency OCR engine, supports multiple languages, and offers various functionalities including screenshot OCR, batch OCR, PDF recognition, QR code and barcode recognition and generation, formula recognition, and text post-processing for layout correction. The software is suitable for Windows 7 x64 and Linux x64 systems. This OCR tool supports command-line and HTTP interface calls for external use. Umi-OCR’s user interface supports multiple languages and is highly customizable, with options for changing themes, font sizes, and more. It does not limit the number of images for batch processing and provides stable versions for download through various platforms. The project actively welcomes contributions from developers and translators to help with localization and improvement.",Exploring Umi-OCR: A Comprehensive Guide to Text Recognition Software,"Umi-OCR stands out as a free, open-source OCR software designed for bulk offline use, supporting various languages with its efficient OCR engine. It's user-friendly, requiring no installation, and offers several features like screenshot OCR, batch processing, PDF recognition, and QR code functionalities. Umi-OCR is equipped for both command-line and HTTP interface calls, making it versatile for different users' needs. Its interface supports multiple languages, ensuring accessibility for a global user base.","Discover how Umi-OCR software revolutionizes text recognition with its efficient, user-friendly OCR engine, batch processing, and multilingual support. Learn more about this free, open-source tool.",Open Source Tool,"Python
+
+
+
+
+
+        23,255
+
+
+
+
+
+        2,373
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        37 stars today",https://tupian.li/images/2022/10/27/icon---256.png; https://tupian.li/images/2023/11/19/65599097ab5f4.png; https://tupian.li/images/2023/11/19/6559909fdeeba.png; https://tupian.li/images/2023/11/19/65599c3f9e600.png; https://tupian.li/images/2023/11/19/65599097aba8e.png; https://tupian.li/images/2023/11/19/6559909f3e378.png; https://tupian.li/images/2023/11/19/655990a2511e0.png; https://tupian.li/images/2023/11/19/6559911d28be7.png; https://tupian.li/images/2024/05/30/66587bf03ae15.png; https://tupian.li/images/2023/11/19/655991268d6b1.png; https://tupian.li/images/2023/11/19/6559911cda737.png; https://tupian.li/images/2023/11/19/655991252e780.png,,23255,2022-03-28T04:01:46Z
