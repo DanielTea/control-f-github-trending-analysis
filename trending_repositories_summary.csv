@@ -20759,3 +20759,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         37 stars today",https://tupian.li/images/2022/10/27/icon---256.png; https://tupian.li/images/2023/11/19/65599097ab5f4.png; https://tupian.li/images/2023/11/19/6559909fdeeba.png; https://tupian.li/images/2023/11/19/65599c3f9e600.png; https://tupian.li/images/2023/11/19/65599097aba8e.png; https://tupian.li/images/2023/11/19/6559909f3e378.png; https://tupian.li/images/2023/11/19/655990a2511e0.png; https://tupian.li/images/2023/11/19/6559911d28be7.png; https://tupian.li/images/2024/05/30/66587bf03ae15.png; https://tupian.li/images/2023/11/19/655991268d6b1.png; https://tupian.li/images/2023/11/19/6559911cda737.png; https://tupian.li/images/2023/11/19/655991252e780.png,,23255,2022-03-28T04:01:46Z
+2024-07-17,https://github.com/Gozargah/Marzban,https://raw.githubusercontent.com/Gozargah/Marzban/master/README.md,"Marzban, a GUI proxy management tool, is designed for ease of use in managing proxy accounts, leveraging Xray-core technology. It simplifies creating and managing proxies with a web UI, offering features like multi-protocol and multi-user support, traffic and expiry limitations, and system monitoring. Marzban supports various protocols such as Vmess, VLESS, Trojan, and Shadowsocks, and allows for automated share link and QR code generation. It offers a REST API backend, multi-node support for scalability, TLS and reality support, integrated Telegram bot and CLI, multi-language, and multi-admin capabilities. Installation is streamlined through a bash script, with detailed guides for configuration, manual installation, and using Marzban with Nginx. Marzban nodes support distributed infrastructure for enhanced flexibility and scalability. Additionally, Marzban encourages contributions and supports donations via multiple crypto networks, underlining its community-driven development ethos.",Marzban: Revolutionize Your Proxy Management with Unified GUI Solution,"Discover Marzban, a cutting-edge proxy management tool designed for internet freedom and unrestricted access. Powered by Xray-core and featuring a user-friendly web UI, Marzban offers unparalleled efficiency in managing proxy accounts. Experience seamless proxy creation, real-time monitoring, and user management without the complexity. Ideal for users and administrators seeking a reliable, censorship-resistant solution, Marzban sets new standards in proxy management. Join our global community and embrace the next level of internet connectivity.","Explore Marzban, the ultimate GUI-based proxy management tool. Powered by Xray-core, it simplifies proxy setup, monitoring, and user management for unrivaled accessibility and reliability. Perfect for overcoming censorship barriers.",Cybersecurity Tool,"Python
+
+
+
+
+
+        2,779
+
+
+
+
+
+        404
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        8 stars today",https://github.com/Gozargah/Marzban-docs/raw/master/screenshots/logo-light.png; https://github.com/Gozargah/Marzban-docs/raw/master/screenshots/preview.png,,2779,2022-11-24T23:37:43Z
+2024-07-17,https://github.com/FlareSolverr/FlareSolverr,https://raw.githubusercontent.com/FlareSolverr/FlareSolverr/master/README.md,"FlareSolverr is a proxy server designed to bypass Cloudflare and DDoS-GUARD protection by using a web browser emulation. It functions as a server that, upon receiving a request, employs Selenium and undetected-chromedriver to open a Chrome browser, navigate to the requested URL, and wait until Cloudflare's challenges are resolved. The resulting HTML and cookies are returned to the user, enabling access through Cloudflare with other HTTP clients. FlareSolverr can be installed via Docker, which is recommended for inclusion of the necessary browser, or through precompiled binaries for x64 or from source for various systems, with detailed instructions provided for each method. Usage involves sending a POST request to the server with the desired URL, and it supports commands like creating sessions to maintain cookies and bypass challenges more efficiently. It also outlines how to install, configure, and use FlareSolverr across different platforms and environments, mentioning necessary dependencies, warning about resource consumption by web browsers, and suggesting configurations for Docker, systemd, and development environments, highlighting its capabilities, installation methods, and operational guidelines effectively.",Unlocking Websites with FlareSolverr: Your Guide to Bypassing Cloudflare,"Discover how FlareSolverr offers a powerful solution for bypassing Cloudflare and DDoS-GUARD protection by utilizing a proxy server method. Learn how this tool uses Selenium and undetected-chromedriver to automate a web browser, solve Cloudflare challenges, and send back crucial data and cookies to the user for easy web access. Perfect for users needing to navigate Cloudflare-protected sites efficiently without the hefty resource consumption of traditional methods.","Learn how FlareSolverr can help you effortlessly bypass Cloudflare and DDoS-GUARD protection, ensuring uninterrupted access to protected websites with minimal resource usage.",Web Scraping Tool,"Python
+
+
+
+
+
+        6,418
+
+
+
+
+
+        568
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        15 stars today",,,6418,2020-06-09T05:23:31Z
