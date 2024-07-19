@@ -20815,3 +20815,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         15 stars today",,,6418,2020-06-09T05:23:31Z
+2024-07-19,https://github.com/openvinotoolkit/anomalib,https://raw.githubusercontent.com/openvinotoolkit/anomalib/main/README.md,"Anomalib is a library designed for developing, deploying, and benchmarking deep learning algorithms for anomaly detection. It focuses on visual anomaly detection in images or videos and includes a large public collection of ready-to-use algorithms and benchmark datasets. The library provides a modular API and CLI for task such as training, inference, benchmarking, and hyperparameter optimization, with support for reducing boilerplate code via Lightning-based model implementations. Models can be exported to OpenVINO for accelerated inference on Intel hardware. Installation options include PyPI and source, with comprehensive support for both API and CLI-based training and inference. Anomalib also enables hyperparameter optimization using platforms like wandb and comet.ml, and integrates with experiment tracking tools for comprehensive experiment management. Benchmarking tools are included to evaluate model performance on datasets. The library encourages contributions and is constantly updated with new features, algorithms, and extensions.",Exploring Anomalib: The Deep Learning Lane for Anomaly Detection,"Anomalib stands out as a pioneering deep learning library dedicated to the advancement and deployment of anomaly detection algorithms. Offering a vast collection of state-of-the-art algorithms and tools, it's designed for both benchmarking and creating custom models, particularly in visual anomaly detection. Users benefit from a modular API, extensive dataset compatibility, and streamlined model deployment options, including OpenVINO integration for enhanced performance on Intel hardware. Continuous updates enrich its capabilities, making Anomalib a go-to resource for cutting-edge anomaly detection.","Discover Anomalib, a comprehensive deep learning library for anomaly detection, featuring a vast array of algorithms, easy model deployment with OpenVINO, and continuous updates for the best performance.",Deep Learning Tool,"Python
+
+
+
+
+
+        3,455
+
+
+
+
+
+        624
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/openvinotoolkit/anomalib/main/docs/source/_static/images/logos/anomalib-wide-blue.png; https://raw.githubusercontent.com/openvinotoolkit/anomalib/main/docs/source/_static/images/readme.png,,3455,2021-11-02T09:11:38Z
+2024-07-19,https://github.com/wenet-e2e/wenet,https://raw.githubusercontent.com/wenet-e2e/wenet/main/README.md,"WeNet is an open-source end-to-end speech recognition solution that emphasizes a production-first mentality, ensuring the platform is ready for real-world applications right from the start. It prides itself on state-of-the-art (SOTA) performance across various public speech datasets, offering a lightweight, user-friendly experience. Installation involves a straightforward Python package setup or for more intensive training and deployment, a detailed environment setup including Conda and CUDA. WeNet supports both command-line and Python programming usage for speech transcription. The platform encourages community engagement for discussion and communication, offering channels like GitHub and WeChat for users, particularly facilitating Chinese speakers. It borrows heavily from projects like ESPnet and Kaldi, contributing back to the ecosystem with its advancements in speech recognition technology. WeNet is recognized and cited in relevant academic publications for its contributions to the field.",Unlocking Speech Recognition with WeNet: A Comprehensive Guide,"WeNet provides a superior, production-ready solution for speech recognition, offering full stack production capabilities designed with accuracy and efficiency in mind. It outperforms on numerous public speech datasets with its state-of-the-art (SOTA) results, maintaining a lightweight framework for easy installation and use. Designed to be developer-friendly, WeNet supports comprehensive documentation, making speech recognition accessible for various applications. Dive into the next generation of speech recognition with WeNet, whether for command-line interactions or integrating into Python projects.","Explore WeNet, the all-encompassing speech recognition toolkit designed for production with state-of-the-art results, easy installation, and comprehensive documentation for developers.",Speech Recognition,"Python
+
+
+
+
+
+        3,945
+
+
+
+
+
+        1,044
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://github.com/robin1001/qr/blob/master/wenet.jpeg; https://github.com/robin1001/qr/blob/master/binbin.jpeg,,3945,2020-11-17T03:57:23Z
+2024-07-19,https://github.com/facebookresearch/detr,https://raw.githubusercontent.com/facebookresearch/detr/main/README.md,"The text introduces DETR (DEtection TRansformer), a novel approach to object detection using transformers that simplifies the traditional complex object detection pipeline. DETR matches the performance of Faster R-CNN with a ResNet-50 backbone, achieving 42 AP on COCO with half the computation power and the same number of parameters. It treats object detection as a set prediction problem, using a transformer encoder-decoder architecture to output predictions in parallel, making it efficient. The code is PyTorch-based, easy to implement, and comes with pretrained models. DETR demonstrates significant efficiency and simplicity in implementation, offering a standalone Colab Notebook for easy inference. The paper and additional resources are provided for a deeper understanding, along with pretrained models for both object detection and panoptic segmentation, illustrating DETR's adaptability and potential for extension to tasks beyond object detection. The license is Apache 2.0, encouraging community contributions.",Revolutionizing Object Detection: DETR's Transformative Approach,"DETR, or Detection Transformer, marks a significant shift in object detection techniques by employing transformers. By simplifying the complex object detection pipeline, DETR matches the performance of Faster R-CNN using half the computation power on COCO datasets. Its architecture allows for parallel processing, making DETR not only powerful but also efficient and quick in inference. This model truly demonstrates the potential of transformers in computer vision, streamlining object detection without compromising on accuracy.","Discover how DETR leverages transformers for efficient object detection, offering a simplified yet powerful alternative to traditional methods. Learn about its architecture, performance, and implementation in our latest post.",Computer Vision Platform,"Python
+
+
+
+
+
+        13,152
+
+
+
+
+
+        2,381
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://raw.githubusercontent.com/facebookresearch/detr/main/.github/DETR.png,,13152,2020-05-26T23:54:52Z
