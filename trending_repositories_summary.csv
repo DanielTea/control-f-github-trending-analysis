@@ -20899,3 +20899,28 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         10 stars today",https://raw.githubusercontent.com/facebookresearch/detr/main/.github/DETR.png,,13152,2020-05-26T23:54:52Z
+2024-07-20,https://github.com/karpathy/ng-video-lecture,https://raw.githubusercontent.com/karpathy/ng-video-lecture/master/README.md,"The [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html) video lecture series includes a lecture on nanoGPT, the code for which is accessible on GitHub for modification and examination. The creator, however, mentions a limitation in the video concerning model initialization, which affects the model's performance by slowing its convergence due to a suboptimal starting point in the weight space. This critical detail, along with a guide for proper initialization, is available in the model's code comments, particularly the `_init_weights` function. The code on GitHub slightly differs in naming and module storage, hindering direct copying. To address these issues, the creator plans to release a supplementary lecture and update the repository accordingly. The content is shared under the MIT license.",Diving into nanoGPT: Insights from Neural Networks Zero To Hero Series,"Explore the inception and development of nanoGPT as introduced in the 'Neural Networks: Zero To Hero' video lecture series by Karpathy. This blog spotlights the critical aspects of model initialization for enhancing performance, despite initial challenges in convergence due to suboptimal starting points. A promise of future updates and a supplementary lecture aims to bridge the gaps, making it a treasure trove for enthusiasts eager to experiment and learn.",Uncover the fundamentals and complexities of nanoGPT as featured in Karpathy's 'Neural Networks: Zero To Hero' series. This post delves into model initialization and upcoming improvements.,Deep Learning Platform,"Python
+
+
+
+
+
+        3,280
+
+
+
+
+
+        859
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        5 stars today",,,3280,2023-01-17T05:27:03Z
