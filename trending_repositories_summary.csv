@@ -20924,3 +20924,31 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         5 stars today",,,3280,2023-01-17T05:27:03Z
+2024-07-21,https://github.com/crewAIInc/crewAI-examples,https://raw.githubusercontent.com/crewAIInc/crewAI-examples/main/README.md,"The text introduces crewAI, a framework designed by [@joaomdmoura](https://x.com/joaomdmoura) for facilitating collaboration among role-playing AI agents. It lists various examples of how crewAI can be utilized, categorized into current examples and older ones needing updates. Current applications include marketing strategy, surprise trip planning, matching profiles to positions, and recruitment. Old examples cover areas like job posting creation, trip planning, Instagram post creation, markdown validation, game generation, and utilizing the Azure OpenAI API. Additionally, there are advanced examples like stock analysis, landing page generation, and an integration with LangGraph, as well as a starter template for creating new examples.",Maximize Collaboration with crewAI: A Guide to Innovative AI Role-Playing,"Discover the revolutionary crewAI framework designed to enhance collaboration among AI role-playing agents. Explore a curated collection of examples showcasing how to leverage crewAI for automating processes across various applications, from marketing strategies to surprise trips and recruitment solutions. This guide, curated by @joaomdmoura, is your starting point for harnessing the power of AI collaboration in your projects.","Unlock the potential of AI collaboration with crewAI. Explore examples from marketing to recruitment, and learn how to harness the power of role-playing AI agents for innovative solutions.",Collaborative AI Framework,"Python
+
+
+
+
+
+        2,320
+
+
+
+
+
+        836
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",,,2320,2023-12-19T11:46:48Z
