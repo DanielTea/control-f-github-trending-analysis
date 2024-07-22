@@ -20952,3 +20952,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         7 stars today",,,2320,2023-12-19T11:46:48Z
+2024-07-22,https://github.com/microsoft/Olive,https://raw.githubusercontent.com/microsoft/Olive/main/README.md,"Olive is a tool designed to streamline model optimization for machine learning across various hardware, including cloud and edge devices. Its primary aim is to lower the effort required in optimizing models by offering a unified, hardware-aware solution that combines multiple optimization techniques. Olive caters to reducing the necessity for developers to navigate through various hardware-specific toolchains, thus simplifying the deployment process of trained models. It does so by automatically selecting the most efficient optimization techniques based on the model and targeted hardware, considering factors like accuracy and latency. Olive is both easy to install, supporting environments like virtual or conda environments, and extensible, allowing for the easy incorporation of new optimization innovations. Its recent updates and collaborations, notably with Intel and AMD, highlight its growing acceptance and utility in enhancing AI model performance on different platforms. Olive is open to contributions and is licensed under the MIT License, indicating its open-source nature and the potential for widespread adoption and development within the tech community.",Exploring Olive AI: Revolutionize Your AI Model Optimization for Cloud and Edge,"Discover Olive, a breakthrough tool by Microsoft for optimizing AI models tailored to cloud and edge computing. Olive makes it simpler by selecting optimal techniques for model compression, optimization, and compilation, focusing on industry-leading methods. With the ability to handle hardware-specific constraints like accuracy and latency, Olive redefines the efficiency in deploying AI across varied platforms. Its unified framework invites collaboration, allowing easy integration of innovative optimizations. Experience a hassle-free optimization process with Olive, ready to elevate your cloud and edge AI performance.","Learn how Olive by Microsoft simplifies AI model optimization for cloud and edge computing, merging top techniques for superior performance, and inviting industry collaboration.",AI Development Platform,"Python
+
+
+
+
+
+        1,441
+
+
+
+
+
+        152
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        37 stars today",,,1441,2019-08-12T19:00:23Z
+2024-07-22,https://github.com/crewAIInc/crewAI,https://raw.githubusercontent.com/crewAIInc/crewAI/main/README.md,"CrewAI is a state-of-the-art framework designed to orchestrate the collaboration of AI agents in performing complex tasks. By enabling AI agents to assume specific roles and collaborate as a team, CrewAI facilitates seamless, intelligent multi-agent interactions, applicable to various projects like smart assistants, customer service systems, and research teams. The framework offers autonomous task delegation among agents, flexible task management, and compatibility with various large language models (LLMs), including open-source options. It supports both sequential and hierarchical task processes and allows for the saving and parsing of task outputs. CrewAI stands out for its production-oriented design, offering both the flexibility of conversational agents and a structured process approach without the rigidity found in similar technologies. It also provides extensive documentation, examples, and resources for developers looking to integrate AI-driven teams into their applications. Open-source and welcoming contributions, CrewAI utilizes telemetry to enhance user experience while ensuring privacy and data security, licensed under the MIT License.",Revolutionize AI Collaboration with CrewAI: A Guide to Orchestrating Autonomous Agents,"Discover CrewAI, the groundbreaking framework designed to orchestrate role-playing, autonomous AI agents for complex task accomplishment. By enabling AI agents to assume distinct roles and collaborate efficiently, CrewAI facilitates the creation of sophisticated, multi-agent systems. Whether for smart assistant platforms or multi-agent research, CrewAI is your foundation for advanced AI collaborations. Explore how to get started, from installation to creating your first crew, and leverage the power of collaborative intelligence today.","Explore CrewAI, the innovative framework for orchestrating autonomous, role-playing AI agents. Learn how to build advanced collaborative systems for smart platforms and research with CrewAI.",Collaborative AI Framework,"Python
+
+
+
+
+
+        17,531
+
+
+
+
+
+        2,383
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        48 stars today",https://raw.githubusercontent.com/crewAIInc/crewAI/main/./docs/crewai_logo.png; https://img.youtube.com/vi/tnejrr-0a94/maxresdefault.jpg; https://img.youtube.com/vi/u98wEMz-9to/maxresdefault.jpg; https://img.youtube.com/vi/xis7rWp-hjs/maxresdefault.jpg; https://img.youtube.com/vi/e0Uj4yWdaAg/maxresdefault.jpg,https://www.youtube.com/watch?v=tnejrr-0a94; https://www.youtube.com/watch?v=u98wEMz-9to; https://www.youtube.com/watch?v=xis7rWp-hjs; https://www.youtube.com/watch?v=e0Uj4yWdaAg,17531,2023-10-27T03:26:59Z
