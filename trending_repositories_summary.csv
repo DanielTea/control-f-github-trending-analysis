@@ -21008,3 +21008,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         48 stars today",https://raw.githubusercontent.com/crewAIInc/crewAI/main/./docs/crewai_logo.png; https://img.youtube.com/vi/tnejrr-0a94/maxresdefault.jpg; https://img.youtube.com/vi/u98wEMz-9to/maxresdefault.jpg; https://img.youtube.com/vi/xis7rWp-hjs/maxresdefault.jpg; https://img.youtube.com/vi/e0Uj4yWdaAg/maxresdefault.jpg,https://www.youtube.com/watch?v=tnejrr-0a94; https://www.youtube.com/watch?v=u98wEMz-9to; https://www.youtube.com/watch?v=xis7rWp-hjs; https://www.youtube.com/watch?v=e0Uj4yWdaAg,17531,2023-10-27T03:26:59Z
+2024-07-23,https://github.com/sinaatalay/rendercv,https://raw.githubusercontent.com/sinaatalay/rendercv/main/README.md,"RenderCV is a LaTeX CV/Resume Framework that offers a system to create high-quality CVs from YAML input, incorporating Markdown syntax for ease of use. It aims to version control CV content and design separately, ensuring updates trigger automatic re-rendering of documents in PDF, LaTeX, Markdown, HTML, and PNG formats. RenderCV's design focuses on error reduction and uniform presentation, leveraging built-in and customizable LaTeX and Markdown templates. The YAML input file includes sections for personal information, education, and experience, with various entry types supported. RenderCV also features interactive JSON Schema for input, Grammarly integration for spelling and grammar checks, and validation tools. Installation requires Python 3.10 or newer, followed by pip installation and initial setup commands. RenderCV emphasizes content and appearance separation, simplifies updates, and enhances maintainability over traditional LaTeX CV making. It provides detailed documentation and a developer guide for contributors.",,,,Document Conversion Tool,"Python
+
+
+
+
+
+        1,248
+
+
+
+
+
+        77
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        260 stars today",https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/classic.png; https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/sb2nov.png; https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/moderncv.png; https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/engineeringresumes.png; https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/grammarly.gif; https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/cli.gif; https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/schema.gif,,1248,2023-06-11T13:58:25Z
+2024-07-23,https://github.com/neuml/txtai,https://raw.githubusercontent.com/neuml/txtai/master/README.md,"txtai is an all-encompassing embeddings database designed for semantic search, LLM orchestration, and various language model workflows. It merges vector indexes (sparse and dense), graph networks, and relational databases, supporting advanced functionalities like vector search with SQL, topic modeling, and retrieval augmented generation (RAG). txtai offers features like vector search, creation of embeddings for different formats (text, documents, audio, images, video), and pipelines powered by language models for tasks such as question answering, labeling, and summarization. It enables the aggregation of business logic into workflows, ranging from simple microservices to complex multi-model systems, with support for Python or YAML, and API bindings for JavaScript, Java, Rust, and Go. Designed for ease of use, txtai can be set up quickly with pip or Docker, operates locally without sending data to remote services, and is compatible with container orchestration for scalability. It supports Python 3.8+, integrates with tools like Hugging Face Transformers, and is open-source under an Apache 2.0 license. Furthermore, txtai is part of a broader ecosystem with applications like txtchat, paperai, codequestion, and tldrstory, showcasing its versatility in various domains.",Unlock the Power of txtai: Your Ultimate Guide to Embeddings Database and Semantic Search,"Discover the revolutionary features of txtai, an advanced embeddings database designed for semantic search, language model orchestration, and more. Learn how txtai integrates vector search with SQL, enables multimodal indexing, and powers workflows with the latest language models. Explore the simplicity of building with txtai, from Python and YAML to multi-model workflows, and how it scales from local deployment to container orchestration. Dive into our comprehensive guide and examples to start transforming your applications with txtai today.","Explore txtai, an all-in-one embeddings database that redefines semantic search, LLM orchestration, and language model workflows. Discover its powerful features, ease of use, and flexible deployment options in our latest blog post.",AI Development Platform,"Python
+
+
+
+
+
+        8,017
+
+
+
+
+
+        545
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        98 stars today",https://raw.githubusercontent.com/neuml/txtai/master/logo.png; https://raw.githubusercontent.com/neuml/txtai/master/demo.gif; https://raw.githubusercontent.com/neuml/txtai/master/docs/images/llm.png; https://raw.githubusercontent.com/neuml/txtai/master/docs/images/models.png; https://raw.githubusercontent.com/neuml/txtai/master/apps.jpg,https://www.youtube.com/watch?v=SIezMnVdmMs; https://www.youtube.com/watch?v=UBMPDCn1gEU,8017,2020-08-09T19:14:59Z
