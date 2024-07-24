@@ -21064,3 +21064,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         98 stars today",https://raw.githubusercontent.com/neuml/txtai/master/logo.png; https://raw.githubusercontent.com/neuml/txtai/master/demo.gif; https://raw.githubusercontent.com/neuml/txtai/master/docs/images/llm.png; https://raw.githubusercontent.com/neuml/txtai/master/docs/images/models.png; https://raw.githubusercontent.com/neuml/txtai/master/apps.jpg,https://www.youtube.com/watch?v=SIezMnVdmMs; https://www.youtube.com/watch?v=UBMPDCn1gEU,8017,2020-08-09T19:14:59Z
+2024-07-24,https://github.com/spipm/Depix,https://raw.githubusercontent.com/spipm/Depix/main/README.md,"Depix is a proof of concept designed to recover plaintext from images that have been pixelized, specifically those processed with a linear box filter. The tool is effective for decoding pixelized text by comparing pixelized blocks in a source image with a gallery of possible matches created from a De Bruijn sequence. Key updates include refactoring and added tools for enhanced functionality. It offers a straightforward installation and usage process, requiring users to run scripts with specified arguments to depixelize images. Depix assumes pixel-level text positioning and might not work with sub-pixel accuracies or if additional image compression has been applied. Its effectiveness can vary based on the font specifications and screen settings of the original screenshot. Future developments aim to introduce more filter functions and possibly integrate Hidden Markov Models (HMMs) for improved precision across different fonts. The research community is encouraged to contribute to the depixelization field by exploring new methods and tools.",Unlocking Hidden Text: How Depix Recovers Pixelized Screenshots,"Depix offers a groundbreaking proof of concept for decrypting texts from pixelized screenshots, leveraging a linear box filter technique. This innovative approach has been detailed in an article, exploring the intricacies of pixelization and related research. With its latest update on November 27, 2023, Depix has enhanced usability and introduced new features, including a tool to demonstrate the limitations of the box detector. It's designed for ease, requiring just a simple script run to depixelize images, making recovered texts more accessible than ever. Interested in reversing pixelization? Depix could be your go-to solution.","Discover how Depix effortlessly recovers text from pixelized images using a linear box filter, making it easier to reverse pixelization and reveal obscured information in screenshots.",Cybersecurity Tool,"Python
+
+
+
+
+
+        25,472
+
+
+
+
+
+        3,131
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        10 stars today",https://raw.githubusercontent.com/spipm/Depix/main/docs/img/Recovering_prototype_latest.png; https://raw.githubusercontent.com/spipm/Depix/main/docs/img/example_output_multiword.png; https://raw.githubusercontent.com/spipm/Depix/main/docs/img/output_depixelizedExample_linear.png,,25472,2020-12-06T12:39:08Z
+2024-07-24,https://github.com/QuivrHQ/quivr,https://raw.githubusercontent.com/QuivrHQ/quivr/main/README.md,"Quivr is a digital tool designed to act as your second brain, leveraging Generative AI to enhance personal productivity, similar to Obsidian but with added AI capabilities. It prominently features fast and secure data access, compatibility with multiple operating systems (Ubuntu 22 or newer) and file types, including text, PDFs, and multimedia files. Quivr is an open-source project that supports both public and private sharing of data, offers a marketplace for users to exchange productivity tools, and works offline for constant data access. Installation involves cloning the repository, setting up environmental variables (notably the OPENAI_API_KEY), and running through Docker and Supabase. Quivr encourages community contributions, highlighting open issues and pull requests for potential collaborators. Supported by partners like Y Combinator and Theodo, it remains free under the Apache 2.0 License.",Optimize Your Productivity with Quivr: The AI-Powered Second Brain,"Quivr leverages GenerativeAI to act as your personal assistant, enhancing your productivity by storing and managing your data efficiently. With a focus on speed, privacy, and compatibility across various files and operating systems, Quivr is the pinnacle of personal data management. It fosters a community through its marketplace feature, allowing public and private sharing of 'brains'. Additionally, its open-source nature and offline functionality ensure that you have total control and access to your data, anytime and anywhere. Embrace the future of productivity with Quivr - your second brain, powered by AI.","Discover Quivr, the AI-enhanced personal assistant that optimizes your data management and boosts productivity. Secure, OS and file-compatible, Quivr transforms the way you organize your digital life.",AI Development Platform,"Python
+
+
+
+
+
+        34,330
+
+
+
+
+
+        3,364
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        25 stars today",https://raw.githubusercontent.com/QuivrHQ/quivr/main/./logo.png; https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/1200px-Y_Combinator_logo.svg.png,https://www.youtube.com/watch?v=cXBa6dZJN48,34330,2023-05-12T23:53:30Z
