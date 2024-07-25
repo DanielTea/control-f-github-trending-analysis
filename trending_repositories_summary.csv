@@ -21120,3 +21120,86 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         25 stars today",https://raw.githubusercontent.com/QuivrHQ/quivr/main/./logo.png; https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/1200px-Y_Combinator_logo.svg.png,https://www.youtube.com/watch?v=cXBa6dZJN48,34330,2023-05-12T23:53:30Z
+2024-07-25,https://github.com/ollama/ollama-python,https://raw.githubusercontent.com/ollama/ollama-python/main/README.md,"The Ollama Python library facilitates the integration of Python 3.8+ projects with the Ollama platform. It simplifies sending requests and managing responses from the Ollama REST API. Users can install it using pip and implement functionalities such as chatting, generating text, listing models, showing model details, creating, copying, deleting, pulling, and pushing models, along with managing embeddings. It supports both synchronous and asynchronous operations, with optional streaming responses for real-time data handling. Additionally, the library allows for the creation of custom clients to specify host addresses and timeouts. Errors during requests or streaming are appropriately handled, providing mechanisms for error inspection and management, ensuring robust interaction with Ollama services.",Integrating Ollama Library with Python 3.8+ Projects: A Complete Guide,"Discover the power of the Ollama Python library for seamless integration into your Python 3.8+ projects. Learn how to install, set up, and utilize this library for both synchronous and asynchronous applications, including real-time streaming responses and handling various API methods like chat, generate, list, and more. Perfect for developers looking to leverage the Ollama REST API for advanced Python applications.","Explore how to efficiently integrate the Ollama Python library into your Python 3.8+ projects with our step-by-step guide on installation, usage, API methods, and more for developers.",Python Libraries Collection,"Python
+
+
+
+
+
+        2,980
+
+
+
+
+
+        249
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",,,2980,2023-12-09T09:27:18Z
+2024-07-25,https://github.com/google-research/neuralgcm,https://raw.githubusercontent.com/google-research/neuralgcm/main/README.md,"NeuralGCM is a Python library designed to merge machine learning (ML) with physical principles for the development of atmospheric models that can be used for both weather and climate prediction. It facilitates the creation of hybrid models that integrate the strengths of ML algorithms with the deterministic science of atmospheric physics. This library is significant for researchers and practitioners in the field of meteorology and climate science, offering a new tool for simulating atmospheric processes. The project's code is available under the Apache License 2.0, while the trained model weights are shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license, encouraging collaboration and further development within the community.",Exploring NeuralGCM: A New Frontier in Weather and Climate Modeling,"Discover the capabilities of NeuralGCM, a groundbreaking Python library enhancing weather and climate simulations through a unique integration of machine learning and physics. This state-of-the-art tool offers scientists and researchers a new avenue in atmospheric modeling, combining traditional methods with the latest in AI technology. Access comprehensive documentation and explore the scientific paper to understand its impact and applications in the field.","Dive into NeuralGCM, a Python library merging AI with physics for advanced climate and weather simulation. Access its documentation, read the latest research, and understand its licensing for a new era in atmospheric modeling.",Deep Learning Tool,"Python
+
+
+
+
+
+        319
+
+
+
+
+
+        33
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        49 stars today",https://raw.githubusercontent.com/google-research/neuralgcm/main/./docs/_static/neuralgcm-logo-light.png,,319,2024-02-05T16:18:12Z
+2024-07-25,https://github.com/adap/flower,https://raw.githubusercontent.com/adap/flower/main/README.md,"Flower (flwr) is a customizable, extendable, and framework-agnostic federated learning framework, welcoming to diverse use cases and machine learning frameworks like PyTorch, TensorFlow, and others. Originating from a research project at the University of Oxford, Flower is designed with AI research flexibility in mind, enabling the creation of state-of-the-art federated learning systems. The framework emphasizes ease of use, maintainability, and community engagement, encouraging contributions to its codebase. Flower aims to make federated learning accessible to a wide audience through comprehensive tutorials covering the basics of federated learning, strategies, and custom client development. Further, Flower Baselines provide a repository of federated learning research for community contributions, and diverse usage examples demonstrate Flower's application across different scenarios and frameworks. The community-driven project invites participation and contributions to foster the development of federated learning technology.",Exploring Flower: The Federated Learning Framework for All AI Enthusiasts,"Flower is revolutionizing how we approach federated learning, offering a customizable, extendable, and framework-agnostic system fit for any use case. Originating from a University of Oxford research project, Flower supports a vast array of machine learning frameworks. Its user-friendly design encourages community engagement, making cutting-edge AI research accessible to everyone. Dive into the world of federated learning with Flower and join its growing community today.","Discover Flower, the federated learning framework designed for customization and extension across any machine learning platform. Perfect for AI researchers and practitioners. Join the Flower community.",Collaborative AI Framework,"Python
+
+
+
+
+
+        4,550
+
+
+
+
+
+        797
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",,,4550,2020-02-17T11:51:29Z
