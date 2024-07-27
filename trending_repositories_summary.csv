@@ -21203,3 +21203,113 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         14 stars today",,,4550,2020-02-17T11:51:29Z
+2024-07-27,https://github.com/Chenyme/Chenyme-AAVT,https://raw.githubusercontent.com/Chenyme/Chenyme-AAVT/main/README.md,"The Chenyme-AAVT V0.8.4 project focuses on providing a comprehensive solution for automatic video subtitle recognition and translation, alongside various video assistance tools. It supports OpenAI API and Faster-Whisper for recognition, and offers GPU acceleration, VAD support, and FFmpeg for processing efficiency. The project can recognize and translate multiple languages and file formats, featuring one-click generation, subtitle tweaking, and video previews. It includes AI summarization, Q&A capabilities, and can even generate blog posts from videos. Installation options are provided for Windows (with detailed setup instructions), Docker, and Colab. The project emphasizes its open-source nature with encouragement for community contributions and strictly advises against charging for its source code. Recent updates indicate specific fixes and optimizations, especially concerning Pytorch version compatibility issues. The project appreciates community support through group discussions on Telegram and encourages feedback and contributions.",Unlocking Multilingual Accessibility with AI Auto Video Translation Technology,"Discover the future of video accessibility with the Chenyme-AAVT project, offering a comprehensive solution for automatic video subtitle recognition and translation. Utilizing advanced models like Faster-whisper and Large for improved sentence breaking and recognition, the project ensures high-quality translations across various languages, enhancing video assistive tools. Stay updated on this open-source initiative, empowering global communication without language barriers.","Explore Chenyme-AAVT for effortless video subtitle translation and assistance, leveraging AI for multilingual support and global accessibility. Dive into the future of video content with cutting-edge technology.",Video Translation Tool,"Python
+
+
+
+
+
+        873
+
+
+
+
+
+        88
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+        29 stars today",,https://raw.githubusercontent.com/Chenyme/Chenyme-AAVT/main/public/test_vedio.mp4,873,2023-12-18T04:06:03Z
+2024-07-27,https://github.com/stamparm/maltrail,https://raw.githubusercontent.com/stamparm/maltrail/master/README.md,"Maltrail is a traffic detection system designed to identify malicious activities, utilizing both static trails from various sources and heuristic mechanisms to detect unknown threats. It supports Python versions 2.6 to 3.x and is licensed under the MIT license. Maltrail operates on a sensor-server-client architecture, where the sensor monitors traffic for suspicious or malicious indicators, such as specific domain names, URLs, IP addresses, or HTTP User-Agent headers, and sends this data to the server. The server stores event details and supports the reporting web application, which processes the data and presents it to the user. Maltrail leverages public and private blacklists, along with custom user-defined lists, to identify malicious entities and supports advanced heuristic mechanisms for uncovering new threats. Its reporting interface provides detailed insights into detected threats, including malware families and command and control servers. Additionally, Maltrail offers guidance on best practices for installation and configuration, ensuring users can quickly start monitoring their networks for potential security incidents.",Understanding Maltrail: A Comprehensive Guide to Detecting Malicious Traffic,"Maltrail is a powerful malicious traffic detection system designed to identify suspicious activities and thwart cyber threats. Utilizing publicly available lists and static trails from various sources, it efficiently spots potential dangers, including malware, by analyzing domain names, URLs, IP addresses, and more. Through a detailed examination of its architecture, requirement specifications, and real-life application scenarios, we unveil the prowess of Maltrail in safeguarding networks against a myriad of cyber attacks. Discover how Maltrail's heuristic mechanisms and comprehensive malware detection capabilities can enhance your cybersecurity measures.","Explore how Maltrail, a cutting-edge malicious traffic detection system, uses public lists and static trails to identify cyber threats. Learn about its architecture, requirements, and real-life applications in enhancing cybersecurity.",Cybersecurity Tool,"Python
+
+
+
+
+
+        6,039
+
+
+
+
+
+        1,029
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        24 stars today",https://i.imgur.com/3xjInOD.png; https://i.imgur.com/Sd9eqoa.png; https://i.imgur.com/2IP9Mh2.png; https://i.imgur.com/E9tt2ek.png; https://i.imgur.com/loGW6GA.png; https://i.imgur.com/NYJg6Kl.png; https://i.imgur.com/62oafEe.png; https://i.imgur.com/VAsq8cs.png; https://i.imgur.com/8yZKH14.png; https://i.imgur.com/A0qROp8.png; https://i.imgur.com/RycgVru.png; https://i.imgur.com/TiUpLX8.png; https://i.imgur.com/PYwsZkn.png; https://i.imgur.com/GHdGPw7.png; https://i.imgur.com/WVpASAI.png; https://i.imgur.com/PZY8JEC.png; https://i.imgur.com/NfNore9.png; https://i.imgur.com/SNGVSaP.png; https://i.imgur.com/RnIROcn.png; https://i.imgur.com/oX7Rtjo.png; https://i.imgur.com/5NFbqCb.png; https://i.imgur.com/IxPwKKZ.png; https://i.imgur.com/BgKchAX.png; https://raw.githubusercontent.com/stamparm/maltrail/master/html/images/ellipsis.png; https://i.imgur.com/BfYT2u7.png; https://i.imgur.com/9pgMpiR.png; https://raw.githubusercontent.com/stamparm/maltrail/master/html/images/newtab.png; https://raw.githubusercontent.com/stamparm/maltrail/master/html/images/close.png; https://i.imgur.com/ZxnHn1N.png; https://i.imgur.com/u5Z4752.png; https://i.imgur.com/nwOwLP9.png; https://i.imgur.com/LQ6Vu00.png; https://i.imgur.com/vIzB8bA.png; https://i.imgur.com/EhAtXs7.png; https://i.imgur.com/Wk8Xjhq.png; https://i.imgur.com/wSOOnQM.png; https://i.imgur.com/dkJfU86.png; https://i.imgur.com/dXF8r2K.png; https://i.imgur.com/Oo2adCf.png; https://i.imgur.com/oCv42jd.png; https://i.imgur.com/GBLWISo.png; https://i.imgur.com/8tWj2pm.png; https://i.imgur.com/g2NH7sT.png; https://i.imgur.com/zcoPnZk.png; https://i.imgur.com/gVYAfSU.png; https://i.imgur.com/JTGdtJ0.png; https://i.imgur.com/EJOS5Qb.png; https://i.imgur.com/1WVLMf9.png; https://i.imgur.com/QdoAY0w.png; https://i.imgur.com/KPwNOM8.png; https://i.imgur.com/ZtpMR3d.png; https://i.imgur.com/3THOoWW.png; https://i.imgur.com/6SMN0at.png; https://i.imgur.com/jr5BS1h.png; https://i.imgur.com/pZuGXpr.png; https://i.imgur.com/QzcaEsG.png; https://raw.githubusercontent.com/stamparm/maltrail/master/html/images/ellipsis.png; https://i.imgur.com/XY9K01o.png; https://i.imgur.com/mHZmM7t.png; https://i.imgur.com/VS7L2A3.png; https://i.imgur.com/RujhnKW.png; https://i.imgur.com/6zt2gXg.png; https://i.imgur.com/HFvCNNK.png; https://i.imgur.com/i3oydv6.png; https://i.imgur.com/Msq8HgH.png; https://i.imgur.com/bOLmXUE.png,,6039,2014-12-04T21:33:46Z
+2024-07-27,https://github.com/caronc/apprise,https://raw.githubusercontent.com/caronc/apprise/master/README.md,"Apprise is a comprehensive notification library for Python that enables developers, system administrators, and DevOps professionals to send notifications through almost all of the most popular services available today, such as Telegram, Discord, Slack, Amazon SNS, and Gotify. It offers a single, straightforward syntax for these notifications, supporting message attachments where possible, operating asynchronously for fast response times, and being incredibly lightweight. It simplifies the process of integrating with various notification platforms, eliminating the need for individuals to research, adapt, or maintain separate codebases for each service. Additionally, Apprise comes with a command-line tool (CLI), which further eases sending notifications without direct coding. It supports a variety of notifications, including desktop, email, SMS, and custom notifications, allowing for flexible messaging solutions. The library is installable via pip, and it also provides options for configuration through files, offering both YAML and text formats. This inclusivity means Apprise caters to a wide audience, simplifying cross-platform notifications in Python development projects.",Integrate Notifications Seamlessly with Apprise,"Apprise offers a unified notification library for Python, enabling developers and system administrators to send messages across a wide array of services with a single tool. Its simplicity, lightweight nature, and support for image and attachment handling in applicable services makes it a valuable asset for integrating notifications into applications and workflows efficiently.","Discover how Apprise, a comprehensive notification library for Python, simplifies sending messages across various services like Telegram, Slack, and Discord with a unified API. Learn about its key features, including support for attachments and intuitive syntax.",Python Libraries Collection,"Python
+
+
+
+
+
+        11,063
+
+
+
+
+
+        394
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        14 stars today",https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png,,11063,2017-11-25T18:06:38Z
+2024-07-27,https://github.com/chidiwilliams/buzz,https://raw.githubusercontent.com/chidiwilliams/buzz/main/README.md,"Buzz is a software that allows users to transcribe and translate audio offline on personal computers, utilizing OpenAI's Whisper technology. It is available for free under the MIT License. The application offers a native Mac version on the App Store, which includes features like a cleaner interface, audio playback, drag-and-drop import, transcript editing, and search capabilities. Installation can be done via PyPI for general use, Homebrew for macOS, directly from the releases page for Windows users, and using specific commands for Linux users. The project is actively maintained, as indicated by its continuous integration and code coverage badges on GitHub.",Buzz: Transcribe and Translate Audio Offline with OpenAI's Whisper,"Discover how Buzz leverages OpenAI's Whisper for offline audio transcription and translation on your personal computer. This cutting-edge tool, available for macOS, Windows, and Linux, enhances productivity with features like transcript editing, search, and much more. Whether for professional or personal use, Buzz simplifies processing audio files efficiently. Get the Mac-native version for an enhanced experience with audio playback and drag-and-drop import capabilities.","Explore Buzz, the revolutionary tool for offline audio transcription and translation powered by OpenAI's Whisper. Available on macOS, Windows, and Linux, Buzz offers advanced features for an efficient workflow.",AI Transcription Platform,"Python
+
+
+
+
+
+        11,256
+
+
+
+
+
+        851
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        34 stars today",https://raw.githubusercontent.com/chidiwilliams/buzz/main/./buzz/assets/buzz-banner.jpg,,11256,2022-09-24T13:43:23Z
