@@ -21313,3 +21313,56 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         34 stars today",https://raw.githubusercontent.com/chidiwilliams/buzz/main/./buzz/assets/buzz-banner.jpg,,11256,2022-09-24T13:43:23Z
+2024-07-28,https://github.com/patched-codes/patchwork,https://raw.githubusercontent.com/patched-codes/patchwork/main/README.md,"Patchwork is a tool designed to automate various aspects of software development, especially tasks considered gruntwork, such as PR reviews, bug fixing, and security patching. It leverages self-hosted CLI agents along with language learning models (LLMs) to operationalize these tasks. Patchwork introduces concepts like Steps, which are atomic actions (e.g., creating PRs, committing changes); Prompt Templates, which are customizable queries for LLMs tailored to specific tasks; and Patchflows, which are automated workflows combining steps and LLM prompts for tasks like code fixing or PR reviews. Patchwork supports local and CI/CD pipeline integration, offering a suite of pre-defined patchflows while also allowing users to create their own. The tool is available on PyPI for installation and can be configured with various dependency groups to enhance functionality, including security and issue resolution. Patchwork encourages community contributions to expand its capabilities and offers both short-term and long-term roadmaps focused on library expansion, debugging tools, performance improvements, and introducing fine-tuned models for more robust automation. Patchwork is AGPL-3.0 licensed, with the option for users to create and share custom patchflows under Apache-2.0 terms.","Streamline Development Processes with Patchwork: Automate Your PR Reviews, Bug Fixes, and More","Discover how Patchwork simplifies your development workflow by automating mundane tasks like PR reviews, bug fixing, and security patching with a self-hosted CLI agent. Utilize customizable LLM prompts and reusable actions to enhance productivity. Patchflows allow for seamless integrations into CLI and IDE environments, accelerating development cycles. Empower your development with Patchwork and shift focus to more impactful projects.","Learn how Patchwork automates development tasks including PR reviews and bug fixing through self-hosted CLI agents and LLMs, enhancing efficiency and productivity in software development projects.",AI Development Platform,"Python
+
+
+
+
+
+        392
+
+
+
+
+
+        16
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        41 stars today",https://raw.githubusercontent.com/patched-codes/patchwork/main/patchwork-banner.gif; https://img.youtube.com/vi/3gRpqQoIino/0.jpg,https://www.youtube.com/watch?v=MLyn6B3bFMU; https://www.youtube.com/watch?v=MLyn6B3bFMU,392,2024-04-05T14:07:29Z
+2024-07-28,https://github.com/rwv/chinese-dos-games,https://raw.githubusercontent.com/rwv/chinese-dos-games/master/README.md,"The website 🎮 中文 DOS 游戏 (https://dos.lol) hosts a collection of 1,898 Chinese DOS games. To download game files, users should run a Python 3 script (`python download_data.py`) in the root directory, and for any download issues, refer to [Issue #26](https://github.com/rwv/chinese-dos-games/issues/26). A complete list of the games is available at https://dos.lol/games. The project utilizes IPFS with the hash `k2k4r8oyknzob8jjqpj6toer4dw3jc6srsbqlbsalktnw1fopb7iyqd2`, and the source code can be found at [rwv/chinese-dos-games-web](https://github.com/rwv/chinese-dos-games-web). The project acknowledges potential copyright issues and invites rights holders to make contact for content removal. Contributions via issues and pull requests are welcome, and the project particularly credits [dreamlayers/em-dosbox](https://github.com/dreamlayers/em-dosbox), [db48x/emularity](https://github.com/db48x/emularity), and the DOS game collection by 衡兰若芷.",Explore the Ultimate Collection of Chinese DOS Games,"Dive into nostalgia with a comprehensive collection of over 1898 Chinese DOS games. This unique archive offers free access to classic titles, easily downloadable through a simple Python script at dos.lol. For troubleshooting and community engagement, visit the project's GitHub page. Discover endless gaming history and contribute to keeping these classics alive. Remember, while exploring, to respect copyright concerns and participate constructively in the project.","Experience the best of classic gaming with over 1898 Chinese DOS games. Download easily, engage with a vibrant community, and contribute to the preservation of digital gaming history.",Game Development Tool,"Python
+
+
+
+
+
+        8,472
+
+
+
+
+
+        1,034
+
+
+        Built by
+
+          
+
+
+
+
+
+
+        7 stars today",,,8472,2018-08-30T14:12:12Z
