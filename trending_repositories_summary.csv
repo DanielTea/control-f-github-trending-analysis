@@ -21366,3 +21366,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         7 stars today",,,8472,2018-08-30T14:12:12Z
+2024-07-29,https://github.com/home-assistant/operating-system,https://raw.githubusercontent.com/home-assistant/operating-system/main/README.md,"The Home Assistant Operating System (HAOS), formerly known as HassOS, is a Linux-based OS designed explicitly for running Home Assistant and its Add-ons. It's not based on traditional Linux distributions like Ubuntu but is constructed using Buildroot, making it highly optimized for Home Assistant's needs. The system utilizes Docker for container management, allowing for modular architecture and easy updates. It's specifically tailored for single board computers (SBCs) such as the Raspberry Pi and ODROID, but also supports x86-64 systems. Key features of HAOS include being lightweight, supporting OTA and offline updates, and using Docker for modularity. Supported hardware spans from Nabu Casa and Raspberry Pi to x86-64 platforms. Beginners can find installation guides on the official website, while developers interested in HAOS's inner workings are advised to have a background in embedded systems and Linux distributions. Key components of HAOS include the Barebox and U-Boot bootloaders, Buildroot LTS Linux OS, SquashFS and ZRAM file systems, Docker Engine for containerization, RAUC for updates, and AppArmor for security. Development builds are available online for those interested in the latest versions.",Ultimate Guide to Home Assistant Operating System: Features & Supported Hardware,"Discover the intricacies of Home Assistant Operating System (HAOS), a Linux-based OS uniquely designed to run Home Assistant and its Add-ons efficiently. Utilizing Docker for container management, HAOS provides a lightweight, memory-efficient environment perfect for single-board computers and x86-64 systems. It supports a broad range of hardware, including Raspberry Pi and Intel NUC, boasting features like OTA updates and modular architecture. Learn how to get started with HAOS and explore its development processes for a seamless smart home experience.","Explore Home Assistant Operating System (HAOS): A Linux-based OS optimized for running Home Assistant. Includes features, supported hardware, installation guide, and insights into its Docker container engine.",Home Automation System,"Python
+
+
+
+
+
+        4,609
+
+
+
+
+
+        941
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",,,4609,2018-01-02T08:20:18Z
+2024-07-29,https://github.com/MustardChef/WSABuilds,https://raw.githubusercontent.com/MustardChef/WSABuilds/master/README.md,"Microsoft has announced it will end support for the Windows Subsystem for Android™️ (WSA) on March 5, 2025, affecting the Amazon Appstore on Windows and any applications and games relying on WSA. Meanwhile, WSABuilds will enter Long Term Support (LTS) for WSA version 2311.40000.5.0, promising updated versions of Magisk, KernelSU, and GApps. The repository won't be archived, ensuring ongoing support for users installing from it. The next LTS release dates are detailed, with some already available via pre-release. Additionally, there are guidelines and system requirements for installing WSA, including Windows build numbers, recommended hardware specifications, and necessary Windows features and virtualization settings. Troubleshooting advice, update, and uninstallation instructions, along with backup and restore procedures for user data, are also provided.",Microsoft Ends Support for WSA: What It Means for Windows Users,"Microsoft has announced the end of support for the Windows Subsystem for Android™️ (WSA), impacting users of the Amazon Appstore and related apps on Windows. This change, set for March 5, 2025, signifies a major shift for Windows users reliant on Android apps. Meanwhile, WSABuilds pledges to support WSA version 2311.40000.5.0 under long-term support, ensuring updated versions of Magisk, KernelSU, and GApps. Community support remains a priority for WSABuilds, continuing to assist users with installation and troubleshooting.","Microsoft to discontinue Windows Subsystem for Android™️ (WSA) support by March 2025, affecting Amazon Appstore and Android apps on Windows. Learn about the transition and how WSABuilds provides a lifeline with long-term support and updates.",Open Source Tool,"Python
+
+
+
+
+
+        7,203
+
+
+
+
+
+        1,231
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        13 stars today",https://img.icons8.com/3d-fluency/94/downloads-folder.png; https://img.icons8.com/3d-fluency/94/ok.png; https://img.icons8.com/color/240/null/windows-11.png; https://img.icons8.com/color/240/null/windows-10.png; https://img.icons8.com/color/240/null/windows-11.png; https://img.icons8.com/color/240/null/windows-10.png; https://user-images.githubusercontent.com/68516357/216452358-8137df76-875f-4b59-b77d-ca34c8a2d6d3.png; https://img.icons8.com/fluency/48/system-information.png; https://img.icons8.com/fluency/96/null/windows-update--v1.png; https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/66/null/external-RAM-technology-and-devices-smashingstocks-flat-smashing-stocks.png; https://img.icons8.com/3d-fluency/94/null/electronics.png; https://img.icons8.com/3d-fluency/94/null/video-card.png; https://img.icons8.com/3d-fluency/94/null/ssd.png; https://img.icons8.com/stickers/100/null/storage.png; https://user-images.githubusercontent.com/68516357/230764789-ad8f7361-4a3b-49a8-a8e9-24fdc87d5781.png; https://user-images.githubusercontent.com/68516357/230759907-5d11950e-1b17-4811-8f4e-a0f82e598079.png; https://img.icons8.com/color/96/null/software-installer.png; https://img.icons8.com/external-flaticons-flat-flat-icons/64/null/external-updating-tools-and-material-ecommerce-flaticons-flat-flat-icons.png; https://img.icons8.com/color/96/null/uninstall-programs.png; https://img.icons8.com/fluency/96/cloud-backup-restore.png; https://img.icons8.com/3d-fluency/94/null/help.png; https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-compatibility-relationship-flaticons-lineal-color-flat-icons-2.png; https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/96/null/external-guide-education-xnimrodx-lineal-color-xnimrodx.png; https://img.icons8.com/external-soft-fill-juicy-fish/96/null/external-bug-coding-and-development-soft-fill-soft-fill-juicy-fish-2.png; https://img.icons8.com/fluency/96/request-service.png; https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-credits-movie-theater-flaticons-lineal-color-flat-icons.png,https://www.youtube.com/watch?v=11lw-IHPH3A,7203,2022-12-30T21:43:34Z
