@@ -21422,3 +21422,31 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         13 stars today",https://img.icons8.com/3d-fluency/94/downloads-folder.png; https://img.icons8.com/3d-fluency/94/ok.png; https://img.icons8.com/color/240/null/windows-11.png; https://img.icons8.com/color/240/null/windows-10.png; https://img.icons8.com/color/240/null/windows-11.png; https://img.icons8.com/color/240/null/windows-10.png; https://user-images.githubusercontent.com/68516357/216452358-8137df76-875f-4b59-b77d-ca34c8a2d6d3.png; https://img.icons8.com/fluency/48/system-information.png; https://img.icons8.com/fluency/96/null/windows-update--v1.png; https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/66/null/external-RAM-technology-and-devices-smashingstocks-flat-smashing-stocks.png; https://img.icons8.com/3d-fluency/94/null/electronics.png; https://img.icons8.com/3d-fluency/94/null/video-card.png; https://img.icons8.com/3d-fluency/94/null/ssd.png; https://img.icons8.com/stickers/100/null/storage.png; https://user-images.githubusercontent.com/68516357/230764789-ad8f7361-4a3b-49a8-a8e9-24fdc87d5781.png; https://user-images.githubusercontent.com/68516357/230759907-5d11950e-1b17-4811-8f4e-a0f82e598079.png; https://img.icons8.com/color/96/null/software-installer.png; https://img.icons8.com/external-flaticons-flat-flat-icons/64/null/external-updating-tools-and-material-ecommerce-flaticons-flat-flat-icons.png; https://img.icons8.com/color/96/null/uninstall-programs.png; https://img.icons8.com/fluency/96/cloud-backup-restore.png; https://img.icons8.com/3d-fluency/94/null/help.png; https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-compatibility-relationship-flaticons-lineal-color-flat-icons-2.png; https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/96/null/external-guide-education-xnimrodx-lineal-color-xnimrodx.png; https://img.icons8.com/external-soft-fill-juicy-fish/96/null/external-bug-coding-and-development-soft-fill-soft-fill-juicy-fish-2.png; https://img.icons8.com/fluency/96/request-service.png; https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-credits-movie-theater-flaticons-lineal-color-flat-icons.png,https://www.youtube.com/watch?v=11lw-IHPH3A,7203,2022-12-30T21:43:34Z
+2024-07-30,https://github.com/healthchecks/healthchecks,https://raw.githubusercontent.com/healthchecks/healthchecks/master/README.md,"Healthchecks is a monitoring service for cron jobs, listening for HTTP and email ""pings"" from tasks. It alerts users when jobs miss their scheduled times. Features include a web dashboard, an API, over 25 notification integrations, monthly reports, 2FA via WebAuthn, and team management options. It is built using Python 3.10+, Django 5, and supports both PostgreSQL and MySQL databases, licensed under the BSD 3-clause license. It's available as a hosted service and also for self-hosting with provided Docker options. Healthchecks supports a wide range of integrations for notifications, including Slack, Discord, Pushover, Signal, Telegram, Apprise, and more, with setup instructions for development environments and details on enabling specific features like two-factor authentication, external authentication, and object storage for large ping bodies. Additionally, it offers guidelines for production deployment, emphasizing security, constant monitoring, and regular backups.",Maximizing Cron Job Monitoring with Healthchecks: A Comprehensive Guide,"Discover how Healthchecks.io revolutionizes cron job monitoring, ensuring reliability through web dashboard, API, and extensive notification options. This service alerts you when cron jobs fail or miss their schedule, supporting a seamless integration process with Docker and detailed configuration for development setups. Embrace peace of mind with Healthchecks' advanced features like monthly reports, multi-user team management, and more.","Learn how Healthchecks.io provides essential cron job monitoring with a user-friendly web dashboard, API, and over 25 notification integrations, including Docker support for hassle-free setup and maintenance.",Developer Monitoring Platform,"Python
+
+
+
+
+
+        7,780
+
+
+
+
+
+        803
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        66 stars today",,,7780,2015-06-25T18:38:33Z
