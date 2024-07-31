@@ -21450,3 +21450,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         66 stars today",,,7780,2015-06-25T18:38:33Z
+2024-07-31,https://github.com/lucidrains/denoising-diffusion-pytorch,https://raw.githubusercontent.com/lucidrains/denoising-diffusion-pytorch/main/README.md,"This text provides a comprehensive overview of the implementation of the Denoising Diffusion Probabilistic Model in Pytorch, a generative modeling approach that shows potential to rival GANs through denoising score matching and Langevin sampling. It includes references to its inspiration from an official TensorFlow version, educational resources from YouTube, and a Flax implementation by YiYi Xu. Updates and additional resources from Huggingface and various papers on diffusion models are mentioned. The guide includes installation instructions, detailed usage examples for images and 1D sequences, multi-GPU training tips with Hugging Face's Accelerate, and model training steps. The end of the document lists numerous citations relevant to diffusion models, highlighting the contribution of various researchers to the field.",Exploring the Potential of Denoising Diffusion Probabilistic Models in Pytorch,"Discover the innovative approach of Denoising Diffusion Probabilistic Models in Pytorch, a promising alternative to GANs for generative modeling. This method leverages denoising score matching and Langevin sampling for accurate data distribution estimation. Inspired by TensorFlow implementations, it's gaining attention from AI researchers and enthusiasts. Learn how this technique is being utilized and its impact on the generative modeling landscape.","An insightful overview of implementing Denoising Diffusion Probabilistic Models in Pytorch. Explore how this new generative modeling technique competes with GANs, using advanced methods for more accurate data distribution estimation.",Deep Learning Tool,"Python
+
+
+
+
+
+        7,669
+
+
+
+
+
+        978
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        12 stars today",https://raw.githubusercontent.com/lucidrains/denoising-diffusion-pytorch/main/./images/denoising-diffusion.png; https://raw.githubusercontent.com/lucidrains/denoising-diffusion-pytorch/main/./images/sample.png,https://www.youtube.com/watch?v=W-O7AZNzbzQ; https://www.youtube.com/watch?v=344w5h24-h8; https://www.youtube.com/watch?v=HoKDTa5jHvg,7669,2020-08-26T02:22:10Z
+2024-07-31,https://github.com/DAGWorks-Inc/burr,https://raw.githubusercontent.com/DAGWorks-Inc/burr/main/README.md,"Burr simplifies the development of decision-making applications like chatbots and simulations using Python. It's compatible with any framework and enhances applications that utilize Large Language Models (LLMs) by providing real-time system tracking and monitoring through an intuitive UI. Burr operates by transforming applications into state machines, facilitating complex decision tracking, state management, and workflow automation without imposing on how models or APIs are built. It supports a wide array of applications beyond LLM use cases, backed by a community-driven approach with a roadmap for future enhancements focusing on usability, testing, and integration capabilities. Named after Aaron Burr, it represents the second open-source library release by DAGWorks following the Hamilton library, symbolizing innovation in application development and execution. Burr encourages open participation, inviting contributions towards developing core functionalities, integrations, and improving the tool’s documentation and usability.",Unlocking the Power of Stateful AI Applications with Burr,"Explore how Burr simplifies the development of AI applications, including chatbots and simulations, with easy Python blocks. Burr excels in managing applications that utilize large language models (LLMs) and integrates seamlessly with popular frameworks. With its real-time UI for system tracking and a wide array of applications, Burr is a versatile tool for developers. Dive into the documentation and start building with Burr to enhance your stateful AI applications today.","Discover Burr, the Python toolkit for developing stateful AI applications with ease. Learn how Burr supports chatbots, simulations, and LLMs with a real-time UI for seamless integration and monitoring.",AI Development Platform,"Python
+
+
+
+
+
+        897
+
+
+
+
+
+        49
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        26 stars today",https://github.com/DAGWorks-Inc/burr/blob/main/chatbot.gif,https://www.youtube.com/watch?v=rEZ4oDN0GdU,897,2024-01-29T23:27:07Z
+2024-07-31,https://github.com/usnistgov/dioptra,https://raw.githubusercontent.com/usnistgov/dioptra/main/README.md,"Dioptra is a testing platform designed for evaluating the trustworthiness of AI technologies across various characteristics like safety, security, privacy, fairness, and transparency. It aligns with the NIST AI Risk Management Framework, aiding in the assessment and management of AI risks through extensive tracking and analysis capabilities. Dioptra is accessible via a REST API, with a user-friendly web interface, Python client, or any REST client library, facilitating easy design, execution, and monitoring of experiments. Its architecture supports reproducibility, traceability, extensibility, interoperability, modularity, security, and user interaction. Dioptra envisions serving multiple use cases including AI model testing across development, acquisition, auditing, and compliance, as well as aiding researchers, facilitating evaluations, and supporting red-teaming activities. The platform emphasizes the importance of shared, reusable components within a secure, multi-tenant environment. It is released under the Creative Commons Attribution 4.0 International license by the National Institute of Standards and Technology (NIST), demonstrating its commitment to public service and the advancement of trustworthy AI.",Exploring Dioptra: A Revolutionary AI Testing Platform,"Dioptra stands as a cutting-edge software testing platform designed to evaluate AI technologies' trustworthiness, adhering to the highest standards of safety, security, fairness, and transparency. It facilitates the Measure function of the NIST AI Risk Management Framework, offering comprehensive tools for risk assessment, analysis, and tracking. With its REST API, Dioptra ensures ease of use through a web interface, Python client, or any REST client, supporting reproducibility, traceability, and extensibility in AI model testing. Its deployment fosters a collaborative environment for researchers, providing an ideal platform for model testing across various stages, from development to compliance evaluation. Dive into the project's documentation for more insights on setting up and utilizing this innovative platform for trustworthy AI development.","Discover Dioptra, the NIST-developed software platform for comprehensive AI technology assessment. Learn how it ensures AI trustworthiness through rigorous testing and tracking, supporting model developers, researchers, and compliance auditors.",AI Red Teaming,"Python
+
+
+
+
+
+        119
+
+
+
+
+
+        21
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        17 stars today",https://i.creativecommons.org/l/by/4.0/88x31.png,,119,2021-06-07T14:01:28Z
