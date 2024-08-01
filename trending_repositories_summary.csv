@@ -21534,3 +21534,86 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         17 stars today",https://i.creativecommons.org/l/by/4.0/88x31.png,,119,2021-06-07T14:01:28Z
+2024-08-01,https://github.com/pytorch/torchchat,https://raw.githubusercontent.com/pytorch/torchchat/main/README.md,"torchchat is a versatile codebase that integrates large language models (LLMs) across various platforms using Python, C/C++, and on iOS and Android devices. It supports interactions with popular LLMs like Llama 3, Llama 2, and Mistral through command-line interfaces and offers PyTorch-native execution for optimal performance. torchchat is compatible with multiple operating systems including Linux, MacOS, and Android, and allows for model evaluation, execution in different environments (browser, desktop/server, mobile), and supports various data types and quantization schemes. Installation involves cloning the repository, setting up a virtual environment, and installing dependencies. torchchat emphasizes simplicity and extensibility, adhering to PyTorch’s design principles, and encourages community contributions. It includes detailed instructions for model management, execution across platforms, and provides troubleshooting advice. Lastly, it notes its reliance on community innovations and acknowledges contributions while also cautioning users about the responsibilities regarding the use of third-party content.",Integrate LLMs on Any Platform Easily with torchchat,"Discover torchchat, the versatile codebase that enables seamless operation of large language models (LLMs) across various platforms. With torchchat, developers can run LLMs in Python environments, integrate them into C/C++ applications, and deploy them on both iOS and Android devices. This tool supports a range of hardware, offers multiple quantization options, and allows for command-line interactions with models like Llama 3 and Mistral.","Learn how to use torchchat to run large language models (LLMs) effortlessly on any platform, including desktop, server, and mobile devices. Explore the benefits of this versatile tool, from command-line interactions to support for various hardware options.",AI Development Platform,"Python
+
+
+
+
+
+        989
+
+
+
+
+
+        38
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        354 stars today",https://pytorch.org/executorch/main/_static/img/llama_ios_app.png; https://pytorch.org/executorch/main/_static/img/android_llama_app.png,,989,2024-03-22T18:15:54Z
+2024-08-01,https://github.com/ohyicong/decrypt-chrome-passwords,https://raw.githubusercontent.com/ohyicong/decrypt-chrome-passwords/main/README.md,"The text describes a simple program designed to decrypt Chrome passwords stored on your machine, specifically tested and confirmed to work on Windows. It does not guarantee functionality on other operating systems. The program has dependencies on sqlite, pycryptodomex, and pywin32, which are required for it to work. Usage of the program is straightforward, requiring execution of the command ""python decrypt_chrome_password.py."" The output of the program is a CSV file named ""decrypted_password.csv,"" containing the decrypted passwords. For a deeper understanding of how the program operates, the author recommends reading an accompanying article on Medium, accessible through a provided link.",How to Decrypt Chrome Passwords: A Guide for Windows Users,"Learn how to decrypt Chrome passwords stored on your Windows machine with a simple Python program. This tool leverages sqlite, pycryptodomex, and pywin32 dependencies for efficient decryption, outputting the recovered passwords into decrypted_passwords.csv. While currently optimized for Windows, contributions for other OS compatibility are welcome. Delve into the technicalities by reading the accompanying Medium article.",Discover a straightforward method to decrypt saved Chrome passwords on Windows using Python. Check out our Medium article for an in-depth guide and advanced tips.,Cybersecurity Tool,"Python
+
+
+
+
+
+        825
+
+
+
+
+
+        182
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        11 stars today",,,825,2020-12-28T15:11:12Z
+2024-08-01,https://github.com/lucidrains/x-transformers,https://raw.githubusercontent.com/lucidrains/x-transformers/main/README.md,"The x-transformers package offers a concise yet comprehensive transformer model implementation, incorporating a variety of experimental features inspired by various research papers. It supports installation through pip for ease of use. The API allows for versatile applications, including full encoder/decoder models, GPT-like decoder-only models, BERT-like encoder-only models, image classification (with SimpleViT), and image-captioning tasks, showcasing its broad applicability in both NLP and vision tasks. Additionally, it implements state-of-the-art language-vision models such as PaLI. The package also introduces advanced features like Flash Attention for efficient memory usage, persistent memory, memory tokens, and a variety of architectural innovations aimed at improving performance and efficiency, such as GLU variants, RMS Layer Normalization, and positional encodings strategies including dynamic positional bias and rotary positional embeddings. Novel attention mechanisms, gating strategies, and normalization techniques are highlighted as ways to enhance model effectiveness and training stability.",Unlocking Advanced NLP Models with x-transformers: A Comprehensive Guide,"Discover the power of x-transformers, a versatile and feature-packed library for cutting-edge natural language processing tasks. This concise guide explores its installation, usage across various models including encoder, decoder, and state-of-the-art algorithms, and highlights experimental features for transformative AI applications. Whether you're enhancing language models, delving into image captioning, or exploring language-vision integration, x-transformers is your toolkit for pushing the boundaries of AI research.","Explore x-transformers, the Python library revolutionizing NLP tasks with encoder-decoder models, state-of-the-art features, and easy integration for advanced AI applications, from language models to image captioning and beyond.",Deep Learning Platform,"Python
+
+
+
+
+
+        4,439
+
+
+
+
+
+        381
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        4 stars today",https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/flash-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/all-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/memory-transformer.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/scalenorm.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/ffglu.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/topk-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/talking-heads.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/attention-on-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/gate_values.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/sandwich.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/sandwich-2.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/macaron-1.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/macaron-2.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/residual_attn.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/enhanced-recurrence.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/gating.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/rotary.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias-linear.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias-log.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias-sinusoidal.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/sandwich_norm.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/resi_dual.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/normformer.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/cosine-sim-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/qknorm-analysis.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/fcm.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/xval.png,https://www.youtube.com/watch?v=THIIk7LR9_8,4439,2020-10-24T22:13:25Z
