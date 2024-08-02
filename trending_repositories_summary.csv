@@ -21617,3 +21617,31 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         4 stars today",https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/flash-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/all-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/memory-transformer.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/scalenorm.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/ffglu.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/topk-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/talking-heads.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/attention-on-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/gate_values.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/sandwich.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/sandwich-2.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/macaron-1.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/macaron-2.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/residual_attn.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/enhanced-recurrence.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/gating.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/rotary.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias-linear.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias-log.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/dynamic-pos-bias-sinusoidal.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/sandwich_norm.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/resi_dual.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/normformer.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/cosine-sim-attention.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/qknorm-analysis.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/fcm.png; https://raw.githubusercontent.com/lucidrains/x-transformers/main/./images/xval.png,https://www.youtube.com/watch?v=THIIk7LR9_8,4439,2020-10-24T22:13:25Z
+2024-08-02,https://github.com/kedro-org/kedro,https://raw.githubusercontent.com/kedro-org/kedro/main/README.md,"Kedro is an open-source Python framework designed to facilitate building reproducible, maintainable, and modular data science and engineering pipelines. It adheres to software engineering best practices and is hosted by the LF AI & Data Foundation. Kedro supports Python versions 3.8 to 3.12 and can be installed via pip or conda. Key features include a project template, a Data Catalog for efficient data and model versioning, pipeline abstraction for dependency resolution and visualization, coding standards for documentation and testing, and flexible deployment options. The framework aims to improve maintainability of data science code, facilitate team collaboration, and boost efficiency through code reusability. Kedro's development is driven by a product team and contributions from a global open-source community. Users can contribute, engage with the community through Slack, and access extensive documentation for learning and troubleshooting. Kedro also supports academic use for reproducible research.",Mastering Your Data Science Projects with Kedro: An In-depth Guide,"Discover how Kedro, the open-source Python framework, revolutionizes data science by offering a toolbox for creating reproducible, maintainable, and modular data pipelines. Supported by the LF AI & Data Foundation, Kedro adheres to software engineering best practices to solve data engineering challenges efficiently. Whether you're installing it via pip or conda, or diving deep into its core features like the Data Catalog and Pipeline Abstraction, Kedro streamlines your project workflow. Plus, with a supportive community and comprehensive documentation, Kedro empowers both beginners and veterans in the field of data science.","Explore how Kedro, the Python framework, transforms data science with best practices for reproducible, maintainable projects. Learn installation, features, and community support in our guide.",Open Source Tool,"Python
+
+
+
+
+
+        9,562
+
+
+
+
+
+        880
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        7 stars today",https://raw.githubusercontent.com/kedro-org/kedro-viz/main/.github/img/banner.png,,9562,2019-04-18T10:29:56Z
