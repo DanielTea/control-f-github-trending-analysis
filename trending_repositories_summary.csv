@@ -21645,3 +21645,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         7 stars today",https://raw.githubusercontent.com/kedro-org/kedro-viz/main/.github/img/banner.png,,9562,2019-04-18T10:29:56Z
+2024-08-03,https://github.com/DLR-RM/stable-baselines3,https://raw.githubusercontent.com/DLR-RM/stable-baselines3/master/README.md,"Stable Baselines3 (SB3) is the successor of Stable Baselines, offering reliable implementations of reinforcement learning algorithms in PyTorch, aiming to facilitate research and development by making these algorithms easily accessible and modifiable. SB3 is designed for the reinforcement learning community, assuming users have some background in RL, and includes resources to help beginners. It supports custom environments, policies, and has features like Tensorboard support and a consistent interface across algorithms. The documentation provides installation instructions, a migration guide from Stable Baselines, and information on integrations like Weights & Biases. SB3 Contrib repository houses experimental features. There's also an RL training framework, RL Baselines3 Zoo, for training, evaluating, and enjoying RL agents. Stable Baselines Jax (SBX) offers a Jax version with newer algorithms and potential speed improvements. The project encourages contributions and is maintained by a team of developers, with acknowledgment of funding from several research projects.",Mastering Reinforcement Learning with Stable Baselines3: A Comprehensive Guide,"Stable Baselines3 (SB3) marks a significant advancement in reinforcement learning, offering a collection of reliable PyTorch implementations. Aimed at researchers and industry professionals, it aids in experimenting, refining, and developing new RL strategies by providing a solid foundation. SB3 is designed with user-friendliness in mind, yet necessitates familiarity with reinforcement learning concepts. This guide will explore its main features, installation, and how to get started, ensuring a smooth journey into the realm of advanced RL.","Explore the latest in reinforcement learning with Stable Baselines3: a PyTorch-based library for implementing reliable RL algorithms. Get insights into its features, setup, and usage in our comprehensive guide.",Deep Learning Framework,"Python
+
+
+
+
+
+        8,501
+
+
+
+
+
+        1,634
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        9 stars today",https://raw.githubusercontent.com/DLR-RM/stable-baselines3/master/docs/\_static/img/logo.png,,8501,2020-05-05T05:52:26Z
+2024-08-03,https://github.com/InternLM/lagent,https://raw.githubusercontent.com/InternLM/lagent/main/README.md,"Lagent is a lightweight open-source framework designed for building efficient large language model (LLM)-based agents, providing tools to augment LLM functionalities. It's easily installable via pip and features a Web demo that can be run with Streamlit. The framework offers a stream output for streaming demonstrations, a unified interfacing system for seamless model switching (supporting OpenAI API, Transformers, and LMDeploy), and allows for easy creation and adaptation of tools and agents with simple inheritance and decoration. The documentation has been extensively upgraded, covering the full API. Lagent emphasizes tech savvy with a Python badge, acknowledges contributions through a contributors' badge, and invites citations for academic use. It's licensed under Apache 2.0, promoting open and versatile development environments.",Lagent: The Future of Lightweight Open-Source LLM Agents,"Discover Lagent, the innovative open-source framework designed for building efficient large language model-based agents. With features like stream output, unified interfacing, and comprehensive documentation, Lagent sets new standards in the development landscape. Ideal for tech enthusiasts and developers, it offers seamless integration with popular models and tools. Explore the diverse capabilities of Lagent to enhance your projects.",Lagent is an open-source framework revolutionizing the way developers build large language model-based agents with its lightweight design and comprehensive features.,Collaborative AI Framework,"Python
+
+
+
+
+
+        1,157
+
+
+
+
+
+        117
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        11 stars today",https://raw.githubusercontent.com/InternLM/lagent/main/docs/imgs/lagent_logo.png,,1157,2023-08-20T12:45:45Z
