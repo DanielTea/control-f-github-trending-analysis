@@ -21701,3 +21701,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         11 stars today",https://raw.githubusercontent.com/InternLM/lagent/main/docs/imgs/lagent_logo.png,,1157,2023-08-20T12:45:45Z
+2024-08-04,https://github.com/mxrch/GHunt,https://raw.githubusercontent.com/mxrch/GHunt/master/README.md,"GHunt (v2) is an offensive Google framework designed for OSINT and other Google-related uses, offering CLI and Python library usage that's fully async, includes JSON export, and a browser extension for easy login. With Python 3.10 or higher required, GHunt can be installed via pipx to avoid dependency conflicts. Users must first login using a companion extension available for Firefox and Chrome, then can utilize its modules for authenticating to Google, retrieving email information, Gaia ID information, Drive file or folder data, and geolocating BSSID. Developers are encouraged to contribute documentation or examples, and to install GHunt via pip for library use. The tool emphasizes educational use under the AGPL License, acknowledging contributions from collaborators and the support from sponsors.",Unlock the Power of OSINT with GHunt: A Comprehensive Guide,"Discover GHunt (v2), an innovative Google framework geared towards effective OSINT and beyond, designed for both CLI and Python library usage. With features like fully asynchronous operations, JSON export, and a convenient browser extension for easy login, it's built to elevate your Google-related investigations. Installation is straightforward, leveraging pipx for conflict-free dependency management. GHunt empowers users to authenticate, gather email insights, geolocate BSSID, and more with ease. Designed for developers, by developers, GHunt promises a seamless integration into your projects.","Explore GHunt (v2), the cutting-edge Google framework for OSINT investigations. Learn how its async features, CLI and Python library usage, and easy installation process can enhance your research capabilities.",Cybersecurity Tool,"Python
+
+
+
+
+
+        15,358
+
+
+
+
+
+        1,274
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        5 stars today",https://raw.githubusercontent.com/mxrch/GHunt/master/assets/long_banner.png; https://files.catbox.moe/5g2ld5.png; https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png; https://github.com/BlWasp.png; https://github.com/C3n7ral051nt4g3ncy.png; https://github.com/im-hanzou.png; https://github.com/gingeleski.png; https://github.com/ItsMalware.png,,15358,2020-10-02T11:26:03Z
+2024-08-04,https://github.com/McGill-NLP/llm2vec,https://raw.githubusercontent.com/McGill-NLP/llm2vec/main/README.md,"LLM2Vec transforms decoder-only large language models (LLMs) into effective text encoders through a three-step process involving enabling bidirectional attention, training with masked next token prediction, and applying unsupervised contrastive learning. This technique allows these transformed models to achieve state-of-the-art performance. The approach is compatible with multiple models, including Gemma and Qwen-2, and supports both supervised and unsupervised variants. Installation and usage involve standard Python package installation procedures, and the LLM2Vec model offers easy integration with HuggingFace models, supporting various text encoding and pooling strategies. The toolkit provides training scripts for MNTP, SimCSE for unsupervised learning, and a supervised method leveraging public datasets. Additionally, it supports word-level task training and includes an evaluation script for the MTEB benchmark, demonstrating its versatility across multiple NLP tasks. The GitHub page offers comprehensive guides, examples, and support for users to experiment with and deploy LLM2Vec in their work.",Unveiling the Power of LLM2Vec in Text Encoding,"Discover the magic behind LLM2Vec, a groundbreaking method transforming decoder-only LLMs into efficient text encoders through bidirectional attention, masked next token prediction, and unsupervised contrastive learning. Achieve unparalleled state-of-the-art performance by fine-tuning. Perfect for those looking to push the boundaries of NLP. Explore how LLM2Vec is revolutionizing the way we approach large language models now.",Learn about LLM2Vec and how it turns large language models into powerful text encoders using a simple 3-step process for superior NLP performance. Explore the future of text encoding with LLM2Vec.,Natural Language Processing,"Python
+
+
+
+
+
+        1,001
+
+
+
+
+
+        72
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        20 stars today",,,1001,2024-04-03T23:10:26Z
