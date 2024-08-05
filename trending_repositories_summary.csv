@@ -21757,3 +21757,58 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         20 stars today",,,1001,2024-04-03T23:10:26Z
+2024-08-05,https://github.com/CodeXBotz/File-Sharing-Bot,https://raw.githubusercontent.com/CodeXBotz/File-Sharing-Bot/main/README.md,"The File-sharing-Bot is a Telegram bot designed for storing posts and documents, accessible via special links, aiming to be useful for many users. It features customizable messages, supports multiple posts under one link, and can be directly deployed on Heroku. For setup, it requires adding the bot to a Database Channel with all permissions and to a ForceSub channel as admin if ForceSub is enabled. The bot supports admin commands for starting, creating links for posts, viewing statistics, broadcasting messages to users, and checking bot uptime. It requires variables like API hash, API ID, bot token, owner ID, and more for functionality. Additional features include setting custom captions for documents and disabling the channel share button. The bot supports customization through various ""fillings"" for messages and captions. For support and updates, users can join the designated Telegram group and channel. The project acknowledges contributions from the community and Dan's Pyrogram library, operating under the GNU General Public License v3.",Maximize Your Telegram with the Ultimate File-Sharing Bot,"Discover the revolutionary Telegram File-Sharing Bot, a tool designed to store and share posts and documents with ease, offering customizable links for seamless access. Perfect for anyone looking to enhance their Telegram experience, this bot promises to be a game-changer for content sharing and management. With user-friendly setup instructions, direct deployment options to Heroku, Railway, and more, plus comprehensive admin commands, it's never been easier to manage and share content on Telegram.","Explore how the Telegram File-Sharing Bot transforms sharing and managing documents and posts through special links, featuring customizable options and easy deployment.",Cloud Development Tool,"Python
+
+
+
+
+
+        1,968
+
+
+
+
+
+        5,481
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+        12 stars today",https://www.gnu.org/graphics/gplv3-127x51.png,https://www.youtube.com/watch?v=LCrkRTMkmzE,1968,2021-05-05T12:15:27Z
+2024-08-05,https://github.com/Cog-Creators/Red-DiscordBot,https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/master/README.md,"Red is a versatile Discord bot described as a fun enhancer, admin assistant, and music bot. It encompasses a wide range of functionalities, including general chatbot commands like coin flips and custom commands similar to Twitch's Nightbot, meme generation, and game features such as Trivia and a slot machine. Red stands out for its advanced audio capabilities, allowing users to stream YouTube videos, create and control playlists, as well as stream MP3 and FLAC files. Additionally, it provides moderation tools like a message filter and cleanup features. The bot also supports Twitch stream notifications. Despite its vast array of services, installation and troubleshooting guides are readily available online for new users. The text mentions that this version of Red is obsolete, advising users to opt for the current version instead. It subtly injects humor and references to the videogame ""Transistor"" by Supergiant Games, from which it draws its name and some features like the !sing command.",Unlock the Full Potential of Your Discord Server with Red Bot,"Discover the multifunctional Red Discord Bot, a powerhouse for enhancing your server's experience. From playing music and games to comprehensive admin tools and custom commands, Red does it all with ease. Stream YouTube videos, manage playlists, and keep your chat environment clean with advanced message filters. Dive into the world of efficient server management and entertainment; Red Bot is your all-in-one solution.","Elevate your Discord server with Red Bot: the ultimate music, gaming, and admin assistant. Stream videos, manage playlists, play games, and utilize robust moderation tools for the best server experience.",Discord Bot,"Python
+
+
+
+
+
+        4,653
+
+
+
+
+
+        2,289
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        2 stars today",https://www.supergiantgames.com/static/images/transistor/cartoon_red.png,,4653,2016-01-02T09:27:12Z
