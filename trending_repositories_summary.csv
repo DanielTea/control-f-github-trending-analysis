@@ -21812,3 +21812,31 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         2 stars today",https://www.supergiantgames.com/static/images/transistor/cartoon_red.png,,4653,2016-01-02T09:27:12Z
+2024-08-06,https://github.com/bghira/SimpleTuner,https://raw.githubusercontent.com/bghira/SimpleTuner/main/README.md,"SimpleTuner is a repository containing experimental scripts focused on training optimization. It emphasizes simplicity in its code to ensure readability and understanding. The project welcomes contributions and acts as a collective academic venture. It provides features like multi-GPU training, caching for faster runs, aspect bucketing for different image sizes, and support for various training enhancements such as LoRA and DeepSpeed integration. Specifically designed for a range of models like Flux.1, PixArt Sigma, Stable Diffusion versions, and Kwai Kolors, it also includes advanced options like Exponential Moving Average (EMA) weights, training directly from S3 storage, and webhook integration for updates. The hardware requirements vary, accommodating a range of GPUs from NVIDIA, AMD, and Apple's M-series. It includes scripts for installation and training, alongside a toolkit for additional functionality. The setup is documented thoroughly for users' convenience, and troubleshooting tips are provided for debugging and performance optimization.",Optimize Your Machine Learning: A Guide to SimpleTuner Training Scripts,"Discover SimpleTuner, the ultimate repository for experimental scripts aimed at enhancing training optimization in machine learning. Designed with simplicity and academic experimentation in mind, SimpleTuner focuses on readability and ease of use while welcoming contributions from the community. It covers a wide range of features, including multi-GPU training, advanced caching for faster execution, and broad support for various image sizes and aspect ratios. Whether you're working with small datasets or vast collections, SimpleTuner offers cutting-edge tools to refine your ML models efficiently.","Explore SimpleTuner: A comprehensive guide to leveraging experimental training optimization scripts for improved machine learning model performance. Emphasizing simplicity, efficiency, and community collaboration.",Deep Learning Tool,"Python
+
+
+
+
+
+        687
+
+
+
+
+
+        42
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        41 stars today",,,687,2023-05-28T18:01:02Z
