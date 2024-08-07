@@ -21840,3 +21840,59 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         41 stars today",,,687,2023-05-28T18:01:02Z
+2024-08-07,https://github.com/THUDM/CogVideo,https://raw.githubusercontent.com/THUDM/CogVideo/main/README.md,"CogVideo and CogVideoX are open-source video generation models that have recently seen significant updates, including integration into the `diffusers` library for easy GPU-based inference, and the release of CogVideoX-2B which introduces advanced 3D Causal VAE technology for near-lossless video reconstruction. Initially introduced as the first pre-trained text-to-video model, CogVideo has now expanded to include CogVideoX with large parameter models for commercial scale video generation, accessible through various platforms including Huggingface and Qingying. This project offers comprehensive resources for developers interested in video generation, including model inference, fine-tuning examples, and prompt optimization advice. It supports English prompts, requires substantial GPU resources for inference and fine-tuning, and is capable of generating high-quality videos up to 6 seconds in length at a resolution of 720x480. The project's open-source plan details ongoing and future work to enhance model offerings and utility, inviting community contributions while specifying license terms for use.",Exploring CogVideoX: The Frontier of Text-to-Video Generation,"CogVideoX has pushed the boundaries of AI with its integration into diffusers version 0.30.0, allowing for cutting-edge single GPU inference capabilities. This breakthrough is complemented by the open-source release of 3D Causal VAE and CogVideoX-2B, marking significant advancements in nearly lossless video reconstruction. As the first in a series of sophisticated video generation models, CogVideoX invites developers and researchers to explore its potential through open-source access and detailed resources, including a technical white paper and live demos on platforms like Huggingface Space.","Discover the latest advancements in AI-powered text-to-video generation with CogVideoX: Explore its integration, open-source models, and how you can leverage this technology for creative and commercial projects.",Video Generation Tool,"Python
+
+
+
+
+
+        4,817
+
+
+
+
+
+        453
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        430 stars today",https://raw.githubusercontent.com/THUDM/CogVideo/main/resources/gradio_demo.png; https://raw.githubusercontent.com/THUDM/CogVideo/main/resources/web_demo.png; https://raw.githubusercontent.com/THUDM/CogVideo/CogVideo/assets/appendix-sample-highframerate.png; https://raw.githubusercontent.com/THUDM/CogVideo/CogVideo/assets/intro-image.png,https://github.com/user-attachments/assets/ea3af39a-3160-4999-90ec-2f7863c5b0e9; https://github.com/user-attachments/assets/9de41efd-d4d1-4095-aeda-246dd834e91d; https://github.com/user-attachments/assets/941d6661-6a8d-4a1b-b912-59606f0b2841; https://github.com/user-attachments/assets/938529c4-91ae-4f60-b96b-3c3947fa63cb; https://github.com/user-attachments/assets/2fa19651-e925-4a2a-b8d6-b3f216d490ba,4817,2022-05-29T06:46:18Z
+2024-08-07,https://github.com/hacksider/Deep-Live-Cam,https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/README.md,"The software discussed aims to support the AI-generated media industry by allowing users to animate custom characters or model clothing. Acknowledging potential misuse, developers have integrated safeguards to prevent the software’s application on inappropriate content and are committed to ethical development practices, including potential shutdowns or watermarking as required by law. Users are expected to use the software legally and responsibly, obtaining consent when using real faces and disclosing deepfake content online. Installation instructions cover both basic (CPU-based) and advanced setups, the latter including GPU acceleration for Nvidia, Apple Silicon, Apple Legacy, Windows (DirectML), and Intel (OpenVINO) hardware. The software operates through a GUI for selecting source and target faces in images or videos, with additional command-line options for advanced usage. First-time use requires downloading additional models. Credits are given to key contributors and related projects.",Innovative AI Technology for Animating Characters: Ethical Use Guide,"Explore the potential of AI-generated media with our latest software, designed to animate custom characters or model clothing. Adhering to ethical standards, it includes safeguards against misuse, including a built-in check for inappropriate content. Installation is straightforward, with support for multiple platforms and execution providers. This software emphasizes the importance of responsible usage and legal compliance by its users, ensuring a positive impact on the AI-generated media industry.","Unleash your creativity responsibly with our AI software for animating characters. Follow our easy installation guide, understand our ethical use policy, and create with confidence.",Animation Engine,"Python
+
+
+
+
+
+        770
+
+
+
+
+
+        114
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        170 stars today",https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/demo.gif; https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/instruction.png; https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/demo.gif,https://www.youtube.com/watch?v=OlNWCpFdVMA,770,2023-09-24T13:19:31Z
