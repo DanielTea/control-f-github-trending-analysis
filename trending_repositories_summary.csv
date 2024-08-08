@@ -21896,3 +21896,87 @@ Methods for running the software include manual execution on a personal VPS or c
 
 
         170 stars today",https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/demo.gif; https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/instruction.png; https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/demo.gif,https://www.youtube.com/watch?v=OlNWCpFdVMA,770,2023-09-24T13:19:31Z
+2024-08-08,https://github.com/LLaVA-VL/LLaVA-NeXT,https://raw.githubusercontent.com/LLaVA-VL/LLaVA-NeXT/main/README.md,"LLaVA-NeXT introduces a series of advancements in large multimodal models (LMMs) with a focus on image, video, multi-image, and 3D data. Key releases include LLaVA-OneVision, a powerful model achieving state-of-the-art performance across numerous benchmarks. LLaVA-NeXT-Video improves video understanding, and LLaVA-NeXT-Interleave unifies various data formats within a single LLM framework, offering remarkable performance gains. These developments reflect significant strides in visual instruction tuning, underpinned by comprehensive datasets and innovative training scripts. Furthermore, the project emphasizes open-source collaboration, offering various demos, checkpoints, and a rich set of resources for engaging with and building upon these models. With contributions from a wide array of researchers, LLaVA-NeXT sets a new benchmark for LMM capabilities, opening avenues for further exploration and application in diverse domains.",Exploring LLaVA-NeXT: Elevating Open Large Multimodal Models to New Heights,"LLaVA-NeXT is revolutionizing the field with its latest release, including the state-of-the-art LLaVA-OneVision model and advancements in video, multi-image, and 3D tasks. Achieving outstanding performance across various benchmarks, LLaVA-NeXT provides comprehensive datasets and training codes for unparalleled model training and evaluation. Stay tuned for more updates and explore our demos and documentation to leverage LLaVA-NeXT's capabilities in your projects.","Discover the latest advancements of LLaVA-NeXT in multimodal model development, offering state-of-the-art performance in video, multi-image, and 3D tasks. Explore our resources including datasets, training codes, and comprehensive benchmarks.",Multimodal AI Model,"Python
+
+
+
+
+
+        1,545
+
+
+
+
+
+        83
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        31 stars today",https://i.postimg.cc/pL17YtG4/WX20240508-220230-2x.png; https://raw.githubusercontent.com/LLaVA-VL/LLaVA-NeXT/main/assets/demo.gif,https://www.youtube.com/watch?v=mkI7EPD1vp8,1545,2024-03-08T12:54:09Z
+2024-08-08,https://github.com/pytorch/rl,https://raw.githubusercontent.com/pytorch/rl/main/README.md,"TorchRL is an open-source Reinforcement Learning (RL) library for PyTorch designed to be Python-first, efficient, modular, customizable, extensible, well-documented, and rigorously tested. It aims for minimal dependencies, aligning with the PyTorch ecosystem, and supports convenient structures like `TensorDict` for simplified and portable RL codebases. The library supports a Python standard library, NumPy, PyTorch, with optional dependencies for common environment libraries and datasets. The documentation includes tutorials, API references, and a knowledge base, alongside spotlight publications highlighting TorchRL's domain-agnostic application across various fields. Major features include a common interface for environments, multiprocess and distributed data collectors, efficient and generic replay buffers, cross-library environment transforms, various architectures and models, exploration wrappers and modules, efficient loss modules, and a generic trainer class. Installation instructions are provided, alongside guidance for contributions and a citation for academic use.",Harnessing PyTorch RL for Cutting-edge Reinforcement Learning Research,"Explore the capabilities and key features of PyTorch RL, a comprehensive open-source Reinforcement Learning (RL) library designed for efficiency, flexibility, and ease of integration with PyTorch. Discover how its Python-first approach, customizable architecture, and detailed documentation make it an ideal tool for pushing the bounds of RL research. Learn how TorchRL's components like TensorDict facilitate streamlined, portable RL codebases, enabling researchers to focus on innovation rather than implementation details.","Unlock the power of Reinforcement Learning with PyTorch RL. This blog post dives into the library's optimized performance, flexible architecture, and how TensorDict simplifies RL coding. Ideal for researchers and developers eager to explore advanced RL applications.",Deep Learning Tool,"Python
+
+
+
+
+
+        2,096
+
+
+
+
+
+        278
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://raw.githubusercontent.com/pytorch/rl/main/docs/source/_static/img/icon.png; https://raw.githubusercontent.com/pytorch/rl/main/docs/ppo.png; https://github.com/pytorch/rl/blob/main/docs/source/_static/img/rollout.gif,https://www.youtube.com/watch?v=cIKMhZoykEE,2096,2022-02-01T17:17:36Z
+2024-08-08,https://github.com/jorhelp/Ingram,https://raw.githubusercontent.com/jorhelp/Ingram/master/README.md,"Ingram is a vulnerability scanning framework, primarily aimed at network cameras, integrating support for common devices like Hikvision, Dahua, Uniview, and D-Link. The software must be used on Linux or Mac systems with Python 3.8 or above, avoiding 3.11 due to compatibility issues. The installation process involves cloning the GitHub repository, creating and activating a virtual environment, and installing dependencies. Running Ingram requires activating the virtual environment each time, preparing a target file with IP addresses for scanning, and executing the scan with specified output directories, ports, and other optional parameters. Ingram also supports resuming scans after interruptions, although it doesn't track real-time progress. Additional tools like masscan can be utilized to enhance Ingram's efficiency by narrowing the scanning scope based on active hosts detected. The results of scans are saved in CSV files and snapshots directory for vulnerable and non-vulnerable devices. The project includes acknowledgments for contributions from other security research and explicitly states its purpose for security testing only, disclaiming responsibility for illegal use.",Maximizing Your Network Security: A Comprehensive Guide to Ingram Framework,"Discover how Ingram, a versatile vulnerability scanning framework, specifically tailors to network cameras like Hikvision, Dahua, and more, enhancing security. Ideal for Linux or Mac users with Python 3.8+, the guide covers easy installation, comprehensive scanning processes, and optimizing scans with masscan. Learn the essential steps to safeguard your network cameras from vulnerabilities and ensure robust security measures are in place.","Unlock the potential of Ingram, a powerful network camera vulnerability scanner, with our step-by-step guide. Learn to install, run scans, and secure your devices against potential threats.",Cybersecurity Tool,"Python
+
+
+
+
+
+        1,614
+
+
+
+
+
+        267
+
+
+        Built by
+
+          
+
+
+
+
+
+
+
+
+
+        18 stars today",https://github.com/jorhelp/imgs/blob/master/Ingram/logo.png; https://github.com/jorhelp/imgs/blob/master/Ingram/run_time.gif; https://github.com/jorhelp/imgs/blob/master/Ingram/results.png; https://github.com/jorhelp/imgs/blob/master/Ingram/snapshots.png; https://github.com/jorhelp/imgs/blob/master/Ingram/show_rtsp.png,,1614,2022-05-17T11:35:15Z
